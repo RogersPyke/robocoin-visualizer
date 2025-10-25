@@ -144,105 +144,74 @@ const APP = {
     async loadDatasets() {
         try {
             const config = ConfigManager.getConfig();
-            const indexRes = await fetch(`${config.paths.datasetInfo}/data_index.json`);
-            const fileList = await indexRes.json();
             
             const loadingProgress = document.getElementById('loadingProgress');
             const loadingBar = document.getElementById('loadingBar');
             
-            console.log(` Starting to load ${fileList.length} datasets...`);
+            console.log('🚀 Loading consolidated dataset (optimized)...');
             const startTime = performance.now();
             
-            // 更新初始进度
-            loadingProgress.textContent = `0 / ${fileList.length}`;
-            loadingBar.style.width = '0%';
+            // Update initial progress
+            loadingProgress.textContent = 'Loading consolidated data...';
+            loadingBar.style.width = '10%';
             
-            // 分批加载配置
-            const BATCH_SIZE = GRID_CONFIG.loading.batchSize;
-            const batches = [];
+            // Load consolidated JSON file (single request instead of 2000!)
+            const res = await fetch(`${config.paths.datasetInfo}/consolidated_datasets.json`);
+            loadingBar.style.width = '50%';
             
-            for (let i = 0; i < fileList.length; i += BATCH_SIZE) {
-                batches.push(fileList.slice(i, i + BATCH_SIZE));
-            }
+            const allData = await res.json();
+            loadingBar.style.width = '75%';
             
-            console.log(` Split into ${batches.length} batches`);
+            const datasetCount = Object.keys(allData).length;
+            console.log(`✓ Loaded ${datasetCount} datasets in consolidated format`);
             
-            this.datasets = [];
-            let loadedCount = 0;
+            // Convert consolidated data to dataset objects
+            this.datasets = Object.entries(allData).map(([path, raw]) => ({
+                path: path,
+                name: raw.dataset_name || path,
+                video_url: `${config.paths.videos}/${path}.mp4`,
+                thumbnail_url: `${config.paths.assetsRoot}/thumbnails/${path}.jpg`,
+                description: raw.task_descriptions || '',
+                scenes: raw.scene_type || [],
+                actions: raw.atomic_actions || [],
+                objects: (raw.objects || []).map(obj => ({
+                    name: obj.object_name,
+                    hierarchy: [
+                        obj.level1, 
+                        obj.level2, 
+                        obj.level3, 
+                        obj.level4, 
+                        obj.level5
+                    ].filter(level => level !== null && level !== undefined),
+                    raw: obj
+                })),
+                robot: raw.device_model,
+                endEffector: raw.end_effector_type,
+                platformHeight: raw.operation_platform_height,
+                raw: raw,
+                getAllScenes: function() { return this.scenes; },
+                hasScene: function(sceneType) { return this.scenes.includes(sceneType); },
+                getObjectsByLevel: function(level, value) {
+                    return this.objects.filter(obj => obj.hierarchy[level - 1] === value);
+                },
+                getTopLevelCategories: function() {
+                    return [...new Set(this.objects.map(obj => obj.hierarchy[0]))];
+                }
+            }));
             
-            // 逐批加载
-            for (let batchIndex = 0; batchIndex < batches.length; batchIndex++) {
-                const batch = batches[batchIndex];
-                
-                const loadPromises = batch.map(async (fileName) => {
-                    try {
-                        const res = await fetch(`${config.paths.datasetInfo}/${fileName}`);
-                        const yamlText = await res.text();
-                        const raw = jsyaml.load(yamlText);
-                        
-                        return {
-                            path: fileName.replace(/\.yml$/i, ''),
-                            name: raw.dataset_name || fileName,
-                            video_url: `${config.paths.videos}/${fileName.replace(/\.yml$/i, '')}.mp4`,
-                            description: raw.task_descriptions || '',
-                            scenes: raw.scene_type || [],
-                            actions: raw.atomic_actions || [],
-                            objects: (raw.objects || []).map(obj => ({
-                                name: obj.object_name,
-                                hierarchy: [
-                                    obj.level1, 
-                                    obj.level2, 
-                                    obj.level3, 
-                                    obj.level4, 
-                                    obj.level5
-                                ].filter(level => level !== null && level !== undefined),
-                                raw: obj
-                            })),
-                            robot: raw.device_model,
-                            endEffector: raw.end_effector_type,
-                            platformHeight: raw.operation_platform_height,
-                            raw: raw,
-                            getAllScenes: function() { return this.scenes; },
-                            hasScene: function(sceneType) { return this.scenes.includes(sceneType); },
-                            getObjectsByLevel: function(level, value) {
-                                return this.objects.filter(obj => obj.hierarchy[level - 1] === value);
-                            },
-                            getTopLevelCategories: function() {
-                                return [...new Set(this.objects.map(obj => obj.hierarchy[0]))];
-                            }
-                        };
-                    } catch (err) {
-                        console.error(` Failed to load ${fileName}:`, err);
-                        return null;
-                    }
-                });
-                
-                const results = await Promise.all(loadPromises);
-                const validResults = results.filter(ds => ds !== null);
-                this.datasets.push(...validResults);
-                
-                // 更新进度
-                loadedCount += batch.length;
-                const progress = Math.floor((loadedCount / fileList.length) * 100);
-                loadingProgress.textContent = `${loadedCount} / ${fileList.length}`;
-                loadingBar.style.width = `${progress}%`;
-                
-                console.log(` Batch ${batchIndex + 1}/${batches.length}: Loaded ${validResults.length}/${batch.length} datasets (Total: ${this.datasets.length})`);
-            }
-            
-            // 确保进度条显示100%
-            loadingProgress.textContent = `${fileList.length} / ${fileList.length}`;
+            // Update progress to 100%
+            loadingProgress.textContent = `${this.datasets.length} datasets loaded`;
             loadingBar.style.width = '100%';
             
             const endTime = performance.now();
             const loadTime = (endTime - startTime).toFixed(2);
             
-            console.log(` Loaded ${this.datasets.length} datasets in ${loadTime}ms`);
-            console.log(` Average: ${(loadTime / this.datasets.length).toFixed(2)}ms per dataset`);
+            console.log(`✓ Loaded ${this.datasets.length} datasets in ${loadTime}ms (${(loadTime / this.datasets.length).toFixed(2)}ms per dataset)`);
+            console.log('🎉 Optimization: Single JSON request vs 2000+ YAML requests!');
             
         } catch (err) {
-            console.error(' Failed to load datasets:', err);
-            throw err; // 抛出错误让init函数处理
+            console.error('Failed to load datasets:', err);
+            throw err;
         }
     },
 
@@ -1304,45 +1273,104 @@ const APP = {
     },
 
     observeVideos() {
-    if (!this.videoObserver) {
-        const config = ConfigManager.getConfig();
-        this.videoObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                const video = entry.target;
-                if (entry.isIntersecting) {
-                    // 懒加载视频
-                    const source = video.querySelector('source');
-                    if (source && source.dataset.src) {
-                        source.src = source.dataset.src;
-                        video.load();
-                        video.play().catch(() => {
-                            // 自动播放失败是正常的,静默处理
-                        });
-                        delete source.dataset.src;
-                    } else if (video.paused) {
-                        // 如果已加载但暂停,尝试播放
-                        video.play().catch(() => {});
+        // Observe video cards for auto-playing videos when they enter viewport
+        if (!this.videoAutoPlayObserver) {
+            this.videoAutoPlayObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    const card = entry.target;
+                    const thumbnail = card.querySelector('.video-thumbnail');
+                    
+                    if (!thumbnail) return;
+                    
+                    if (entry.isIntersecting) {
+                        // Card is visible - load and play video
+                        if (!thumbnail.dataset.videoLoading && !thumbnail.dataset.videoLoaded) {
+                            thumbnail.dataset.videoLoading = 'true';
+                            this.loadAndPlayVideo(thumbnail);
+                        }
+                    } else {
+                        // Card left viewport - pause video to save resources
+                        const video = thumbnail.querySelector('video');
+                        if (video) {
+                            video.pause();
+                        }
                     }
-                } else {
-                    // 离开视口时暂停
-                    video.pause();
-                }
+                });
+            }, { 
+                rootMargin: '200px', // Start loading when card is 200px away from viewport
+                threshold: 0.01
             });
-        }, { 
-            rootMargin: `${config.observer.margin}px`, // 提前加载距离
-            threshold: config.observer.threshold // 可见比例触发阈值
-        });
-    }
-    
-    // 只观察新的video元素
-    document.querySelectorAll('.video-thumbnail video').forEach(video => {
-        // 避免重复观察
-        if (!video.dataset.observed) {
-            this.videoObserver.observe(video);
-            video.dataset.observed = 'true';
         }
-    });
-},
+        
+        // Observe all video cards for auto-play
+        document.querySelectorAll('.video-card').forEach(card => {
+            if (!card.dataset.videoObserved) {
+                this.videoAutoPlayObserver.observe(card);
+                card.dataset.videoObserved = 'true';
+            }
+        });
+    },
+    
+    loadAndPlayVideo(thumbnail) {
+        const videoUrl = thumbnail.dataset.videoUrl;
+        if (!videoUrl) return;
+        
+        // Check if video already exists
+        let video = thumbnail.querySelector('video');
+        
+        if (!video) {
+            // Create video element
+            video = document.createElement('video');
+            video.loop = true;
+            video.muted = true;
+            video.playsInline = true;
+            video.preload = 'auto';
+            video.className = 'lazy-video';
+            video.style.cssText = 'position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; z-index: 2; transition: opacity 0.3s ease;';
+            
+            const source = document.createElement('source');
+            source.src = videoUrl;
+            source.type = 'video/mp4';
+            
+            video.appendChild(source);
+            
+            // Insert video behind thumbnail
+            thumbnail.insertBefore(video, thumbnail.firstChild);
+            
+            // When video is loaded, fade from thumbnail to video
+            video.addEventListener('loadeddata', () => {
+                const img = thumbnail.querySelector('.thumbnail-image');
+                
+                // Fade out thumbnail, fade in video
+                video.style.opacity = '1';
+                if (img) img.style.opacity = '0';
+                
+                // Play video
+                video.play().catch(() => {
+                    // Autoplay failed, that's ok for muted videos
+                });
+                
+                thumbnail.dataset.videoLoaded = 'true';
+                delete thumbnail.dataset.videoLoading;
+            }, { once: true });
+            
+            video.addEventListener('error', (e) => {
+                console.error(`Video load error: ${videoUrl}`, e);
+                delete thumbnail.dataset.videoLoading;
+            }, { once: true });
+            
+            video.load();
+        } else {
+            // Video already exists, just play it
+            if (video.paused) {
+                video.style.opacity = '1';
+                const img = thumbnail.querySelector('.thumbnail-image');
+                if (img) img.style.opacity = '0';
+                
+                video.play().catch(() => {});
+            }
+        }
+    },
 
     // 只更新卡片状态（不重建DOM）
     updateCardState(card, ds) {

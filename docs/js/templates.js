@@ -115,11 +115,14 @@ const Templates = {
      */
     buildVideoCard(ds, formatMetaTags, formatHoverOverlay, listDatasets) {
         return `
-            <div class="video-thumbnail">
-            <video loop muted playsinline preload="none" data-src="${ds.video_url}">
-                <source data-src="${ds.video_url}" type="video/mp4">
-            </video>
-                <div class="video-error" style="display:none;">No Video</div>
+            <div class="video-thumbnail" data-video-url="${ds.video_url}">
+                <img src="${ds.thumbnail_url}" 
+                     alt="${ds.name}" 
+                     class="thumbnail-image"
+                     loading="lazy"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <div class="video-error" style="display:none;">No Thumbnail</div>
+                <div class="play-indicator" style="display:none;">▶</div>
                 ${listDatasets.has(ds.path) ? '<div class="video-success-badge">✓</div>' : ''}
             </div>
             <div class="video-info">

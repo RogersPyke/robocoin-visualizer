@@ -653,10 +653,40 @@ body {
     flex-shrink: 0;
 }
 
-.video-thumbnail video {
+/* Thumbnail image (optimized) */
+.video-thumbnail .thumbnail-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: opacity 0.2s ease;
+    position: relative;
+    z-index: 1;
+}
+
+/* Lazy-loaded video (appears on hover) */
+.video-thumbnail video,
+.video-thumbnail .lazy-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: opacity 0.2s ease;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Smooth video appearance */
+.video-thumbnail video[style*="opacity: 1"],
+.video-thumbnail .lazy-video[style*="opacity: 1"] {
+    pointer-events: auto;
+}
+
+/* Play indicator - hidden by default since videos auto-play */
+.video-thumbnail .play-indicator {
+    display: none;
 }
 
 .video-error {
@@ -666,7 +696,9 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 14px;
-    background: none;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8px 12px;
+    border-radius: 4px;
     display: none;
 }
 

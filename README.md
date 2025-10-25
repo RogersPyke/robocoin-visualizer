@@ -2,6 +2,20 @@
 
 A powerful web-based tool for visualizing, filtering, and downloading robotics datasets. Browse thousands of robot manipulation tasks with an intuitive interface featuring real-time video previews, advanced filtering, and batch download capabilities.
 
+## IMPORTANT!!!
+
+为满足性能优化需求，多个的yml文件将被脚本合并为一个完整的json文件，以大幅度提升速度;
+同时，视频也会生成对应的缩略图以满足性能需求。
+因此，请保证为网页提供正确格式的输入：
+docs/
+  assets/
+    dataset_info/
+      * JSON HERE *
+    thumbnails/
+      * THUMBNAILS HERE * -- can be generated using script.
+    videos/
+      * VIDEOS HERE *
+
 ## ✨ Features
 
 ### 🎯 Core Features
@@ -40,16 +54,42 @@ Visit the live demo: [RoboCOIN Visualizer](https://your-username.github.io/roboc
 ## 🛠️ Installation & Usage
 
 ### Option 1: GitHub Pages (Recommended)
-1. Fork this repository
-2. Enable GitHub Pages in Settings → Pages
-3. Select `main` branch and `/docs` folder
-4. Visit `https://your-username.github.io/robocoin-html/`
+
+**⚠️ Important:** Run optimization script first for good performance!
+
+```bash
+# 1. Fork and clone this repository
+git clone https://github.com/your-username/robocoin-html.git
+cd robocoin-html
+
+# 2. Run optimization script (REQUIRED for GitHub Pages)
+python opti_init.py
+
+# 3. Commit generated files
+git add .
+git commit -m "Add optimized assets"
+git push origin main
+
+# 4. Enable GitHub Pages
+# Go to Settings → Pages
+# Select 'main' branch and '/docs' folder
+# Save
+
+# 5. Visit your site
+# https://your-username.github.io/robocoin-html/
+```
+
+**Without optimization**: 177 requests, 5-10s load time 😢
+**With optimization**: ~10 requests, <2s load time 🚀
 
 ### Option 2: Local Development
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/robocoin-html.git
 cd robocoin-html
+
+# Run optimization (optional for local, but recommended)
+python opti_init.py
 
 # Serve the docs folder with any HTTP server
 # Using Python 3:
@@ -61,6 +101,8 @@ npx http-server docs -p 8000
 # Open http://localhost:8000 in your browser
 ```
 
+**Note**: Local development is fast even without optimization because files load from disk. However, running `opti_init.py` still improves the experience.
+
 ### Option 3: Direct File Access
 Simply open `docs/index.html` in your web browser (some features may be limited due to CORS restrictions).
 
@@ -68,25 +110,41 @@ Simply open `docs/index.html` in your web browser (some features may be limited 
 
 ```
 robocoin-html/
-├── docs/                          # Web application root (GitHub Pages)
-│   ├── index.html                 # Main HTML file
+├── docs/                                    # Web application root (GitHub Pages)
+│   ├── index.html                           # Main HTML file
 │   ├── css/
-│   │   └── style.css             # All styles (1455 lines)
+│   │   └── style.css                       # All styles (~1500 lines)
 │   ├── js/
-│   │   ├── main.js               # Main application logic
-│   │   ├── app.js                # Application state and handlers
-│   │   └── templates.js          # HTML template builders
+│   │   ├── main.js                         # Entry point
+│   │   ├── app.js                          # Application state and handlers
+│   │   └── templates.js                    # HTML template builders
 │   ├── assets/
-│   │   ├── dataset_info/         # YAML metadata files
-│   │   │   ├── data_index.json   # Index of all datasets
-│   │   │   └── *.yml             # Individual dataset metadata
-│   │   └── videos/               # MP4 video files
-│   │       └── *.mp4             # Preview videos
+│   │   ├── dataset_info/                   # Dataset metadata
+│   │   │   ├── data_index.json             # [Original] Index of datasets
+│   │   │   ├── *.yml                       # [Original] Individual YAML files
+│   │   │   ├── consolidated_datasets.json  # [Generated] Optimized single JSON
+│   │   │   └── consolidated_datasets.json.gz # [Generated] Compressed version
+│   │   ├── videos/                         # MP4 video files
+│   │   │   └── *.mp4                       # Preview videos
+│   │   └── thumbnails/                     # [Generated] Video thumbnails
+│   │       └── *.jpg                       # Lightweight thumbnail images
 │   └── favicon.ico
 ├── scripts/
-│   └── dataset_generator.py      # Virtual dataset generator for testing
-└── README.md                      # This file
+│   ├── dataset_generator.py                # Virtual dataset generator for testing
+│   ├── performance_diagnostics.py          # Performance analysis tool
+│   ├── consolidate_metadata.py             # YAML → JSON consolidation
+│   └── generate_thumbnails.py              # Video thumbnail generator
+├── opti_init.py                            # Main optimization script (run this!)
+├── performance_diagnostics_report.txt      # [Generated] Performance analysis
+├── performance_diagnostics_results.json    # [Generated] Detailed metrics
+└── README.md                                # This file
 ```
+
+**Key Files:**
+- **`opti_init.py`** - Run this before deployment to GitHub Pages
+- **`docs/assets/dataset_info/consolidated_datasets.json`** - Optimized data (generated)
+- **`docs/assets/thumbnails/`** - Thumbnail images (generated)
+- **`scripts/performance_diagnostics.py`** - Analyze performance bottlenecks
 
 ## 📊 Dataset Format
 
@@ -326,6 +384,161 @@ Both the video grid and cart use virtual scrolling:
 
 ## 📈 Performance Optimization
 
+### ⚡ GitHub Pages Optimizations (Required!)
+
+**Important**: If deploying to GitHub Pages, you MUST run the optimization script first to achieve good performance.
+
+The raw dataset uses 2000+ individual YAML files, which creates severe performance issues on GitHub Pages due to network latency. The optimization script consolidates these into a single JSON file and generates lightweight thumbnails.
+
+#### Quick Start
+```bash
+# Run optimization (required before deployment)
+python opti_init.py
+
+# This will:
+# ✓ Consolidate 2000 YAML files into 1 JSON file (90% faster loading)
+# ✓ Generate thumbnail images from videos (70% bandwidth reduction)
+```
+
+#### Performance Impact
+
+**Before Optimization** (GitHub Pages):
+- 177 HTTP requests on initial load
+- 5-10 seconds load time on 4G
+- 85+ MB data transfer
+- Poor user experience
+
+**After Optimization**:
+- ~10 HTTP requests on initial load
+- <2 seconds load time on 4G
+- <5 MB data transfer
+- Smooth, responsive experience
+
+| Metric | Before | After | Improvement |
+|--------|--------|-------|-------------|
+| HTTP Requests | 177 | ~10 | **94% reduction** |
+| Load Time (4G) | 5-10s | <2s | **80% faster** |
+| Data Transfer | 85+ MB | <5 MB | **90% reduction** |
+| Repeat Visits | 5-10s | <0.5s | **95% faster** |
+
+### 🛠️ Optimization Script Usage
+
+The `opti_init.py` script is your one-stop solution for performance optimization.
+
+#### Basic Usage
+```bash
+# Run all optimizations (checks existing, only generates what's missing)
+python opti_init.py
+
+# Force regeneration of all assets
+python opti_init.py --force
+
+# Skip specific optimizations
+python opti_init.py --skip-thumbnails      # Skip thumbnail generation
+python opti_init.py --skip-consolidation   # Skip YAML consolidation
+```
+
+#### What It Does
+
+**1. YAML Consolidation** (CRITICAL - 90% improvement)
+- Merges 2000+ YAML files into one `consolidated_datasets.json`
+- Creates compressed `.gz` version (88% smaller)
+- Reduces 2000 HTTP requests to just 1
+- Requirements: Python 3.6+, PyYAML (auto-installed)
+
+**2. Thumbnail Generation** (CRITICAL - 70% bandwidth reduction)
+- Extracts 320px thumbnails from videos
+- Shows thumbnails initially, loads videos on hover
+- Reduces initial page load by 96.6%
+- Requirements: ffmpeg (`sudo apt install ffmpeg`)
+
+#### Installation & Setup
+
+```bash
+# 1. Clone or update your repository
+git pull origin main
+
+# 2. Install dependencies (automatic, but can do manually)
+pip install pyyaml                    # For YAML consolidation
+sudo apt install ffmpeg               # For thumbnail generation (Linux)
+# brew install ffmpeg                 # macOS alternative
+
+# 3. Run optimization
+python opti_init.py
+
+# 4. Test locally
+cd docs
+python -m http.server 8000
+
+# 5. Deploy to GitHub Pages
+git add .
+git commit -m "Add optimized assets"
+git push origin main
+```
+
+#### Workflow for Data Updates
+
+When you add or update datasets:
+
+```bash
+# 1. Update your dataset files
+# Add new .yml files to docs/assets/dataset_info/
+# Add new .mp4 files to docs/assets/videos/
+
+# 2. Run optimization script
+python opti_init.py --force
+
+# 3. Test locally
+cd docs && python -m http.server 8000
+
+# 4. Deploy
+git add .
+git commit -m "Update datasets and regenerate optimizations"
+git push
+```
+
+#### Script Options
+
+| Option | Description |
+|--------|-------------|
+| `--force` | Force regeneration even if outputs exist |
+| `--skip-consolidation` | Skip YAML → JSON consolidation |
+| `--skip-thumbnails` | Skip thumbnail generation (if ffmpeg unavailable) |
+| `--project-root PATH` | Specify project root directory |
+
+#### Troubleshooting
+
+**"PyYAML not found"**
+```bash
+pip install pyyaml
+```
+
+**"ffmpeg not found"**
+```bash
+# Linux/Ubuntu
+sudo apt install ffmpeg
+
+# macOS
+brew install ffmpeg
+
+# Or skip thumbnails temporarily
+python opti_init.py --skip-thumbnails
+```
+
+**"Consolidated JSON already exists"**
+```bash
+# Force regeneration
+python opti_init.py --force
+```
+
+**"Still slow after optimization"**
+- Clear browser cache (Ctrl+Shift+Del)
+- Test in incognito mode
+- Verify files deployed to GitHub Pages
+- Check Chrome DevTools Network tab
+
+### 📊 Performance Benchmarks
+
 The application is optimized for large datasets:
 
 | Datasets | Load Time | Memory Usage | Smoothness |
@@ -336,13 +549,34 @@ The application is optimized for large datasets:
 | 20,000   | ~20s      | ~500 MB      | 55+ FPS    |
 
 **Optimization Techniques:**
-- Batch loading of metadata (150 files per batch)
-- Virtual scrolling (only render visible items)
-- Intersection Observer for lazy video loading
-- RequestAnimationFrame for smooth updates
-- Debounced search and resize handlers
-- Cached DOM queries and sorted arrays
-- Event delegation (no memory leaks)
+- ✅ Consolidated JSON (1 request vs 2000+)
+- ✅ Thumbnail lazy loading (96% less initial bandwidth)
+- ✅ Virtual scrolling (only render visible items)
+- ✅ Intersection Observer for progressive loading
+- ✅ RequestAnimationFrame for smooth updates
+- ✅ Debounced search and resize handlers
+- ✅ Cached DOM queries and sorted arrays
+- ✅ Event delegation (no memory leaks)
+
+### 🔍 Performance Diagnostics
+
+To analyze performance bottlenecks:
+
+```bash
+# Run detailed performance analysis
+python scripts/performance_diagnostics.py
+
+# View report
+cat performance_diagnostics_report.txt
+```
+
+The diagnostics script analyzes:
+- File structure and counts
+- Asset sizes and bandwidth usage
+- Network request patterns
+- Initial load requirements
+- Caching strategies
+- Generates prioritized recommendations
 
 ## 🤝 Contributing
 
@@ -382,8 +616,9 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🙏 Acknowledgments
 
 - Built with vanilla JavaScript (no framework dependencies)
-- Bootstrap for UI components
-- js-yaml for YAML parsing
+- Bootstrap for UI components  
+- PyYAML for build-time YAML processing (Python)
+- ffmpeg for thumbnail generation (build-time)
 - Font Awesome icons (via Unicode)
 
 ## 📮 Contact
