@@ -1,0 +1,27 @@
+dataset_name: pick_utensil_a_to_toy_b_8151
+dataset_uuid: 383677bc-9f4f-4a8d-9a6d-473e4e11ba5a
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_toy_b
+scene_type:
+- home
+- store
+atomic_actions:
+- pull
+- push
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: stack_fruit_c_to_kitchenware_a_2731
+dataset_uuid: ca8a5d3b-f63b-4e21-b56a-1b2c3c6fbf1b
+task_descriptions:
+- stack_the_fruit_c_and_place_in_the_kitchenware_a
+scene_type:
+- cafe
+- factory
+- restaurant
+atomic_actions:
+- insert
+- lift
+- pick
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- unitree_cassie
+end_effector_type: three_finger_gripper

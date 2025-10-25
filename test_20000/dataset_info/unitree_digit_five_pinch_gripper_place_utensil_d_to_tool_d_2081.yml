@@ -1,0 +1,29 @@
+dataset_name: place_utensil_d_to_tool_d_2081
+dataset_uuid: c872587d-cc82-4a4b-bd15-542d99d2ecf5
+task_descriptions:
+- place_the_utensil_d_and_place_in_the_tool_d
+scene_type:
+- office
+- restaurant
+- kitchen
+atomic_actions:
+- rotate
+- grasp
+- slide
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.4
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,26 @@
+dataset_name: arrange_electronics_a_to_kitchenware_b_9772
+dataset_uuid: 97710a96-b8c0-4e64-8ff6-a1d075ede7a7
+task_descriptions:
+- arrange_the_electronics_a_and_place_in_the_kitchenware_b
+scene_type:
+- hospital
+atomic_actions:
+- lower
+- push
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- unitree_h1
+end_effector_type: suction_cup

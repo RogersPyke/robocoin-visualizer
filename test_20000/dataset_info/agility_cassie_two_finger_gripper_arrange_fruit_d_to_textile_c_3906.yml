@@ -1,0 +1,30 @@
+dataset_name: arrange_fruit_d_to_textile_c_3906
+dataset_uuid: e9d49b71-8c35-4f99-b291-c7bf9cfed0e9
+task_descriptions:
+- arrange_the_fruit_d_and_place_in_the_textile_c
+scene_type:
+- factory
+- home
+- warehouse
+atomic_actions:
+- remove
+- pull
+- flip
+- grasp
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- agility_cassie
+end_effector_type: two_finger_gripper

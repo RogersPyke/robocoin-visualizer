@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_a_to_fruit_e_3957
+dataset_uuid: c5d90dc3-16d3-4bde-bcfd-55733d4fe448
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_fruit_e
+scene_type:
+- office
+- restaurant
+- home
+atomic_actions:
+- rotate
+- push
+- lift
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

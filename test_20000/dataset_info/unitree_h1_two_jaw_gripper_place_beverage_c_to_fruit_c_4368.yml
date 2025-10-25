@@ -1,0 +1,26 @@
+dataset_name: place_beverage_c_to_fruit_c_4368
+dataset_uuid: 4a9a94b7-2479-412e-972e-9bf46f7b800b
+task_descriptions:
+- place_the_beverage_c_and_place_in_the_fruit_c
+scene_type:
+- cafe
+atomic_actions:
+- pick
+- slide
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.1
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

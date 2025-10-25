@@ -1,0 +1,27 @@
+dataset_name: place_stationery_a_to_electronics_b_5114
+dataset_uuid: d6504ae0-0b6b-4a6b-8c21-93951b4e7fb1
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_electronics_b
+scene_type:
+- hospital
+atomic_actions:
+- rotate
+- pick
+- insert
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

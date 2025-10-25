@@ -1,0 +1,28 @@
+dataset_name: pick_textile_e_to_electronics_b_6370
+dataset_uuid: 846ef2fa-b4a3-4b7c-a73a-1cb5561b2a62
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_electronics_b
+scene_type:
+- warehouse
+- restaurant
+- office
+atomic_actions:
+- pull
+- insert
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: stack_furniture_e_to_electronics_b_7493
+dataset_uuid: f3709614-a98e-445d-b604-e7fbcf8186b8
+task_descriptions:
+- stack_the_furniture_e_and_place_in_the_electronics_b
+scene_type:
+- store
+- hospital
+atomic_actions:
+- grasp
+- lower
+- pick
+- pull
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

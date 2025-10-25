@@ -1,0 +1,29 @@
+dataset_name: pick_fruit_d_to_beverage_a_6148
+dataset_uuid: 8b9da592-7edb-4b06-b89b-f9bd3da0d721
+task_descriptions:
+- pick_the_fruit_d_and_place_in_the_beverage_a
+scene_type:
+- store
+- restaurant
+- kitchen
+atomic_actions:
+- pick
+- slide
+- rotate
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

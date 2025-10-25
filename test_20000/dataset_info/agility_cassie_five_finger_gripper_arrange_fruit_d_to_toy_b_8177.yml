@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_d_to_toy_b_8177
+dataset_uuid: 964b8671-8266-4365-910d-fd5c85e60b03
+task_descriptions:
+- arrange_the_fruit_d_and_place_in_the_toy_b
+scene_type:
+- store
+- laboratory
+atomic_actions:
+- push
+- rotate
+- place
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.9
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

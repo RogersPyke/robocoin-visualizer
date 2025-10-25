@@ -1,0 +1,30 @@
+dataset_name: pick_electronics_a_to_container_c_4865
+dataset_uuid: 1f90af10-d55c-484e-885b-ab051878ebcd
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_container_c
+scene_type:
+- kitchen
+- warehouse
+- laboratory
+atomic_actions:
+- remove
+- grasp
+- insert
+- pull
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.3
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

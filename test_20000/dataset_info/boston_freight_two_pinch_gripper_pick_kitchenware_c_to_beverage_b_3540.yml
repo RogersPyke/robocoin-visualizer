@@ -1,0 +1,27 @@
+dataset_name: pick_kitchenware_c_to_beverage_b_3540
+dataset_uuid: a40667b1-8454-47ed-98df-0e7524ae0ca2
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_beverage_b
+scene_type:
+- home
+atomic_actions:
+- remove
+- insert
+- flip
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.8
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

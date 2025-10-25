@@ -1,0 +1,28 @@
+dataset_name: stack_tool_d_to_stationery_a_5068
+dataset_uuid: 20b421fb-c3fc-47b1-8f7e-0e3973ed0a0c
+task_descriptions:
+- stack_the_tool_d_and_place_in_the_stationery_a
+scene_type:
+- factory
+atomic_actions:
+- lower
+- remove
+- flip
+- insert
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.3
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

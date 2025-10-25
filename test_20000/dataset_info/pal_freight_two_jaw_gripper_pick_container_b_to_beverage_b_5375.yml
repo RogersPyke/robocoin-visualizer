@@ -1,0 +1,28 @@
+dataset_name: pick_container_b_to_beverage_b_5375
+dataset_uuid: 258aa7d1-367f-4314-a57e-55e8cae7398e
+task_descriptions:
+- pick_the_container_b_and_place_in_the_beverage_b
+scene_type:
+- kitchen
+atomic_actions:
+- pull
+- push
+- slide
+- insert
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.8
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

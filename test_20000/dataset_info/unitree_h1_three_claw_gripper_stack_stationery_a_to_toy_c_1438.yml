@@ -1,0 +1,27 @@
+dataset_name: stack_stationery_a_to_toy_c_1438
+dataset_uuid: 9e08e700-b37c-43bc-94e5-d96fc0fc23eb
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_toy_c
+scene_type:
+- factory
+atomic_actions:
+- lift
+- push
+- rotate
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 71.1
+device_model:
+- unitree_h1
+end_effector_type: three_claw_gripper

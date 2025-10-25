@@ -1,0 +1,28 @@
+dataset_name: move_utensil_b_to_tool_c_1882
+dataset_uuid: a63e1fc2-a618-4dd1-8ff6-678d5577a178
+task_descriptions:
+- move_the_utensil_b_and_place_in_the_tool_c
+scene_type:
+- hospital
+atomic_actions:
+- lower
+- pick
+- remove
+- flip
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.4
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: move_toy_b_to_furniture_b_8624
+dataset_uuid: 1390374c-8b89-4170-8c69-449761f55d8a
+task_descriptions:
+- move_the_toy_b_and_place_in_the_furniture_b
+scene_type:
+- factory
+- office
+- home
+atomic_actions:
+- lift
+- pick
+- rotate
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

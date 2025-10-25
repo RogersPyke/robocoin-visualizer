@@ -1,0 +1,27 @@
+dataset_name: move_container_c_to_textile_d_3128
+dataset_uuid: 638748a5-815e-44ee-99dd-6e4b01cccd74
+task_descriptions:
+- move_the_container_c_and_place_in_the_textile_d
+scene_type:
+- restaurant
+- hospital
+atomic_actions:
+- pull
+- rotate
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

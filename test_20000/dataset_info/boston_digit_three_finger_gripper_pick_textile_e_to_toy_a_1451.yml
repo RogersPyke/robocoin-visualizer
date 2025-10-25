@@ -1,0 +1,28 @@
+dataset_name: pick_textile_e_to_toy_a_1451
+dataset_uuid: dd218f96-b4d0-489a-b1e3-4056b8a6e96d
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_toy_a
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- lower
+- pull
+- push
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

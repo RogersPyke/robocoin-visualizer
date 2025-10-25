@@ -1,0 +1,27 @@
+dataset_name: stack_food_e_to_utensil_c_8200
+dataset_uuid: ca7e52b8-9f65-455d-a0b5-d4b929a5b236
+task_descriptions:
+- stack_the_food_e_and_place_in_the_utensil_c
+scene_type:
+- restaurant
+atomic_actions:
+- lift
+- grasp
+- remove
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.2
+device_model:
+- clearpath_digit
+end_effector_type: suction_cup

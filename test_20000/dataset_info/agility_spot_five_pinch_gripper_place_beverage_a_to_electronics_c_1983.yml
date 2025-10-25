@@ -1,0 +1,29 @@
+dataset_name: place_beverage_a_to_electronics_c_1983
+dataset_uuid: 66472818-92d1-4a10-b9ef-b721b72e84db
+task_descriptions:
+- place_the_beverage_a_and_place_in_the_electronics_c
+scene_type:
+- restaurant
+- warehouse
+- office
+atomic_actions:
+- pull
+- slide
+- lower
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

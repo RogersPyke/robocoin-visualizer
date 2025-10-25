@@ -1,0 +1,26 @@
+dataset_name: place_textile_c_to_furniture_c_3477
+dataset_uuid: d583cb89-0a95-4757-a796-a7672d8d3ebb
+task_descriptions:
+- place_the_textile_c_and_place_in_the_furniture_c
+scene_type:
+- restaurant
+atomic_actions:
+- lower
+- pull
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- boston_digit
+end_effector_type: two_finger_gripper

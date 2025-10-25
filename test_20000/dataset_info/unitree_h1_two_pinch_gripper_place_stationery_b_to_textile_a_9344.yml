@@ -1,0 +1,27 @@
+dataset_name: place_stationery_b_to_textile_a_9344
+dataset_uuid: 5db89743-23ef-44ce-b5fc-b79e45e896ec
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_textile_a
+scene_type:
+- restaurant
+atomic_actions:
+- slide
+- place
+- rotate
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 86.8
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,26 @@
+dataset_name: place_tool_c_to_toy_c_7392
+dataset_uuid: db80cc6f-345f-4db9-91e9-041423a3926a
+task_descriptions:
+- place_the_tool_c_and_place_in_the_toy_c
+scene_type:
+- kitchen
+atomic_actions:
+- lower
+- push
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

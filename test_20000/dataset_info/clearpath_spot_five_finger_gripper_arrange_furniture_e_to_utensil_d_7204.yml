@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_e_to_utensil_d_7204
+dataset_uuid: 049acd56-9d3d-4cbb-8262-9037da52824b
+task_descriptions:
+- arrange_the_furniture_e_and_place_in_the_utensil_d
+scene_type:
+- store
+atomic_actions:
+- pick
+- rotate
+- remove
+- lower
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 74.4
+device_model:
+- clearpath_spot
+end_effector_type: five_finger_gripper

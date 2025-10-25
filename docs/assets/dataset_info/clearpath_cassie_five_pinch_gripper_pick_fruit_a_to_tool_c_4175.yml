@@ -1,0 +1,26 @@
+dataset_name: pick_fruit_a_to_tool_c_4175
+dataset_uuid: e9b3f645-910f-4036-8ee2-e12e90b81464
+task_descriptions:
+- pick_the_fruit_a_and_place_in_the_tool_c
+scene_type:
+- hospital
+atomic_actions:
+- pull
+- grasp
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- clearpath_cassie
+end_effector_type: five_pinch_gripper

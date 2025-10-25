@@ -1,0 +1,27 @@
+dataset_name: stack_tool_a_to_kitchenware_b_7665
+dataset_uuid: c506a942-eeb2-41e5-bc6b-21c7805b5f00
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_kitchenware_b
+scene_type:
+- laboratory
+- office
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.4
+device_model:
+- unitree_tiago
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_kitchenware_a_to_beverage_b_6724
+dataset_uuid: bdd5f6a8-c2de-4444-a0ae-25d0ccd44422
+task_descriptions:
+- move_the_kitchenware_a_and_place_in_the_beverage_b
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- insert
+- pull
+- flip
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+operation_platform_height: 81.3
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

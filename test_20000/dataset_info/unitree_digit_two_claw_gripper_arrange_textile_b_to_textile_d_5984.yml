@@ -1,0 +1,27 @@
+dataset_name: arrange_textile_b_to_textile_d_5984
+dataset_uuid: bb8774d1-b80d-4138-99db-2351b60d3372
+task_descriptions:
+- arrange_the_textile_b_and_place_in_the_textile_d
+scene_type:
+- warehouse
+atomic_actions:
+- remove
+- rotate
+- push
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- unitree_digit
+end_effector_type: two_claw_gripper

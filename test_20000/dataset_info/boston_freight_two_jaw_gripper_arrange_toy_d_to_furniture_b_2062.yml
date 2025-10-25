@@ -1,0 +1,29 @@
+dataset_name: arrange_toy_d_to_furniture_b_2062
+dataset_uuid: 4c1146ed-e513-4b9b-936b-9b6baeadf373
+task_descriptions:
+- arrange_the_toy_d_and_place_in_the_furniture_b
+scene_type:
+- factory
+- restaurant
+- home
+atomic_actions:
+- flip
+- pull
+- pick
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.0
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

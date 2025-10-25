@@ -1,0 +1,28 @@
+dataset_name: pick_textile_b_to_container_a_5474
+dataset_uuid: e696d64e-04ad-4cdc-8e83-a2be921c5305
+task_descriptions:
+- pick_the_textile_b_and_place_in_the_container_a
+scene_type:
+- kitchen
+- hospital
+- home
+atomic_actions:
+- slide
+- flip
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 86.6
+device_model:
+- unitree_h1
+end_effector_type: three_claw_gripper

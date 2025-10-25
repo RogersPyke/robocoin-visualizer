@@ -1,0 +1,30 @@
+dataset_name: pick_textile_a_to_toy_c_2535
+dataset_uuid: 8ab857e2-f993-4f34-8c51-7a9be226444e
+task_descriptions:
+- pick_the_textile_a_and_place_in_the_toy_c
+scene_type:
+- hospital
+- cafe
+- office
+atomic_actions:
+- slide
+- push
+- remove
+- grasp
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- pal_spot
+end_effector_type: two_pinch_gripper

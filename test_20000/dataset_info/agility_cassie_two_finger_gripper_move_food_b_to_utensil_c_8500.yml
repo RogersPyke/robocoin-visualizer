@@ -1,0 +1,29 @@
+dataset_name: move_food_b_to_utensil_c_8500
+dataset_uuid: 81c81590-e72b-464e-999c-9a2afddc4be8
+task_descriptions:
+- move_the_food_b_and_place_in_the_utensil_c
+scene_type:
+- kitchen
+- restaurant
+- store
+atomic_actions:
+- pull
+- flip
+- pick
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- agility_cassie
+end_effector_type: two_finger_gripper

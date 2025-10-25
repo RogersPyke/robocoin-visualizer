@@ -1,0 +1,29 @@
+dataset_name: stack_beverage_e_to_utensil_b_5886
+dataset_uuid: c2c50e56-a837-452a-af82-b1f313320bf5
+task_descriptions:
+- stack_the_beverage_e_and_place_in_the_utensil_b
+scene_type:
+- hospital
+- office
+atomic_actions:
+- pull
+- pick
+- rotate
+- insert
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

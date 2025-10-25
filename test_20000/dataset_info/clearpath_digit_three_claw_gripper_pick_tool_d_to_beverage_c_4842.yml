@@ -1,0 +1,27 @@
+dataset_name: pick_tool_d_to_beverage_c_4842
+dataset_uuid: 19565115-ad79-43ea-abee-14b5de856ff8
+task_descriptions:
+- pick_the_tool_d_and_place_in_the_beverage_c
+scene_type:
+- factory
+atomic_actions:
+- place
+- lift
+- push
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: beverage_c_sub2
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

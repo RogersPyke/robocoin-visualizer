@@ -1,0 +1,30 @@
+dataset_name: stack_food_c_to_fruit_c_3526
+dataset_uuid: d8af7846-604f-432c-9d63-508765e139c9
+task_descriptions:
+- stack_the_food_c_and_place_in_the_fruit_c
+scene_type:
+- laboratory
+- kitchen
+- home
+atomic_actions:
+- flip
+- insert
+- grasp
+- pick
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: food_c_sub2
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+operation_platform_height: 86.7
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

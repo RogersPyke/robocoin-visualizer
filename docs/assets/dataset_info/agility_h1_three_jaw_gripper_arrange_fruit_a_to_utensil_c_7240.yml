@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_a_to_utensil_c_7240
+dataset_uuid: f95aba6f-6bc8-4c0e-b7f7-834442fbf84f
+task_descriptions:
+- arrange_the_fruit_a_and_place_in_the_utensil_c
+scene_type:
+- cafe
+atomic_actions:
+- slide
+- push
+- grasp
+- pull
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.8
+device_model:
+- agility_h1
+end_effector_type: three_jaw_gripper

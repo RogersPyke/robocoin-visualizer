@@ -1,0 +1,27 @@
+dataset_name: arrange_toy_b_to_stationery_a_6078
+dataset_uuid: 4306b511-bcdf-4837-a169-e695c29c4646
+task_descriptions:
+- arrange_the_toy_b_and_place_in_the_stationery_a
+scene_type:
+- kitchen
+atomic_actions:
+- grasp
+- rotate
+- flip
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.6
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_container_b_to_fruit_e_4129
+dataset_uuid: 8c506876-1938-4b1c-91c0-e2b6190924b7
+task_descriptions:
+- pick_the_container_b_and_place_in_the_fruit_e
+scene_type:
+- factory
+- store
+atomic_actions:
+- lift
+- grasp
+- insert
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

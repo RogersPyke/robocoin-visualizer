@@ -1,0 +1,28 @@
+dataset_name: place_container_a_to_utensil_a_7433
+dataset_uuid: 0c4b1737-a12a-4af0-8aec-251480f4f18c
+task_descriptions:
+- place_the_container_a_and_place_in_the_utensil_a
+scene_type:
+- restaurant
+atomic_actions:
+- place
+- remove
+- lower
+- pick
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- boston_tiago
+end_effector_type: two_finger_gripper

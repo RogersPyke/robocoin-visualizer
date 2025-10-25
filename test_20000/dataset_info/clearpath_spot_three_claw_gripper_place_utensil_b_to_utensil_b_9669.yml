@@ -1,0 +1,26 @@
+dataset_name: place_utensil_b_to_utensil_b_9669
+dataset_uuid: f0de94ef-a891-4298-8368-0c44f3635682
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_utensil_b
+scene_type:
+- factory
+atomic_actions:
+- pull
+- grasp
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.6
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

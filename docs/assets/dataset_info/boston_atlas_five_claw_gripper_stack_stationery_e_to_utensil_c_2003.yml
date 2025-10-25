@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_e_to_utensil_c_2003
+dataset_uuid: 9893d93b-4335-47ba-b59e-6f823a4420fe
+task_descriptions:
+- stack_the_stationery_e_and_place_in_the_utensil_c
+scene_type:
+- store
+- home
+- cafe
+atomic_actions:
+- grasp
+- push
+- slide
+objects:
+- object_name: stationery_e
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- boston_atlas
+end_effector_type: five_claw_gripper

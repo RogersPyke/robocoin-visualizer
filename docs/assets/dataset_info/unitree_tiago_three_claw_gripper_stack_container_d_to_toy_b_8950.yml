@@ -1,0 +1,29 @@
+dataset_name: stack_container_d_to_toy_b_8950
+dataset_uuid: 581896c2-f5b0-444e-a0c7-3d4d013d1e79
+task_descriptions:
+- stack_the_container_d_and_place_in_the_toy_b
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- slide
+- grasp
+- push
+- pick
+objects:
+- object_name: container_d
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- unitree_tiago
+end_effector_type: three_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_stationery_c_to_utensil_c_6813
+dataset_uuid: c1281bc6-fb52-4545-a107-13d439336f00
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_utensil_c
+scene_type:
+- warehouse
+atomic_actions:
+- push
+- place
+- pick
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 71.5
+device_model:
+- agility_cassie
+end_effector_type: five_claw_gripper

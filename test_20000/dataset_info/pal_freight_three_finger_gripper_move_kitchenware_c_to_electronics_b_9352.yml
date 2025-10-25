@@ -1,0 +1,29 @@
+dataset_name: move_kitchenware_c_to_electronics_b_9352
+dataset_uuid: a1ab6733-83d9-4b82-ab0f-f8f28b8bf442
+task_descriptions:
+- move_the_kitchenware_c_and_place_in_the_electronics_b
+scene_type:
+- hospital
+- store
+atomic_actions:
+- flip
+- grasp
+- pick
+- pull
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- pal_freight
+end_effector_type: three_finger_gripper

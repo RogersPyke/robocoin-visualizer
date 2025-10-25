@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_d_to_furniture_c_6062
+dataset_uuid: 898785fa-8927-44a7-9f19-5a76288399b2
+task_descriptions:
+- arrange_the_fruit_d_and_place_in_the_furniture_c
+scene_type:
+- kitchen
+atomic_actions:
+- lower
+- lift
+- flip
+- remove
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+operation_platform_height: 75.6
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

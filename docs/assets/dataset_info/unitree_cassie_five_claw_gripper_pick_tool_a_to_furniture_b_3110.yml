@@ -1,0 +1,27 @@
+dataset_name: pick_tool_a_to_furniture_b_3110
+dataset_uuid: 0aef1a0e-127d-4c7c-a81b-2271fbf10cc6
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_furniture_b
+scene_type:
+- factory
+atomic_actions:
+- lift
+- remove
+- flip
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.4
+device_model:
+- unitree_cassie
+end_effector_type: five_claw_gripper

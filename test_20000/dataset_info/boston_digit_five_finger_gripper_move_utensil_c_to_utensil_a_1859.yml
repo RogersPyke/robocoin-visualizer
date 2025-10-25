@@ -1,0 +1,29 @@
+dataset_name: move_utensil_c_to_utensil_a_1859
+dataset_uuid: 0a89a46b-5422-4631-a51f-fc81950a761c
+task_descriptions:
+- move_the_utensil_c_and_place_in_the_utensil_a
+scene_type:
+- cafe
+- warehouse
+- restaurant
+atomic_actions:
+- push
+- flip
+- pick
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

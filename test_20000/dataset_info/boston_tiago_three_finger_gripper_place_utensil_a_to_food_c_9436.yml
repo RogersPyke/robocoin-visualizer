@@ -1,0 +1,29 @@
+dataset_name: place_utensil_a_to_food_c_9436
+dataset_uuid: 2319b239-b4ba-4f55-9cf1-e806b04fa9a1
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_food_c
+scene_type:
+- warehouse
+- cafe
+atomic_actions:
+- rotate
+- grasp
+- pull
+- slide
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

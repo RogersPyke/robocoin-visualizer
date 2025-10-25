@@ -1,0 +1,28 @@
+dataset_name: stack_fruit_a_to_container_c_3409
+dataset_uuid: 24fcee9e-edc8-4a31-a353-34c1149a0763
+task_descriptions:
+- stack_the_fruit_a_and_place_in_the_container_c
+scene_type:
+- store
+- hospital
+atomic_actions:
+- flip
+- pull
+- pick
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- unitree_g1
+end_effector_type: two_claw_gripper

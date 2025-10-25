@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_b_to_food_d_9125
+dataset_uuid: 6846bfbe-555f-4b31-af85-a0019ed74487
+task_descriptions:
+- pick_the_stationery_b_and_place_in_the_food_d
+scene_type:
+- factory
+- office
+- hospital
+atomic_actions:
+- place
+- lift
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.8
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

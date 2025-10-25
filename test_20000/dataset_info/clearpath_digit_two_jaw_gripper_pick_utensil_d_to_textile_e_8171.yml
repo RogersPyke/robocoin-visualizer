@@ -1,0 +1,27 @@
+dataset_name: pick_utensil_d_to_textile_e_8171
+dataset_uuid: 0b0b821b-3129-40b7-899b-96f4e35ad6ed
+task_descriptions:
+- pick_the_utensil_d_and_place_in_the_textile_e
+scene_type:
+- restaurant
+atomic_actions:
+- pick
+- insert
+- place
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

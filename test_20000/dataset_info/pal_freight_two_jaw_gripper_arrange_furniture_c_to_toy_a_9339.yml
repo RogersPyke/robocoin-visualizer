@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_c_to_toy_a_9339
+dataset_uuid: cccb5108-47bf-466c-99b7-1bb8204bc395
+task_descriptions:
+- arrange_the_furniture_c_and_place_in_the_toy_a
+scene_type:
+- restaurant
+atomic_actions:
+- grasp
+- remove
+- flip
+- rotate
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

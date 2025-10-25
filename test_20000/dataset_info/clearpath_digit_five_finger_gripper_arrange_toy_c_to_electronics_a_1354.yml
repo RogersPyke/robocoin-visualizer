@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_c_to_electronics_a_1354
+dataset_uuid: 129c87e1-7b1f-4a2e-b90d-0539bc6e95b2
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_electronics_a
+scene_type:
+- office
+atomic_actions:
+- insert
+- push
+- pick
+- lower
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

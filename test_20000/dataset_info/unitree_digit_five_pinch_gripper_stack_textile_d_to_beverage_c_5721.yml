@@ -1,0 +1,26 @@
+dataset_name: stack_textile_d_to_beverage_c_5721
+dataset_uuid: b3da1a0b-347e-4f11-ba3a-3f264fa674cb
+task_descriptions:
+- stack_the_textile_d_and_place_in_the_beverage_c
+scene_type:
+- laboratory
+atomic_actions:
+- remove
+- rotate
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

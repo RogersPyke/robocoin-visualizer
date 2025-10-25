@@ -1,0 +1,29 @@
+dataset_name: place_container_a_to_electronics_b_1374
+dataset_uuid: 524b0369-f568-496b-b3f4-6218f08142d3
+task_descriptions:
+- place_the_container_a_and_place_in_the_electronics_b
+scene_type:
+- warehouse
+- kitchen
+- office
+atomic_actions:
+- push
+- pick
+- place
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.2
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

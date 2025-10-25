@@ -1,0 +1,26 @@
+dataset_name: place_kitchenware_b_to_fruit_b_4290
+dataset_uuid: e3e17746-9071-44ba-b0b3-1dc344d93ce7
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_fruit_b
+scene_type:
+- restaurant
+atomic_actions:
+- flip
+- lift
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 78.1
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_kitchenware_b_to_toy_a_3710
+dataset_uuid: 443a6f62-139d-444d-8faa-4a4e0d14ac39
+task_descriptions:
+- arrange_the_kitchenware_b_and_place_in_the_toy_a
+scene_type:
+- kitchen
+- home
+atomic_actions:
+- slide
+- insert
+- remove
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

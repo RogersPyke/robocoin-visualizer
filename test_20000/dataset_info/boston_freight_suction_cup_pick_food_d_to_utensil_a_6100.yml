@@ -1,0 +1,28 @@
+dataset_name: pick_food_d_to_utensil_a_6100
+dataset_uuid: 8e440d81-b686-4039-9388-e1ee85f06123
+task_descriptions:
+- pick_the_food_d_and_place_in_the_utensil_a
+scene_type:
+- laboratory
+- home
+atomic_actions:
+- pull
+- lift
+- rotate
+objects:
+- object_name: food_d
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.1
+device_model:
+- boston_freight
+end_effector_type: suction_cup

@@ -1,0 +1,30 @@
+dataset_name: stack_textile_d_to_utensil_c_9440
+dataset_uuid: e6d9b449-1442-4dd8-828e-05daec34d53a
+task_descriptions:
+- stack_the_textile_d_and_place_in_the_utensil_c
+scene_type:
+- restaurant
+- cafe
+- warehouse
+atomic_actions:
+- pick
+- lower
+- push
+- flip
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- clearpath_h1
+end_effector_type: five_finger_gripper

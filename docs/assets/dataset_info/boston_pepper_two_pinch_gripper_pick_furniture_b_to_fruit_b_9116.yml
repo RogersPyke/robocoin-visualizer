@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_b_to_fruit_b_9116
+dataset_uuid: d6b5ecab-f43c-47f5-8728-b9e5ab5e20e7
+task_descriptions:
+- pick_the_furniture_b_and_place_in_the_fruit_b
+scene_type:
+- store
+- kitchen
+atomic_actions:
+- lower
+- pull
+- flip
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.8
+device_model:
+- boston_pepper
+end_effector_type: two_pinch_gripper

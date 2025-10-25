@@ -1,0 +1,26 @@
+dataset_name: stack_food_d_to_toy_a_6182
+dataset_uuid: 89d7a052-bb33-4d9a-a7f3-abf6e4b2c674
+task_descriptions:
+- stack_the_food_d_and_place_in_the_toy_a
+scene_type:
+- office
+atomic_actions:
+- insert
+- rotate
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 83.5
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

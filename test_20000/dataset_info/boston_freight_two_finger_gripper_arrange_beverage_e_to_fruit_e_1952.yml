@@ -1,0 +1,27 @@
+dataset_name: arrange_beverage_e_to_fruit_e_1952
+dataset_uuid: c76c198d-2640-41e8-bab4-81eb0c562470
+task_descriptions:
+- arrange_the_beverage_e_and_place_in_the_fruit_e
+scene_type:
+- cafe
+atomic_actions:
+- lift
+- push
+- place
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_furniture_d_to_food_d_6703
+dataset_uuid: a24d0a3f-bd54-449f-8b23-0b64512b912b
+task_descriptions:
+- arrange_the_furniture_d_and_place_in_the_food_d
+scene_type:
+- laboratory
+- home
+atomic_actions:
+- insert
+- remove
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.1
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

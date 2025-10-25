@@ -1,0 +1,29 @@
+dataset_name: pick_kitchenware_c_to_container_a_8017
+dataset_uuid: a7a4d2ea-4e9a-42a0-baa3-a7efe5b88f5d
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_container_a
+scene_type:
+- laboratory
+- restaurant
+atomic_actions:
+- lower
+- rotate
+- pull
+- flip
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.8
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

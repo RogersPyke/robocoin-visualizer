@@ -1,0 +1,27 @@
+dataset_name: pick_utensil_c_to_kitchenware_b_6438
+dataset_uuid: 290339c2-98f7-4489-8280-0e5c7ff752ca
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_kitchenware_b
+scene_type:
+- hospital
+atomic_actions:
+- pull
+- rotate
+- flip
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

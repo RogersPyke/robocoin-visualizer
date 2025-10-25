@@ -1,0 +1,28 @@
+dataset_name: pick_food_e_to_kitchenware_b_2968
+dataset_uuid: a079cd06-b83d-46a4-b2d7-a857e0f83165
+task_descriptions:
+- pick_the_food_e_and_place_in_the_kitchenware_b
+scene_type:
+- laboratory
+atomic_actions:
+- insert
+- grasp
+- pull
+- slide
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

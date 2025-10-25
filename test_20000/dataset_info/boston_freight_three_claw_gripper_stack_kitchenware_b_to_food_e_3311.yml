@@ -1,0 +1,30 @@
+dataset_name: stack_kitchenware_b_to_food_e_3311
+dataset_uuid: 2c0d8da2-34be-4d65-b93a-dd90fcc11fa7
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_food_e
+scene_type:
+- office
+- warehouse
+- factory
+atomic_actions:
+- lower
+- grasp
+- pick
+- remove
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.8
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

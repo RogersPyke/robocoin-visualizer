@@ -1,0 +1,27 @@
+dataset_name: place_food_e_to_tool_b_9720
+dataset_uuid: 5c27a7bf-d2a0-42d2-9117-f85dcf176a01
+task_descriptions:
+- place_the_food_e_and_place_in_the_tool_b
+scene_type:
+- warehouse
+- home
+atomic_actions:
+- push
+- pull
+objects:
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- fetch_tiago
+end_effector_type: two_pinch_gripper

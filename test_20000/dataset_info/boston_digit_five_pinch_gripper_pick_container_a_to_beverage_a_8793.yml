@@ -1,0 +1,28 @@
+dataset_name: pick_container_a_to_beverage_a_8793
+dataset_uuid: 0fd16568-fc28-4f39-b166-af5f21300d0b
+task_descriptions:
+- pick_the_container_a_and_place_in_the_beverage_a
+scene_type:
+- hospital
+atomic_actions:
+- remove
+- flip
+- slide
+- grasp
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+operation_platform_height: 75.5
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

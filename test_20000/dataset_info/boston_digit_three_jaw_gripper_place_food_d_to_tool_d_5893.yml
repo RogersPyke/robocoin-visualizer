@@ -1,0 +1,30 @@
+dataset_name: place_food_d_to_tool_d_5893
+dataset_uuid: 2f898c59-5ecc-446b-bb02-878f9b7ff078
+task_descriptions:
+- place_the_food_d_and_place_in_the_tool_d
+scene_type:
+- kitchen
+- restaurant
+- office
+atomic_actions:
+- lower
+- pull
+- pick
+- flip
+objects:
+- object_name: food_d
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.8
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

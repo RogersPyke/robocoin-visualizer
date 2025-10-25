@@ -1,0 +1,28 @@
+dataset_name: place_electronics_c_to_tool_a_6157
+dataset_uuid: 7dff5d5a-fb3e-4bb3-b2d7-8e0b65ea77a4
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_tool_a
+scene_type:
+- store
+- kitchen
+atomic_actions:
+- pull
+- flip
+- place
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.7
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

@@ -1,0 +1,26 @@
+dataset_name: pick_textile_a_to_electronics_c_8816
+dataset_uuid: d4f7eee3-3b4e-40dd-a424-e0181b88701e
+task_descriptions:
+- pick_the_textile_a_and_place_in_the_electronics_c
+scene_type:
+- cafe
+atomic_actions:
+- flip
+- rotate
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 85.1
+device_model:
+- unitree_h1
+end_effector_type: suction_cup

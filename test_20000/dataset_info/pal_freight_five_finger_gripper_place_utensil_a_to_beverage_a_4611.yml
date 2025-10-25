@@ -1,0 +1,28 @@
+dataset_name: place_utensil_a_to_beverage_a_4611
+dataset_uuid: 0bbbaa75-e0a4-4ab9-a8f9-15c741ffec71
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_beverage_a
+scene_type:
+- laboratory
+atomic_actions:
+- flip
+- lift
+- push
+- pull
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- pal_freight
+end_effector_type: five_finger_gripper

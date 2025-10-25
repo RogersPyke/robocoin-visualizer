@@ -1,0 +1,27 @@
+dataset_name: place_electronics_c_to_textile_e_5930
+dataset_uuid: 08df24d0-c4f3-47cd-8d38-357ce53b099b
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_textile_e
+scene_type:
+- store
+atomic_actions:
+- lift
+- slide
+- rotate
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.8
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,30 @@
+dataset_name: place_furniture_a_to_beverage_b_7334
+dataset_uuid: cc75c121-201c-46cc-8f85-8e7fedaf462c
+task_descriptions:
+- place_the_furniture_a_and_place_in_the_beverage_b
+scene_type:
+- kitchen
+- hospital
+- factory
+atomic_actions:
+- place
+- rotate
+- flip
+- grasp
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+operation_platform_height: 77.4
+device_model:
+- pal_spot
+end_effector_type: five_finger_gripper

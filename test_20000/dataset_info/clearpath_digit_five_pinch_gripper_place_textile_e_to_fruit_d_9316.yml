@@ -1,0 +1,28 @@
+dataset_name: place_textile_e_to_fruit_d_9316
+dataset_uuid: 07472721-fa66-43d6-a363-aa253bd8e2ef
+task_descriptions:
+- place_the_textile_e_and_place_in_the_fruit_d
+scene_type:
+- cafe
+- laboratory
+- home
+atomic_actions:
+- rotate
+- insert
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

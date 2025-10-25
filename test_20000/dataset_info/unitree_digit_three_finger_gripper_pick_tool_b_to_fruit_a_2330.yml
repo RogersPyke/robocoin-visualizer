@@ -1,0 +1,27 @@
+dataset_name: pick_tool_b_to_fruit_a_2330
+dataset_uuid: 7901e2aa-e930-4ddf-856a-3a71a4352701
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_fruit_a
+scene_type:
+- cafe
+atomic_actions:
+- pick
+- insert
+- flip
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 87.1
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

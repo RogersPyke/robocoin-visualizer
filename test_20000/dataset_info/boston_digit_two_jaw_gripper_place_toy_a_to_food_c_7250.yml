@@ -1,0 +1,28 @@
+dataset_name: place_toy_a_to_food_c_7250
+dataset_uuid: f5451844-7020-4938-b503-8b019b752f1e
+task_descriptions:
+- place_the_toy_a_and_place_in_the_food_c
+scene_type:
+- kitchen
+- cafe
+atomic_actions:
+- place
+- rotate
+- lower
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

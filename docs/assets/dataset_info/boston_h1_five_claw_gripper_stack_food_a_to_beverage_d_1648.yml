@@ -1,0 +1,27 @@
+dataset_name: stack_food_a_to_beverage_d_1648
+dataset_uuid: 3716b93a-10a7-4f73-bd34-f32c2f8f59e4
+task_descriptions:
+- stack_the_food_a_and_place_in_the_beverage_d
+scene_type:
+- store
+atomic_actions:
+- remove
+- insert
+- rotate
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- boston_h1
+end_effector_type: five_claw_gripper

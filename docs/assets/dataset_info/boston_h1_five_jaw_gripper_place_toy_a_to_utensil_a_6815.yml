@@ -1,0 +1,28 @@
+dataset_name: place_toy_a_to_utensil_a_6815
+dataset_uuid: 58b4ed4a-fced-45c0-9441-70092dc35afa
+task_descriptions:
+- place_the_toy_a_and_place_in_the_utensil_a
+scene_type:
+- store
+atomic_actions:
+- flip
+- insert
+- place
+- pull
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.8
+device_model:
+- boston_h1
+end_effector_type: five_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: move_toy_d_to_container_c_6156
+dataset_uuid: 9ab19a91-b097-490b-9c2c-bbbd4a99978d
+task_descriptions:
+- move_the_toy_d_and_place_in_the_container_c
+scene_type:
+- home
+- laboratory
+atomic_actions:
+- insert
+- remove
+- rotate
+- place
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.4
+device_model:
+- clearpath_h1
+end_effector_type: five_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_food_b_to_toy_b_4677
+dataset_uuid: f73a3600-7cb3-48b9-97f6-2c58dfe0d6a3
+task_descriptions:
+- place_the_food_b_and_place_in_the_toy_b
+scene_type:
+- cafe
+- store
+- warehouse
+atomic_actions:
+- slide
+- grasp
+- lift
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+operation_platform_height: 86.7
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: move_tool_a_to_food_a_2566
+dataset_uuid: 8978f012-1c09-4f28-a386-62b65ff8ba27
+task_descriptions:
+- move_the_tool_a_and_place_in_the_food_a
+scene_type:
+- warehouse
+- office
+atomic_actions:
+- insert
+- lower
+- remove
+- flip
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- boston_pepper
+end_effector_type: five_finger_gripper

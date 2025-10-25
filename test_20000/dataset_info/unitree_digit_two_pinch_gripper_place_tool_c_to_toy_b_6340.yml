@@ -1,0 +1,27 @@
+dataset_name: place_tool_c_to_toy_b_6340
+dataset_uuid: 295926b7-5bc2-4183-9c69-411ced8cf395
+task_descriptions:
+- place_the_tool_c_and_place_in_the_toy_b
+scene_type:
+- cafe
+- laboratory
+atomic_actions:
+- pick
+- pull
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.1
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_kitchenware_a_to_fruit_b_7440
+dataset_uuid: 03bb49a8-ef42-4908-93c2-8f9a267d39be
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_fruit_b
+scene_type:
+- hospital
+- kitchen
+atomic_actions:
+- insert
+- rotate
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- agility_spot
+end_effector_type: two_finger_gripper

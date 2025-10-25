@@ -1,0 +1,30 @@
+dataset_name: stack_tool_c_to_textile_a_5075
+dataset_uuid: b8ae0da2-599e-4020-bd4d-7e06bdec10af
+task_descriptions:
+- stack_the_tool_c_and_place_in_the_textile_a
+scene_type:
+- hospital
+- factory
+- kitchen
+atomic_actions:
+- rotate
+- place
+- push
+- lift
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

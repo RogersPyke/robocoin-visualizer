@@ -1,0 +1,27 @@
+dataset_name: move_fruit_d_to_furniture_e_1787
+dataset_uuid: 9cd403ee-9069-4961-96b8-5f604f99eae2
+task_descriptions:
+- move_the_fruit_d_and_place_in_the_furniture_e
+scene_type:
+- hospital
+atomic_actions:
+- flip
+- rotate
+- pick
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

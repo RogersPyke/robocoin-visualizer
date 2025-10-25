@@ -1,0 +1,30 @@
+dataset_name: pick_electronics_a_to_furniture_e_2145
+dataset_uuid: d274e27d-f419-4963-a566-84587e53aad8
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_furniture_e
+scene_type:
+- office
+- home
+- factory
+atomic_actions:
+- lower
+- place
+- lift
+- slide
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

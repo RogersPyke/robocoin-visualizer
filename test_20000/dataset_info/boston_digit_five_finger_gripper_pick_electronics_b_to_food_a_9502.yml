@@ -1,0 +1,26 @@
+dataset_name: pick_electronics_b_to_food_a_9502
+dataset_uuid: a1b0b264-94c0-4457-9504-e981c8f2058f
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_food_a
+scene_type:
+- kitchen
+atomic_actions:
+- grasp
+- remove
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

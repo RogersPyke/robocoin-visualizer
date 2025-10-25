@@ -1,0 +1,27 @@
+dataset_name: stack_stationery_a_to_toy_a_3773
+dataset_uuid: cf32332a-daf3-4128-98e5-9016455270a7
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_toy_a
+scene_type:
+- kitchen
+- store
+atomic_actions:
+- grasp
+- push
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

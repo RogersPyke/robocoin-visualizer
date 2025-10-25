@@ -1,0 +1,29 @@
+dataset_name: arrange_container_b_to_toy_c_9922
+dataset_uuid: 96dfef04-8432-4ca9-bd37-db656478be1d
+task_descriptions:
+- arrange_the_container_b_and_place_in_the_toy_c
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- remove
+- push
+- insert
+- grasp
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

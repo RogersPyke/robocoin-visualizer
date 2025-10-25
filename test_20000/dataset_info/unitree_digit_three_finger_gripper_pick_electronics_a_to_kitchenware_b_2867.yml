@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_a_to_kitchenware_b_2867
+dataset_uuid: cdb9ccda-4d5c-42a1-a751-afd8c54b4e18
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_kitchenware_b
+scene_type:
+- home
+atomic_actions:
+- grasp
+- rotate
+- insert
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

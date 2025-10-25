@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_d_to_utensil_d_2199
+dataset_uuid: d4dd1ef6-d662-4f93-a983-d2c1447617a3
+task_descriptions:
+- arrange_the_toy_d_and_place_in_the_utensil_d
+scene_type:
+- store
+- laboratory
+- home
+atomic_actions:
+- flip
+- place
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

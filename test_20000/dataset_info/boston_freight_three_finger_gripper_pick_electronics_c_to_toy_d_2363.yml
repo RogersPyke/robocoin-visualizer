@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_c_to_toy_d_2363
+dataset_uuid: 6709da6f-4e2e-4817-960d-2f67f9eea865
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_toy_d
+scene_type:
+- store
+- kitchen
+atomic_actions:
+- flip
+- remove
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

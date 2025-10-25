@@ -1,0 +1,28 @@
+dataset_name: place_furniture_a_to_tool_a_6235
+dataset_uuid: 64b2561d-af2b-4c47-b194-8e3c7bd0d0e1
+task_descriptions:
+- place_the_furniture_a_and_place_in_the_tool_a
+scene_type:
+- kitchen
+atomic_actions:
+- insert
+- lift
+- pull
+- slide
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

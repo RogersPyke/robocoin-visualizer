@@ -1,0 +1,27 @@
+dataset_name: stack_beverage_a_to_utensil_d_2726
+dataset_uuid: 9a23f66b-a3d3-40d3-a4f0-e87aa57abc3d
+task_descriptions:
+- stack_the_beverage_a_and_place_in_the_utensil_d
+scene_type:
+- home
+atomic_actions:
+- rotate
+- pick
+- lift
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 85.5
+device_model:
+- boston_freight
+end_effector_type: two_claw_gripper

@@ -1,0 +1,30 @@
+dataset_name: stack_utensil_c_to_container_e_9577
+dataset_uuid: 647fae8b-cc9e-4811-9204-6f8315082e89
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_container_e
+scene_type:
+- kitchen
+- office
+- restaurant
+atomic_actions:
+- flip
+- lift
+- slide
+- insert
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: container_e
+  level1: container
+  level2: container_e
+  level3: container_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.1
+device_model:
+- unitree_h1
+end_effector_type: three_pinch_gripper

@@ -1,0 +1,26 @@
+dataset_name: pick_tool_b_to_tool_b_9401
+dataset_uuid: 8f1f9d85-c860-470b-a711-957af92a16a7
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_tool_b
+scene_type:
+- cafe
+atomic_actions:
+- grasp
+- lower
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

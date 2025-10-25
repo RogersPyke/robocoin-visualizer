@@ -1,0 +1,27 @@
+dataset_name: move_container_b_to_beverage_d_3640
+dataset_uuid: 6016fb81-a919-4088-8a07-2fd8fc2b4a6c
+task_descriptions:
+- move_the_container_b_and_place_in_the_beverage_d
+scene_type:
+- store
+atomic_actions:
+- flip
+- lower
+- push
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

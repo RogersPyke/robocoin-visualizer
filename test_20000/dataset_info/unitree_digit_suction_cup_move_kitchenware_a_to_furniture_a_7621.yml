@@ -1,0 +1,27 @@
+dataset_name: move_kitchenware_a_to_furniture_a_7621
+dataset_uuid: e44be397-7f6b-42b9-979a-ea03848def43
+task_descriptions:
+- move_the_kitchenware_a_and_place_in_the_furniture_a
+scene_type:
+- laboratory
+atomic_actions:
+- slide
+- place
+- remove
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.3
+device_model:
+- unitree_digit
+end_effector_type: suction_cup

@@ -1,0 +1,28 @@
+dataset_name: place_food_d_to_furniture_d_9307
+dataset_uuid: 425f8581-8ea5-4e17-8f70-64d95a22ab17
+task_descriptions:
+- place_the_food_d_and_place_in_the_furniture_d
+scene_type:
+- home
+atomic_actions:
+- pull
+- rotate
+- place
+- flip
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.9
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

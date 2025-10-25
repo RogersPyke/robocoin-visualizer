@@ -1,0 +1,27 @@
+dataset_name: move_beverage_e_to_furniture_c_8313
+dataset_uuid: e111061d-a101-46bf-ac01-5922393aef67
+task_descriptions:
+- move_the_beverage_e_and_place_in_the_furniture_c
+scene_type:
+- warehouse
+- home
+atomic_actions:
+- lift
+- pick
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.2
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_tool_a_to_utensil_d_9674
+dataset_uuid: 3ba4810b-070a-4681-b501-d0c99af10767
+task_descriptions:
+- arrange_the_tool_a_and_place_in_the_utensil_d
+scene_type:
+- home
+- restaurant
+- warehouse
+atomic_actions:
+- grasp
+- pick
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

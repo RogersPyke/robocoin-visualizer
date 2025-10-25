@@ -1,0 +1,28 @@
+dataset_name: move_electronics_a_to_utensil_a_9767
+dataset_uuid: a526585b-94bc-46ed-b3e4-6c9cba58a200
+task_descriptions:
+- move_the_electronics_a_and_place_in_the_utensil_a
+scene_type:
+- factory
+- home
+- laboratory
+atomic_actions:
+- pull
+- place
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 87.9
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: arrange_stationery_c_to_utensil_a_4082
+dataset_uuid: 89049492-90d5-4604-8c8f-055e48804086
+task_descriptions:
+- arrange_the_stationery_c_and_place_in_the_utensil_a
+scene_type:
+- cafe
+- factory
+atomic_actions:
+- pick
+- rotate
+- push
+- pull
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

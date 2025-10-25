@@ -1,0 +1,29 @@
+dataset_name: place_textile_a_to_kitchenware_a_5208
+dataset_uuid: dbbdf20d-460a-49b1-bf4b-149617c317f1
+task_descriptions:
+- place_the_textile_a_and_place_in_the_kitchenware_a
+scene_type:
+- restaurant
+- warehouse
+- kitchen
+atomic_actions:
+- lower
+- pull
+- push
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

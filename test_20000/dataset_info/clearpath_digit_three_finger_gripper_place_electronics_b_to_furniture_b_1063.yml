@@ -1,0 +1,26 @@
+dataset_name: place_electronics_b_to_furniture_b_1063
+dataset_uuid: fa1d1d56-6fd3-4bf4-a48a-1934839fd6b0
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_furniture_b
+scene_type:
+- laboratory
+atomic_actions:
+- lower
+- pick
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.0
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

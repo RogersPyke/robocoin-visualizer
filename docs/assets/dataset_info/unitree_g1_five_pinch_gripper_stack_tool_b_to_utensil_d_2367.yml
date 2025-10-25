@@ -1,0 +1,27 @@
+dataset_name: stack_tool_b_to_utensil_d_2367
+dataset_uuid: 552bd8bb-b4f9-4349-8a6e-8b1a125d6d04
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_utensil_d
+scene_type:
+- cafe
+atomic_actions:
+- flip
+- rotate
+- slide
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.6
+device_model:
+- unitree_g1
+end_effector_type: five_pinch_gripper

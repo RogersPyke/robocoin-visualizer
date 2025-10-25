@@ -1,0 +1,29 @@
+dataset_name: stack_fruit_b_to_fruit_d_5910
+dataset_uuid: af253311-2669-4084-a10b-9eef3c76ade8
+task_descriptions:
+- stack_the_fruit_b_and_place_in_the_fruit_d
+scene_type:
+- hospital
+- cafe
+- kitchen
+atomic_actions:
+- rotate
+- grasp
+- flip
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+operation_platform_height: 72.3
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

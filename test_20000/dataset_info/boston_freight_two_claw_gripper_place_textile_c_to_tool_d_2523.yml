@@ -1,0 +1,28 @@
+dataset_name: place_textile_c_to_tool_d_2523
+dataset_uuid: c8d840a3-1c85-42ed-81b3-dda47185c10f
+task_descriptions:
+- place_the_textile_c_and_place_in_the_tool_d
+scene_type:
+- kitchen
+atomic_actions:
+- flip
+- place
+- rotate
+- lift
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- boston_freight
+end_effector_type: two_claw_gripper

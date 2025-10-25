@@ -1,0 +1,29 @@
+dataset_name: pick_container_a_to_textile_a_6999
+dataset_uuid: 5ae971ca-5eb8-41da-b9c7-c4e2e26a24d7
+task_descriptions:
+- pick_the_container_a_and_place_in_the_textile_a
+scene_type:
+- kitchen
+- laboratory
+atomic_actions:
+- grasp
+- rotate
+- remove
+- place
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- fetch_spot
+end_effector_type: two_claw_gripper

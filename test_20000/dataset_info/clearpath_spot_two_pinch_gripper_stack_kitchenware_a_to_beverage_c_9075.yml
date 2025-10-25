@@ -1,0 +1,26 @@
+dataset_name: stack_kitchenware_a_to_beverage_c_9075
+dataset_uuid: bee8a40b-2425-4a7f-a973-7b1b7ea554d4
+task_descriptions:
+- stack_the_kitchenware_a_and_place_in_the_beverage_c
+scene_type:
+- office
+atomic_actions:
+- insert
+- slide
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

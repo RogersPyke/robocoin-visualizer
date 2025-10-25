@@ -1,0 +1,28 @@
+dataset_name: stack_food_d_to_toy_b_6085
+dataset_uuid: 70e64f7f-1386-471d-afb0-f5e5171b3b7c
+task_descriptions:
+- stack_the_food_d_and_place_in_the_toy_b
+scene_type:
+- hospital
+atomic_actions:
+- slide
+- push
+- rotate
+- remove
+objects:
+- object_name: food_d
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.3
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_electronics_a_to_beverage_b_6922
+dataset_uuid: 41d61cc3-a67f-44fc-8c9d-1108cebe9d92
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_beverage_b
+scene_type:
+- warehouse
+- office
+atomic_actions:
+- lower
+- insert
+- rotate
+- pick
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- agility_digit
+end_effector_type: suction_cup

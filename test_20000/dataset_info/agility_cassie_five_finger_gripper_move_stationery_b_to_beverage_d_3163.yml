@@ -1,0 +1,26 @@
+dataset_name: move_stationery_b_to_beverage_d_3163
+dataset_uuid: 6102ab3c-55bd-4991-94c1-1fc990ba60dd
+task_descriptions:
+- move_the_stationery_b_and_place_in_the_beverage_d
+scene_type:
+- cafe
+atomic_actions:
+- rotate
+- pull
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.3
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

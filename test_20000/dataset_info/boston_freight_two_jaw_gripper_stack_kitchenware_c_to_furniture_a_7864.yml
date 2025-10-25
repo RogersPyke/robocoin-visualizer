@@ -1,0 +1,27 @@
+dataset_name: stack_kitchenware_c_to_furniture_a_7864
+dataset_uuid: 044a3403-5457-4a02-8e65-e11cff2e6827
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_furniture_a
+scene_type:
+- kitchen
+atomic_actions:
+- push
+- lift
+- lower
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.1
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

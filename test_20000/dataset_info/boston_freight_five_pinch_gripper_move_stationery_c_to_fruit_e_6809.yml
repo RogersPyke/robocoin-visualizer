@@ -1,0 +1,26 @@
+dataset_name: move_stationery_c_to_fruit_e_6809
+dataset_uuid: 361aac86-75ee-4f25-8c1d-b03eba567db5
+task_descriptions:
+- move_the_stationery_c_and_place_in_the_fruit_e
+scene_type:
+- warehouse
+atomic_actions:
+- lift
+- push
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

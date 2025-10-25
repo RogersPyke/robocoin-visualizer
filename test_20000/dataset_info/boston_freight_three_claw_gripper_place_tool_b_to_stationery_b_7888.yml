@@ -1,0 +1,28 @@
+dataset_name: place_tool_b_to_stationery_b_7888
+dataset_uuid: a163d3ce-6b91-43d7-81c2-8b1510c92111
+task_descriptions:
+- place_the_tool_b_and_place_in_the_stationery_b
+scene_type:
+- office
+- hospital
+- warehouse
+atomic_actions:
+- grasp
+- flip
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.9
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

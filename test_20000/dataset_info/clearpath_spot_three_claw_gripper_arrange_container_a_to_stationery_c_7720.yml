@@ -1,0 +1,28 @@
+dataset_name: arrange_container_a_to_stationery_c_7720
+dataset_uuid: f5a63a18-3b26-4131-88b7-603ace41ef9f
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_stationery_c
+scene_type:
+- warehouse
+- laboratory
+atomic_actions:
+- grasp
+- slide
+- lower
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.4
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

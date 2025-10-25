@@ -1,0 +1,26 @@
+dataset_name: pick_electronics_b_to_textile_a_3462
+dataset_uuid: f4c7cb60-d352-49d3-a910-dc42da5d3950
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_textile_a
+scene_type:
+- home
+atomic_actions:
+- lift
+- lower
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.7
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

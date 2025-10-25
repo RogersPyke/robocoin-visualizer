@@ -1,0 +1,30 @@
+dataset_name: stack_kitchenware_b_to_fruit_a_5760
+dataset_uuid: be6a11fb-0bfa-4262-a0db-809dcc0c4b83
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_fruit_a
+scene_type:
+- hospital
+- warehouse
+- factory
+atomic_actions:
+- place
+- insert
+- lift
+- remove
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- unitree_h1
+end_effector_type: three_claw_gripper

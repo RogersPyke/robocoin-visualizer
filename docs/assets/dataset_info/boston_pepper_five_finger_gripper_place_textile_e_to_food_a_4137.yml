@@ -1,0 +1,27 @@
+dataset_name: place_textile_e_to_food_a_4137
+dataset_uuid: 650524cf-e0ec-4eb4-bd28-4de040bbcf62
+task_descriptions:
+- place_the_textile_e_and_place_in_the_food_a
+scene_type:
+- factory
+atomic_actions:
+- push
+- slide
+- pull
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.4
+device_model:
+- boston_pepper
+end_effector_type: five_finger_gripper

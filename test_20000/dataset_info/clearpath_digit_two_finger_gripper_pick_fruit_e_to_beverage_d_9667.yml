@@ -1,0 +1,29 @@
+dataset_name: pick_fruit_e_to_beverage_d_9667
+dataset_uuid: 12a4a9f9-be32-4846-b06c-c60c01e855a3
+task_descriptions:
+- pick_the_fruit_e_and_place_in_the_beverage_d
+scene_type:
+- restaurant
+- laboratory
+- home
+atomic_actions:
+- place
+- flip
+- slide
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+operation_platform_height: 80.4
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

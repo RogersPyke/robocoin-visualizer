@@ -1,0 +1,27 @@
+dataset_name: place_stationery_a_to_utensil_c_9351
+dataset_uuid: 2afa2bfa-d183-4b2e-af91-1a3ad327cee0
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_utensil_c
+scene_type:
+- kitchen
+atomic_actions:
+- slide
+- grasp
+- flip
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.3
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

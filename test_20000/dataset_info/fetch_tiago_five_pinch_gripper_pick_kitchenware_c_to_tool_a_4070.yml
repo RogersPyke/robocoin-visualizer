@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_c_to_tool_a_4070
+dataset_uuid: 6de98aee-1587-4402-987a-82548aefbe11
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_tool_a
+scene_type:
+- home
+atomic_actions:
+- flip
+- grasp
+- rotate
+- lower
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.0
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_beverage_a_to_stationery_b_5894
+dataset_uuid: fe2c2188-fd79-4728-8ed9-33d886d51e75
+task_descriptions:
+- place_the_beverage_a_and_place_in_the_stationery_b
+scene_type:
+- factory
+- laboratory
+atomic_actions:
+- pick
+- slide
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.1
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

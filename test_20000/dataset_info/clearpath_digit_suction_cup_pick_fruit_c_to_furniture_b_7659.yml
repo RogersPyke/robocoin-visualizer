@@ -1,0 +1,27 @@
+dataset_name: pick_fruit_c_to_furniture_b_7659
+dataset_uuid: e00eadf5-2f7e-4350-ae2b-1342d2ad4163
+task_descriptions:
+- pick_the_fruit_c_and_place_in_the_furniture_b
+scene_type:
+- restaurant
+- laboratory
+atomic_actions:
+- place
+- lift
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- clearpath_digit
+end_effector_type: suction_cup

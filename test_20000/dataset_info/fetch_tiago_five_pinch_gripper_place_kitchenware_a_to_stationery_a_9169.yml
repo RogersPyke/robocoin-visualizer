@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_a_to_stationery_a_9169
+dataset_uuid: 64c2c838-062b-4592-b3cb-a9da8f57a41a
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_stationery_a
+scene_type:
+- hospital
+atomic_actions:
+- remove
+- place
+- grasp
+- rotate
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.6
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

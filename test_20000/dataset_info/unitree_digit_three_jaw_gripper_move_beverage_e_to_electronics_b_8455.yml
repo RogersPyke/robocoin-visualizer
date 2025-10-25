@@ -1,0 +1,30 @@
+dataset_name: move_beverage_e_to_electronics_b_8455
+dataset_uuid: 97773c3f-27b8-4137-b9fc-a1e42d6c618b
+task_descriptions:
+- move_the_beverage_e_and_place_in_the_electronics_b
+scene_type:
+- warehouse
+- kitchen
+- restaurant
+atomic_actions:
+- slide
+- insert
+- pick
+- lift
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.9
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

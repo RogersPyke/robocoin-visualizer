@@ -1,0 +1,27 @@
+dataset_name: stack_food_a_to_electronics_c_6473
+dataset_uuid: 398088a0-524d-4c34-8b98-04487dcad337
+task_descriptions:
+- stack_the_food_a_and_place_in_the_electronics_c
+scene_type:
+- office
+atomic_actions:
+- insert
+- slide
+- push
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

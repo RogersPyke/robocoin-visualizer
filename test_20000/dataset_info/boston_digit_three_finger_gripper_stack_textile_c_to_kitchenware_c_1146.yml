@@ -1,0 +1,30 @@
+dataset_name: stack_textile_c_to_kitchenware_c_1146
+dataset_uuid: ec3d9115-9a17-47e9-9038-dd3ccb8a6b54
+task_descriptions:
+- stack_the_textile_c_and_place_in_the_kitchenware_c
+scene_type:
+- office
+- store
+- restaurant
+atomic_actions:
+- rotate
+- remove
+- flip
+- push
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.9
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

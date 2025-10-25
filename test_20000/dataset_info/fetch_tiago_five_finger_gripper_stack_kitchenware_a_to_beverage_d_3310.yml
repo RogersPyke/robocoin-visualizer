@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_a_to_beverage_d_3310
+dataset_uuid: 39dcce90-8180-49fc-94f0-7e7cef0f76f7
+task_descriptions:
+- stack_the_kitchenware_a_and_place_in_the_beverage_d
+scene_type:
+- warehouse
+- office
+- kitchen
+atomic_actions:
+- push
+- insert
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- fetch_tiago
+end_effector_type: five_finger_gripper

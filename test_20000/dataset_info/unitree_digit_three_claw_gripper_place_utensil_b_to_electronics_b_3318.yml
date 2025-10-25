@@ -1,0 +1,29 @@
+dataset_name: place_utensil_b_to_electronics_b_3318
+dataset_uuid: d5f92409-57cd-46c4-a7c1-01f3cca577c2
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_electronics_b
+scene_type:
+- laboratory
+- warehouse
+atomic_actions:
+- insert
+- grasp
+- push
+- place
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 83.5
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

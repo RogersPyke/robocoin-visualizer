@@ -1,0 +1,27 @@
+dataset_name: move_beverage_e_to_furniture_e_3074
+dataset_uuid: 64ad8b64-e2cd-42a9-8b4e-7782fb07bace
+task_descriptions:
+- move_the_beverage_e_and_place_in_the_furniture_e
+scene_type:
+- warehouse
+atomic_actions:
+- insert
+- rotate
+- grasp
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.5
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

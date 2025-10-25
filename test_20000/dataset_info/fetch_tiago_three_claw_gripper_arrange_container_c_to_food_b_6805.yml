@@ -1,0 +1,28 @@
+dataset_name: arrange_container_c_to_food_b_6805
+dataset_uuid: 9fc0e504-5603-445f-9fda-8079b95037c4
+task_descriptions:
+- arrange_the_container_c_and_place_in_the_food_b
+scene_type:
+- warehouse
+atomic_actions:
+- push
+- lower
+- rotate
+- place
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

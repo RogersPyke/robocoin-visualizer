@@ -1,0 +1,27 @@
+dataset_name: arrange_toy_c_to_beverage_a_6717
+dataset_uuid: 7882de5e-888f-4aea-a11b-345284173bf2
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_beverage_a
+scene_type:
+- cafe
+atomic_actions:
+- push
+- place
+- slide
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.7
+device_model:
+- boston_freight
+end_effector_type: suction_cup

@@ -1,0 +1,28 @@
+dataset_name: place_stationery_a_to_textile_e_9027
+dataset_uuid: 453e4802-3215-4d2b-ae03-7cc0d58bc89a
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_textile_e
+scene_type:
+- office
+- home
+- store
+atomic_actions:
+- push
+- insert
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+operation_platform_height: 76.0
+device_model:
+- clearpath_digit
+end_effector_type: suction_cup

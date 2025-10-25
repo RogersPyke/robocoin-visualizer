@@ -1,0 +1,28 @@
+dataset_name: arrange_beverage_d_to_beverage_b_9734
+dataset_uuid: 827d3a9e-182a-442e-bc77-51b36cc98a5e
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_beverage_b
+scene_type:
+- warehouse
+- hospital
+- store
+atomic_actions:
+- push
+- pull
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+operation_platform_height: 74.1
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

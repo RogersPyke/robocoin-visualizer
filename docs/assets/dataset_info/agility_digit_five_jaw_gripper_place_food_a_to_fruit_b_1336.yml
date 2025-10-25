@@ -1,0 +1,27 @@
+dataset_name: place_food_a_to_fruit_b_1336
+dataset_uuid: 5677614d-5e9a-4afd-a779-ffbab778530e
+task_descriptions:
+- place_the_food_a_and_place_in_the_fruit_b
+scene_type:
+- restaurant
+- hospital
+atomic_actions:
+- slide
+- grasp
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- agility_digit
+end_effector_type: five_jaw_gripper

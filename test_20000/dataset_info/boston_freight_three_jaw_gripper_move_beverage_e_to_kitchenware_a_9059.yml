@@ -1,0 +1,29 @@
+dataset_name: move_beverage_e_to_kitchenware_a_9059
+dataset_uuid: e1395ba0-60b9-4ea0-a2e3-892e16f46473
+task_descriptions:
+- move_the_beverage_e_and_place_in_the_kitchenware_a
+scene_type:
+- warehouse
+- laboratory
+- restaurant
+atomic_actions:
+- insert
+- pull
+- pick
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+operation_platform_height: 71.1
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

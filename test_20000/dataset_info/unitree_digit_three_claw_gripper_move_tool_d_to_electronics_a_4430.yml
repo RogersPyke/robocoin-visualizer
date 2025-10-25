@@ -1,0 +1,28 @@
+dataset_name: move_tool_d_to_electronics_a_4430
+dataset_uuid: c498cf82-b18e-443d-92da-52674aa4bd8e
+task_descriptions:
+- move_the_tool_d_and_place_in_the_electronics_a
+scene_type:
+- factory
+- laboratory
+atomic_actions:
+- lower
+- pull
+- flip
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

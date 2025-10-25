@@ -1,0 +1,28 @@
+dataset_name: move_textile_c_to_container_c_7170
+dataset_uuid: f95ddae9-54db-4fce-900f-7dc2e3854f39
+task_descriptions:
+- move_the_textile_c_and_place_in_the_container_c
+scene_type:
+- laboratory
+atomic_actions:
+- pick
+- place
+- rotate
+- lower
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.8
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

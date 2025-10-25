@@ -1,0 +1,27 @@
+dataset_name: arrange_food_e_to_utensil_a_2692
+dataset_uuid: eb85535d-bdc1-4d11-80f1-7bdbe49ffb69
+task_descriptions:
+- arrange_the_food_e_and_place_in_the_utensil_a
+scene_type:
+- factory
+- restaurant
+atomic_actions:
+- push
+- remove
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.6
+device_model:
+- agility_spot
+end_effector_type: suction_cup

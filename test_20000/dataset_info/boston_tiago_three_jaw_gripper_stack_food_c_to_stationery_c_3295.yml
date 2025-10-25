@@ -1,0 +1,28 @@
+dataset_name: stack_food_c_to_stationery_c_3295
+dataset_uuid: 19141db0-860c-4f93-a5e4-774ac8af5a37
+task_descriptions:
+- stack_the_food_c_and_place_in_the_stationery_c
+scene_type:
+- office
+- cafe
+atomic_actions:
+- lower
+- pull
+- lift
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

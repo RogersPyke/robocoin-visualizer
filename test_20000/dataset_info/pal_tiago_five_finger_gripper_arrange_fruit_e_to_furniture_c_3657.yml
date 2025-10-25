@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_e_to_furniture_c_3657
+dataset_uuid: 9ad3fe1b-e4a4-4d93-a900-22f97bea3a70
+task_descriptions:
+- arrange_the_fruit_e_and_place_in_the_furniture_c
+scene_type:
+- factory
+- home
+atomic_actions:
+- pull
+- lift
+- push
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- pal_tiago
+end_effector_type: five_finger_gripper

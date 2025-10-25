@@ -1,0 +1,28 @@
+dataset_name: stack_fruit_c_to_food_b_6510
+dataset_uuid: 51f5496a-3db5-4216-8ed5-186585074eec
+task_descriptions:
+- stack_the_fruit_c_and_place_in_the_food_b
+scene_type:
+- store
+- hospital
+atomic_actions:
+- flip
+- insert
+- place
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

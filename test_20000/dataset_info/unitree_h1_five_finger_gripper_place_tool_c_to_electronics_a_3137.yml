@@ -1,0 +1,27 @@
+dataset_name: place_tool_c_to_electronics_a_3137
+dataset_uuid: b61263b0-6c0b-42b5-9ce5-1c943de2cafe
+task_descriptions:
+- place_the_tool_c_and_place_in_the_electronics_a
+scene_type:
+- factory
+- warehouse
+atomic_actions:
+- pick
+- slide
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.0
+device_model:
+- unitree_h1
+end_effector_type: five_finger_gripper

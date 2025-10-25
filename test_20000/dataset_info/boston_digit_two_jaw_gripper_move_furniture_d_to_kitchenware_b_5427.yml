@@ -1,0 +1,27 @@
+dataset_name: move_furniture_d_to_kitchenware_b_5427
+dataset_uuid: 5e0cceb7-0457-472f-b7aa-8858f6ddda46
+task_descriptions:
+- move_the_furniture_d_and_place_in_the_kitchenware_b
+scene_type:
+- home
+- warehouse
+atomic_actions:
+- pick
+- grasp
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

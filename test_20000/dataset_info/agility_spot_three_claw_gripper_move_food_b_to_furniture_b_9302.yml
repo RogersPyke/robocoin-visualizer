@@ -1,0 +1,27 @@
+dataset_name: move_food_b_to_furniture_b_9302
+dataset_uuid: 48feb1cc-9103-409a-a539-2de99cbdedbf
+task_descriptions:
+- move_the_food_b_and_place_in_the_furniture_b
+scene_type:
+- kitchen
+- store
+atomic_actions:
+- remove
+- place
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_toy_a_to_tool_c_3775
+dataset_uuid: cdb0c00d-ac32-4c65-b427-da584acecc08
+task_descriptions:
+- pick_the_toy_a_and_place_in_the_tool_c
+scene_type:
+- cafe
+- restaurant
+atomic_actions:
+- insert
+- rotate
+- push
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- clearpath_h1
+end_effector_type: two_jaw_gripper

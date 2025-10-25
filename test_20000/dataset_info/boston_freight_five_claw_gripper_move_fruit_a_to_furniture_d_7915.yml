@@ -1,0 +1,28 @@
+dataset_name: move_fruit_a_to_furniture_d_7915
+dataset_uuid: 8ca0b096-4d75-461b-a5ff-e4ff1e9ad237
+task_descriptions:
+- move_the_fruit_a_and_place_in_the_furniture_d
+scene_type:
+- home
+atomic_actions:
+- grasp
+- push
+- insert
+- slide
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.4
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

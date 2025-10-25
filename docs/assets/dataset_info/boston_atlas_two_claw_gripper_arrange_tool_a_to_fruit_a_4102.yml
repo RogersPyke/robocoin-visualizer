@@ -1,0 +1,29 @@
+dataset_name: arrange_tool_a_to_fruit_a_4102
+dataset_uuid: 15f0a53c-64e1-492b-a221-1dc4a95978d7
+task_descriptions:
+- arrange_the_tool_a_and_place_in_the_fruit_a
+scene_type:
+- cafe
+- home
+atomic_actions:
+- place
+- pull
+- grasp
+- slide
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.6
+device_model:
+- boston_atlas
+end_effector_type: two_claw_gripper

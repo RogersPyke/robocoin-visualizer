@@ -1,0 +1,29 @@
+dataset_name: pick_furniture_d_to_stationery_b_1092
+dataset_uuid: f51909ef-ee6d-425d-a27c-48fd99c49942
+task_descriptions:
+- pick_the_furniture_d_and_place_in_the_stationery_b
+scene_type:
+- office
+- laboratory
+- hospital
+atomic_actions:
+- lower
+- grasp
+- lift
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.4
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

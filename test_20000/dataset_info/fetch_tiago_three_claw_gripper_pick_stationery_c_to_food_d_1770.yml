@@ -1,0 +1,30 @@
+dataset_name: pick_stationery_c_to_food_d_1770
+dataset_uuid: 61b98c5b-6581-420b-9d24-721ebc93a285
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_food_d
+scene_type:
+- warehouse
+- office
+- factory
+atomic_actions:
+- rotate
+- pick
+- place
+- slide
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.3
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

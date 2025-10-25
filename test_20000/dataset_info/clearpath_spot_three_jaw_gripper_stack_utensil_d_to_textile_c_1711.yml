@@ -1,0 +1,29 @@
+dataset_name: stack_utensil_d_to_textile_c_1711
+dataset_uuid: 1d54ed4a-5589-4dd0-839d-291fb7ff215b
+task_descriptions:
+- stack_the_utensil_d_and_place_in_the_textile_c
+scene_type:
+- kitchen
+- restaurant
+atomic_actions:
+- insert
+- rotate
+- lower
+- place
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

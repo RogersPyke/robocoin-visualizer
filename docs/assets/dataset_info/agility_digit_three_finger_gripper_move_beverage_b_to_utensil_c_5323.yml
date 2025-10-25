@@ -1,0 +1,30 @@
+dataset_name: move_beverage_b_to_utensil_c_5323
+dataset_uuid: e8568319-74a4-4dde-8ac0-5323b0e1a42f
+task_descriptions:
+- move_the_beverage_b_and_place_in_the_utensil_c
+scene_type:
+- warehouse
+- factory
+- hospital
+atomic_actions:
+- grasp
+- lift
+- rotate
+- place
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.3
+device_model:
+- agility_digit
+end_effector_type: three_finger_gripper

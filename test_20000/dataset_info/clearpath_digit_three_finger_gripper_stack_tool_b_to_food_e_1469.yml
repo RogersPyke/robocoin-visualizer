@@ -1,0 +1,29 @@
+dataset_name: stack_tool_b_to_food_e_1469
+dataset_uuid: 36e54504-8675-42f7-87e1-5aa19f951b13
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_food_e
+scene_type:
+- office
+- store
+atomic_actions:
+- grasp
+- lower
+- rotate
+- place
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

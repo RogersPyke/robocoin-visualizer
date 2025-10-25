@@ -1,0 +1,30 @@
+dataset_name: move_furniture_b_to_electronics_c_7804
+dataset_uuid: 65845df4-ada4-4e7e-a655-74376e338871
+task_descriptions:
+- move_the_furniture_b_and_place_in_the_electronics_c
+scene_type:
+- kitchen
+- hospital
+- store
+atomic_actions:
+- flip
+- slide
+- grasp
+- remove
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 85.0
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_toy_d_to_toy_a_4493
+dataset_uuid: 6e367bea-23f1-4612-b500-1e9fe63199cf
+task_descriptions:
+- pick_the_toy_d_and_place_in_the_toy_a
+scene_type:
+- home
+- cafe
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

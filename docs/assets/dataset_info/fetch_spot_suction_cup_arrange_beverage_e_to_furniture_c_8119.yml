@@ -1,0 +1,30 @@
+dataset_name: arrange_beverage_e_to_furniture_c_8119
+dataset_uuid: a9a6fbaf-9f24-4900-a382-11c59697ed52
+task_descriptions:
+- arrange_the_beverage_e_and_place_in_the_furniture_c
+scene_type:
+- factory
+- laboratory
+- cafe
+atomic_actions:
+- insert
+- remove
+- pull
+- rotate
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+operation_platform_height: 71.6
+device_model:
+- fetch_spot
+end_effector_type: suction_cup

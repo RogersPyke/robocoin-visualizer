@@ -1,0 +1,27 @@
+dataset_name: move_electronics_c_to_furniture_c_4597
+dataset_uuid: aa8ba244-b2a8-4d4c-af87-ff993f299c11
+task_descriptions:
+- move_the_electronics_c_and_place_in_the_furniture_c
+scene_type:
+- home
+atomic_actions:
+- place
+- grasp
+- remove
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.0
+device_model:
+- agility_h1
+end_effector_type: two_pinch_gripper

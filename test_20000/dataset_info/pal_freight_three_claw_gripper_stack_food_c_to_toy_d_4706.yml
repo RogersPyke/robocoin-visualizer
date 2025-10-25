@@ -1,0 +1,27 @@
+dataset_name: stack_food_c_to_toy_d_4706
+dataset_uuid: ea3af23c-64e3-4add-b304-911a0f1756cf
+task_descriptions:
+- stack_the_food_c_and_place_in_the_toy_d
+scene_type:
+- laboratory
+atomic_actions:
+- pull
+- flip
+- pick
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+operation_platform_height: 82.6
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

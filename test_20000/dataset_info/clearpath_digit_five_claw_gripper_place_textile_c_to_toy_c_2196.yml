@@ -1,0 +1,29 @@
+dataset_name: place_textile_c_to_toy_c_2196
+dataset_uuid: ac73a8a5-f412-49d4-8389-fcab91163db5
+task_descriptions:
+- place_the_textile_c_and_place_in_the_toy_c
+scene_type:
+- kitchen
+- restaurant
+atomic_actions:
+- slide
+- insert
+- grasp
+- lower
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.4
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

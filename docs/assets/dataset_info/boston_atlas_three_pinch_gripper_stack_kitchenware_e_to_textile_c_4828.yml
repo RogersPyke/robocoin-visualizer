@@ -1,0 +1,27 @@
+dataset_name: stack_kitchenware_e_to_textile_c_4828
+dataset_uuid: 1534b9c2-23b2-4fb7-8edd-fe6714befeb8
+task_descriptions:
+- stack_the_kitchenware_e_and_place_in_the_textile_c
+scene_type:
+- store
+atomic_actions:
+- rotate
+- remove
+- pick
+objects:
+- object_name: kitchenware_e
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- boston_atlas
+end_effector_type: three_pinch_gripper

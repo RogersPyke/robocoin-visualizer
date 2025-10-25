@@ -1,0 +1,29 @@
+dataset_name: move_textile_d_to_tool_d_9239
+dataset_uuid: bcf4672e-d6c9-413c-979e-fdae988b2642
+task_descriptions:
+- move_the_textile_d_and_place_in_the_tool_d
+scene_type:
+- store
+- kitchen
+atomic_actions:
+- lift
+- place
+- pull
+- remove
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

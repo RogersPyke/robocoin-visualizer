@@ -1,0 +1,29 @@
+dataset_name: arrange_stationery_a_to_kitchenware_b_2626
+dataset_uuid: f3588ad3-a0df-4428-ac3c-51fd07df99a1
+task_descriptions:
+- arrange_the_stationery_a_and_place_in_the_kitchenware_b
+scene_type:
+- hospital
+- store
+- restaurant
+atomic_actions:
+- remove
+- insert
+- lower
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.6
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

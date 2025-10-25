@@ -1,0 +1,29 @@
+dataset_name: pick_food_b_to_beverage_b_9218
+dataset_uuid: e0a4fca7-6959-4933-a7ce-3ddeaa3bd370
+task_descriptions:
+- pick_the_food_b_and_place_in_the_beverage_b
+scene_type:
+- cafe
+- kitchen
+- laboratory
+atomic_actions:
+- slide
+- pick
+- flip
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+operation_platform_height: 88.1
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

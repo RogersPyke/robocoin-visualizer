@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_c_to_furniture_a_4355
+dataset_uuid: 09c966b3-2dff-4846-a40a-74729b986fc2
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_furniture_a
+scene_type:
+- kitchen
+atomic_actions:
+- pull
+- flip
+- insert
+- grasp
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

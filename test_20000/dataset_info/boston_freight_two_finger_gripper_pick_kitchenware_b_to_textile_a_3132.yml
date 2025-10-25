@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_b_to_textile_a_3132
+dataset_uuid: 6fb91f22-1444-45e2-9335-e1bb3427dadd
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_textile_a
+scene_type:
+- store
+- home
+atomic_actions:
+- insert
+- grasp
+- place
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 85.2
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

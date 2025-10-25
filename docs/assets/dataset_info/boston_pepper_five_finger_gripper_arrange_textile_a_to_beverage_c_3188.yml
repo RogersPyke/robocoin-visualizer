@@ -1,0 +1,29 @@
+dataset_name: arrange_textile_a_to_beverage_c_3188
+dataset_uuid: 33831f2f-ccfc-4ff9-bf1f-9e5ac9ce48cb
+task_descriptions:
+- arrange_the_textile_a_and_place_in_the_beverage_c
+scene_type:
+- factory
+- office
+- home
+atomic_actions:
+- place
+- slide
+- rotate
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.3
+device_model:
+- boston_pepper
+end_effector_type: five_finger_gripper

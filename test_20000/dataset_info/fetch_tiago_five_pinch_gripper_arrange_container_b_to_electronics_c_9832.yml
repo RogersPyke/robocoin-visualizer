@@ -1,0 +1,28 @@
+dataset_name: arrange_container_b_to_electronics_c_9832
+dataset_uuid: edd2cfe9-766a-4564-82f9-3ff864429bb2
+task_descriptions:
+- arrange_the_container_b_and_place_in_the_electronics_c
+scene_type:
+- factory
+atomic_actions:
+- flip
+- place
+- pull
+- lift
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.3
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_furniture_b_to_textile_d_1608
+dataset_uuid: 596aa527-4651-429c-a314-12d4a1aecdbc
+task_descriptions:
+- arrange_the_furniture_b_and_place_in_the_textile_d
+scene_type:
+- restaurant
+atomic_actions:
+- lower
+- pull
+- grasp
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.0
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

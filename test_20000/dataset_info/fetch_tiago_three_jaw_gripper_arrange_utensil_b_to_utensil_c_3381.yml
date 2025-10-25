@@ -1,0 +1,30 @@
+dataset_name: arrange_utensil_b_to_utensil_c_3381
+dataset_uuid: 8e651a9a-4c80-4b19-b84e-ca2394b0fb38
+task_descriptions:
+- arrange_the_utensil_b_and_place_in_the_utensil_c
+scene_type:
+- restaurant
+- factory
+- warehouse
+atomic_actions:
+- pull
+- remove
+- lift
+- lower
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

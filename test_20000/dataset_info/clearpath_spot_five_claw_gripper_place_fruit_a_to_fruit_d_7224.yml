@@ -1,0 +1,28 @@
+dataset_name: place_fruit_a_to_fruit_d_7224
+dataset_uuid: a54980cb-a94b-4119-8923-d78ef8f14329
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_fruit_d
+scene_type:
+- factory
+- warehouse
+atomic_actions:
+- lower
+- insert
+- push
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

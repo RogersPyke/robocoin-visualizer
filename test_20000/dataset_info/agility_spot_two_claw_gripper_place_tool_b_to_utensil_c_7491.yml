@@ -1,0 +1,28 @@
+dataset_name: place_tool_b_to_utensil_c_7491
+dataset_uuid: ac0ceaba-0f7a-4765-9186-442114364316
+task_descriptions:
+- place_the_tool_b_and_place_in_the_utensil_c
+scene_type:
+- cafe
+atomic_actions:
+- rotate
+- pull
+- lower
+- place
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- agility_spot
+end_effector_type: two_claw_gripper

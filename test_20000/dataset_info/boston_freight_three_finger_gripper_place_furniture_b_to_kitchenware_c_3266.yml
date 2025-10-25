@@ -1,0 +1,27 @@
+dataset_name: place_furniture_b_to_kitchenware_c_3266
+dataset_uuid: 2f217f61-4fd6-4966-9f4e-68eef2cb2081
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_kitchenware_c
+scene_type:
+- office
+atomic_actions:
+- remove
+- grasp
+- pick
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.1
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_c_to_beverage_b_3564
+dataset_uuid: b82069c6-4ec2-48d1-8aa8-8b1a87808dbc
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_beverage_b
+scene_type:
+- office
+- hospital
+- kitchen
+atomic_actions:
+- insert
+- rotate
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

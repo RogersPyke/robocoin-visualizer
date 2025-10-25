@@ -1,0 +1,28 @@
+dataset_name: place_furniture_a_to_kitchenware_b_7698
+dataset_uuid: e31d2e5f-b7d5-4c51-bb68-5dde8d6ceac2
+task_descriptions:
+- place_the_furniture_a_and_place_in_the_kitchenware_b
+scene_type:
+- warehouse
+- factory
+- home
+atomic_actions:
+- flip
+- slide
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.9
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

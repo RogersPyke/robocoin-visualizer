@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_a_to_furniture_e_7854
+dataset_uuid: 4252b036-be65-4ff1-bf32-4ca29218786d
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_furniture_e
+scene_type:
+- store
+- factory
+atomic_actions:
+- pull
+- pick
+- lower
+- rotate
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+operation_platform_height: 83.7
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

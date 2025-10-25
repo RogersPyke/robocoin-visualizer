@@ -1,0 +1,30 @@
+dataset_name: move_beverage_d_to_utensil_c_3381
+dataset_uuid: 983a5917-6b24-4355-9600-0a1aaa26b76f
+task_descriptions:
+- move_the_beverage_d_and_place_in_the_utensil_c
+scene_type:
+- restaurant
+- store
+- factory
+atomic_actions:
+- lower
+- lift
+- insert
+- remove
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

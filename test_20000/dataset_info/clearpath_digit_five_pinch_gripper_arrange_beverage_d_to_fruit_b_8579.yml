@@ -1,0 +1,28 @@
+dataset_name: arrange_beverage_d_to_fruit_b_8579
+dataset_uuid: 7f25eb22-e655-41e5-aa2d-fa5b1eceec4b
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_fruit_b
+scene_type:
+- home
+- kitchen
+atomic_actions:
+- pull
+- flip
+- pick
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

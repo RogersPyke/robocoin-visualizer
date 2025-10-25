@@ -1,0 +1,26 @@
+dataset_name: place_stationery_a_to_kitchenware_d_1509
+dataset_uuid: 9e1d09e3-9753-465c-9a59-555b0e6ed164
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_kitchenware_d
+scene_type:
+- store
+atomic_actions:
+- lift
+- pick
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_d
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.1
+device_model:
+- agility_digit
+end_effector_type: suction_cup

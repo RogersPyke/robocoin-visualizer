@@ -1,0 +1,28 @@
+dataset_name: place_food_b_to_container_a_4487
+dataset_uuid: a3bb6ff2-5d3d-4c9a-aad8-ddc3c766db05
+task_descriptions:
+- place_the_food_b_and_place_in_the_container_a
+scene_type:
+- store
+- laboratory
+- warehouse
+atomic_actions:
+- flip
+- lift
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

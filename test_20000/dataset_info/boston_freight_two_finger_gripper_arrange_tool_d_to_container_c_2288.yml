@@ -1,0 +1,26 @@
+dataset_name: arrange_tool_d_to_container_c_2288
+dataset_uuid: f7c1a5fd-4a80-4af3-a1c6-9f8041a9c523
+task_descriptions:
+- arrange_the_tool_d_and_place_in_the_container_c
+scene_type:
+- cafe
+atomic_actions:
+- insert
+- slide
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

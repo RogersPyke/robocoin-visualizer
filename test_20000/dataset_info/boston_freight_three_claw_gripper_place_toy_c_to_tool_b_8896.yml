@@ -1,0 +1,28 @@
+dataset_name: place_toy_c_to_tool_b_8896
+dataset_uuid: 5f067564-30b6-4d55-90c7-3593cd1d9d12
+task_descriptions:
+- place_the_toy_c_and_place_in_the_tool_b
+scene_type:
+- laboratory
+atomic_actions:
+- rotate
+- lower
+- slide
+- place
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 86.6
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

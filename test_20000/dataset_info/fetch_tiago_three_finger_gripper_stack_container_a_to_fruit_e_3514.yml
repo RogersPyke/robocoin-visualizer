@@ -1,0 +1,26 @@
+dataset_name: stack_container_a_to_fruit_e_3514
+dataset_uuid: 5abc8ac3-2830-496c-a99a-9cedf8228ed0
+task_descriptions:
+- stack_the_container_a_and_place_in_the_fruit_e
+scene_type:
+- restaurant
+atomic_actions:
+- pull
+- lift
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.3
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

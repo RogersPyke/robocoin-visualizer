@@ -1,0 +1,28 @@
+dataset_name: move_textile_b_to_stationery_d_6648
+dataset_uuid: bc3876d9-f706-4054-829b-1569fbe30942
+task_descriptions:
+- move_the_textile_b_and_place_in_the_stationery_d
+scene_type:
+- warehouse
+atomic_actions:
+- slide
+- pull
+- pick
+- place
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+- object_name: stationery_d
+  level1: stationery
+  level2: stationery_d
+  level3: stationery_d_sub1
+  level4: stationery_d_sub2
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- boston_atlas
+end_effector_type: five_jaw_gripper

@@ -1,0 +1,30 @@
+dataset_name: place_toy_a_to_container_b_1346
+dataset_uuid: 52a7c12c-0bfc-4fed-8cda-9231a3384e40
+task_descriptions:
+- place_the_toy_a_and_place_in_the_container_b
+scene_type:
+- cafe
+- warehouse
+- store
+atomic_actions:
+- remove
+- rotate
+- push
+- insert
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.1
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

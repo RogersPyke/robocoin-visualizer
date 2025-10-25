@@ -1,0 +1,26 @@
+dataset_name: pick_beverage_a_to_utensil_d_8118
+dataset_uuid: 1d9d5bd1-6441-40de-8de9-c21228aa3ff8
+task_descriptions:
+- pick_the_beverage_a_and_place_in_the_utensil_d
+scene_type:
+- cafe
+atomic_actions:
+- pull
+- lift
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.5
+device_model:
+- agility_digit
+end_effector_type: two_claw_gripper

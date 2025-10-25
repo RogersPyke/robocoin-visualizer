@@ -1,0 +1,27 @@
+dataset_name: place_food_e_to_tool_d_8304
+dataset_uuid: 23e6a6c6-38ac-41fe-b0cf-29534d6d15c5
+task_descriptions:
+- place_the_food_e_and_place_in_the_tool_d
+scene_type:
+- hospital
+atomic_actions:
+- lift
+- insert
+- pull
+objects:
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

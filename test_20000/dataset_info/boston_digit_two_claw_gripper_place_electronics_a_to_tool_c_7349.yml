@@ -1,0 +1,26 @@
+dataset_name: place_electronics_a_to_tool_c_7349
+dataset_uuid: 0219fcb5-138c-4fb8-aa70-0c00aed67913
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_tool_c
+scene_type:
+- store
+atomic_actions:
+- insert
+- pull
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- boston_digit
+end_effector_type: two_claw_gripper

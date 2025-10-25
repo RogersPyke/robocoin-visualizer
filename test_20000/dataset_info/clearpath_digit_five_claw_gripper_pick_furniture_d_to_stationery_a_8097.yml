@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_d_to_stationery_a_8097
+dataset_uuid: 751d2797-9643-411e-b676-b4aba4f101bf
+task_descriptions:
+- pick_the_furniture_d_and_place_in_the_stationery_a
+scene_type:
+- factory
+atomic_actions:
+- pick
+- insert
+- grasp
+- push
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

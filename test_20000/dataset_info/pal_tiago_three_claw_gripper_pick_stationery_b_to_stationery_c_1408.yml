@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_b_to_stationery_c_1408
+dataset_uuid: 48d9e53d-cd2d-47d2-9b58-84cfc345b609
+task_descriptions:
+- pick_the_stationery_b_and_place_in_the_stationery_c
+scene_type:
+- office
+atomic_actions:
+- push
+- rotate
+- grasp
+- insert
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.0
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

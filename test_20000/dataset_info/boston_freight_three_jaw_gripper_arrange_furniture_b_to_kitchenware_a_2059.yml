@@ -1,0 +1,27 @@
+dataset_name: arrange_furniture_b_to_kitchenware_a_2059
+dataset_uuid: feb2bb0b-3beb-4c48-857b-35e7554ddd64
+task_descriptions:
+- arrange_the_furniture_b_and_place_in_the_kitchenware_a
+scene_type:
+- hospital
+atomic_actions:
+- slide
+- lower
+- push
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+operation_platform_height: 74.7
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

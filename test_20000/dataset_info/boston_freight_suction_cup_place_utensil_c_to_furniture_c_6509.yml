@@ -1,0 +1,29 @@
+dataset_name: place_utensil_c_to_furniture_c_6509
+dataset_uuid: 4920050c-6ef7-4174-9aeb-ef3e09ef52d4
+task_descriptions:
+- place_the_utensil_c_and_place_in_the_furniture_c
+scene_type:
+- factory
+- restaurant
+- store
+atomic_actions:
+- insert
+- lift
+- lower
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- boston_freight
+end_effector_type: suction_cup

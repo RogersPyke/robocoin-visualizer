@@ -1,0 +1,27 @@
+dataset_name: arrange_tool_c_to_food_d_4939
+dataset_uuid: 0aea669f-a197-4f6d-afde-d57a16d10fc8
+task_descriptions:
+- arrange_the_tool_c_and_place_in_the_food_d
+scene_type:
+- kitchen
+atomic_actions:
+- pull
+- rotate
+- place
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_stationery_c_to_textile_d_8248
+dataset_uuid: 34c27b13-bd81-4298-94fe-5fdb9ff3e439
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_textile_d
+scene_type:
+- kitchen
+atomic_actions:
+- pick
+- slide
+- place
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+operation_platform_height: 76.5
+device_model:
+- boston_h1
+end_effector_type: two_finger_gripper

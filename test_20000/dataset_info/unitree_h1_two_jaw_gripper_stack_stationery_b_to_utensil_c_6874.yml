@@ -1,0 +1,30 @@
+dataset_name: stack_stationery_b_to_utensil_c_6874
+dataset_uuid: 9bd4d8a2-8e99-4dfc-af7e-9aca27f2c086
+task_descriptions:
+- stack_the_stationery_b_and_place_in_the_utensil_c
+scene_type:
+- restaurant
+- cafe
+- warehouse
+atomic_actions:
+- pull
+- pick
+- place
+- flip
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

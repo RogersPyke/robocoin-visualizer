@@ -1,0 +1,28 @@
+dataset_name: stack_food_c_to_food_a_8018
+dataset_uuid: 137dcfe1-020d-4a57-9e52-51d54674c17d
+task_descriptions:
+- stack_the_food_c_and_place_in_the_food_a
+scene_type:
+- warehouse
+atomic_actions:
+- lower
+- push
+- rotate
+- insert
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.1
+device_model:
+- pal_spot
+end_effector_type: five_claw_gripper

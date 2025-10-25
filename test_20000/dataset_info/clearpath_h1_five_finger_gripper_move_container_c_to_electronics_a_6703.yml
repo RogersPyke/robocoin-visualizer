@@ -1,0 +1,29 @@
+dataset_name: move_container_c_to_electronics_a_6703
+dataset_uuid: 28c0819c-3285-4c77-81d3-006ad5832be9
+task_descriptions:
+- move_the_container_c_and_place_in_the_electronics_a
+scene_type:
+- restaurant
+- warehouse
+atomic_actions:
+- place
+- pull
+- push
+- slide
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 87.7
+device_model:
+- clearpath_h1
+end_effector_type: five_finger_gripper

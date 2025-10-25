@@ -1,0 +1,29 @@
+dataset_name: arrange_beverage_d_to_fruit_b_3311
+dataset_uuid: 4b120437-5c61-4cc5-8098-644b9bcc269a
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_fruit_b
+scene_type:
+- warehouse
+- office
+- kitchen
+atomic_actions:
+- grasp
+- place
+- pick
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

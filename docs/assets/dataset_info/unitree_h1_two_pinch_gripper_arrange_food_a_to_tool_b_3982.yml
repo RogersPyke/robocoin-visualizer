@@ -1,0 +1,29 @@
+dataset_name: arrange_food_a_to_tool_b_3982
+dataset_uuid: b7cce9b1-c249-4edb-b22a-6cc87c371c34
+task_descriptions:
+- arrange_the_food_a_and_place_in_the_tool_b
+scene_type:
+- cafe
+- kitchen
+atomic_actions:
+- pick
+- lift
+- remove
+- grasp
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 78.2
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

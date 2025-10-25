@@ -1,0 +1,29 @@
+dataset_name: place_toy_a_to_container_d_1852
+dataset_uuid: e94ea341-1b23-4aa5-9e9a-8c735501a722
+task_descriptions:
+- place_the_toy_a_and_place_in_the_container_d
+scene_type:
+- office
+- cafe
+atomic_actions:
+- push
+- place
+- grasp
+- flip
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_d
+  level1: container
+  level2: container_d
+  level3: container_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- boston_pepper
+end_effector_type: five_claw_gripper

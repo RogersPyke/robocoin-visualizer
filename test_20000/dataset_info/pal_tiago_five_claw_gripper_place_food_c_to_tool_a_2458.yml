@@ -1,0 +1,27 @@
+dataset_name: place_food_c_to_tool_a_2458
+dataset_uuid: 06f92d79-80ab-4b7f-8bd8-951ae0511fae
+task_descriptions:
+- place_the_food_c_and_place_in_the_tool_a
+scene_type:
+- kitchen
+atomic_actions:
+- insert
+- slide
+- rotate
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.8
+device_model:
+- pal_tiago
+end_effector_type: five_claw_gripper

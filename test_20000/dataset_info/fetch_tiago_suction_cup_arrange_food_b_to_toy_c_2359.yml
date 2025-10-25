@@ -1,0 +1,26 @@
+dataset_name: arrange_food_b_to_toy_c_2359
+dataset_uuid: d38d489a-4a5e-4d0a-b5d6-146f50c7d5d2
+task_descriptions:
+- arrange_the_food_b_and_place_in_the_toy_c
+scene_type:
+- kitchen
+atomic_actions:
+- flip
+- remove
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.8
+device_model:
+- fetch_tiago
+end_effector_type: suction_cup

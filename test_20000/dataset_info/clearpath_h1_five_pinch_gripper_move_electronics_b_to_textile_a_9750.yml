@@ -1,0 +1,28 @@
+dataset_name: move_electronics_b_to_textile_a_9750
+dataset_uuid: f6df640e-5792-4bb0-8dca-75fa09fb4995
+task_descriptions:
+- move_the_electronics_b_and_place_in_the_textile_a
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- insert
+- remove
+- grasp
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

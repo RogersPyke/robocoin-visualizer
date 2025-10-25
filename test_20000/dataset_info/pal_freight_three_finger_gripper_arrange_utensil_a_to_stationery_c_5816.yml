@@ -1,0 +1,29 @@
+dataset_name: arrange_utensil_a_to_stationery_c_5816
+dataset_uuid: a9176f85-79d7-4ef1-91ea-07f46428a9b5
+task_descriptions:
+- arrange_the_utensil_a_and_place_in_the_stationery_c
+scene_type:
+- home
+- hospital
+atomic_actions:
+- pick
+- slide
+- insert
+- lift
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.0
+device_model:
+- pal_freight
+end_effector_type: three_finger_gripper

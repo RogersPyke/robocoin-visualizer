@@ -1,0 +1,28 @@
+dataset_name: place_container_b_to_electronics_a_4963
+dataset_uuid: 2439d598-5b30-48da-8ff8-009c25907cb9
+task_descriptions:
+- place_the_container_b_and_place_in_the_electronics_a
+scene_type:
+- laboratory
+- warehouse
+atomic_actions:
+- grasp
+- pick
+- push
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

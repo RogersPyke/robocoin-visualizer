@@ -1,0 +1,29 @@
+dataset_name: move_toy_c_to_electronics_a_4195
+dataset_uuid: eea24d67-1d79-4c11-8de9-3cf4e541c5a1
+task_descriptions:
+- move_the_toy_c_and_place_in_the_electronics_a
+scene_type:
+- store
+- factory
+atomic_actions:
+- remove
+- lower
+- pull
+- flip
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.0
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

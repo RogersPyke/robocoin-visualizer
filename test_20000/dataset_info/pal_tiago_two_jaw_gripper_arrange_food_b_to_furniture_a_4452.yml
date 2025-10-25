@@ -1,0 +1,28 @@
+dataset_name: arrange_food_b_to_furniture_a_4452
+dataset_uuid: bfec5fff-339e-46ae-bdf0-5e3432a14475
+task_descriptions:
+- arrange_the_food_b_and_place_in_the_furniture_a
+scene_type:
+- factory
+- kitchen
+- store
+atomic_actions:
+- pull
+- grasp
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+operation_platform_height: 83.5
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

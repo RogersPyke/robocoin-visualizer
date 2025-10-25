@@ -1,0 +1,28 @@
+dataset_name: stack_textile_d_to_kitchenware_a_3333
+dataset_uuid: 84d0edd0-3876-4ac7-aa49-0ea39b0c7123
+task_descriptions:
+- stack_the_textile_d_and_place_in_the_kitchenware_a
+scene_type:
+- kitchen
+atomic_actions:
+- push
+- grasp
+- pull
+- pick
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

@@ -1,0 +1,30 @@
+dataset_name: arrange_beverage_a_to_furniture_e_9022
+dataset_uuid: c6409071-77f2-44ba-8b97-8962632f8dbd
+task_descriptions:
+- arrange_the_beverage_a_and_place_in_the_furniture_e
+scene_type:
+- warehouse
+- store
+- hospital
+atomic_actions:
+- place
+- slide
+- flip
+- push
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

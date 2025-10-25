@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_a_to_beverage_e_4767
+dataset_uuid: 064fdd02-5e71-426b-9de0-8d1372e5835d
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_beverage_e
+scene_type:
+- laboratory
+atomic_actions:
+- push
+- remove
+- grasp
+- rotate
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+operation_platform_height: 84.1
+device_model:
+- pal_freight
+end_effector_type: five_claw_gripper

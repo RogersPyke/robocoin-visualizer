@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_c_to_furniture_c_3314
+dataset_uuid: 8514e8f5-b100-4806-943d-dd512baecc91
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_furniture_c
+scene_type:
+- office
+- restaurant
+- hospital
+atomic_actions:
+- insert
+- pull
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.4
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

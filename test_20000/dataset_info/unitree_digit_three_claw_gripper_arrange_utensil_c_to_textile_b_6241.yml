@@ -1,0 +1,27 @@
+dataset_name: arrange_utensil_c_to_textile_b_6241
+dataset_uuid: 1bb4272d-a321-46cb-ba34-03ee290c8bc5
+task_descriptions:
+- arrange_the_utensil_c_and_place_in_the_textile_b
+scene_type:
+- factory
+atomic_actions:
+- flip
+- lower
+- place
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.3
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

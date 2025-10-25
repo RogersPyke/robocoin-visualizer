@@ -1,0 +1,28 @@
+dataset_name: place_utensil_c_to_food_a_2113
+dataset_uuid: 57061c46-2950-44f7-a4c3-5250f4c3480f
+task_descriptions:
+- place_the_utensil_c_and_place_in_the_food_a
+scene_type:
+- hospital
+atomic_actions:
+- pick
+- insert
+- remove
+- lift
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

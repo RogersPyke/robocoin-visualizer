@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_c_to_tool_b_4887
+dataset_uuid: 762eb415-7662-435d-b815-fb2d46814351
+task_descriptions:
+- arrange_the_textile_c_and_place_in_the_tool_b
+scene_type:
+- store
+atomic_actions:
+- slide
+- pick
+- flip
+- place
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.1
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

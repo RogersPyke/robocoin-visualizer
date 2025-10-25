@@ -1,0 +1,28 @@
+dataset_name: move_beverage_d_to_utensil_d_3703
+dataset_uuid: 5dc28a8a-25e5-49a8-acd0-d101729a42ff
+task_descriptions:
+- move_the_beverage_d_and_place_in_the_utensil_d
+scene_type:
+- hospital
+atomic_actions:
+- lift
+- grasp
+- pick
+- place
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

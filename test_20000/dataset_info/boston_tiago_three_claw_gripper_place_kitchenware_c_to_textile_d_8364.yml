@@ -1,0 +1,29 @@
+dataset_name: place_kitchenware_c_to_textile_d_8364
+dataset_uuid: e3d7ab7f-03b3-45bf-8a9e-e9b85eee0880
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_textile_d
+scene_type:
+- restaurant
+- kitchen
+- hospital
+atomic_actions:
+- slide
+- place
+- push
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.4
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

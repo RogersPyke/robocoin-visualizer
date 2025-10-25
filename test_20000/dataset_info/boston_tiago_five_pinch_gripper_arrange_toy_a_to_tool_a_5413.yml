@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_a_to_tool_a_5413
+dataset_uuid: 9cd5d044-f425-4db6-9ee3-11ad1c8fad7c
+task_descriptions:
+- arrange_the_toy_a_and_place_in_the_tool_a
+scene_type:
+- home
+atomic_actions:
+- place
+- lift
+- push
+- remove
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.1
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

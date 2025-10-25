@@ -1,0 +1,27 @@
+dataset_name: pick_food_d_to_food_c_4768
+dataset_uuid: 613a9426-5e1e-47da-9c7a-592543ad7ff4
+task_descriptions:
+- pick_the_food_d_and_place_in_the_food_c
+scene_type:
+- kitchen
+- office
+atomic_actions:
+- push
+- rotate
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: food_c_sub2
+  level5: null
+operation_platform_height: 75.1
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

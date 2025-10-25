@@ -1,0 +1,27 @@
+dataset_name: arrange_kitchenware_b_to_textile_a_1511
+dataset_uuid: 96aaa926-f0d9-4900-b289-de79a618d19b
+task_descriptions:
+- arrange_the_kitchenware_b_and_place_in_the_textile_a
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- lower
+- insert
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.7
+device_model:
+- unitree_digit
+end_effector_type: suction_cup

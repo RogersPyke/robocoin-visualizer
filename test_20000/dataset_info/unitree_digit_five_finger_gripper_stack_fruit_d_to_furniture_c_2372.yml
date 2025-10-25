@@ -1,0 +1,29 @@
+dataset_name: stack_fruit_d_to_furniture_c_2372
+dataset_uuid: 68100d4a-a8b4-4c5e-82b1-2e4f3d9752c6
+task_descriptions:
+- stack_the_fruit_d_and_place_in_the_furniture_c
+scene_type:
+- laboratory
+- office
+- factory
+atomic_actions:
+- slide
+- pick
+- flip
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

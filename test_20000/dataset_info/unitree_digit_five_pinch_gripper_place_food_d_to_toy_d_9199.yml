@@ -1,0 +1,26 @@
+dataset_name: place_food_d_to_toy_d_9199
+dataset_uuid: eecce533-967d-4ffb-9b9c-0356da2286c6
+task_descriptions:
+- place_the_food_d_and_place_in_the_toy_d
+scene_type:
+- hospital
+atomic_actions:
+- push
+- place
+objects:
+- object_name: food_d
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

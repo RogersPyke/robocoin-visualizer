@@ -1,0 +1,28 @@
+dataset_name: place_container_b_to_toy_a_1423
+dataset_uuid: a1629253-a580-4ac1-96c1-f5fa00b0e002
+task_descriptions:
+- place_the_container_b_and_place_in_the_toy_a
+scene_type:
+- hospital
+- laboratory
+- cafe
+atomic_actions:
+- pull
+- rotate
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- pal_tiago
+end_effector_type: five_claw_gripper

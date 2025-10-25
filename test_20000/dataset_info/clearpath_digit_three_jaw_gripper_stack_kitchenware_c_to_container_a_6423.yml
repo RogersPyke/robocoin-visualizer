@@ -1,0 +1,27 @@
+dataset_name: stack_kitchenware_c_to_container_a_6423
+dataset_uuid: 785c50a1-6e47-4700-850b-b7c67213b103
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_container_a
+scene_type:
+- cafe
+- restaurant
+atomic_actions:
+- slide
+- pull
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

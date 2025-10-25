@@ -1,0 +1,26 @@
+dataset_name: stack_textile_b_to_container_c_7564
+dataset_uuid: 7d37f7a9-161a-4fb7-af5c-be0362009f5b
+task_descriptions:
+- stack_the_textile_b_and_place_in_the_container_c
+scene_type:
+- restaurant
+atomic_actions:
+- place
+- remove
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

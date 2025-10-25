@@ -1,0 +1,27 @@
+dataset_name: arrange_utensil_a_to_utensil_d_4842
+dataset_uuid: 5633108d-c353-4cc2-821d-58cc36733859
+task_descriptions:
+- arrange_the_utensil_a_and_place_in_the_utensil_d
+scene_type:
+- laboratory
+- warehouse
+atomic_actions:
+- insert
+- grasp
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 77.3
+device_model:
+- agility_spot
+end_effector_type: five_claw_gripper

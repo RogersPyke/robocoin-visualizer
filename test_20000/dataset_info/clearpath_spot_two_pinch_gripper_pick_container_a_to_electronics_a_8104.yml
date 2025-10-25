@@ -1,0 +1,30 @@
+dataset_name: pick_container_a_to_electronics_a_8104
+dataset_uuid: a32a8627-14d3-4b4d-a1e3-2f7f9eb46f58
+task_descriptions:
+- pick_the_container_a_and_place_in_the_electronics_a
+scene_type:
+- factory
+- warehouse
+- kitchen
+atomic_actions:
+- pick
+- pull
+- remove
+- grasp
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

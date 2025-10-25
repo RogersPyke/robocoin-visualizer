@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_e_to_utensil_b_8260
+dataset_uuid: 77ee82f2-d05c-4deb-99f9-f0a51fe52433
+task_descriptions:
+- pick_the_stationery_e_and_place_in_the_utensil_b
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- insert
+- lift
+- pull
+- push
+objects:
+- object_name: stationery_e
+  level1: stationery
+  level2: stationery_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 88.8
+device_model:
+- unitree_h1
+end_effector_type: five_jaw_gripper

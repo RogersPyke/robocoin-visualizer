@@ -1,0 +1,28 @@
+dataset_name: place_stationery_c_to_stationery_b_9256
+dataset_uuid: 0df681b3-be0c-47ce-a007-651fec50ed8f
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_stationery_b
+scene_type:
+- factory
+atomic_actions:
+- pick
+- rotate
+- insert
+- remove
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

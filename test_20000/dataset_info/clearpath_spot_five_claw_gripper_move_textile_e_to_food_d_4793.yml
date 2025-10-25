@@ -1,0 +1,26 @@
+dataset_name: move_textile_e_to_food_d_4793
+dataset_uuid: 2fa20185-6ce8-4698-857c-b5f5ecccc19c
+task_descriptions:
+- move_the_textile_e_and_place_in_the_food_d
+scene_type:
+- laboratory
+atomic_actions:
+- push
+- grasp
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

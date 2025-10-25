@@ -1,0 +1,30 @@
+dataset_name: move_textile_c_to_kitchenware_b_5343
+dataset_uuid: ccab9c99-bee0-4202-922f-0c4fa98d8383
+task_descriptions:
+- move_the_textile_c_and_place_in_the_kitchenware_b
+scene_type:
+- kitchen
+- store
+- restaurant
+atomic_actions:
+- lift
+- slide
+- pick
+- insert
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

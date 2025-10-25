@@ -1,0 +1,28 @@
+dataset_name: arrange_utensil_c_to_fruit_b_8303
+dataset_uuid: 095625aa-035e-4965-b62e-52f098350c63
+task_descriptions:
+- arrange_the_utensil_c_and_place_in_the_fruit_b
+scene_type:
+- office
+- cafe
+atomic_actions:
+- pull
+- lift
+- rotate
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- fetch_tiago
+end_effector_type: two_finger_gripper

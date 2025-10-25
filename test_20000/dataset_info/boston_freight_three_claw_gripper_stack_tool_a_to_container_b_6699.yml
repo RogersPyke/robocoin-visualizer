@@ -1,0 +1,28 @@
+dataset_name: stack_tool_a_to_container_b_6699
+dataset_uuid: fce0b3d0-0284-4d31-b95d-b58fc7aabd17
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_container_b
+scene_type:
+- hospital
+- kitchen
+- laboratory
+atomic_actions:
+- lower
+- place
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

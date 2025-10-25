@@ -1,0 +1,30 @@
+dataset_name: arrange_container_b_to_stationery_c_7881
+dataset_uuid: 50031b83-004c-4348-a909-4b06ec3cf5fe
+task_descriptions:
+- arrange_the_container_b_and_place_in_the_stationery_c
+scene_type:
+- cafe
+- office
+- home
+atomic_actions:
+- flip
+- insert
+- rotate
+- pick
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

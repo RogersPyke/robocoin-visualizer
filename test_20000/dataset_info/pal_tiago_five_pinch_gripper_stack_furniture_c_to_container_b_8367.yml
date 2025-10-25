@@ -1,0 +1,26 @@
+dataset_name: stack_furniture_c_to_container_b_8367
+dataset_uuid: eccfc8c5-02f4-4133-8b12-be34a944f076
+task_descriptions:
+- stack_the_furniture_c_and_place_in_the_container_b
+scene_type:
+- restaurant
+atomic_actions:
+- remove
+- rotate
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.7
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

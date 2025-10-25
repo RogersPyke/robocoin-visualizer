@@ -1,0 +1,30 @@
+dataset_name: stack_furniture_c_to_kitchenware_a_1278
+dataset_uuid: cc6b3a56-8553-4018-b5f3-572d821f6621
+task_descriptions:
+- stack_the_furniture_c_and_place_in_the_kitchenware_a
+scene_type:
+- cafe
+- laboratory
+- kitchen
+atomic_actions:
+- grasp
+- place
+- rotate
+- slide
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

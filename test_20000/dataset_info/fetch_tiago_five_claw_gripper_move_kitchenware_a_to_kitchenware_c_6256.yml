@@ -1,0 +1,28 @@
+dataset_name: move_kitchenware_a_to_kitchenware_c_6256
+dataset_uuid: 3208ff7d-fb8c-4286-88ec-1a61fc021005
+task_descriptions:
+- move_the_kitchenware_a_and_place_in_the_kitchenware_c
+scene_type:
+- factory
+- laboratory
+- warehouse
+atomic_actions:
+- flip
+- place
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.0
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

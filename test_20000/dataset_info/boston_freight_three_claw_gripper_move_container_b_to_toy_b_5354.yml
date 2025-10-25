@@ -1,0 +1,26 @@
+dataset_name: move_container_b_to_toy_b_5354
+dataset_uuid: e76196f5-a588-4a66-875b-e28827befca2
+task_descriptions:
+- move_the_container_b_and_place_in_the_toy_b
+scene_type:
+- cafe
+atomic_actions:
+- grasp
+- lower
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

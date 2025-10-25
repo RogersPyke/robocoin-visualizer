@@ -1,0 +1,27 @@
+dataset_name: place_electronics_b_to_electronics_b_6517
+dataset_uuid: bbfb9d9e-4700-4965-9a47-a3ad145c72c2
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_electronics_b
+scene_type:
+- office
+- restaurant
+atomic_actions:
+- slide
+- place
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.5
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

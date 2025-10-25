@@ -1,0 +1,28 @@
+dataset_name: place_beverage_c_to_food_d_2199
+dataset_uuid: d79b0e5e-4cb9-4380-90d1-2f780a4112c3
+task_descriptions:
+- place_the_beverage_c_and_place_in_the_food_d
+scene_type:
+- cafe
+- store
+atomic_actions:
+- remove
+- lower
+- pick
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+operation_platform_height: 74.1
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

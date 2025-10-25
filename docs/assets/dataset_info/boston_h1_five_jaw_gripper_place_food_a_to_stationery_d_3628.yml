@@ -1,0 +1,29 @@
+dataset_name: place_food_a_to_stationery_d_3628
+dataset_uuid: 5bb9a89d-b696-41e5-a570-a66af9f24f77
+task_descriptions:
+- place_the_food_a_and_place_in_the_stationery_d
+scene_type:
+- hospital
+- laboratory
+- office
+atomic_actions:
+- rotate
+- pull
+- pick
+objects:
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_d
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- boston_h1
+end_effector_type: five_jaw_gripper

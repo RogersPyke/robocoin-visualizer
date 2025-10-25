@@ -1,0 +1,29 @@
+dataset_name: pick_textile_e_to_container_a_9270
+dataset_uuid: 7548382b-9b35-4480-80ce-c6af70e34a92
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_container_a
+scene_type:
+- office
+- warehouse
+- hospital
+atomic_actions:
+- pick
+- grasp
+- rotate
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

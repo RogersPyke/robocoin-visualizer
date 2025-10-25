@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_b_to_utensil_a_8547
+dataset_uuid: 20ccb94a-15f2-49fd-bb43-ff2077a26346
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_utensil_a
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- push
+- grasp
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.0
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

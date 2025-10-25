@@ -1,0 +1,29 @@
+dataset_name: place_textile_c_to_container_b_3953
+dataset_uuid: 20af9c3c-2138-4165-ba4e-1809b0cd6cf3
+task_descriptions:
+- place_the_textile_c_and_place_in_the_container_b
+scene_type:
+- office
+- store
+atomic_actions:
+- grasp
+- pull
+- lift
+- flip
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

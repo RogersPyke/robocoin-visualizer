@@ -1,0 +1,29 @@
+dataset_name: stack_beverage_e_to_textile_a_9338
+dataset_uuid: 7d719ca3-453e-4406-ac1b-5ef62bbe43de
+task_descriptions:
+- stack_the_beverage_e_and_place_in_the_textile_a
+scene_type:
+- store
+- hospital
+- kitchen
+atomic_actions:
+- remove
+- push
+- flip
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- clearpath_cassie
+end_effector_type: five_pinch_gripper

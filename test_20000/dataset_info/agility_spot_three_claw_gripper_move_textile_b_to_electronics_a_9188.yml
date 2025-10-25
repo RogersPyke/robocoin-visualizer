@@ -1,0 +1,29 @@
+dataset_name: move_textile_b_to_electronics_a_9188
+dataset_uuid: 9414169b-702c-42fb-a5f1-1b417e391046
+task_descriptions:
+- move_the_textile_b_and_place_in_the_electronics_a
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- grasp
+- lower
+- push
+- place
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.3
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

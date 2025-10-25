@@ -1,0 +1,27 @@
+dataset_name: place_kitchenware_c_to_toy_d_9302
+dataset_uuid: 87829212-1484-45e7-9bb5-c4943bd375ce
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_toy_d
+scene_type:
+- cafe
+atomic_actions:
+- remove
+- lower
+- flip
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_fruit_c_to_fruit_d_7678
+dataset_uuid: 4d2a2510-f739-42e8-b7c5-63935741eb7d
+task_descriptions:
+- stack_the_fruit_c_and_place_in_the_fruit_d
+scene_type:
+- laboratory
+- warehouse
+atomic_actions:
+- place
+- slide
+- lower
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.6
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

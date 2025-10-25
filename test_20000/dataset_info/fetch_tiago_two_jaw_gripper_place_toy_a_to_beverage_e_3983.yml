@@ -1,0 +1,28 @@
+dataset_name: place_toy_a_to_beverage_e_3983
+dataset_uuid: 30420855-7ece-4eb0-9dbc-0ffd4d9a1d71
+task_descriptions:
+- place_the_toy_a_and_place_in_the_beverage_e
+scene_type:
+- warehouse
+- laboratory
+- kitchen
+atomic_actions:
+- rotate
+- slide
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.9
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

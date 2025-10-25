@@ -1,0 +1,29 @@
+dataset_name: move_beverage_d_to_textile_d_2839
+dataset_uuid: 6016c197-0d61-49a3-99e8-5017904236b9
+task_descriptions:
+- move_the_beverage_d_and_place_in_the_textile_d
+scene_type:
+- laboratory
+- restaurant
+- factory
+atomic_actions:
+- push
+- lower
+- lift
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

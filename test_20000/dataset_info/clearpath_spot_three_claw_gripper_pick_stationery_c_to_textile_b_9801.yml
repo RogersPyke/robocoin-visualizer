@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_c_to_textile_b_9801
+dataset_uuid: 97f18df4-bc5c-4a51-bc7e-2bbb937c7e72
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_textile_b
+scene_type:
+- restaurant
+- store
+- hospital
+atomic_actions:
+- rotate
+- push
+- slide
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

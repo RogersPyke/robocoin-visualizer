@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_c_to_kitchenware_d_2020
+dataset_uuid: 935eaccb-8873-405e-a396-b100f7d9b1d7
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_kitchenware_d
+scene_type:
+- restaurant
+- laboratory
+atomic_actions:
+- pull
+- lift
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_d
+  level1: kitchenware
+  level2: kitchenware_d
+  level3: kitchenware_d_sub1
+  level4: kitchenware_d_sub2
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

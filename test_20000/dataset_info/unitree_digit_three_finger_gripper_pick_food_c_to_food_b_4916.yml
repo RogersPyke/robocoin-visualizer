@@ -1,0 +1,28 @@
+dataset_name: pick_food_c_to_food_b_4916
+dataset_uuid: 39ee686d-ea0b-400a-ad94-71c27b6ee851
+task_descriptions:
+- pick_the_food_c_and_place_in_the_food_b
+scene_type:
+- restaurant
+- cafe
+atomic_actions:
+- rotate
+- pick
+- grasp
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.2
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

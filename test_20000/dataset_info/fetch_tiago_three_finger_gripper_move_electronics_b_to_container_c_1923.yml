@@ -1,0 +1,30 @@
+dataset_name: move_electronics_b_to_container_c_1923
+dataset_uuid: 34c2c95a-f103-498c-b9c3-2682f54bc960
+task_descriptions:
+- move_the_electronics_b_and_place_in_the_container_c
+scene_type:
+- store
+- home
+- office
+atomic_actions:
+- push
+- flip
+- pick
+- remove
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.4
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

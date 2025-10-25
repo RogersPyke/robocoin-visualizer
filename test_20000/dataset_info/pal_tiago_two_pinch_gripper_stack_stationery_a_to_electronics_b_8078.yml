@@ -1,0 +1,28 @@
+dataset_name: stack_stationery_a_to_electronics_b_8078
+dataset_uuid: 04dd27a1-c283-4617-9761-b468f02cf08f
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_electronics_b
+scene_type:
+- store
+- cafe
+atomic_actions:
+- lower
+- pick
+- place
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

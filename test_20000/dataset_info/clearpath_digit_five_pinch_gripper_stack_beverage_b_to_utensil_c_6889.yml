@@ -1,0 +1,27 @@
+dataset_name: stack_beverage_b_to_utensil_c_6889
+dataset_uuid: 3b642a83-bd34-4944-9920-cad9bcbab5d9
+task_descriptions:
+- stack_the_beverage_b_and_place_in_the_utensil_c
+scene_type:
+- laboratory
+atomic_actions:
+- pull
+- slide
+- push
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

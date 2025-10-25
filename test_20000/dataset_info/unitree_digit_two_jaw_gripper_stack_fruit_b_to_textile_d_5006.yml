@@ -1,0 +1,28 @@
+dataset_name: stack_fruit_b_to_textile_d_5006
+dataset_uuid: 0103d5fb-d8d9-4b55-968f-e493908aa868
+task_descriptions:
+- stack_the_fruit_b_and_place_in_the_textile_d
+scene_type:
+- cafe
+- home
+- kitchen
+atomic_actions:
+- insert
+- rotate
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

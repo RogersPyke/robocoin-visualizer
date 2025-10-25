@@ -1,0 +1,29 @@
+dataset_name: stack_utensil_b_to_fruit_e_5378
+dataset_uuid: 57eac6b8-8ebe-4605-89a5-aa0c1c5981f9
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_fruit_e
+scene_type:
+- kitchen
+- office
+- home
+atomic_actions:
+- pick
+- slide
+- flip
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_furniture_c_to_textile_c_5158
+dataset_uuid: 8528a05a-040c-416d-bd3a-a76fc2b686b5
+task_descriptions:
+- pick_the_furniture_c_and_place_in_the_textile_c
+scene_type:
+- hospital
+- home
+- office
+atomic_actions:
+- flip
+- lower
+- slide
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_food_c_to_textile_c_8041
+dataset_uuid: f2cfb4d4-f3c4-4ab1-b41c-48acd3c29a27
+task_descriptions:
+- move_the_food_c_and_place_in_the_textile_c
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- slide
+- rotate
+- grasp
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.9
+device_model:
+- agility_spot
+end_effector_type: two_finger_gripper

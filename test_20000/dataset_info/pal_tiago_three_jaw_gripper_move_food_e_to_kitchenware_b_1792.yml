@@ -1,0 +1,27 @@
+dataset_name: move_food_e_to_kitchenware_b_1792
+dataset_uuid: 5ff852af-607c-4aaa-85a5-14a4fd0d8659
+task_descriptions:
+- move_the_food_e_and_place_in_the_kitchenware_b
+scene_type:
+- warehouse
+- office
+atomic_actions:
+- slide
+- push
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.8
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_b_to_furniture_b_7249
+dataset_uuid: 5833daf8-d50d-4772-9f12-823812cee340
+task_descriptions:
+- pick_the_stationery_b_and_place_in_the_furniture_b
+scene_type:
+- warehouse
+- laboratory
+- store
+atomic_actions:
+- insert
+- remove
+- slide
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

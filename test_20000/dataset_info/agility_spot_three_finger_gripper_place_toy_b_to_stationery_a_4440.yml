@@ -1,0 +1,26 @@
+dataset_name: place_toy_b_to_stationery_a_4440
+dataset_uuid: c6c0d416-b2f5-40d0-a1ee-70a2e994ba42
+task_descriptions:
+- place_the_toy_b_and_place_in_the_stationery_a
+scene_type:
+- home
+atomic_actions:
+- slide
+- pick
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.2
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

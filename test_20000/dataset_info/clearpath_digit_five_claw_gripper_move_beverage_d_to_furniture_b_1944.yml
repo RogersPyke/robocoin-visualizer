@@ -1,0 +1,28 @@
+dataset_name: move_beverage_d_to_furniture_b_1944
+dataset_uuid: 1f52cbb7-ca65-4f0f-89a6-060c849b6eed
+task_descriptions:
+- move_the_beverage_d_and_place_in_the_furniture_b
+scene_type:
+- cafe
+atomic_actions:
+- place
+- insert
+- flip
+- push
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

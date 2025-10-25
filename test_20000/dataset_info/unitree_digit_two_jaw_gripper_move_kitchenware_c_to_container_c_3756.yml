@@ -1,0 +1,26 @@
+dataset_name: move_kitchenware_c_to_container_c_3756
+dataset_uuid: 280fec18-0bb2-4953-81a6-46b728f20eb9
+task_descriptions:
+- move_the_kitchenware_c_and_place_in_the_container_c
+scene_type:
+- laboratory
+atomic_actions:
+- insert
+- grasp
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

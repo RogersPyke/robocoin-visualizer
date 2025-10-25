@@ -1,0 +1,28 @@
+dataset_name: place_tool_d_to_electronics_a_2368
+dataset_uuid: 397b6100-b676-4d55-b6f7-b2794c1a82f7
+task_descriptions:
+- place_the_tool_d_and_place_in_the_electronics_a
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- rotate
+- grasp
+- lower
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

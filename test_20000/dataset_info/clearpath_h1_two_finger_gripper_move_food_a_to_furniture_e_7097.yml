@@ -1,0 +1,27 @@
+dataset_name: move_food_a_to_furniture_e_7097
+dataset_uuid: cef6ef78-9157-4a04-b5d6-37164ac444d9
+task_descriptions:
+- move_the_food_a_and_place_in_the_furniture_e
+scene_type:
+- restaurant
+- store
+atomic_actions:
+- grasp
+- flip
+objects:
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- clearpath_h1
+end_effector_type: two_finger_gripper

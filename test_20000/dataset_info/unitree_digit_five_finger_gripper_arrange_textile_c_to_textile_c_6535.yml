@@ -1,0 +1,29 @@
+dataset_name: arrange_textile_c_to_textile_c_6535
+dataset_uuid: 29862907-ef0e-4519-b4f6-acba3de7727b
+task_descriptions:
+- arrange_the_textile_c_and_place_in_the_textile_c
+scene_type:
+- home
+- restaurant
+- factory
+atomic_actions:
+- place
+- remove
+- lower
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 71.6
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

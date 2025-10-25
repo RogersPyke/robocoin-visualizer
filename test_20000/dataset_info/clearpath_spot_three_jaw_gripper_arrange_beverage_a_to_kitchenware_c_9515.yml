@@ -1,0 +1,28 @@
+dataset_name: arrange_beverage_a_to_kitchenware_c_9515
+dataset_uuid: 0d69430d-d628-4ebd-bc9f-7761dd7e5973
+task_descriptions:
+- arrange_the_beverage_a_and_place_in_the_kitchenware_c
+scene_type:
+- home
+- laboratory
+atomic_actions:
+- place
+- pull
+- remove
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

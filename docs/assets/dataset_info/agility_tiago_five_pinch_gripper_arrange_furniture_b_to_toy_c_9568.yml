@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_b_to_toy_c_9568
+dataset_uuid: 3b40f9b6-89ed-40ca-b6bd-5b48347b7bb5
+task_descriptions:
+- arrange_the_furniture_b_and_place_in_the_toy_c
+scene_type:
+- cafe
+- office
+- kitchen
+atomic_actions:
+- push
+- rotate
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.8
+device_model:
+- agility_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_utensil_a_to_electronics_a_3515
+dataset_uuid: 2f9a457a-aa76-469b-b2ae-18eda7f3212d
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_electronics_a
+scene_type:
+- store
+atomic_actions:
+- pick
+- lift
+- remove
+- rotate
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

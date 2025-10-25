@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_b_to_toy_d_4538
+dataset_uuid: 5adfe3c7-ee8b-4bd4-8b9d-ec62e0bc5462
+task_descriptions:
+- pick_the_stationery_b_and_place_in_the_toy_d
+scene_type:
+- store
+atomic_actions:
+- push
+- place
+- insert
+- lift
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

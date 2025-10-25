@@ -1,0 +1,29 @@
+dataset_name: stack_electronics_b_to_kitchenware_c_5315
+dataset_uuid: fd258850-536e-49b6-8dc7-5b10877ea59d
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_kitchenware_c
+scene_type:
+- office
+- restaurant
+- hospital
+atomic_actions:
+- remove
+- slide
+- pick
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

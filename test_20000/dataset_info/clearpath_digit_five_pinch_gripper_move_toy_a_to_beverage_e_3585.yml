@@ -1,0 +1,30 @@
+dataset_name: move_toy_a_to_beverage_e_3585
+dataset_uuid: 9d06170e-093b-4aad-bdc3-2b8875b2e0d9
+task_descriptions:
+- move_the_toy_a_and_place_in_the_beverage_e
+scene_type:
+- office
+- hospital
+- cafe
+atomic_actions:
+- insert
+- place
+- lift
+- remove
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

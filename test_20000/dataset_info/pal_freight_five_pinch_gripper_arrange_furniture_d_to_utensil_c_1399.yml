@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_d_to_utensil_c_1399
+dataset_uuid: d427b1de-7167-4347-bf2f-77f9e4d07021
+task_descriptions:
+- arrange_the_furniture_d_and_place_in_the_utensil_c
+scene_type:
+- office
+atomic_actions:
+- push
+- rotate
+- pick
+- lift
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

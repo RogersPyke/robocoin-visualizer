@@ -1,0 +1,26 @@
+dataset_name: stack_kitchenware_a_to_beverage_e_5192
+dataset_uuid: eceeabf4-e18d-4554-96a3-6b7516a9cfe7
+task_descriptions:
+- stack_the_kitchenware_a_and_place_in_the_beverage_e
+scene_type:
+- warehouse
+atomic_actions:
+- insert
+- slide
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

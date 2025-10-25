@@ -1,0 +1,28 @@
+dataset_name: stack_tool_b_to_stationery_a_8094
+dataset_uuid: 6781dc1a-57c9-45c3-8e60-13d1da5547cb
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_stationery_a
+scene_type:
+- hospital
+- office
+- cafe
+atomic_actions:
+- lift
+- push
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

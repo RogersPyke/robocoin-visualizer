@@ -1,0 +1,29 @@
+dataset_name: place_container_a_to_textile_a_7197
+dataset_uuid: f7daf858-8d7b-44a7-884a-373146a78f36
+task_descriptions:
+- place_the_container_a_and_place_in_the_textile_a
+scene_type:
+- hospital
+- warehouse
+- home
+atomic_actions:
+- pick
+- pull
+- insert
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.4
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

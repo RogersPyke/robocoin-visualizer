@@ -1,0 +1,28 @@
+dataset_name: pick_beverage_d_to_kitchenware_e_6540
+dataset_uuid: fd72b6e8-63aa-4c41-88fe-6e69b4897b00
+task_descriptions:
+- pick_the_beverage_d_and_place_in_the_kitchenware_e
+scene_type:
+- store
+- cafe
+- home
+atomic_actions:
+- place
+- lift
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_e
+  level1: kitchenware
+  level2: kitchenware_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.5
+device_model:
+- clearpath_cassie
+end_effector_type: five_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_beverage_d_to_fruit_d_7569
+dataset_uuid: 54137c5d-bdc1-4fc1-b541-683bc383df98
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_fruit_d
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- slide
+- remove
+- rotate
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

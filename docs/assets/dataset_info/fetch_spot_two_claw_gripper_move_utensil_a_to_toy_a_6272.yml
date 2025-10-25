@@ -1,0 +1,26 @@
+dataset_name: move_utensil_a_to_toy_a_6272
+dataset_uuid: a01a4a4c-a28b-4276-bb2a-abeab68164f2
+task_descriptions:
+- move_the_utensil_a_and_place_in_the_toy_a
+scene_type:
+- home
+atomic_actions:
+- slide
+- place
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.4
+device_model:
+- fetch_spot
+end_effector_type: two_claw_gripper

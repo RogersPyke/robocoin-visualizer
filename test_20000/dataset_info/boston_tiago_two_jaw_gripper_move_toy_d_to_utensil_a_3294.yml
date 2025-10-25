@@ -1,0 +1,29 @@
+dataset_name: move_toy_d_to_utensil_a_3294
+dataset_uuid: 21762a23-2dd2-48bb-95bc-118490805975
+task_descriptions:
+- move_the_toy_d_and_place_in_the_utensil_a
+scene_type:
+- factory
+- hospital
+atomic_actions:
+- lower
+- place
+- push
+- grasp
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.8
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_textile_d_to_fruit_e_3994
+dataset_uuid: 590a27be-f290-462a-8dc3-265a201ab1da
+task_descriptions:
+- pick_the_textile_d_and_place_in_the_fruit_e
+scene_type:
+- office
+- factory
+atomic_actions:
+- flip
+- pull
+- lift
+- slide
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- agility_cassie
+end_effector_type: two_finger_gripper

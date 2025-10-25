@@ -1,0 +1,28 @@
+dataset_name: move_toy_a_to_container_b_5523
+dataset_uuid: 527471ad-45c7-4370-8d38-32e561c19039
+task_descriptions:
+- move_the_toy_a_and_place_in_the_container_b
+scene_type:
+- cafe
+- restaurant
+atomic_actions:
+- slide
+- lift
+- insert
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.8
+device_model:
+- unitree_tiago
+end_effector_type: two_pinch_gripper

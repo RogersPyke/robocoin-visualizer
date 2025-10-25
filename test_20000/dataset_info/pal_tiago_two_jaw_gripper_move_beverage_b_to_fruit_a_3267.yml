@@ -1,0 +1,28 @@
+dataset_name: move_beverage_b_to_fruit_a_3267
+dataset_uuid: f1e015e0-eaf3-41b6-b8c4-fa7d021ea37b
+task_descriptions:
+- move_the_beverage_b_and_place_in_the_fruit_a
+scene_type:
+- home
+- hospital
+- cafe
+atomic_actions:
+- slide
+- lower
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

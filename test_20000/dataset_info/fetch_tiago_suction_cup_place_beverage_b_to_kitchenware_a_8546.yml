@@ -1,0 +1,26 @@
+dataset_name: place_beverage_b_to_kitchenware_a_8546
+dataset_uuid: 8d9544f2-a73b-4e40-ab87-8b50da1db34f
+task_descriptions:
+- place_the_beverage_b_and_place_in_the_kitchenware_a
+scene_type:
+- factory
+atomic_actions:
+- lower
+- place
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- fetch_tiago
+end_effector_type: suction_cup

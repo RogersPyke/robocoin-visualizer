@@ -1,0 +1,27 @@
+dataset_name: move_toy_d_to_tool_d_5506
+dataset_uuid: 455daab4-ab53-4a05-975e-32a2d601f985
+task_descriptions:
+- move_the_toy_d_and_place_in_the_tool_d
+scene_type:
+- office
+- laboratory
+atomic_actions:
+- grasp
+- lift
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.2
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_fruit_d_to_tool_a_7127
+dataset_uuid: 0ff1047b-bbf9-482f-9205-cc861649ef08
+task_descriptions:
+- stack_the_fruit_d_and_place_in_the_tool_a
+scene_type:
+- cafe
+- restaurant
+atomic_actions:
+- rotate
+- insert
+- pull
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+operation_platform_height: 72.0
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

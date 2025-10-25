@@ -1,0 +1,28 @@
+dataset_name: move_kitchenware_c_to_toy_a_8030
+dataset_uuid: c727beac-25c8-49c6-97e1-e1fffacffa1a
+task_descriptions:
+- move_the_kitchenware_c_and_place_in_the_toy_a
+scene_type:
+- cafe
+atomic_actions:
+- rotate
+- grasp
+- remove
+- pull
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.4
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

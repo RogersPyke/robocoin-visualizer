@@ -1,0 +1,29 @@
+dataset_name: stack_electronics_b_to_container_a_8300
+dataset_uuid: f1f50842-add2-4df8-b437-cd69282c9a28
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_container_a
+scene_type:
+- laboratory
+- office
+atomic_actions:
+- lower
+- rotate
+- flip
+- pull
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.5
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

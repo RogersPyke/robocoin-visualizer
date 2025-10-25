@@ -1,0 +1,28 @@
+dataset_name: pick_container_a_to_electronics_a_8643
+dataset_uuid: d2f38453-f19b-4a20-94d3-0e679c41b6c4
+task_descriptions:
+- pick_the_container_a_and_place_in_the_electronics_a
+scene_type:
+- cafe
+- hospital
+atomic_actions:
+- lower
+- place
+- pull
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.1
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

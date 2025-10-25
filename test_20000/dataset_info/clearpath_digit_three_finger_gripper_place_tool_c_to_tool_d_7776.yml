@@ -1,0 +1,29 @@
+dataset_name: place_tool_c_to_tool_d_7776
+dataset_uuid: cb12abb0-69c3-41e0-9d57-2ba81f34f041
+task_descriptions:
+- place_the_tool_c_and_place_in_the_tool_d
+scene_type:
+- cafe
+- store
+- hospital
+atomic_actions:
+- place
+- grasp
+- lower
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.0
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

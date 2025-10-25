@@ -1,0 +1,27 @@
+dataset_name: stack_textile_d_to_beverage_a_3891
+dataset_uuid: 28ed0c09-074a-4212-acd0-b135fa03a3c3
+task_descriptions:
+- stack_the_textile_d_and_place_in_the_beverage_a
+scene_type:
+- cafe
+- laboratory
+atomic_actions:
+- place
+- remove
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+operation_platform_height: 74.6
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

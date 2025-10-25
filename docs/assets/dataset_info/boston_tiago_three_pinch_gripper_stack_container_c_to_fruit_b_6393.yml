@@ -1,0 +1,28 @@
+dataset_name: stack_container_c_to_fruit_b_6393
+dataset_uuid: f595098b-9bd4-4bb6-b474-c47f352d10c4
+task_descriptions:
+- stack_the_container_c_and_place_in_the_fruit_b
+scene_type:
+- restaurant
+- laboratory
+- hospital
+atomic_actions:
+- lift
+- place
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- boston_tiago
+end_effector_type: three_pinch_gripper

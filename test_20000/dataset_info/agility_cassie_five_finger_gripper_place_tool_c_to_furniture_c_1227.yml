@@ -1,0 +1,29 @@
+dataset_name: place_tool_c_to_furniture_c_1227
+dataset_uuid: 9bb6312e-8633-48a3-9c9e-1c1eb597d9e1
+task_descriptions:
+- place_the_tool_c_and_place_in_the_furniture_c
+scene_type:
+- home
+- office
+atomic_actions:
+- insert
+- slide
+- rotate
+- lift
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+operation_platform_height: 83.5
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

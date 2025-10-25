@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_b_to_kitchenware_b_4849
+dataset_uuid: 30a28dcf-781d-49a4-94ce-dfe003ca5c4c
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_kitchenware_b
+scene_type:
+- restaurant
+- hospital
+- factory
+atomic_actions:
+- pull
+- insert
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 86.7
+device_model:
+- clearpath_spot
+end_effector_type: five_finger_gripper

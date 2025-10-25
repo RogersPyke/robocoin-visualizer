@@ -1,0 +1,30 @@
+dataset_name: arrange_container_c_to_beverage_e_4681
+dataset_uuid: 753ddcd4-1966-4ab3-83f1-86765cd19706
+task_descriptions:
+- arrange_the_container_c_and_place_in_the_beverage_e
+scene_type:
+- hospital
+- kitchen
+- home
+atomic_actions:
+- insert
+- pick
+- grasp
+- lower
+objects:
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.0
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

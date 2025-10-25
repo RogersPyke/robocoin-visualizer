@@ -1,0 +1,26 @@
+dataset_name: place_furniture_e_to_electronics_b_7258
+dataset_uuid: 8fdaf66a-b333-44e4-adb5-3ecfb2a70572
+task_descriptions:
+- place_the_furniture_e_and_place_in_the_electronics_b
+scene_type:
+- office
+atomic_actions:
+- slide
+- lower
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.1
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

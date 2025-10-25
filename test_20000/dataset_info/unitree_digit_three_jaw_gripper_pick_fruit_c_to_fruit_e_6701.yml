@@ -1,0 +1,29 @@
+dataset_name: pick_fruit_c_to_fruit_e_6701
+dataset_uuid: 47d80443-a498-4d72-b4d7-0030d42bdae4
+task_descriptions:
+- pick_the_fruit_c_and_place_in_the_fruit_e
+scene_type:
+- restaurant
+- store
+- hospital
+atomic_actions:
+- grasp
+- flip
+- pick
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.0
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

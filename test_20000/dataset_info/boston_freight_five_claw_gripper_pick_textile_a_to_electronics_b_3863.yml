@@ -1,0 +1,28 @@
+dataset_name: pick_textile_a_to_electronics_b_3863
+dataset_uuid: 55b5c637-f193-4cc5-be85-023e4bb901f8
+task_descriptions:
+- pick_the_textile_a_and_place_in_the_electronics_b
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- pick
+- flip
+- lift
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.7
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

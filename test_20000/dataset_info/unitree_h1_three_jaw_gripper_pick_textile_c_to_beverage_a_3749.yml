@@ -1,0 +1,30 @@
+dataset_name: pick_textile_c_to_beverage_a_3749
+dataset_uuid: e93a4211-ca73-4517-90cc-8e979de41d48
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_beverage_a
+scene_type:
+- restaurant
+- kitchen
+- office
+atomic_actions:
+- pull
+- slide
+- lift
+- place
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

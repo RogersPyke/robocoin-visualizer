@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_c_to_toy_b_3875
+dataset_uuid: 333fe7ea-4460-4b42-8758-29eb5a1b263b
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_toy_b
+scene_type:
+- kitchen
+atomic_actions:
+- lower
+- rotate
+- pick
+- place
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

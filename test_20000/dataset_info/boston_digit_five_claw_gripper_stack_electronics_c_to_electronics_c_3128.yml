@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_c_to_electronics_c_3128
+dataset_uuid: 5c3681c8-5e17-4789-b3bd-0a0fc78fc3d4
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_electronics_c
+scene_type:
+- office
+atomic_actions:
+- grasp
+- pick
+- push
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 82.5
+device_model:
+- boston_digit
+end_effector_type: five_claw_gripper

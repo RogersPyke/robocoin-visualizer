@@ -1,0 +1,30 @@
+dataset_name: place_kitchenware_a_to_utensil_b_8771
+dataset_uuid: 83dc230c-2b4c-40a5-b528-d8ee843d267d
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_utensil_b
+scene_type:
+- store
+- home
+- warehouse
+atomic_actions:
+- place
+- remove
+- slide
+- lower
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 87.9
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

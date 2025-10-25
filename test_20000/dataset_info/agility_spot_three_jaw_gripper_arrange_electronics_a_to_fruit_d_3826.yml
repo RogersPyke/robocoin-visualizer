@@ -1,0 +1,29 @@
+dataset_name: arrange_electronics_a_to_fruit_d_3826
+dataset_uuid: 6acafc0a-6c17-4439-8d2a-31e5057a1b03
+task_descriptions:
+- arrange_the_electronics_a_and_place_in_the_fruit_d
+scene_type:
+- store
+- warehouse
+atomic_actions:
+- pull
+- push
+- pick
+- flip
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+operation_platform_height: 72.2
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

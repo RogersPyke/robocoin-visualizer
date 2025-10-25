@@ -1,0 +1,29 @@
+dataset_name: move_kitchenware_a_to_beverage_c_6607
+dataset_uuid: 672cb6b7-cb00-4e44-a98f-d61d3e364bb0
+task_descriptions:
+- move_the_kitchenware_a_and_place_in_the_beverage_c
+scene_type:
+- restaurant
+- home
+- cafe
+atomic_actions:
+- lift
+- insert
+- pick
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: beverage_c_sub2
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

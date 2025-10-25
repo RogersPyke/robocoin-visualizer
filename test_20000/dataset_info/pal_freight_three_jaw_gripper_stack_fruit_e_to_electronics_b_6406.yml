@@ -1,0 +1,27 @@
+dataset_name: stack_fruit_e_to_electronics_b_6406
+dataset_uuid: a6284118-2e89-414f-abcf-a6e155228eed
+task_descriptions:
+- stack_the_fruit_e_and_place_in_the_electronics_b
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- remove
+- pull
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.3
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

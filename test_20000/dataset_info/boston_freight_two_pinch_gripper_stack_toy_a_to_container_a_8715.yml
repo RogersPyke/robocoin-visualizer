@@ -1,0 +1,26 @@
+dataset_name: stack_toy_a_to_container_a_8715
+dataset_uuid: 9c2b8f44-3a35-47eb-946d-98978105635d
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_container_a
+scene_type:
+- store
+atomic_actions:
+- remove
+- insert
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

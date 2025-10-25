@@ -1,0 +1,29 @@
+dataset_name: move_stationery_e_to_utensil_d_2511
+dataset_uuid: d0b91b09-bd50-4934-bc9d-9197e26a384a
+task_descriptions:
+- move_the_stationery_e_and_place_in_the_utensil_d
+scene_type:
+- cafe
+- restaurant
+- office
+atomic_actions:
+- slide
+- pull
+- remove
+objects:
+- object_name: stationery_e
+  level1: stationery
+  level2: stationery_e
+  level3: stationery_e_sub1
+  level4: stationery_e_sub2
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.3
+device_model:
+- boston_h1
+end_effector_type: five_jaw_gripper

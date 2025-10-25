@@ -1,0 +1,29 @@
+dataset_name: place_tool_c_to_container_b_1157
+dataset_uuid: 971587be-7442-4a59-b152-a84e7355df21
+task_descriptions:
+- place_the_tool_c_and_place_in_the_container_b
+scene_type:
+- warehouse
+- restaurant
+atomic_actions:
+- insert
+- pick
+- push
+- lift
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- boston_h1
+end_effector_type: five_jaw_gripper

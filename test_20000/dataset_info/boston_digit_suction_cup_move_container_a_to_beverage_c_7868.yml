@@ -1,0 +1,28 @@
+dataset_name: move_container_a_to_beverage_c_7868
+dataset_uuid: 7164c90e-58ff-4fec-a276-e5e70b17a5f1
+task_descriptions:
+- move_the_container_a_and_place_in_the_beverage_c
+scene_type:
+- office
+atomic_actions:
+- pick
+- insert
+- lift
+- grasp
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- boston_digit
+end_effector_type: suction_cup

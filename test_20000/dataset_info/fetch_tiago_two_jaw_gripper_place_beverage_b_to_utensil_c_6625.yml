@@ -1,0 +1,28 @@
+dataset_name: place_beverage_b_to_utensil_c_6625
+dataset_uuid: db5cb348-3a6e-4a46-9629-a3311f447d6d
+task_descriptions:
+- place_the_beverage_b_and_place_in_the_utensil_c
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- lower
+- place
+- grasp
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

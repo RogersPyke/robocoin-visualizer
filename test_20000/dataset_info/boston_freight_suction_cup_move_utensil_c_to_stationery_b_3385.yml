@@ -1,0 +1,26 @@
+dataset_name: move_utensil_c_to_stationery_b_3385
+dataset_uuid: 34ec2b70-ba55-4b28-ac5a-6c6c812e1259
+task_descriptions:
+- move_the_utensil_c_and_place_in_the_stationery_b
+scene_type:
+- hospital
+atomic_actions:
+- rotate
+- pull
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- boston_freight
+end_effector_type: suction_cup

@@ -1,0 +1,29 @@
+dataset_name: pick_tool_c_to_stationery_c_5335
+dataset_uuid: 2cb81650-3d8c-48c6-8657-85e270a327f8
+task_descriptions:
+- pick_the_tool_c_and_place_in_the_stationery_c
+scene_type:
+- warehouse
+- office
+- factory
+atomic_actions:
+- remove
+- rotate
+- flip
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.4
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

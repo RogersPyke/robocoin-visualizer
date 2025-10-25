@@ -1,0 +1,29 @@
+dataset_name: pick_kitchenware_b_to_container_a_9055
+dataset_uuid: 47f174c6-265d-4a13-b9ea-f6605f914352
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_container_a
+scene_type:
+- home
+- store
+- cafe
+atomic_actions:
+- pull
+- flip
+- slide
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

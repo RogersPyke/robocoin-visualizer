@@ -1,0 +1,26 @@
+dataset_name: place_electronics_c_to_furniture_b_9362
+dataset_uuid: 1d897c70-3655-48de-9547-4f8a7884ebe7
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_furniture_b
+scene_type:
+- cafe
+atomic_actions:
+- flip
+- push
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

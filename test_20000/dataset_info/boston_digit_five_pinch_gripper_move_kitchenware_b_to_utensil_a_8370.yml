@@ -1,0 +1,27 @@
+dataset_name: move_kitchenware_b_to_utensil_a_8370
+dataset_uuid: 47ea993d-7d4a-49d6-99be-86b59173bf67
+task_descriptions:
+- move_the_kitchenware_b_and_place_in_the_utensil_a
+scene_type:
+- laboratory
+atomic_actions:
+- pull
+- insert
+- lift
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

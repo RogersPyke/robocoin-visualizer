@@ -1,0 +1,29 @@
+dataset_name: pick_textile_b_to_kitchenware_c_2656
+dataset_uuid: aad46c89-1035-4cac-b435-baa6570aac53
+task_descriptions:
+- pick_the_textile_b_and_place_in_the_kitchenware_c
+scene_type:
+- factory
+- hospital
+atomic_actions:
+- lift
+- pick
+- push
+- pull
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

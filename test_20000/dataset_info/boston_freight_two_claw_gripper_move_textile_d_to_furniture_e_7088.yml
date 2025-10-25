@@ -1,0 +1,27 @@
+dataset_name: move_textile_d_to_furniture_e_7088
+dataset_uuid: 19a8be59-2673-48a4-a59a-ff60869b6b89
+task_descriptions:
+- move_the_textile_d_and_place_in_the_furniture_e
+scene_type:
+- hospital
+atomic_actions:
+- remove
+- pick
+- flip
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- boston_freight
+end_effector_type: two_claw_gripper

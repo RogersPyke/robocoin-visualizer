@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_b_to_fruit_d_5318
+dataset_uuid: 00613dbb-9ff5-4390-967e-ab859b1a1ead
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_fruit_d
+scene_type:
+- warehouse
+- office
+- store
+atomic_actions:
+- rotate
+- grasp
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

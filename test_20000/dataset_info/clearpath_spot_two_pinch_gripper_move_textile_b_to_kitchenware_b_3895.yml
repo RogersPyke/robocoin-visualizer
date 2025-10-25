@@ -1,0 +1,26 @@
+dataset_name: move_textile_b_to_kitchenware_b_3895
+dataset_uuid: 2283225c-e0b4-4fca-a153-c92f11bc797c
+task_descriptions:
+- move_the_textile_b_and_place_in_the_kitchenware_b
+scene_type:
+- warehouse
+atomic_actions:
+- remove
+- push
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

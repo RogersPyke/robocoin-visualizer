@@ -1,0 +1,28 @@
+dataset_name: pick_food_d_to_utensil_a_9553
+dataset_uuid: 67e8bcbc-ec1b-4118-a5ae-8482a0d82efa
+task_descriptions:
+- pick_the_food_d_and_place_in_the_utensil_a
+scene_type:
+- laboratory
+- home
+- factory
+atomic_actions:
+- pick
+- grasp
+objects:
+- object_name: food_d
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.8
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

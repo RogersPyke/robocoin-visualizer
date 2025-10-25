@@ -1,0 +1,28 @@
+dataset_name: arrange_food_b_to_fruit_d_3446
+dataset_uuid: ef6c1168-cad6-4ff4-862a-0cdffcc92799
+task_descriptions:
+- arrange_the_food_b_and_place_in_the_fruit_d
+scene_type:
+- kitchen
+atomic_actions:
+- place
+- slide
+- pick
+- lower
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.4
+device_model:
+- clearpath_spot
+end_effector_type: two_claw_gripper

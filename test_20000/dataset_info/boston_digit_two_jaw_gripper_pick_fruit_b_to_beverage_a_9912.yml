@@ -1,0 +1,30 @@
+dataset_name: pick_fruit_b_to_beverage_a_9912
+dataset_uuid: 43ac7f42-1c9c-41dc-921c-f66572720f08
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_beverage_a
+scene_type:
+- store
+- home
+- restaurant
+atomic_actions:
+- place
+- pick
+- lift
+- flip
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

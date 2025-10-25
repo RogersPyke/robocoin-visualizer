@@ -1,0 +1,29 @@
+dataset_name: move_kitchenware_b_to_furniture_b_9043
+dataset_uuid: ed1931e6-03cd-4525-9eb9-c32fa7c3cb40
+task_descriptions:
+- move_the_kitchenware_b_and_place_in_the_furniture_b
+scene_type:
+- laboratory
+- factory
+atomic_actions:
+- place
+- grasp
+- lift
+- rotate
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

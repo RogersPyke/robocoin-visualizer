@@ -1,0 +1,27 @@
+dataset_name: pick_food_a_to_container_a_9447
+dataset_uuid: 06e8bab9-3553-4a4e-8f18-0b5bc1042a73
+task_descriptions:
+- pick_the_food_a_and_place_in_the_container_a
+scene_type:
+- hospital
+- restaurant
+atomic_actions:
+- flip
+- grasp
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

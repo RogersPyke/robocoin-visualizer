@@ -1,0 +1,26 @@
+dataset_name: move_tool_d_to_furniture_b_7668
+dataset_uuid: 02c2ce27-9cfa-4a41-b53a-926f15e7abc5
+task_descriptions:
+- move_the_tool_d_and_place_in_the_furniture_b
+scene_type:
+- home
+atomic_actions:
+- rotate
+- lift
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

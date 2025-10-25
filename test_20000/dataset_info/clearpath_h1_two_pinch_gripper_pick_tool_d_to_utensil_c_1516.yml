@@ -1,0 +1,28 @@
+dataset_name: pick_tool_d_to_utensil_c_1516
+dataset_uuid: be6f8b20-c91d-46fc-93cd-6d6c097fe3dc
+task_descriptions:
+- pick_the_tool_d_and_place_in_the_utensil_c
+scene_type:
+- cafe
+atomic_actions:
+- push
+- place
+- pick
+- pull
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 86.7
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

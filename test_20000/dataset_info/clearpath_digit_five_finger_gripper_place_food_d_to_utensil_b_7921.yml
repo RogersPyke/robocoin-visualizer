@@ -1,0 +1,29 @@
+dataset_name: place_food_d_to_utensil_b_7921
+dataset_uuid: c7e8b7d8-6cb2-4480-b4d5-ea8b42126418
+task_descriptions:
+- place_the_food_d_and_place_in_the_utensil_b
+scene_type:
+- restaurant
+- factory
+- warehouse
+atomic_actions:
+- rotate
+- slide
+- insert
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.1
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

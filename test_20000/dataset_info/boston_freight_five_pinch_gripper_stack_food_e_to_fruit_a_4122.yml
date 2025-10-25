@@ -1,0 +1,28 @@
+dataset_name: stack_food_e_to_fruit_a_4122
+dataset_uuid: 591076a6-5c68-462c-a042-26158a13ce89
+task_descriptions:
+- stack_the_food_e_and_place_in_the_fruit_a
+scene_type:
+- restaurant
+- store
+atomic_actions:
+- place
+- pull
+- pick
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

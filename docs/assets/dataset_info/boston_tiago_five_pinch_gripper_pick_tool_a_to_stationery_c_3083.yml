@@ -1,0 +1,28 @@
+dataset_name: pick_tool_a_to_stationery_c_3083
+dataset_uuid: 17b2a388-8c05-4410-9966-ef79d6647c9d
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_stationery_c
+scene_type:
+- kitchen
+- home
+atomic_actions:
+- insert
+- rotate
+- lift
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

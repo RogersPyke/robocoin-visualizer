@@ -1,0 +1,27 @@
+dataset_name: place_food_d_to_textile_a_5482
+dataset_uuid: b791a16f-e103-4665-b679-24638b7fd661
+task_descriptions:
+- place_the_food_d_and_place_in_the_textile_a
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- rotate
+- remove
+objects:
+- object_name: food_d
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.6
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

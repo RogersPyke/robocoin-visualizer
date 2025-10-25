@@ -1,0 +1,29 @@
+dataset_name: move_furniture_e_to_fruit_d_9968
+dataset_uuid: f7a5c212-760d-46e5-bbdc-7345db1561fc
+task_descriptions:
+- move_the_furniture_e_and_place_in_the_fruit_d
+scene_type:
+- factory
+- office
+- laboratory
+atomic_actions:
+- grasp
+- lower
+- push
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- clearpath_h1
+end_effector_type: two_finger_gripper

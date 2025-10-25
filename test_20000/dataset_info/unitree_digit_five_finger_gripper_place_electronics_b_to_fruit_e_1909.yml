@@ -1,0 +1,27 @@
+dataset_name: place_electronics_b_to_fruit_e_1909
+dataset_uuid: ce85d759-4b7a-43af-95bf-ac903f1977f0
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_fruit_e
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- push
+- insert
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

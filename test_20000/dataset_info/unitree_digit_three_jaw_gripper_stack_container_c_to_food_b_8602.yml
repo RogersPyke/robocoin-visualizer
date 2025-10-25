@@ -1,0 +1,28 @@
+dataset_name: stack_container_c_to_food_b_8602
+dataset_uuid: dd43180f-e75c-4731-84fd-f82c740e62fb
+task_descriptions:
+- stack_the_container_c_and_place_in_the_food_b
+scene_type:
+- warehouse
+- home
+atomic_actions:
+- lift
+- place
+- lower
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.4
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

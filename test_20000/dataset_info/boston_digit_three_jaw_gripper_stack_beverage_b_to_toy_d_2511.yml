@@ -1,0 +1,28 @@
+dataset_name: stack_beverage_b_to_toy_d_2511
+dataset_uuid: c69cfe75-ec21-49dd-b4b2-12b740865cdb
+task_descriptions:
+- stack_the_beverage_b_and_place_in_the_toy_d
+scene_type:
+- laboratory
+- home
+atomic_actions:
+- lift
+- flip
+- pull
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.1
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

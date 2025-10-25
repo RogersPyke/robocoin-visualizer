@@ -1,0 +1,27 @@
+dataset_name: place_stationery_a_to_stationery_b_5458
+dataset_uuid: abc7747d-d178-47a9-92cf-0b53d73a7740
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_stationery_b
+scene_type:
+- home
+- warehouse
+atomic_actions:
+- remove
+- lower
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

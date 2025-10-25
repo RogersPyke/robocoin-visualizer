@@ -1,0 +1,26 @@
+dataset_name: move_tool_a_to_utensil_a_8514
+dataset_uuid: d1400987-d02c-4b46-bf9b-27c65d8b277d
+task_descriptions:
+- move_the_tool_a_and_place_in_the_utensil_a
+scene_type:
+- laboratory
+atomic_actions:
+- pull
+- rotate
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 80.4
+device_model:
+- boston_freight
+end_effector_type: suction_cup

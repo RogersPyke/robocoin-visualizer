@@ -1,0 +1,26 @@
+dataset_name: move_stationery_c_to_toy_b_2652
+dataset_uuid: 501e1fad-10a7-4b92-ae0c-c24ac82fcf26
+task_descriptions:
+- move_the_stationery_c_and_place_in_the_toy_b
+scene_type:
+- laboratory
+atomic_actions:
+- lift
+- rotate
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

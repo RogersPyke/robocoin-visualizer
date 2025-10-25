@@ -1,0 +1,28 @@
+dataset_name: move_kitchenware_a_to_utensil_c_7484
+dataset_uuid: 892ca280-a10d-447b-8dc0-970928f8068c
+task_descriptions:
+- move_the_kitchenware_a_and_place_in_the_utensil_c
+scene_type:
+- warehouse
+- hospital
+atomic_actions:
+- slide
+- flip
+- grasp
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_kitchenware_c_to_electronics_a_6588
+dataset_uuid: bf07efd4-b876-4d0a-959b-2c46b662efb5
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_electronics_a
+scene_type:
+- kitchen
+- warehouse
+atomic_actions:
+- rotate
+- insert
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

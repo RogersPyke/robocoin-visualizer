@@ -1,0 +1,27 @@
+dataset_name: place_textile_e_to_utensil_c_4413
+dataset_uuid: bc683f32-e42b-4bbe-ab3a-9fa5bc8a3d6c
+task_descriptions:
+- place_the_textile_e_and_place_in_the_utensil_c
+scene_type:
+- home
+- cafe
+atomic_actions:
+- slide
+- flip
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 81.6
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_d_to_stationery_b_4301
+dataset_uuid: 8864fdcb-e4b2-44e7-9821-d00c2b4326ab
+task_descriptions:
+- stack_the_furniture_d_and_place_in_the_stationery_b
+scene_type:
+- restaurant
+atomic_actions:
+- slide
+- remove
+- grasp
+- lift
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 73.1
+device_model:
+- pal_tiago
+end_effector_type: suction_cup

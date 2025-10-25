@@ -1,0 +1,28 @@
+dataset_name: move_tool_b_to_container_a_2741
+dataset_uuid: 7c89c365-3401-480c-bafe-1fa72388cc64
+task_descriptions:
+- move_the_tool_b_and_place_in_the_container_a
+scene_type:
+- warehouse
+- store
+atomic_actions:
+- flip
+- pick
+- push
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- fetch_spot
+end_effector_type: suction_cup

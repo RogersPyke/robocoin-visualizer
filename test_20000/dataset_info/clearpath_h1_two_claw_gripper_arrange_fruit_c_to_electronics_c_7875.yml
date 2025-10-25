@@ -1,0 +1,29 @@
+dataset_name: arrange_fruit_c_to_electronics_c_7875
+dataset_uuid: 14107cac-f037-4334-be57-6790a6aa72b8
+task_descriptions:
+- arrange_the_fruit_c_and_place_in_the_electronics_c
+scene_type:
+- kitchen
+- office
+- cafe
+atomic_actions:
+- lift
+- push
+- rotate
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 86.8
+device_model:
+- clearpath_h1
+end_effector_type: two_claw_gripper

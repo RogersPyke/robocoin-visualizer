@@ -1,0 +1,29 @@
+dataset_name: pick_beverage_b_to_textile_d_1228
+dataset_uuid: fc1c67bd-68de-4cb5-9741-bc3ac4806fb8
+task_descriptions:
+- pick_the_beverage_b_and_place_in_the_textile_d
+scene_type:
+- office
+- hospital
+- cafe
+atomic_actions:
+- slide
+- flip
+- grasp
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.5
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

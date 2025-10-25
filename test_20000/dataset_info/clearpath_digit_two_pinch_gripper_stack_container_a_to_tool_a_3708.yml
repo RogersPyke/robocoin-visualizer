@@ -1,0 +1,27 @@
+dataset_name: stack_container_a_to_tool_a_3708
+dataset_uuid: 1d4b89bf-d675-4363-889a-ccc7b89aca84
+task_descriptions:
+- stack_the_container_a_and_place_in_the_tool_a
+scene_type:
+- warehouse
+- home
+atomic_actions:
+- pull
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.8
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

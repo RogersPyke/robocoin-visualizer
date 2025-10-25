@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_c_to_container_c_6449
+dataset_uuid: 95d926be-97b5-4bfd-8bb5-2d79a1b9959d
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_container_c
+scene_type:
+- home
+- factory
+- warehouse
+atomic_actions:
+- pull
+- rotate
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- unitree_h1
+end_effector_type: five_finger_gripper

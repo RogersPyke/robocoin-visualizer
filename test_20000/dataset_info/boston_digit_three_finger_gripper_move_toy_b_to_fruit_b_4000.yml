@@ -1,0 +1,26 @@
+dataset_name: move_toy_b_to_fruit_b_4000
+dataset_uuid: a80f2c92-03a0-425b-8052-c4497881b212
+task_descriptions:
+- move_the_toy_b_and_place_in_the_fruit_b
+scene_type:
+- restaurant
+atomic_actions:
+- place
+- pull
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.6
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

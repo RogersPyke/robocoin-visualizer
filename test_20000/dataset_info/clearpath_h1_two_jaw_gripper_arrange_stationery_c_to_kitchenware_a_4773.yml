@@ -1,0 +1,30 @@
+dataset_name: arrange_stationery_c_to_kitchenware_a_4773
+dataset_uuid: 23907143-0dd6-4587-ad02-787e75d0637d
+task_descriptions:
+- arrange_the_stationery_c_and_place_in_the_kitchenware_a
+scene_type:
+- factory
+- restaurant
+- store
+atomic_actions:
+- grasp
+- push
+- pick
+- place
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- clearpath_h1
+end_effector_type: two_jaw_gripper

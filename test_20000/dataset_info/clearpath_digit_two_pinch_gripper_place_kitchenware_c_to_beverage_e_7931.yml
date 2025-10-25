@@ -1,0 +1,29 @@
+dataset_name: place_kitchenware_c_to_beverage_e_7931
+dataset_uuid: ef85aaaf-b5bf-415e-bc63-af6feb046711
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_beverage_e
+scene_type:
+- laboratory
+- home
+- hospital
+atomic_actions:
+- rotate
+- push
+- flip
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

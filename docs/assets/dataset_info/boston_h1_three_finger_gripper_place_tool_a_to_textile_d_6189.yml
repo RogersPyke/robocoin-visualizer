@@ -1,0 +1,28 @@
+dataset_name: place_tool_a_to_textile_d_6189
+dataset_uuid: 2277e01a-03e4-4dee-88e2-d06babe6269a
+task_descriptions:
+- place_the_tool_a_and_place_in_the_textile_d
+scene_type:
+- laboratory
+- warehouse
+atomic_actions:
+- slide
+- lower
+- flip
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.8
+device_model:
+- boston_h1
+end_effector_type: three_finger_gripper

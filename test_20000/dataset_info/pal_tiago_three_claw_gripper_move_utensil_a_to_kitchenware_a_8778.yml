@@ -1,0 +1,29 @@
+dataset_name: move_utensil_a_to_kitchenware_a_8778
+dataset_uuid: 3f6e53b9-4c8c-4293-b5f7-56c21c2e93e9
+task_descriptions:
+- move_the_utensil_a_and_place_in_the_kitchenware_a
+scene_type:
+- hospital
+- cafe
+atomic_actions:
+- grasp
+- pick
+- place
+- flip
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.5
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

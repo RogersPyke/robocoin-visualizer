@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_b_to_utensil_c_2968
+dataset_uuid: 199a5daf-f1ea-4d29-a563-e04cd41bcc56
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_utensil_c
+scene_type:
+- kitchen
+atomic_actions:
+- remove
+- grasp
+- slide
+- pull
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

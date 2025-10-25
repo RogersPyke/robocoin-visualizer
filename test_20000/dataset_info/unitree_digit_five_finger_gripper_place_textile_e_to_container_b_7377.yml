@@ -1,0 +1,30 @@
+dataset_name: place_textile_e_to_container_b_7377
+dataset_uuid: e8d43b81-be90-4a5c-b898-66ba0d44855b
+task_descriptions:
+- place_the_textile_e_and_place_in_the_container_b
+scene_type:
+- laboratory
+- warehouse
+- cafe
+atomic_actions:
+- remove
+- grasp
+- rotate
+- insert
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.7
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

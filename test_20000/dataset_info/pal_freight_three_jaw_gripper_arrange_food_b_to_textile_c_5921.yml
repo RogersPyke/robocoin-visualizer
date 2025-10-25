@@ -1,0 +1,30 @@
+dataset_name: arrange_food_b_to_textile_c_5921
+dataset_uuid: ba407337-5065-4b9f-8141-2e00db707ecd
+task_descriptions:
+- arrange_the_food_b_and_place_in_the_textile_c
+scene_type:
+- factory
+- laboratory
+- cafe
+atomic_actions:
+- lift
+- grasp
+- push
+- rotate
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.8
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

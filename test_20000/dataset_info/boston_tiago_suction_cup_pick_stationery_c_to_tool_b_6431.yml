@@ -1,0 +1,27 @@
+dataset_name: pick_stationery_c_to_tool_b_6431
+dataset_uuid: 405bec6e-f94b-4c32-9201-56541f5fd9b2
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_tool_b
+scene_type:
+- factory
+- office
+atomic_actions:
+- lift
+- push
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.3
+device_model:
+- boston_tiago
+end_effector_type: suction_cup

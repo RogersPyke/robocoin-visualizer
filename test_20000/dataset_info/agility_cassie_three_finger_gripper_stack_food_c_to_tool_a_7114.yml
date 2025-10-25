@@ -1,0 +1,30 @@
+dataset_name: stack_food_c_to_tool_a_7114
+dataset_uuid: 8b5e5cad-810e-4a40-9807-06fdda0e739d
+task_descriptions:
+- stack_the_food_c_and_place_in_the_tool_a
+scene_type:
+- kitchen
+- restaurant
+- laboratory
+atomic_actions:
+- lower
+- place
+- flip
+- slide
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

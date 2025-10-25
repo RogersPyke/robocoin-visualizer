@@ -1,0 +1,30 @@
+dataset_name: stack_toy_c_to_beverage_c_3978
+dataset_uuid: a4302d19-e7a5-4e71-83f5-52918986d936
+task_descriptions:
+- stack_the_toy_c_and_place_in_the_beverage_c
+scene_type:
+- store
+- cafe
+- laboratory
+atomic_actions:
+- pick
+- place
+- lift
+- rotate
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_stationery_c_to_beverage_a_4343
+dataset_uuid: f15cc20e-c92d-4a06-bd6a-1c092ff89359
+task_descriptions:
+- stack_the_stationery_c_and_place_in_the_beverage_a
+scene_type:
+- kitchen
+- factory
+atomic_actions:
+- place
+- slide
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+operation_platform_height: 74.9
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

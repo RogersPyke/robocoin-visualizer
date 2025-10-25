@@ -1,0 +1,28 @@
+dataset_name: pick_container_a_to_stationery_a_8448
+dataset_uuid: 5604761e-2fed-40f3-997e-fbcf4f1276e6
+task_descriptions:
+- pick_the_container_a_and_place_in_the_stationery_a
+scene_type:
+- laboratory
+atomic_actions:
+- flip
+- lift
+- push
+- pick
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.0
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

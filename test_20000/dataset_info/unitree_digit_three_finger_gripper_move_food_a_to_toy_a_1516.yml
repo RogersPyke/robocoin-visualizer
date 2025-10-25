@@ -1,0 +1,29 @@
+dataset_name: move_food_a_to_toy_a_1516
+dataset_uuid: b03a8c5d-90cb-4518-a2c7-092836127a2c
+task_descriptions:
+- move_the_food_a_and_place_in_the_toy_a
+scene_type:
+- cafe
+- warehouse
+- office
+atomic_actions:
+- flip
+- slide
+- pull
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 74.3
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

@@ -1,0 +1,26 @@
+dataset_name: place_electronics_a_to_tool_a_6430
+dataset_uuid: c3d8cdb4-43fa-4fc6-acc1-7d9c63b964f0
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_tool_a
+scene_type:
+- warehouse
+atomic_actions:
+- lift
+- slide
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.8
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

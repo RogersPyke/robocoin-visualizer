@@ -1,0 +1,29 @@
+dataset_name: pick_fruit_c_to_tool_b_1902
+dataset_uuid: e19b1290-d626-4087-95bc-5cefb8e1053b
+task_descriptions:
+- pick_the_fruit_c_and_place_in_the_tool_b
+scene_type:
+- hospital
+- warehouse
+atomic_actions:
+- lift
+- place
+- remove
+- flip
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.5
+device_model:
+- boston_freight
+end_effector_type: suction_cup

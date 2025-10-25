@@ -1,0 +1,29 @@
+dataset_name: stack_fruit_b_to_utensil_d_7069
+dataset_uuid: 9a9dea12-2b5e-4859-b500-8e6f871aa47e
+task_descriptions:
+- stack_the_fruit_b_and_place_in_the_utensil_d
+scene_type:
+- store
+- factory
+- laboratory
+atomic_actions:
+- grasp
+- pick
+- lower
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.2
+device_model:
+- agility_tiago
+end_effector_type: three_jaw_gripper

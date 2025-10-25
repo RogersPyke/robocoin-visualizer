@@ -1,0 +1,29 @@
+dataset_name: pick_container_d_to_kitchenware_a_1853
+dataset_uuid: 36408a22-3f2e-42b0-85e1-746a80681ee4
+task_descriptions:
+- pick_the_container_d_and_place_in_the_kitchenware_a
+scene_type:
+- cafe
+- hospital
+atomic_actions:
+- grasp
+- lift
+- pull
+- pick
+objects:
+- object_name: container_d
+  level1: container
+  level2: container_d
+  level3: container_d_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.1
+device_model:
+- boston_atlas
+end_effector_type: three_jaw_gripper

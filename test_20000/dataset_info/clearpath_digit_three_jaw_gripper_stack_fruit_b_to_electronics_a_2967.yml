@@ -1,0 +1,29 @@
+dataset_name: stack_fruit_b_to_electronics_a_2967
+dataset_uuid: 54b63d33-0702-493a-8cf9-9726762de99a
+task_descriptions:
+- stack_the_fruit_b_and_place_in_the_electronics_a
+scene_type:
+- cafe
+- store
+atomic_actions:
+- rotate
+- place
+- push
+- pick
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.2
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

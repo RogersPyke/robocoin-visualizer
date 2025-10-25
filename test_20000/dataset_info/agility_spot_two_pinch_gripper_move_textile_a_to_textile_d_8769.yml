@@ -1,0 +1,27 @@
+dataset_name: move_textile_a_to_textile_d_8769
+dataset_uuid: 5acf01e4-10ae-451f-af25-c05e129918b6
+task_descriptions:
+- move_the_textile_a_and_place_in_the_textile_d
+scene_type:
+- kitchen
+- restaurant
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

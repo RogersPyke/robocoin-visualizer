@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_a_to_stationery_a_9061
+dataset_uuid: a06161e0-6e2d-4db2-851e-15228e6b5c87
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_stationery_a
+scene_type:
+- office
+- hospital
+atomic_actions:
+- grasp
+- flip
+- pull
+- pick
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.6
+device_model:
+- agility_cassie
+end_effector_type: three_jaw_gripper

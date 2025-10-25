@@ -1,0 +1,27 @@
+dataset_name: place_food_a_to_food_c_7062
+dataset_uuid: 2463dc9b-3bb6-49de-9046-148ac3570304
+task_descriptions:
+- place_the_food_a_and_place_in_the_food_c
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- lift
+- flip
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: food_c_sub2
+  level5: null
+operation_platform_height: 72.2
+device_model:
+- agility_cassie
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_fruit_a_to_container_a_4557
+dataset_uuid: 5b3bf56b-e777-4f12-843d-689ca9072adf
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_container_a
+scene_type:
+- home
+- store
+- cafe
+atomic_actions:
+- slide
+- push
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 80.5
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

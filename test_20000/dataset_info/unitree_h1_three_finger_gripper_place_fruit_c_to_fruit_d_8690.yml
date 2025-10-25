@@ -1,0 +1,29 @@
+dataset_name: place_fruit_c_to_fruit_d_8690
+dataset_uuid: f624e312-5484-4554-8280-700c14279518
+task_descriptions:
+- place_the_fruit_c_and_place_in_the_fruit_d
+scene_type:
+- restaurant
+- warehouse
+atomic_actions:
+- pick
+- place
+- push
+- insert
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

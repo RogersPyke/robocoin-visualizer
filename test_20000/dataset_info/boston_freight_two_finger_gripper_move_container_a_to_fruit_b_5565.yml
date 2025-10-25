@@ -1,0 +1,30 @@
+dataset_name: move_container_a_to_fruit_b_5565
+dataset_uuid: 50575949-6554-43e9-a9df-2c79770007e0
+task_descriptions:
+- move_the_container_a_and_place_in_the_fruit_b
+scene_type:
+- laboratory
+- kitchen
+- office
+atomic_actions:
+- lower
+- pick
+- rotate
+- lift
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

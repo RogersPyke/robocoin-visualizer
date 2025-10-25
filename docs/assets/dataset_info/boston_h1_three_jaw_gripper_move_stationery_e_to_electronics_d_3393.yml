@@ -1,0 +1,27 @@
+dataset_name: move_stationery_e_to_electronics_d_3393
+dataset_uuid: 5b805dc5-c8af-4155-8e45-e2e26f8e0eaf
+task_descriptions:
+- move_the_stationery_e_and_place_in_the_electronics_d
+scene_type:
+- office
+atomic_actions:
+- grasp
+- lift
+- rotate
+objects:
+- object_name: stationery_e
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_d
+  level1: electronics
+  level2: electronics_d
+  level3: electronics_d_sub1
+  level4: electronics_d_sub2
+  level5: null
+operation_platform_height: 74.4
+device_model:
+- boston_h1
+end_effector_type: three_jaw_gripper

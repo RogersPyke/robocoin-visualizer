@@ -1,0 +1,26 @@
+dataset_name: pick_container_b_to_toy_c_1972
+dataset_uuid: bf43ddf3-9a41-4921-8509-82a22689dccc
+task_descriptions:
+- pick_the_container_b_and_place_in_the_toy_c
+scene_type:
+- restaurant
+atomic_actions:
+- lift
+- rotate
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- clearpath_h1
+end_effector_type: two_jaw_gripper

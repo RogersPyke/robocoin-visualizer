@@ -1,0 +1,27 @@
+dataset_name: move_toy_c_to_container_a_7224
+dataset_uuid: 168051fb-9ea4-40bd-be19-19cb6d9b78ac
+task_descriptions:
+- move_the_toy_c_and_place_in_the_container_a
+scene_type:
+- warehouse
+atomic_actions:
+- pick
+- place
+- pull
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.9
+device_model:
+- boston_atlas
+end_effector_type: two_claw_gripper

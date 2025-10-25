@@ -1,0 +1,29 @@
+dataset_name: move_furniture_e_to_utensil_a_9998
+dataset_uuid: 8bdad731-6c3b-4dfe-921e-0aa0576aab41
+task_descriptions:
+- move_the_furniture_e_and_place_in_the_utensil_a
+scene_type:
+- office
+- factory
+atomic_actions:
+- remove
+- flip
+- insert
+- slide
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- unitree_digit
+end_effector_type: two_finger_gripper

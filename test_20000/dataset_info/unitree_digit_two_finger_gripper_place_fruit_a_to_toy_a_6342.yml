@@ -1,0 +1,29 @@
+dataset_name: place_fruit_a_to_toy_a_6342
+dataset_uuid: f721e22c-f2ea-4bc1-8154-b521ba0fb714
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_toy_a
+scene_type:
+- hospital
+- home
+atomic_actions:
+- rotate
+- remove
+- pull
+- pick
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.1
+device_model:
+- unitree_digit
+end_effector_type: two_finger_gripper

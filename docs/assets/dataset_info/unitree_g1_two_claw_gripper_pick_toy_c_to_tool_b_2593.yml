@@ -1,0 +1,28 @@
+dataset_name: pick_toy_c_to_tool_b_2593
+dataset_uuid: 653e589e-87d2-42eb-8bf4-3e8c9eb21b15
+task_descriptions:
+- pick_the_toy_c_and_place_in_the_tool_b
+scene_type:
+- store
+- kitchen
+atomic_actions:
+- rotate
+- remove
+- lower
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- unitree_g1
+end_effector_type: two_claw_gripper

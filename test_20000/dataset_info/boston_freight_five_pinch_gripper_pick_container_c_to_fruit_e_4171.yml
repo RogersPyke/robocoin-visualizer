@@ -1,0 +1,28 @@
+dataset_name: pick_container_c_to_fruit_e_4171
+dataset_uuid: 71c26ab3-3f93-498e-8d76-8de09a64b506
+task_descriptions:
+- pick_the_container_c_and_place_in_the_fruit_e
+scene_type:
+- cafe
+atomic_actions:
+- pull
+- lower
+- flip
+- grasp
+objects:
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

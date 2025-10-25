@@ -1,0 +1,30 @@
+dataset_name: pick_toy_d_to_stationery_a_2719
+dataset_uuid: 7aab06f9-7238-4580-900e-5416a1daa535
+task_descriptions:
+- pick_the_toy_d_and_place_in_the_stationery_a
+scene_type:
+- restaurant
+- kitchen
+- cafe
+atomic_actions:
+- pull
+- remove
+- grasp
+- push
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

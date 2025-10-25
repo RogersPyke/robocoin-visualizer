@@ -1,0 +1,30 @@
+dataset_name: stack_food_b_to_fruit_e_5702
+dataset_uuid: f666522c-49fb-4c18-a0a0-e74b98adbd9f
+task_descriptions:
+- stack_the_food_b_and_place_in_the_fruit_e
+scene_type:
+- hospital
+- store
+- restaurant
+atomic_actions:
+- pick
+- slide
+- insert
+- remove
+objects:
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

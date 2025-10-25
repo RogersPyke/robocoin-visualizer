@@ -1,0 +1,26 @@
+dataset_name: stack_electronics_c_to_electronics_b_6096
+dataset_uuid: e2ecba22-5026-450f-a9c4-6432ad3ad8f5
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_electronics_b
+scene_type:
+- office
+atomic_actions:
+- pull
+- rotate
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

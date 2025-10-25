@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_e_to_fruit_c_2860
+dataset_uuid: fb7d1605-9548-4c68-8076-4ee26888d21a
+task_descriptions:
+- pick_the_furniture_e_and_place_in_the_fruit_c
+scene_type:
+- factory
+- home
+atomic_actions:
+- lower
+- push
+- lift
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.3
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

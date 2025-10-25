@@ -1,0 +1,27 @@
+dataset_name: place_electronics_b_to_beverage_c_8712
+dataset_uuid: 66516bf5-ab2b-4581-973e-45a365767d3d
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_beverage_c
+scene_type:
+- hospital
+atomic_actions:
+- grasp
+- lower
+- place
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

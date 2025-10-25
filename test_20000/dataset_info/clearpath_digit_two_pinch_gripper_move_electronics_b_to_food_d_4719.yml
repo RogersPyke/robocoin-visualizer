@@ -1,0 +1,28 @@
+dataset_name: move_electronics_b_to_food_d_4719
+dataset_uuid: 57ec112e-40fc-4581-a2a5-f2a80fcccd91
+task_descriptions:
+- move_the_electronics_b_and_place_in_the_food_d
+scene_type:
+- laboratory
+- warehouse
+atomic_actions:
+- remove
+- place
+- pull
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.1
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

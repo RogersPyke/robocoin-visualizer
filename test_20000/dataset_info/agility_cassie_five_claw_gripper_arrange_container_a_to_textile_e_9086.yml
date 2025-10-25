@@ -1,0 +1,28 @@
+dataset_name: arrange_container_a_to_textile_e_9086
+dataset_uuid: 0ca42350-46cb-4b8f-9e60-a74de64ee88c
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_textile_e
+scene_type:
+- warehouse
+atomic_actions:
+- push
+- rotate
+- pull
+- lower
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.5
+device_model:
+- agility_cassie
+end_effector_type: five_claw_gripper

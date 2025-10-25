@@ -1,0 +1,28 @@
+dataset_name: place_fruit_a_to_container_b_6576
+dataset_uuid: d89cddda-53a0-4ecd-ab0c-0c5e4d4418c9
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_container_b
+scene_type:
+- factory
+- cafe
+atomic_actions:
+- lift
+- pick
+- push
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.3
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

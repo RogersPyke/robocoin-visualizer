@@ -1,0 +1,28 @@
+dataset_name: arrange_kitchenware_b_to_utensil_a_8841
+dataset_uuid: 06bfd322-dac3-4d5f-9278-92499d966517
+task_descriptions:
+- arrange_the_kitchenware_b_and_place_in_the_utensil_a
+scene_type:
+- restaurant
+atomic_actions:
+- remove
+- flip
+- rotate
+- grasp
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_a_to_toy_c_2782
+dataset_uuid: 7ed2641d-5850-4314-8863-1d98fb144a83
+task_descriptions:
+- stack_the_utensil_a_and_place_in_the_toy_c
+scene_type:
+- home
+atomic_actions:
+- rotate
+- insert
+- lift
+- push
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

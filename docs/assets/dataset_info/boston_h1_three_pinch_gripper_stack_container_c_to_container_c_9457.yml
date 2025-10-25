@@ -1,0 +1,28 @@
+dataset_name: stack_container_c_to_container_c_9457
+dataset_uuid: 63099809-56d8-48b5-a07c-f42d6bc9ac1e
+task_descriptions:
+- stack_the_container_c_and_place_in_the_container_c
+scene_type:
+- factory
+- hospital
+atomic_actions:
+- pull
+- push
+- flip
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- boston_h1
+end_effector_type: three_pinch_gripper

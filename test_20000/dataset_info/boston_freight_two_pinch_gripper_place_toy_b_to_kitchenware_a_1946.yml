@@ -1,0 +1,29 @@
+dataset_name: place_toy_b_to_kitchenware_a_1946
+dataset_uuid: 74f5ba95-671c-427f-9f95-762732c5655f
+task_descriptions:
+- place_the_toy_b_and_place_in_the_kitchenware_a
+scene_type:
+- home
+- hospital
+- cafe
+atomic_actions:
+- flip
+- insert
+- slide
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.2
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

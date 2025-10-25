@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_d_to_container_d_5577
+dataset_uuid: ab7e347e-b9cf-4b39-9967-cf61356a548a
+task_descriptions:
+- stack_the_kitchenware_d_and_place_in_the_container_d
+scene_type:
+- home
+- factory
+- warehouse
+atomic_actions:
+- push
+- grasp
+objects:
+- object_name: kitchenware_d
+  level1: kitchenware
+  level2: kitchenware_d
+  level3: kitchenware_d_sub1
+  level4: null
+  level5: null
+- object_name: container_d
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- agility_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_kitchenware_b_to_stationery_b_7301
+dataset_uuid: 29b603fe-0337-4a1b-b455-dbc5c91d938b
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_stationery_b
+scene_type:
+- laboratory
+atomic_actions:
+- lower
+- insert
+- slide
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.4
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

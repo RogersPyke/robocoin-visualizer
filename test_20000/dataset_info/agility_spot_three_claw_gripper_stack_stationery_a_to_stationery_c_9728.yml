@@ -1,0 +1,27 @@
+dataset_name: stack_stationery_a_to_stationery_c_9728
+dataset_uuid: c3b0c6a6-77c7-4687-8e1b-5a2afec366a3
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_stationery_c
+scene_type:
+- cafe
+- home
+atomic_actions:
+- rotate
+- push
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.9
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

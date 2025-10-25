@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_b_to_beverage_a_9713
+dataset_uuid: da49abd5-2ec6-4f65-892e-2c2de52cb88d
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_beverage_a
+scene_type:
+- factory
+- hospital
+atomic_actions:
+- lift
+- place
+- insert
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.7
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

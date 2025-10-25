@@ -1,0 +1,28 @@
+dataset_name: place_tool_a_to_utensil_a_6603
+dataset_uuid: 97076b6c-217d-42cc-b339-b5dfc9ea6368
+task_descriptions:
+- place_the_tool_a_and_place_in_the_utensil_a
+scene_type:
+- hospital
+- store
+atomic_actions:
+- pull
+- lower
+- grasp
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_container_c_to_furniture_d_8748
+dataset_uuid: 79b756a0-e087-4e0c-a0c7-54788b22e81f
+task_descriptions:
+- place_the_container_c_and_place_in_the_furniture_d
+scene_type:
+- laboratory
+- warehouse
+atomic_actions:
+- pull
+- remove
+- lift
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.8
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

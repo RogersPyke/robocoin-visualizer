@@ -1,0 +1,28 @@
+dataset_name: arrange_container_d_to_food_a_3044
+dataset_uuid: d0a8ec9b-6797-44f8-a9d6-9e5d95350b38
+task_descriptions:
+- arrange_the_container_d_and_place_in_the_food_a
+scene_type:
+- hospital
+- office
+atomic_actions:
+- rotate
+- insert
+- pick
+objects:
+- object_name: container_d
+  level1: container
+  level2: container_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- unitree_cassie
+end_effector_type: suction_cup

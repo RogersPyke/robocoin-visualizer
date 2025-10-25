@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_d_to_tool_d_4400
+dataset_uuid: 65d886c4-103f-4bc1-bd5e-6dcdd2ec903d
+task_descriptions:
+- pick_the_furniture_d_and_place_in_the_tool_d
+scene_type:
+- kitchen
+atomic_actions:
+- place
+- push
+- rotate
+- lift
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_c_to_tool_a_1831
+dataset_uuid: f2cec2a8-f58f-4ee6-aeb5-bb4ee8715331
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_tool_a
+scene_type:
+- warehouse
+atomic_actions:
+- slide
+- pull
+- lower
+- pick
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- unitree_digit
+end_effector_type: suction_cup

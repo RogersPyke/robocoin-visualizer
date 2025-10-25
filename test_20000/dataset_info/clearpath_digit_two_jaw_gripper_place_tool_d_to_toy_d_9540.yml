@@ -1,0 +1,27 @@
+dataset_name: place_tool_d_to_toy_d_9540
+dataset_uuid: 9cbc2fb4-098f-454f-8354-195c125c9e85
+task_descriptions:
+- place_the_tool_d_and_place_in_the_toy_d
+scene_type:
+- restaurant
+- laboratory
+atomic_actions:
+- insert
+- slide
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_toy_a_to_textile_b_3003
+dataset_uuid: ca62ce48-c812-4378-a8bf-5f4bdd58b2a6
+task_descriptions:
+- place_the_toy_a_and_place_in_the_textile_b
+scene_type:
+- hospital
+- warehouse
+atomic_actions:
+- remove
+- pull
+- insert
+- flip
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.0
+device_model:
+- boston_h1
+end_effector_type: five_claw_gripper

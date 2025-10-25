@@ -1,0 +1,28 @@
+dataset_name: stack_container_b_to_tool_b_6757
+dataset_uuid: bce917a4-3e02-4008-8a1a-8397cb4cfc98
+task_descriptions:
+- stack_the_container_b_and_place_in_the_tool_b
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- insert
+- pick
+- lower
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 86.8
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

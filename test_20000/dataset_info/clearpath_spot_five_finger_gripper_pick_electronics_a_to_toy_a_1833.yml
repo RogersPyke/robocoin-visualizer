@@ -1,0 +1,29 @@
+dataset_name: pick_electronics_a_to_toy_a_1833
+dataset_uuid: c3d353f1-d453-4412-967b-e190655ea709
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_toy_a
+scene_type:
+- laboratory
+- warehouse
+atomic_actions:
+- lower
+- pick
+- slide
+- place
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.8
+device_model:
+- clearpath_spot
+end_effector_type: five_finger_gripper

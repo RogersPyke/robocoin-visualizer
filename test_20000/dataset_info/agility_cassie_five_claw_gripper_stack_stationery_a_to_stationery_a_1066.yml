@@ -1,0 +1,27 @@
+dataset_name: stack_stationery_a_to_stationery_a_1066
+dataset_uuid: 0a80243a-4f57-43af-af75-3059d71fd7c8
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_stationery_a
+scene_type:
+- home
+atomic_actions:
+- grasp
+- lower
+- insert
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.2
+device_model:
+- agility_cassie
+end_effector_type: five_claw_gripper

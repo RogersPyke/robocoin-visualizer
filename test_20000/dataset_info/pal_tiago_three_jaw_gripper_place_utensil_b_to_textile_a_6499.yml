@@ -1,0 +1,30 @@
+dataset_name: place_utensil_b_to_textile_a_6499
+dataset_uuid: 7afb33e6-8fec-44d6-9802-ef092a8481fc
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_textile_a
+scene_type:
+- factory
+- restaurant
+- warehouse
+atomic_actions:
+- push
+- grasp
+- slide
+- pick
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_kitchenware_b_to_beverage_e_8309
+dataset_uuid: 910750cf-9a40-4cab-a974-92bdd2fb83cf
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_beverage_e
+scene_type:
+- cafe
+- store
+atomic_actions:
+- place
+- rotate
+- slide
+- remove
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

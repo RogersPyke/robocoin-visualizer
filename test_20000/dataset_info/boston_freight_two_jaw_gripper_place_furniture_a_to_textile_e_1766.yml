@@ -1,0 +1,30 @@
+dataset_name: place_furniture_a_to_textile_e_1766
+dataset_uuid: 39d88af0-d5ff-4345-9ae1-e260a69a7bbf
+task_descriptions:
+- place_the_furniture_a_and_place_in_the_textile_e
+scene_type:
+- home
+- warehouse
+- factory
+atomic_actions:
+- rotate
+- insert
+- lift
+- remove
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

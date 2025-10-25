@@ -1,0 +1,28 @@
+dataset_name: place_tool_b_to_electronics_d_6602
+dataset_uuid: 5ced879e-9768-4aca-8328-a30d1671bb41
+task_descriptions:
+- place_the_tool_b_and_place_in_the_electronics_d
+scene_type:
+- cafe
+- warehouse
+- factory
+atomic_actions:
+- lower
+- remove
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_d
+  level1: electronics
+  level2: electronics_d
+  level3: electronics_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- unitree_tiago
+end_effector_type: five_jaw_gripper

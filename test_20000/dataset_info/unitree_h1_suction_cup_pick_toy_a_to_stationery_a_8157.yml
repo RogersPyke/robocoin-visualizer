@@ -1,0 +1,29 @@
+dataset_name: pick_toy_a_to_stationery_a_8157
+dataset_uuid: 41611baf-2b95-431b-9e62-1da16928a3a3
+task_descriptions:
+- pick_the_toy_a_and_place_in_the_stationery_a
+scene_type:
+- restaurant
+- warehouse
+- kitchen
+atomic_actions:
+- pick
+- pull
+- lift
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- unitree_h1
+end_effector_type: suction_cup

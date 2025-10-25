@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_b_to_stationery_b_6105
+dataset_uuid: 734f21fd-539c-4ffc-b34b-bbea1395025b
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_stationery_b
+scene_type:
+- restaurant
+- laboratory
+atomic_actions:
+- insert
+- push
+- pull
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

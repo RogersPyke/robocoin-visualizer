@@ -1,0 +1,26 @@
+dataset_name: pick_beverage_d_to_food_c_7987
+dataset_uuid: 36e3145b-da28-4168-9658-5821603666a4
+task_descriptions:
+- pick_the_beverage_d_and_place_in_the_food_c
+scene_type:
+- restaurant
+atomic_actions:
+- lower
+- rotate
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.4
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_container_a_to_toy_a_4368
+dataset_uuid: e7d6dfd7-881d-4b15-b369-9c21f696056f
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_toy_a
+scene_type:
+- store
+- office
+atomic_actions:
+- pick
+- slide
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.9
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

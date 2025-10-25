@@ -1,0 +1,27 @@
+dataset_name: stack_tool_c_to_toy_b_1127
+dataset_uuid: 8b5bad37-c42f-4f8f-873f-969bdca12912
+task_descriptions:
+- stack_the_tool_c_and_place_in_the_toy_b
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- insert
+- grasp
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.8
+device_model:
+- unitree_digit
+end_effector_type: two_finger_gripper

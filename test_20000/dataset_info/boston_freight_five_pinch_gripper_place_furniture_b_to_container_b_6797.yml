@@ -1,0 +1,27 @@
+dataset_name: place_furniture_b_to_container_b_6797
+dataset_uuid: 232c9fca-b4bd-437b-9ce0-fb2593a251a1
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_container_b
+scene_type:
+- factory
+- kitchen
+atomic_actions:
+- rotate
+- push
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.4
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

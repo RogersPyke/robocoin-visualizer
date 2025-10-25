@@ -1,0 +1,26 @@
+dataset_name: pick_electronics_c_to_furniture_c_8182
+dataset_uuid: 04d61c06-9edc-4583-bcc4-74a392f5a46b
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_furniture_c
+scene_type:
+- hospital
+atomic_actions:
+- insert
+- lower
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.8
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

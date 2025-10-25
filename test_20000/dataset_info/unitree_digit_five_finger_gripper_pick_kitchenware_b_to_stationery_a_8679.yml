@@ -1,0 +1,29 @@
+dataset_name: pick_kitchenware_b_to_stationery_a_8679
+dataset_uuid: 670c1fce-d51c-4ff1-b841-7b276add407b
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_stationery_a
+scene_type:
+- office
+- home
+- restaurant
+atomic_actions:
+- place
+- pull
+- lift
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.7
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

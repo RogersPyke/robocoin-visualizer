@@ -1,0 +1,28 @@
+dataset_name: arrange_kitchenware_b_to_beverage_c_8439
+dataset_uuid: 68f86de7-b8c7-479c-9e9e-80a47ad345a7
+task_descriptions:
+- arrange_the_kitchenware_b_and_place_in_the_beverage_c
+scene_type:
+- kitchen
+atomic_actions:
+- pull
+- slide
+- remove
+- grasp
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.4
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

@@ -1,0 +1,30 @@
+dataset_name: place_tool_b_to_furniture_d_2739
+dataset_uuid: d8d8e60e-61e4-4f91-9a6f-bdaaf0f1a800
+task_descriptions:
+- place_the_tool_b_and_place_in_the_furniture_d
+scene_type:
+- hospital
+- laboratory
+- warehouse
+atomic_actions:
+- pull
+- grasp
+- place
+- flip
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

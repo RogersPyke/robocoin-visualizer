@@ -1,0 +1,30 @@
+dataset_name: stack_container_c_to_container_e_6655
+dataset_uuid: f1737df6-94d4-4bf5-86c7-761f459ca2fd
+task_descriptions:
+- stack_the_container_c_and_place_in_the_container_e
+scene_type:
+- hospital
+- factory
+- office
+atomic_actions:
+- pull
+- slide
+- pick
+- grasp
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_e
+  level1: container
+  level2: container_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.6
+device_model:
+- unitree_tiago
+end_effector_type: five_claw_gripper

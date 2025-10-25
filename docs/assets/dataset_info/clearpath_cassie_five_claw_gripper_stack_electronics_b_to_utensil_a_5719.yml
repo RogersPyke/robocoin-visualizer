@@ -1,0 +1,30 @@
+dataset_name: stack_electronics_b_to_utensil_a_5719
+dataset_uuid: 5719f427-e28b-4901-bb11-216ac828085e
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_utensil_a
+scene_type:
+- laboratory
+- factory
+- home
+atomic_actions:
+- pull
+- flip
+- remove
+- place
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- clearpath_cassie
+end_effector_type: five_claw_gripper

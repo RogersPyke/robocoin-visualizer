@@ -1,0 +1,26 @@
+dataset_name: stack_tool_d_to_kitchenware_b_7956
+dataset_uuid: 9fdf512a-48b2-4798-a279-5aa53c59b556
+task_descriptions:
+- stack_the_tool_d_and_place_in_the_kitchenware_b
+scene_type:
+- office
+atomic_actions:
+- rotate
+- lift
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 72.4
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

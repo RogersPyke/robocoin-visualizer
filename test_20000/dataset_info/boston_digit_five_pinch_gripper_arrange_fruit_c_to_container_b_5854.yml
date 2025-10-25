@@ -1,0 +1,27 @@
+dataset_name: arrange_fruit_c_to_container_b_5854
+dataset_uuid: 8e784a87-ae7a-4c2a-9d36-7143d1d9b985
+task_descriptions:
+- arrange_the_fruit_c_and_place_in_the_container_b
+scene_type:
+- restaurant
+- cafe
+atomic_actions:
+- pull
+- lift
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.9
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

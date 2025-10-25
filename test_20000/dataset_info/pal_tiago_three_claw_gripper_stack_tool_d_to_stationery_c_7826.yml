@@ -1,0 +1,29 @@
+dataset_name: stack_tool_d_to_stationery_c_7826
+dataset_uuid: 99052c71-b56e-4321-b8e2-dea2e68ded3b
+task_descriptions:
+- stack_the_tool_d_and_place_in_the_stationery_c
+scene_type:
+- laboratory
+- office
+- restaurant
+atomic_actions:
+- place
+- pick
+- insert
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.4
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_container_e_to_container_a_4825
+dataset_uuid: 44c12898-30f5-4697-9b40-f6c1aa1034dd
+task_descriptions:
+- move_the_container_e_and_place_in_the_container_a
+scene_type:
+- kitchen
+- restaurant
+- home
+atomic_actions:
+- flip
+- pick
+objects:
+- object_name: container_e
+  level1: container
+  level2: container_e
+  level3: container_e_sub1
+  level4: container_e_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 74.5
+device_model:
+- clearpath_cassie
+end_effector_type: five_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_beverage_a_to_container_a_3642
+dataset_uuid: e2d05356-2827-42fd-abb4-666a97ced3ed
+task_descriptions:
+- move_the_beverage_a_and_place_in_the_container_a
+scene_type:
+- office
+- restaurant
+- hospital
+atomic_actions:
+- lift
+- pick
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.9
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

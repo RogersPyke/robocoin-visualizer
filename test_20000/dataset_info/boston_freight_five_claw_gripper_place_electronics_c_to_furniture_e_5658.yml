@@ -1,0 +1,28 @@
+dataset_name: place_electronics_c_to_furniture_e_5658
+dataset_uuid: 5df044c7-a13b-4b57-b8a5-756363f2b962
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_furniture_e
+scene_type:
+- kitchen
+- factory
+atomic_actions:
+- lift
+- push
+- pull
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

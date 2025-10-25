@@ -1,0 +1,28 @@
+dataset_name: place_container_a_to_furniture_b_5388
+dataset_uuid: ab7cf04f-a280-43e8-a065-7ee21f316278
+task_descriptions:
+- place_the_container_a_and_place_in_the_furniture_b
+scene_type:
+- kitchen
+atomic_actions:
+- grasp
+- place
+- remove
+- lower
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 79.4
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

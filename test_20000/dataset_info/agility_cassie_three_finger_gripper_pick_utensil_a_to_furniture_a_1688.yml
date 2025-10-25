@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_a_to_furniture_a_1688
+dataset_uuid: fd7b784f-2895-43f7-8f3b-dac798d48098
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_furniture_a
+scene_type:
+- store
+atomic_actions:
+- lower
+- insert
+- lift
+- rotate
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.9
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

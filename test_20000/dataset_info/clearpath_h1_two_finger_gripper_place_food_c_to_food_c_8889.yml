@@ -1,0 +1,29 @@
+dataset_name: place_food_c_to_food_c_8889
+dataset_uuid: 28445688-de68-431e-a178-45f98d508fbe
+task_descriptions:
+- place_the_food_c_and_place_in_the_food_c
+scene_type:
+- home
+- warehouse
+atomic_actions:
+- pull
+- push
+- place
+- rotate
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: food_c_sub2
+  level5: null
+operation_platform_height: 88.8
+device_model:
+- clearpath_h1
+end_effector_type: two_finger_gripper

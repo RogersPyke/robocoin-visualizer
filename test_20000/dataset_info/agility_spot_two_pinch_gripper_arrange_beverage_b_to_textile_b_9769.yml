@@ -1,0 +1,28 @@
+dataset_name: arrange_beverage_b_to_textile_b_9769
+dataset_uuid: 6be4ee79-3b00-4f19-87d8-edb47ee53ca5
+task_descriptions:
+- arrange_the_beverage_b_and_place_in_the_textile_b
+scene_type:
+- home
+atomic_actions:
+- insert
+- slide
+- flip
+- pull
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+operation_platform_height: 87.1
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

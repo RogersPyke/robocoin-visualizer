@@ -1,0 +1,28 @@
+dataset_name: place_fruit_a_to_tool_c_1571
+dataset_uuid: 0198c360-5221-46e8-95db-4e7329dd1e6e
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_tool_c
+scene_type:
+- warehouse
+atomic_actions:
+- lift
+- grasp
+- place
+- remove
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+operation_platform_height: 88.5
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

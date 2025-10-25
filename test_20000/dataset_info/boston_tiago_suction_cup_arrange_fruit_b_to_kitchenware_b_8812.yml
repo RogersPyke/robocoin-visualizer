@@ -1,0 +1,29 @@
+dataset_name: arrange_fruit_b_to_kitchenware_b_8812
+dataset_uuid: 59591105-1565-404a-aa3a-5f9550a65a67
+task_descriptions:
+- arrange_the_fruit_b_and_place_in_the_kitchenware_b
+scene_type:
+- laboratory
+- home
+atomic_actions:
+- pull
+- lift
+- lower
+- grasp
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.8
+device_model:
+- boston_tiago
+end_effector_type: suction_cup

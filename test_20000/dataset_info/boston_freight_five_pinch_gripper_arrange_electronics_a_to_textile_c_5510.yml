@@ -1,0 +1,27 @@
+dataset_name: arrange_electronics_a_to_textile_c_5510
+dataset_uuid: 260bb76d-17ed-4b2a-b78b-d3467a39652f
+task_descriptions:
+- arrange_the_electronics_a_and_place_in_the_textile_c
+scene_type:
+- cafe
+atomic_actions:
+- slide
+- remove
+- place
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 74.4
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

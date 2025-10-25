@@ -1,0 +1,27 @@
+dataset_name: place_tool_a_to_stationery_a_3964
+dataset_uuid: 9b0e87d0-ba03-4d36-ae6a-cc433a157d71
+task_descriptions:
+- place_the_tool_a_and_place_in_the_stationery_a
+scene_type:
+- kitchen
+atomic_actions:
+- grasp
+- pull
+- insert
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

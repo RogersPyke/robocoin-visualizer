@@ -1,0 +1,27 @@
+dataset_name: place_tool_d_to_container_a_1762
+dataset_uuid: 053c81c1-515d-425c-bf10-6f0fe617f52c
+task_descriptions:
+- place_the_tool_d_and_place_in_the_container_a
+scene_type:
+- cafe
+atomic_actions:
+- flip
+- pick
+- lower
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

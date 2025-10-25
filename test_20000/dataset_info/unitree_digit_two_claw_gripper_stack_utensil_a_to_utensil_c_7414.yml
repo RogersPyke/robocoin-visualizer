@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_a_to_utensil_c_7414
+dataset_uuid: 042aae07-5291-4915-ac8c-73fa64b08a5f
+task_descriptions:
+- stack_the_utensil_a_and_place_in_the_utensil_c
+scene_type:
+- office
+- factory
+atomic_actions:
+- grasp
+- place
+- lower
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.1
+device_model:
+- unitree_digit
+end_effector_type: two_claw_gripper

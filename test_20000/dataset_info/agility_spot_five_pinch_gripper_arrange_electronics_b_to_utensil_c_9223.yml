@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_b_to_utensil_c_9223
+dataset_uuid: ed349bcd-fff0-4bd7-b5a4-3cfbe71e5ac3
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_utensil_c
+scene_type:
+- factory
+- cafe
+- laboratory
+atomic_actions:
+- insert
+- slide
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

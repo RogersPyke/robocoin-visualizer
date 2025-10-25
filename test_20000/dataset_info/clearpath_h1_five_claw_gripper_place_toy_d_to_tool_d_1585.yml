@@ -1,0 +1,27 @@
+dataset_name: place_toy_d_to_tool_d_1585
+dataset_uuid: 2e843e96-aa8d-4a65-afe6-cfda30446187
+task_descriptions:
+- place_the_toy_d_and_place_in_the_tool_d
+scene_type:
+- home
+atomic_actions:
+- pick
+- flip
+- grasp
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: arrange_electronics_a_to_fruit_d_5266
+dataset_uuid: 7314088b-e983-4776-beb7-aacaa3d9e88c
+task_descriptions:
+- arrange_the_electronics_a_and_place_in_the_fruit_d
+scene_type:
+- factory
+- hospital
+atomic_actions:
+- pick
+- slide
+- grasp
+- pull
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- pal_tiago
+end_effector_type: two_finger_gripper

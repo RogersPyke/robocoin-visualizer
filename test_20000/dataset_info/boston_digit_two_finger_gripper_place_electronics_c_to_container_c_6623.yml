@@ -1,0 +1,30 @@
+dataset_name: place_electronics_c_to_container_c_6623
+dataset_uuid: e594bcd7-782f-4ab1-b182-9fbb51ec2269
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_container_c
+scene_type:
+- warehouse
+- cafe
+- store
+atomic_actions:
+- lower
+- pick
+- slide
+- flip
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- boston_digit
+end_effector_type: two_finger_gripper

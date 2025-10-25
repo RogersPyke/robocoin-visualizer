@@ -1,0 +1,27 @@
+dataset_name: arrange_tool_a_to_furniture_a_7893
+dataset_uuid: 60af22e6-defc-435e-bc0d-b5012f035598
+task_descriptions:
+- arrange_the_tool_a_and_place_in_the_furniture_a
+scene_type:
+- restaurant
+- warehouse
+atomic_actions:
+- place
+- lower
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.1
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

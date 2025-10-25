@@ -1,0 +1,28 @@
+dataset_name: place_utensil_a_to_fruit_c_2586
+dataset_uuid: efafdde7-b22a-4924-a172-fd54c9569a6b
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_fruit_c
+scene_type:
+- cafe
+atomic_actions:
+- lift
+- push
+- flip
+- pull
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.6
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

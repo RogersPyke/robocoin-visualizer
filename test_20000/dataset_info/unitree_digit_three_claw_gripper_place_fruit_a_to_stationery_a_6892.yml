@@ -1,0 +1,27 @@
+dataset_name: place_fruit_a_to_stationery_a_6892
+dataset_uuid: 77cb1f4c-5a7f-4e42-8bae-38a190287f0a
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_stationery_a
+scene_type:
+- factory
+atomic_actions:
+- rotate
+- pick
+- slide
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

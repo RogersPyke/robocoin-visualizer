@@ -1,0 +1,26 @@
+dataset_name: arrange_fruit_a_to_container_b_5033
+dataset_uuid: de9e83e4-8889-4609-b67b-67487fb437fb
+task_descriptions:
+- arrange_the_fruit_a_and_place_in_the_container_b
+scene_type:
+- factory
+atomic_actions:
+- grasp
+- lift
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- agility_spot
+end_effector_type: two_claw_gripper

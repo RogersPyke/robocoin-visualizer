@@ -1,0 +1,29 @@
+dataset_name: pick_electronics_b_to_furniture_d_5053
+dataset_uuid: b6714963-c585-4614-b5e4-eaa2532d3d62
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_furniture_d
+scene_type:
+- warehouse
+- kitchen
+atomic_actions:
+- insert
+- pull
+- slide
+- pick
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

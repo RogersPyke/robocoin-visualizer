@@ -1,0 +1,27 @@
+dataset_name: arrange_utensil_d_to_fruit_a_5311
+dataset_uuid: 1c82ec18-5ce3-4274-a57c-4fc6ac2a1779
+task_descriptions:
+- arrange_the_utensil_d_and_place_in_the_fruit_a
+scene_type:
+- hospital
+- laboratory
+atomic_actions:
+- slide
+- insert
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.5
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

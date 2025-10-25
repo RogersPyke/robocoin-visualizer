@@ -1,0 +1,29 @@
+dataset_name: place_container_a_to_furniture_c_6096
+dataset_uuid: 69791eff-10fb-4fcb-a8e5-73c2f2b020f8
+task_descriptions:
+- place_the_container_a_and_place_in_the_furniture_c
+scene_type:
+- cafe
+- restaurant
+- kitchen
+atomic_actions:
+- insert
+- flip
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

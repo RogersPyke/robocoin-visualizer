@@ -1,0 +1,29 @@
+dataset_name: arrange_toy_a_to_electronics_b_1607
+dataset_uuid: 5eaccfeb-dc55-4771-83c4-6cbe864f02ec
+task_descriptions:
+- arrange_the_toy_a_and_place_in_the_electronics_b
+scene_type:
+- store
+- office
+- warehouse
+atomic_actions:
+- place
+- grasp
+- pull
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.3
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

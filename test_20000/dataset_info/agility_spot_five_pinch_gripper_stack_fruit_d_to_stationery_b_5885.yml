@@ -1,0 +1,28 @@
+dataset_name: stack_fruit_d_to_stationery_b_5885
+dataset_uuid: db823180-e2c4-4d03-b699-aea3f5280a80
+task_descriptions:
+- stack_the_fruit_d_and_place_in_the_stationery_b
+scene_type:
+- factory
+- kitchen
+- office
+atomic_actions:
+- rotate
+- insert
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.7
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

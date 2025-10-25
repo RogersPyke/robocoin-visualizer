@@ -1,0 +1,29 @@
+dataset_name: place_textile_e_to_textile_d_9007
+dataset_uuid: 71d96842-b894-4654-8277-fc9174273e43
+task_descriptions:
+- place_the_textile_e_and_place_in_the_textile_d
+scene_type:
+- warehouse
+- restaurant
+atomic_actions:
+- flip
+- lower
+- push
+- lift
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.8
+device_model:
+- agility_tiago
+end_effector_type: five_jaw_gripper

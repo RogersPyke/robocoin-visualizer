@@ -1,0 +1,29 @@
+dataset_name: place_tool_c_to_stationery_b_1473
+dataset_uuid: 27c9258f-d91a-406d-8e13-ef50213fdf7e
+task_descriptions:
+- place_the_tool_c_and_place_in_the_stationery_b
+scene_type:
+- kitchen
+- restaurant
+atomic_actions:
+- rotate
+- insert
+- slide
+- pull
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.2
+device_model:
+- boston_freight
+end_effector_type: two_claw_gripper

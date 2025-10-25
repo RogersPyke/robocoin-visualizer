@@ -1,0 +1,27 @@
+dataset_name: arrange_electronics_a_to_utensil_b_6819
+dataset_uuid: 7a890bb5-38b8-49ec-bc1a-777f8cd9dc1e
+task_descriptions:
+- arrange_the_electronics_a_and_place_in_the_utensil_b
+scene_type:
+- kitchen
+- factory
+atomic_actions:
+- pull
+- insert
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.4
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

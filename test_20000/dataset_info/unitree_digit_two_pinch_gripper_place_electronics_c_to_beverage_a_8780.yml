@@ -1,0 +1,26 @@
+dataset_name: place_electronics_c_to_beverage_a_8780
+dataset_uuid: 75c1c67d-aa5b-4a4c-ac6d-d21911ea6940
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_beverage_a
+scene_type:
+- hospital
+atomic_actions:
+- lift
+- lower
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.9
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

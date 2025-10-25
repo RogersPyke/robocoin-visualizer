@@ -1,0 +1,28 @@
+dataset_name: stack_stationery_a_to_toy_d_8862
+dataset_uuid: c154483e-57aa-4d11-b1cb-1dcd150dbf65
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_toy_d
+scene_type:
+- laboratory
+atomic_actions:
+- lift
+- place
+- pick
+- flip
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- agility_cassie
+end_effector_type: three_jaw_gripper

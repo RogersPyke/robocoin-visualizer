@@ -1,0 +1,28 @@
+dataset_name: move_electronics_b_to_utensil_a_9374
+dataset_uuid: 696a8361-318e-4ef8-bf51-0369760ac05a
+task_descriptions:
+- move_the_electronics_b_and_place_in_the_utensil_a
+scene_type:
+- cafe
+- store
+- restaurant
+atomic_actions:
+- insert
+- lower
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_electronics_c_to_electronics_c_6659
+dataset_uuid: ca9fbd58-bdf2-4d17-9200-d0b86c2a7b68
+task_descriptions:
+- move_the_electronics_c_and_place_in_the_electronics_c
+scene_type:
+- office
+atomic_actions:
+- pull
+- flip
+- lift
+- pick
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

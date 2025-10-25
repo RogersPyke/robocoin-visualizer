@@ -1,0 +1,28 @@
+dataset_name: arrange_beverage_d_to_stationery_c_3477
+dataset_uuid: 146c11f0-d791-4424-b722-bc838e9b30c1
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_stationery_c
+scene_type:
+- home
+atomic_actions:
+- grasp
+- place
+- lift
+- flip
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_tool_b_to_toy_c_8625
+dataset_uuid: 2037a056-c85e-4f8a-b5e1-afe498339995
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_toy_c
+scene_type:
+- factory
+- cafe
+atomic_actions:
+- pick
+- place
+- rotate
+- slide
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- pal_tiago
+end_effector_type: five_claw_gripper

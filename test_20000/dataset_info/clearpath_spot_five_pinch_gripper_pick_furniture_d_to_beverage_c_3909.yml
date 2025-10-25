@@ -1,0 +1,27 @@
+dataset_name: pick_furniture_d_to_beverage_c_3909
+dataset_uuid: 7aa8b125-4aa1-4e38-9e4a-58c57cb57f62
+task_descriptions:
+- pick_the_furniture_d_and_place_in_the_beverage_c
+scene_type:
+- factory
+atomic_actions:
+- insert
+- pull
+- grasp
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

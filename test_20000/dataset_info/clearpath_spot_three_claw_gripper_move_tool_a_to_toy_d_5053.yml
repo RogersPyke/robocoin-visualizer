@@ -1,0 +1,28 @@
+dataset_name: move_tool_a_to_toy_d_5053
+dataset_uuid: f237f69f-43a5-4b95-828e-baccc9e9e31b
+task_descriptions:
+- move_the_tool_a_and_place_in_the_toy_d
+scene_type:
+- hospital
+atomic_actions:
+- insert
+- push
+- slide
+- grasp
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+operation_platform_height: 71.1
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

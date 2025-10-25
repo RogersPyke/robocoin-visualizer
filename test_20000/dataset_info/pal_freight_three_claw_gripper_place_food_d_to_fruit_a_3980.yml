@@ -1,0 +1,27 @@
+dataset_name: place_food_d_to_fruit_a_3980
+dataset_uuid: 29ed14a9-b3f1-44ea-9a37-c4d2423f24d4
+task_descriptions:
+- place_the_food_d_and_place_in_the_fruit_a
+scene_type:
+- store
+atomic_actions:
+- lower
+- insert
+- flip
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

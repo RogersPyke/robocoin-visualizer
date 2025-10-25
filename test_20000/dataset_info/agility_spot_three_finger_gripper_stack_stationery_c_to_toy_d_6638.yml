@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_c_to_toy_d_6638
+dataset_uuid: e708d3a3-8047-47d1-9c4f-f937f8756c36
+task_descriptions:
+- stack_the_stationery_c_and_place_in_the_toy_d
+scene_type:
+- restaurant
+- factory
+- store
+atomic_actions:
+- place
+- insert
+- flip
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

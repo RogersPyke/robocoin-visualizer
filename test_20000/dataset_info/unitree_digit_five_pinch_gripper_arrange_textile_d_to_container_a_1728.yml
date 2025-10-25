@@ -1,0 +1,27 @@
+dataset_name: arrange_textile_d_to_container_a_1728
+dataset_uuid: 5a1adb19-0a70-4952-b427-fbe8066004c0
+task_descriptions:
+- arrange_the_textile_d_and_place_in_the_container_a
+scene_type:
+- warehouse
+- store
+atomic_actions:
+- lift
+- pull
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.2
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

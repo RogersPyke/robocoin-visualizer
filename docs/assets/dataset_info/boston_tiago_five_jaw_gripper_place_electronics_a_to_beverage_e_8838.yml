@@ -1,0 +1,29 @@
+dataset_name: place_electronics_a_to_beverage_e_8838
+dataset_uuid: f05b4897-f4fd-4ba2-9272-20ad74bb3003
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_beverage_e
+scene_type:
+- office
+- home
+- warehouse
+atomic_actions:
+- insert
+- lift
+- push
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- boston_tiago
+end_effector_type: five_jaw_gripper

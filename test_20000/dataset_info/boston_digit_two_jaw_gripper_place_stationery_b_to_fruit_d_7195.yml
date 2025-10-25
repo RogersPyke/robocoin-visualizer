@@ -1,0 +1,28 @@
+dataset_name: place_stationery_b_to_fruit_d_7195
+dataset_uuid: f747abb1-0b51-4611-92a7-7ae5449cd02b
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_fruit_d
+scene_type:
+- cafe
+atomic_actions:
+- pick
+- flip
+- push
+- insert
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

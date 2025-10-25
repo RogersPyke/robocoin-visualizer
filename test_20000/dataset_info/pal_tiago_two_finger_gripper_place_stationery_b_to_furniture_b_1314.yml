@@ -1,0 +1,29 @@
+dataset_name: place_stationery_b_to_furniture_b_1314
+dataset_uuid: 76ce1e24-3db9-4f8a-b925-feea22c5c50f
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_furniture_b
+scene_type:
+- cafe
+- laboratory
+atomic_actions:
+- pick
+- insert
+- push
+- place
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- pal_tiago
+end_effector_type: two_finger_gripper

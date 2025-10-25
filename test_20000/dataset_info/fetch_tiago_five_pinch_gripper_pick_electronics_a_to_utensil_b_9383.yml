@@ -1,0 +1,30 @@
+dataset_name: pick_electronics_a_to_utensil_b_9383
+dataset_uuid: 1902a76b-4387-4c6d-abb0-b4a1dcde59ef
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_utensil_b
+scene_type:
+- restaurant
+- home
+- warehouse
+atomic_actions:
+- place
+- grasp
+- push
+- pull
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.9
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

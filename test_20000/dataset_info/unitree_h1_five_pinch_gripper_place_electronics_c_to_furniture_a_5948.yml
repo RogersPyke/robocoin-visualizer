@@ -1,0 +1,27 @@
+dataset_name: place_electronics_c_to_furniture_a_5948
+dataset_uuid: ea64fe66-680b-4fcf-8f46-5399e8c105a1
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_furniture_a
+scene_type:
+- cafe
+- office
+atomic_actions:
+- pick
+- lower
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.1
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

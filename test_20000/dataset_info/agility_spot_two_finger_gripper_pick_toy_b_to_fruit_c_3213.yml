@@ -1,0 +1,28 @@
+dataset_name: pick_toy_b_to_fruit_c_3213
+dataset_uuid: c45fd248-27ed-4a67-8a11-07966021a141
+task_descriptions:
+- pick_the_toy_b_and_place_in_the_fruit_c
+scene_type:
+- hospital
+atomic_actions:
+- lift
+- flip
+- pull
+- insert
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.1
+device_model:
+- agility_spot
+end_effector_type: two_finger_gripper

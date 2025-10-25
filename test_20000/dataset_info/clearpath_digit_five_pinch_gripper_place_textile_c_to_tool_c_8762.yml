@@ -1,0 +1,27 @@
+dataset_name: place_textile_c_to_tool_c_8762
+dataset_uuid: 5fd6485e-257c-41ee-bee5-46deb22cb055
+task_descriptions:
+- place_the_textile_c_and_place_in_the_tool_c
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- pull
+- push
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.8
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

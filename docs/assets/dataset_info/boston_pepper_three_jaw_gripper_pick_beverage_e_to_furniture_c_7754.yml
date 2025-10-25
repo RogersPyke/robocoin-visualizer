@@ -1,0 +1,28 @@
+dataset_name: pick_beverage_e_to_furniture_c_7754
+dataset_uuid: 79c31dd9-7953-4330-a99f-8ca3b95cddfc
+task_descriptions:
+- pick_the_beverage_e_and_place_in_the_furniture_c
+scene_type:
+- cafe
+- office
+- kitchen
+atomic_actions:
+- rotate
+- remove
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- boston_pepper
+end_effector_type: three_jaw_gripper

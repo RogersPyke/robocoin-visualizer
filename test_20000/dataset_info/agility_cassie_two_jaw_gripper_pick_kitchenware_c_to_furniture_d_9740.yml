@@ -1,0 +1,30 @@
+dataset_name: pick_kitchenware_c_to_furniture_d_9740
+dataset_uuid: a2134ee5-deb6-49d4-8428-e92c08b67804
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_furniture_d
+scene_type:
+- hospital
+- factory
+- laboratory
+atomic_actions:
+- push
+- remove
+- pull
+- grasp
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

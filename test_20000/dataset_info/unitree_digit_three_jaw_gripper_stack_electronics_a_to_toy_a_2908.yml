@@ -1,0 +1,29 @@
+dataset_name: stack_electronics_a_to_toy_a_2908
+dataset_uuid: ff7c676d-fd62-40ae-9d61-f4beb01bb1a5
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_toy_a
+scene_type:
+- warehouse
+- cafe
+- hospital
+atomic_actions:
+- lower
+- place
+- grasp
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

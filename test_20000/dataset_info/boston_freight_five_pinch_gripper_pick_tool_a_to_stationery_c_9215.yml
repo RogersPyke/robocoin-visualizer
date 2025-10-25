@@ -1,0 +1,28 @@
+dataset_name: pick_tool_a_to_stationery_c_9215
+dataset_uuid: a78f14ca-3df0-4ba6-ab7c-32115a4b1ae7
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_stationery_c
+scene_type:
+- hospital
+atomic_actions:
+- place
+- remove
+- lift
+- rotate
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.1
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

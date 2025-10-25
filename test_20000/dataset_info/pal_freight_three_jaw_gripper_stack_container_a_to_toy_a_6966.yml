@@ -1,0 +1,30 @@
+dataset_name: stack_container_a_to_toy_a_6966
+dataset_uuid: 41e272e3-0f89-441e-9ae5-39731d54196b
+task_descriptions:
+- stack_the_container_a_and_place_in_the_toy_a
+scene_type:
+- restaurant
+- office
+- home
+atomic_actions:
+- lift
+- remove
+- lower
+- pull
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.1
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,26 @@
+dataset_name: place_furniture_c_to_electronics_b_8967
+dataset_uuid: d5d61464-48f0-48d8-bd62-ced4f7eb71cb
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_electronics_b
+scene_type:
+- office
+atomic_actions:
+- slide
+- rotate
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

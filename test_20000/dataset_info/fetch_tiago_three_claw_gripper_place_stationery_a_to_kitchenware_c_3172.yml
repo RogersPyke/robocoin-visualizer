@@ -1,0 +1,27 @@
+dataset_name: place_stationery_a_to_kitchenware_c_3172
+dataset_uuid: 9b8d0372-c188-45c8-95f2-8c14923e7eaf
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_kitchenware_c
+scene_type:
+- store
+atomic_actions:
+- push
+- insert
+- slide
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

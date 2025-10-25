@@ -1,0 +1,29 @@
+dataset_name: pick_tool_a_to_toy_d_1036
+dataset_uuid: 47c0babb-db84-4d51-847f-70ff8128215c
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_toy_d
+scene_type:
+- home
+- warehouse
+atomic_actions:
+- push
+- pull
+- lower
+- slide
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.1
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

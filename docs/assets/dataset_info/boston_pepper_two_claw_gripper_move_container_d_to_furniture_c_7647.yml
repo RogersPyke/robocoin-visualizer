@@ -1,0 +1,28 @@
+dataset_name: move_container_d_to_furniture_c_7647
+dataset_uuid: d9553dfe-9fee-4f30-9663-3fe6e1be5903
+task_descriptions:
+- move_the_container_d_and_place_in_the_furniture_c
+scene_type:
+- hospital
+- office
+- warehouse
+atomic_actions:
+- place
+- remove
+objects:
+- object_name: container_d
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- boston_pepper
+end_effector_type: two_claw_gripper

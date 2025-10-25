@@ -1,0 +1,29 @@
+dataset_name: stack_electronics_b_to_textile_a_8008
+dataset_uuid: fb8af5ff-6cfd-4b05-a615-9bda9764394a
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_textile_a
+scene_type:
+- warehouse
+- office
+- kitchen
+atomic_actions:
+- rotate
+- flip
+- insert
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

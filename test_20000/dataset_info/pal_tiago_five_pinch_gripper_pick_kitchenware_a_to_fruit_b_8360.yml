@@ -1,0 +1,30 @@
+dataset_name: pick_kitchenware_a_to_fruit_b_8360
+dataset_uuid: c385f948-76be-4ab6-8735-a9e9eb82f50d
+task_descriptions:
+- pick_the_kitchenware_a_and_place_in_the_fruit_b
+scene_type:
+- warehouse
+- restaurant
+- factory
+atomic_actions:
+- pull
+- slide
+- insert
+- lower
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

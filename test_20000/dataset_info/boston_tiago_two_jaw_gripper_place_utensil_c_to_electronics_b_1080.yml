@@ -1,0 +1,29 @@
+dataset_name: place_utensil_c_to_electronics_b_1080
+dataset_uuid: ba352b09-c0f5-4ea3-917e-1cb110e08f20
+task_descriptions:
+- place_the_utensil_c_and_place_in_the_electronics_b
+scene_type:
+- restaurant
+- hospital
+atomic_actions:
+- pick
+- lower
+- pull
+- slide
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.6
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

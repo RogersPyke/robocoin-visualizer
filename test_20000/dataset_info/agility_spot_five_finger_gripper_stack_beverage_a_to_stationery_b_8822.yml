@@ -1,0 +1,27 @@
+dataset_name: stack_beverage_a_to_stationery_b_8822
+dataset_uuid: de933626-00fd-4239-89c3-85a487954746
+task_descriptions:
+- stack_the_beverage_a_and_place_in_the_stationery_b
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- pick
+- flip
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.2
+device_model:
+- agility_spot
+end_effector_type: five_finger_gripper

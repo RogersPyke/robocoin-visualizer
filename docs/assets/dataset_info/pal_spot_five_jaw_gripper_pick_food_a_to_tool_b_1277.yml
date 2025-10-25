@@ -1,0 +1,29 @@
+dataset_name: pick_food_a_to_tool_b_1277
+dataset_uuid: 38765d0a-2516-427e-a58e-b0b9d9514b30
+task_descriptions:
+- pick_the_food_a_and_place_in_the_tool_b
+scene_type:
+- cafe
+- office
+- hospital
+atomic_actions:
+- pull
+- slide
+- place
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- pal_spot
+end_effector_type: five_jaw_gripper

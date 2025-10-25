@@ -1,0 +1,29 @@
+dataset_name: place_food_d_to_tool_c_7312
+dataset_uuid: af4413ea-8e3d-4575-90ee-15cc3730ad63
+task_descriptions:
+- place_the_food_d_and_place_in_the_tool_c
+scene_type:
+- factory
+- home
+atomic_actions:
+- lift
+- insert
+- grasp
+- pick
+objects:
+- object_name: food_d
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.9
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

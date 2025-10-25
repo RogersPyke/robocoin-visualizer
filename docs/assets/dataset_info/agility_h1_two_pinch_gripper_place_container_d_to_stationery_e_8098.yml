@@ -1,0 +1,26 @@
+dataset_name: place_container_d_to_stationery_e_8098
+dataset_uuid: 50ed5cf2-d259-42ec-a4cd-12a6f209b67a
+task_descriptions:
+- place_the_container_d_and_place_in_the_stationery_e
+scene_type:
+- cafe
+atomic_actions:
+- pull
+- grasp
+objects:
+- object_name: container_d
+  level1: container
+  level2: container_d
+  level3: container_d_sub1
+  level4: null
+  level5: null
+- object_name: stationery_e
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.6
+device_model:
+- agility_h1
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,26 @@
+dataset_name: place_stationery_a_to_tool_c_1170
+dataset_uuid: 59850a69-d6a3-498b-a071-5584d809e5b2
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_tool_c
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- push
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

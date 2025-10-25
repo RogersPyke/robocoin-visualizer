@@ -1,0 +1,28 @@
+dataset_name: place_container_a_to_toy_a_4128
+dataset_uuid: 230cc8ce-39e9-4271-9878-3a4f2c876c36
+task_descriptions:
+- place_the_container_a_and_place_in_the_toy_a
+scene_type:
+- office
+- warehouse
+atomic_actions:
+- insert
+- rotate
+- place
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.4
+device_model:
+- pal_freight
+end_effector_type: two_finger_gripper

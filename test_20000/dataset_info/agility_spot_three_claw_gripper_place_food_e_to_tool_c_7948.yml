@@ -1,0 +1,26 @@
+dataset_name: place_food_e_to_tool_c_7948
+dataset_uuid: c980b98f-bc3e-4272-b7ba-d83c1f2a7017
+task_descriptions:
+- place_the_food_e_and_place_in_the_tool_c
+scene_type:
+- factory
+atomic_actions:
+- remove
+- lift
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

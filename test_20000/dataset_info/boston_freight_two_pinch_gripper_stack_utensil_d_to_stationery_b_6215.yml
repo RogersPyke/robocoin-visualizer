@@ -1,0 +1,27 @@
+dataset_name: stack_utensil_d_to_stationery_b_6215
+dataset_uuid: ed3e4761-72a8-4091-bc0f-799d1c191512
+task_descriptions:
+- stack_the_utensil_d_and_place_in_the_stationery_b
+scene_type:
+- office
+atomic_actions:
+- place
+- lower
+- rotate
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

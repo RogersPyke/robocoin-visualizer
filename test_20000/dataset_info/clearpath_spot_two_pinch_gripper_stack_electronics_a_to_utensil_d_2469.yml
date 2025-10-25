@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_a_to_utensil_d_2469
+dataset_uuid: 5cac20d7-174d-41f4-8abb-8e5f7f8f50ea
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_utensil_d
+scene_type:
+- home
+- laboratory
+atomic_actions:
+- insert
+- flip
+- lower
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

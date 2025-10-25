@@ -1,0 +1,29 @@
+dataset_name: place_kitchenware_a_to_toy_a_6339
+dataset_uuid: 80d12702-471e-4383-b43d-ec94dd91c416
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_toy_a
+scene_type:
+- hospital
+- office
+- laboratory
+atomic_actions:
+- pick
+- lift
+- push
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.1
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

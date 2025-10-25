@@ -1,0 +1,28 @@
+dataset_name: move_utensil_a_to_utensil_b_1014
+dataset_uuid: 85af3baf-e703-48a3-9d44-37bbb476c314
+task_descriptions:
+- move_the_utensil_a_and_place_in_the_utensil_b
+scene_type:
+- office
+- hospital
+- factory
+atomic_actions:
+- slide
+- pick
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.1
+device_model:
+- boston_digit
+end_effector_type: suction_cup

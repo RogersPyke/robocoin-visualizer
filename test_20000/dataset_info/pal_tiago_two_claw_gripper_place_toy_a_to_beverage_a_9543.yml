@@ -1,0 +1,26 @@
+dataset_name: place_toy_a_to_beverage_a_9543
+dataset_uuid: e3590a50-55bc-4919-af95-ca9e98ebf719
+task_descriptions:
+- place_the_toy_a_and_place_in_the_beverage_a
+scene_type:
+- restaurant
+atomic_actions:
+- grasp
+- insert
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+operation_platform_height: 85.9
+device_model:
+- pal_tiago
+end_effector_type: two_claw_gripper

@@ -1,0 +1,26 @@
+dataset_name: arrange_kitchenware_a_to_toy_c_8575
+dataset_uuid: 61787578-bf25-481a-8746-a04938d5b44b
+task_descriptions:
+- arrange_the_kitchenware_a_and_place_in_the_toy_c
+scene_type:
+- restaurant
+atomic_actions:
+- pick
+- lift
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.6
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

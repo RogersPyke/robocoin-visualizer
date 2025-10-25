@@ -1,0 +1,29 @@
+dataset_name: stack_kitchenware_c_to_tool_c_5248
+dataset_uuid: 2d986663-07d0-43eb-95c1-9e852a44f64f
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_tool_c
+scene_type:
+- home
+- hospital
+atomic_actions:
+- grasp
+- insert
+- remove
+- push
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

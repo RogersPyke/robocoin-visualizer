@@ -1,0 +1,27 @@
+dataset_name: pick_furniture_c_to_container_a_6769
+dataset_uuid: 431d4481-e9e3-44f9-baaf-03b8867563f7
+task_descriptions:
+- pick_the_furniture_c_and_place_in_the_container_a
+scene_type:
+- cafe
+atomic_actions:
+- lift
+- slide
+- grasp
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

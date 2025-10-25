@@ -1,0 +1,29 @@
+dataset_name: pick_furniture_b_to_textile_a_4492
+dataset_uuid: db22d060-cc77-4b2e-9c2f-1d9a8a806588
+task_descriptions:
+- pick_the_furniture_b_and_place_in_the_textile_a
+scene_type:
+- office
+- cafe
+- laboratory
+atomic_actions:
+- lift
+- place
+- push
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.0
+device_model:
+- pal_tiago
+end_effector_type: three_finger_gripper

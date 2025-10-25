@@ -1,0 +1,29 @@
+dataset_name: move_toy_b_to_stationery_b_2572
+dataset_uuid: 57e69f24-1085-4194-bc1d-41e5f7586f78
+task_descriptions:
+- move_the_toy_b_and_place_in_the_stationery_b
+scene_type:
+- hospital
+- store
+- cafe
+atomic_actions:
+- insert
+- push
+- lift
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

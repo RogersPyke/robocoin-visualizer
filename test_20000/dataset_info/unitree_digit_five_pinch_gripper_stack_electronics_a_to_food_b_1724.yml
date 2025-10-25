@@ -1,0 +1,29 @@
+dataset_name: stack_electronics_a_to_food_b_1724
+dataset_uuid: 72273709-b4f3-48ba-9aa8-7c2199537059
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_food_b
+scene_type:
+- factory
+- warehouse
+atomic_actions:
+- rotate
+- lower
+- pull
+- remove
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+operation_platform_height: 85.6
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

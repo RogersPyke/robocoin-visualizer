@@ -1,0 +1,28 @@
+dataset_name: place_textile_d_to_textile_a_7345
+dataset_uuid: 96e7fe60-c002-4277-aa7c-ce1bea6ece21
+task_descriptions:
+- place_the_textile_d_and_place_in_the_textile_a
+scene_type:
+- kitchen
+- laboratory
+- office
+atomic_actions:
+- pull
+- rotate
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.8
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

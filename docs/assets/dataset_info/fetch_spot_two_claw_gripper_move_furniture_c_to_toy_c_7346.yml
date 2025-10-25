@@ -1,0 +1,27 @@
+dataset_name: move_furniture_c_to_toy_c_7346
+dataset_uuid: 8b76314f-e428-4af5-bde0-ca6948ebe826
+task_descriptions:
+- move_the_furniture_c_and_place_in_the_toy_c
+scene_type:
+- kitchen
+- restaurant
+atomic_actions:
+- remove
+- pull
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.8
+device_model:
+- fetch_spot
+end_effector_type: two_claw_gripper

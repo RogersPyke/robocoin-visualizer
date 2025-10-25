@@ -1,0 +1,29 @@
+dataset_name: pick_kitchenware_b_to_food_c_5360
+dataset_uuid: aae7121f-1d13-4704-bb1e-1d58972b71de
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_food_c
+scene_type:
+- restaurant
+- kitchen
+atomic_actions:
+- pull
+- lower
+- lift
+- insert
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

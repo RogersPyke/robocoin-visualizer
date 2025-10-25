@@ -1,0 +1,30 @@
+dataset_name: place_fruit_c_to_electronics_b_1227
+dataset_uuid: 84b49fb7-0549-45c3-8d23-2f0c80b9fac9
+task_descriptions:
+- place_the_fruit_c_and_place_in_the_electronics_b
+scene_type:
+- store
+- warehouse
+- kitchen
+atomic_actions:
+- grasp
+- pull
+- slide
+- place
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

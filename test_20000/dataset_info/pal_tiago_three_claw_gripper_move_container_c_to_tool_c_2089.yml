@@ -1,0 +1,29 @@
+dataset_name: move_container_c_to_tool_c_2089
+dataset_uuid: 186718d2-864a-47c0-930e-0c7e6e302ea2
+task_descriptions:
+- move_the_container_c_and_place_in_the_tool_c
+scene_type:
+- office
+- cafe
+- home
+atomic_actions:
+- rotate
+- pick
+- lift
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+operation_platform_height: 78.1
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

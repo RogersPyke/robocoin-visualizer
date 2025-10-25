@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_b_to_kitchenware_a_3705
+dataset_uuid: bda37fcd-2b1c-4170-83af-3ddd44dc08cc
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_kitchenware_a
+scene_type:
+- home
+- kitchen
+- restaurant
+atomic_actions:
+- flip
+- grasp
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

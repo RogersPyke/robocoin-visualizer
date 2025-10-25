@@ -1,0 +1,27 @@
+dataset_name: pick_beverage_a_to_furniture_a_3970
+dataset_uuid: 98f74891-38a7-4409-aa8c-3eaa3e545815
+task_descriptions:
+- pick_the_beverage_a_and_place_in_the_furniture_a
+scene_type:
+- kitchen
+- restaurant
+atomic_actions:
+- rotate
+- grasp
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.1
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

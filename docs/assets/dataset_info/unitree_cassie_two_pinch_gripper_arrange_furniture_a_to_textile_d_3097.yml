@@ -1,0 +1,27 @@
+dataset_name: arrange_furniture_a_to_textile_d_3097
+dataset_uuid: 1417bbf5-651a-4e15-b5e7-c8eabc79d8cf
+task_descriptions:
+- arrange_the_furniture_a_and_place_in_the_textile_d
+scene_type:
+- office
+- kitchen
+atomic_actions:
+- grasp
+- place
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- unitree_cassie
+end_effector_type: two_pinch_gripper

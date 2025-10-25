@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_a_to_container_b_6236
+dataset_uuid: 32e68a49-456a-49e1-8001-93b3d2ceaaa8
+task_descriptions:
+- arrange_the_electronics_a_and_place_in_the_container_b
+scene_type:
+- hospital
+atomic_actions:
+- pick
+- insert
+- push
+- place
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.5
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

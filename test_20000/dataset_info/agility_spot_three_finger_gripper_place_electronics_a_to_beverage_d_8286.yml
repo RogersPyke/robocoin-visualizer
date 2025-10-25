@@ -1,0 +1,29 @@
+dataset_name: place_electronics_a_to_beverage_d_8286
+dataset_uuid: ea37f674-da2e-4bc2-9ef7-42bd8420ed1e
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_beverage_d
+scene_type:
+- kitchen
+- cafe
+- laboratory
+atomic_actions:
+- place
+- lower
+- flip
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

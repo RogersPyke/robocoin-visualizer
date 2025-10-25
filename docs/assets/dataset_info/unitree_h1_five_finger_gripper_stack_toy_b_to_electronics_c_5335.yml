@@ -1,0 +1,27 @@
+dataset_name: stack_toy_b_to_electronics_c_5335
+dataset_uuid: ff7b140f-408f-4d7c-ab58-a4d0129bed15
+task_descriptions:
+- stack_the_toy_b_and_place_in_the_electronics_c
+scene_type:
+- office
+- home
+atomic_actions:
+- insert
+- remove
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 83.5
+device_model:
+- unitree_h1
+end_effector_type: five_finger_gripper

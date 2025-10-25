@@ -1,0 +1,27 @@
+dataset_name: move_tool_c_to_stationery_a_4410
+dataset_uuid: 72a4f31c-f59c-4efd-bba2-87556e1c8833
+task_descriptions:
+- move_the_tool_c_and_place_in_the_stationery_a
+scene_type:
+- home
+- factory
+atomic_actions:
+- place
+- pull
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.0
+device_model:
+- unitree_digit
+end_effector_type: suction_cup

@@ -1,0 +1,29 @@
+dataset_name: pick_container_b_to_tool_a_8511
+dataset_uuid: 21dfb4c5-db13-4173-9a1a-60c739fa2e59
+task_descriptions:
+- pick_the_container_b_and_place_in_the_tool_a
+scene_type:
+- hospital
+- home
+atomic_actions:
+- remove
+- insert
+- slide
+- grasp
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

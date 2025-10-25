@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_b_to_toy_c_5850
+dataset_uuid: 871fe049-bc95-4bf1-b60f-96b2a6134adb
+task_descriptions:
+- pick_the_stationery_b_and_place_in_the_toy_c
+scene_type:
+- cafe
+- kitchen
+- store
+atomic_actions:
+- remove
+- place
+- slide
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

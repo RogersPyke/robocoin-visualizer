@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_d_to_electronics_b_4095
+dataset_uuid: 7d8b3e11-6bc7-4cda-84c6-2a0fc0b23103
+task_descriptions:
+- stack_the_utensil_d_and_place_in_the_electronics_b
+scene_type:
+- store
+- hospital
+atomic_actions:
+- lift
+- insert
+- flip
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.7
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

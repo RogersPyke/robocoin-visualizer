@@ -1,0 +1,28 @@
+dataset_name: move_food_a_to_container_a_9203
+dataset_uuid: 5c1660bd-0435-47ef-a758-8faf7c6880b4
+task_descriptions:
+- move_the_food_a_and_place_in_the_container_a
+scene_type:
+- hospital
+- laboratory
+atomic_actions:
+- lift
+- remove
+- lower
+objects:
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.0
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

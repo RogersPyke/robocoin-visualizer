@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_b_to_container_d_8218
+dataset_uuid: 2e39b88c-3469-4464-b037-24b240571141
+task_descriptions:
+- pick_the_furniture_b_and_place_in_the_container_d
+scene_type:
+- kitchen
+- restaurant
+- home
+atomic_actions:
+- rotate
+- insert
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_d
+  level1: container
+  level2: container_d
+  level3: container_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

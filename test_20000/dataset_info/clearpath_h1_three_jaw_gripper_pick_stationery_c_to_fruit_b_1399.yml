@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_c_to_fruit_b_1399
+dataset_uuid: ecedb5cf-c29d-4ae8-b0fd-0b9e4e16336a
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_fruit_b
+scene_type:
+- restaurant
+- office
+- warehouse
+atomic_actions:
+- push
+- grasp
+- place
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

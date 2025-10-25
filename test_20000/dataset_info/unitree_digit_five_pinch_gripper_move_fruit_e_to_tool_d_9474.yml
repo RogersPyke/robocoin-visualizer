@@ -1,0 +1,30 @@
+dataset_name: move_fruit_e_to_tool_d_9474
+dataset_uuid: 7a242c4f-481d-4217-b3a4-2ce4bf9e7e2f
+task_descriptions:
+- move_the_fruit_e_and_place_in_the_tool_d
+scene_type:
+- warehouse
+- store
+- restaurant
+atomic_actions:
+- grasp
+- lift
+- pull
+- lower
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

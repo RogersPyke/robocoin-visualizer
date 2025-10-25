@@ -1,0 +1,27 @@
+dataset_name: stack_utensil_c_to_food_b_5302
+dataset_uuid: 01757531-e3a1-4a64-a35c-afef76410fe0
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_food_b
+scene_type:
+- factory
+atomic_actions:
+- rotate
+- flip
+- remove
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.4
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

@@ -1,0 +1,26 @@
+dataset_name: pick_tool_d_to_textile_e_8863
+dataset_uuid: 95c83928-ecf6-457d-beb9-529176b4cd36
+task_descriptions:
+- pick_the_tool_d_and_place_in_the_textile_e
+scene_type:
+- store
+atomic_actions:
+- push
+- pull
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

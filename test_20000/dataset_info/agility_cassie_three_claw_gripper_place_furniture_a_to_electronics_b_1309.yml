@@ -1,0 +1,29 @@
+dataset_name: place_furniture_a_to_electronics_b_1309
+dataset_uuid: 1e9ef831-7135-4850-a8c6-095a10453b8c
+task_descriptions:
+- place_the_furniture_a_and_place_in_the_electronics_b
+scene_type:
+- store
+- cafe
+atomic_actions:
+- slide
+- push
+- grasp
+- rotate
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.0
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

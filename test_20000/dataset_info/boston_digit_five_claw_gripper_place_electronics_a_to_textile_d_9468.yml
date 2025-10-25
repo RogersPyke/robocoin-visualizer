@@ -1,0 +1,28 @@
+dataset_name: place_electronics_a_to_textile_d_9468
+dataset_uuid: 18356791-6a7a-4e6f-9dcb-3db84ae7f5b3
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_textile_d
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- rotate
+- push
+- flip
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- boston_digit
+end_effector_type: five_claw_gripper

@@ -1,0 +1,30 @@
+dataset_name: move_electronics_a_to_tool_b_4446
+dataset_uuid: 6e2c515f-4323-49fa-807f-039e65601a90
+task_descriptions:
+- move_the_electronics_a_and_place_in_the_tool_b
+scene_type:
+- factory
+- office
+- laboratory
+atomic_actions:
+- flip
+- grasp
+- insert
+- rotate
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.0
+device_model:
+- clearpath_h1
+end_effector_type: five_finger_gripper

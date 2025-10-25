@@ -1,0 +1,30 @@
+dataset_name: place_furniture_a_to_furniture_e_2889
+dataset_uuid: 8c59581f-03d9-4b52-80bf-2b52a7bb9de0
+task_descriptions:
+- place_the_furniture_a_and_place_in_the_furniture_e
+scene_type:
+- kitchen
+- laboratory
+- restaurant
+atomic_actions:
+- grasp
+- push
+- rotate
+- lift
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+operation_platform_height: 88.1
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

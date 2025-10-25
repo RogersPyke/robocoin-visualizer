@@ -1,0 +1,27 @@
+dataset_name: arrange_furniture_e_to_furniture_a_6645
+dataset_uuid: f9012927-b843-46a5-bcff-bf036d787db7
+task_descriptions:
+- arrange_the_furniture_e_and_place_in_the_furniture_a
+scene_type:
+- office
+atomic_actions:
+- pull
+- pick
+- push
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.4
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

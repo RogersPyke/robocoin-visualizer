@@ -1,0 +1,29 @@
+dataset_name: place_beverage_a_to_beverage_c_5183
+dataset_uuid: 8021fbd8-0c0c-499e-a842-c365e3fbfb40
+task_descriptions:
+- place_the_beverage_a_and_place_in_the_beverage_c
+scene_type:
+- warehouse
+- kitchen
+- office
+atomic_actions:
+- pick
+- place
+- push
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.8
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

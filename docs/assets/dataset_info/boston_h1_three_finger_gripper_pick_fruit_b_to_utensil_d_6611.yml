@@ -1,0 +1,30 @@
+dataset_name: pick_fruit_b_to_utensil_d_6611
+dataset_uuid: d2332b31-3c93-46b0-a69f-d051a3a9f392
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_utensil_d
+scene_type:
+- factory
+- cafe
+- laboratory
+atomic_actions:
+- pull
+- flip
+- pick
+- lower
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.0
+device_model:
+- boston_h1
+end_effector_type: three_finger_gripper

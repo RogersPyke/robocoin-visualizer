@@ -1,0 +1,28 @@
+dataset_name: place_textile_c_to_food_a_1427
+dataset_uuid: 6353e4e3-8f20-424d-aed1-069405875b8e
+task_descriptions:
+- place_the_textile_c_and_place_in_the_food_a
+scene_type:
+- restaurant
+- laboratory
+atomic_actions:
+- slide
+- flip
+- remove
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_container_a_to_food_c_6994
+dataset_uuid: c49f96c3-edbf-44b1-916f-4026bb6b70d6
+task_descriptions:
+- stack_the_container_a_and_place_in_the_food_c
+scene_type:
+- laboratory
+- store
+- home
+atomic_actions:
+- place
+- insert
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.1
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

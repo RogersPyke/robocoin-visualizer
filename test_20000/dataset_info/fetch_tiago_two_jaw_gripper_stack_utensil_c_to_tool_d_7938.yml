@@ -1,0 +1,29 @@
+dataset_name: stack_utensil_c_to_tool_d_7938
+dataset_uuid: c7d4190e-47ba-441b-8e3b-95ed82caa26e
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_tool_d
+scene_type:
+- office
+- warehouse
+atomic_actions:
+- place
+- slide
+- remove
+- rotate
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+operation_platform_height: 72.9
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

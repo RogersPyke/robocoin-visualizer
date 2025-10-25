@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_c_to_electronics_c_3540
+dataset_uuid: 55cd0abd-2028-4672-b6ce-3fba3ffa8972
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_electronics_c
+scene_type:
+- hospital
+- kitchen
+atomic_actions:
+- rotate
+- place
+- pull
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.3
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

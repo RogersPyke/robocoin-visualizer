@@ -1,0 +1,28 @@
+dataset_name: stack_tool_a_to_fruit_d_7478
+dataset_uuid: 58cd75fb-ca7f-49b9-b5b5-23f7fcd7baa7
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_fruit_d
+scene_type:
+- office
+atomic_actions:
+- insert
+- lower
+- rotate
+- place
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.5
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

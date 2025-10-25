@@ -1,0 +1,29 @@
+dataset_name: move_kitchenware_a_to_food_b_4282
+dataset_uuid: ce4ad17e-5cde-4c8b-a542-28c74fece096
+task_descriptions:
+- move_the_kitchenware_a_and_place_in_the_food_b
+scene_type:
+- factory
+- cafe
+atomic_actions:
+- insert
+- pick
+- push
+- slide
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+operation_platform_height: 79.7
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

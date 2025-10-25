@@ -1,0 +1,30 @@
+dataset_name: pick_food_e_to_container_b_5146
+dataset_uuid: 9dc10e5d-a0e2-401c-bad5-bde4da17df69
+task_descriptions:
+- pick_the_food_e_and_place_in_the_container_b
+scene_type:
+- cafe
+- store
+- home
+atomic_actions:
+- push
+- remove
+- insert
+- lower
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- clearpath_digit
+end_effector_type: two_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_stationery_c_to_furniture_e_7890
+dataset_uuid: c3164379-e914-470b-9d11-89fff168db14
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_furniture_e
+scene_type:
+- warehouse
+- office
+- store
+atomic_actions:
+- pull
+- grasp
+- lower
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

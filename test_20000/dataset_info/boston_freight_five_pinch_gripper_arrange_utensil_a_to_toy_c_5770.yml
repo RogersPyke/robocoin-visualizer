@@ -1,0 +1,27 @@
+dataset_name: arrange_utensil_a_to_toy_c_5770
+dataset_uuid: ae01f93d-2049-4a30-8e79-2a93b78e217a
+task_descriptions:
+- arrange_the_utensil_a_and_place_in_the_toy_c
+scene_type:
+- warehouse
+- home
+atomic_actions:
+- lower
+- flip
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.1
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

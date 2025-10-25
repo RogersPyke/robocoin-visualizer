@@ -1,0 +1,30 @@
+dataset_name: arrange_furniture_c_to_kitchenware_a_1724
+dataset_uuid: 71b59a69-51ef-415c-bd3f-85f5dc236178
+task_descriptions:
+- arrange_the_furniture_c_and_place_in_the_kitchenware_a
+scene_type:
+- warehouse
+- store
+- home
+atomic_actions:
+- slide
+- place
+- lift
+- pull
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.4
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

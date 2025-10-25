@@ -1,0 +1,30 @@
+dataset_name: stack_food_d_to_utensil_d_3665
+dataset_uuid: 6b86b816-37e3-49bd-8c50-e3aa610508ca
+task_descriptions:
+- stack_the_food_d_and_place_in_the_utensil_d
+scene_type:
+- restaurant
+- laboratory
+- kitchen
+atomic_actions:
+- lift
+- lower
+- rotate
+- remove
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- clearpath_spot
+end_effector_type: five_finger_gripper

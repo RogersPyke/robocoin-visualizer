@@ -1,0 +1,30 @@
+dataset_name: place_beverage_e_to_fruit_a_4859
+dataset_uuid: c930c25d-d4b1-4a71-9e72-b21e28242424
+task_descriptions:
+- place_the_beverage_e_and_place_in_the_fruit_a
+scene_type:
+- warehouse
+- restaurant
+- factory
+atomic_actions:
+- flip
+- push
+- remove
+- pick
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

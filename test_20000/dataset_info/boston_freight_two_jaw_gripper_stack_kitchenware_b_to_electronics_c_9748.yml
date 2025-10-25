@@ -1,0 +1,29 @@
+dataset_name: stack_kitchenware_b_to_electronics_c_9748
+dataset_uuid: 5a44bbfd-764b-4609-8568-d6281e458b1f
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_electronics_c
+scene_type:
+- kitchen
+- laboratory
+- cafe
+atomic_actions:
+- pick
+- lower
+- push
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

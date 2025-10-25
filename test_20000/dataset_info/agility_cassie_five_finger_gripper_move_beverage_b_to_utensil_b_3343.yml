@@ -1,0 +1,28 @@
+dataset_name: move_beverage_b_to_utensil_b_3343
+dataset_uuid: b9b0d5ae-3b7d-436e-94da-1740a78642af
+task_descriptions:
+- move_the_beverage_b_and_place_in_the_utensil_b
+scene_type:
+- store
+- kitchen
+atomic_actions:
+- pick
+- remove
+- insert
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

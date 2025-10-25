@@ -1,0 +1,27 @@
+dataset_name: stack_textile_a_to_tool_c_8780
+dataset_uuid: cd8d4ca5-1056-427a-8582-aecb4239c8b4
+task_descriptions:
+- stack_the_textile_a_and_place_in_the_tool_c
+scene_type:
+- cafe
+- hospital
+atomic_actions:
+- flip
+- remove
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.8
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

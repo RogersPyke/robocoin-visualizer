@@ -1,0 +1,26 @@
+dataset_name: stack_electronics_c_to_toy_c_8264
+dataset_uuid: 631ef757-7006-4fa0-a7bd-6244499f3e89
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_toy_c
+scene_type:
+- home
+atomic_actions:
+- rotate
+- lift
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

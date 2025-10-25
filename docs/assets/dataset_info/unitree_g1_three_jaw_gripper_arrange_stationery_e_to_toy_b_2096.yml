@@ -1,0 +1,29 @@
+dataset_name: arrange_stationery_e_to_toy_b_2096
+dataset_uuid: 27ebb56f-b15c-4a61-a701-df57168930c7
+task_descriptions:
+- arrange_the_stationery_e_and_place_in_the_toy_b
+scene_type:
+- home
+- cafe
+atomic_actions:
+- push
+- lift
+- pull
+- insert
+objects:
+- object_name: stationery_e
+  level1: stationery
+  level2: stationery_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- unitree_g1
+end_effector_type: three_jaw_gripper

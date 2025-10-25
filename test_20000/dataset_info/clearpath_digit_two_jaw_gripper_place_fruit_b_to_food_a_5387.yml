@@ -1,0 +1,28 @@
+dataset_name: place_fruit_b_to_food_a_5387
+dataset_uuid: 5e98d3d1-f074-4ba7-95f8-8740b6b41a20
+task_descriptions:
+- place_the_fruit_b_and_place_in_the_food_a
+scene_type:
+- laboratory
+- home
+- office
+atomic_actions:
+- grasp
+- flip
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

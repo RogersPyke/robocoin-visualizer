@@ -1,0 +1,30 @@
+dataset_name: place_tool_c_to_electronics_a_8554
+dataset_uuid: 1a2bf9a1-fd91-459a-94dd-93bef24695bd
+task_descriptions:
+- place_the_tool_c_and_place_in_the_electronics_a
+scene_type:
+- hospital
+- restaurant
+- kitchen
+atomic_actions:
+- lower
+- push
+- insert
+- lift
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.4
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

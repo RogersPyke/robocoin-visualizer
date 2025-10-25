@@ -1,0 +1,28 @@
+dataset_name: pick_tool_b_to_tool_c_7567
+dataset_uuid: 1794093f-38d6-4397-8e33-8c37e2f79660
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_tool_c
+scene_type:
+- cafe
+- office
+- hospital
+atomic_actions:
+- rotate
+- push
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.2
+device_model:
+- pal_freight
+end_effector_type: three_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_beverage_a_to_fruit_c_9699
+dataset_uuid: 3ede6c2b-5415-4358-a764-0e16b58c7020
+task_descriptions:
+- stack_the_beverage_a_and_place_in_the_fruit_c
+scene_type:
+- hospital
+- warehouse
+atomic_actions:
+- remove
+- grasp
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+operation_platform_height: 73.2
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

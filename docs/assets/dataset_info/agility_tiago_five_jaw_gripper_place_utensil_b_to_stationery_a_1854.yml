@@ -1,0 +1,27 @@
+dataset_name: place_utensil_b_to_stationery_a_1854
+dataset_uuid: 01fbd10a-4831-417d-9dc9-a8aa5da50774
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_stationery_a
+scene_type:
+- factory
+- cafe
+atomic_actions:
+- rotate
+- place
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+operation_platform_height: 72.3
+device_model:
+- agility_tiago
+end_effector_type: five_jaw_gripper

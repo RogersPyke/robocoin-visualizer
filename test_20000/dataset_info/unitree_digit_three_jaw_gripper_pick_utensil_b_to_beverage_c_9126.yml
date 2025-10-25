@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_b_to_beverage_c_9126
+dataset_uuid: dc0d46a9-16c0-4740-a5b7-09a52b55d587
+task_descriptions:
+- pick_the_utensil_b_and_place_in_the_beverage_c
+scene_type:
+- hospital
+atomic_actions:
+- slide
+- push
+- place
+- pull
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.7
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

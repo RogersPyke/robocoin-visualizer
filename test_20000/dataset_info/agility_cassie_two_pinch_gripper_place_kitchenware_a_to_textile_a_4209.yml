@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_a_to_textile_a_4209
+dataset_uuid: 130e9819-260f-4927-994e-6198c3f03234
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_textile_a
+scene_type:
+- hospital
+- office
+- restaurant
+atomic_actions:
+- pick
+- slide
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

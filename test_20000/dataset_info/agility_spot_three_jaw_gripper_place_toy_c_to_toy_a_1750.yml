@@ -1,0 +1,30 @@
+dataset_name: place_toy_c_to_toy_a_1750
+dataset_uuid: af3514d3-f242-4a03-b3da-697142066a25
+task_descriptions:
+- place_the_toy_c_and_place_in_the_toy_a
+scene_type:
+- factory
+- restaurant
+- laboratory
+atomic_actions:
+- push
+- insert
+- lower
+- rotate
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.2
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_fruit_e_to_fruit_d_6106
+dataset_uuid: 18b76cf0-5a3c-4b31-a607-56b67b06c4c1
+task_descriptions:
+- place_the_fruit_e_and_place_in_the_fruit_d
+scene_type:
+- warehouse
+- cafe
+atomic_actions:
+- lift
+- grasp
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- pal_tiago
+end_effector_type: five_claw_gripper

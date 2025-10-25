@@ -1,0 +1,26 @@
+dataset_name: pick_tool_a_to_toy_c_1361
+dataset_uuid: 06b9112e-ec33-4b55-8e4f-86a1981991bd
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_toy_c
+scene_type:
+- kitchen
+atomic_actions:
+- pull
+- grasp
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.7
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

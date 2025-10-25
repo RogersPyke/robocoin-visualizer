@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_d_to_furniture_c_5714
+dataset_uuid: 06045a5f-1102-4fbc-a852-424069415902
+task_descriptions:
+- arrange_the_electronics_d_and_place_in_the_furniture_c
+scene_type:
+- office
+- warehouse
+atomic_actions:
+- place
+- pick
+- grasp
+objects:
+- object_name: electronics_d
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- boston_h1
+end_effector_type: suction_cup

@@ -1,0 +1,29 @@
+dataset_name: pick_food_b_to_container_a_1960
+dataset_uuid: 3917c261-f4ac-4917-a492-2805dd5b6799
+task_descriptions:
+- pick_the_food_b_and_place_in_the_container_a
+scene_type:
+- kitchen
+- laboratory
+- hospital
+atomic_actions:
+- pick
+- insert
+- rotate
+objects:
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.5
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

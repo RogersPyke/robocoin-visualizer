@@ -1,0 +1,27 @@
+dataset_name: move_stationery_d_to_kitchenware_d_4360
+dataset_uuid: a6b89291-d852-4676-8a0c-0d0d019825ff
+task_descriptions:
+- move_the_stationery_d_and_place_in_the_kitchenware_d
+scene_type:
+- restaurant
+atomic_actions:
+- push
+- grasp
+- pull
+objects:
+- object_name: stationery_d
+  level1: stationery
+  level2: stationery_d
+  level3: stationery_d_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_d
+  level1: kitchenware
+  level2: kitchenware_d
+  level3: kitchenware_d_sub1
+  level4: kitchenware_d_sub2
+  level5: null
+operation_platform_height: 72.1
+device_model:
+- clearpath_cassie
+end_effector_type: three_finger_gripper

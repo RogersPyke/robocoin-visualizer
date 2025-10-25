@@ -1,0 +1,27 @@
+dataset_name: place_beverage_c_to_toy_c_1738
+dataset_uuid: 7d1e0ee4-f48b-4aaf-9a77-7b3d371186f6
+task_descriptions:
+- place_the_beverage_c_and_place_in_the_toy_c
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- grasp
+- pick
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.6
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

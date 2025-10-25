@@ -1,0 +1,30 @@
+dataset_name: arrange_fruit_d_to_furniture_c_8304
+dataset_uuid: 1e88051d-007f-4ca9-a7e0-cda58b3fd77c
+task_descriptions:
+- arrange_the_fruit_d_and_place_in_the_furniture_c
+scene_type:
+- cafe
+- restaurant
+- warehouse
+atomic_actions:
+- remove
+- lower
+- lift
+- rotate
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+operation_platform_height: 71.5
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

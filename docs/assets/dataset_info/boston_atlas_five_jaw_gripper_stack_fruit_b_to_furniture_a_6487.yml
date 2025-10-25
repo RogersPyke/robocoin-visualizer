@@ -1,0 +1,29 @@
+dataset_name: stack_fruit_b_to_furniture_a_6487
+dataset_uuid: 5ac28580-a0e1-4130-975c-4cbc446ca059
+task_descriptions:
+- stack_the_fruit_b_and_place_in_the_furniture_a
+scene_type:
+- hospital
+- store
+atomic_actions:
+- push
+- lift
+- insert
+- flip
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.7
+device_model:
+- boston_atlas
+end_effector_type: five_jaw_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_toy_a_to_beverage_a_3338
+dataset_uuid: de1afb9d-d1b7-4e5f-b672-ded3e8251b81
+task_descriptions:
+- place_the_toy_a_and_place_in_the_beverage_a
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- lower
+- lift
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

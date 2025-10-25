@@ -1,0 +1,30 @@
+dataset_name: stack_fruit_c_to_food_b_7577
+dataset_uuid: d496de35-1de0-4c80-b2c4-8b256c279805
+task_descriptions:
+- stack_the_fruit_c_and_place_in_the_food_b
+scene_type:
+- store
+- office
+- warehouse
+atomic_actions:
+- slide
+- pick
+- insert
+- lift
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

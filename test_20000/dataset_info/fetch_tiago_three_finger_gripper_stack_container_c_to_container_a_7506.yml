@@ -1,0 +1,27 @@
+dataset_name: stack_container_c_to_container_a_7506
+dataset_uuid: cf98bb7b-0bfc-4c72-b02d-1f3f27fa0d92
+task_descriptions:
+- stack_the_container_c_and_place_in_the_container_a
+scene_type:
+- restaurant
+- store
+atomic_actions:
+- grasp
+- pull
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.1
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

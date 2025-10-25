@@ -1,0 +1,30 @@
+dataset_name: place_kitchenware_a_to_utensil_b_2652
+dataset_uuid: 997b53db-1a9d-40bf-9363-91f2da7a8ec3
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_utensil_b
+scene_type:
+- kitchen
+- office
+- store
+atomic_actions:
+- grasp
+- lift
+- push
+- remove
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

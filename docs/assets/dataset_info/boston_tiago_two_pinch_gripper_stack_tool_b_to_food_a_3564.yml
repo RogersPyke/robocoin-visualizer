@@ -1,0 +1,26 @@
+dataset_name: stack_tool_b_to_food_a_3564
+dataset_uuid: 56b6c3c5-9f47-43c3-8b90-d607171a9552
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_food_a
+scene_type:
+- store
+atomic_actions:
+- lift
+- insert
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.5
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

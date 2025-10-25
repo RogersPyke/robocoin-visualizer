@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_c_to_utensil_a_1594
+dataset_uuid: 3b836c2a-c6ff-4600-a04a-342ad690a7d7
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_utensil_a
+scene_type:
+- cafe
+atomic_actions:
+- push
+- place
+- slide
+- pull
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.4
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

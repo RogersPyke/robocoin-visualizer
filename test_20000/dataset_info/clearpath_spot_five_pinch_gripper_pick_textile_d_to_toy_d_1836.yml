@@ -1,0 +1,28 @@
+dataset_name: pick_textile_d_to_toy_d_1836
+dataset_uuid: 2dabb776-eafe-496d-9b14-4affea3ac741
+task_descriptions:
+- pick_the_textile_d_and_place_in_the_toy_d
+scene_type:
+- kitchen
+- restaurant
+- store
+atomic_actions:
+- flip
+- place
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+operation_platform_height: 84.7
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: navigation
+task_descriptions:
+- move_to_the_bear_doll.
+- move_to_the_bear_doll.
+- move_to_the_bear_doll.
+scene_type:
+- home
+atomic_actions:
+- move
+objects:
+- object_name: chair
+  level1: furniture
+  level2: chair
+  level3: null
+  level4: null
+  level5: null
+- object_name: bear_doll
+  level1: toy
+  level2: bear_doll
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- unitree_g1
+end_effector_type: two_finger_gripper
+dataset_uuid: 13f8cfab-e6d6-4bbd-a9d3-bd8c46ae97e4

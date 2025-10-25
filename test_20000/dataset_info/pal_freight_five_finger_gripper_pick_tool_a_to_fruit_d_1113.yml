@@ -1,0 +1,26 @@
+dataset_name: pick_tool_a_to_fruit_d_1113
+dataset_uuid: 8fb040a0-abee-47aa-9b1e-a190489b13e1
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_fruit_d
+scene_type:
+- warehouse
+atomic_actions:
+- lift
+- grasp
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.1
+device_model:
+- pal_freight
+end_effector_type: five_finger_gripper

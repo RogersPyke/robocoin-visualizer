@@ -1,0 +1,28 @@
+dataset_name: place_furniture_b_to_toy_c_8841
+dataset_uuid: e0552bff-d3d5-4535-ae96-50f2cd1fdabe
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_toy_c
+scene_type:
+- cafe
+atomic_actions:
+- rotate
+- flip
+- pull
+- lower
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.5
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

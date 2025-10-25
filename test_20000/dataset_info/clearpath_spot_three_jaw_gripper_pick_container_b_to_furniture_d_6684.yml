@@ -1,0 +1,30 @@
+dataset_name: pick_container_b_to_furniture_d_6684
+dataset_uuid: e631203d-fc2e-4f89-98eb-853292144b2e
+task_descriptions:
+- pick_the_container_b_and_place_in_the_furniture_d
+scene_type:
+- store
+- hospital
+- laboratory
+atomic_actions:
+- insert
+- lower
+- slide
+- push
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.4
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

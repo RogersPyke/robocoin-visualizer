@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_b_to_utensil_d_4055
+dataset_uuid: 74999d84-0e60-4a19-8adb-b1453dcc482f
+task_descriptions:
+- stack_the_furniture_b_and_place_in_the_utensil_d
+scene_type:
+- home
+- factory
+atomic_actions:
+- slide
+- lower
+- rotate
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.9
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

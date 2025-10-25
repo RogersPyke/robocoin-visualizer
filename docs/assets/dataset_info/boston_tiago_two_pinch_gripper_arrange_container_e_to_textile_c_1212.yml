@@ -1,0 +1,29 @@
+dataset_name: arrange_container_e_to_textile_c_1212
+dataset_uuid: 549373bc-4354-4ec4-a347-07336fe480e1
+task_descriptions:
+- arrange_the_container_e_and_place_in_the_textile_c
+scene_type:
+- factory
+- hospital
+atomic_actions:
+- lower
+- push
+- pull
+- place
+objects:
+- object_name: container_e
+  level1: container
+  level2: container_e
+  level3: container_e_sub1
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.9
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

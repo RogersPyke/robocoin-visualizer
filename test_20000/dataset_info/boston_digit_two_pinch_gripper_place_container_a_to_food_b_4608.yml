@@ -1,0 +1,27 @@
+dataset_name: place_container_a_to_food_b_4608
+dataset_uuid: b2899af0-d5c3-46a3-9d3c-72c113aa0608
+task_descriptions:
+- place_the_container_a_and_place_in_the_food_b
+scene_type:
+- cafe
+- hospital
+atomic_actions:
+- push
+- lower
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

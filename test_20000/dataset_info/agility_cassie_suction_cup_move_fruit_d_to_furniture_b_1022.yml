@@ -1,0 +1,28 @@
+dataset_name: move_fruit_d_to_furniture_b_1022
+dataset_uuid: 2b871393-8027-497d-9cb6-146df3ff810a
+task_descriptions:
+- move_the_fruit_d_and_place_in_the_furniture_b
+scene_type:
+- office
+- warehouse
+atomic_actions:
+- push
+- grasp
+- place
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- agility_cassie
+end_effector_type: suction_cup

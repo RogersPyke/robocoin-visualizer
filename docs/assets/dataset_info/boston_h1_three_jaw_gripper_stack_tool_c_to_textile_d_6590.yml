@@ -1,0 +1,29 @@
+dataset_name: stack_tool_c_to_textile_d_6590
+dataset_uuid: 83d63769-e061-4966-9f2d-81afdc62b275
+task_descriptions:
+- stack_the_tool_c_and_place_in_the_textile_d
+scene_type:
+- hospital
+- restaurant
+atomic_actions:
+- place
+- pull
+- slide
+- remove
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- boston_h1
+end_effector_type: three_jaw_gripper

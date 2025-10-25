@@ -1,0 +1,26 @@
+dataset_name: stack_electronics_a_to_container_a_8723
+dataset_uuid: aa6236fb-bba2-481d-ab20-d2618debdab1
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_container_a
+scene_type:
+- restaurant
+atomic_actions:
+- insert
+- pick
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.5
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_container_e_to_tool_a_1682
+dataset_uuid: e5115945-eabb-42e5-b554-ac80db130e38
+task_descriptions:
+- move_the_container_e_and_place_in_the_tool_a
+scene_type:
+- home
+- store
+- laboratory
+atomic_actions:
+- pull
+- insert
+objects:
+- object_name: container_e
+  level1: container
+  level2: container_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- agility_digit
+end_effector_type: two_claw_gripper

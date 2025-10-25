@@ -1,0 +1,29 @@
+dataset_name: pick_kitchenware_b_to_beverage_d_2326
+dataset_uuid: 92001bb2-869f-481e-b287-d97018d3aaf3
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_beverage_d
+scene_type:
+- hospital
+- restaurant
+atomic_actions:
+- flip
+- rotate
+- grasp
+- lower
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.1
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

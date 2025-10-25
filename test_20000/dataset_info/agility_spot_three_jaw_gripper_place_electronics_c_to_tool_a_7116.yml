@@ -1,0 +1,28 @@
+dataset_name: place_electronics_c_to_tool_a_7116
+dataset_uuid: 5cdf9a63-92c7-4e6f-a4aa-b2e499163a3e
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_tool_a
+scene_type:
+- kitchen
+- warehouse
+- laboratory
+atomic_actions:
+- pull
+- lift
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

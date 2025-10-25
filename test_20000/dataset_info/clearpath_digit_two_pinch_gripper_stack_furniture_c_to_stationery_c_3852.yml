@@ -1,0 +1,27 @@
+dataset_name: stack_furniture_c_to_stationery_c_3852
+dataset_uuid: 39a16a7c-534e-4db3-b9a7-83c1642f9772
+task_descriptions:
+- stack_the_furniture_c_and_place_in_the_stationery_c
+scene_type:
+- factory
+atomic_actions:
+- lower
+- insert
+- remove
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

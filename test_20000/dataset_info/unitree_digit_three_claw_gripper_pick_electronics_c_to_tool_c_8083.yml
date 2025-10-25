@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_c_to_tool_c_8083
+dataset_uuid: 7dc0d14d-ce9a-4fd5-af39-f0dc1ab15869
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_tool_c
+scene_type:
+- store
+- kitchen
+atomic_actions:
+- flip
+- insert
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: move_kitchenware_b_to_kitchenware_b_2714
+dataset_uuid: 6c2cea2b-668b-4604-a677-5277d5fc2ba8
+task_descriptions:
+- move_the_kitchenware_b_and_place_in_the_kitchenware_b
+scene_type:
+- kitchen
+- office
+- cafe
+atomic_actions:
+- lift
+- pull
+- rotate
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

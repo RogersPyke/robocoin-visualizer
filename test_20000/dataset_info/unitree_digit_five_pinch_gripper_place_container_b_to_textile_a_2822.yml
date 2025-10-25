@@ -1,0 +1,26 @@
+dataset_name: place_container_b_to_textile_a_2822
+dataset_uuid: 5a37b4a2-2f6c-43f4-ba22-4306d78b2f5b
+task_descriptions:
+- place_the_container_b_and_place_in_the_textile_a
+scene_type:
+- home
+atomic_actions:
+- remove
+- flip
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.9
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

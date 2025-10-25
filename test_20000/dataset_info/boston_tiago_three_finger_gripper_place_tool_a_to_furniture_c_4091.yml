@@ -1,0 +1,29 @@
+dataset_name: place_tool_a_to_furniture_c_4091
+dataset_uuid: 20c93f5e-66a2-4dc4-9db9-6534664cb891
+task_descriptions:
+- place_the_tool_a_and_place_in_the_furniture_c
+scene_type:
+- cafe
+- factory
+atomic_actions:
+- pull
+- push
+- grasp
+- place
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.0
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

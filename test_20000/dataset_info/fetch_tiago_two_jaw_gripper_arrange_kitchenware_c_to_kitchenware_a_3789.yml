@@ -1,0 +1,26 @@
+dataset_name: arrange_kitchenware_c_to_kitchenware_a_3789
+dataset_uuid: 97493605-8e42-4bbb-bdc7-9bc69f2ef037
+task_descriptions:
+- arrange_the_kitchenware_c_and_place_in_the_kitchenware_a
+scene_type:
+- cafe
+atomic_actions:
+- lift
+- pick
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.7
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

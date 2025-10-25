@@ -1,0 +1,27 @@
+dataset_name: pick_fruit_c_to_fruit_b_1431
+dataset_uuid: 1cd50986-ff3a-41a2-8ccf-6e04b8ea5544
+task_descriptions:
+- pick_the_fruit_c_and_place_in_the_fruit_b
+scene_type:
+- factory
+- cafe
+atomic_actions:
+- place
+- grasp
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

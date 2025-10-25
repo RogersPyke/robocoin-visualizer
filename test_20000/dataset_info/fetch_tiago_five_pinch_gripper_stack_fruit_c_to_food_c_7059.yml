@@ -1,0 +1,29 @@
+dataset_name: stack_fruit_c_to_food_c_7059
+dataset_uuid: 1bec69b8-0789-4a5f-8e07-d58c6266f485
+task_descriptions:
+- stack_the_fruit_c_and_place_in_the_food_c
+scene_type:
+- laboratory
+- store
+atomic_actions:
+- rotate
+- remove
+- pick
+- flip
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

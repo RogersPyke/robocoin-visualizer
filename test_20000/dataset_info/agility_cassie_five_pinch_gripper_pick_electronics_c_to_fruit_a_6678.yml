@@ -1,0 +1,30 @@
+dataset_name: pick_electronics_c_to_fruit_a_6678
+dataset_uuid: 6e831c9a-9774-49ea-bb82-c75e90afa75a
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_fruit_a
+scene_type:
+- cafe
+- laboratory
+- hospital
+atomic_actions:
+- lift
+- lower
+- insert
+- pick
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

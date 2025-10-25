@@ -1,0 +1,29 @@
+dataset_name: pick_beverage_a_to_kitchenware_b_9354
+dataset_uuid: c0571ca3-672c-4a25-a72a-5a4d0ec1a95f
+task_descriptions:
+- pick_the_beverage_a_and_place_in_the_kitchenware_b
+scene_type:
+- store
+- kitchen
+atomic_actions:
+- slide
+- rotate
+- pick
+- insert
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.0
+device_model:
+- unitree_digit
+end_effector_type: two_finger_gripper

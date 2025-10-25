@@ -1,0 +1,27 @@
+dataset_name: arrange_tool_b_to_utensil_b_2802
+dataset_uuid: a9a1bc60-b4a5-48c3-b434-9f743f9131e7
+task_descriptions:
+- arrange_the_tool_b_and_place_in_the_utensil_b
+scene_type:
+- warehouse
+- cafe
+atomic_actions:
+- slide
+- pull
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- unitree_h1
+end_effector_type: five_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_b_to_container_c_3877
+dataset_uuid: 4f931cfc-9f09-458b-beca-b73866659317
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_container_c
+scene_type:
+- laboratory
+- factory
+- cafe
+atomic_actions:
+- pull
+- push
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.1
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

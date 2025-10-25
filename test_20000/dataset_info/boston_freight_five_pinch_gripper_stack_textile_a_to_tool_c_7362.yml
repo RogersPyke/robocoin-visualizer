@@ -1,0 +1,26 @@
+dataset_name: stack_textile_a_to_tool_c_7362
+dataset_uuid: 4911c1bd-32c6-45fe-b8c1-540b5f718ac9
+task_descriptions:
+- stack_the_textile_a_and_place_in_the_tool_c
+scene_type:
+- office
+atomic_actions:
+- insert
+- place
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.4
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

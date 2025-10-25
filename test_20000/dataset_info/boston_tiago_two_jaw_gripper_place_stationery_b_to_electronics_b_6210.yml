@@ -1,0 +1,26 @@
+dataset_name: place_stationery_b_to_electronics_b_6210
+dataset_uuid: c671b86c-6512-4e72-bc01-ec061e5ad8bf
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_electronics_b
+scene_type:
+- hospital
+atomic_actions:
+- insert
+- lower
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

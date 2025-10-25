@@ -1,0 +1,27 @@
+dataset_name: pick_container_c_to_tool_b_4471
+dataset_uuid: b4501003-825f-43be-9e9c-fcaf07f5bdaa
+task_descriptions:
+- pick_the_container_c_and_place_in_the_tool_b
+scene_type:
+- office
+- laboratory
+atomic_actions:
+- slide
+- pull
+objects:
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

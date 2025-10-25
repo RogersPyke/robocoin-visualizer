@@ -1,0 +1,26 @@
+dataset_name: stack_furniture_a_to_fruit_c_8843
+dataset_uuid: ae352ad8-2885-479b-88ee-9f7f9ba5de53
+task_descriptions:
+- stack_the_furniture_a_and_place_in_the_fruit_c
+scene_type:
+- restaurant
+atomic_actions:
+- pick
+- rotate
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_a_to_food_e_2834
+dataset_uuid: 612b15f8-ab6c-4eca-8c16-4fc0922dbd05
+task_descriptions:
+- arrange_the_electronics_a_and_place_in_the_food_e
+scene_type:
+- factory
+- store
+atomic_actions:
+- push
+- pull
+- place
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

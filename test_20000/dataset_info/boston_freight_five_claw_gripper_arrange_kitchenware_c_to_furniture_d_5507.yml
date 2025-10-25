@@ -1,0 +1,30 @@
+dataset_name: arrange_kitchenware_c_to_furniture_d_5507
+dataset_uuid: 123da4c4-e5c5-4827-8558-3d56efc6f787
+task_descriptions:
+- arrange_the_kitchenware_c_and_place_in_the_furniture_d
+scene_type:
+- kitchen
+- factory
+- hospital
+atomic_actions:
+- push
+- insert
+- pull
+- grasp
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.9
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

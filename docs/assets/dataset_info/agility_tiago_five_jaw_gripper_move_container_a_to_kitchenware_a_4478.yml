@@ -1,0 +1,27 @@
+dataset_name: move_container_a_to_kitchenware_a_4478
+dataset_uuid: cee2c49d-4ec0-4cd7-ac6e-3ef535cfcc0f
+task_descriptions:
+- move_the_container_a_and_place_in_the_kitchenware_a
+scene_type:
+- restaurant
+atomic_actions:
+- lift
+- grasp
+- remove
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- agility_tiago
+end_effector_type: five_jaw_gripper

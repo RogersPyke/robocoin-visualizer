@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_e_to_fruit_b_7477
+dataset_uuid: 273e7b08-8ec6-4912-8430-56bca6d14101
+task_descriptions:
+- arrange_the_furniture_e_and_place_in_the_fruit_b
+scene_type:
+- laboratory
+atomic_actions:
+- push
+- rotate
+- grasp
+- pull
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- pal_tiago
+end_effector_type: five_claw_gripper

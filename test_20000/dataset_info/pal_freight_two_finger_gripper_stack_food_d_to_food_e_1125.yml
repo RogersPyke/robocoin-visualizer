@@ -1,0 +1,28 @@
+dataset_name: stack_food_d_to_food_e_1125
+dataset_uuid: 5de3fcc6-0ae2-4b8b-ab5c-975d04e296f4
+task_descriptions:
+- stack_the_food_d_and_place_in_the_food_e
+scene_type:
+- office
+atomic_actions:
+- remove
+- pick
+- lower
+- push
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.3
+device_model:
+- pal_freight
+end_effector_type: two_finger_gripper

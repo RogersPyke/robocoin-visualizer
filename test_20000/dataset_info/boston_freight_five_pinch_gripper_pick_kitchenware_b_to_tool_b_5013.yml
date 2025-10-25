@@ -1,0 +1,29 @@
+dataset_name: pick_kitchenware_b_to_tool_b_5013
+dataset_uuid: f9ba0f60-f737-4f58-b0fe-5b833c59f106
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_tool_b
+scene_type:
+- restaurant
+- cafe
+- office
+atomic_actions:
+- rotate
+- push
+- pick
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 88.1
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

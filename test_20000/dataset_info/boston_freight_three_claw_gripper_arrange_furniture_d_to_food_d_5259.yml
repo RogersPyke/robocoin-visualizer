@@ -1,0 +1,27 @@
+dataset_name: arrange_furniture_d_to_food_d_5259
+dataset_uuid: 07c6d384-d603-403c-82b6-04fa4ad254c5
+task_descriptions:
+- arrange_the_furniture_d_and_place_in_the_food_d
+scene_type:
+- hospital
+- store
+atomic_actions:
+- rotate
+- lift
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+operation_platform_height: 81.8
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

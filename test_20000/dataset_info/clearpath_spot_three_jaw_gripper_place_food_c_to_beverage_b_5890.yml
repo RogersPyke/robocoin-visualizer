@@ -1,0 +1,28 @@
+dataset_name: place_food_c_to_beverage_b_5890
+dataset_uuid: c598e273-ce48-4f5a-bdb3-4372e8de2997
+task_descriptions:
+- place_the_food_c_and_place_in_the_beverage_b
+scene_type:
+- cafe
+- home
+atomic_actions:
+- remove
+- rotate
+- grasp
+objects:
+- object_name: food_c
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

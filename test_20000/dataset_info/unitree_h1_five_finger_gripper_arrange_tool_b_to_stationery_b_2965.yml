@@ -1,0 +1,29 @@
+dataset_name: arrange_tool_b_to_stationery_b_2965
+dataset_uuid: dd8e67b1-9c6b-4048-bdf5-816812b8ba5d
+task_descriptions:
+- arrange_the_tool_b_and_place_in_the_stationery_b
+scene_type:
+- hospital
+- cafe
+- store
+atomic_actions:
+- insert
+- rotate
+- pull
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- unitree_h1
+end_effector_type: five_finger_gripper

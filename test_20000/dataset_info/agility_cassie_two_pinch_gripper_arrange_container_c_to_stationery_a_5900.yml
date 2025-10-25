@@ -1,0 +1,26 @@
+dataset_name: arrange_container_c_to_stationery_a_5900
+dataset_uuid: 0dfd1f78-6b05-4ac4-a00b-1fc5f3f9a483
+task_descriptions:
+- arrange_the_container_c_and_place_in_the_stationery_a
+scene_type:
+- kitchen
+atomic_actions:
+- remove
+- pull
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.3
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

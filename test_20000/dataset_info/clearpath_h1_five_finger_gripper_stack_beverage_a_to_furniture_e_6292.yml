@@ -1,0 +1,27 @@
+dataset_name: stack_beverage_a_to_furniture_e_6292
+dataset_uuid: 34f742ca-ab1c-46c3-9a23-e9d3a9d7c0ad
+task_descriptions:
+- stack_the_beverage_a_and_place_in_the_furniture_e
+scene_type:
+- restaurant
+- cafe
+atomic_actions:
+- insert
+- rotate
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- clearpath_h1
+end_effector_type: five_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_a_to_toy_c_5546
+dataset_uuid: 764139c3-073f-40cc-912a-b48d39ddac47
+task_descriptions:
+- arrange_the_toy_a_and_place_in_the_toy_c
+scene_type:
+- store
+atomic_actions:
+- pick
+- flip
+- push
+- remove
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

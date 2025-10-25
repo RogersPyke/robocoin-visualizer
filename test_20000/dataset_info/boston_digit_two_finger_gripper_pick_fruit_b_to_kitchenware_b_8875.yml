@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_b_to_kitchenware_b_8875
+dataset_uuid: e6bdc1a0-7cbd-4d68-bf05-cce6ce7f730e
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_kitchenware_b
+scene_type:
+- factory
+- warehouse
+atomic_actions:
+- flip
+- slide
+- lift
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- boston_digit
+end_effector_type: two_finger_gripper

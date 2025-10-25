@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_d_to_stationery_e_1616
+dataset_uuid: 26eed642-48cd-4eb7-89b9-d1b38db097c2
+task_descriptions:
+- pick_the_kitchenware_d_and_place_in_the_stationery_e
+scene_type:
+- store
+- warehouse
+atomic_actions:
+- slide
+- flip
+- place
+objects:
+- object_name: kitchenware_d
+  level1: kitchenware
+  level2: kitchenware_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_e
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- agility_h1
+end_effector_type: five_jaw_gripper

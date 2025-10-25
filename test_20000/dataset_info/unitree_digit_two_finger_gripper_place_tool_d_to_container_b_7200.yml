@@ -1,0 +1,29 @@
+dataset_name: place_tool_d_to_container_b_7200
+dataset_uuid: 965f0e11-8b85-44b8-9e65-e41772b91831
+task_descriptions:
+- place_the_tool_d_and_place_in_the_container_b
+scene_type:
+- hospital
+- warehouse
+atomic_actions:
+- remove
+- slide
+- rotate
+- pull
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- unitree_digit
+end_effector_type: two_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: stack_container_a_to_textile_c_5014
+dataset_uuid: ba638064-f3aa-41a3-9b61-4be179416752
+task_descriptions:
+- stack_the_container_a_and_place_in_the_textile_c
+scene_type:
+- kitchen
+- cafe
+atomic_actions:
+- push
+- grasp
+- remove
+- pick
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

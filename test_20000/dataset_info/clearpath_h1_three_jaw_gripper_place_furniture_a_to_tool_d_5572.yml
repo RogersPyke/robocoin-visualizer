@@ -1,0 +1,27 @@
+dataset_name: place_furniture_a_to_tool_d_5572
+dataset_uuid: 5e9189fa-54c3-4e42-8154-2737114dabaf
+task_descriptions:
+- place_the_furniture_a_and_place_in_the_tool_d
+scene_type:
+- restaurant
+atomic_actions:
+- grasp
+- lower
+- remove
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_beverage_d_to_toy_a_9881
+dataset_uuid: f6ba1f97-da5c-4e43-84a3-45f4f9281737
+task_descriptions:
+- pick_the_beverage_d_and_place_in_the_toy_a
+scene_type:
+- factory
+atomic_actions:
+- pick
+- pull
+- lift
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- agility_cassie
+end_effector_type: suction_cup

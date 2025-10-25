@@ -1,0 +1,30 @@
+dataset_name: stack_stationery_a_to_container_a_5090
+dataset_uuid: 7e2eef32-bf1f-474e-b5f0-00e937f467e3
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_container_a
+scene_type:
+- warehouse
+- hospital
+- home
+atomic_actions:
+- insert
+- remove
+- pick
+- rotate
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

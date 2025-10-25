@@ -1,0 +1,27 @@
+dataset_name: move_electronics_b_to_stationery_a_2570
+dataset_uuid: f7e4fb76-2da1-4de7-b7e7-0c3cd7b7ff8c
+task_descriptions:
+- move_the_electronics_b_and_place_in_the_stationery_a
+scene_type:
+- restaurant
+- office
+atomic_actions:
+- flip
+- grasp
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.7
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

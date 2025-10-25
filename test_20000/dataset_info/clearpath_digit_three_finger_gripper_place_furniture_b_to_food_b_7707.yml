@@ -1,0 +1,28 @@
+dataset_name: place_furniture_b_to_food_b_7707
+dataset_uuid: 5d7c092a-d95a-4770-93e5-f6d207bef0c1
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_food_b
+scene_type:
+- hospital
+- laboratory
+atomic_actions:
+- lower
+- place
+- pull
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

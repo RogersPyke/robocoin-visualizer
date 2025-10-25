@@ -1,0 +1,28 @@
+dataset_name: arrange_utensil_a_to_beverage_e_4789
+dataset_uuid: 6157dbe2-9da3-4b8c-a420-cd88ca83fb2d
+task_descriptions:
+- arrange_the_utensil_a_and_place_in_the_beverage_e
+scene_type:
+- factory
+- warehouse
+atomic_actions:
+- insert
+- rotate
+- flip
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.7
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_a_to_utensil_b_4258
+dataset_uuid: 4a6c78ad-79d9-4769-86f8-0a850d554078
+task_descriptions:
+- stack_the_kitchenware_a_and_place_in_the_utensil_b
+scene_type:
+- laboratory
+- office
+atomic_actions:
+- pull
+- slide
+- flip
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 71.6
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_utensil_d_to_food_e_8121
+dataset_uuid: b3c9a4ca-1df5-48f0-a792-15eaf0ee4cf1
+task_descriptions:
+- arrange_the_utensil_d_and_place_in_the_food_e
+scene_type:
+- kitchen
+- office
+atomic_actions:
+- lower
+- flip
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.4
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

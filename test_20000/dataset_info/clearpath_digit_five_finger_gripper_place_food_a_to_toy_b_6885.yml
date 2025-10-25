@@ -1,0 +1,29 @@
+dataset_name: place_food_a_to_toy_b_6885
+dataset_uuid: a993eaf7-0634-427a-8f33-6b21db3bb8d7
+task_descriptions:
+- place_the_food_a_and_place_in_the_toy_b
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- pull
+- remove
+- insert
+- push
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

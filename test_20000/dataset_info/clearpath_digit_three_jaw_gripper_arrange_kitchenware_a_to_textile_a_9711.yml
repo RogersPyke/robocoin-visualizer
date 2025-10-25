@@ -1,0 +1,27 @@
+dataset_name: arrange_kitchenware_a_to_textile_a_9711
+dataset_uuid: 1207f43a-d32d-4a6a-b59a-f7c7cc680c38
+task_descriptions:
+- arrange_the_kitchenware_a_and_place_in_the_textile_a
+scene_type:
+- office
+- warehouse
+atomic_actions:
+- grasp
+- pull
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

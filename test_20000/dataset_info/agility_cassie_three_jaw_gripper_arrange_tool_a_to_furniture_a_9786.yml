@@ -1,0 +1,30 @@
+dataset_name: arrange_tool_a_to_furniture_a_9786
+dataset_uuid: c0ef7332-0b44-4c12-be19-510ff784d891
+task_descriptions:
+- arrange_the_tool_a_and_place_in_the_furniture_a
+scene_type:
+- store
+- kitchen
+- factory
+atomic_actions:
+- place
+- flip
+- grasp
+- lower
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- agility_cassie
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: arrange_beverage_e_to_kitchenware_a_4892
+dataset_uuid: 4cd5ad7e-0cad-4baa-9335-a3aafe783b98
+task_descriptions:
+- arrange_the_beverage_e_and_place_in_the_kitchenware_a
+scene_type:
+- laboratory
+- office
+- kitchen
+atomic_actions:
+- grasp
+- flip
+- pick
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.2
+device_model:
+- agility_cassie
+end_effector_type: two_claw_gripper

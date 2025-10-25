@@ -1,0 +1,29 @@
+dataset_name: place_beverage_e_to_beverage_b_5548
+dataset_uuid: 646a7952-e126-4a31-9355-a38cb5361d18
+task_descriptions:
+- place_the_beverage_e_and_place_in_the_beverage_b
+scene_type:
+- home
+- kitchen
+- restaurant
+atomic_actions:
+- place
+- rotate
+- insert
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

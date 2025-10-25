@@ -1,0 +1,27 @@
+dataset_name: place_toy_b_to_beverage_e_7113
+dataset_uuid: 9ac14f79-231d-4c63-a7c5-b336b3de9d7b
+task_descriptions:
+- place_the_toy_b_and_place_in_the_beverage_e
+scene_type:
+- cafe
+- factory
+atomic_actions:
+- grasp
+- remove
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+operation_platform_height: 80.9
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

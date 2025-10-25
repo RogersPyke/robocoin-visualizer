@@ -1,0 +1,26 @@
+dataset_name: stack_fruit_c_to_utensil_d_7032
+dataset_uuid: 66e100ce-cbd6-42ee-8cc5-46dbb793bab2
+task_descriptions:
+- stack_the_fruit_c_and_place_in_the_utensil_d
+scene_type:
+- restaurant
+atomic_actions:
+- slide
+- remove
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

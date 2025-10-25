@@ -1,0 +1,27 @@
+dataset_name: place_textile_d_to_stationery_d_5327
+dataset_uuid: ef1d95d2-8027-4fa5-8198-f8a45392c2d3
+task_descriptions:
+- place_the_textile_d_and_place_in_the_stationery_d
+scene_type:
+- restaurant
+- store
+atomic_actions:
+- grasp
+- pull
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+- object_name: stationery_d
+  level1: stationery
+  level2: stationery_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.9
+device_model:
+- boston_h1
+end_effector_type: five_finger_gripper

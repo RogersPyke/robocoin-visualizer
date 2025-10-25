@@ -1,0 +1,28 @@
+dataset_name: place_stationery_b_to_stationery_b_1395
+dataset_uuid: c746c018-66ef-4998-9111-8be3efc2e0f1
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_stationery_b
+scene_type:
+- cafe
+- factory
+- laboratory
+atomic_actions:
+- slide
+- insert
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.3
+device_model:
+- agility_cassie
+end_effector_type: three_jaw_gripper

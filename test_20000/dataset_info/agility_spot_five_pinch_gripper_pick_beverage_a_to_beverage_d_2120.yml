@@ -1,0 +1,29 @@
+dataset_name: pick_beverage_a_to_beverage_d_2120
+dataset_uuid: e7785f73-950e-45ae-810a-fd745ac1521c
+task_descriptions:
+- pick_the_beverage_a_and_place_in_the_beverage_d
+scene_type:
+- office
+- kitchen
+- factory
+atomic_actions:
+- place
+- lower
+- pick
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+operation_platform_height: 82.4
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

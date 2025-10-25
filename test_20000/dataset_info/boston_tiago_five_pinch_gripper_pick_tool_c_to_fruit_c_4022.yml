@@ -1,0 +1,28 @@
+dataset_name: pick_tool_c_to_fruit_c_4022
+dataset_uuid: e2f21c95-0a5e-4b4f-b845-d09ebe2f6c34
+task_descriptions:
+- pick_the_tool_c_and_place_in_the_fruit_c
+scene_type:
+- warehouse
+- laboratory
+atomic_actions:
+- pull
+- grasp
+- flip
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+operation_platform_height: 89.1
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_d_to_kitchenware_c_1771
+dataset_uuid: 9094418d-7876-4efe-99f7-06b3d7b9902c
+task_descriptions:
+- pick_the_fruit_d_and_place_in_the_kitchenware_c
+scene_type:
+- hospital
+atomic_actions:
+- rotate
+- flip
+- slide
+- pull
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

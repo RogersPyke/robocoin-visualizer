@@ -1,0 +1,28 @@
+dataset_name: pick_textile_c_to_furniture_b_5427
+dataset_uuid: 7196d934-a73e-4d2f-9675-29a5eac52d47
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_furniture_b
+scene_type:
+- kitchen
+atomic_actions:
+- pull
+- lower
+- insert
+- remove
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- pal_spot
+end_effector_type: two_claw_gripper

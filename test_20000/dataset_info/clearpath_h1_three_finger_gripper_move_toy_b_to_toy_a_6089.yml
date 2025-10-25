@@ -1,0 +1,28 @@
+dataset_name: move_toy_b_to_toy_a_6089
+dataset_uuid: d9758746-05a8-4d99-8a98-0391ca27f16e
+task_descriptions:
+- move_the_toy_b_and_place_in_the_toy_a
+scene_type:
+- home
+- kitchen
+- office
+atomic_actions:
+- lift
+- flip
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.9
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

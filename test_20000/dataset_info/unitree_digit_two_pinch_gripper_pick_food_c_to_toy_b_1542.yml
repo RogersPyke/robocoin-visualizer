@@ -1,0 +1,28 @@
+dataset_name: pick_food_c_to_toy_b_1542
+dataset_uuid: c0b90f6f-e278-473e-b2bc-60ded5a8784d
+task_descriptions:
+- pick_the_food_c_and_place_in_the_toy_b
+scene_type:
+- store
+atomic_actions:
+- grasp
+- slide
+- lift
+- push
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: food_c_sub2
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

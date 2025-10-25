@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_c_to_tool_a_7973
+dataset_uuid: 4f0dab0c-fb41-4bb5-a51f-958c9db94f4e
+task_descriptions:
+- arrange_the_fruit_c_and_place_in_the_tool_a
+scene_type:
+- hospital
+- warehouse
+- factory
+atomic_actions:
+- slide
+- grasp
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- unitree_digit
+end_effector_type: two_finger_gripper

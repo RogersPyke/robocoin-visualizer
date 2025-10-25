@@ -1,0 +1,30 @@
+dataset_name: place_furniture_c_to_furniture_d_7978
+dataset_uuid: a65dad69-e308-4348-b12b-7cee8d8e926b
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_furniture_d
+scene_type:
+- cafe
+- hospital
+- kitchen
+atomic_actions:
+- slide
+- insert
+- flip
+- pull
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- pal_tiago
+end_effector_type: two_finger_gripper

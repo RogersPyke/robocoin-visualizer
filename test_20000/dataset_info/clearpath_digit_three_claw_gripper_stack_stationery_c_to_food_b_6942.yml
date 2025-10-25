@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_c_to_food_b_6942
+dataset_uuid: 50f64b45-fa05-4239-a3ff-78cadb1a5e0f
+task_descriptions:
+- stack_the_stationery_c_and_place_in_the_food_b
+scene_type:
+- cafe
+- office
+atomic_actions:
+- insert
+- flip
+- lift
+- place
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.0
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

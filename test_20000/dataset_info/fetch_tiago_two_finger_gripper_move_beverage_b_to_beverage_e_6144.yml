@@ -1,0 +1,30 @@
+dataset_name: move_beverage_b_to_beverage_e_6144
+dataset_uuid: 9afeaee9-c097-4c5f-b6d0-df1d8de48fb8
+task_descriptions:
+- move_the_beverage_b_and_place_in_the_beverage_e
+scene_type:
+- restaurant
+- store
+- factory
+atomic_actions:
+- place
+- flip
+- lower
+- pull
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.1
+device_model:
+- fetch_tiago
+end_effector_type: two_finger_gripper

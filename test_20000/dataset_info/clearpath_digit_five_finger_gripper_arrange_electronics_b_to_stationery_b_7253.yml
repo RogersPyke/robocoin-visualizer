@@ -1,0 +1,29 @@
+dataset_name: arrange_electronics_b_to_stationery_b_7253
+dataset_uuid: 7db0b8b3-0473-4221-910a-7c2a45cde7c1
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_stationery_b
+scene_type:
+- home
+- cafe
+- restaurant
+atomic_actions:
+- pick
+- rotate
+- lift
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

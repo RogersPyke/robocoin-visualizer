@@ -1,0 +1,28 @@
+dataset_name: place_furniture_a_to_electronics_c_2852
+dataset_uuid: b9c366d8-9863-4c5a-acff-16c33cbe7f23
+task_descriptions:
+- place_the_furniture_a_and_place_in_the_electronics_c
+scene_type:
+- factory
+- restaurant
+- laboratory
+atomic_actions:
+- place
+- push
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- clearpath_spot
+end_effector_type: five_finger_gripper

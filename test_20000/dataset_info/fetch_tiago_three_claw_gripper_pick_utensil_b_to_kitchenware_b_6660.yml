@@ -1,0 +1,26 @@
+dataset_name: pick_utensil_b_to_kitchenware_b_6660
+dataset_uuid: 2d2ba987-aad5-40bf-ad3b-6039c70c7ecc
+task_descriptions:
+- pick_the_utensil_b_and_place_in_the_kitchenware_b
+scene_type:
+- kitchen
+atomic_actions:
+- rotate
+- push
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.0
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

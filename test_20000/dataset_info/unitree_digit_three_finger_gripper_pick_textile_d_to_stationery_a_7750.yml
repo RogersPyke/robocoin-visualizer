@@ -1,0 +1,27 @@
+dataset_name: pick_textile_d_to_stationery_a_7750
+dataset_uuid: 9de9aff0-0d9c-42cd-bff0-d3610df1f384
+task_descriptions:
+- pick_the_textile_d_and_place_in_the_stationery_a
+scene_type:
+- store
+- warehouse
+atomic_actions:
+- flip
+- pull
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

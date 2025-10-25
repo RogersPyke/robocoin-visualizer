@@ -1,0 +1,28 @@
+dataset_name: pick_beverage_e_to_container_c_1950
+dataset_uuid: a8b106ed-a8c1-4159-90be-6f4790ab3368
+task_descriptions:
+- pick_the_beverage_e_and_place_in_the_container_c
+scene_type:
+- home
+- hospital
+atomic_actions:
+- grasp
+- place
+- pick
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

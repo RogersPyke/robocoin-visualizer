@@ -1,0 +1,27 @@
+dataset_name: stack_fruit_a_to_electronics_b_6362
+dataset_uuid: b6b76bfb-c9ee-4994-b9df-f010c76ba6af
+task_descriptions:
+- stack_the_fruit_a_and_place_in_the_electronics_b
+scene_type:
+- kitchen
+atomic_actions:
+- push
+- pick
+- remove
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.4
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

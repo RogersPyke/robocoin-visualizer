@@ -1,0 +1,28 @@
+dataset_name: arrange_beverage_b_to_textile_a_5109
+dataset_uuid: 4836d0fd-1f61-48ec-bd83-27df9494490e
+task_descriptions:
+- arrange_the_beverage_b_and_place_in_the_textile_a
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- pull
+- push
+- pick
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.9
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

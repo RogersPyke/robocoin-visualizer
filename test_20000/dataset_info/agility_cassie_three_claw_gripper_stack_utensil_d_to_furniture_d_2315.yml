@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_d_to_furniture_d_2315
+dataset_uuid: 80476a20-5518-4bfd-980a-34313177e9a6
+task_descriptions:
+- stack_the_utensil_d_and_place_in_the_furniture_d
+scene_type:
+- home
+- office
+- restaurant
+atomic_actions:
+- lower
+- place
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.1
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

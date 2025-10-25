@@ -1,0 +1,28 @@
+dataset_name: arrange_tool_a_to_textile_e_8954
+dataset_uuid: bced9c56-bff6-475b-bc76-ab5c8f43100d
+task_descriptions:
+- arrange_the_tool_a_and_place_in_the_textile_e
+scene_type:
+- kitchen
+atomic_actions:
+- lift
+- insert
+- slide
+- pull
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- boston_atlas
+end_effector_type: five_finger_gripper

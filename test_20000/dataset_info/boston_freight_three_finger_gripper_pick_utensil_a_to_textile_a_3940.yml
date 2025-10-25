@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_a_to_textile_a_3940
+dataset_uuid: a93f3c89-d4c2-4d3d-a05e-f3b3f7b78d2a
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_textile_a
+scene_type:
+- cafe
+atomic_actions:
+- lower
+- pull
+- remove
+- slide
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.3
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

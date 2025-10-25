@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_b_to_electronics_a_2830
+dataset_uuid: bc94dc84-432e-4e38-9c82-fe388d8fe0b2
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_electronics_a
+scene_type:
+- factory
+atomic_actions:
+- lift
+- rotate
+- slide
+- grasp
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- boston_atlas
+end_effector_type: suction_cup

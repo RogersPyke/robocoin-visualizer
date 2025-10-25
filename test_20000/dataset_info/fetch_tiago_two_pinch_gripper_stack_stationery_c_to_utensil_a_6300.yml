@@ -1,0 +1,30 @@
+dataset_name: stack_stationery_c_to_utensil_a_6300
+dataset_uuid: f417b76f-dadd-4d6c-83a2-540ee168b8e1
+task_descriptions:
+- stack_the_stationery_c_and_place_in_the_utensil_a
+scene_type:
+- kitchen
+- laboratory
+- warehouse
+atomic_actions:
+- rotate
+- lower
+- pick
+- insert
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.1
+device_model:
+- fetch_tiago
+end_effector_type: two_pinch_gripper

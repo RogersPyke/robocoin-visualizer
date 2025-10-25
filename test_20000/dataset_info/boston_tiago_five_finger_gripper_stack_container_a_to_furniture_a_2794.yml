@@ -1,0 +1,27 @@
+dataset_name: stack_container_a_to_furniture_a_2794
+dataset_uuid: aea45c01-cd79-4bb2-84f8-55bf7f76fca0
+task_descriptions:
+- stack_the_container_a_and_place_in_the_furniture_a
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- lower
+- flip
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

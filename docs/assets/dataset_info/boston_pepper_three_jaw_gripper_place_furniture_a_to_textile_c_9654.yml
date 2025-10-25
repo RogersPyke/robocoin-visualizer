@@ -1,0 +1,27 @@
+dataset_name: place_furniture_a_to_textile_c_9654
+dataset_uuid: 932440dc-fc0b-4644-b144-7316e8c3eb49
+task_descriptions:
+- place_the_furniture_a_and_place_in_the_textile_c
+scene_type:
+- cafe
+- laboratory
+atomic_actions:
+- place
+- rotate
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 88.0
+device_model:
+- boston_pepper
+end_effector_type: three_jaw_gripper

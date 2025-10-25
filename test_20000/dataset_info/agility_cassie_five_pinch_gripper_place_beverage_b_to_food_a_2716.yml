@@ -1,0 +1,28 @@
+dataset_name: place_beverage_b_to_food_a_2716
+dataset_uuid: 26cd8ce4-f7e9-42bf-adcc-522afb53f712
+task_descriptions:
+- place_the_beverage_b_and_place_in_the_food_a
+scene_type:
+- factory
+- home
+atomic_actions:
+- pick
+- place
+- grasp
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.3
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

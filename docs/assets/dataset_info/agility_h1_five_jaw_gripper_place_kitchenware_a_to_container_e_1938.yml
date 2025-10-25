@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_a_to_container_e_1938
+dataset_uuid: ac14b608-7a40-47d7-931a-b58afbecbac0
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_container_e
+scene_type:
+- hospital
+- laboratory
+atomic_actions:
+- pull
+- grasp
+- lift
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_e
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.7
+device_model:
+- agility_h1
+end_effector_type: five_jaw_gripper

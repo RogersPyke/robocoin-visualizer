@@ -1,0 +1,29 @@
+dataset_name: pick_fruit_b_to_food_a_5332
+dataset_uuid: 3149502a-8c31-447e-9c4e-89cfc1720bd9
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_food_a
+scene_type:
+- store
+- kitchen
+- laboratory
+atomic_actions:
+- remove
+- lift
+- rotate
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- pal_spot
+end_effector_type: five_pinch_gripper

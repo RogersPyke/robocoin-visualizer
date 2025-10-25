@@ -1,0 +1,29 @@
+dataset_name: stack_tool_a_to_tool_c_9848
+dataset_uuid: e3e0d6d1-48cd-400f-9835-a55a4be9815a
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_tool_c
+scene_type:
+- factory
+- cafe
+- home
+atomic_actions:
+- lower
+- remove
+- push
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- agility_digit
+end_effector_type: suction_cup

@@ -1,0 +1,27 @@
+dataset_name: place_furniture_c_to_container_a_5369
+dataset_uuid: 19b8c1b7-834d-42ac-9a9b-eebd31ee6cf1
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_container_a
+scene_type:
+- store
+- factory
+atomic_actions:
+- pick
+- pull
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.9
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

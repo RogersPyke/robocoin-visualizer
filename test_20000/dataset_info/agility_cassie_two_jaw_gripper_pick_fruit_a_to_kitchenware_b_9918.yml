@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_a_to_kitchenware_b_9918
+dataset_uuid: efbbba7c-4da0-4915-b59b-d8ec078e74e6
+task_descriptions:
+- pick_the_fruit_a_and_place_in_the_kitchenware_b
+scene_type:
+- home
+- factory
+- warehouse
+atomic_actions:
+- push
+- slide
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.9
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_container_e_to_utensil_a_2378
+dataset_uuid: 774b9322-4c1c-4c32-8432-d595eea24398
+task_descriptions:
+- stack_the_container_e_and_place_in_the_utensil_a
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- lift
+- pull
+objects:
+- object_name: container_e
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.2
+device_model:
+- clearpath_cassie
+end_effector_type: two_claw_gripper

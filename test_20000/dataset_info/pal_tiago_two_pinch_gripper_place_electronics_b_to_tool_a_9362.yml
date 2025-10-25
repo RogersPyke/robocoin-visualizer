@@ -1,0 +1,27 @@
+dataset_name: place_electronics_b_to_tool_a_9362
+dataset_uuid: c7aea823-6c16-4aa9-a3f8-ec570e87bd2d
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_tool_a
+scene_type:
+- laboratory
+atomic_actions:
+- pull
+- pick
+- flip
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

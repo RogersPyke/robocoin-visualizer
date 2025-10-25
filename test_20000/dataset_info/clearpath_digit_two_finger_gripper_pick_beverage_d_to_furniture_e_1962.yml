@@ -1,0 +1,29 @@
+dataset_name: pick_beverage_d_to_furniture_e_1962
+dataset_uuid: 024c37a6-e938-4862-9571-b33fef611eae
+task_descriptions:
+- pick_the_beverage_d_and_place_in_the_furniture_e
+scene_type:
+- factory
+- hospital
+atomic_actions:
+- place
+- lift
+- pull
+- push
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.4
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

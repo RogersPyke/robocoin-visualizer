@@ -1,0 +1,28 @@
+dataset_name: pick_tool_a_to_kitchenware_c_9511
+dataset_uuid: 60f47010-e80f-408c-b20d-c3124648e809
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_kitchenware_c
+scene_type:
+- restaurant
+- home
+- kitchen
+atomic_actions:
+- push
+- flip
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

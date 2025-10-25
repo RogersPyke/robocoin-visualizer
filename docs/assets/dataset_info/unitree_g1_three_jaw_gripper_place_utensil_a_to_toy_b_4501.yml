@@ -1,0 +1,27 @@
+dataset_name: place_utensil_a_to_toy_b_4501
+dataset_uuid: 285344d2-2103-4a75-aacb-132d309a239b
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_toy_b
+scene_type:
+- home
+atomic_actions:
+- pick
+- grasp
+- pull
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.1
+device_model:
+- unitree_g1
+end_effector_type: three_jaw_gripper

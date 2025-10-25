@@ -1,0 +1,30 @@
+dataset_name: stack_beverage_b_to_textile_c_9277
+dataset_uuid: 92328c1e-b9fa-4069-8ac0-a0a0c5e204cf
+task_descriptions:
+- stack_the_beverage_b_and_place_in_the_textile_c
+scene_type:
+- factory
+- laboratory
+- restaurant
+atomic_actions:
+- place
+- push
+- flip
+- insert
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.8
+device_model:
+- pal_freight
+end_effector_type: two_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_b_to_utensil_d_5114
+dataset_uuid: ba81a169-fdcc-42cf-8504-353dc447c1b0
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_utensil_d
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- rotate
+- flip
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

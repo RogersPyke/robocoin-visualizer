@@ -1,0 +1,27 @@
+dataset_name: pick_beverage_b_to_tool_d_3228
+dataset_uuid: cea07311-ac47-4606-a61a-2a192cc5a57d
+task_descriptions:
+- pick_the_beverage_b_and_place_in_the_tool_d
+scene_type:
+- office
+atomic_actions:
+- insert
+- lower
+- place
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

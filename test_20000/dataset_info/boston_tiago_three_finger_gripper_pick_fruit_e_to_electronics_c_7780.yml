@@ -1,0 +1,29 @@
+dataset_name: pick_fruit_e_to_electronics_c_7780
+dataset_uuid: 8310601d-d19f-42b8-bd0c-4b49db31c241
+task_descriptions:
+- pick_the_fruit_e_and_place_in_the_electronics_c
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- push
+- insert
+- lift
+- pick
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.5
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

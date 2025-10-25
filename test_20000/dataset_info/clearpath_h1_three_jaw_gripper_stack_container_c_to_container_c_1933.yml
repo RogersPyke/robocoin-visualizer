@@ -1,0 +1,27 @@
+dataset_name: stack_container_c_to_container_c_1933
+dataset_uuid: 46b57b04-b766-443d-a06e-0479b0b26264
+task_descriptions:
+- stack_the_container_c_and_place_in_the_container_c
+scene_type:
+- office
+atomic_actions:
+- flip
+- remove
+- pick
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+operation_platform_height: 78.2
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,27 @@
+dataset_name: move_stationery_c_to_utensil_a_4296
+dataset_uuid: 1baa8921-687f-4545-a19b-bbc635adab2c
+task_descriptions:
+- move_the_stationery_c_and_place_in_the_utensil_a
+scene_type:
+- hospital
+atomic_actions:
+- lift
+- slide
+- insert
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.9
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

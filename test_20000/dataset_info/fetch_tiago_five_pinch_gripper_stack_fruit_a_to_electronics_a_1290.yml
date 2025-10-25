@@ -1,0 +1,27 @@
+dataset_name: stack_fruit_a_to_electronics_a_1290
+dataset_uuid: 04db1a89-af88-40a8-b7cf-941984386e9e
+task_descriptions:
+- stack_the_fruit_a_and_place_in_the_electronics_a
+scene_type:
+- warehouse
+atomic_actions:
+- place
+- pick
+- push
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.5
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_toy_c_to_food_a_5221
+dataset_uuid: f37e970c-7689-4a39-bd2d-4037d4098ded
+task_descriptions:
+- move_the_toy_c_and_place_in_the_food_a
+scene_type:
+- warehouse
+- laboratory
+atomic_actions:
+- grasp
+- lift
+- slide
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.5
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_electronics_a_to_electronics_b_5390
+dataset_uuid: 60960af6-0598-4f15-bab8-998c4f352a4d
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_electronics_b
+scene_type:
+- kitchen
+- warehouse
+atomic_actions:
+- push
+- lift
+- pick
+- flip
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 81.2
+device_model:
+- boston_tiago
+end_effector_type: five_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: move_kitchenware_b_to_beverage_b_4431
+dataset_uuid: f282b237-bbd8-47dc-a434-271038736b28
+task_descriptions:
+- move_the_kitchenware_b_and_place_in_the_beverage_b
+scene_type:
+- home
+- office
+- factory
+atomic_actions:
+- rotate
+- place
+- lift
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.1
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

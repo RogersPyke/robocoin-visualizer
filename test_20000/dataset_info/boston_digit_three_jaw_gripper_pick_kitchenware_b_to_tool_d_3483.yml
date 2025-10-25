@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_b_to_tool_d_3483
+dataset_uuid: eb4def79-ffca-413f-8334-85486cc384a4
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_tool_d
+scene_type:
+- store
+- hospital
+atomic_actions:
+- pull
+- insert
+- lift
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.4
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

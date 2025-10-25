@@ -1,0 +1,30 @@
+dataset_name: pick_container_a_to_electronics_c_2102
+dataset_uuid: 0d9a57b6-f054-4a07-bbd0-3c653bb7a1f3
+task_descriptions:
+- pick_the_container_a_and_place_in_the_electronics_c
+scene_type:
+- hospital
+- restaurant
+- laboratory
+atomic_actions:
+- place
+- push
+- grasp
+- pull
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 78.9
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

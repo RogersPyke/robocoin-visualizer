@@ -1,0 +1,28 @@
+dataset_name: place_fruit_a_to_textile_d_2252
+dataset_uuid: 9dcf43d1-ed0c-4671-8e3f-980313d462e6
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_textile_d
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- lower
+- slide
+- pick
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

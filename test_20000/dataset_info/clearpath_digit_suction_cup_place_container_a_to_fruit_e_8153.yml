@@ -1,0 +1,28 @@
+dataset_name: place_container_a_to_fruit_e_8153
+dataset_uuid: 59d7d332-263e-4b65-b592-cb66221762eb
+task_descriptions:
+- place_the_container_a_and_place_in_the_fruit_e
+scene_type:
+- kitchen
+- warehouse
+- hospital
+atomic_actions:
+- place
+- insert
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- clearpath_digit
+end_effector_type: suction_cup

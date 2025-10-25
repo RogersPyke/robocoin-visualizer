@@ -1,0 +1,29 @@
+dataset_name: move_utensil_c_to_kitchenware_c_4712
+dataset_uuid: b2deccb6-f695-4761-923e-f004d85b92a2
+task_descriptions:
+- move_the_utensil_c_and_place_in_the_kitchenware_c
+scene_type:
+- warehouse
+- restaurant
+- laboratory
+atomic_actions:
+- grasp
+- pick
+- insert
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.1
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

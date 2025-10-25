@@ -1,0 +1,28 @@
+dataset_name: place_toy_a_to_electronics_a_3413
+dataset_uuid: 2717bb17-d635-40a9-8eb5-b8642c3efd66
+task_descriptions:
+- place_the_toy_a_and_place_in_the_electronics_a
+scene_type:
+- cafe
+- office
+- store
+atomic_actions:
+- insert
+- slide
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

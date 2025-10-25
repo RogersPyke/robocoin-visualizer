@@ -1,0 +1,27 @@
+dataset_name: place_container_c_to_kitchenware_c_2286
+dataset_uuid: 66b5ead9-ecf9-4dfb-9048-e89bacb38e23
+task_descriptions:
+- place_the_container_c_and_place_in_the_kitchenware_c
+scene_type:
+- kitchen
+atomic_actions:
+- slide
+- lower
+- pull
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

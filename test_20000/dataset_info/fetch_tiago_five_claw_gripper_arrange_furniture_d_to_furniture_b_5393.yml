@@ -1,0 +1,29 @@
+dataset_name: arrange_furniture_d_to_furniture_b_5393
+dataset_uuid: 458b2735-c36b-4415-a0c9-c22da2012255
+task_descriptions:
+- arrange_the_furniture_d_and_place_in_the_furniture_b
+scene_type:
+- hospital
+- store
+- factory
+atomic_actions:
+- remove
+- lift
+- insert
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

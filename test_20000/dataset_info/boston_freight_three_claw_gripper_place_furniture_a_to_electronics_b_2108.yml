@@ -1,0 +1,28 @@
+dataset_name: place_furniture_a_to_electronics_b_2108
+dataset_uuid: 49dc3d3f-f796-451f-9e54-da7476f15a5a
+task_descriptions:
+- place_the_furniture_a_and_place_in_the_electronics_b
+scene_type:
+- office
+- factory
+- store
+atomic_actions:
+- flip
+- rotate
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.1
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

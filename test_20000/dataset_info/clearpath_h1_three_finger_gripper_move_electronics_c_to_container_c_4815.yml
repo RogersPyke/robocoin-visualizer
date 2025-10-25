@@ -1,0 +1,26 @@
+dataset_name: move_electronics_c_to_container_c_4815
+dataset_uuid: c303b711-3bee-444b-aee6-9e0fbc041c2a
+task_descriptions:
+- move_the_electronics_c_and_place_in_the_container_c
+scene_type:
+- office
+atomic_actions:
+- lift
+- place
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

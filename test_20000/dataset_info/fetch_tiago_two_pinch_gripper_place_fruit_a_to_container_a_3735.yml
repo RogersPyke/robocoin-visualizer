@@ -1,0 +1,28 @@
+dataset_name: place_fruit_a_to_container_a_3735
+dataset_uuid: 89888b98-ee10-4b18-9a26-fa9180d97f0a
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_container_a
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- lower
+- place
+- flip
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- fetch_tiago
+end_effector_type: two_pinch_gripper

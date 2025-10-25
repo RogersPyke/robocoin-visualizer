@@ -1,0 +1,29 @@
+dataset_name: move_textile_b_to_beverage_d_6608
+dataset_uuid: 835e5674-e236-40f3-af5c-1b72187b3cd6
+task_descriptions:
+- move_the_textile_b_and_place_in_the_beverage_d
+scene_type:
+- store
+- kitchen
+atomic_actions:
+- lift
+- lower
+- push
+- slide
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

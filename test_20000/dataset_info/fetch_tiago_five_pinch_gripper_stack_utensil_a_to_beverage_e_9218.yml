@@ -1,0 +1,29 @@
+dataset_name: stack_utensil_a_to_beverage_e_9218
+dataset_uuid: 1891db48-aaf9-4771-b4ec-04f46bbd153e
+task_descriptions:
+- stack_the_utensil_a_and_place_in_the_beverage_e
+scene_type:
+- restaurant
+- store
+- warehouse
+atomic_actions:
+- remove
+- insert
+- flip
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

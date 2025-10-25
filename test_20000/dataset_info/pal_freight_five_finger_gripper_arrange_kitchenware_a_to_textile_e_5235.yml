@@ -1,0 +1,28 @@
+dataset_name: arrange_kitchenware_a_to_textile_e_5235
+dataset_uuid: 36c5dd47-c25e-4549-b0ac-a3cbeaa0283e
+task_descriptions:
+- arrange_the_kitchenware_a_and_place_in_the_textile_e
+scene_type:
+- warehouse
+atomic_actions:
+- rotate
+- lower
+- lift
+- slide
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- pal_freight
+end_effector_type: five_finger_gripper

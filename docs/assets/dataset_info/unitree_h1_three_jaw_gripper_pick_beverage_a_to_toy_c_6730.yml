@@ -1,0 +1,29 @@
+dataset_name: pick_beverage_a_to_toy_c_6730
+dataset_uuid: c240ee0e-6bbc-4b51-91ff-fa0829ce8983
+task_descriptions:
+- pick_the_beverage_a_and_place_in_the_toy_c
+scene_type:
+- hospital
+- restaurant
+- warehouse
+atomic_actions:
+- insert
+- pick
+- grasp
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

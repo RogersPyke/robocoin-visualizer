@@ -1,0 +1,28 @@
+dataset_name: move_container_c_to_container_b_8228
+dataset_uuid: 753bad41-29b8-4905-9f4d-675ab38f264e
+task_descriptions:
+- move_the_container_c_and_place_in_the_container_b
+scene_type:
+- hospital
+- warehouse
+- office
+atomic_actions:
+- rotate
+- pick
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- fetch_spot
+end_effector_type: three_jaw_gripper

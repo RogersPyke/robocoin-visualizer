@@ -1,0 +1,27 @@
+dataset_name: move_furniture_b_to_stationery_c_8873
+dataset_uuid: 1fb00e70-98d5-470c-97bc-f30cc6aeeefb
+task_descriptions:
+- move_the_furniture_b_and_place_in_the_stationery_c
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- insert
+- push
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.3
+device_model:
+- agility_tiago
+end_effector_type: two_claw_gripper

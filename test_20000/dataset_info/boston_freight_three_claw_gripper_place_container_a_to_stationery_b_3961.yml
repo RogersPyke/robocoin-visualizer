@@ -1,0 +1,30 @@
+dataset_name: place_container_a_to_stationery_b_3961
+dataset_uuid: c45dd1d1-1fea-4412-9b5c-a4ae405afc99
+task_descriptions:
+- place_the_container_a_and_place_in_the_stationery_b
+scene_type:
+- warehouse
+- home
+- restaurant
+atomic_actions:
+- slide
+- push
+- grasp
+- insert
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.1
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

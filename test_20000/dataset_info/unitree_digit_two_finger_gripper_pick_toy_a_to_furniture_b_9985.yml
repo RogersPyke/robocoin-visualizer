@@ -1,0 +1,27 @@
+dataset_name: pick_toy_a_to_furniture_b_9985
+dataset_uuid: ab99ec3d-afa4-4304-a8b2-0a7a324ccf0a
+task_descriptions:
+- pick_the_toy_a_and_place_in_the_furniture_b
+scene_type:
+- cafe
+atomic_actions:
+- push
+- rotate
+- lift
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 72.9
+device_model:
+- unitree_digit
+end_effector_type: two_finger_gripper

@@ -1,0 +1,26 @@
+dataset_name: pick_furniture_a_to_fruit_c_3762
+dataset_uuid: 3ea74f67-b51d-43e8-813c-44371912fe39
+task_descriptions:
+- pick_the_furniture_a_and_place_in_the_fruit_c
+scene_type:
+- store
+atomic_actions:
+- insert
+- rotate
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.0
+device_model:
+- agility_h1
+end_effector_type: five_claw_gripper

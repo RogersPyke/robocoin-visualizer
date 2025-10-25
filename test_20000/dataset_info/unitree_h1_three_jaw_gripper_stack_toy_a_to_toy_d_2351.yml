@@ -1,0 +1,29 @@
+dataset_name: stack_toy_a_to_toy_d_2351
+dataset_uuid: 8b5fb18e-2710-46b2-9c2d-012b5e931cff
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_toy_d
+scene_type:
+- store
+- laboratory
+- home
+atomic_actions:
+- slide
+- lower
+- flip
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.5
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

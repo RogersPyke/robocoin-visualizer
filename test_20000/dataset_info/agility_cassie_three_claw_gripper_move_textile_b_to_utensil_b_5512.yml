@@ -1,0 +1,26 @@
+dataset_name: move_textile_b_to_utensil_b_5512
+dataset_uuid: b6151d44-de03-4829-8b53-0aeb63c0bd93
+task_descriptions:
+- move_the_textile_b_and_place_in_the_utensil_b
+scene_type:
+- home
+atomic_actions:
+- push
+- lift
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.7
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

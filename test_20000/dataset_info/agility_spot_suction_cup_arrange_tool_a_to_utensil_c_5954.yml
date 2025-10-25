@@ -1,0 +1,27 @@
+dataset_name: arrange_tool_a_to_utensil_c_5954
+dataset_uuid: 0505a2cb-d781-4169-be7f-65bfcb891faf
+task_descriptions:
+- arrange_the_tool_a_and_place_in_the_utensil_c
+scene_type:
+- factory
+atomic_actions:
+- pick
+- remove
+- lower
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.2
+device_model:
+- agility_spot
+end_effector_type: suction_cup

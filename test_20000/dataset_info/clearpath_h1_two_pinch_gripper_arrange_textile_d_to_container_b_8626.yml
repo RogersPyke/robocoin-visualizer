@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_d_to_container_b_8626
+dataset_uuid: 9ef55657-79af-44e6-ae46-2aa3c819f32f
+task_descriptions:
+- arrange_the_textile_d_and_place_in_the_container_b
+scene_type:
+- store
+- laboratory
+atomic_actions:
+- rotate
+- push
+- pull
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

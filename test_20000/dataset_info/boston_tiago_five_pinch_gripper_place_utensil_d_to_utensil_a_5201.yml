@@ -1,0 +1,29 @@
+dataset_name: place_utensil_d_to_utensil_a_5201
+dataset_uuid: a9390b35-ffe1-4d5c-b23d-37268ab87ef0
+task_descriptions:
+- place_the_utensil_d_and_place_in_the_utensil_a
+scene_type:
+- home
+- warehouse
+- laboratory
+atomic_actions:
+- insert
+- place
+- lift
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.3
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

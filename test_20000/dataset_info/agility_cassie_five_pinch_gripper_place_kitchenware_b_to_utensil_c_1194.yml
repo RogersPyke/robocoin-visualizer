@@ -1,0 +1,27 @@
+dataset_name: place_kitchenware_b_to_utensil_c_1194
+dataset_uuid: 594d25fa-31a5-4a1e-b1a5-4717672f20c6
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_utensil_c
+scene_type:
+- kitchen
+atomic_actions:
+- slide
+- insert
+- pick
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

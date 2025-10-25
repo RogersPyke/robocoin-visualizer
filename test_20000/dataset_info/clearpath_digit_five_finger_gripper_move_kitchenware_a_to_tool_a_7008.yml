@@ -1,0 +1,28 @@
+dataset_name: move_kitchenware_a_to_tool_a_7008
+dataset_uuid: 2f857f4d-2834-4578-ae95-e141b37afca0
+task_descriptions:
+- move_the_kitchenware_a_and_place_in_the_tool_a
+scene_type:
+- office
+- warehouse
+- store
+atomic_actions:
+- slide
+- lower
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

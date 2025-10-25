@@ -1,0 +1,30 @@
+dataset_name: place_utensil_c_to_beverage_c_3979
+dataset_uuid: 32addb18-00e4-4c47-9249-edfb19c9f737
+task_descriptions:
+- place_the_utensil_c_and_place_in_the_beverage_c
+scene_type:
+- laboratory
+- office
+- restaurant
+atomic_actions:
+- grasp
+- flip
+- push
+- pull
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

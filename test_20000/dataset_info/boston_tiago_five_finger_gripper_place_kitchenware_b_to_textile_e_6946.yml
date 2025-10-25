@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_b_to_textile_e_6946
+dataset_uuid: 2fd4def6-0f17-4d30-8b7c-b2f2c84cc21d
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_textile_e
+scene_type:
+- restaurant
+- cafe
+- warehouse
+atomic_actions:
+- remove
+- insert
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

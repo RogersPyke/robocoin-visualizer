@@ -1,0 +1,27 @@
+dataset_name: place_food_b_to_toy_b_7843
+dataset_uuid: b0d40ba8-b236-4d1a-8c8e-049925f71a43
+task_descriptions:
+- place_the_food_b_and_place_in_the_toy_b
+scene_type:
+- office
+- factory
+atomic_actions:
+- rotate
+- flip
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+operation_platform_height: 71.0
+device_model:
+- agility_h1
+end_effector_type: three_pinch_gripper

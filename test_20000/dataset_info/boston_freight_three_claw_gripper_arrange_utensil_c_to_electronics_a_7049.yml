@@ -1,0 +1,28 @@
+dataset_name: arrange_utensil_c_to_electronics_a_7049
+dataset_uuid: d4117040-55ea-427e-b1b9-e11d763eeedd
+task_descriptions:
+- arrange_the_utensil_c_and_place_in_the_electronics_a
+scene_type:
+- cafe
+- store
+- office
+atomic_actions:
+- insert
+- pick
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

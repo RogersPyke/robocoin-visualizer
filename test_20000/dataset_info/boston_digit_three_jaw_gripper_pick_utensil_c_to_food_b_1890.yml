@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_c_to_food_b_1890
+dataset_uuid: 5c620f4b-d532-49e7-a57f-7f8fd70a0381
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_food_b
+scene_type:
+- cafe
+atomic_actions:
+- flip
+- place
+- slide
+- insert
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.0
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

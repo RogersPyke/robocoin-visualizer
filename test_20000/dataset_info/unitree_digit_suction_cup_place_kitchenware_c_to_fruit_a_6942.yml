@@ -1,0 +1,27 @@
+dataset_name: place_kitchenware_c_to_fruit_a_6942
+dataset_uuid: 2ecc337c-948e-4600-bc14-24a935c2e874
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_fruit_a
+scene_type:
+- cafe
+atomic_actions:
+- lift
+- flip
+- push
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- unitree_digit
+end_effector_type: suction_cup

@@ -1,0 +1,26 @@
+dataset_name: place_container_c_to_furniture_d_1668
+dataset_uuid: f58ced83-2a0d-4d22-a650-72a2b1a45608
+task_descriptions:
+- place_the_container_c_and_place_in_the_furniture_d
+scene_type:
+- cafe
+atomic_actions:
+- flip
+- insert
+objects:
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.6
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

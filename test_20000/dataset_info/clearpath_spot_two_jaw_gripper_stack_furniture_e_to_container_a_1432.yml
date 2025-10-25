@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_e_to_container_a_1432
+dataset_uuid: 0c42a447-61e2-423f-a73f-5b047f5ec0b4
+task_descriptions:
+- stack_the_furniture_e_and_place_in_the_container_a
+scene_type:
+- home
+atomic_actions:
+- slide
+- insert
+- rotate
+- pick
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_a_to_stationery_b_6361
+dataset_uuid: 76612037-f11e-4319-8efe-f4f221893047
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_stationery_b
+scene_type:
+- store
+atomic_actions:
+- push
+- insert
+- lower
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.1
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

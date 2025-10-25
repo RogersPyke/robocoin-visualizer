@@ -1,0 +1,27 @@
+dataset_name: pick_textile_d_to_container_a_7342
+dataset_uuid: fdda8cf9-6eb0-4137-ba38-cb2a51425ede
+task_descriptions:
+- pick_the_textile_d_and_place_in_the_container_a
+scene_type:
+- warehouse
+atomic_actions:
+- pick
+- push
+- flip
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.4
+device_model:
+- pal_freight
+end_effector_type: two_claw_gripper

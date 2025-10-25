@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_c_to_tool_b_5258
+dataset_uuid: 0fd5f43e-78d9-41dd-8f49-36adfb57cd86
+task_descriptions:
+- arrange_the_fruit_c_and_place_in_the_tool_b
+scene_type:
+- warehouse
+- store
+- office
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.3
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

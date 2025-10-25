@@ -1,0 +1,27 @@
+dataset_name: place_tool_d_to_textile_c_1152
+dataset_uuid: ae8db54a-2366-4a45-8cdb-a2850ae14f7c
+task_descriptions:
+- place_the_tool_d_and_place_in_the_textile_c
+scene_type:
+- factory
+- laboratory
+atomic_actions:
+- lift
+- lower
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- agility_cassie
+end_effector_type: three_jaw_gripper

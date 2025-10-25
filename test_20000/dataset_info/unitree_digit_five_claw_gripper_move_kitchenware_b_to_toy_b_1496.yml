@@ -1,0 +1,28 @@
+dataset_name: move_kitchenware_b_to_toy_b_1496
+dataset_uuid: a426f0ae-ce94-4485-830a-6fda156150af
+task_descriptions:
+- move_the_kitchenware_b_and_place_in_the_toy_b
+scene_type:
+- kitchen
+- office
+- cafe
+atomic_actions:
+- insert
+- place
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+operation_platform_height: 83.1
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

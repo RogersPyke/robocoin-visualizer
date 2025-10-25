@@ -1,0 +1,28 @@
+dataset_name: stack_textile_b_to_kitchenware_b_4575
+dataset_uuid: 38546c1f-5d64-4d5d-9690-5f37569c47ef
+task_descriptions:
+- stack_the_textile_b_and_place_in_the_kitchenware_b
+scene_type:
+- hospital
+- home
+- restaurant
+atomic_actions:
+- insert
+- pull
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 80.9
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

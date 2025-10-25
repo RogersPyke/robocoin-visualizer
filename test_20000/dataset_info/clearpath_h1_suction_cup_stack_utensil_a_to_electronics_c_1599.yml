@@ -1,0 +1,27 @@
+dataset_name: stack_utensil_a_to_electronics_c_1599
+dataset_uuid: ae9a2a42-76ca-45e4-8207-1164948bd215
+task_descriptions:
+- stack_the_utensil_a_and_place_in_the_electronics_c
+scene_type:
+- home
+atomic_actions:
+- lower
+- grasp
+- pull
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.7
+device_model:
+- clearpath_h1
+end_effector_type: suction_cup

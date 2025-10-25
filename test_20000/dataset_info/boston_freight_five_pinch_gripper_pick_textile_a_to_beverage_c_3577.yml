@@ -1,0 +1,27 @@
+dataset_name: pick_textile_a_to_beverage_c_3577
+dataset_uuid: 71b0d241-f696-4d9f-a1b2-92e69b966223
+task_descriptions:
+- pick_the_textile_a_and_place_in_the_beverage_c
+scene_type:
+- store
+- home
+atomic_actions:
+- pull
+- remove
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

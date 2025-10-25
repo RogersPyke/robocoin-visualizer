@@ -1,0 +1,27 @@
+dataset_name: stack_fruit_a_to_fruit_e_5511
+dataset_uuid: ed5bc1fc-981a-45a3-8afd-bed1a53ba7e9
+task_descriptions:
+- stack_the_fruit_a_and_place_in_the_fruit_e
+scene_type:
+- warehouse
+atomic_actions:
+- slide
+- remove
+- pick
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

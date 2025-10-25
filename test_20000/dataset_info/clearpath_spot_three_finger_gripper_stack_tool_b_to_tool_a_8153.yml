@@ -1,0 +1,28 @@
+dataset_name: stack_tool_b_to_tool_a_8153
+dataset_uuid: 56592f01-9a60-4dbe-9fd7-6ce402bd9070
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_tool_a
+scene_type:
+- laboratory
+- store
+atomic_actions:
+- push
+- rotate
+- flip
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.0
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

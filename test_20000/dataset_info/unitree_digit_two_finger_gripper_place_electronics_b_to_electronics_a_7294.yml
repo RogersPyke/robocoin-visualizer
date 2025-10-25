@@ -1,0 +1,29 @@
+dataset_name: place_electronics_b_to_electronics_a_7294
+dataset_uuid: fca2d471-3da4-4100-9ed8-c4b347bec279
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_electronics_a
+scene_type:
+- store
+- home
+- hospital
+atomic_actions:
+- place
+- lower
+- push
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.6
+device_model:
+- unitree_digit
+end_effector_type: two_finger_gripper

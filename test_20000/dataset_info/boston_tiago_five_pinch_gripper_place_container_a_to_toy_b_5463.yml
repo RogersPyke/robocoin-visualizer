@@ -1,0 +1,27 @@
+dataset_name: place_container_a_to_toy_b_5463
+dataset_uuid: 17593b22-0e0b-448d-a4cc-d0d7965c346c
+task_descriptions:
+- place_the_container_a_and_place_in_the_toy_b
+scene_type:
+- office
+atomic_actions:
+- pull
+- push
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.3
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

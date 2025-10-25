@@ -1,0 +1,28 @@
+dataset_name: place_fruit_a_to_stationery_b_1663
+dataset_uuid: 7ca6c8e6-f4be-48af-bace-531ae614773e
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_stationery_b
+scene_type:
+- warehouse
+- laboratory
+atomic_actions:
+- push
+- remove
+- rotate
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.2
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

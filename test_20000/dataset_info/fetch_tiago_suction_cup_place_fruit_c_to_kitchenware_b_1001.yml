@@ -1,0 +1,30 @@
+dataset_name: place_fruit_c_to_kitchenware_b_1001
+dataset_uuid: b45cd758-7464-4177-bd43-b17ebc387ac5
+task_descriptions:
+- place_the_fruit_c_and_place_in_the_kitchenware_b
+scene_type:
+- hospital
+- warehouse
+- office
+atomic_actions:
+- pick
+- flip
+- grasp
+- lift
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 73.4
+device_model:
+- fetch_tiago
+end_effector_type: suction_cup

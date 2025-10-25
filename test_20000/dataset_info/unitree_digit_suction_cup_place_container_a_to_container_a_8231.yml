@@ -1,0 +1,27 @@
+dataset_name: place_container_a_to_container_a_8231
+dataset_uuid: 88dee56c-7a5c-4646-824c-06391b359559
+task_descriptions:
+- place_the_container_a_and_place_in_the_container_a
+scene_type:
+- warehouse
+atomic_actions:
+- pick
+- lower
+- pull
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.6
+device_model:
+- unitree_digit
+end_effector_type: suction_cup

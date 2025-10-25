@@ -1,0 +1,29 @@
+dataset_name: pick_food_e_to_furniture_a_3417
+dataset_uuid: 04179d48-f54c-4229-8cb1-03e0c8dfb97d
+task_descriptions:
+- pick_the_food_e_and_place_in_the_furniture_a
+scene_type:
+- factory
+- home
+atomic_actions:
+- push
+- pull
+- pick
+- slide
+objects:
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

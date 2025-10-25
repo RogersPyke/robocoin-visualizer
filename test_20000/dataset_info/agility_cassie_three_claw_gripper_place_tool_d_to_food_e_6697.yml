@@ -1,0 +1,30 @@
+dataset_name: place_tool_d_to_food_e_6697
+dataset_uuid: 0323f180-cd93-4677-9797-800fa17cb676
+task_descriptions:
+- place_the_tool_d_and_place_in_the_food_e
+scene_type:
+- cafe
+- office
+- kitchen
+atomic_actions:
+- slide
+- flip
+- lift
+- pick
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: stack_tool_a_to_food_d_2066
+dataset_uuid: 5822fe01-4a0b-4d1e-8864-404cd035999e
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_food_d
+scene_type:
+- cafe
+- store
+atomic_actions:
+- insert
+- lift
+- grasp
+- push
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

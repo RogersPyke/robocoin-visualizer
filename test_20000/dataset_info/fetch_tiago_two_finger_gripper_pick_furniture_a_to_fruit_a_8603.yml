@@ -1,0 +1,30 @@
+dataset_name: pick_furniture_a_to_fruit_a_8603
+dataset_uuid: 37c1231a-c9f7-4244-8260-15dcbf7beb69
+task_descriptions:
+- pick_the_furniture_a_and_place_in_the_fruit_a
+scene_type:
+- store
+- home
+- office
+atomic_actions:
+- slide
+- rotate
+- place
+- flip
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.5
+device_model:
+- fetch_tiago
+end_effector_type: two_finger_gripper

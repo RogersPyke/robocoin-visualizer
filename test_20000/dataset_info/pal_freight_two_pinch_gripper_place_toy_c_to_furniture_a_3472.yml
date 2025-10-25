@@ -1,0 +1,27 @@
+dataset_name: place_toy_c_to_furniture_a_3472
+dataset_uuid: 211df774-b5d8-4929-a3e7-0b65514254d2
+task_descriptions:
+- place_the_toy_c_and_place_in_the_furniture_a
+scene_type:
+- store
+- laboratory
+atomic_actions:
+- push
+- lift
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

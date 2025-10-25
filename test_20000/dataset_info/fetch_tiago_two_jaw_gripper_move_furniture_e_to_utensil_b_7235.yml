@@ -1,0 +1,28 @@
+dataset_name: move_furniture_e_to_utensil_b_7235
+dataset_uuid: e27eb39e-a8a2-471a-b887-06f86a75ed75
+task_descriptions:
+- move_the_furniture_e_and_place_in_the_utensil_b
+scene_type:
+- factory
+atomic_actions:
+- rotate
+- flip
+- pull
+- grasp
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.1
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

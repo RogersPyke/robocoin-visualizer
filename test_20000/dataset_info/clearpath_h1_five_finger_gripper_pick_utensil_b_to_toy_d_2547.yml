@@ -1,0 +1,30 @@
+dataset_name: pick_utensil_b_to_toy_d_2547
+dataset_uuid: bcb55e17-9f90-4b88-a43d-53164c73603a
+task_descriptions:
+- pick_the_utensil_b_and_place_in_the_toy_d
+scene_type:
+- laboratory
+- store
+- hospital
+atomic_actions:
+- rotate
+- flip
+- place
+- grasp
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- clearpath_h1
+end_effector_type: five_finger_gripper

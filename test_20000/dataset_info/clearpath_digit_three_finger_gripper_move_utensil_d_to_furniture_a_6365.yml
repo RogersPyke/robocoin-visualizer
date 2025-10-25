@@ -1,0 +1,27 @@
+dataset_name: move_utensil_d_to_furniture_a_6365
+dataset_uuid: 11fd5395-fcbf-4fb6-a228-b9bbe38eedea
+task_descriptions:
+- move_the_utensil_d_and_place_in_the_furniture_a
+scene_type:
+- home
+atomic_actions:
+- place
+- push
+- remove
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.6
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

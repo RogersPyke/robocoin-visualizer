@@ -1,0 +1,30 @@
+dataset_name: move_electronics_a_to_container_b_2874
+dataset_uuid: 7ce6e8cb-fe22-4347-87b5-63749a3b7584
+task_descriptions:
+- move_the_electronics_a_and_place_in_the_container_b
+scene_type:
+- home
+- factory
+- office
+atomic_actions:
+- pick
+- flip
+- slide
+- remove
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

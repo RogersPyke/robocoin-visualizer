@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_b_to_food_a_8015
+dataset_uuid: b5926ac4-b973-4104-883d-d7d9fb6e8fe2
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_food_a
+scene_type:
+- office
+atomic_actions:
+- grasp
+- lower
+- pull
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

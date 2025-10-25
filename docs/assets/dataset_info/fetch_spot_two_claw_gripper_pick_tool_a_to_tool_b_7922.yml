@@ -1,0 +1,28 @@
+dataset_name: pick_tool_a_to_tool_b_7922
+dataset_uuid: 43da6624-145d-413b-9947-d7e844e1db70
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_tool_b
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- insert
+- lower
+- push
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- fetch_spot
+end_effector_type: two_claw_gripper

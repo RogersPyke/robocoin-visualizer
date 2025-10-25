@@ -1,0 +1,29 @@
+dataset_name: stack_electronics_a_to_tool_c_2224
+dataset_uuid: 496d0c65-2660-4170-a092-b3cc655dfef7
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_tool_c
+scene_type:
+- hospital
+- restaurant
+atomic_actions:
+- slide
+- push
+- remove
+- grasp
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.3
+device_model:
+- pal_tiago
+end_effector_type: two_finger_gripper

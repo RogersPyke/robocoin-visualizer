@@ -1,0 +1,29 @@
+dataset_name: move_textile_e_to_utensil_c_4356
+dataset_uuid: 092b955f-220a-4304-8dc7-46c03b5f47ea
+task_descriptions:
+- move_the_textile_e_and_place_in_the_utensil_c
+scene_type:
+- laboratory
+- restaurant
+- hospital
+atomic_actions:
+- slide
+- lift
+- grasp
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- clearpath_h1
+end_effector_type: two_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_fruit_a_to_textile_c_7278
+dataset_uuid: 9faab548-b465-423b-9a63-421f9f1ee086
+task_descriptions:
+- stack_the_fruit_a_and_place_in_the_textile_c
+scene_type:
+- kitchen
+- hospital
+- laboratory
+atomic_actions:
+- pull
+- grasp
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 86.7
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

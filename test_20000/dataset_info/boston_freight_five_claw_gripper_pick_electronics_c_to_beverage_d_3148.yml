@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_c_to_beverage_d_3148
+dataset_uuid: 2f36c914-ba49-47f7-98c6-be4c6dd806ca
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_beverage_d
+scene_type:
+- hospital
+- cafe
+- office
+atomic_actions:
+- slide
+- insert
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.7
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

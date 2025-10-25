@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_b_to_stationery_c_3128
+dataset_uuid: 409523ab-1fe4-4138-a767-4825dd89d348
+task_descriptions:
+- stack_the_furniture_b_and_place_in_the_stationery_c
+scene_type:
+- hospital
+- home
+atomic_actions:
+- remove
+- pull
+- lift
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

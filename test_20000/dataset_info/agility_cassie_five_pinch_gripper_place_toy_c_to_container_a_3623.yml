@@ -1,0 +1,27 @@
+dataset_name: place_toy_c_to_container_a_3623
+dataset_uuid: f896cc9e-70ca-463a-b26f-75fe1683d755
+task_descriptions:
+- place_the_toy_c_and_place_in_the_container_a
+scene_type:
+- hospital
+- office
+atomic_actions:
+- lift
+- place
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

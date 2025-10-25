@@ -1,0 +1,28 @@
+dataset_name: move_furniture_c_to_tool_d_9634
+dataset_uuid: ab24f20f-7cd2-4aa4-8c4f-68c2a4beb9c1
+task_descriptions:
+- move_the_furniture_c_and_place_in_the_tool_d
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- flip
+- lift
+- grasp
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

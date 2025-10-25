@@ -1,0 +1,30 @@
+dataset_name: stack_fruit_c_to_stationery_c_9930
+dataset_uuid: d51d6c0b-0b46-4b79-91d9-3665bce3f278
+task_descriptions:
+- stack_the_fruit_c_and_place_in_the_stationery_c
+scene_type:
+- office
+- home
+- factory
+atomic_actions:
+- grasp
+- insert
+- remove
+- place
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- boston_atlas
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_fruit_d_to_container_a_7639
+dataset_uuid: 833a5e8a-46c2-488a-ba43-f31ddbbb83d0
+task_descriptions:
+- move_the_fruit_d_and_place_in_the_container_a
+scene_type:
+- store
+atomic_actions:
+- lower
+- push
+- pick
+- remove
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.1
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

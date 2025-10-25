@@ -1,0 +1,30 @@
+dataset_name: place_food_e_to_beverage_d_1157
+dataset_uuid: f5dd123d-aaeb-4e24-9ad7-abcfcadf9b02
+task_descriptions:
+- place_the_food_e_and_place_in_the_beverage_d
+scene_type:
+- home
+- kitchen
+- laboratory
+atomic_actions:
+- lift
+- pick
+- flip
+- slide
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

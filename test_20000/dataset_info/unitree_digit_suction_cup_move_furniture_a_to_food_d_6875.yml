@@ -1,0 +1,29 @@
+dataset_name: move_furniture_a_to_food_d_6875
+dataset_uuid: 352d9c40-f083-494f-a558-3c4f8e40b32b
+task_descriptions:
+- move_the_furniture_a_and_place_in_the_food_d
+scene_type:
+- restaurant
+- home
+atomic_actions:
+- insert
+- flip
+- push
+- remove
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- unitree_digit
+end_effector_type: suction_cup

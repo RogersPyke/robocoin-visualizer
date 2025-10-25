@@ -1,0 +1,29 @@
+dataset_name: arrange_textile_b_to_stationery_a_2276
+dataset_uuid: ebaae062-0163-4f71-b145-2dbb1f4b8253
+task_descriptions:
+- arrange_the_textile_b_and_place_in_the_stationery_a
+scene_type:
+- hospital
+- home
+- warehouse
+atomic_actions:
+- place
+- insert
+- push
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+operation_platform_height: 84.4
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

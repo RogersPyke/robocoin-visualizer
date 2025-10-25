@@ -1,0 +1,28 @@
+dataset_name: place_fruit_b_to_container_a_2883
+dataset_uuid: ef78a776-9b9b-4bfb-bd36-30ab997d7fda
+task_descriptions:
+- place_the_fruit_b_and_place_in_the_container_a
+scene_type:
+- warehouse
+- home
+- store
+atomic_actions:
+- grasp
+- flip
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- unitree_h1
+end_effector_type: three_claw_gripper

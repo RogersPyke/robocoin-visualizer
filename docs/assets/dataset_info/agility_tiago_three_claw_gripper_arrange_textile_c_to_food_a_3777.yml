@@ -1,0 +1,30 @@
+dataset_name: arrange_textile_c_to_food_a_3777
+dataset_uuid: 5a03920f-cf55-4a2f-8096-5c559ea80080
+task_descriptions:
+- arrange_the_textile_c_and_place_in_the_food_a
+scene_type:
+- kitchen
+- laboratory
+- restaurant
+atomic_actions:
+- lower
+- pick
+- pull
+- place
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- agility_tiago
+end_effector_type: three_claw_gripper

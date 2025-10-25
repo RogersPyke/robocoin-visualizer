@@ -1,0 +1,27 @@
+dataset_name: arrange_fruit_b_to_furniture_d_9158
+dataset_uuid: 72658e48-e694-41ad-b0ca-79070683653f
+task_descriptions:
+- arrange_the_fruit_b_and_place_in_the_furniture_d
+scene_type:
+- office
+- kitchen
+atomic_actions:
+- remove
+- lift
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.2
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

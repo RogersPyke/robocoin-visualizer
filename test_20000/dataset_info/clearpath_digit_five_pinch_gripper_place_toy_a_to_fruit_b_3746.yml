@@ -1,0 +1,26 @@
+dataset_name: place_toy_a_to_fruit_b_3746
+dataset_uuid: c46ac652-5f0a-4012-bfa8-3e5bb1d1065d
+task_descriptions:
+- place_the_toy_a_and_place_in_the_fruit_b
+scene_type:
+- kitchen
+atomic_actions:
+- grasp
+- push
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.5
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

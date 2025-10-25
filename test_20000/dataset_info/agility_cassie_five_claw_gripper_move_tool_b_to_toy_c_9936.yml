@@ -1,0 +1,30 @@
+dataset_name: move_tool_b_to_toy_c_9936
+dataset_uuid: 3fb9de05-1000-450e-97f6-65b86db2c145
+task_descriptions:
+- move_the_tool_b_and_place_in_the_toy_c
+scene_type:
+- cafe
+- home
+- restaurant
+atomic_actions:
+- push
+- slide
+- remove
+- place
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- agility_cassie
+end_effector_type: five_claw_gripper

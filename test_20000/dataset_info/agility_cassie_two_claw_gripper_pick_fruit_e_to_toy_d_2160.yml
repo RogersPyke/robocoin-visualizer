@@ -1,0 +1,27 @@
+dataset_name: pick_fruit_e_to_toy_d_2160
+dataset_uuid: e4eef924-5ca9-4ac3-bc48-8e32b09f7cf5
+task_descriptions:
+- pick_the_fruit_e_and_place_in_the_toy_d
+scene_type:
+- factory
+atomic_actions:
+- rotate
+- push
+- insert
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- agility_cassie
+end_effector_type: two_claw_gripper

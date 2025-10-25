@@ -1,0 +1,28 @@
+dataset_name: move_tool_c_to_food_c_4421
+dataset_uuid: d0d05377-d2c0-4002-856e-84ee02a4d08a
+task_descriptions:
+- move_the_tool_c_and_place_in_the_food_c
+scene_type:
+- cafe
+atomic_actions:
+- remove
+- rotate
+- pick
+- push
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.5
+device_model:
+- boston_atlas
+end_effector_type: five_finger_gripper

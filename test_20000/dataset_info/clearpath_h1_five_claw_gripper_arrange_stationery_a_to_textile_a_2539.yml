@@ -1,0 +1,28 @@
+dataset_name: arrange_stationery_a_to_textile_a_2539
+dataset_uuid: d3065445-9caa-4359-92c3-05c4b903918e
+task_descriptions:
+- arrange_the_stationery_a_and_place_in_the_textile_a
+scene_type:
+- warehouse
+- kitchen
+atomic_actions:
+- rotate
+- insert
+- slide
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.6
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

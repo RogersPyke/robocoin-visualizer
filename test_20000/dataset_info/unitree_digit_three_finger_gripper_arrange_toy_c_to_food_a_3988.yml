@@ -1,0 +1,26 @@
+dataset_name: arrange_toy_c_to_food_a_3988
+dataset_uuid: be113fd4-984b-428d-b047-821e62599695
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_food_a
+scene_type:
+- office
+atomic_actions:
+- grasp
+- place
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

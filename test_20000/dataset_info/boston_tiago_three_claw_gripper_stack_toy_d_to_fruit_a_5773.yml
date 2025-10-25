@@ -1,0 +1,29 @@
+dataset_name: stack_toy_d_to_fruit_a_5773
+dataset_uuid: 7fea6585-8680-4688-8bf0-758aaf211fbc
+task_descriptions:
+- stack_the_toy_d_and_place_in_the_fruit_a
+scene_type:
+- warehouse
+- hospital
+atomic_actions:
+- lower
+- rotate
+- grasp
+- slide
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 78.0
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

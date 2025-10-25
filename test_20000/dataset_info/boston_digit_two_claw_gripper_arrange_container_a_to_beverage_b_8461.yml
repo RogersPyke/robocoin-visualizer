@@ -1,0 +1,28 @@
+dataset_name: arrange_container_a_to_beverage_b_8461
+dataset_uuid: 7a6777fc-8c66-4402-bd88-2f186a015d67
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_beverage_b
+scene_type:
+- home
+- laboratory
+- warehouse
+atomic_actions:
+- place
+- pull
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.4
+device_model:
+- boston_digit
+end_effector_type: two_claw_gripper

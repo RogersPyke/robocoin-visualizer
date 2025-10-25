@@ -1,0 +1,27 @@
+dataset_name: pick_kitchenware_c_to_stationery_c_5820
+dataset_uuid: f0b58ee7-5319-4bed-9f7d-239469b48a41
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_stationery_c
+scene_type:
+- store
+- cafe
+atomic_actions:
+- remove
+- slide
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.9
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

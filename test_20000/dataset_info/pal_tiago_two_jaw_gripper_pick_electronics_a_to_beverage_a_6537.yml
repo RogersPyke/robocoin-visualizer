@@ -1,0 +1,26 @@
+dataset_name: pick_electronics_a_to_beverage_a_6537
+dataset_uuid: 2cb38bfd-33f8-4f3e-991d-dbc86283a590
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_beverage_a
+scene_type:
+- kitchen
+atomic_actions:
+- grasp
+- rotate
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.5
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

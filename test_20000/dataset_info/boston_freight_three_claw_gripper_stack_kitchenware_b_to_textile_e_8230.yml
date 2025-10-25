@@ -1,0 +1,26 @@
+dataset_name: stack_kitchenware_b_to_textile_e_8230
+dataset_uuid: 61d6d7e9-075c-4b3c-b711-d0e77a601a20
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_textile_e
+scene_type:
+- laboratory
+atomic_actions:
+- remove
+- slide
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.7
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

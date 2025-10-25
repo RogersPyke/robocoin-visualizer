@@ -1,0 +1,26 @@
+dataset_name: arrange_food_e_to_tool_d_7644
+dataset_uuid: b8020e32-d2c6-4877-89be-519be04f992a
+task_descriptions:
+- arrange_the_food_e_and_place_in_the_tool_d
+scene_type:
+- office
+atomic_actions:
+- rotate
+- pick
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+operation_platform_height: 80.6
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_beverage_b_to_toy_b_5029
+dataset_uuid: c9b49575-d13f-4da7-b30b-1b527b50316d
+task_descriptions:
+- place_the_beverage_b_and_place_in_the_toy_b
+scene_type:
+- factory
+atomic_actions:
+- remove
+- pick
+- rotate
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.2
+device_model:
+- agility_cassie
+end_effector_type: three_jaw_gripper

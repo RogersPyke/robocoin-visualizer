@@ -1,0 +1,27 @@
+dataset_name: pick_toy_b_to_food_c_1287
+dataset_uuid: cb335d6e-8742-457a-bcc2-50b5ef8e5b6a
+task_descriptions:
+- pick_the_toy_b_and_place_in_the_food_c
+scene_type:
+- cafe
+atomic_actions:
+- push
+- grasp
+- lift
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.9
+device_model:
+- clearpath_spot
+end_effector_type: two_claw_gripper

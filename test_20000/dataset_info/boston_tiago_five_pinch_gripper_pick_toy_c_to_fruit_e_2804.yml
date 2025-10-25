@@ -1,0 +1,27 @@
+dataset_name: pick_toy_c_to_fruit_e_2804
+dataset_uuid: 3c6a0f9d-d0cb-44e0-9295-036e8332347f
+task_descriptions:
+- pick_the_toy_c_and_place_in_the_fruit_e
+scene_type:
+- kitchen
+- store
+atomic_actions:
+- push
+- insert
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

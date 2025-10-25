@@ -1,0 +1,27 @@
+dataset_name: place_toy_c_to_beverage_a_2416
+dataset_uuid: e06fa8d8-2f83-43b5-bd04-3f43779da97d
+task_descriptions:
+- place_the_toy_c_and_place_in_the_beverage_a
+scene_type:
+- restaurant
+- kitchen
+atomic_actions:
+- lower
+- insert
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

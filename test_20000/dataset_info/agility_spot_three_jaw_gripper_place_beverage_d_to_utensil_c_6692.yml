@@ -1,0 +1,29 @@
+dataset_name: place_beverage_d_to_utensil_c_6692
+dataset_uuid: 1f187941-b64b-4628-a199-3b515c2d6791
+task_descriptions:
+- place_the_beverage_d_and_place_in_the_utensil_c
+scene_type:
+- laboratory
+- store
+atomic_actions:
+- place
+- lower
+- remove
+- pick
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,30 @@
+dataset_name: pick_utensil_c_to_electronics_c_5061
+dataset_uuid: 7fe64056-2ce9-4d84-8b93-0ff67e8f9924
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_electronics_c
+scene_type:
+- laboratory
+- home
+- restaurant
+atomic_actions:
+- place
+- push
+- remove
+- pick
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.7
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

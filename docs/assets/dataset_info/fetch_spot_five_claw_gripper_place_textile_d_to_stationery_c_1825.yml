@@ -1,0 +1,29 @@
+dataset_name: place_textile_d_to_stationery_c_1825
+dataset_uuid: 08af94f7-de22-479d-be6e-89e14d0cff57
+task_descriptions:
+- place_the_textile_d_and_place_in_the_stationery_c
+scene_type:
+- warehouse
+- kitchen
+- factory
+atomic_actions:
+- flip
+- place
+- slide
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.7
+device_model:
+- fetch_spot
+end_effector_type: five_claw_gripper

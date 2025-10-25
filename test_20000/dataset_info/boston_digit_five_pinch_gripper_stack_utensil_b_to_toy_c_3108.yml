@@ -1,0 +1,27 @@
+dataset_name: stack_utensil_b_to_toy_c_3108
+dataset_uuid: 078d8414-b9b6-4b1a-9fa1-5f9d287c4c61
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_toy_c
+scene_type:
+- restaurant
+atomic_actions:
+- flip
+- grasp
+- slide
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

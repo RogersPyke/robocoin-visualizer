@@ -1,0 +1,26 @@
+dataset_name: move_electronics_c_to_container_a_9724
+dataset_uuid: 3bbecdf6-299c-4f10-b7d5-acdc2c54a00f
+task_descriptions:
+- move_the_electronics_c_and_place_in_the_container_a
+scene_type:
+- office
+atomic_actions:
+- grasp
+- push
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

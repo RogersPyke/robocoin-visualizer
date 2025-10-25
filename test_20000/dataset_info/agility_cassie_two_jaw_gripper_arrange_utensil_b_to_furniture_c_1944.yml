@@ -1,0 +1,26 @@
+dataset_name: arrange_utensil_b_to_furniture_c_1944
+dataset_uuid: 77b549d1-05cf-4726-8ba6-db75180496ef
+task_descriptions:
+- arrange_the_utensil_b_and_place_in_the_furniture_c
+scene_type:
+- laboratory
+atomic_actions:
+- flip
+- grasp
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+operation_platform_height: 75.8
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

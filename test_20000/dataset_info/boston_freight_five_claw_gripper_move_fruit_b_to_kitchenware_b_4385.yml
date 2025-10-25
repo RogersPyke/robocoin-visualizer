@@ -1,0 +1,26 @@
+dataset_name: move_fruit_b_to_kitchenware_b_4385
+dataset_uuid: 9f635f90-a833-4803-9fde-b27de0c02d74
+task_descriptions:
+- move_the_fruit_b_and_place_in_the_kitchenware_b
+scene_type:
+- hospital
+atomic_actions:
+- pick
+- remove
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

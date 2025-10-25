@@ -1,0 +1,26 @@
+dataset_name: move_fruit_b_to_electronics_b_4702
+dataset_uuid: 3ff9707a-c064-4025-99c6-53d79ee104d4
+task_descriptions:
+- move_the_fruit_b_and_place_in_the_electronics_b
+scene_type:
+- kitchen
+atomic_actions:
+- grasp
+- place
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

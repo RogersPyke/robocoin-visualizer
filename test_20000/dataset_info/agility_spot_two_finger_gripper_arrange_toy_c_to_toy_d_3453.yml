@@ -1,0 +1,27 @@
+dataset_name: arrange_toy_c_to_toy_d_3453
+dataset_uuid: f4d36710-b8f8-40bd-adb6-9a564269f211
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_toy_d
+scene_type:
+- laboratory
+atomic_actions:
+- push
+- grasp
+- flip
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- agility_spot
+end_effector_type: two_finger_gripper

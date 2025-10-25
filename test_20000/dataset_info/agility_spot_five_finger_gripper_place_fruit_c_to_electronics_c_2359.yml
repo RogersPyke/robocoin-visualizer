@@ -1,0 +1,29 @@
+dataset_name: place_fruit_c_to_electronics_c_2359
+dataset_uuid: 011bacd5-be16-49b8-97e5-3a1c5d6d7570
+task_descriptions:
+- place_the_fruit_c_and_place_in_the_electronics_c
+scene_type:
+- factory
+- laboratory
+- home
+atomic_actions:
+- grasp
+- pick
+- push
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- agility_spot
+end_effector_type: five_finger_gripper

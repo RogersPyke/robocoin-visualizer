@@ -1,0 +1,27 @@
+dataset_name: pick_tool_b_to_utensil_a_8579
+dataset_uuid: 83e8138c-5ddb-4db9-94f0-6eb06cdb7d81
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_utensil_a
+scene_type:
+- home
+atomic_actions:
+- place
+- remove
+- lower
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

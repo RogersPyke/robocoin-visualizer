@@ -1,0 +1,29 @@
+dataset_name: place_fruit_a_to_fruit_e_3456
+dataset_uuid: 79502e1c-0670-47ad-8747-0fa5fe7f35aa
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_fruit_e
+scene_type:
+- restaurant
+- store
+- cafe
+atomic_actions:
+- push
+- insert
+- slide
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+operation_platform_height: 74.1
+device_model:
+- unitree_h1
+end_effector_type: suction_cup

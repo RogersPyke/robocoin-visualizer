@@ -1,0 +1,29 @@
+dataset_name: move_container_a_to_stationery_b_1667
+dataset_uuid: 09e9644e-4f64-47ef-9a0e-3f8bcd3d1218
+task_descriptions:
+- move_the_container_a_and_place_in_the_stationery_b
+scene_type:
+- warehouse
+- restaurant
+- hospital
+atomic_actions:
+- place
+- flip
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.8
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

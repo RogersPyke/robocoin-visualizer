@@ -1,0 +1,30 @@
+dataset_name: arrange_toy_d_to_toy_a_3254
+dataset_uuid: db802d1f-aa78-4901-bbca-38865bd5c3b2
+task_descriptions:
+- arrange_the_toy_d_and_place_in_the_toy_a
+scene_type:
+- kitchen
+- laboratory
+- warehouse
+atomic_actions:
+- pull
+- insert
+- slide
+- push
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.0
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

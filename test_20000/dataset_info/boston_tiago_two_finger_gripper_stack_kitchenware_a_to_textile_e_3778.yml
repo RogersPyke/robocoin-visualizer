@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_a_to_textile_e_3778
+dataset_uuid: 29a24b1f-e87a-4835-b510-7cd30b8f160a
+task_descriptions:
+- stack_the_kitchenware_a_and_place_in_the_textile_e
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- push
+- place
+- pull
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- boston_tiago
+end_effector_type: two_finger_gripper

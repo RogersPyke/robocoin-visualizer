@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_a_to_electronics_a_4247
+dataset_uuid: a1c7646b-18cb-4d18-99e0-dc1779684aa3
+task_descriptions:
+- arrange_the_electronics_a_and_place_in_the_electronics_a
+scene_type:
+- hospital
+- office
+atomic_actions:
+- place
+- pick
+- remove
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.3
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

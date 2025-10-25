@@ -1,0 +1,28 @@
+dataset_name: move_textile_c_to_tool_c_3868
+dataset_uuid: e09c02f1-0400-4f2b-8287-eab0257a387b
+task_descriptions:
+- move_the_textile_c_and_place_in_the_tool_c
+scene_type:
+- warehouse
+atomic_actions:
+- push
+- place
+- lift
+- remove
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

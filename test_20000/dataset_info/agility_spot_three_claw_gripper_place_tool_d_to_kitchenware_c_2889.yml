@@ -1,0 +1,27 @@
+dataset_name: place_tool_d_to_kitchenware_c_2889
+dataset_uuid: 02fc92ce-e21e-4c2c-bce1-f0b3ad1943df
+task_descriptions:
+- place_the_tool_d_and_place_in_the_kitchenware_c
+scene_type:
+- factory
+atomic_actions:
+- remove
+- insert
+- rotate
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.6
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

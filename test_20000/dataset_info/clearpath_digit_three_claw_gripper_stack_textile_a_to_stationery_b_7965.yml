@@ -1,0 +1,29 @@
+dataset_name: stack_textile_a_to_stationery_b_7965
+dataset_uuid: 20995e8a-218a-40cf-8795-38c5c3e47c8a
+task_descriptions:
+- stack_the_textile_a_and_place_in_the_stationery_b
+scene_type:
+- restaurant
+- hospital
+- factory
+atomic_actions:
+- lift
+- slide
+- grasp
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.1
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

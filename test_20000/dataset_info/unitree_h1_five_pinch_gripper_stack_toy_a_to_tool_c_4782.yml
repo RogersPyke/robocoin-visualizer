@@ -1,0 +1,30 @@
+dataset_name: stack_toy_a_to_tool_c_4782
+dataset_uuid: 23247fca-9fbd-4c40-808f-7afe45a7a05b
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_tool_c
+scene_type:
+- cafe
+- laboratory
+- factory
+atomic_actions:
+- pick
+- pull
+- slide
+- lower
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

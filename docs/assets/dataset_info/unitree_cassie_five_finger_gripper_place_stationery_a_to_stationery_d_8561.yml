@@ -1,0 +1,27 @@
+dataset_name: place_stationery_a_to_stationery_d_8561
+dataset_uuid: f90a5780-2e1c-4ac3-af2d-fc09785ff110
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_stationery_d
+scene_type:
+- store
+atomic_actions:
+- flip
+- pick
+- place
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+- object_name: stationery_d
+  level1: stationery
+  level2: stationery_d
+  level3: stationery_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.8
+device_model:
+- unitree_cassie
+end_effector_type: five_finger_gripper

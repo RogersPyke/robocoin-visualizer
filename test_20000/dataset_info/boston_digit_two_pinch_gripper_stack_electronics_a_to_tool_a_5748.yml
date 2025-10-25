@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_a_to_tool_a_5748
+dataset_uuid: 71194601-fe20-4d92-b4f1-1817e740fcde
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_tool_a
+scene_type:
+- laboratory
+- office
+atomic_actions:
+- slide
+- place
+- lower
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

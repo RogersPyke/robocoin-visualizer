@@ -1,0 +1,27 @@
+dataset_name: arrange_electronics_a_to_electronics_c_3708
+dataset_uuid: ffebd0d4-1fa0-49fe-a0e7-d2011102fa4f
+task_descriptions:
+- arrange_the_electronics_a_and_place_in_the_electronics_c
+scene_type:
+- home
+- store
+atomic_actions:
+- push
+- pull
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 74.7
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

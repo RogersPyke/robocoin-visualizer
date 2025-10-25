@@ -1,0 +1,29 @@
+dataset_name: place_furniture_e_to_electronics_a_3258
+dataset_uuid: e4d64324-c254-49fc-96d0-98c5618f8b76
+task_descriptions:
+- place_the_furniture_e_and_place_in_the_electronics_a
+scene_type:
+- office
+- hospital
+- restaurant
+atomic_actions:
+- push
+- flip
+- lift
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

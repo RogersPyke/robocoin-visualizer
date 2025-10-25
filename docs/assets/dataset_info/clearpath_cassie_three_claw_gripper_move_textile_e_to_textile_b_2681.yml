@@ -1,0 +1,27 @@
+dataset_name: move_textile_e_to_textile_b_2681
+dataset_uuid: 7c40340c-f4f9-457b-89be-a0a62670d539
+task_descriptions:
+- move_the_textile_e_and_place_in_the_textile_b
+scene_type:
+- hospital
+- home
+atomic_actions:
+- push
+- place
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- clearpath_cassie
+end_effector_type: three_claw_gripper

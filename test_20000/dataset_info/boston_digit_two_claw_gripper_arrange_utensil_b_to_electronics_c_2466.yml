@@ -1,0 +1,28 @@
+dataset_name: arrange_utensil_b_to_electronics_c_2466
+dataset_uuid: bcfe28da-bce6-49b8-9b58-3a04971ffe2e
+task_descriptions:
+- arrange_the_utensil_b_and_place_in_the_electronics_c
+scene_type:
+- store
+- factory
+atomic_actions:
+- pick
+- lower
+- place
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.0
+device_model:
+- boston_digit
+end_effector_type: two_claw_gripper

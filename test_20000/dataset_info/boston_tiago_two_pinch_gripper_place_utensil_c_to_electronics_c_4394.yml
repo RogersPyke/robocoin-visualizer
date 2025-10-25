@@ -1,0 +1,27 @@
+dataset_name: place_utensil_c_to_electronics_c_4394
+dataset_uuid: c24856d6-36b2-42f1-a585-a4c1856c4952
+task_descriptions:
+- place_the_utensil_c_and_place_in_the_electronics_c
+scene_type:
+- home
+atomic_actions:
+- grasp
+- lift
+- pull
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.3
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_fruit_e_to_tool_d_3951
+dataset_uuid: 8de285fd-81fe-4e49-b28d-4d657d6cd971
+task_descriptions:
+- stack_the_fruit_e_and_place_in_the_tool_d
+scene_type:
+- warehouse
+- home
+atomic_actions:
+- slide
+- rotate
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,30 @@
+dataset_name: pick_container_a_to_beverage_c_2927
+dataset_uuid: 2a33b6f8-6aa1-44fe-83f7-02ad4e1ff026
+task_descriptions:
+- pick_the_container_a_and_place_in_the_beverage_c
+scene_type:
+- cafe
+- laboratory
+- hospital
+atomic_actions:
+- pull
+- flip
+- pick
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.0
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

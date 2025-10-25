@@ -1,0 +1,26 @@
+dataset_name: move_electronics_c_to_food_c_1831
+dataset_uuid: f406f17f-7ead-42f9-8ca7-1c4040b5442c
+task_descriptions:
+- move_the_electronics_c_and_place_in_the_food_c
+scene_type:
+- cafe
+atomic_actions:
+- grasp
+- slide
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: food_c_sub2
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

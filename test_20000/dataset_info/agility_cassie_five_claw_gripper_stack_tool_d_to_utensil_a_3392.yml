@@ -1,0 +1,27 @@
+dataset_name: stack_tool_d_to_utensil_a_3392
+dataset_uuid: e35213c2-7df8-4f94-b46b-b041ccefad69
+task_descriptions:
+- stack_the_tool_d_and_place_in_the_utensil_a
+scene_type:
+- cafe
+atomic_actions:
+- lower
+- push
+- pick
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.7
+device_model:
+- agility_cassie
+end_effector_type: five_claw_gripper

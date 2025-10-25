@@ -1,0 +1,28 @@
+dataset_name: pick_textile_e_to_food_e_8939
+dataset_uuid: 6aee1de3-beca-42cc-980f-1d46259939e5
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_food_e
+scene_type:
+- cafe
+- home
+atomic_actions:
+- rotate
+- grasp
+- place
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.2
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

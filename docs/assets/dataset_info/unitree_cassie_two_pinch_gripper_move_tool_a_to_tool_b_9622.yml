@@ -1,0 +1,30 @@
+dataset_name: move_tool_a_to_tool_b_9622
+dataset_uuid: 7be7be98-4ca9-471c-bd36-0b3d9d55a5eb
+task_descriptions:
+- move_the_tool_a_and_place_in_the_tool_b
+scene_type:
+- warehouse
+- laboratory
+- office
+atomic_actions:
+- remove
+- insert
+- flip
+- push
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 85.2
+device_model:
+- unitree_cassie
+end_effector_type: two_pinch_gripper

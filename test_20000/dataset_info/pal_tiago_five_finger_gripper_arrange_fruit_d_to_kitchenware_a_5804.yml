@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_d_to_kitchenware_a_5804
+dataset_uuid: 96cc2be0-f6f3-4ac2-b80b-fe30fdf1b35f
+task_descriptions:
+- arrange_the_fruit_d_and_place_in_the_kitchenware_a
+scene_type:
+- store
+- cafe
+- home
+atomic_actions:
+- remove
+- pick
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- pal_tiago
+end_effector_type: five_finger_gripper

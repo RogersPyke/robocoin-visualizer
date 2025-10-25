@@ -1,0 +1,30 @@
+dataset_name: arrange_tool_a_to_furniture_c_6674
+dataset_uuid: d2f85b17-9fec-4b25-bfac-ab6d53cd03da
+task_descriptions:
+- arrange_the_tool_a_and_place_in_the_furniture_c
+scene_type:
+- restaurant
+- warehouse
+- cafe
+atomic_actions:
+- place
+- lift
+- rotate
+- push
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+operation_platform_height: 88.1
+device_model:
+- agility_cassie
+end_effector_type: two_finger_gripper

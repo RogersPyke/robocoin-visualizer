@@ -1,0 +1,28 @@
+dataset_name: place_toy_d_to_kitchenware_c_1303
+dataset_uuid: 7e2c3051-e681-4cf9-93c9-da7b28e8d400
+task_descriptions:
+- place_the_toy_d_and_place_in_the_kitchenware_c
+scene_type:
+- factory
+atomic_actions:
+- pull
+- flip
+- lift
+- place
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.4
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

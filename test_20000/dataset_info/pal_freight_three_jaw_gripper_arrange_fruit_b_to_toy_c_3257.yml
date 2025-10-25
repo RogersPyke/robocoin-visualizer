@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_b_to_toy_c_3257
+dataset_uuid: 1e8629e7-b178-4a2d-b444-66abdf51bca9
+task_descriptions:
+- arrange_the_fruit_b_and_place_in_the_toy_c
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- lift
+- lower
+- insert
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

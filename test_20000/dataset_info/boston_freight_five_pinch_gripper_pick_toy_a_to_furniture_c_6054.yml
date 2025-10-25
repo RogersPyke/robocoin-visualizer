@@ -1,0 +1,30 @@
+dataset_name: pick_toy_a_to_furniture_c_6054
+dataset_uuid: 645fb3a4-7c07-4a3a-9d4f-d9b051085adb
+task_descriptions:
+- pick_the_toy_a_and_place_in_the_furniture_c
+scene_type:
+- warehouse
+- cafe
+- office
+atomic_actions:
+- pick
+- pull
+- place
+- grasp
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.9
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

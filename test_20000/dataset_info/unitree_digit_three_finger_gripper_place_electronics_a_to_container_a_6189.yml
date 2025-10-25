@@ -1,0 +1,28 @@
+dataset_name: place_electronics_a_to_container_a_6189
+dataset_uuid: 2a078947-3cff-4abf-a28b-8c2eb9579207
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_container_a
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- flip
+- lower
+- push
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

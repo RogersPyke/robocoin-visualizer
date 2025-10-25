@@ -1,0 +1,26 @@
+dataset_name: arrange_container_c_to_stationery_b_7223
+dataset_uuid: 5b9423af-2007-413b-adce-7d5c8af90e89
+task_descriptions:
+- arrange_the_container_c_and_place_in_the_stationery_b
+scene_type:
+- office
+atomic_actions:
+- rotate
+- pull
+objects:
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.6
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_kitchenware_a_to_food_c_5137
+dataset_uuid: 8b507b44-8f9a-4900-b95b-15d5cf915c4e
+task_descriptions:
+- pick_the_kitchenware_a_and_place_in_the_food_c
+scene_type:
+- office
+- warehouse
+- factory
+atomic_actions:
+- insert
+- rotate
+- pull
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

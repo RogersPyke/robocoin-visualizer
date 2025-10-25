@@ -1,0 +1,30 @@
+dataset_name: move_electronics_b_to_kitchenware_b_4081
+dataset_uuid: 5d8b7400-57d8-4587-a725-b62a3e6be4fa
+task_descriptions:
+- move_the_electronics_b_and_place_in_the_kitchenware_b
+scene_type:
+- office
+- store
+- factory
+atomic_actions:
+- flip
+- pick
+- rotate
+- place
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.2
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

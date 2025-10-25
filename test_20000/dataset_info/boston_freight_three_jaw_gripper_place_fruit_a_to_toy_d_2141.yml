@@ -1,0 +1,29 @@
+dataset_name: place_fruit_a_to_toy_d_2141
+dataset_uuid: 4f4e4c24-6a8f-402c-a82f-bbb9cabcec8b
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_toy_d
+scene_type:
+- office
+- store
+- factory
+atomic_actions:
+- lift
+- insert
+- grasp
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

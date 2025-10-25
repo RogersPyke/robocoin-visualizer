@@ -1,0 +1,29 @@
+dataset_name: stack_fruit_e_to_tool_b_4023
+dataset_uuid: 831e699e-8ce0-4d33-a145-71f2413889e9
+task_descriptions:
+- stack_the_fruit_e_and_place_in_the_tool_b
+scene_type:
+- warehouse
+- kitchen
+atomic_actions:
+- rotate
+- grasp
+- push
+- pick
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.9
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

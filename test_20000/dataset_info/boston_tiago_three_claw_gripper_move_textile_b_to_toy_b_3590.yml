@@ -1,0 +1,29 @@
+dataset_name: move_textile_b_to_toy_b_3590
+dataset_uuid: 85e580a8-00fc-41a8-b24d-c6c7aea6adb0
+task_descriptions:
+- move_the_textile_b_and_place_in_the_toy_b
+scene_type:
+- factory
+- warehouse
+- kitchen
+atomic_actions:
+- pick
+- grasp
+- lower
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

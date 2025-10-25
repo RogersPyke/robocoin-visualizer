@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_d_to_fruit_d_3813
+dataset_uuid: d535ac3c-49ab-4fde-bc65-6f90edcfa654
+task_descriptions:
+- stack_the_furniture_d_and_place_in_the_fruit_d
+scene_type:
+- cafe
+atomic_actions:
+- remove
+- place
+- lower
+- pick
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

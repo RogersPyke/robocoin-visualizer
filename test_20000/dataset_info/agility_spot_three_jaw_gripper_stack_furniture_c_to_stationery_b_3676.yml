@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_c_to_stationery_b_3676
+dataset_uuid: cc4a257a-db94-4294-a6a9-d1df4ea83da5
+task_descriptions:
+- stack_the_furniture_c_and_place_in_the_stationery_b
+scene_type:
+- cafe
+atomic_actions:
+- slide
+- lower
+- push
+- insert
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

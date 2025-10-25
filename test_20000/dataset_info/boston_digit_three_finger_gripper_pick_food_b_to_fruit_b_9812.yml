@@ -1,0 +1,28 @@
+dataset_name: pick_food_b_to_fruit_b_9812
+dataset_uuid: 5387ef34-161f-4f99-b640-a8644f0c8323
+task_descriptions:
+- pick_the_food_b_and_place_in_the_fruit_b
+scene_type:
+- office
+atomic_actions:
+- lift
+- place
+- lower
+- grasp
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.7
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

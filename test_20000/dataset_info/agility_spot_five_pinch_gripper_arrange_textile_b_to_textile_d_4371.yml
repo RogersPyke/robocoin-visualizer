@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_b_to_textile_d_4371
+dataset_uuid: 93a56064-7efc-4023-a66d-e12cd19c4878
+task_descriptions:
+- arrange_the_textile_b_and_place_in_the_textile_d
+scene_type:
+- laboratory
+- factory
+atomic_actions:
+- lift
+- place
+- flip
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.4
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_toy_d_to_stationery_a_8055
+dataset_uuid: 84b72268-11f5-43c5-89a8-636bb8b2c6f6
+task_descriptions:
+- arrange_the_toy_d_and_place_in_the_stationery_a
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- grasp
+- pick
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

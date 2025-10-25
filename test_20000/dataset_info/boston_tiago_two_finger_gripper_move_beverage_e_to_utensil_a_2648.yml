@@ -1,0 +1,28 @@
+dataset_name: move_beverage_e_to_utensil_a_2648
+dataset_uuid: 24e777e1-ba11-4efe-9f4a-991988e007e6
+task_descriptions:
+- move_the_beverage_e_and_place_in_the_utensil_a
+scene_type:
+- hospital
+- store
+- home
+atomic_actions:
+- place
+- slide
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- boston_tiago
+end_effector_type: two_finger_gripper

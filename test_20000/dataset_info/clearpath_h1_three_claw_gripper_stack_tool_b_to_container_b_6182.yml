@@ -1,0 +1,27 @@
+dataset_name: stack_tool_b_to_container_b_6182
+dataset_uuid: f4eded92-a190-4765-a87b-2d4e624e3640
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_container_b
+scene_type:
+- hospital
+- office
+atomic_actions:
+- flip
+- push
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.9
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

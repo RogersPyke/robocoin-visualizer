@@ -1,0 +1,27 @@
+dataset_name: arrange_utensil_c_to_furniture_e_1704
+dataset_uuid: 2a905c4f-432d-43de-974e-b89f6bb901d7
+task_descriptions:
+- arrange_the_utensil_c_and_place_in_the_furniture_e
+scene_type:
+- office
+- kitchen
+atomic_actions:
+- pick
+- insert
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

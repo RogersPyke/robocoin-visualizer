@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_a_to_utensil_b_5616
+dataset_uuid: 0df8e484-d322-4b1c-88e3-21f33335373c
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_utensil_b
+scene_type:
+- store
+- office
+atomic_actions:
+- lower
+- push
+- pick
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

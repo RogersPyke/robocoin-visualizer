@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_a_to_textile_e_8274
+dataset_uuid: d4a553a2-b6d1-4ce6-850d-66432daa95cb
+task_descriptions:
+- pick_the_kitchenware_a_and_place_in_the_textile_e
+scene_type:
+- office
+atomic_actions:
+- insert
+- flip
+- slide
+- grasp
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.7
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_b_to_fruit_a_7280
+dataset_uuid: 4bf711a5-ca21-49cf-a912-d5938ac5de71
+task_descriptions:
+- pick_the_utensil_b_and_place_in_the_fruit_a
+scene_type:
+- store
+- home
+atomic_actions:
+- pull
+- rotate
+- insert
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.2
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

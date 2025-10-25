@@ -1,0 +1,28 @@
+dataset_name: place_container_c_to_container_b_5604
+dataset_uuid: e9e0b101-4fc5-4963-a73b-e530848ee659
+task_descriptions:
+- place_the_container_c_and_place_in_the_container_b
+scene_type:
+- factory
+atomic_actions:
+- grasp
+- remove
+- lift
+- lower
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

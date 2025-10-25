@@ -1,0 +1,28 @@
+dataset_name: move_kitchenware_b_to_stationery_b_1893
+dataset_uuid: 8ed3f76a-3eba-481b-82c2-8c728954dfbc
+task_descriptions:
+- move_the_kitchenware_b_and_place_in_the_stationery_b
+scene_type:
+- laboratory
+atomic_actions:
+- slide
+- place
+- pick
+- flip
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

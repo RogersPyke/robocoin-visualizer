@@ -1,0 +1,27 @@
+dataset_name: stack_textile_b_to_textile_d_2552
+dataset_uuid: a70ea311-5e74-47c3-832e-472e1b2b4a35
+task_descriptions:
+- stack_the_textile_b_and_place_in_the_textile_d
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- place
+- flip
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.2
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_textile_c_to_container_a_9997
+dataset_uuid: b76c7ae5-c785-4d0d-a850-5c091b423303
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_container_a
+scene_type:
+- hospital
+- laboratory
+atomic_actions:
+- rotate
+- pick
+- pull
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 73.2
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

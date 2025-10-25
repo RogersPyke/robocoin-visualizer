@@ -1,0 +1,29 @@
+dataset_name: move_stationery_c_to_textile_a_4393
+dataset_uuid: c6e5d432-1e1a-44b8-9bc5-ed7dcbe51f1f
+task_descriptions:
+- move_the_stationery_c_and_place_in_the_textile_a
+scene_type:
+- cafe
+- hospital
+atomic_actions:
+- pull
+- rotate
+- remove
+- place
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

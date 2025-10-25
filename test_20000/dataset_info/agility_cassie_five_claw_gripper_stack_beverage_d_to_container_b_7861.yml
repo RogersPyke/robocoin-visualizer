@@ -1,0 +1,28 @@
+dataset_name: stack_beverage_d_to_container_b_7861
+dataset_uuid: 54626f05-4e72-4129-8eaa-46a3413f3e24
+task_descriptions:
+- stack_the_beverage_d_and_place_in_the_container_b
+scene_type:
+- store
+- cafe
+atomic_actions:
+- place
+- pick
+- lower
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- agility_cassie
+end_effector_type: five_claw_gripper

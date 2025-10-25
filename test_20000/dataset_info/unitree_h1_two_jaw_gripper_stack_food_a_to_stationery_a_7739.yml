@@ -1,0 +1,27 @@
+dataset_name: stack_food_a_to_stationery_a_7739
+dataset_uuid: 184f7327-066c-4c99-bff9-e979cad68306
+task_descriptions:
+- stack_the_food_a_and_place_in_the_stationery_a
+scene_type:
+- home
+- cafe
+atomic_actions:
+- insert
+- push
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

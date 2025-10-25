@@ -1,0 +1,28 @@
+dataset_name: move_beverage_b_to_container_b_3231
+dataset_uuid: f337255e-0bed-46f3-b703-bed4402e3f40
+task_descriptions:
+- move_the_beverage_b_and_place_in_the_container_b
+scene_type:
+- store
+- cafe
+atomic_actions:
+- lift
+- grasp
+- lower
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

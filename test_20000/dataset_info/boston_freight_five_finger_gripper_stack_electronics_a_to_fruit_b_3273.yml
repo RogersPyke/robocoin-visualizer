@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_a_to_fruit_b_3273
+dataset_uuid: 63f9dd5c-68b0-4080-acf5-b37083192df6
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_fruit_b
+scene_type:
+- store
+atomic_actions:
+- grasp
+- lift
+- lower
+- remove
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

@@ -1,0 +1,30 @@
+dataset_name: move_container_a_to_kitchenware_b_5778
+dataset_uuid: 71f70134-3272-4e15-b313-a5e3b53da9d1
+task_descriptions:
+- move_the_container_a_and_place_in_the_kitchenware_b
+scene_type:
+- restaurant
+- kitchen
+- hospital
+atomic_actions:
+- lower
+- place
+- remove
+- pull
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

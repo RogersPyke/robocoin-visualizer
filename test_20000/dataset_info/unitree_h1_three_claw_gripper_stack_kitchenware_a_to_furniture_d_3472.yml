@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_a_to_furniture_d_3472
+dataset_uuid: d0b8d112-4b20-4184-931c-ddd63347e5c6
+task_descriptions:
+- stack_the_kitchenware_a_and_place_in_the_furniture_d
+scene_type:
+- cafe
+- warehouse
+atomic_actions:
+- lower
+- push
+- slide
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.7
+device_model:
+- unitree_h1
+end_effector_type: three_claw_gripper

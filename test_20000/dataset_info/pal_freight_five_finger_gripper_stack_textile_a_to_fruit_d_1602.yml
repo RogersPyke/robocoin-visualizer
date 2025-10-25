@@ -1,0 +1,30 @@
+dataset_name: stack_textile_a_to_fruit_d_1602
+dataset_uuid: 05dc23f0-71ac-459d-8087-4444ecd59dec
+task_descriptions:
+- stack_the_textile_a_and_place_in_the_fruit_d
+scene_type:
+- cafe
+- home
+- hospital
+atomic_actions:
+- insert
+- pick
+- slide
+- lower
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.3
+device_model:
+- pal_freight
+end_effector_type: five_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_tool_b_to_kitchenware_b_8726
+dataset_uuid: b12fe272-fd4f-4312-b4ba-3be6359b7f6d
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_kitchenware_b
+scene_type:
+- cafe
+- factory
+atomic_actions:
+- push
+- pull
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

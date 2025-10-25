@@ -1,0 +1,27 @@
+dataset_name: pick_furniture_e_to_utensil_a_5380
+dataset_uuid: 072458cf-b73d-4a5c-a531-7a9cf577570c
+task_descriptions:
+- pick_the_furniture_e_and_place_in_the_utensil_a
+scene_type:
+- restaurant
+- office
+atomic_actions:
+- pick
+- place
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

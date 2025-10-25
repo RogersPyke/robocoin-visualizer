@@ -1,0 +1,28 @@
+dataset_name: arrange_beverage_d_to_container_c_9362
+dataset_uuid: 949bc9a4-a866-4569-9136-1a49f7a82308
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_container_c
+scene_type:
+- laboratory
+atomic_actions:
+- rotate
+- insert
+- lift
+- grasp
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+operation_platform_height: 82.4
+device_model:
+- pal_freight
+end_effector_type: two_finger_gripper

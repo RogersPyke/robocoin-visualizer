@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_a_to_kitchenware_b_5608
+dataset_uuid: 066868ab-c12e-4f29-9480-03f4010b544c
+task_descriptions:
+- arrange_the_furniture_a_and_place_in_the_kitchenware_b
+scene_type:
+- hospital
+- restaurant
+atomic_actions:
+- pull
+- slide
+- lower
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.0
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_a_to_container_c_9466
+dataset_uuid: df22b87e-ba3a-4e69-9a8b-83368ef99cf0
+task_descriptions:
+- pick_the_kitchenware_a_and_place_in_the_container_c
+scene_type:
+- store
+- restaurant
+atomic_actions:
+- lift
+- flip
+- place
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

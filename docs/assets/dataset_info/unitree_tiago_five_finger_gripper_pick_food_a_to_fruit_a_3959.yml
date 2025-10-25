@@ -1,0 +1,29 @@
+dataset_name: pick_food_a_to_fruit_a_3959
+dataset_uuid: 4955dbe5-99fb-4b2f-a553-cd8f6c40d717
+task_descriptions:
+- pick_the_food_a_and_place_in_the_fruit_a
+scene_type:
+- kitchen
+- warehouse
+- home
+atomic_actions:
+- place
+- pull
+- grasp
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- unitree_tiago
+end_effector_type: five_finger_gripper

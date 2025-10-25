@@ -1,0 +1,27 @@
+dataset_name: stack_textile_b_to_beverage_a_3847
+dataset_uuid: cbc1acbe-d5ee-4739-9de2-19681db30e0b
+task_descriptions:
+- stack_the_textile_b_and_place_in_the_beverage_a
+scene_type:
+- cafe
+- hospital
+atomic_actions:
+- grasp
+- insert
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+operation_platform_height: 80.6
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

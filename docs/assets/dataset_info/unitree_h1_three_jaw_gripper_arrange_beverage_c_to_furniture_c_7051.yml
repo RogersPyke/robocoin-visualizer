@@ -1,0 +1,29 @@
+dataset_name: arrange_beverage_c_to_furniture_c_7051
+dataset_uuid: 782eae5f-558f-48db-b20d-1be351a6bccd
+task_descriptions:
+- arrange_the_beverage_c_and_place_in_the_furniture_c
+scene_type:
+- factory
+- kitchen
+- home
+atomic_actions:
+- slide
+- lower
+- pick
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

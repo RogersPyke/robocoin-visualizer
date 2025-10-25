@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_a_to_food_c_1485
+dataset_uuid: 1bb893f3-a837-4294-9930-d45da28796d6
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_food_c
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- lower
+- insert
+- lift
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- agility_cassie
+end_effector_type: three_jaw_gripper

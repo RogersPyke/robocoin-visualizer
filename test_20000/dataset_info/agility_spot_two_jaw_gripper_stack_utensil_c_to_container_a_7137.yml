@@ -1,0 +1,27 @@
+dataset_name: stack_utensil_c_to_container_a_7137
+dataset_uuid: a9cca3ae-56fa-41cf-8a07-1cb9226e27e8
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_container_a
+scene_type:
+- kitchen
+atomic_actions:
+- rotate
+- insert
+- flip
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.3
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

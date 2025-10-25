@@ -1,0 +1,26 @@
+dataset_name: arrange_electronics_b_to_kitchenware_c_3627
+dataset_uuid: 27d90429-4d09-4ef2-97e4-0009c4aa13d9
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_kitchenware_c
+scene_type:
+- hospital
+atomic_actions:
+- slide
+- lower
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

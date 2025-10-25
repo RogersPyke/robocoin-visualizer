@@ -1,0 +1,27 @@
+dataset_name: pick_tool_d_to_furniture_a_7483
+dataset_uuid: c84c3209-53cd-4635-b670-02d43c2b9f1c
+task_descriptions:
+- pick_the_tool_d_and_place_in_the_furniture_a
+scene_type:
+- cafe
+- kitchen
+atomic_actions:
+- remove
+- lift
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.0
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

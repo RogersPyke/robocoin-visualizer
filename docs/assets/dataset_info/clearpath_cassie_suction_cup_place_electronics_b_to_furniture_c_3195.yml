@@ -1,0 +1,29 @@
+dataset_name: place_electronics_b_to_furniture_c_3195
+dataset_uuid: bd88331d-523f-4422-9056-0325c1bc738b
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_furniture_c
+scene_type:
+- store
+- laboratory
+- factory
+atomic_actions:
+- insert
+- lower
+- lift
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.4
+device_model:
+- clearpath_cassie
+end_effector_type: suction_cup

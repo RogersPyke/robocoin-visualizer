@@ -1,0 +1,29 @@
+dataset_name: stack_textile_a_to_kitchenware_b_7998
+dataset_uuid: 66cecb6b-a9d2-4e28-ba3c-a65dd4e6c6b5
+task_descriptions:
+- stack_the_textile_a_and_place_in_the_kitchenware_b
+scene_type:
+- factory
+- warehouse
+- office
+atomic_actions:
+- grasp
+- flip
+- lift
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

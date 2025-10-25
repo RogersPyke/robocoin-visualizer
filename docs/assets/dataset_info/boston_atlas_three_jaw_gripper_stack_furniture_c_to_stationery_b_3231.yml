@@ -1,0 +1,29 @@
+dataset_name: stack_furniture_c_to_stationery_b_3231
+dataset_uuid: 0d3be5f3-d467-49f0-8892-c83b31c7b9b3
+task_descriptions:
+- stack_the_furniture_c_and_place_in_the_stationery_b
+scene_type:
+- office
+- cafe
+atomic_actions:
+- place
+- pull
+- grasp
+- push
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- boston_atlas
+end_effector_type: three_jaw_gripper

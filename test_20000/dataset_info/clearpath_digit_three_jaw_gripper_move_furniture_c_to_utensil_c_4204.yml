@@ -1,0 +1,29 @@
+dataset_name: move_furniture_c_to_utensil_c_4204
+dataset_uuid: dc5a1d42-5da2-4adf-a964-79c069548762
+task_descriptions:
+- move_the_furniture_c_and_place_in_the_utensil_c
+scene_type:
+- factory
+- restaurant
+- office
+atomic_actions:
+- lift
+- slide
+- pick
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

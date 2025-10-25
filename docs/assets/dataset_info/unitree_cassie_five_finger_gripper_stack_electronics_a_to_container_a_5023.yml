@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_a_to_container_a_5023
+dataset_uuid: da444508-a330-46c1-bfdd-0270a601880f
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_container_a
+scene_type:
+- hospital
+atomic_actions:
+- push
+- pick
+- place
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.3
+device_model:
+- unitree_cassie
+end_effector_type: five_finger_gripper

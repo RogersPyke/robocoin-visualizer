@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_a_to_fruit_a_3737
+dataset_uuid: 90418394-3a84-4bd4-89b5-17380784c441
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_fruit_a
+scene_type:
+- laboratory
+- factory
+- office
+atomic_actions:
+- place
+- lift
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 80.9
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

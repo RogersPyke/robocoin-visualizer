@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_d_to_food_a_4757
+dataset_uuid: ffaf2599-9d87-44d5-960b-ea78e1bb18c7
+task_descriptions:
+- pick_the_kitchenware_d_and_place_in_the_food_a
+scene_type:
+- store
+- cafe
+atomic_actions:
+- slide
+- push
+- pick
+objects:
+- object_name: kitchenware_d
+  level1: kitchenware
+  level2: kitchenware_d
+  level3: kitchenware_d_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.5
+device_model:
+- clearpath_cassie
+end_effector_type: five_claw_gripper

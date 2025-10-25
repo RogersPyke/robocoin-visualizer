@@ -1,0 +1,26 @@
+dataset_name: move_tool_b_to_tool_c_7738
+dataset_uuid: 1577491d-23fe-4f0e-91cd-3596b6e98aa0
+task_descriptions:
+- move_the_tool_b_and_place_in_the_tool_c
+scene_type:
+- cafe
+atomic_actions:
+- flip
+- pull
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- fetch_tiago
+end_effector_type: two_pinch_gripper

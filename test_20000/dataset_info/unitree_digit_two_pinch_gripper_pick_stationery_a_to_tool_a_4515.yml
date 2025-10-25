@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_a_to_tool_a_4515
+dataset_uuid: 0d02e7f4-a550-4567-86c7-1fd573e6c21c
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_tool_a
+scene_type:
+- factory
+- cafe
+atomic_actions:
+- remove
+- place
+- lower
+- grasp
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.9
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

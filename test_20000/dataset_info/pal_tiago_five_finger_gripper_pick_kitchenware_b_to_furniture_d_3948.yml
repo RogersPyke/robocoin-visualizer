@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_b_to_furniture_d_3948
+dataset_uuid: 37d51b87-403f-40fa-8f39-ff5dfedd999d
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_furniture_d
+scene_type:
+- kitchen
+- laboratory
+- warehouse
+atomic_actions:
+- flip
+- slide
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- pal_tiago
+end_effector_type: five_finger_gripper

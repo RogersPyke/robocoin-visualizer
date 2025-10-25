@@ -1,0 +1,29 @@
+dataset_name: move_furniture_e_to_utensil_a_9564
+dataset_uuid: b74b3f74-7888-4a0f-93ef-357edb66ebc7
+task_descriptions:
+- move_the_furniture_e_and_place_in_the_utensil_a
+scene_type:
+- warehouse
+- factory
+atomic_actions:
+- flip
+- pick
+- pull
+- remove
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

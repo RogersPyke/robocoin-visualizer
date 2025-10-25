@@ -1,0 +1,28 @@
+dataset_name: stack_toy_c_to_electronics_d_2659
+dataset_uuid: 002f2747-c74b-4214-bf18-11f056032dc9
+task_descriptions:
+- stack_the_toy_c_and_place_in_the_electronics_d
+scene_type:
+- hospital
+atomic_actions:
+- push
+- flip
+- pick
+- slide
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_d
+  level1: electronics
+  level2: electronics_d
+  level3: electronics_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- unitree_h1
+end_effector_type: two_finger_gripper

@@ -1,0 +1,26 @@
+dataset_name: place_fruit_d_to_stationery_b_7706
+dataset_uuid: 84c3e204-e170-4caf-821c-cbfb808ed493
+task_descriptions:
+- place_the_fruit_d_and_place_in_the_stationery_b
+scene_type:
+- factory
+atomic_actions:
+- insert
+- pull
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.0
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

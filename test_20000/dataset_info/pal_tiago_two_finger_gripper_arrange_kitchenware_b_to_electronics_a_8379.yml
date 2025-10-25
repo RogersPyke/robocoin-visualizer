@@ -1,0 +1,29 @@
+dataset_name: arrange_kitchenware_b_to_electronics_a_8379
+dataset_uuid: ff61cabd-1399-4eba-8775-c84342961b3d
+task_descriptions:
+- arrange_the_kitchenware_b_and_place_in_the_electronics_a
+scene_type:
+- factory
+- office
+- kitchen
+atomic_actions:
+- lower
+- insert
+- push
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- pal_tiago
+end_effector_type: two_finger_gripper

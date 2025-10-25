@@ -1,0 +1,30 @@
+dataset_name: place_tool_c_to_utensil_a_6169
+dataset_uuid: 93a14e28-24e7-49b5-9b2b-a89fc262536f
+task_descriptions:
+- place_the_tool_c_and_place_in_the_utensil_a
+scene_type:
+- store
+- office
+- kitchen
+atomic_actions:
+- grasp
+- lower
+- pick
+- flip
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.7
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_textile_c_to_kitchenware_c_7465
+dataset_uuid: 5752920f-1fe5-4213-938b-739116208c5d
+task_descriptions:
+- place_the_textile_c_and_place_in_the_kitchenware_c
+scene_type:
+- hospital
+- laboratory
+- office
+atomic_actions:
+- rotate
+- insert
+- pull
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- agility_spot
+end_effector_type: two_claw_gripper

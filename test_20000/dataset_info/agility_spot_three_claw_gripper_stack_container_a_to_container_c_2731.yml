@@ -1,0 +1,26 @@
+dataset_name: stack_container_a_to_container_c_2731
+dataset_uuid: 99e6de53-8cd4-43ca-8f95-3aa9c0268878
+task_descriptions:
+- stack_the_container_a_and_place_in_the_container_c
+scene_type:
+- home
+atomic_actions:
+- pull
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+operation_platform_height: 79.4
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

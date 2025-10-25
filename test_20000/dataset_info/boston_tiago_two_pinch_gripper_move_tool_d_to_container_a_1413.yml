@@ -1,0 +1,27 @@
+dataset_name: move_tool_d_to_container_a_1413
+dataset_uuid: 2c0ad08f-5c75-4075-94ee-7d4a04a05477
+task_descriptions:
+- move_the_tool_d_and_place_in_the_container_a
+scene_type:
+- office
+- kitchen
+atomic_actions:
+- pick
+- lift
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

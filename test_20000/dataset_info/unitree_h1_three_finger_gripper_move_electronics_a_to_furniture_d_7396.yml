@@ -1,0 +1,27 @@
+dataset_name: move_electronics_a_to_furniture_d_7396
+dataset_uuid: 29a43738-a8b7-4362-9a6a-972a4d28700b
+task_descriptions:
+- move_the_electronics_a_and_place_in_the_furniture_d
+scene_type:
+- home
+atomic_actions:
+- pull
+- rotate
+- lower
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.5
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

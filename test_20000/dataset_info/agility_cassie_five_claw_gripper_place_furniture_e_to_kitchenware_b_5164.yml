@@ -1,0 +1,28 @@
+dataset_name: place_furniture_e_to_kitchenware_b_5164
+dataset_uuid: bc07001a-70df-46eb-b088-20417921d34c
+task_descriptions:
+- place_the_furniture_e_and_place_in_the_kitchenware_b
+scene_type:
+- warehouse
+- factory
+- laboratory
+atomic_actions:
+- pull
+- pick
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- agility_cassie
+end_effector_type: five_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_stationery_c_to_container_c_1434
+dataset_uuid: 3f7e4d1e-a7a5-484c-87d3-cde5129be7c4
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_container_c
+scene_type:
+- kitchen
+- home
+atomic_actions:
+- lift
+- place
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+operation_platform_height: 74.4
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

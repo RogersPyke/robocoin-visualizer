@@ -1,0 +1,28 @@
+dataset_name: move_furniture_e_to_kitchenware_a_6584
+dataset_uuid: 23f32d95-0c4e-45ad-97f1-ad4431c8cf6a
+task_descriptions:
+- move_the_furniture_e_and_place_in_the_kitchenware_a
+scene_type:
+- factory
+atomic_actions:
+- insert
+- slide
+- remove
+- rotate
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

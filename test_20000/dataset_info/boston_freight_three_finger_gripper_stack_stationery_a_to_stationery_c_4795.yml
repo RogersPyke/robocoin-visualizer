@@ -1,0 +1,28 @@
+dataset_name: stack_stationery_a_to_stationery_c_4795
+dataset_uuid: afe3b9df-b9b4-4094-9f47-38c222f732dd
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_stationery_c
+scene_type:
+- store
+- hospital
+atomic_actions:
+- pick
+- pull
+- lower
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+operation_platform_height: 75.9
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_container_a_to_stationery_a_4649
+dataset_uuid: 8932eb29-581a-4dc6-ac79-be0fa777ffa7
+task_descriptions:
+- stack_the_container_a_and_place_in_the_stationery_a
+scene_type:
+- store
+atomic_actions:
+- pick
+- grasp
+- place
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

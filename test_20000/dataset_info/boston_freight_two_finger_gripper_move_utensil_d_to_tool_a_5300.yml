@@ -1,0 +1,28 @@
+dataset_name: move_utensil_d_to_tool_a_5300
+dataset_uuid: 72b9480e-8b34-43e1-84da-a03b12e56a7e
+task_descriptions:
+- move_the_utensil_d_and_place_in_the_tool_a
+scene_type:
+- office
+- store
+- factory
+atomic_actions:
+- lift
+- remove
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.8
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

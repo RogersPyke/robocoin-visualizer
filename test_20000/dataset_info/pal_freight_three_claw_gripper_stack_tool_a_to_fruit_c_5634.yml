@@ -1,0 +1,27 @@
+dataset_name: stack_tool_a_to_fruit_c_5634
+dataset_uuid: 859da441-0be1-4e3a-a484-c32bb5da6bff
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_fruit_c
+scene_type:
+- cafe
+atomic_actions:
+- pick
+- rotate
+- push
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.9
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_fruit_b_to_fruit_b_2254
+dataset_uuid: 1139d5e3-29b5-4584-8137-3280288c8723
+task_descriptions:
+- place_the_fruit_b_and_place_in_the_fruit_b
+scene_type:
+- laboratory
+- warehouse
+atomic_actions:
+- place
+- flip
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- agility_h1
+end_effector_type: five_claw_gripper

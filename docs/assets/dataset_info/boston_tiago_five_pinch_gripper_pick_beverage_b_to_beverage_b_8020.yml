@@ -1,0 +1,27 @@
+dataset_name: pick_beverage_b_to_beverage_b_8020
+dataset_uuid: db348d97-a9ba-4907-9955-0cfed1e0d521
+task_descriptions:
+- pick_the_beverage_b_and_place_in_the_beverage_b
+scene_type:
+- office
+atomic_actions:
+- lower
+- remove
+- push
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.6
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

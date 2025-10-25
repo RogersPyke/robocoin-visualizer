@@ -1,0 +1,27 @@
+dataset_name: pick_beverage_b_to_beverage_d_5683
+dataset_uuid: 1f47e709-df52-42f7-b8f1-d7bd9402d2f7
+task_descriptions:
+- pick_the_beverage_b_and_place_in_the_beverage_d
+scene_type:
+- hospital
+atomic_actions:
+- flip
+- remove
+- lift
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- boston_digit
+end_effector_type: five_claw_gripper

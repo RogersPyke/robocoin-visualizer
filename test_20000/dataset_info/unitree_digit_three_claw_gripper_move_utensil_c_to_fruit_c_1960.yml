@@ -1,0 +1,28 @@
+dataset_name: move_utensil_c_to_fruit_c_1960
+dataset_uuid: 1d421c2e-b401-4a36-8ebb-c84cc38ffdb4
+task_descriptions:
+- move_the_utensil_c_and_place_in_the_fruit_c
+scene_type:
+- factory
+- kitchen
+atomic_actions:
+- pull
+- slide
+- remove
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.9
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

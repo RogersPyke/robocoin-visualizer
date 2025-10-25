@@ -1,0 +1,30 @@
+dataset_name: stack_fruit_a_to_utensil_c_2380
+dataset_uuid: 83d07db3-c7ee-4ce7-af7c-9ba64ba47aa9
+task_descriptions:
+- stack_the_fruit_a_and_place_in_the_utensil_c
+scene_type:
+- restaurant
+- laboratory
+- cafe
+atomic_actions:
+- insert
+- lift
+- slide
+- push
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.4
+device_model:
+- unitree_digit
+end_effector_type: two_finger_gripper

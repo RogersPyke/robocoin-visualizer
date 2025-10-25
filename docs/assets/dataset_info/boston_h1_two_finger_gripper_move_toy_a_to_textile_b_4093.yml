@@ -1,0 +1,27 @@
+dataset_name: move_toy_a_to_textile_b_4093
+dataset_uuid: 11ac81a0-ffb6-4909-ba48-c0f96df11dd6
+task_descriptions:
+- move_the_toy_a_and_place_in_the_textile_b
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- pick
+- grasp
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- boston_h1
+end_effector_type: two_finger_gripper

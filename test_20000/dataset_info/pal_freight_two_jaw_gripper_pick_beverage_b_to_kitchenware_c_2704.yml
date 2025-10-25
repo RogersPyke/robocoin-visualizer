@@ -1,0 +1,28 @@
+dataset_name: pick_beverage_b_to_kitchenware_c_2704
+dataset_uuid: ddc9aebc-b47c-492c-9276-7486f384b527
+task_descriptions:
+- pick_the_beverage_b_and_place_in_the_kitchenware_c
+scene_type:
+- hospital
+atomic_actions:
+- remove
+- lower
+- insert
+- push
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.5
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

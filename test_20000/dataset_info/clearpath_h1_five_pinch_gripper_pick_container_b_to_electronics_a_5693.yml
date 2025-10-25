@@ -1,0 +1,26 @@
+dataset_name: pick_container_b_to_electronics_a_5693
+dataset_uuid: 82abb126-9ceb-420d-a9c5-d980112b5ef0
+task_descriptions:
+- pick_the_container_b_and_place_in_the_electronics_a
+scene_type:
+- home
+atomic_actions:
+- lower
+- remove
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.3
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

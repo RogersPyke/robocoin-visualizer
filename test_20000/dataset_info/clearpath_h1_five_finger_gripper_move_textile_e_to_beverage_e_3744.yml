@@ -1,0 +1,29 @@
+dataset_name: move_textile_e_to_beverage_e_3744
+dataset_uuid: 4dab08eb-cf1e-456e-8e51-9572c34d562e
+task_descriptions:
+- move_the_textile_e_and_place_in_the_beverage_e
+scene_type:
+- factory
+- laboratory
+atomic_actions:
+- remove
+- flip
+- push
+- rotate
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- clearpath_h1
+end_effector_type: five_finger_gripper

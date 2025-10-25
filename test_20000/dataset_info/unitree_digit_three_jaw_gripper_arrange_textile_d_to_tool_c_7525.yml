@@ -1,0 +1,30 @@
+dataset_name: arrange_textile_d_to_tool_c_7525
+dataset_uuid: e61ecfad-7492-4f69-853d-c7fbb13e2020
+task_descriptions:
+- arrange_the_textile_d_and_place_in_the_tool_c
+scene_type:
+- cafe
+- kitchen
+- store
+atomic_actions:
+- slide
+- lift
+- insert
+- grasp
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.6
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

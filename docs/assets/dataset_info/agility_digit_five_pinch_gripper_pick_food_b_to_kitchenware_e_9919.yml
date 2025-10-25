@@ -1,0 +1,26 @@
+dataset_name: pick_food_b_to_kitchenware_e_9919
+dataset_uuid: def34f27-8584-4cea-94d6-636a3d53e163
+task_descriptions:
+- pick_the_food_b_and_place_in_the_kitchenware_e
+scene_type:
+- hospital
+atomic_actions:
+- slide
+- lower
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_e
+  level1: kitchenware
+  level2: kitchenware_e
+  level3: kitchenware_e_sub1
+  level4: kitchenware_e_sub2
+  level5: null
+operation_platform_height: 70.8
+device_model:
+- agility_digit
+end_effector_type: five_pinch_gripper

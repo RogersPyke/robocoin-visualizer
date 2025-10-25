@@ -1,0 +1,28 @@
+dataset_name: arrange_utensil_a_to_tool_b_5213
+dataset_uuid: b7d41e01-93c8-4f45-bcf1-5086994a8e22
+task_descriptions:
+- arrange_the_utensil_a_and_place_in_the_tool_b
+scene_type:
+- office
+atomic_actions:
+- grasp
+- pull
+- slide
+- lower
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.3
+device_model:
+- clearpath_h1
+end_effector_type: two_jaw_gripper

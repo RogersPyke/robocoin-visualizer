@@ -1,0 +1,27 @@
+dataset_name: pick_kitchenware_c_to_stationery_b_8544
+dataset_uuid: 98c620f8-96d8-4a0f-b2f3-bb7224647470
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_stationery_b
+scene_type:
+- factory
+atomic_actions:
+- flip
+- rotate
+- pick
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

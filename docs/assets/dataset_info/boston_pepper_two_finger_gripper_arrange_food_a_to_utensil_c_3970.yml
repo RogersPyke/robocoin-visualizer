@@ -1,0 +1,27 @@
+dataset_name: arrange_food_a_to_utensil_c_3970
+dataset_uuid: 66066252-3573-4641-a7ac-5af137101712
+task_descriptions:
+- arrange_the_food_a_and_place_in_the_utensil_c
+scene_type:
+- warehouse
+- store
+atomic_actions:
+- lift
+- pick
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 85.0
+device_model:
+- boston_pepper
+end_effector_type: two_finger_gripper

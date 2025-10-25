@@ -1,0 +1,30 @@
+dataset_name: stack_textile_c_to_electronics_a_7571
+dataset_uuid: 814fe47c-7d25-46b8-80bc-9321954d235e
+task_descriptions:
+- stack_the_textile_c_and_place_in_the_electronics_a
+scene_type:
+- store
+- restaurant
+- home
+atomic_actions:
+- pull
+- grasp
+- slide
+- lower
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- unitree_h1
+end_effector_type: two_finger_gripper

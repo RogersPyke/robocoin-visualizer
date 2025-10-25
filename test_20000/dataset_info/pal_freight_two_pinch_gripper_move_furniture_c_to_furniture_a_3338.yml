@@ -1,0 +1,28 @@
+dataset_name: move_furniture_c_to_furniture_a_3338
+dataset_uuid: 22585a2f-ecf0-46fc-b8e8-60215ff081e5
+task_descriptions:
+- move_the_furniture_c_and_place_in_the_furniture_a
+scene_type:
+- store
+- cafe
+atomic_actions:
+- place
+- insert
+- rotate
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+operation_platform_height: 70.3
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

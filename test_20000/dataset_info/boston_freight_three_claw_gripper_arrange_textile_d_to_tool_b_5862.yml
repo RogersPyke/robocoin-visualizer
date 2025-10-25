@@ -1,0 +1,29 @@
+dataset_name: arrange_textile_d_to_tool_b_5862
+dataset_uuid: 10e307af-ecc2-4174-bd2c-e066e6dfa6c5
+task_descriptions:
+- arrange_the_textile_d_and_place_in_the_tool_b
+scene_type:
+- restaurant
+- kitchen
+- warehouse
+atomic_actions:
+- lift
+- grasp
+- rotate
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 83.6
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

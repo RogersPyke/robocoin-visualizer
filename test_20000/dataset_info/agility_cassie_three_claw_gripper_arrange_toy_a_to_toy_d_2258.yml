@@ -1,0 +1,27 @@
+dataset_name: arrange_toy_a_to_toy_d_2258
+dataset_uuid: 791e05f0-7525-4eae-807a-f85c9c1832b6
+task_descriptions:
+- arrange_the_toy_a_and_place_in_the_toy_d
+scene_type:
+- cafe
+- home
+atomic_actions:
+- pick
+- rotate
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.8
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: move_tool_d_to_stationery_b_6592
+dataset_uuid: f150be9c-f5a7-4ea1-9cec-e305088b4359
+task_descriptions:
+- move_the_tool_d_and_place_in_the_stationery_b
+scene_type:
+- warehouse
+- factory
+- cafe
+atomic_actions:
+- slide
+- push
+- insert
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

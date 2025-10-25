@@ -1,0 +1,27 @@
+dataset_name: arrange_electronics_c_to_kitchenware_a_2644
+dataset_uuid: cba7c997-b104-4de6-8c5e-8c198e4563fd
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_kitchenware_a
+scene_type:
+- cafe
+- restaurant
+atomic_actions:
+- remove
+- push
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

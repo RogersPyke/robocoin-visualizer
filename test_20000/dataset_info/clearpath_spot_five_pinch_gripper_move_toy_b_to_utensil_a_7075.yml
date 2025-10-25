@@ -1,0 +1,28 @@
+dataset_name: move_toy_b_to_utensil_a_7075
+dataset_uuid: 38c58b0f-7573-4963-afc4-25d2321fe37f
+task_descriptions:
+- move_the_toy_b_and_place_in_the_utensil_a
+scene_type:
+- cafe
+- warehouse
+- kitchen
+atomic_actions:
+- rotate
+- lower
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

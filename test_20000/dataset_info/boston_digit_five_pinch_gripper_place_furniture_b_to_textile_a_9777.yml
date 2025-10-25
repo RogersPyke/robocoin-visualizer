@@ -1,0 +1,27 @@
+dataset_name: place_furniture_b_to_textile_a_9777
+dataset_uuid: 6f784430-389c-4a43-b50d-330c224df2c3
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_textile_a
+scene_type:
+- factory
+atomic_actions:
+- lift
+- flip
+- push
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

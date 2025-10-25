@@ -1,0 +1,27 @@
+dataset_name: place_fruit_e_to_container_b_8742
+dataset_uuid: 7b5a70f8-5b1e-4030-a353-6616e4e0a63d
+task_descriptions:
+- place_the_fruit_e_and_place_in_the_container_b
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- slide
+- place
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

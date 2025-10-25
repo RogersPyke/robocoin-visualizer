@@ -1,0 +1,28 @@
+dataset_name: move_kitchenware_b_to_kitchenware_c_4020
+dataset_uuid: 802daf08-7520-49d3-91fb-d515fc2e421e
+task_descriptions:
+- move_the_kitchenware_b_and_place_in_the_kitchenware_c
+scene_type:
+- cafe
+- warehouse
+atomic_actions:
+- push
+- flip
+- pick
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- agility_cassie
+end_effector_type: two_finger_gripper

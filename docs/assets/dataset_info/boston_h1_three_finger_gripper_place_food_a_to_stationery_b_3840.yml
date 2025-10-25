@@ -1,0 +1,28 @@
+dataset_name: place_food_a_to_stationery_b_3840
+dataset_uuid: f18807f6-8ab9-4ad4-a5a3-2113e78363fe
+task_descriptions:
+- place_the_food_a_and_place_in_the_stationery_b
+scene_type:
+- office
+- kitchen
+- factory
+atomic_actions:
+- push
+- slide
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.9
+device_model:
+- boston_h1
+end_effector_type: three_finger_gripper

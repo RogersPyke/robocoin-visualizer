@@ -1,0 +1,29 @@
+dataset_name: stack_electronics_a_to_utensil_d_1750
+dataset_uuid: 046aca19-7bce-44a2-b38e-1ad7b74675e5
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_utensil_d
+scene_type:
+- hospital
+- restaurant
+atomic_actions:
+- slide
+- lower
+- lift
+- place
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: move_electronics_a_to_tool_a_2044
+dataset_uuid: 53d5dfd6-5d43-4e26-829c-060f93d8a4c9
+task_descriptions:
+- move_the_electronics_a_and_place_in_the_tool_a
+scene_type:
+- store
+- restaurant
+atomic_actions:
+- pull
+- insert
+- remove
+- grasp
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+operation_platform_height: 73.1
+device_model:
+- fetch_tiago
+end_effector_type: two_claw_gripper

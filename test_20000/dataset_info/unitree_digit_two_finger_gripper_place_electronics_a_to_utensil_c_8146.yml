@@ -1,0 +1,29 @@
+dataset_name: place_electronics_a_to_utensil_c_8146
+dataset_uuid: da30aeee-9a2e-4ead-be4f-5ddecfe0a3b0
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_utensil_c
+scene_type:
+- restaurant
+- cafe
+atomic_actions:
+- flip
+- pick
+- remove
+- place
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.6
+device_model:
+- unitree_digit
+end_effector_type: two_finger_gripper

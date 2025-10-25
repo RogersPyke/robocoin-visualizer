@@ -1,0 +1,29 @@
+dataset_name: stack_fruit_a_to_food_e_8401
+dataset_uuid: f7005abb-4286-4b55-af92-1fc1f3a08d7a
+task_descriptions:
+- stack_the_fruit_a_and_place_in_the_food_e
+scene_type:
+- hospital
+- home
+atomic_actions:
+- grasp
+- remove
+- insert
+- place
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+operation_platform_height: 73.8
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

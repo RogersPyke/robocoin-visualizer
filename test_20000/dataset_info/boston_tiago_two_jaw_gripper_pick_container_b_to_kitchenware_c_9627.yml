@@ -1,0 +1,28 @@
+dataset_name: pick_container_b_to_kitchenware_c_9627
+dataset_uuid: 53c7e88d-15cc-42e7-9aa0-353a8b335dc2
+task_descriptions:
+- pick_the_container_b_and_place_in_the_kitchenware_c
+scene_type:
+- factory
+- warehouse
+atomic_actions:
+- lift
+- place
+- insert
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+operation_platform_height: 74.7
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

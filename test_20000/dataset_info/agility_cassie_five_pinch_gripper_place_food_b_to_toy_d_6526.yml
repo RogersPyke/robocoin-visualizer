@@ -1,0 +1,26 @@
+dataset_name: place_food_b_to_toy_d_6526
+dataset_uuid: 657a2135-cadf-484e-9254-142152369b66
+task_descriptions:
+- place_the_food_b_and_place_in_the_toy_d
+scene_type:
+- warehouse
+atomic_actions:
+- push
+- insert
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

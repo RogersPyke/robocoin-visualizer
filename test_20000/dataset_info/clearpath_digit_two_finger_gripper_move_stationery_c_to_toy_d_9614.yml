@@ -1,0 +1,28 @@
+dataset_name: move_stationery_c_to_toy_d_9614
+dataset_uuid: 98c83994-7b03-478f-a7fb-8fd589593c4b
+task_descriptions:
+- move_the_stationery_c_and_place_in_the_toy_d
+scene_type:
+- kitchen
+atomic_actions:
+- push
+- slide
+- insert
+- rotate
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.6
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

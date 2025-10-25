@@ -1,0 +1,27 @@
+dataset_name: pick_furniture_b_to_kitchenware_c_9546
+dataset_uuid: 25316160-d952-4eab-b791-15d25794244d
+task_descriptions:
+- pick_the_furniture_b_and_place_in_the_kitchenware_c
+scene_type:
+- laboratory
+- home
+atomic_actions:
+- slide
+- grasp
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.4
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

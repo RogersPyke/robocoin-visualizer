@@ -1,0 +1,26 @@
+dataset_name: move_toy_b_to_electronics_a_2310
+dataset_uuid: 7f350b62-6356-40c0-ad33-a1dfcb6cf4f4
+task_descriptions:
+- move_the_toy_b_and_place_in_the_electronics_a
+scene_type:
+- hospital
+atomic_actions:
+- place
+- lift
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.1
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

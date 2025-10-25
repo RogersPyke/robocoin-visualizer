@@ -1,0 +1,27 @@
+dataset_name: place_fruit_a_to_utensil_c_4622
+dataset_uuid: 8654595e-8154-4f64-a930-5d55c04ba628
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_utensil_c
+scene_type:
+- restaurant
+- store
+atomic_actions:
+- insert
+- grasp
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

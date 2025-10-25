@@ -1,0 +1,27 @@
+dataset_name: place_utensil_a_to_tool_d_7293
+dataset_uuid: ff31d7c2-fd5c-46ca-a759-cab512860af2
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_tool_d
+scene_type:
+- home
+atomic_actions:
+- pick
+- place
+- lower
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+operation_platform_height: 77.8
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

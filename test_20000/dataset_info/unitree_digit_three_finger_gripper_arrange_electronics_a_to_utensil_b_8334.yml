@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_a_to_utensil_b_8334
+dataset_uuid: 7bf2ff4a-4b25-4420-ae92-3c1f01a551a9
+task_descriptions:
+- arrange_the_electronics_a_and_place_in_the_utensil_b
+scene_type:
+- store
+atomic_actions:
+- push
+- grasp
+- insert
+- pull
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.3
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

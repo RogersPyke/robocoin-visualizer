@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_a_to_furniture_b_8807
+dataset_uuid: 358105b6-a260-405c-8aa6-ba160f7f93c5
+task_descriptions:
+- pick_the_furniture_a_and_place_in_the_furniture_b
+scene_type:
+- cafe
+atomic_actions:
+- pull
+- rotate
+- lower
+- lift
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.4
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

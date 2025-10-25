@@ -1,0 +1,30 @@
+dataset_name: arrange_container_a_to_toy_a_5385
+dataset_uuid: 9a060eb0-94dd-4cd0-9f4a-891aa35de82c
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_toy_a
+scene_type:
+- home
+- hospital
+- factory
+atomic_actions:
+- slide
+- insert
+- flip
+- pick
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

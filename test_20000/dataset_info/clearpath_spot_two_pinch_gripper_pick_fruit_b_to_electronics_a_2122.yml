@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_b_to_electronics_a_2122
+dataset_uuid: edf0b1b2-7a8b-4253-9c0b-69d72c735cb4
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_electronics_a
+scene_type:
+- restaurant
+- laboratory
+atomic_actions:
+- flip
+- push
+- insert
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.4
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

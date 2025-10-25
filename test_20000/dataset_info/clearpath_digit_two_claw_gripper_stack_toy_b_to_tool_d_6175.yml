@@ -1,0 +1,28 @@
+dataset_name: stack_toy_b_to_tool_d_6175
+dataset_uuid: 8ce79bcd-f0b6-40bc-9357-366e78011994
+task_descriptions:
+- stack_the_toy_b_and_place_in_the_tool_d
+scene_type:
+- store
+atomic_actions:
+- grasp
+- rotate
+- slide
+- insert
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.9
+device_model:
+- clearpath_digit
+end_effector_type: two_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_fruit_b_to_container_b_3355
+dataset_uuid: d770ee2a-f9af-43d6-8898-377bc8ce36b8
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_container_b
+scene_type:
+- cafe
+- factory
+- hospital
+atomic_actions:
+- pick
+- insert
+- slide
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

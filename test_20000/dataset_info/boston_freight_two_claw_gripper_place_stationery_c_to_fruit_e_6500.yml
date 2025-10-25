@@ -1,0 +1,29 @@
+dataset_name: place_stationery_c_to_fruit_e_6500
+dataset_uuid: c7b1c9ca-8ac5-49dc-9e41-8f6b8f10f72c
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_fruit_e
+scene_type:
+- warehouse
+- office
+atomic_actions:
+- place
+- grasp
+- push
+- insert
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+operation_platform_height: 84.1
+device_model:
+- boston_freight
+end_effector_type: two_claw_gripper

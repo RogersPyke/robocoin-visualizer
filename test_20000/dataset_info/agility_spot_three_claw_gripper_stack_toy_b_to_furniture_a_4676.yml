@@ -1,0 +1,27 @@
+dataset_name: stack_toy_b_to_furniture_a_4676
+dataset_uuid: c0d4f4ff-c715-4f95-b4d1-da8935721598
+task_descriptions:
+- stack_the_toy_b_and_place_in_the_furniture_a
+scene_type:
+- factory
+- restaurant
+atomic_actions:
+- lift
+- rotate
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+operation_platform_height: 85.2
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

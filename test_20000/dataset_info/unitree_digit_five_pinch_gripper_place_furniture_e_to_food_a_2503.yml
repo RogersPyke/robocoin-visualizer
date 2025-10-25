@@ -1,0 +1,28 @@
+dataset_name: place_furniture_e_to_food_a_2503
+dataset_uuid: 29ed1666-f53f-4152-936b-3e749ee5e4a1
+task_descriptions:
+- place_the_furniture_e_and_place_in_the_food_a
+scene_type:
+- home
+- hospital
+- kitchen
+atomic_actions:
+- pull
+- place
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.8
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

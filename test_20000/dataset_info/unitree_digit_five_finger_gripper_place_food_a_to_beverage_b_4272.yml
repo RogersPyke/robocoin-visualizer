@@ -1,0 +1,27 @@
+dataset_name: place_food_a_to_beverage_b_4272
+dataset_uuid: b014d447-573f-4220-a108-2b57c5401360
+task_descriptions:
+- place_the_food_a_and_place_in_the_beverage_b
+scene_type:
+- kitchen
+- laboratory
+atomic_actions:
+- pick
+- flip
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

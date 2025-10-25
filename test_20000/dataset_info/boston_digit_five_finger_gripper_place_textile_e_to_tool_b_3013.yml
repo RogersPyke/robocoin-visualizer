@@ -1,0 +1,29 @@
+dataset_name: place_textile_e_to_tool_b_3013
+dataset_uuid: 2b29c911-93e1-489c-8389-16ddc7dd72ba
+task_descriptions:
+- place_the_textile_e_and_place_in_the_tool_b
+scene_type:
+- laboratory
+- kitchen
+- home
+atomic_actions:
+- pull
+- grasp
+- rotate
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.2
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

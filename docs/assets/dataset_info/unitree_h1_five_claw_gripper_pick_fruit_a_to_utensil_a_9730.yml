@@ -1,0 +1,27 @@
+dataset_name: pick_fruit_a_to_utensil_a_9730
+dataset_uuid: 0c87b5c6-4c0e-46ec-a4b5-39dfbc00d491
+task_descriptions:
+- pick_the_fruit_a_and_place_in_the_utensil_a
+scene_type:
+- factory
+atomic_actions:
+- insert
+- pick
+- flip
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- unitree_h1
+end_effector_type: five_claw_gripper

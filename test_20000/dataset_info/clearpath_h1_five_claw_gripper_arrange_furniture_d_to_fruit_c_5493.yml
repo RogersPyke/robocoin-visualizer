@@ -1,0 +1,26 @@
+dataset_name: arrange_furniture_d_to_fruit_c_5493
+dataset_uuid: 7cd18cff-6d27-4627-8d50-509b4c41e2e7
+task_descriptions:
+- arrange_the_furniture_d_and_place_in_the_fruit_c
+scene_type:
+- restaurant
+atomic_actions:
+- grasp
+- remove
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.4
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

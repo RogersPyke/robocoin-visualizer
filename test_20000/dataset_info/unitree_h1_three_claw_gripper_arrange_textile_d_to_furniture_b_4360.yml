@@ -1,0 +1,27 @@
+dataset_name: arrange_textile_d_to_furniture_b_4360
+dataset_uuid: b9961eb0-68d9-4ff4-aafa-1189ae18afd1
+task_descriptions:
+- arrange_the_textile_d_and_place_in_the_furniture_b
+scene_type:
+- store
+- hospital
+atomic_actions:
+- grasp
+- lift
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.1
+device_model:
+- unitree_h1
+end_effector_type: three_claw_gripper

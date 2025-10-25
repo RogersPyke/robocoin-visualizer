@@ -1,0 +1,28 @@
+dataset_name: pick_food_b_to_food_a_6960
+dataset_uuid: 47780fb2-ea2e-41a2-92c0-3cc291089510
+task_descriptions:
+- pick_the_food_b_and_place_in_the_food_a
+scene_type:
+- office
+- cafe
+- hospital
+atomic_actions:
+- lift
+- push
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- unitree_tiago
+end_effector_type: five_finger_gripper

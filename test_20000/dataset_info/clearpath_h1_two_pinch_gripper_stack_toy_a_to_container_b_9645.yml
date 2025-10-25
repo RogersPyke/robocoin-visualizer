@@ -1,0 +1,26 @@
+dataset_name: stack_toy_a_to_container_b_9645
+dataset_uuid: f8f27512-620f-4500-925c-8dcfeb8db4e0
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_container_b
+scene_type:
+- hospital
+atomic_actions:
+- grasp
+- pick
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.5
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

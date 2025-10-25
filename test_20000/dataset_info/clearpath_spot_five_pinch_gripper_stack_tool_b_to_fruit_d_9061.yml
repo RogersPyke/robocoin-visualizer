@@ -1,0 +1,27 @@
+dataset_name: stack_tool_b_to_fruit_d_9061
+dataset_uuid: b4e39cc5-8bbd-4a53-b87c-48273dddfd16
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_fruit_d
+scene_type:
+- restaurant
+atomic_actions:
+- grasp
+- rotate
+- lower
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.8
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

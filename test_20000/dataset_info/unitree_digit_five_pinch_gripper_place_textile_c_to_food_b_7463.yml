@@ -1,0 +1,27 @@
+dataset_name: place_textile_c_to_food_b_7463
+dataset_uuid: 37860a11-8a6a-486d-8f17-09bdddd64769
+task_descriptions:
+- place_the_textile_c_and_place_in_the_food_b
+scene_type:
+- factory
+- cafe
+atomic_actions:
+- rotate
+- lift
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.3
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

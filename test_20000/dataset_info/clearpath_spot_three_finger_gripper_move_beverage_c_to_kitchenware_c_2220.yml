@@ -1,0 +1,30 @@
+dataset_name: move_beverage_c_to_kitchenware_c_2220
+dataset_uuid: 6fbf283e-b3b9-4abf-ae6b-25f00708a6a3
+task_descriptions:
+- move_the_beverage_c_and_place_in_the_kitchenware_c
+scene_type:
+- kitchen
+- office
+- home
+atomic_actions:
+- lift
+- remove
+- flip
+- push
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: beverage_c_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

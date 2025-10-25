@@ -1,0 +1,30 @@
+dataset_name: pick_textile_e_to_electronics_b_1679
+dataset_uuid: 732c45e9-eb82-4d3a-b1af-16a9fcb50bde
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_electronics_b
+scene_type:
+- hospital
+- factory
+- laboratory
+atomic_actions:
+- pick
+- rotate
+- remove
+- lower
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- unitree_digit
+end_effector_type: two_finger_gripper

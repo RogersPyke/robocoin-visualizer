@@ -1,0 +1,30 @@
+dataset_name: place_stationery_c_to_electronics_b_5831
+dataset_uuid: e58de50d-56c8-43d0-8edf-26ab9660a66f
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_electronics_b
+scene_type:
+- home
+- warehouse
+- office
+atomic_actions:
+- pick
+- push
+- place
+- slide
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- unitree_h1
+end_effector_type: two_claw_gripper

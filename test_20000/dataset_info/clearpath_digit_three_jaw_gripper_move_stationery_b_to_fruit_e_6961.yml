@@ -1,0 +1,30 @@
+dataset_name: move_stationery_b_to_fruit_e_6961
+dataset_uuid: a813b6a8-2d88-44c4-9b82-6e3497317fd8
+task_descriptions:
+- move_the_stationery_b_and_place_in_the_fruit_e
+scene_type:
+- warehouse
+- office
+- factory
+atomic_actions:
+- pull
+- grasp
+- place
+- remove
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

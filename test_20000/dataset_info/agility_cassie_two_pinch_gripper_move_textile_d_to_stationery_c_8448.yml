@@ -1,0 +1,30 @@
+dataset_name: move_textile_d_to_stationery_c_8448
+dataset_uuid: fb3c4cd8-e316-4996-a516-e7a7917a186c
+task_descriptions:
+- move_the_textile_d_and_place_in_the_stationery_c
+scene_type:
+- office
+- hospital
+- factory
+atomic_actions:
+- push
+- slide
+- lower
+- flip
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

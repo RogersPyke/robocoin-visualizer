@@ -1,0 +1,29 @@
+dataset_name: move_fruit_b_to_container_b_2575
+dataset_uuid: fd2aa427-feed-40fd-9ae9-88ba83ae7f71
+task_descriptions:
+- move_the_fruit_b_and_place_in_the_container_b
+scene_type:
+- store
+- hospital
+- kitchen
+atomic_actions:
+- pick
+- slide
+- place
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.7
+device_model:
+- pal_freight
+end_effector_type: two_finger_gripper

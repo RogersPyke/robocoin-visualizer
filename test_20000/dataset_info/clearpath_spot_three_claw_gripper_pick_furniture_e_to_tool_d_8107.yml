@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_e_to_tool_d_8107
+dataset_uuid: 98b5ed65-b2df-4a4e-99ab-b29013be7756
+task_descriptions:
+- pick_the_furniture_e_and_place_in_the_tool_d
+scene_type:
+- restaurant
+- cafe
+atomic_actions:
+- flip
+- pull
+- place
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_kitchenware_b_to_furniture_a_3362
+dataset_uuid: 87e16be4-29c6-4f91-9200-58b5c0592ad5
+task_descriptions:
+- arrange_the_kitchenware_b_and_place_in_the_furniture_a
+scene_type:
+- store
+atomic_actions:
+- insert
+- lift
+- slide
+- flip
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.4
+device_model:
+- boston_tiago
+end_effector_type: two_finger_gripper

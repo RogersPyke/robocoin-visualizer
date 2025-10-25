@@ -1,0 +1,28 @@
+dataset_name: place_utensil_a_to_furniture_a_1162
+dataset_uuid: a99cf168-875b-4ab6-94b5-1d13b79fba45
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_furniture_a
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- pick
+- pull
+- lift
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- agility_digit
+end_effector_type: five_jaw_gripper

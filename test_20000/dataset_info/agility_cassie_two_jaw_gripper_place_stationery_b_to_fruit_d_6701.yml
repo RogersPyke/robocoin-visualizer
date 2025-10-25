@@ -1,0 +1,28 @@
+dataset_name: place_stationery_b_to_fruit_d_6701
+dataset_uuid: 91b4d50b-3388-40c2-9c53-ba8d5a0aa394
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_fruit_d
+scene_type:
+- kitchen
+- restaurant
+atomic_actions:
+- pick
+- lift
+- slide
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

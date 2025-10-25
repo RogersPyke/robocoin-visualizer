@@ -1,0 +1,28 @@
+dataset_name: place_fruit_b_to_toy_a_5239
+dataset_uuid: 05da52b0-5a54-4db9-b096-d313045ed4ab
+task_descriptions:
+- place_the_fruit_b_and_place_in_the_toy_a
+scene_type:
+- kitchen
+- laboratory
+atomic_actions:
+- push
+- slide
+- flip
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- boston_tiago
+end_effector_type: suction_cup

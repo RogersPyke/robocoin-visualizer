@@ -1,0 +1,29 @@
+dataset_name: arrange_utensil_d_to_kitchenware_c_8456
+dataset_uuid: 3b98f648-cf53-48f6-acb1-a716359049cc
+task_descriptions:
+- arrange_the_utensil_d_and_place_in_the_kitchenware_c
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- slide
+- pull
+- grasp
+- insert
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

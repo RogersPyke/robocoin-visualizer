@@ -1,0 +1,30 @@
+dataset_name: move_tool_a_to_electronics_c_9552
+dataset_uuid: 51b58d77-8e39-4107-8235-eac05d14b8e1
+task_descriptions:
+- move_the_tool_a_and_place_in_the_electronics_c
+scene_type:
+- hospital
+- laboratory
+- factory
+atomic_actions:
+- rotate
+- flip
+- place
+- push
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: move_textile_d_to_furniture_c_8238
+dataset_uuid: 75fff39e-18e8-4d0f-9f63-d015da35c3dd
+task_descriptions:
+- move_the_textile_d_and_place_in_the_furniture_c
+scene_type:
+- laboratory
+- store
+- office
+atomic_actions:
+- pull
+- flip
+- pick
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.3
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

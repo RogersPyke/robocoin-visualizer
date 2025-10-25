@@ -1,0 +1,27 @@
+dataset_name: move_beverage_d_to_utensil_d_1039
+dataset_uuid: f6506b96-6885-4537-a724-44996e7def6a
+task_descriptions:
+- move_the_beverage_d_and_place_in_the_utensil_d
+scene_type:
+- laboratory
+atomic_actions:
+- remove
+- lower
+- rotate
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- boston_digit
+end_effector_type: suction_cup

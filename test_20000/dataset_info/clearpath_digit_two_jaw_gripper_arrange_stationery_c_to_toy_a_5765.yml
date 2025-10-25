@@ -1,0 +1,28 @@
+dataset_name: arrange_stationery_c_to_toy_a_5765
+dataset_uuid: 3952fa5d-066a-4351-bc7a-fe4ace13c2e1
+task_descriptions:
+- arrange_the_stationery_c_and_place_in_the_toy_a
+scene_type:
+- office
+- laboratory
+- kitchen
+atomic_actions:
+- grasp
+- place
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

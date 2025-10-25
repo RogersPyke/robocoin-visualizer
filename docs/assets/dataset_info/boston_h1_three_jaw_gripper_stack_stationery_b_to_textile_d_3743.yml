@@ -1,0 +1,27 @@
+dataset_name: stack_stationery_b_to_textile_d_3743
+dataset_uuid: 1dbd9acf-0362-4f48-9639-f3774d2267e3
+task_descriptions:
+- stack_the_stationery_b_and_place_in_the_textile_d
+scene_type:
+- office
+atomic_actions:
+- pull
+- flip
+- pick
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- boston_h1
+end_effector_type: three_jaw_gripper

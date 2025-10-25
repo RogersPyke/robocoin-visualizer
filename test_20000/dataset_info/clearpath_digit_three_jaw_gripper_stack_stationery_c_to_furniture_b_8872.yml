@@ -1,0 +1,28 @@
+dataset_name: stack_stationery_c_to_furniture_b_8872
+dataset_uuid: a2456369-cbcc-4e50-83a5-48013b6b8908
+task_descriptions:
+- stack_the_stationery_c_and_place_in_the_furniture_b
+scene_type:
+- hospital
+- warehouse
+atomic_actions:
+- place
+- lower
+- slide
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 84.9
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

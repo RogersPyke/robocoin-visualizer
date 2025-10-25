@@ -1,0 +1,27 @@
+dataset_name: stack_kitchenware_c_to_stationery_c_1174
+dataset_uuid: 32e3fab2-6042-4034-bf53-1b8b165714dc
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_stationery_c
+scene_type:
+- home
+- office
+atomic_actions:
+- lower
+- lift
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

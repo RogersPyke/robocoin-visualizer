@@ -1,0 +1,30 @@
+dataset_name: stack_electronics_c_to_textile_d_1061
+dataset_uuid: 453fe1e7-da92-48aa-b4bc-26fb137ad0c3
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_textile_d
+scene_type:
+- factory
+- kitchen
+- office
+atomic_actions:
+- pull
+- rotate
+- grasp
+- insert
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- agility_h1
+end_effector_type: five_jaw_gripper

@@ -1,0 +1,26 @@
+dataset_name: move_furniture_c_to_beverage_e_8608
+dataset_uuid: cfdc590d-e523-403f-bd04-3d954df80b7e
+task_descriptions:
+- move_the_furniture_c_and_place_in_the_beverage_e
+scene_type:
+- hospital
+atomic_actions:
+- lower
+- slide
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

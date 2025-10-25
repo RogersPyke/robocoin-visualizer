@@ -1,0 +1,27 @@
+dataset_name: move_toy_c_to_utensil_d_6332
+dataset_uuid: 778a208c-1cb9-42e1-9ce0-f37efa540e30
+task_descriptions:
+- move_the_toy_c_and_place_in_the_utensil_d
+scene_type:
+- factory
+- kitchen
+atomic_actions:
+- push
+- remove
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 71.8
+device_model:
+- fetch_tiago
+end_effector_type: two_claw_gripper

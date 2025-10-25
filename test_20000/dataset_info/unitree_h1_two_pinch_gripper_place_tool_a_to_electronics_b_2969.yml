@@ -1,0 +1,28 @@
+dataset_name: place_tool_a_to_electronics_b_2969
+dataset_uuid: f269d591-b5cc-48ee-8c61-c290bcb9291f
+task_descriptions:
+- place_the_tool_a_and_place_in_the_electronics_b
+scene_type:
+- warehouse
+- home
+- restaurant
+atomic_actions:
+- remove
+- lift
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.0
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

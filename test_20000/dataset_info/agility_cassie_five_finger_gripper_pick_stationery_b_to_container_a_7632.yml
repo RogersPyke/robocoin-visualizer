@@ -1,0 +1,27 @@
+dataset_name: pick_stationery_b_to_container_a_7632
+dataset_uuid: 15b5ff51-33ee-4cda-812f-26c535820b15
+task_descriptions:
+- pick_the_stationery_b_and_place_in_the_container_a
+scene_type:
+- kitchen
+atomic_actions:
+- place
+- slide
+- push
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.1
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: move_fruit_e_to_kitchenware_a_1882
+dataset_uuid: 711d2f89-c173-40e7-b423-131720ae7580
+task_descriptions:
+- move_the_fruit_e_and_place_in_the_kitchenware_a
+scene_type:
+- restaurant
+atomic_actions:
+- pick
+- push
+- insert
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- boston_digit
+end_effector_type: five_claw_gripper

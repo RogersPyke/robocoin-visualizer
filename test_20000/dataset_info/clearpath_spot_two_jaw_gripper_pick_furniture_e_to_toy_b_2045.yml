@@ -1,0 +1,27 @@
+dataset_name: pick_furniture_e_to_toy_b_2045
+dataset_uuid: 7322f63a-ba11-4e6d-bd4a-497faaa6351a
+task_descriptions:
+- pick_the_furniture_e_and_place_in_the_toy_b
+scene_type:
+- laboratory
+atomic_actions:
+- push
+- remove
+- insert
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+operation_platform_height: 75.5
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_utensil_b_to_fruit_d_8292
+dataset_uuid: e73399fa-7c70-485e-a87e-5aa045a22f8c
+task_descriptions:
+- move_the_utensil_b_and_place_in_the_fruit_d
+scene_type:
+- laboratory
+- cafe
+- office
+atomic_actions:
+- slide
+- lower
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.4
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

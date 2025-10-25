@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_b_to_stationery_b_9604
+dataset_uuid: 1b478293-0361-4fe7-b4cd-d4104008e739
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_stationery_b
+scene_type:
+- laboratory
+atomic_actions:
+- pick
+- insert
+- slide
+- rotate
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.4
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

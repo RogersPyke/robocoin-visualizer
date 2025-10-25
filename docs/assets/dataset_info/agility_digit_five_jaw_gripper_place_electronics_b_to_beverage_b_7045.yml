@@ -1,0 +1,28 @@
+dataset_name: place_electronics_b_to_beverage_b_7045
+dataset_uuid: c3c70dee-6444-4339-8e12-3864ffeb22be
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_beverage_b
+scene_type:
+- office
+- laboratory
+atomic_actions:
+- pick
+- lower
+- place
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.6
+device_model:
+- agility_digit
+end_effector_type: five_jaw_gripper

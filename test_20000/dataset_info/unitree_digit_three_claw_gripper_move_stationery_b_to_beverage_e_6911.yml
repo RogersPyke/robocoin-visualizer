@@ -1,0 +1,29 @@
+dataset_name: move_stationery_b_to_beverage_e_6911
+dataset_uuid: e74d296d-90bd-4bc4-881f-750995cfdfe9
+task_descriptions:
+- move_the_stationery_b_and_place_in_the_beverage_e
+scene_type:
+- restaurant
+- kitchen
+atomic_actions:
+- slide
+- flip
+- pull
+- remove
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

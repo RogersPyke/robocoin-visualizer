@@ -1,0 +1,29 @@
+dataset_name: place_furniture_e_to_furniture_d_6119
+dataset_uuid: 4958012c-5d3b-4c68-9973-7a7efe2c4f55
+task_descriptions:
+- place_the_furniture_e_and_place_in_the_furniture_d
+scene_type:
+- warehouse
+- hospital
+atomic_actions:
+- pick
+- flip
+- remove
+- push
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.3
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

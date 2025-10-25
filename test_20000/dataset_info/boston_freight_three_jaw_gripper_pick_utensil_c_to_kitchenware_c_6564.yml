@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_c_to_kitchenware_c_6564
+dataset_uuid: 51c63c99-5fbc-4790-aa2e-ac7a2427bcc9
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_kitchenware_c
+scene_type:
+- cafe
+- office
+atomic_actions:
+- place
+- push
+- lower
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.3
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

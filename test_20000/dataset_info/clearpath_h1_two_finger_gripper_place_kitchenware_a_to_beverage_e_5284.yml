@@ -1,0 +1,26 @@
+dataset_name: place_kitchenware_a_to_beverage_e_5284
+dataset_uuid: 91c97dcd-803b-4af0-96d5-efdd7a8aced8
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_beverage_e
+scene_type:
+- home
+atomic_actions:
+- grasp
+- remove
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- clearpath_h1
+end_effector_type: two_finger_gripper

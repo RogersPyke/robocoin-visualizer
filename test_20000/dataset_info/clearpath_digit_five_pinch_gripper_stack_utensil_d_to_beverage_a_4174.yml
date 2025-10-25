@@ -1,0 +1,27 @@
+dataset_name: stack_utensil_d_to_beverage_a_4174
+dataset_uuid: ace650ff-39db-422d-aa4b-03953405270b
+task_descriptions:
+- stack_the_utensil_d_and_place_in_the_beverage_a
+scene_type:
+- cafe
+- kitchen
+atomic_actions:
+- lower
+- push
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_a_to_utensil_a_4907
+dataset_uuid: e0ece3d2-7d69-4e31-a431-565615bf144b
+task_descriptions:
+- pick_the_fruit_a_and_place_in_the_utensil_a
+scene_type:
+- home
+- warehouse
+atomic_actions:
+- lift
+- rotate
+- lower
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.5
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

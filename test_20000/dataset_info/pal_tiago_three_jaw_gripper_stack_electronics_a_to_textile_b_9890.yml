@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_a_to_textile_b_9890
+dataset_uuid: 286280db-bdd3-427e-ad68-fd9ba017eb57
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_textile_b
+scene_type:
+- factory
+atomic_actions:
+- lower
+- slide
+- insert
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.1
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

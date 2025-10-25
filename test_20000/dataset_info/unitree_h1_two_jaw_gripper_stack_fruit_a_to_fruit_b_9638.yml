@@ -1,0 +1,28 @@
+dataset_name: stack_fruit_a_to_fruit_b_9638
+dataset_uuid: c25358cb-36e3-4c56-80ca-a810a7a7283d
+task_descriptions:
+- stack_the_fruit_a_and_place_in_the_fruit_b
+scene_type:
+- cafe
+atomic_actions:
+- place
+- pick
+- flip
+- insert
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

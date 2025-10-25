@@ -1,0 +1,29 @@
+dataset_name: move_toy_d_to_beverage_e_5765
+dataset_uuid: 4732a881-c48b-4917-9bd4-e55fc1d2a78c
+task_descriptions:
+- move_the_toy_d_and_place_in_the_beverage_e
+scene_type:
+- laboratory
+- factory
+- restaurant
+atomic_actions:
+- insert
+- lift
+- pull
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.3
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

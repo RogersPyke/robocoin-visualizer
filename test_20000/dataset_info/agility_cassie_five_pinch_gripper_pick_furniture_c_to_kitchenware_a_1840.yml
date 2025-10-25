@@ -1,0 +1,29 @@
+dataset_name: pick_furniture_c_to_kitchenware_a_1840
+dataset_uuid: 2479f34b-f56f-4943-a5ea-7489fe3028a5
+task_descriptions:
+- pick_the_furniture_c_and_place_in_the_kitchenware_a
+scene_type:
+- cafe
+- laboratory
+- factory
+atomic_actions:
+- pick
+- lift
+- rotate
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

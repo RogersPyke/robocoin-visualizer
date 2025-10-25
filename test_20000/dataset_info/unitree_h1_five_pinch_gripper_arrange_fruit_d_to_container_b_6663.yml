@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_d_to_container_b_6663
+dataset_uuid: d69c6128-6768-4437-9a9c-db97863ab062
+task_descriptions:
+- arrange_the_fruit_d_and_place_in_the_container_b
+scene_type:
+- cafe
+atomic_actions:
+- remove
+- insert
+- push
+- place
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

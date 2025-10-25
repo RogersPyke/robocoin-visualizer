@@ -1,0 +1,29 @@
+dataset_name: move_utensil_c_to_electronics_c_5779
+dataset_uuid: d97865e9-2fa8-4684-bd76-0384a0ce1e5f
+task_descriptions:
+- move_the_utensil_c_and_place_in_the_electronics_c
+scene_type:
+- home
+- laboratory
+- warehouse
+atomic_actions:
+- insert
+- push
+- flip
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

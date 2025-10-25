@@ -1,0 +1,351 @@
+/**
+ * HTML Templates Module
+ * Contains all HTML template generation functions for the RoboCOIN application
+ */
+
+const Templates = {
+    /**
+     * Filter Group Templates
+     */
+    buildFlatFilterGroup(key, group, baseIndent) {
+        return `
+            <div class="filter-group-title">
+                <div class="filter-group-title-left">
+                    <span class="toggle-icon">▼</span>
+                    <span>${group.title}</span>
+                </div>
+                <div class="filter-group-title-checkbox">
+                    <input type="checkbox" data-filter="${key}" data-group-all="${key}" value="__GROUP_ALL__" checked>
+                    <span class="filter-option-count" style="visibility: hidden;">0</span>
+                </div>
+            </div>
+            <div class="filter-options" data-group="${key}">
+                ${Array.from(group.values).sort().map(val => this.buildFlatFilterOption(key, val, baseIndent)).join('')}
+            </div>
+        `;
+    },
+
+    buildFlatFilterOption(key, val, baseIndent) {
+        return `
+            <div class="filter-option-wrapper" style="margin-left: ${baseIndent}px;" data-level="1">
+                <div class="filter-option" style="padding-left: 0;">
+                    <div class="filter-option-label" style="margin-left: 0;">
+                        <span>${val}</span>
+                    </div>
+                    <div class="filter-option-connector"></div>
+                    <div class="filter-option-checkbox" data-target="single">
+                        <input type="checkbox" data-filter="${key}" value="${val}">
+                        <span class="filter-option-count" data-count="${key}-${val}">0</span>
+                    </div>
+                </div>
+            </div>
+        `;
+    },
+
+    buildHierarchicalFilterGroup(key, group, buildHierarchyHTML) {
+        return `
+            <div class="filter-group-title">
+                <div class="filter-group-title-left">
+                    <span class="toggle-icon">▼</span>
+                    <span>${group.title}</span>
+                </div>
+                <div class="filter-group-title-checkbox">
+                    <input type="checkbox" data-filter="${key}" data-group-all="${key}" value="__GROUP_ALL__" checked>
+                    <span class="filter-option-count" style="visibility: hidden;">0</span>
+                </div>
+            </div>
+            <div class="filter-options hierarchical" data-group="${key}">
+                ${buildHierarchyHTML(group.values)}
+            </div>
+        `;
+    },
+
+    buildHierarchyOption(key, value, fullPath, hasChildren, level, baseIndent, childrenHTML = '') {
+        const indent = baseIndent;
+        
+        if (hasChildren) {
+            return `
+                <div class="filter-option-wrapper" style="margin-left: ${indent}px;" data-level="${level}">
+                    <div class="filter-option hierarchy-name-only" data-path="${fullPath}" style="padding-left: 0;">
+                        <div class="filter-option-label" style="margin-left: 0;">
+                            <span class="hierarchy-toggle">▶</span>
+                            <span class="hierarchy-label">${value}</span>
+                        </div>
+                        <div class="filter-option-connector"></div>
+                        <div class="filter-option-checkbox" data-target="recursive">
+                            <input type="checkbox" 
+                                data-filter="${key}" 
+                                data-level="${level + 1}"
+                                data-path="${fullPath}:ALL"
+                                data-parent-path="${fullPath}"
+                                value="${fullPath}:ALL">
+                            <span class="filter-option-count" data-count="${key}-${fullPath}">0</span>
+                        </div>
+                    </div>
+                    <div class="filter-children collapsed">
+                        ${childrenHTML}
+                    </div>
+                </div>
+            `;
+        } else {
+            return `
+                <div class="filter-option-wrapper" style="margin-left: ${indent}px;" data-level="${level}">
+                    <div class="filter-option" style="padding-left: 0;">
+                        <div class="filter-option-label" style="margin-left: 0;">
+                            <span class="hierarchy-spacer"></span>
+                            <span>${value}</span>
+                        </div>
+                        <div class="filter-option-connector"></div>
+                        <div class="filter-option-checkbox" data-target="single">
+                            <input type="checkbox" 
+                                data-filter="${key}" 
+                                data-level="${level}"
+                                data-path="${fullPath}"
+                                value="${value}">
+                            <span class="filter-option-count" data-count="${key}-${fullPath}">0</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+    },
+
+    /**
+     * Video Card Templates
+     */
+    buildVideoCard(ds, formatMetaTags, formatHoverOverlay, listDatasets) {
+        return `
+            <div class="video-thumbnail">
+            <video loop muted playsinline preload="none" data-src="${ds.video_url}">
+                <source data-src="${ds.video_url}" type="video/mp4">
+            </video>
+                <div class="video-error" style="display:none;">No Video</div>
+                ${listDatasets.has(ds.path) ? '<div class="video-success-badge">✓</div>' : ''}
+            </div>
+            <div class="video-info">
+                <div class="video-title">${ds.name}</div>
+                <div class="video-tags">${formatMetaTags(ds)}</div>
+            </div>
+            <div class="video-hover-overlay">${formatHoverOverlay(ds)}</div>
+        `;
+    },
+
+    buildVideoTag(text, more = '') {
+        return `<span class="video-tag"> ${text} ${more}</span>`;
+    },
+
+    buildVideoErrorBadge() {
+        return '<div class="video-error" style="display:none;">No Video</div>';
+    },
+
+    buildVideoSuccessBadge() {
+        return '<div class="video-success-badge">✓</div>';
+    },
+
+    /**
+     * Hover Overlay Templates
+     */
+    buildHoverOverlay(ds) {
+        let html = `<div class="hover-title">${ds.name}</div>`;
+        
+        // Scene information
+        if (ds.scenes && ds.scenes.length > 0) {
+            html += this.buildHoverInfoGroup('scene', ds.scenes.map(s => this.buildHoverTag(s)).join(''));
+        }
+        
+        // Robot model
+        if (ds.robot) {
+            const robots = Array.isArray(ds.robot) ? ds.robot : [ds.robot];
+            html += this.buildHoverInfoGroup('robot', robots.map(r => this.buildHoverTag(r)).join(''));
+        }
+        
+        // End effector
+        if (ds.endEffector) {
+            html += this.buildHoverInfoGroup('end effector', this.buildHoverTag(ds.endEffector));
+        }
+        
+        // Actions
+        if (ds.actions && ds.actions.length > 0) {
+            html += this.buildHoverInfoGroup(`action(${ds.actions.length})`, ds.actions.map(a => this.buildHoverTag(a)).join(''));
+        }
+        
+        // Objects
+        if (ds.objects && ds.objects.length > 0) {
+            const objectChains = ds.objects.map(obj => obj.hierarchy.join(' → '));
+            html += this.buildHoverInfoGroup(
+                `operation object(${ds.objects.length})`, 
+                objectChains.map(chain => this.buildHoverTag(chain)).join('')
+            );
+        }
+        
+        // Description
+        if (ds.description) {
+            html += this.buildHoverInfoGroup('discription', ds.description, false);
+        }
+        
+        return html;
+    },
+
+    buildHoverInfoGroup(label, content, useTags = true) {
+        return `
+            <div class="hover-info-group">
+                <div class="hover-info-label">${label}</div>
+                <div class="hover-info-content${useTags ? ' tags' : ''}">${content}</div>
+            </div>
+        `;
+    },
+
+    buildHoverTag(text) {
+        return `<span class="hover-tag">${text}</span>`;
+    },
+
+    /**
+     * Selection Panel Templates
+     */
+    buildEmptyCartHint() {
+        return `
+            <div class="empty-cart-hint">
+                <div class="hint-title">🛒 Your cart is empty</div>
+                <div class="hint-subtitle">Quick Start Guide:</div>
+                <div class="hint-steps">
+                    ${this.buildHintStep(1, 'Filter datasets (left panel)')}
+                    ${this.buildHintArrow()}
+                    ${this.buildHintStep(2, 'Select items (click cards or "select all")')}
+                    ${this.buildHintArrow()}
+                    ${this.buildHintStep(3, 'Add to cart (green button)')}
+                    ${this.buildHintArrow()}
+                    ${this.buildHintStep(4, 'Review & manage (view/remove items)')}
+                    ${this.buildHintArrow()}
+                    ${this.buildHintStep(5, 'Choose source & copy download code!')}
+                </div>
+            </div>
+        `;
+    },
+
+    buildHintStep(number, text) {
+        return `
+            <div class="hint-step">
+                <span class="step-number">${number}</span>
+                <span class="step-text">${text}</span>
+            </div>
+        `;
+    },
+
+    buildHintArrow() {
+        return '<div class="hint-arrow">↓</div>';
+    },
+
+    buildSelectionItem(ds) {
+        return `
+            <div class="selection-item-name">${ds.name}</div>
+            <button class="btn-detail" data-path="${ds.path}" title="View details">...</button>
+            <button class="btn-remove" data-path="${ds.path}">×</button>
+        `;
+    },
+
+    /**
+     * Detail Modal Templates
+     */
+    buildDetailModal(dataset) {
+        const scenesText = Array.isArray(dataset.scenes) && dataset.scenes.length > 0
+            ? dataset.scenes.join(', ')
+            : 'N/A';
+        
+        const actionsText = Array.isArray(dataset.actions) && dataset.actions.length > 0
+            ? dataset.actions.join(', ')
+            : 'N/A';
+        
+        let objectsHTML = 'N/A';
+        if (Array.isArray(dataset.objects) && dataset.objects.length > 0) {
+            objectsHTML = dataset.objects.map(obj => {
+                const hierarchyText = obj.hierarchy.join(' > ');
+                return `<div style="margin-bottom: 4px;">• ${obj.name} (${hierarchyText})</div>`;
+            }).join('');
+        }
+        
+        return `
+            <div class="detail-modal">
+                <div class="detail-modal-header">
+                    <h3 class="detail-modal-title">${dataset.name}</h3>
+                    <button class="detail-modal-close">×</button>
+                </div>
+                <div class="detail-modal-body">
+                    ${this.buildDetailVideo(dataset.video_url)}
+                    ${this.buildDetailInfoGrid(dataset, scenesText, actionsText, objectsHTML)}
+                </div>
+            </div>
+        `;
+    },
+
+    buildDetailVideo(videoUrl) {
+        return `
+            <div class="detail-video-container">
+                <video autoplay loop muted playsinline preload="auto">
+                    <source src="${videoUrl}" type="video/mp4">
+                    <div class="video-error">Video not found</div>
+                </video>
+            </div>
+        `;
+    },
+
+    buildDetailInfoGrid(dataset, scenesText, actionsText, objectsHTML) {
+        return `
+            <div class="detail-info-grid">
+                ${this.buildDetailInfoItem('Dataset Path', dataset.path)}
+                ${this.buildDetailInfoItem('Dataset Name', dataset.name)}
+                ${this.buildDetailInfoItem('Task Description', dataset.description || 'N/A')}
+                ${this.buildDetailInfoItem('Device Model (Robot)', dataset.robot || 'N/A')}
+                ${this.buildDetailInfoItem('End Effector Type', dataset.endEffector || 'N/A')}
+                ${this.buildDetailInfoItem('Operation Platform Height', dataset.platformHeight !== undefined ? dataset.platformHeight : 'N/A')}
+                ${this.buildDetailInfoItem('Scene Type', scenesText)}
+                ${this.buildDetailInfoItem('Atomic Actions', actionsText)}
+                ${this.buildDetailInfoItem('Operation Objects', objectsHTML)}
+            </div>
+        `;
+    },
+
+    buildDetailInfoItem(label, value) {
+        return `
+            <div class="detail-info-item">
+                <div class="detail-info-label">${label}</div>
+                <div class="detail-info-value">${value}</div>
+            </div>
+        `;
+    },
+
+    /**
+     * Hover Preview Templates
+     */
+    buildHoverPreview(dataset) {
+        const sceneText = Array.isArray(dataset.scenes) && dataset.scenes.length > 0
+            ? dataset.scenes.slice(0, 2).join(', ') + (dataset.scenes.length > 2 ? '...' : '')
+            : 'N/A';
+        
+        const actionText = Array.isArray(dataset.actions) && dataset.actions.length > 0
+            ? dataset.actions.slice(0, 2).join(', ') + (dataset.actions.length > 2 ? '...' : '')
+            : 'N/A';
+        
+        const robotText = dataset.robot || 'N/A';
+        
+        return `
+            <div class="hover-preview-video">
+                <video src="${dataset.video_url}" autoplay loop muted preload="auto"></video>
+            </div>
+            <div class="hover-preview-info">
+                <div class="hover-preview-title">${dataset.name}</div>
+                <div class="hover-preview-meta">
+                    ${this.buildHoverPreviewMetaItem('Robot', robotText)}
+                    ${this.buildHoverPreviewMetaItem('Scene', sceneText)}
+                    ${this.buildHoverPreviewMetaItem('Action', actionText)}
+                </div>
+            </div>
+        `;
+    },
+
+    buildHoverPreviewMetaItem(label, value) {
+        return `<div class="hover-preview-meta-item"><strong>${label}:</strong> ${value}</div>`;
+    }
+};
+
+export default Templates;
+

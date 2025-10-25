@@ -1,0 +1,29 @@
+dataset_name: arrange_beverage_a_to_toy_b_5366
+dataset_uuid: fd93acfc-e887-4505-adb9-a64312cef3a5
+task_descriptions:
+- arrange_the_beverage_a_and_place_in_the_toy_b
+scene_type:
+- home
+- hospital
+- office
+atomic_actions:
+- pick
+- push
+- lower
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

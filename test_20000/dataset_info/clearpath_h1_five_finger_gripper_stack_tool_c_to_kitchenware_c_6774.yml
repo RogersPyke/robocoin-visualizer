@@ -1,0 +1,28 @@
+dataset_name: stack_tool_c_to_kitchenware_c_6774
+dataset_uuid: 8aa7c700-c173-4b82-8203-8a704fd3e39c
+task_descriptions:
+- stack_the_tool_c_and_place_in_the_kitchenware_c
+scene_type:
+- hospital
+- store
+- restaurant
+atomic_actions:
+- place
+- remove
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- clearpath_h1
+end_effector_type: five_finger_gripper

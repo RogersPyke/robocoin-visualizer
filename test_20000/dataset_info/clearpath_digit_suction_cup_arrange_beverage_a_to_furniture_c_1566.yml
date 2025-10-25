@@ -1,0 +1,27 @@
+dataset_name: arrange_beverage_a_to_furniture_c_1566
+dataset_uuid: 4d867211-e386-4ca6-a8d1-bbe06b743e5e
+task_descriptions:
+- arrange_the_beverage_a_and_place_in_the_furniture_c
+scene_type:
+- restaurant
+- office
+atomic_actions:
+- remove
+- rotate
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.0
+device_model:
+- clearpath_digit
+end_effector_type: suction_cup

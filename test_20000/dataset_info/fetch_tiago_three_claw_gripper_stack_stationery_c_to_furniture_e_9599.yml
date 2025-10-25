@@ -1,0 +1,27 @@
+dataset_name: stack_stationery_c_to_furniture_e_9599
+dataset_uuid: 748bafa7-3851-41c9-9381-9f1e86b6ba48
+task_descriptions:
+- stack_the_stationery_c_and_place_in_the_furniture_e
+scene_type:
+- warehouse
+- cafe
+atomic_actions:
+- slide
+- remove
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

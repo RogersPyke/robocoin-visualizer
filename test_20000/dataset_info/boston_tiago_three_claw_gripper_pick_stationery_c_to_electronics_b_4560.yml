@@ -1,0 +1,30 @@
+dataset_name: pick_stationery_c_to_electronics_b_4560
+dataset_uuid: 4a7fccbd-60a5-4b24-bb88-9b777a95647d
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_electronics_b
+scene_type:
+- warehouse
+- home
+- kitchen
+atomic_actions:
+- lower
+- place
+- flip
+- pull
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

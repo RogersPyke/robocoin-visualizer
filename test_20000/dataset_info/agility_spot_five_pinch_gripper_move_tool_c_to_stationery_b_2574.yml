@@ -1,0 +1,28 @@
+dataset_name: move_tool_c_to_stationery_b_2574
+dataset_uuid: 6782485f-8fcb-4604-bef8-2ff39d7376c6
+task_descriptions:
+- move_the_tool_c_and_place_in_the_stationery_b
+scene_type:
+- office
+- kitchen
+- restaurant
+atomic_actions:
+- rotate
+- lower
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.7
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

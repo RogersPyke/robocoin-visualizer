@@ -1,0 +1,27 @@
+dataset_name: stack_toy_a_to_toy_c_4109
+dataset_uuid: 51302579-cc4d-46fe-98df-c4a8deecc88e
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_toy_c
+scene_type:
+- warehouse
+- restaurant
+atomic_actions:
+- rotate
+- lower
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

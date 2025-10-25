@@ -1,0 +1,28 @@
+dataset_name: pick_tool_a_to_fruit_b_1781
+dataset_uuid: a5a3008d-838c-41ae-8221-f5248d8f9f88
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_fruit_b
+scene_type:
+- kitchen
+atomic_actions:
+- rotate
+- slide
+- grasp
+- push
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,30 @@
+dataset_name: pick_fruit_d_to_tool_c_4119
+dataset_uuid: 7286d243-eb84-4fc1-bc1f-ebe7aa5b7fd2
+task_descriptions:
+- pick_the_fruit_d_and_place_in_the_tool_c
+scene_type:
+- hospital
+- restaurant
+- kitchen
+atomic_actions:
+- push
+- flip
+- rotate
+- pull
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.3
+device_model:
+- fetch_tiago
+end_effector_type: two_claw_gripper

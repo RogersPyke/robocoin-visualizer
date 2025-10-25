@@ -1,0 +1,27 @@
+dataset_name: place_fruit_a_to_kitchenware_b_3757
+dataset_uuid: c0b8ff28-6803-4a9f-97d2-0a0161a66f9f
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_kitchenware_b
+scene_type:
+- kitchen
+- warehouse
+atomic_actions:
+- insert
+- flip
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

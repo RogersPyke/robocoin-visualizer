@@ -1,0 +1,29 @@
+dataset_name: stack_textile_a_to_electronics_b_4667
+dataset_uuid: 964e0bda-9b03-4549-91ff-c1f407ea51fe
+task_descriptions:
+- stack_the_textile_a_and_place_in_the_electronics_b
+scene_type:
+- warehouse
+- restaurant
+- store
+atomic_actions:
+- remove
+- lift
+- pick
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.8
+device_model:
+- clearpath_h1
+end_effector_type: two_finger_gripper

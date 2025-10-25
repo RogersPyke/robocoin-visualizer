@@ -1,0 +1,30 @@
+dataset_name: stack_stationery_b_to_beverage_d_9836
+dataset_uuid: bd37c22c-ad76-40a0-8480-1cdd6d98554c
+task_descriptions:
+- stack_the_stationery_b_and_place_in_the_beverage_d
+scene_type:
+- restaurant
+- factory
+- home
+atomic_actions:
+- remove
+- push
+- pull
+- flip
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.6
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

@@ -1,0 +1,30 @@
+dataset_name: pick_tool_c_to_container_b_5971
+dataset_uuid: 8d319830-4766-433a-a6aa-e063597fd2d0
+task_descriptions:
+- pick_the_tool_c_and_place_in_the_container_b
+scene_type:
+- hospital
+- store
+- kitchen
+atomic_actions:
+- insert
+- place
+- push
+- lower
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

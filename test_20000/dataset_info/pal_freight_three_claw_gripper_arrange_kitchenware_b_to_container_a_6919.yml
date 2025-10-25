@@ -1,0 +1,27 @@
+dataset_name: arrange_kitchenware_b_to_container_a_6919
+dataset_uuid: 1fb45a84-2f89-49ed-a196-2a07fa783c48
+task_descriptions:
+- arrange_the_kitchenware_b_and_place_in_the_container_a
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- lower
+- pick
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

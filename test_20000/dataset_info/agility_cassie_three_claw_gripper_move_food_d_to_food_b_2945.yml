@@ -1,0 +1,28 @@
+dataset_name: move_food_d_to_food_b_2945
+dataset_uuid: 307df9a4-3fbd-4083-ae25-45b2ae53bace
+task_descriptions:
+- move_the_food_d_and_place_in_the_food_b
+scene_type:
+- restaurant
+- factory
+- kitchen
+atomic_actions:
+- lift
+- pull
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

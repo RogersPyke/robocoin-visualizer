@@ -1,0 +1,30 @@
+dataset_name: place_food_d_to_food_c_3185
+dataset_uuid: 87a1428a-bdde-4f1d-9008-bcbb6b01c7e0
+task_descriptions:
+- place_the_food_d_and_place_in_the_food_c
+scene_type:
+- office
+- laboratory
+- hospital
+atomic_actions:
+- lower
+- rotate
+- pick
+- grasp
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.3
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

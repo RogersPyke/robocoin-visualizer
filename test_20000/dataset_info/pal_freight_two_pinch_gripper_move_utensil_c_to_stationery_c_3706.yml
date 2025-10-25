@@ -1,0 +1,27 @@
+dataset_name: move_utensil_c_to_stationery_c_3706
+dataset_uuid: c7539b16-e618-492d-9122-de8709250e3f
+task_descriptions:
+- move_the_utensil_c_and_place_in_the_stationery_c
+scene_type:
+- kitchen
+- store
+atomic_actions:
+- place
+- slide
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

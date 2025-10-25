@@ -1,0 +1,28 @@
+dataset_name: move_kitchenware_c_to_textile_c_1341
+dataset_uuid: d46d3a75-997b-4aa8-8ab4-a7605aa30b08
+task_descriptions:
+- move_the_kitchenware_c_and_place_in_the_textile_c
+scene_type:
+- factory
+- warehouse
+- kitchen
+atomic_actions:
+- lower
+- remove
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

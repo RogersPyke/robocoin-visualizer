@@ -1,0 +1,30 @@
+dataset_name: place_utensil_a_to_kitchenware_a_2676
+dataset_uuid: b74b71cb-7c2d-4916-93ed-b5ea18587abe
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_kitchenware_a
+scene_type:
+- kitchen
+- office
+- hospital
+atomic_actions:
+- pick
+- remove
+- flip
+- push
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- agility_spot
+end_effector_type: two_claw_gripper

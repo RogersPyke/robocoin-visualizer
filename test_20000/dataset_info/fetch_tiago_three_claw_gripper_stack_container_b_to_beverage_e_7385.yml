@@ -1,0 +1,27 @@
+dataset_name: stack_container_b_to_beverage_e_7385
+dataset_uuid: 33ed44d8-5874-49d6-a9d0-d5bab7b97a37
+task_descriptions:
+- stack_the_container_b_and_place_in_the_beverage_e
+scene_type:
+- kitchen
+atomic_actions:
+- lift
+- rotate
+- grasp
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+operation_platform_height: 75.7
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: move_furniture_d_to_fruit_c_1433
+dataset_uuid: c3faddf9-0d4c-4baa-a4e4-c5e1402a848e
+task_descriptions:
+- move_the_furniture_d_and_place_in_the_fruit_c
+scene_type:
+- office
+- laboratory
+atomic_actions:
+- push
+- lower
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

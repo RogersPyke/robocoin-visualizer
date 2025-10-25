@@ -1,0 +1,27 @@
+dataset_name: place_electronics_b_to_textile_d_6841
+dataset_uuid: ac688303-399c-47fa-b671-1244f6b31fb8
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_textile_d
+scene_type:
+- office
+atomic_actions:
+- grasp
+- flip
+- rotate
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

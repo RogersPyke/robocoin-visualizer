@@ -1,0 +1,27 @@
+dataset_name: arrange_toy_c_to_toy_c_9321
+dataset_uuid: 1a8832c3-f72e-4ac8-9f97-68aaf1a527c5
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_toy_c
+scene_type:
+- laboratory
+- store
+atomic_actions:
+- flip
+- remove
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.0
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

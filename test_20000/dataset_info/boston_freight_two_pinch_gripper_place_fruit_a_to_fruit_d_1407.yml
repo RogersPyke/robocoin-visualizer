@@ -1,0 +1,27 @@
+dataset_name: place_fruit_a_to_fruit_d_1407
+dataset_uuid: 90b3cd52-aab2-4945-bdc7-35a22c9d6581
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_fruit_d
+scene_type:
+- office
+- laboratory
+atomic_actions:
+- flip
+- slide
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

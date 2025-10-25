@@ -1,0 +1,27 @@
+dataset_name: pick_furniture_d_to_textile_d_3852
+dataset_uuid: e69c8995-2e77-496d-ab7e-5a48bccf4971
+task_descriptions:
+- pick_the_furniture_d_and_place_in_the_textile_d
+scene_type:
+- cafe
+atomic_actions:
+- grasp
+- flip
+- pull
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.4
+device_model:
+- unitree_digit
+end_effector_type: two_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_utensil_c_to_furniture_d_3727
+dataset_uuid: 19dfb2fa-f287-4854-aedc-57d2b0ec8753
+task_descriptions:
+- place_the_utensil_c_and_place_in_the_furniture_d
+scene_type:
+- office
+- cafe
+- kitchen
+atomic_actions:
+- lower
+- insert
+- push
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_b_to_toy_b_2431
+dataset_uuid: ce07441e-1a42-4a57-baf0-c32a4e13d685
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_toy_b
+scene_type:
+- store
+atomic_actions:
+- pull
+- lift
+- rotate
+- insert
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

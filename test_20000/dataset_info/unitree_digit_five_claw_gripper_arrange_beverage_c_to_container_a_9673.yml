@@ -1,0 +1,26 @@
+dataset_name: arrange_beverage_c_to_container_a_9673
+dataset_uuid: b87989ac-ce50-443e-b36d-92fc87e4b3fc
+task_descriptions:
+- arrange_the_beverage_c_and_place_in_the_container_a
+scene_type:
+- store
+atomic_actions:
+- slide
+- pull
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.2
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

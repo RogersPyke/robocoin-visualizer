@@ -1,0 +1,27 @@
+dataset_name: stack_utensil_d_to_stationery_b_4863
+dataset_uuid: 0b97586a-2a34-4cad-beb5-b44fadfcd5f1
+task_descriptions:
+- stack_the_utensil_d_and_place_in_the_stationery_b
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- pick
+- push
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.4
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

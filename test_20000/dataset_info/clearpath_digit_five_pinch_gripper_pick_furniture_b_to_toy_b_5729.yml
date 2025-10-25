@@ -1,0 +1,26 @@
+dataset_name: pick_furniture_b_to_toy_b_5729
+dataset_uuid: 8e8e15aa-3daa-4665-9e03-56f5f91ee82d
+task_descriptions:
+- pick_the_furniture_b_and_place_in_the_toy_b
+scene_type:
+- cafe
+atomic_actions:
+- remove
+- pull
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.5
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

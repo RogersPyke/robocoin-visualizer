@@ -1,0 +1,28 @@
+dataset_name: place_utensil_d_to_container_a_3126
+dataset_uuid: 4a44f77d-508d-4824-943d-1917fc247fea
+task_descriptions:
+- place_the_utensil_d_and_place_in_the_container_a
+scene_type:
+- factory
+- office
+- laboratory
+atomic_actions:
+- lower
+- lift
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 89.1
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

@@ -1,0 +1,30 @@
+dataset_name: stack_utensil_b_to_stationery_c_9963
+dataset_uuid: cc2d9e9d-bb0c-448e-bb5d-96201dab1a80
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_stationery_c
+scene_type:
+- hospital
+- store
+- restaurant
+atomic_actions:
+- remove
+- place
+- insert
+- pull
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

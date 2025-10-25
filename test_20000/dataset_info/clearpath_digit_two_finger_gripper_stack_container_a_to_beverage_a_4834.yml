@@ -1,0 +1,29 @@
+dataset_name: stack_container_a_to_beverage_a_4834
+dataset_uuid: 8420a6cb-d2c6-4ee2-ac23-bc19ff58988f
+task_descriptions:
+- stack_the_container_a_and_place_in_the_beverage_a
+scene_type:
+- hospital
+- cafe
+atomic_actions:
+- push
+- place
+- grasp
+- pull
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.3
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

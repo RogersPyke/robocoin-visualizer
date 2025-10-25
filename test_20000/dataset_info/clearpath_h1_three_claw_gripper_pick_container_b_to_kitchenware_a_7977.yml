@@ -1,0 +1,29 @@
+dataset_name: pick_container_b_to_kitchenware_a_7977
+dataset_uuid: 4a48d34d-70ad-44bc-8f66-666868a9b2a4
+task_descriptions:
+- pick_the_container_b_and_place_in_the_kitchenware_a
+scene_type:
+- hospital
+- store
+- cafe
+atomic_actions:
+- place
+- push
+- insert
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+operation_platform_height: 84.1
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

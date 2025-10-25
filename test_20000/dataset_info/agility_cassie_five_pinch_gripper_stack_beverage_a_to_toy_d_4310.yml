@@ -1,0 +1,27 @@
+dataset_name: stack_beverage_a_to_toy_d_4310
+dataset_uuid: 582d0ee0-0088-4708-8c08-c57e3032bde4
+task_descriptions:
+- stack_the_beverage_a_and_place_in_the_toy_d
+scene_type:
+- restaurant
+- hospital
+atomic_actions:
+- remove
+- grasp
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.4
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

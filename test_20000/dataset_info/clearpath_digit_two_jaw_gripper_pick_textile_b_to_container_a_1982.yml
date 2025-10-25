@@ -1,0 +1,28 @@
+dataset_name: pick_textile_b_to_container_a_1982
+dataset_uuid: 7f15265c-9ae0-4e62-b2a2-64e0e8b267f5
+task_descriptions:
+- pick_the_textile_b_and_place_in_the_container_a
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- remove
+- rotate
+- lift
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 85.0
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

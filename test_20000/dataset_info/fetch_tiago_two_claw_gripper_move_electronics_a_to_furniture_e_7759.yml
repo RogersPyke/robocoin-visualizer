@@ -1,0 +1,28 @@
+dataset_name: move_electronics_a_to_furniture_e_7759
+dataset_uuid: 563067ce-1a7a-47d2-8232-f6d42828b788
+task_descriptions:
+- move_the_electronics_a_and_place_in_the_furniture_e
+scene_type:
+- restaurant
+- cafe
+atomic_actions:
+- pull
+- place
+- lift
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- fetch_tiago
+end_effector_type: two_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: arrange_furniture_a_to_electronics_a_2852
+dataset_uuid: 2dc4c7d5-5d47-4763-aac1-d391e511c8c0
+task_descriptions:
+- arrange_the_furniture_a_and_place_in_the_electronics_a
+scene_type:
+- store
+- home
+- factory
+atomic_actions:
+- pull
+- grasp
+- pick
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- unitree_h1
+end_effector_type: suction_cup

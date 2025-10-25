@@ -1,0 +1,28 @@
+dataset_name: arrange_tool_a_to_textile_d_6648
+dataset_uuid: 43d80f45-ab01-4fea-85e0-1b3d9e0cffef
+task_descriptions:
+- arrange_the_tool_a_and_place_in_the_textile_d
+scene_type:
+- office
+- factory
+- warehouse
+atomic_actions:
+- pull
+- lift
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

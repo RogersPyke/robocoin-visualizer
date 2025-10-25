@@ -1,0 +1,27 @@
+dataset_name: move_toy_c_to_toy_c_2410
+dataset_uuid: 28484dab-b031-40b4-a69a-985f31c96975
+task_descriptions:
+- move_the_toy_c_and_place_in_the_toy_c
+scene_type:
+- warehouse
+atomic_actions:
+- lift
+- rotate
+- insert
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

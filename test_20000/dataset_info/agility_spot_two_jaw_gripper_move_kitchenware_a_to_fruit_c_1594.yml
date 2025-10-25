@@ -1,0 +1,30 @@
+dataset_name: move_kitchenware_a_to_fruit_c_1594
+dataset_uuid: c999c0dd-ffa5-4a70-9bab-6a4bdff42765
+task_descriptions:
+- move_the_kitchenware_a_and_place_in_the_fruit_c
+scene_type:
+- factory
+- kitchen
+- restaurant
+atomic_actions:
+- lift
+- insert
+- push
+- slide
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

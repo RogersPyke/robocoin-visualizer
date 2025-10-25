@@ -1,0 +1,29 @@
+dataset_name: arrange_container_b_to_utensil_c_1252
+dataset_uuid: 110e925b-dfec-438e-be1a-44ad13b27295
+task_descriptions:
+- arrange_the_container_b_and_place_in_the_utensil_c
+scene_type:
+- store
+- home
+- warehouse
+atomic_actions:
+- lift
+- grasp
+- insert
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.0
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

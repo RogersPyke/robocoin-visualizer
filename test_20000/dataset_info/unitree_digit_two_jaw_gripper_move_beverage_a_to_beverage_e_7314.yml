@@ -1,0 +1,30 @@
+dataset_name: move_beverage_a_to_beverage_e_7314
+dataset_uuid: 058bb4ab-385f-4f4a-bbdb-3411866193af
+task_descriptions:
+- move_the_beverage_a_and_place_in_the_beverage_e
+scene_type:
+- warehouse
+- kitchen
+- home
+atomic_actions:
+- pull
+- flip
+- rotate
+- slide
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.6
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_b_to_tool_d_3161
+dataset_uuid: 2a17adb0-8a2c-4bf1-8184-ecc346c7d4bd
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_tool_d
+scene_type:
+- restaurant
+atomic_actions:
+- lower
+- lift
+- push
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+operation_platform_height: 76.8
+device_model:
+- clearpath_h1
+end_effector_type: two_finger_gripper

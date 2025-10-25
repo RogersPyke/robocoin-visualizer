@@ -1,0 +1,27 @@
+dataset_name: place_beverage_d_to_food_b_6354
+dataset_uuid: 42c93ff9-b05d-41c5-84f5-42225afa0a2e
+task_descriptions:
+- place_the_beverage_d_and_place_in_the_food_b
+scene_type:
+- kitchen
+atomic_actions:
+- rotate
+- slide
+- pull
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

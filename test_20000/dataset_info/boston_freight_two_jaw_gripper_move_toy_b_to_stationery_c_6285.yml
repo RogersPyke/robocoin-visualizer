@@ -1,0 +1,30 @@
+dataset_name: move_toy_b_to_stationery_c_6285
+dataset_uuid: 65b0010a-d4e0-49a0-ae51-5a1d5e577302
+task_descriptions:
+- move_the_toy_b_and_place_in_the_stationery_c
+scene_type:
+- hospital
+- office
+- cafe
+atomic_actions:
+- insert
+- rotate
+- slide
+- push
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.9
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

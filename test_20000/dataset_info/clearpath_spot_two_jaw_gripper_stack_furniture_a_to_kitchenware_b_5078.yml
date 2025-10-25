@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_a_to_kitchenware_b_5078
+dataset_uuid: 26aea553-13b2-41e2-a36e-4a7743304263
+task_descriptions:
+- stack_the_furniture_a_and_place_in_the_kitchenware_b
+scene_type:
+- laboratory
+atomic_actions:
+- grasp
+- lift
+- place
+- remove
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 73.2
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

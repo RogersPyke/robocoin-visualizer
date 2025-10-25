@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_b_to_furniture_e_2120
+dataset_uuid: c550a440-08b3-4e87-8d57-4c1913a8fcab
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_furniture_e
+scene_type:
+- office
+- warehouse
+- hospital
+atomic_actions:
+- lower
+- pick
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.3
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

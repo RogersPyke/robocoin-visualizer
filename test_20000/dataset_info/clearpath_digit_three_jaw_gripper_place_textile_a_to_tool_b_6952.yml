@@ -1,0 +1,26 @@
+dataset_name: place_textile_a_to_tool_b_6952
+dataset_uuid: 49cf5eab-3973-4af8-8901-0d6448456ce5
+task_descriptions:
+- place_the_textile_a_and_place_in_the_tool_b
+scene_type:
+- cafe
+atomic_actions:
+- push
+- insert
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.7
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

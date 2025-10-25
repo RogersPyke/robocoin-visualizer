@@ -1,0 +1,29 @@
+dataset_name: move_container_a_to_stationery_b_2155
+dataset_uuid: e0313c08-c7c8-43d1-badd-314c81774dbc
+task_descriptions:
+- move_the_container_a_and_place_in_the_stationery_b
+scene_type:
+- kitchen
+- restaurant
+atomic_actions:
+- pick
+- lower
+- grasp
+- push
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 76.8
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

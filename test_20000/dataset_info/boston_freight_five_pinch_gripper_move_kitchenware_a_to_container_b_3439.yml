@@ -1,0 +1,30 @@
+dataset_name: move_kitchenware_a_to_container_b_3439
+dataset_uuid: 18a03dd9-3993-459f-afb9-1256ecfadd52
+task_descriptions:
+- move_the_kitchenware_a_and_place_in_the_container_b
+scene_type:
+- kitchen
+- cafe
+- restaurant
+atomic_actions:
+- flip
+- slide
+- place
+- remove
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

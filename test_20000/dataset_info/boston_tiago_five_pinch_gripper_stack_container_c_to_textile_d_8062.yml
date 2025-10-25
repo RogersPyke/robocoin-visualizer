@@ -1,0 +1,28 @@
+dataset_name: stack_container_c_to_textile_d_8062
+dataset_uuid: 8d5563ba-47d1-4948-9f09-9ecd2b38aa26
+task_descriptions:
+- stack_the_container_c_and_place_in_the_textile_d
+scene_type:
+- office
+- laboratory
+- cafe
+atomic_actions:
+- remove
+- slide
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

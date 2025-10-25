@@ -1,0 +1,29 @@
+dataset_name: pick_electronics_c_to_utensil_d_5443
+dataset_uuid: 55f1cd8c-1b8f-473e-8db9-205e9a0bda94
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_utensil_d
+scene_type:
+- home
+- office
+- store
+atomic_actions:
+- pull
+- lower
+- rotate
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 80.4
+device_model:
+- agility_spot
+end_effector_type: five_finger_gripper

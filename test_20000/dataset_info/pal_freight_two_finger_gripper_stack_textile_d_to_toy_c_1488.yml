@@ -1,0 +1,29 @@
+dataset_name: stack_textile_d_to_toy_c_1488
+dataset_uuid: a57924ba-b7c4-4841-b888-a1b13732f688
+task_descriptions:
+- stack_the_textile_d_and_place_in_the_toy_c
+scene_type:
+- warehouse
+- store
+atomic_actions:
+- insert
+- grasp
+- lower
+- remove
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- pal_freight
+end_effector_type: two_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_b_to_utensil_b_4968
+dataset_uuid: 0e262a71-fca7-4ff2-aa2c-0f876b667bcb
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_utensil_b
+scene_type:
+- restaurant
+- home
+atomic_actions:
+- lift
+- insert
+- pull
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.8
+device_model:
+- boston_h1
+end_effector_type: five_finger_gripper

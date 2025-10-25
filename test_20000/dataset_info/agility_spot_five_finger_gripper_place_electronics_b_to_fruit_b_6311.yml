@@ -1,0 +1,29 @@
+dataset_name: place_electronics_b_to_fruit_b_6311
+dataset_uuid: 4acbfcf3-ead8-4b1e-81ca-51a94427d696
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_fruit_b
+scene_type:
+- store
+- cafe
+- home
+atomic_actions:
+- insert
+- place
+- rotate
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- agility_spot
+end_effector_type: five_finger_gripper

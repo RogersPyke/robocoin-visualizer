@@ -1,0 +1,30 @@
+dataset_name: place_beverage_a_to_toy_b_7010
+dataset_uuid: 0ef0a248-8cc7-4ee2-b911-087cadb6e44f
+task_descriptions:
+- place_the_beverage_a_and_place_in_the_toy_b
+scene_type:
+- kitchen
+- laboratory
+- restaurant
+atomic_actions:
+- place
+- grasp
+- insert
+- pull
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

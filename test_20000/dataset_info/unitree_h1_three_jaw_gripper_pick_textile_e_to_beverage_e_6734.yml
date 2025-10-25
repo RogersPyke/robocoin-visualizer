@@ -1,0 +1,29 @@
+dataset_name: pick_textile_e_to_beverage_e_6734
+dataset_uuid: 69da5fb5-99e6-4466-a5d2-eb403bb80479
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_beverage_e
+scene_type:
+- hospital
+- factory
+- home
+atomic_actions:
+- grasp
+- insert
+- slide
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

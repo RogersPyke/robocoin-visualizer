@@ -1,0 +1,26 @@
+dataset_name: arrange_fruit_b_to_textile_c_2779
+dataset_uuid: 5d118906-5f49-4a35-98a5-01cf4c5a81f3
+task_descriptions:
+- arrange_the_fruit_b_and_place_in_the_textile_c
+scene_type:
+- home
+atomic_actions:
+- flip
+- grasp
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 89.2
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

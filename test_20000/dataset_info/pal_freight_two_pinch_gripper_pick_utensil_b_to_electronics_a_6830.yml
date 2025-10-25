@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_b_to_electronics_a_6830
+dataset_uuid: 190153f4-ebd3-473f-9978-c815526f97cd
+task_descriptions:
+- pick_the_utensil_b_and_place_in_the_electronics_a
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- slide
+- remove
+- push
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

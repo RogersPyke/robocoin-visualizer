@@ -1,0 +1,27 @@
+dataset_name: pick_container_a_to_utensil_c_8668
+dataset_uuid: ed36ded5-e516-4ef5-badc-f3e2f6dbb445
+task_descriptions:
+- pick_the_container_a_and_place_in_the_utensil_c
+scene_type:
+- factory
+atomic_actions:
+- remove
+- pull
+- pick
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.9
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

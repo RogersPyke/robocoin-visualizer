@@ -1,0 +1,29 @@
+dataset_name: move_kitchenware_a_to_furniture_d_3021
+dataset_uuid: 50335395-b5fa-4a93-9957-1ce67995c57d
+task_descriptions:
+- move_the_kitchenware_a_and_place_in_the_furniture_d
+scene_type:
+- cafe
+- hospital
+- laboratory
+atomic_actions:
+- pick
+- insert
+- flip
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

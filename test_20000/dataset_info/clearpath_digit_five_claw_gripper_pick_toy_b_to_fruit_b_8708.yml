@@ -1,0 +1,27 @@
+dataset_name: pick_toy_b_to_fruit_b_8708
+dataset_uuid: cae38477-b71b-47b1-8dbe-15908d031433
+task_descriptions:
+- pick_the_toy_b_and_place_in_the_fruit_b
+scene_type:
+- kitchen
+atomic_actions:
+- grasp
+- push
+- rotate
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 78.0
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

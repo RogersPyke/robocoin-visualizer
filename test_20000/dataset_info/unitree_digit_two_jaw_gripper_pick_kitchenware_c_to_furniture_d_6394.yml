@@ -1,0 +1,26 @@
+dataset_name: pick_kitchenware_c_to_furniture_d_6394
+dataset_uuid: 7a5e7528-a9ca-42df-b189-fc088c18e33b
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_furniture_d
+scene_type:
+- factory
+atomic_actions:
+- rotate
+- pull
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.4
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

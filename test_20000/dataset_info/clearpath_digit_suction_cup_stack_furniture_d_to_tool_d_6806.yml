@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_d_to_tool_d_6806
+dataset_uuid: 29c9f4c9-5429-434f-8d1e-6fa735eeb7a9
+task_descriptions:
+- stack_the_furniture_d_and_place_in_the_tool_d
+scene_type:
+- factory
+atomic_actions:
+- lift
+- push
+- pull
+- slide
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- clearpath_digit
+end_effector_type: suction_cup

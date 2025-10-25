@@ -1,0 +1,27 @@
+dataset_name: place_food_d_to_tool_a_6113
+dataset_uuid: ec880985-b897-4b51-b5f8-469316947e25
+task_descriptions:
+- place_the_food_d_and_place_in_the_tool_a
+scene_type:
+- restaurant
+atomic_actions:
+- push
+- flip
+- slide
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.0
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

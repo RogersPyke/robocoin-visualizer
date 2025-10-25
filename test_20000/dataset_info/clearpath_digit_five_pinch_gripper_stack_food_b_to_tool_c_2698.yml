@@ -1,0 +1,27 @@
+dataset_name: stack_food_b_to_tool_c_2698
+dataset_uuid: a506d0c4-6f91-4eed-a549-3aa9705e23ac
+task_descriptions:
+- stack_the_food_b_and_place_in_the_tool_c
+scene_type:
+- restaurant
+atomic_actions:
+- lift
+- grasp
+- push
+objects:
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_electronics_b_to_utensil_a_5259
+dataset_uuid: 7f2ce4b2-7782-4ff8-83ac-05fa6b04ad9f
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_utensil_a
+scene_type:
+- laboratory
+- restaurant
+atomic_actions:
+- rotate
+- flip
+- insert
+- push
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- pal_freight
+end_effector_type: five_finger_gripper

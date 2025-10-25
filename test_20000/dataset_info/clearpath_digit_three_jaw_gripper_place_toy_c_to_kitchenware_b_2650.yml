@@ -1,0 +1,28 @@
+dataset_name: place_toy_c_to_kitchenware_b_2650
+dataset_uuid: 0dc44800-baf3-41b6-8a64-eacf0abcd504
+task_descriptions:
+- place_the_toy_c_and_place_in_the_kitchenware_b
+scene_type:
+- laboratory
+- store
+- cafe
+atomic_actions:
+- pick
+- insert
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.0
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_food_e_to_container_c_7534
+dataset_uuid: 3244c6df-1cf0-4efc-a557-6da0a051b0e8
+task_descriptions:
+- pick_the_food_e_and_place_in_the_container_c
+scene_type:
+- factory
+- hospital
+- kitchen
+atomic_actions:
+- place
+- flip
+- insert
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

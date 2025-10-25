@@ -1,0 +1,28 @@
+dataset_name: place_fruit_e_to_fruit_e_7616
+dataset_uuid: 1723b14b-9317-4b6a-bfc0-16d76b18de15
+task_descriptions:
+- place_the_fruit_e_and_place_in_the_fruit_e
+scene_type:
+- store
+atomic_actions:
+- place
+- pull
+- lift
+- pick
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

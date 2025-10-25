@@ -1,0 +1,27 @@
+dataset_name: pick_container_a_to_furniture_a_4051
+dataset_uuid: 0d0c98af-7542-4252-a73d-6f5000c3a385
+task_descriptions:
+- pick_the_container_a_and_place_in_the_furniture_a
+scene_type:
+- store
+atomic_actions:
+- insert
+- grasp
+- pick
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

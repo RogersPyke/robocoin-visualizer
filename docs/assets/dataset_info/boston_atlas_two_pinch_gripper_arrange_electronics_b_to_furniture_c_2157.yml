@@ -1,0 +1,26 @@
+dataset_name: arrange_electronics_b_to_furniture_c_2157
+dataset_uuid: 517fcaf4-d688-44c5-8150-9f571748915f
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_furniture_c
+scene_type:
+- laboratory
+atomic_actions:
+- lift
+- rotate
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.7
+device_model:
+- boston_atlas
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_kitchenware_b_to_stationery_c_7319
+dataset_uuid: 67a79cc7-ad45-4f3f-a0a9-77951f15ff92
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_stationery_c
+scene_type:
+- laboratory
+atomic_actions:
+- insert
+- lift
+- lower
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

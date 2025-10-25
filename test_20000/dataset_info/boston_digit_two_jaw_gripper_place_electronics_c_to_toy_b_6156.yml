@@ -1,0 +1,27 @@
+dataset_name: place_electronics_c_to_toy_b_6156
+dataset_uuid: 60444aa9-23a1-4904-b1b4-629f81ed6994
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_toy_b
+scene_type:
+- laboratory
+atomic_actions:
+- pull
+- place
+- remove
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+operation_platform_height: 74.4
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

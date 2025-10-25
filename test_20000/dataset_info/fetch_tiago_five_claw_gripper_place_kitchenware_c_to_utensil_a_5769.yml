@@ -1,0 +1,29 @@
+dataset_name: place_kitchenware_c_to_utensil_a_5769
+dataset_uuid: 56ec8b67-b445-45d2-835f-b20d59c5d474
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_utensil_a
+scene_type:
+- home
+- restaurant
+- laboratory
+atomic_actions:
+- push
+- place
+- remove
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 87.3
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

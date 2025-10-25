@@ -1,0 +1,29 @@
+dataset_name: place_fruit_e_to_furniture_e_6615
+dataset_uuid: a2f2138f-b7c4-49f2-9d49-e561b4be1afa
+task_descriptions:
+- place_the_fruit_e_and_place_in_the_furniture_e
+scene_type:
+- hospital
+- cafe
+- factory
+atomic_actions:
+- place
+- rotate
+- slide
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

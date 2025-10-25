@@ -1,0 +1,29 @@
+dataset_name: pick_beverage_b_to_electronics_c_8150
+dataset_uuid: 421f6e42-7c11-467e-a63c-c3f354d28072
+task_descriptions:
+- pick_the_beverage_b_and_place_in_the_electronics_c
+scene_type:
+- warehouse
+- home
+- cafe
+atomic_actions:
+- grasp
+- insert
+- lower
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

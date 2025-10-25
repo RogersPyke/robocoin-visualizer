@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_c_to_toy_b_5482
+dataset_uuid: 3664454d-38a6-495c-8270-0f1a630d1241
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_toy_b
+scene_type:
+- kitchen
+- laboratory
+atomic_actions:
+- grasp
+- pick
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- clearpath_spot
+end_effector_type: suction_cup

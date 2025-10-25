@@ -1,0 +1,26 @@
+dataset_name: place_stationery_a_to_toy_b_1319
+dataset_uuid: 6a85575f-b79e-4cf2-b569-9903622311a1
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_toy_b
+scene_type:
+- home
+atomic_actions:
+- insert
+- lift
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

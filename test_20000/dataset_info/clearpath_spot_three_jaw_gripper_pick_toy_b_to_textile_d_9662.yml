@@ -1,0 +1,28 @@
+dataset_name: pick_toy_b_to_textile_d_9662
+dataset_uuid: 15958148-feca-48bb-95cb-fd53d7eb3659
+task_descriptions:
+- pick_the_toy_b_and_place_in_the_textile_d
+scene_type:
+- kitchen
+- restaurant
+atomic_actions:
+- slide
+- remove
+- pick
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.3
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_textile_e_to_kitchenware_c_3152
+dataset_uuid: 7102e141-e084-4bcb-bfa6-3a58cd6ddeaa
+task_descriptions:
+- stack_the_textile_e_and_place_in_the_kitchenware_c
+scene_type:
+- kitchen
+- restaurant
+atomic_actions:
+- rotate
+- insert
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.5
+device_model:
+- unitree_digit
+end_effector_type: suction_cup

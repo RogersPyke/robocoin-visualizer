@@ -1,0 +1,28 @@
+dataset_name: place_container_b_to_stationery_b_8225
+dataset_uuid: dfd42d5f-67ec-49d5-ba7b-41d5a43776ea
+task_descriptions:
+- place_the_container_b_and_place_in_the_stationery_b
+scene_type:
+- kitchen
+atomic_actions:
+- place
+- pick
+- grasp
+- flip
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- agility_spot
+end_effector_type: suction_cup

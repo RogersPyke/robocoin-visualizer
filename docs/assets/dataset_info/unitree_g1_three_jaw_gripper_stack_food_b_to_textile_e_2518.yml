@@ -1,0 +1,29 @@
+dataset_name: stack_food_b_to_textile_e_2518
+dataset_uuid: 14387100-8cf9-41a2-8dc9-979fe5aa29bb
+task_descriptions:
+- stack_the_food_b_and_place_in_the_textile_e
+scene_type:
+- factory
+- store
+atomic_actions:
+- grasp
+- remove
+- rotate
+- flip
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+operation_platform_height: 75.9
+device_model:
+- unitree_g1
+end_effector_type: three_jaw_gripper

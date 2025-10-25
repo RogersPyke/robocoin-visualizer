@@ -1,0 +1,29 @@
+dataset_name: place_stationery_c_to_fruit_c_4315
+dataset_uuid: c07a2fcf-35cf-4ad6-8935-670cf6779708
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_fruit_c
+scene_type:
+- factory
+- laboratory
+atomic_actions:
+- lower
+- flip
+- grasp
+- rotate
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+operation_platform_height: 82.8
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

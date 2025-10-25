@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_c_to_toy_d_9547
+dataset_uuid: 8dca38bc-25f3-432b-ba23-22c637386377
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_toy_d
+scene_type:
+- cafe
+atomic_actions:
+- pick
+- flip
+- slide
+- lower
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

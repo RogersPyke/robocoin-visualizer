@@ -1,0 +1,30 @@
+dataset_name: move_furniture_a_to_utensil_c_8030
+dataset_uuid: 2e88fd4d-04c1-4ee6-8ead-660446a7df2b
+task_descriptions:
+- move_the_furniture_a_and_place_in_the_utensil_c
+scene_type:
+- kitchen
+- office
+- warehouse
+atomic_actions:
+- remove
+- flip
+- push
+- insert
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_toy_b_to_beverage_d_2258
+dataset_uuid: 44528e9f-3cc9-45d4-a509-24d7c86786ac
+task_descriptions:
+- pick_the_toy_b_and_place_in_the_beverage_d
+scene_type:
+- restaurant
+- warehouse
+- store
+atomic_actions:
+- insert
+- pick
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

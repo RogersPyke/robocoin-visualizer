@@ -1,0 +1,28 @@
+dataset_name: place_stationery_a_to_tool_b_1173
+dataset_uuid: 4e53d1d9-09a9-4dde-9064-b217316c7255
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_tool_b
+scene_type:
+- office
+atomic_actions:
+- grasp
+- push
+- pick
+- pull
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_electronics_b_to_stationery_a_9379
+dataset_uuid: ff66c236-faae-40da-b365-cd42077c37c7
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_stationery_a
+scene_type:
+- home
+- cafe
+atomic_actions:
+- rotate
+- pull
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

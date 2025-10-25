@@ -1,0 +1,29 @@
+dataset_name: arrange_fruit_b_to_furniture_a_6835
+dataset_uuid: 28802721-fe6d-4b89-a835-87ad6d5f3edc
+task_descriptions:
+- arrange_the_fruit_b_and_place_in_the_furniture_a
+scene_type:
+- cafe
+- home
+- kitchen
+atomic_actions:
+- pick
+- lift
+- remove
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_kitchenware_a_to_kitchenware_a_8874
+dataset_uuid: 5bc5fe44-7332-4cd2-a00a-be7b982b3df9
+task_descriptions:
+- move_the_kitchenware_a_and_place_in_the_kitchenware_a
+scene_type:
+- laboratory
+atomic_actions:
+- flip
+- push
+- lift
+- lower
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_food_e_to_utensil_b_9219
+dataset_uuid: bddf95a2-ca0b-4595-b9d0-be12c9e1e86b
+task_descriptions:
+- pick_the_food_e_and_place_in_the_utensil_b
+scene_type:
+- cafe
+- kitchen
+- warehouse
+atomic_actions:
+- pull
+- slide
+- insert
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

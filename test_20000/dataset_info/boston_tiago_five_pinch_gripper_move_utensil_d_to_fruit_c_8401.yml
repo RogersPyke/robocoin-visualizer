@@ -1,0 +1,26 @@
+dataset_name: move_utensil_d_to_fruit_c_8401
+dataset_uuid: c7091db1-fe75-420d-8a44-229b06ab9420
+task_descriptions:
+- move_the_utensil_d_and_place_in_the_fruit_c
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- grasp
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+operation_platform_height: 70.7
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

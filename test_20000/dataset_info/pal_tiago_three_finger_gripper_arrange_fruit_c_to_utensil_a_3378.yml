@@ -1,0 +1,27 @@
+dataset_name: arrange_fruit_c_to_utensil_a_3378
+dataset_uuid: edddee9a-7b10-46b2-9bdd-0ba3e8ad435d
+task_descriptions:
+- arrange_the_fruit_c_and_place_in_the_utensil_a
+scene_type:
+- hospital
+- kitchen
+atomic_actions:
+- remove
+- lift
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.4
+device_model:
+- pal_tiago
+end_effector_type: three_finger_gripper

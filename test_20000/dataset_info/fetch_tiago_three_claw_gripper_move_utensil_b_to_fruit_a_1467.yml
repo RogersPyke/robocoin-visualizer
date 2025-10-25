@@ -1,0 +1,29 @@
+dataset_name: move_utensil_b_to_fruit_a_1467
+dataset_uuid: 83ec8ca2-4ffc-487b-bd4c-8ae33d76cff4
+task_descriptions:
+- move_the_utensil_b_and_place_in_the_fruit_a
+scene_type:
+- hospital
+- restaurant
+atomic_actions:
+- lower
+- pull
+- lift
+- remove
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.3
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

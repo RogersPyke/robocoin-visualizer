@@ -1,0 +1,30 @@
+dataset_name: pick_beverage_c_to_food_b_7409
+dataset_uuid: c61fd431-c5a4-4cbe-8f8d-4c7865c68b47
+task_descriptions:
+- pick_the_beverage_c_and_place_in_the_food_b
+scene_type:
+- factory
+- warehouse
+- cafe
+atomic_actions:
+- push
+- pull
+- lower
+- insert
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.8
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

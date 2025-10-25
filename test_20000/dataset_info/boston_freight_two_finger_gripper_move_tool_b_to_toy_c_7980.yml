@@ -1,0 +1,27 @@
+dataset_name: move_tool_b_to_toy_c_7980
+dataset_uuid: 52d260f8-c121-4e4a-a4e9-cf7a01dcc357
+task_descriptions:
+- move_the_tool_b_and_place_in_the_toy_c
+scene_type:
+- restaurant
+- laboratory
+atomic_actions:
+- pick
+- flip
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

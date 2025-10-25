@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_a_to_furniture_b_9152
+dataset_uuid: e35286eb-58c9-48a0-ab71-85098c9ba534
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_furniture_b
+scene_type:
+- warehouse
+- store
+atomic_actions:
+- push
+- pull
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 72.4
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

@@ -1,0 +1,26 @@
+dataset_name: pick_electronics_b_to_beverage_b_1734
+dataset_uuid: 5701d2ef-f757-4d62-aa2d-faa21ab4a69d
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_beverage_b
+scene_type:
+- office
+atomic_actions:
+- slide
+- lower
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- agility_spot
+end_effector_type: suction_cup

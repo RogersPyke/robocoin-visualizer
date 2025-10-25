@@ -1,0 +1,28 @@
+dataset_name: move_tool_a_to_toy_d_8331
+dataset_uuid: ca499c08-6def-4b12-9aae-5f0ddbcaa43d
+task_descriptions:
+- move_the_tool_a_and_place_in_the_toy_d
+scene_type:
+- home
+atomic_actions:
+- push
+- slide
+- remove
+- rotate
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.1
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

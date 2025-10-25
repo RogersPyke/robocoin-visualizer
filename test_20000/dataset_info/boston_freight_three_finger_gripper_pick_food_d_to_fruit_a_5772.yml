@@ -1,0 +1,30 @@
+dataset_name: pick_food_d_to_fruit_a_5772
+dataset_uuid: 00df4b13-7808-4299-8401-3fa0f4f7f506
+task_descriptions:
+- pick_the_food_d_and_place_in_the_fruit_a
+scene_type:
+- factory
+- home
+- warehouse
+atomic_actions:
+- push
+- lower
+- pick
+- lift
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.9
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

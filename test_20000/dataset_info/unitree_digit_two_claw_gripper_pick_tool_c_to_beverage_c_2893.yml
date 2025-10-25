@@ -1,0 +1,28 @@
+dataset_name: pick_tool_c_to_beverage_c_2893
+dataset_uuid: 392f6f84-6836-4830-9d52-5561f9c26974
+task_descriptions:
+- pick_the_tool_c_and_place_in_the_beverage_c
+scene_type:
+- hospital
+- office
+atomic_actions:
+- pull
+- place
+- grasp
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.7
+device_model:
+- unitree_digit
+end_effector_type: two_claw_gripper

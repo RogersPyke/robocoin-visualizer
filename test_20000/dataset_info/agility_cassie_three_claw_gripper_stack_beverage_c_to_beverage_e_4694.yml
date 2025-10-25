@@ -1,0 +1,29 @@
+dataset_name: stack_beverage_c_to_beverage_e_4694
+dataset_uuid: eadf467c-cbc0-48b0-9ea2-a49cc3fe24ec
+task_descriptions:
+- stack_the_beverage_c_and_place_in_the_beverage_e
+scene_type:
+- cafe
+- home
+atomic_actions:
+- push
+- place
+- insert
+- pull
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: beverage_c_sub2
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+operation_platform_height: 85.0
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_b_to_electronics_c_9719
+dataset_uuid: 8df42ffe-37dc-4d45-a2d6-b5d4a3d811f6
+task_descriptions:
+- arrange_the_furniture_b_and_place_in_the_electronics_c
+scene_type:
+- home
+- laboratory
+- factory
+atomic_actions:
+- place
+- lift
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

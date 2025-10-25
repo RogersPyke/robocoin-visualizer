@@ -1,0 +1,28 @@
+dataset_name: place_utensil_c_to_kitchenware_b_8130
+dataset_uuid: 8e187df7-320b-4b63-8dce-4a4c7d033b2a
+task_descriptions:
+- place_the_utensil_c_and_place_in_the_kitchenware_b
+scene_type:
+- warehouse
+- hospital
+atomic_actions:
+- place
+- flip
+- push
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

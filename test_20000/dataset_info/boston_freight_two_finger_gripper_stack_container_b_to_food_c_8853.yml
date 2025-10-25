@@ -1,0 +1,27 @@
+dataset_name: stack_container_b_to_food_c_8853
+dataset_uuid: 256ad411-bc7d-46de-847d-fcca9e09cac5
+task_descriptions:
+- stack_the_container_b_and_place_in_the_food_c
+scene_type:
+- home
+- store
+atomic_actions:
+- pick
+- grasp
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

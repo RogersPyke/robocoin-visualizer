@@ -1,0 +1,27 @@
+dataset_name: pick_container_c_to_utensil_a_1655
+dataset_uuid: 6ac607fe-e3f5-4b6a-8b6f-c7e8dbce9099
+task_descriptions:
+- pick_the_container_c_and_place_in_the_utensil_a
+scene_type:
+- restaurant
+atomic_actions:
+- lower
+- place
+- push
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 72.1
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

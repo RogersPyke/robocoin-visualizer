@@ -1,0 +1,29 @@
+dataset_name: place_furniture_c_to_tool_d_1077
+dataset_uuid: c66a2dc3-e8f8-47d2-a6a4-aa732cae67e9
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_tool_d
+scene_type:
+- kitchen
+- home
+- cafe
+atomic_actions:
+- slide
+- insert
+- flip
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

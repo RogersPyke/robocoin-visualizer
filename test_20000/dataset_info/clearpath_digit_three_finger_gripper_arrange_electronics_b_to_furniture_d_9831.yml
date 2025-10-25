@@ -1,0 +1,30 @@
+dataset_name: arrange_electronics_b_to_furniture_d_9831
+dataset_uuid: 9b5e763f-aca0-46ff-858e-056ccad54cdd
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_furniture_d
+scene_type:
+- store
+- laboratory
+- kitchen
+atomic_actions:
+- pull
+- lift
+- push
+- grasp
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

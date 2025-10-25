@@ -1,0 +1,29 @@
+dataset_name: pick_utensil_b_to_tool_a_4713
+dataset_uuid: 8fd73588-69e0-4be3-849d-ee77d2527022
+task_descriptions:
+- pick_the_utensil_b_and_place_in_the_tool_a
+scene_type:
+- factory
+- cafe
+atomic_actions:
+- insert
+- pull
+- pick
+- slide
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.6
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

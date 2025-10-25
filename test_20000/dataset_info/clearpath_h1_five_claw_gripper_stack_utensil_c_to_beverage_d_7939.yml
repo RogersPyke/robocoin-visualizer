@@ -1,0 +1,26 @@
+dataset_name: stack_utensil_c_to_beverage_d_7939
+dataset_uuid: a15edce8-8e30-40c6-b9df-978c721acc6b
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_beverage_d
+scene_type:
+- factory
+atomic_actions:
+- remove
+- place
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.7
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

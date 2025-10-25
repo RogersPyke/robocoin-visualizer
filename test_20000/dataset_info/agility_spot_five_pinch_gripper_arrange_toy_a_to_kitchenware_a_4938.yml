@@ -1,0 +1,26 @@
+dataset_name: arrange_toy_a_to_kitchenware_a_4938
+dataset_uuid: 30d7eaa4-4a6e-432c-8d3e-3f1c3a84c996
+task_descriptions:
+- arrange_the_toy_a_and_place_in_the_kitchenware_a
+scene_type:
+- home
+atomic_actions:
+- flip
+- grasp
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.1
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

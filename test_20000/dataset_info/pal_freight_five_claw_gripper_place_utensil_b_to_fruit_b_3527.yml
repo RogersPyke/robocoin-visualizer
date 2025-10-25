@@ -1,0 +1,26 @@
+dataset_name: place_utensil_b_to_fruit_b_3527
+dataset_uuid: 2ca20730-c255-4747-a807-e44106c0c38c
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_fruit_b
+scene_type:
+- cafe
+atomic_actions:
+- pick
+- remove
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- pal_freight
+end_effector_type: five_claw_gripper

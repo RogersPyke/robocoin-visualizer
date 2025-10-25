@@ -1,0 +1,28 @@
+dataset_name: stack_beverage_c_to_container_a_3386
+dataset_uuid: 38f15d1f-acec-4c43-b8b4-0b3e7d1ae1b0
+task_descriptions:
+- stack_the_beverage_c_and_place_in_the_container_a
+scene_type:
+- hospital
+- kitchen
+- office
+atomic_actions:
+- remove
+- place
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: beverage_c_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

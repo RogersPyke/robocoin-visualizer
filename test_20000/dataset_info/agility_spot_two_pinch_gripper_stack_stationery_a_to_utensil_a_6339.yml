@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_a_to_utensil_a_6339
+dataset_uuid: 078b5958-51cb-47c2-be8d-a8257f3f0241
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_utensil_a
+scene_type:
+- restaurant
+- warehouse
+- hospital
+atomic_actions:
+- slide
+- remove
+- lift
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

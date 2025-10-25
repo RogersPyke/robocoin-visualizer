@@ -1,0 +1,26 @@
+dataset_name: pick_tool_a_to_kitchenware_a_5455
+dataset_uuid: c0511be3-3587-4088-abd6-99fd71f4857b
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_kitchenware_a
+scene_type:
+- home
+atomic_actions:
+- grasp
+- lift
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.4
+device_model:
+- agility_spot
+end_effector_type: two_claw_gripper

@@ -1,0 +1,26 @@
+dataset_name: place_tool_a_to_electronics_b_9472
+dataset_uuid: 0a2b02c1-ab2c-401f-9996-9a0503894e58
+task_descriptions:
+- place_the_tool_a_and_place_in_the_electronics_b
+scene_type:
+- home
+atomic_actions:
+- pick
+- flip
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

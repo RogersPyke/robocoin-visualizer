@@ -1,0 +1,27 @@
+dataset_name: stack_food_e_to_food_e_6954
+dataset_uuid: 176606af-1f7d-4bf6-a38f-e9d65ecc8a50
+task_descriptions:
+- stack_the_food_e_and_place_in_the_food_e
+scene_type:
+- factory
+atomic_actions:
+- push
+- lower
+- rotate
+objects:
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+operation_platform_height: 80.2
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

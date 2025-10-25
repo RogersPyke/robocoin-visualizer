@@ -1,0 +1,27 @@
+dataset_name: place_stationery_a_to_furniture_a_5464
+dataset_uuid: 70d93383-59ea-4924-a430-ec7606e7b79e
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_furniture_a
+scene_type:
+- kitchen
+- hospital
+atomic_actions:
+- insert
+- remove
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

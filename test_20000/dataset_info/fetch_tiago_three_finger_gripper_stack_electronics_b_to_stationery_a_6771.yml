@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_b_to_stationery_a_6771
+dataset_uuid: 0606c835-fc05-46da-b25d-ba32c31e66bb
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_stationery_a
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- insert
+- rotate
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

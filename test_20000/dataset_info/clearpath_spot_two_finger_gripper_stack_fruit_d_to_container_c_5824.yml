@@ -1,0 +1,28 @@
+dataset_name: stack_fruit_d_to_container_c_5824
+dataset_uuid: 76a2a646-378d-4f83-9594-e5b671cf3e79
+task_descriptions:
+- stack_the_fruit_d_and_place_in_the_container_c
+scene_type:
+- hospital
+atomic_actions:
+- remove
+- flip
+- push
+- insert
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

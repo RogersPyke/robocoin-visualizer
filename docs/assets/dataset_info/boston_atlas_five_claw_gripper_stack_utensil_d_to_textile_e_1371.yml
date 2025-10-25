@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_d_to_textile_e_1371
+dataset_uuid: 12c3f63b-9c34-47c3-a0e1-062e412d6096
+task_descriptions:
+- stack_the_utensil_d_and_place_in_the_textile_e
+scene_type:
+- office
+atomic_actions:
+- push
+- grasp
+- slide
+- pick
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- boston_atlas
+end_effector_type: five_claw_gripper

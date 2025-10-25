@@ -1,0 +1,28 @@
+dataset_name: stack_beverage_e_to_utensil_c_4718
+dataset_uuid: b60be579-7182-4c14-82aa-83f12d58ecbd
+task_descriptions:
+- stack_the_beverage_e_and_place_in_the_utensil_c
+scene_type:
+- restaurant
+- hospital
+- home
+atomic_actions:
+- insert
+- pull
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_a_to_textile_a_1326
+dataset_uuid: 47c41ae9-6a7a-40cc-84d8-f5a1e7135025
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_textile_a
+scene_type:
+- warehouse
+- cafe
+- office
+atomic_actions:
+- lower
+- lift
+- grasp
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.3
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

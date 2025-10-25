@@ -1,0 +1,29 @@
+dataset_name: move_textile_d_to_kitchenware_a_1965
+dataset_uuid: cd4b8ae9-cd71-40f8-b69a-cea7d9c7446b
+task_descriptions:
+- move_the_textile_d_and_place_in_the_kitchenware_a
+scene_type:
+- kitchen
+- home
+- laboratory
+atomic_actions:
+- place
+- lift
+- slide
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+operation_platform_height: 75.5
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

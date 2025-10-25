@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_c_to_tool_c_4289
+dataset_uuid: 8b388f51-5399-4a38-9031-7ff863558a1b
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_tool_c
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- slide
+- flip
+- remove
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.9
+device_model:
+- boston_freight
+end_effector_type: suction_cup

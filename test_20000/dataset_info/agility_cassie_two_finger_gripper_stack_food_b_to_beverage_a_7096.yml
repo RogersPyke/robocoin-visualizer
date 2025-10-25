@@ -1,0 +1,26 @@
+dataset_name: stack_food_b_to_beverage_a_7096
+dataset_uuid: 2f49b283-3fbb-4b3a-9cbc-f487e8490e46
+task_descriptions:
+- stack_the_food_b_and_place_in_the_beverage_a
+scene_type:
+- hospital
+atomic_actions:
+- lower
+- remove
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- agility_cassie
+end_effector_type: two_finger_gripper

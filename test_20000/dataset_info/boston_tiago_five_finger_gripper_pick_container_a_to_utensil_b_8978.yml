@@ -1,0 +1,28 @@
+dataset_name: pick_container_a_to_utensil_b_8978
+dataset_uuid: 16e82b81-f39e-402c-9a21-bfcd770ca9c4
+task_descriptions:
+- pick_the_container_a_and_place_in_the_utensil_b
+scene_type:
+- office
+atomic_actions:
+- lower
+- pick
+- rotate
+- flip
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

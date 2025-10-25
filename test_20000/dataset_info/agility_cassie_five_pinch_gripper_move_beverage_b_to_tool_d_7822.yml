@@ -1,0 +1,30 @@
+dataset_name: move_beverage_b_to_tool_d_7822
+dataset_uuid: e61e6d9c-f93f-4c9c-b722-eded48be5995
+task_descriptions:
+- move_the_beverage_b_and_place_in_the_tool_d
+scene_type:
+- store
+- office
+- hospital
+atomic_actions:
+- rotate
+- push
+- pick
+- pull
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.5
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

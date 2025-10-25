@@ -1,0 +1,28 @@
+dataset_name: stack_tool_b_to_fruit_a_6380
+dataset_uuid: 55000540-6834-4a2a-9351-9d9bfe9d8b27
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_fruit_a
+scene_type:
+- warehouse
+atomic_actions:
+- pick
+- remove
+- rotate
+- place
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.5
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

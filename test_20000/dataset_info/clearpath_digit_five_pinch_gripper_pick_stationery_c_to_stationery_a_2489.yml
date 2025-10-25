@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_c_to_stationery_a_2489
+dataset_uuid: aff0f526-a9cd-4d93-99eb-be0d83255a47
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_stationery_a
+scene_type:
+- laboratory
+- office
+atomic_actions:
+- pull
+- insert
+- pick
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

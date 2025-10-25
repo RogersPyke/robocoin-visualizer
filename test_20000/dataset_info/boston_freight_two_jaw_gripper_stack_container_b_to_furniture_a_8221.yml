@@ -1,0 +1,30 @@
+dataset_name: stack_container_b_to_furniture_a_8221
+dataset_uuid: 8354c510-5910-4775-9c11-aa0eb4d652a5
+task_descriptions:
+- stack_the_container_b_and_place_in_the_furniture_a
+scene_type:
+- office
+- kitchen
+- home
+atomic_actions:
+- flip
+- lower
+- insert
+- push
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

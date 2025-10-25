@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_e_to_tool_d_2437
+dataset_uuid: 62e095ea-2853-43e1-bf66-403d2e9bdd40
+task_descriptions:
+- arrange_the_textile_e_and_place_in_the_tool_d
+scene_type:
+- factory
+atomic_actions:
+- grasp
+- pull
+- lower
+- rotate
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.2
+device_model:
+- clearpath_h1
+end_effector_type: two_claw_gripper

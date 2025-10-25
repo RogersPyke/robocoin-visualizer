@@ -1,0 +1,28 @@
+dataset_name: stack_fruit_b_to_electronics_b_6380
+dataset_uuid: c090ce38-b007-421e-97c9-701eb9019017
+task_descriptions:
+- stack_the_fruit_b_and_place_in_the_electronics_b
+scene_type:
+- warehouse
+- office
+atomic_actions:
+- grasp
+- pull
+- lower
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- agility_spot
+end_effector_type: two_finger_gripper

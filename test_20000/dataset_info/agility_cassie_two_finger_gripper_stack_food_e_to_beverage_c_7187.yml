@@ -1,0 +1,29 @@
+dataset_name: stack_food_e_to_beverage_c_7187
+dataset_uuid: a0e7f74d-507c-47be-9390-ab0a485aa4a2
+task_descriptions:
+- stack_the_food_e_and_place_in_the_beverage_c
+scene_type:
+- home
+- laboratory
+atomic_actions:
+- slide
+- rotate
+- pull
+- lift
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.8
+device_model:
+- agility_cassie
+end_effector_type: two_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_a_to_kitchenware_c_2703
+dataset_uuid: 2cb48b4a-503c-4a70-8420-6dd1b99ebdf6
+task_descriptions:
+- arrange_the_electronics_a_and_place_in_the_kitchenware_c
+scene_type:
+- warehouse
+- office
+atomic_actions:
+- lift
+- pull
+- pick
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

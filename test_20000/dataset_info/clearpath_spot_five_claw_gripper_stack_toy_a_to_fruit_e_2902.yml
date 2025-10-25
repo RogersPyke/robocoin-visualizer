@@ -1,0 +1,28 @@
+dataset_name: stack_toy_a_to_fruit_e_2902
+dataset_uuid: 1f9cab19-2b42-4d74-aebc-6b0ebd07f0d2
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_fruit_e
+scene_type:
+- kitchen
+- warehouse
+- hospital
+atomic_actions:
+- flip
+- push
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.9
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

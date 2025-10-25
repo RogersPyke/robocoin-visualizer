@@ -1,0 +1,26 @@
+dataset_name: pick_fruit_c_to_fruit_c_6117
+dataset_uuid: 731e60de-35df-470d-9f85-e006e347f4a2
+task_descriptions:
+- pick_the_fruit_c_and_place_in_the_fruit_c
+scene_type:
+- office
+atomic_actions:
+- pick
+- grasp
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.1
+device_model:
+- agility_spot
+end_effector_type: five_claw_gripper

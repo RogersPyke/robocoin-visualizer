@@ -1,0 +1,28 @@
+dataset_name: arrange_tool_c_to_stationery_b_9595
+dataset_uuid: 54ba4594-03b9-4a44-afa1-6d335e929054
+task_descriptions:
+- arrange_the_tool_c_and_place_in_the_stationery_b
+scene_type:
+- warehouse
+- hospital
+- store
+atomic_actions:
+- grasp
+- remove
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

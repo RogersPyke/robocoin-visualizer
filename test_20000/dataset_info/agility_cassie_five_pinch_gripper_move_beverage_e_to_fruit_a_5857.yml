@@ -1,0 +1,27 @@
+dataset_name: move_beverage_e_to_fruit_a_5857
+dataset_uuid: 0d7c4e24-da22-4d0b-8585-988d135deea8
+task_descriptions:
+- move_the_beverage_e_and_place_in_the_fruit_a
+scene_type:
+- home
+atomic_actions:
+- place
+- lower
+- insert
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.5
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_textile_e_to_kitchenware_b_7129
+dataset_uuid: 7448c2ce-46f1-4351-9214-fc1eea72ddde
+task_descriptions:
+- place_the_textile_e_and_place_in_the_kitchenware_b
+scene_type:
+- store
+- factory
+- warehouse
+atomic_actions:
+- insert
+- push
+- flip
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

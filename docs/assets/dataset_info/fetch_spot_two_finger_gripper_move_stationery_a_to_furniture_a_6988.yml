@@ -1,0 +1,29 @@
+dataset_name: move_stationery_a_to_furniture_a_6988
+dataset_uuid: 77e15f41-8a0a-4745-83f3-6a6b7ba390b3
+task_descriptions:
+- move_the_stationery_a_and_place_in_the_furniture_a
+scene_type:
+- cafe
+- store
+- home
+atomic_actions:
+- flip
+- grasp
+- place
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- fetch_spot
+end_effector_type: two_finger_gripper

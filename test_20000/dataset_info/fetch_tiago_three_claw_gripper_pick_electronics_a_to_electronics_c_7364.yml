@@ -1,0 +1,30 @@
+dataset_name: pick_electronics_a_to_electronics_c_7364
+dataset_uuid: 5ac801d4-4b6c-424c-9ce0-f508801255bf
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_electronics_c
+scene_type:
+- cafe
+- home
+- factory
+atomic_actions:
+- grasp
+- pull
+- pick
+- place
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

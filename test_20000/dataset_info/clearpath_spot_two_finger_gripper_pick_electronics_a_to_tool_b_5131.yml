@@ -1,0 +1,30 @@
+dataset_name: pick_electronics_a_to_tool_b_5131
+dataset_uuid: dbe162d2-e660-4637-979c-6524f8d40b39
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_tool_b
+scene_type:
+- laboratory
+- home
+- restaurant
+atomic_actions:
+- lift
+- grasp
+- place
+- remove
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

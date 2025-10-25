@@ -1,0 +1,27 @@
+dataset_name: arrange_stationery_a_to_kitchenware_a_4618
+dataset_uuid: da8e881e-a974-4168-9dc5-583c5a08ef8a
+task_descriptions:
+- arrange_the_stationery_a_and_place_in_the_kitchenware_a
+scene_type:
+- kitchen
+atomic_actions:
+- lift
+- remove
+- insert
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.2
+device_model:
+- pal_tiago
+end_effector_type: five_claw_gripper

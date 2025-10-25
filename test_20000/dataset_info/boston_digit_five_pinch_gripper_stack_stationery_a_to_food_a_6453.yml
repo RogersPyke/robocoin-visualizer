@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_a_to_food_a_6453
+dataset_uuid: 9f78378b-6143-45df-af10-545b9b1d55d2
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_food_a
+scene_type:
+- store
+- warehouse
+- office
+atomic_actions:
+- lower
+- flip
+- slide
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,30 @@
+dataset_name: stack_food_a_to_utensil_a_2682
+dataset_uuid: 8207a4e7-86ea-4691-9de8-0b0847597a18
+task_descriptions:
+- stack_the_food_a_and_place_in_the_utensil_a
+scene_type:
+- store
+- office
+- factory
+atomic_actions:
+- flip
+- pull
+- insert
+- push
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

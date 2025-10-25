@@ -1,0 +1,29 @@
+dataset_name: arrange_food_a_to_utensil_b_3941
+dataset_uuid: 46180d37-2b0c-443f-9391-673fb603409d
+task_descriptions:
+- arrange_the_food_a_and_place_in_the_utensil_b
+scene_type:
+- restaurant
+- home
+- store
+atomic_actions:
+- rotate
+- place
+- push
+objects:
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

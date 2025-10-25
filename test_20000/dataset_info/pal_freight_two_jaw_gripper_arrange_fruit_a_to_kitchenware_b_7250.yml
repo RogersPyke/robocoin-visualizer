@@ -1,0 +1,27 @@
+dataset_name: arrange_fruit_a_to_kitchenware_b_7250
+dataset_uuid: 69ec866b-d418-4c85-b9f7-d2fa44554870
+task_descriptions:
+- arrange_the_fruit_a_and_place_in_the_kitchenware_b
+scene_type:
+- hospital
+- warehouse
+atomic_actions:
+- remove
+- insert
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.4
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

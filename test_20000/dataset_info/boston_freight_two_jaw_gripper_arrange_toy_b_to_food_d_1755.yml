@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_b_to_food_d_1755
+dataset_uuid: a7bebeea-9ed4-49a5-85aa-e6ea14fae7c4
+task_descriptions:
+- arrange_the_toy_b_and_place_in_the_food_d
+scene_type:
+- hospital
+atomic_actions:
+- rotate
+- grasp
+- lift
+- flip
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

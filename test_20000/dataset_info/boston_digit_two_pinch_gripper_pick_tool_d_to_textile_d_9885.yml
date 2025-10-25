@@ -1,0 +1,30 @@
+dataset_name: pick_tool_d_to_textile_d_9885
+dataset_uuid: 365a31fc-9835-495e-a219-6ffcfe828b64
+task_descriptions:
+- pick_the_tool_d_and_place_in_the_textile_d
+scene_type:
+- kitchen
+- restaurant
+- hospital
+atomic_actions:
+- lower
+- slide
+- pull
+- push
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.9
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

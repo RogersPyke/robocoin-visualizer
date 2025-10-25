@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_b_to_toy_a_5047
+dataset_uuid: 3a168e9b-6057-4d98-88c9-4b8dcbad5ffc
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_toy_a
+scene_type:
+- kitchen
+atomic_actions:
+- insert
+- lift
+- remove
+- slide
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.7
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

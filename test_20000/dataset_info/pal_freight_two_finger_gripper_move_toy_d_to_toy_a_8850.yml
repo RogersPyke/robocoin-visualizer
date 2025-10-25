@@ -1,0 +1,30 @@
+dataset_name: move_toy_d_to_toy_a_8850
+dataset_uuid: 77322933-7a03-4e22-aef5-310aae54e41c
+task_descriptions:
+- move_the_toy_d_and_place_in_the_toy_a
+scene_type:
+- kitchen
+- restaurant
+- store
+atomic_actions:
+- pull
+- remove
+- pick
+- grasp
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.3
+device_model:
+- pal_freight
+end_effector_type: two_finger_gripper

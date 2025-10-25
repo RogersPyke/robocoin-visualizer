@@ -1,0 +1,30 @@
+dataset_name: arrange_tool_a_to_kitchenware_a_3019
+dataset_uuid: 65c5290a-0c96-48bc-9f76-42a57935fd64
+task_descriptions:
+- arrange_the_tool_a_and_place_in_the_kitchenware_a
+scene_type:
+- home
+- store
+- hospital
+atomic_actions:
+- insert
+- place
+- grasp
+- slide
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

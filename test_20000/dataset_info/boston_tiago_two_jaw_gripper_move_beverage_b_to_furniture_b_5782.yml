@@ -1,0 +1,26 @@
+dataset_name: move_beverage_b_to_furniture_b_5782
+dataset_uuid: 66e32087-0ccd-4834-8307-a8d706b8a24a
+task_descriptions:
+- move_the_beverage_b_and_place_in_the_furniture_b
+scene_type:
+- factory
+atomic_actions:
+- pull
+- lift
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.8
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_textile_c_to_stationery_b_7855
+dataset_uuid: acd5d9fe-b731-4340-9a70-7f26d04a220d
+task_descriptions:
+- move_the_textile_c_and_place_in_the_stationery_b
+scene_type:
+- restaurant
+atomic_actions:
+- insert
+- remove
+- flip
+- slide
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.1
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

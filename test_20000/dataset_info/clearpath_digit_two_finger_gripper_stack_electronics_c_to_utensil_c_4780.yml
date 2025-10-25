@@ -1,0 +1,30 @@
+dataset_name: stack_electronics_c_to_utensil_c_4780
+dataset_uuid: a603e0fc-17b6-4a41-abb6-87db78419e83
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_utensil_c
+scene_type:
+- factory
+- restaurant
+- warehouse
+atomic_actions:
+- slide
+- insert
+- remove
+- lower
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

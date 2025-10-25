@@ -1,0 +1,27 @@
+dataset_name: place_tool_c_to_food_c_6346
+dataset_uuid: 63360518-ab1e-4972-8bef-5820ad81bede
+task_descriptions:
+- place_the_tool_c_and_place_in_the_food_c
+scene_type:
+- kitchen
+- warehouse
+atomic_actions:
+- pick
+- flip
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- agility_cassie
+end_effector_type: three_jaw_gripper

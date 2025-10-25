@@ -1,0 +1,29 @@
+dataset_name: place_stationery_a_to_furniture_d_5276
+dataset_uuid: 00b1844b-ce7f-4f33-8531-7ccdfa25bf97
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_furniture_d
+scene_type:
+- hospital
+- laboratory
+- office
+atomic_actions:
+- push
+- insert
+- lift
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 83.4
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_kitchenware_c_to_utensil_c_5407
+dataset_uuid: 2de0b6e6-f8ef-4543-b2b4-8f6ecb8a44b8
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_utensil_c
+scene_type:
+- office
+- factory
+atomic_actions:
+- lower
+- place
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

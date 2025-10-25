@@ -1,0 +1,30 @@
+dataset_name: stack_electronics_a_to_furniture_c_1946
+dataset_uuid: 1a6b218b-3488-4ce5-a13b-badc2e6b0697
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_furniture_c
+scene_type:
+- laboratory
+- kitchen
+- hospital
+atomic_actions:
+- pull
+- slide
+- flip
+- remove
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- boston_tiago
+end_effector_type: two_claw_gripper

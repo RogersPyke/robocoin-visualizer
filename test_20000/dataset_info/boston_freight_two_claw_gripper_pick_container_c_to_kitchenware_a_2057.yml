@@ -1,0 +1,28 @@
+dataset_name: pick_container_c_to_kitchenware_a_2057
+dataset_uuid: 4f95812b-1b0d-415d-9068-66811d724f51
+task_descriptions:
+- pick_the_container_c_and_place_in_the_kitchenware_a
+scene_type:
+- cafe
+atomic_actions:
+- lift
+- lower
+- pull
+- insert
+objects:
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.0
+device_model:
+- boston_freight
+end_effector_type: two_claw_gripper

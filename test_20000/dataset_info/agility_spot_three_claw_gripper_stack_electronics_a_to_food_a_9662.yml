@@ -1,0 +1,29 @@
+dataset_name: stack_electronics_a_to_food_a_9662
+dataset_uuid: db1d8a32-d71d-49a0-9bdd-94ac752dc020
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_food_a
+scene_type:
+- factory
+- restaurant
+- store
+atomic_actions:
+- insert
+- slide
+- remove
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.9
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

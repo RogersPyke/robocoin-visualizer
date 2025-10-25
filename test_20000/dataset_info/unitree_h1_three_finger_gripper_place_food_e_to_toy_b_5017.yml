@@ -1,0 +1,30 @@
+dataset_name: place_food_e_to_toy_b_5017
+dataset_uuid: 94e58599-9e1d-41f8-934a-1169ec01b67b
+task_descriptions:
+- place_the_food_e_and_place_in_the_toy_b
+scene_type:
+- cafe
+- home
+- kitchen
+atomic_actions:
+- remove
+- push
+- grasp
+- lift
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

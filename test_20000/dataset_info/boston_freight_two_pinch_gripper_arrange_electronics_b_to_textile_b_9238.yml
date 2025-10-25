@@ -1,0 +1,29 @@
+dataset_name: arrange_electronics_b_to_textile_b_9238
+dataset_uuid: d9265b2f-f64f-47d6-b54d-9f79dc9d4140
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_textile_b
+scene_type:
+- kitchen
+- cafe
+atomic_actions:
+- pull
+- place
+- insert
+- lower
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.5
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

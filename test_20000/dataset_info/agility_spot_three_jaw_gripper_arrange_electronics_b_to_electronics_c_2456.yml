@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_b_to_electronics_c_2456
+dataset_uuid: a862f292-c241-4a92-8320-118bfcc9446d
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_electronics_c
+scene_type:
+- kitchen
+- home
+atomic_actions:
+- remove
+- lower
+- flip
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_kitchenware_a_to_kitchenware_a_1631
+dataset_uuid: fda07749-a253-464b-9efe-d9e9f09f913b
+task_descriptions:
+- pick_the_kitchenware_a_and_place_in_the_kitchenware_a
+scene_type:
+- factory
+- store
+atomic_actions:
+- flip
+- pull
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

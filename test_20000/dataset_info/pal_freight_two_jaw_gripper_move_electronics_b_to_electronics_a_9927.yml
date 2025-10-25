@@ -1,0 +1,30 @@
+dataset_name: move_electronics_b_to_electronics_a_9927
+dataset_uuid: d50a7c58-225a-4bd3-939a-f6503ea3989f
+task_descriptions:
+- move_the_electronics_b_and_place_in_the_electronics_a
+scene_type:
+- cafe
+- warehouse
+- laboratory
+atomic_actions:
+- push
+- pull
+- flip
+- pick
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 78.2
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

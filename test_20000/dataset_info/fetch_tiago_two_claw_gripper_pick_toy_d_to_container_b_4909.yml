@@ -1,0 +1,28 @@
+dataset_name: pick_toy_d_to_container_b_4909
+dataset_uuid: 6d56d31f-e16c-4d80-8c8b-47a3ad8012ac
+task_descriptions:
+- pick_the_toy_d_and_place_in_the_container_b
+scene_type:
+- store
+atomic_actions:
+- flip
+- slide
+- insert
+- place
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.0
+device_model:
+- fetch_tiago
+end_effector_type: two_claw_gripper

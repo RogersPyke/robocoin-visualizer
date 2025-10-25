@@ -1,0 +1,30 @@
+dataset_name: pick_tool_d_to_textile_b_9905
+dataset_uuid: b70c0a22-41b1-4b63-9774-5ec626873e69
+task_descriptions:
+- pick_the_tool_d_and_place_in_the_textile_b
+scene_type:
+- warehouse
+- laboratory
+- cafe
+atomic_actions:
+- grasp
+- pick
+- pull
+- insert
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.6
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

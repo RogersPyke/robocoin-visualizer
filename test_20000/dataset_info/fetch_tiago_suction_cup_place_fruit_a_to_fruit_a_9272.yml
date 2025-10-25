@@ -1,0 +1,27 @@
+dataset_name: place_fruit_a_to_fruit_a_9272
+dataset_uuid: fa0097b2-1d5b-4d75-99d0-6e26dccaf23c
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_fruit_a
+scene_type:
+- hospital
+- kitchen
+atomic_actions:
+- flip
+- grasp
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- fetch_tiago
+end_effector_type: suction_cup

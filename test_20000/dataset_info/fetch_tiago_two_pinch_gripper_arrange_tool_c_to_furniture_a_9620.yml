@@ -1,0 +1,28 @@
+dataset_name: arrange_tool_c_to_furniture_a_9620
+dataset_uuid: f41d4ff1-c622-436b-928f-6f53d084ff4c
+task_descriptions:
+- arrange_the_tool_c_and_place_in_the_furniture_a
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- flip
+- grasp
+- pick
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+operation_platform_height: 81.8
+device_model:
+- fetch_tiago
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,30 @@
+dataset_name: stack_food_d_to_beverage_b_7561
+dataset_uuid: c7fa429b-a5ab-426c-8f5e-20433919e94f
+task_descriptions:
+- stack_the_food_d_and_place_in_the_beverage_b
+scene_type:
+- office
+- factory
+- warehouse
+atomic_actions:
+- insert
+- flip
+- place
+- grasp
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.5
+device_model:
+- clearpath_h1
+end_effector_type: five_finger_gripper

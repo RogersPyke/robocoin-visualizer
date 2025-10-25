@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_c_to_container_a_4084
+dataset_uuid: 672e4115-eb42-4189-9245-f6df65c848d1
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_container_a
+scene_type:
+- factory
+- office
+atomic_actions:
+- lower
+- slide
+- remove
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 90.0
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

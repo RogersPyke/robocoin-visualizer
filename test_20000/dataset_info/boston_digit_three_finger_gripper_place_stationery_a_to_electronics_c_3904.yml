@@ -1,0 +1,30 @@
+dataset_name: place_stationery_a_to_electronics_c_3904
+dataset_uuid: 657a2fed-791a-486f-b7a1-357c838e0df1
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_electronics_c
+scene_type:
+- home
+- warehouse
+- hospital
+atomic_actions:
+- pick
+- insert
+- slide
+- remove
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.3
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_container_c_to_kitchenware_a_3342
+dataset_uuid: 1cf23241-cce1-4ad3-9ccd-79ff431bfaea
+task_descriptions:
+- stack_the_container_c_and_place_in_the_kitchenware_a
+scene_type:
+- warehouse
+atomic_actions:
+- insert
+- push
+- lift
+- lower
+objects:
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.2
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_fruit_a_to_utensil_c_8468
+dataset_uuid: 989a392d-5905-4a7c-a4bc-9e25043b91e0
+task_descriptions:
+- arrange_the_fruit_a_and_place_in_the_utensil_c
+scene_type:
+- office
+atomic_actions:
+- insert
+- rotate
+- place
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 85.3
+device_model:
+- unitree_tiago
+end_effector_type: five_jaw_gripper

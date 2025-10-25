@@ -1,0 +1,26 @@
+dataset_name: pick_container_b_to_container_b_9518
+dataset_uuid: cb3c5455-4de7-45cc-9f55-cce0346b11ff
+task_descriptions:
+- pick_the_container_b_and_place_in_the_container_b
+scene_type:
+- cafe
+atomic_actions:
+- lower
+- grasp
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

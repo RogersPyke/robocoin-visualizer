@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_b_to_food_a_4928
+dataset_uuid: 2a555208-23e2-41b5-9133-b8f8697a31fc
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_food_a
+scene_type:
+- cafe
+- restaurant
+atomic_actions:
+- grasp
+- lift
+- rotate
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+operation_platform_height: 89.3
+device_model:
+- fetch_spot
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_toy_c_to_electronics_b_8644
+dataset_uuid: cd54c444-6955-4507-a761-03dbae13d142
+task_descriptions:
+- place_the_toy_c_and_place_in_the_electronics_b
+scene_type:
+- office
+- hospital
+atomic_actions:
+- pull
+- slide
+- flip
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- boston_h1
+end_effector_type: five_claw_gripper

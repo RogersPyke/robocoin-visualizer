@@ -1,0 +1,27 @@
+dataset_name: arrange_fruit_b_to_food_a_8774
+dataset_uuid: 8d12ecc3-92c3-4e1e-9b10-05b16436ec56
+task_descriptions:
+- arrange_the_fruit_b_and_place_in_the_food_a
+scene_type:
+- laboratory
+- factory
+atomic_actions:
+- remove
+- pick
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.9
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

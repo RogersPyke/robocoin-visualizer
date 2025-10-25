@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_d_to_stationery_a_5370
+dataset_uuid: 4c121e37-db9b-492d-87ef-01241d2a6441
+task_descriptions:
+- arrange_the_textile_d_and_place_in_the_stationery_a
+scene_type:
+- store
+- warehouse
+- home
+atomic_actions:
+- lower
+- slide
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

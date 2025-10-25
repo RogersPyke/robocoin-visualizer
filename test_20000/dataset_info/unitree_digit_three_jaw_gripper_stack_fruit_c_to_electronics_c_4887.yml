@@ -1,0 +1,26 @@
+dataset_name: stack_fruit_c_to_electronics_c_4887
+dataset_uuid: 504885ab-7dc0-46b3-9686-8a07c448fda4
+task_descriptions:
+- stack_the_fruit_c_and_place_in_the_electronics_c
+scene_type:
+- restaurant
+atomic_actions:
+- lift
+- lower
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.4
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

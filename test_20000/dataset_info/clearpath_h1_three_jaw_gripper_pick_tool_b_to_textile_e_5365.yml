@@ -1,0 +1,28 @@
+dataset_name: pick_tool_b_to_textile_e_5365
+dataset_uuid: cbb86d7f-0154-4e2c-9b3c-6908daeb5305
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_textile_e
+scene_type:
+- cafe
+- home
+atomic_actions:
+- place
+- remove
+- slide
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.0
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

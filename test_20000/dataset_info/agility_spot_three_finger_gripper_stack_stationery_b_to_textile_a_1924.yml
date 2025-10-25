@@ -1,0 +1,27 @@
+dataset_name: stack_stationery_b_to_textile_a_1924
+dataset_uuid: b9b2e5e2-443e-4738-a02c-06c179c691c0
+task_descriptions:
+- stack_the_stationery_b_and_place_in_the_textile_a
+scene_type:
+- cafe
+- kitchen
+atomic_actions:
+- place
+- lower
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.3
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

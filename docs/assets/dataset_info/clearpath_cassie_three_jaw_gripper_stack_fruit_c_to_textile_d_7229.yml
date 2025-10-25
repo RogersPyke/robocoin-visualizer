@@ -1,0 +1,26 @@
+dataset_name: stack_fruit_c_to_textile_d_7229
+dataset_uuid: 66bc5ec9-54a7-4fb6-b006-df7b7670ef89
+task_descriptions:
+- stack_the_fruit_c_and_place_in_the_textile_d
+scene_type:
+- kitchen
+atomic_actions:
+- lift
+- slide
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+operation_platform_height: 80.5
+device_model:
+- clearpath_cassie
+end_effector_type: three_jaw_gripper

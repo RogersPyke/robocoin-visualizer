@@ -1,0 +1,27 @@
+dataset_name: move_tool_a_to_container_d_7300
+dataset_uuid: 4554c5b6-b61c-48dc-b8c1-b556a945c26a
+task_descriptions:
+- move_the_tool_a_and_place_in_the_container_d
+scene_type:
+- warehouse
+- restaurant
+atomic_actions:
+- grasp
+- slide
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_d
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- agility_tiago
+end_effector_type: five_finger_gripper

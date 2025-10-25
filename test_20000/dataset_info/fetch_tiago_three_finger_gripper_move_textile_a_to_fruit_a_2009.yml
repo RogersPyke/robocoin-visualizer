@@ -1,0 +1,28 @@
+dataset_name: move_textile_a_to_fruit_a_2009
+dataset_uuid: 6c9144a7-d0c9-40b8-92dd-6ce2dc18514b
+task_descriptions:
+- move_the_textile_a_and_place_in_the_fruit_a
+scene_type:
+- kitchen
+- hospital
+atomic_actions:
+- flip
+- grasp
+- pick
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

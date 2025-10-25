@@ -1,0 +1,27 @@
+dataset_name: stack_textile_e_to_textile_b_3992
+dataset_uuid: a4b35347-227e-4f82-8abb-5921b9820340
+task_descriptions:
+- stack_the_textile_e_and_place_in_the_textile_b
+scene_type:
+- restaurant
+atomic_actions:
+- grasp
+- lower
+- push
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

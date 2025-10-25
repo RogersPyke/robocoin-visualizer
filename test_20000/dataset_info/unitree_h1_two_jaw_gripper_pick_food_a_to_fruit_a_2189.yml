@@ -1,0 +1,28 @@
+dataset_name: pick_food_a_to_fruit_a_2189
+dataset_uuid: 0eb83d82-3845-440c-8a7c-4fc6f5de69f5
+task_descriptions:
+- pick_the_food_a_and_place_in_the_fruit_a
+scene_type:
+- home
+atomic_actions:
+- grasp
+- remove
+- pick
+- slide
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

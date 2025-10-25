@@ -1,0 +1,27 @@
+dataset_name: pick_utensil_b_to_container_a_5152
+dataset_uuid: 63ec6844-af33-4374-b9a2-7d2f9d7bc971
+task_descriptions:
+- pick_the_utensil_b_and_place_in_the_container_a
+scene_type:
+- laboratory
+- office
+atomic_actions:
+- push
+- slide
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.1
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

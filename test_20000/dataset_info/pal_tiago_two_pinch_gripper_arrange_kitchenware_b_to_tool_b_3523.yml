@@ -1,0 +1,26 @@
+dataset_name: arrange_kitchenware_b_to_tool_b_3523
+dataset_uuid: 35f5fc7a-24fe-40d6-837d-28889f097eae
+task_descriptions:
+- arrange_the_kitchenware_b_and_place_in_the_tool_b
+scene_type:
+- laboratory
+atomic_actions:
+- pick
+- rotate
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.6
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

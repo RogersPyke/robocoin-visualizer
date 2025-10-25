@@ -1,0 +1,27 @@
+dataset_name: arrange_fruit_e_to_container_c_7456
+dataset_uuid: dd15eda4-6d2b-41ea-a4a6-fe687d4b5e03
+task_descriptions:
+- arrange_the_fruit_e_and_place_in_the_container_c
+scene_type:
+- store
+- factory
+atomic_actions:
+- flip
+- insert
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- clearpath_spot
+end_effector_type: five_finger_gripper

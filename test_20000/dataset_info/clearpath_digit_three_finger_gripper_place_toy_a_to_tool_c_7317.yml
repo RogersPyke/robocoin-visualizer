@@ -1,0 +1,26 @@
+dataset_name: place_toy_a_to_tool_c_7317
+dataset_uuid: ab71d9b1-e8ed-48b1-953f-ac2098d8da75
+task_descriptions:
+- place_the_toy_a_and_place_in_the_tool_c
+scene_type:
+- restaurant
+atomic_actions:
+- place
+- flip
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+operation_platform_height: 70.7
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

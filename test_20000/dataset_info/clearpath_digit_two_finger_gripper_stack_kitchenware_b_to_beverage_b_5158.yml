@@ -1,0 +1,27 @@
+dataset_name: stack_kitchenware_b_to_beverage_b_5158
+dataset_uuid: b00a548c-d995-48e5-b55b-b00252d19615
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_beverage_b
+scene_type:
+- kitchen
+atomic_actions:
+- pick
+- push
+- flip
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.8
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

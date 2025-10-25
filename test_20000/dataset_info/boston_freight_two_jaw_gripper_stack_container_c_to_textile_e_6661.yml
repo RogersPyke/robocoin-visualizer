@@ -1,0 +1,30 @@
+dataset_name: stack_container_c_to_textile_e_6661
+dataset_uuid: b9bfa9b0-b6c7-491b-aafb-7eb2f1dd374e
+task_descriptions:
+- stack_the_container_c_and_place_in_the_textile_e
+scene_type:
+- home
+- laboratory
+- hospital
+atomic_actions:
+- push
+- place
+- flip
+- lower
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.1
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

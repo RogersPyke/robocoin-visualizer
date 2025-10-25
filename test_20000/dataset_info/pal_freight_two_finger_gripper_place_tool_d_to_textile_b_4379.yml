@@ -1,0 +1,27 @@
+dataset_name: place_tool_d_to_textile_b_4379
+dataset_uuid: 4cbde0c4-d34d-4517-b2bc-e78c790424ac
+task_descriptions:
+- place_the_tool_d_and_place_in_the_textile_b
+scene_type:
+- laboratory
+- store
+atomic_actions:
+- remove
+- place
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.8
+device_model:
+- pal_freight
+end_effector_type: two_finger_gripper

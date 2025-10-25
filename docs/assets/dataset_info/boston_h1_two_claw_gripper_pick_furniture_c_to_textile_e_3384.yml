@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_c_to_textile_e_3384
+dataset_uuid: 3284468f-b48f-43f0-bfb8-f83627749baf
+task_descriptions:
+- pick_the_furniture_c_and_place_in_the_textile_e
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- remove
+- lower
+- flip
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- boston_h1
+end_effector_type: two_claw_gripper

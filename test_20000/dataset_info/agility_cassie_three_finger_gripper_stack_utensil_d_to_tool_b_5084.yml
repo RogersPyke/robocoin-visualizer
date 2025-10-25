@@ -1,0 +1,29 @@
+dataset_name: stack_utensil_d_to_tool_b_5084
+dataset_uuid: f7862bbc-0814-4bfd-8289-062b6a7d25c8
+task_descriptions:
+- stack_the_utensil_d_and_place_in_the_tool_b
+scene_type:
+- hospital
+- kitchen
+- warehouse
+atomic_actions:
+- remove
+- lift
+- place
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

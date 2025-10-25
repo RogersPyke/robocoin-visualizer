@@ -1,0 +1,30 @@
+dataset_name: arrange_stationery_b_to_container_c_1059
+dataset_uuid: 4c562809-70bc-4fd4-8c91-c462a223bae7
+task_descriptions:
+- arrange_the_stationery_b_and_place_in_the_container_c
+scene_type:
+- laboratory
+- cafe
+- kitchen
+atomic_actions:
+- rotate
+- grasp
+- pull
+- insert
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

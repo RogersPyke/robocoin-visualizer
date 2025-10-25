@@ -1,0 +1,26 @@
+dataset_name: pick_utensil_c_to_kitchenware_c_7941
+dataset_uuid: ffcd4e4a-281b-443d-9ddd-00ff257a7725
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_kitchenware_c
+scene_type:
+- store
+atomic_actions:
+- place
+- rotate
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

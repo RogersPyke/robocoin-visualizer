@@ -1,0 +1,27 @@
+dataset_name: place_utensil_a_to_fruit_c_9787
+dataset_uuid: e708b89b-2915-4ea2-88c3-158bbd971974
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_fruit_c
+scene_type:
+- factory
+atomic_actions:
+- insert
+- flip
+- rotate
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+operation_platform_height: 86.0
+device_model:
+- pal_tiago
+end_effector_type: three_finger_gripper

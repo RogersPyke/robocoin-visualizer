@@ -1,0 +1,28 @@
+dataset_name: stack_toy_d_to_tool_c_5586
+dataset_uuid: 9e95b874-9bfa-4265-ae9e-f0df81f5df6f
+task_descriptions:
+- stack_the_toy_d_and_place_in_the_tool_c
+scene_type:
+- laboratory
+- restaurant
+atomic_actions:
+- flip
+- slide
+- remove
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+operation_platform_height: 81.3
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_beverage_b_to_furniture_e_9964
+dataset_uuid: b091991d-a24a-4ac7-8c5f-b8f23687f990
+task_descriptions:
+- place_the_beverage_b_and_place_in_the_furniture_e
+scene_type:
+- office
+atomic_actions:
+- place
+- flip
+- rotate
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.4
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

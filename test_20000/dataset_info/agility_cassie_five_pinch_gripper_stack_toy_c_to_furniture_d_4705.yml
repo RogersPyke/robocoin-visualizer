@@ -1,0 +1,29 @@
+dataset_name: stack_toy_c_to_furniture_d_4705
+dataset_uuid: d293fdc7-314d-45fc-913e-f0d7172a926e
+task_descriptions:
+- stack_the_toy_c_and_place_in_the_furniture_d
+scene_type:
+- laboratory
+- office
+- cafe
+atomic_actions:
+- pull
+- lower
+- remove
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

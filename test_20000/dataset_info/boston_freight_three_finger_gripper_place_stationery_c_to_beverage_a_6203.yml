@@ -1,0 +1,28 @@
+dataset_name: place_stationery_c_to_beverage_a_6203
+dataset_uuid: bf437b77-e71d-4024-9c33-86e4db577311
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_beverage_a
+scene_type:
+- store
+atomic_actions:
+- place
+- lower
+- grasp
+- flip
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.2
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

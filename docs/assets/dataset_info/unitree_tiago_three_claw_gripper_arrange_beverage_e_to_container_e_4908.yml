@@ -1,0 +1,28 @@
+dataset_name: arrange_beverage_e_to_container_e_4908
+dataset_uuid: fbf16203-8ca6-4598-ab75-8b948a3a3eed
+task_descriptions:
+- arrange_the_beverage_e_and_place_in_the_container_e
+scene_type:
+- factory
+- kitchen
+atomic_actions:
+- push
+- grasp
+- flip
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+- object_name: container_e
+  level1: container
+  level2: container_e
+  level3: container_e_sub1
+  level4: container_e_sub2
+  level5: null
+operation_platform_height: 72.9
+device_model:
+- unitree_tiago
+end_effector_type: three_claw_gripper

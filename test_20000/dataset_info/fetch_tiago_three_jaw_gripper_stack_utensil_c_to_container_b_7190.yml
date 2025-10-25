@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_c_to_container_b_7190
+dataset_uuid: 60e320ca-14c9-4222-90f0-64a92ec7b7da
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_container_b
+scene_type:
+- restaurant
+- cafe
+- store
+atomic_actions:
+- rotate
+- insert
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

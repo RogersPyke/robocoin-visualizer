@@ -1,0 +1,28 @@
+dataset_name: place_tool_a_to_kitchenware_b_3729
+dataset_uuid: 796c9f3f-610c-47c0-8c58-63bb03898db7
+task_descriptions:
+- place_the_tool_a_and_place_in_the_kitchenware_b
+scene_type:
+- office
+- cafe
+atomic_actions:
+- lower
+- pick
+- lift
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.2
+device_model:
+- boston_tiago
+end_effector_type: two_claw_gripper

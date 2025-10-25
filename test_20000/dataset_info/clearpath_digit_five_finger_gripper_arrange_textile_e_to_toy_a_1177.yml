@@ -1,0 +1,26 @@
+dataset_name: arrange_textile_e_to_toy_a_1177
+dataset_uuid: 13ecae43-9bd8-499a-8da6-1f43037cfd40
+task_descriptions:
+- arrange_the_textile_e_and_place_in_the_toy_a
+scene_type:
+- warehouse
+atomic_actions:
+- grasp
+- lift
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

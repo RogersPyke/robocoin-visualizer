@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_b_to_stationery_b_2647
+dataset_uuid: e07dae14-193d-4e11-bc3f-8247f9b1f546
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_stationery_b
+scene_type:
+- restaurant
+- warehouse
+atomic_actions:
+- insert
+- lift
+- lower
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

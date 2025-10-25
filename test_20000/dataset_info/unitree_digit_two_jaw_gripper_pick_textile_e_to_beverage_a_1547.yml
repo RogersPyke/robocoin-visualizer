@@ -1,0 +1,30 @@
+dataset_name: pick_textile_e_to_beverage_a_1547
+dataset_uuid: 488d290b-c3b2-4aa1-98cb-135fbd782092
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_beverage_a
+scene_type:
+- factory
+- home
+- laboratory
+atomic_actions:
+- place
+- rotate
+- lower
+- push
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

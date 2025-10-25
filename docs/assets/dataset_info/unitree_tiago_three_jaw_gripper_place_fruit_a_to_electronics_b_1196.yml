@@ -1,0 +1,26 @@
+dataset_name: place_fruit_a_to_electronics_b_1196
+dataset_uuid: 87244d53-1b88-47c9-bd4c-e5d23ae7444f
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_electronics_b
+scene_type:
+- kitchen
+atomic_actions:
+- grasp
+- lower
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- unitree_tiago
+end_effector_type: three_jaw_gripper

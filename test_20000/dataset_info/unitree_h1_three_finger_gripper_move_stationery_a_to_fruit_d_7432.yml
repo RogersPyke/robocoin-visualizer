@@ -1,0 +1,28 @@
+dataset_name: move_stationery_a_to_fruit_d_7432
+dataset_uuid: e2b95164-9928-4b9d-862d-06765cc77928
+task_descriptions:
+- move_the_stationery_a_and_place_in_the_fruit_d
+scene_type:
+- factory
+atomic_actions:
+- slide
+- place
+- flip
+- pick
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.1
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

@@ -1,0 +1,26 @@
+dataset_name: move_fruit_c_to_furniture_d_4425
+dataset_uuid: e1bbfb9e-4ff8-47db-8efe-294257923645
+task_descriptions:
+- move_the_fruit_c_and_place_in_the_furniture_d
+scene_type:
+- store
+atomic_actions:
+- rotate
+- lower
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.6
+device_model:
+- agility_cassie
+end_effector_type: three_jaw_gripper

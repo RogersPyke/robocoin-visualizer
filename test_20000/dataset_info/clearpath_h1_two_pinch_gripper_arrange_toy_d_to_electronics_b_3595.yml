@@ -1,0 +1,27 @@
+dataset_name: arrange_toy_d_to_electronics_b_3595
+dataset_uuid: 3485ad82-a9eb-4a0e-a18f-7f7ab02d85bb
+task_descriptions:
+- arrange_the_toy_d_and_place_in_the_electronics_b
+scene_type:
+- restaurant
+- cafe
+atomic_actions:
+- lower
+- place
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_electronics_b_to_toy_a_9285
+dataset_uuid: 44a59232-5a33-4dcd-9afa-b357d5c5ed66
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_toy_a
+scene_type:
+- factory
+- office
+atomic_actions:
+- slide
+- lower
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 71.9
+device_model:
+- unitree_digit
+end_effector_type: two_claw_gripper

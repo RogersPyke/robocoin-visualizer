@@ -1,0 +1,30 @@
+dataset_name: move_fruit_d_to_food_a_6953
+dataset_uuid: 7b1b614b-643b-4191-9055-0a69c033880b
+task_descriptions:
+- move_the_fruit_d_and_place_in_the_food_a
+scene_type:
+- hospital
+- factory
+- laboratory
+atomic_actions:
+- push
+- insert
+- flip
+- grasp
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

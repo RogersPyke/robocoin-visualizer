@@ -1,0 +1,28 @@
+dataset_name: place_container_b_to_furniture_c_6668
+dataset_uuid: e0bbb7f5-4e0b-4bee-9dc1-61f492d605b5
+task_descriptions:
+- place_the_container_b_and_place_in_the_furniture_c
+scene_type:
+- warehouse
+- restaurant
+atomic_actions:
+- remove
+- place
+- insert
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.4
+device_model:
+- agility_spot
+end_effector_type: two_claw_gripper

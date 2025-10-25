@@ -1,0 +1,27 @@
+dataset_name: pick_container_a_to_beverage_b_6713
+dataset_uuid: ce592f26-5900-42ab-9ad8-9d76df61d023
+task_descriptions:
+- pick_the_container_a_and_place_in_the_beverage_b
+scene_type:
+- kitchen
+atomic_actions:
+- grasp
+- place
+- pull
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.0
+device_model:
+- agility_cassie
+end_effector_type: five_claw_gripper

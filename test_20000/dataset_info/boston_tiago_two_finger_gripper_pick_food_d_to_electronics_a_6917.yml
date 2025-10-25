@@ -1,0 +1,28 @@
+dataset_name: pick_food_d_to_electronics_a_6917
+dataset_uuid: dba06e9f-e7a4-4423-960b-3290e95885b6
+task_descriptions:
+- pick_the_food_d_and_place_in_the_electronics_a
+scene_type:
+- store
+- hospital
+- office
+atomic_actions:
+- rotate
+- lift
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- boston_tiago
+end_effector_type: two_finger_gripper

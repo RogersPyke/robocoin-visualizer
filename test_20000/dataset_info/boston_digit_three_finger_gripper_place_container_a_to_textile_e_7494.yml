@@ -1,0 +1,30 @@
+dataset_name: place_container_a_to_textile_e_7494
+dataset_uuid: c3e74611-9606-4f88-8c96-ca280737c15f
+task_descriptions:
+- place_the_container_a_and_place_in_the_textile_e
+scene_type:
+- factory
+- restaurant
+- warehouse
+atomic_actions:
+- remove
+- lift
+- slide
+- push
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.0
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_a_to_furniture_e_8053
+dataset_uuid: 2838b6f6-5fda-481c-8d2d-f35357a1f53a
+task_descriptions:
+- pick_the_furniture_a_and_place_in_the_furniture_e
+scene_type:
+- warehouse
+- restaurant
+atomic_actions:
+- slide
+- lift
+- grasp
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.8
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

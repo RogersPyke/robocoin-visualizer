@@ -1,0 +1,26 @@
+dataset_name: stack_furniture_e_to_furniture_e_1809
+dataset_uuid: 1e3b1c3b-d8cb-41ef-a287-b3afc9d1c648
+task_descriptions:
+- stack_the_furniture_e_and_place_in_the_furniture_e
+scene_type:
+- office
+atomic_actions:
+- rotate
+- pick
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+operation_platform_height: 82.6
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

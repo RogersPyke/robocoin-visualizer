@@ -1,0 +1,27 @@
+dataset_name: arrange_utensil_d_to_electronics_b_3201
+dataset_uuid: 67f667fe-a6e5-4538-9aa5-6183f0206696
+task_descriptions:
+- arrange_the_utensil_d_and_place_in_the_electronics_b
+scene_type:
+- laboratory
+atomic_actions:
+- grasp
+- remove
+- rotate
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.4
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

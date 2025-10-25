@@ -1,0 +1,28 @@
+dataset_name: place_tool_a_to_fruit_b_6175
+dataset_uuid: bad19f1a-ebb7-401a-92ec-e59821e44f5a
+task_descriptions:
+- place_the_tool_a_and_place_in_the_fruit_b
+scene_type:
+- kitchen
+- home
+- warehouse
+atomic_actions:
+- lower
+- lift
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.9
+device_model:
+- boston_atlas
+end_effector_type: five_finger_gripper

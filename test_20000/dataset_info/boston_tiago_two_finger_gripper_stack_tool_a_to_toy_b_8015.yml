@@ -1,0 +1,28 @@
+dataset_name: stack_tool_a_to_toy_b_8015
+dataset_uuid: 3ef972da-b3c1-4b12-85c3-daa826b7e290
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_toy_b
+scene_type:
+- hospital
+- cafe
+atomic_actions:
+- flip
+- lower
+- insert
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.0
+device_model:
+- boston_tiago
+end_effector_type: two_finger_gripper

@@ -1,0 +1,30 @@
+dataset_name: stack_kitchenware_a_to_utensil_d_9053
+dataset_uuid: b3e2db33-166d-41c8-86c4-3aac192a9d4e
+task_descriptions:
+- stack_the_kitchenware_a_and_place_in_the_utensil_d
+scene_type:
+- laboratory
+- kitchen
+- store
+atomic_actions:
+- grasp
+- remove
+- slide
+- flip
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- pal_tiago
+end_effector_type: two_finger_gripper

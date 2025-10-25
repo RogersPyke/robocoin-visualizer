@@ -1,0 +1,29 @@
+dataset_name: move_fruit_d_to_toy_d_3475
+dataset_uuid: 0ed62ce0-e5f5-4c00-8b9c-d948bd267f90
+task_descriptions:
+- move_the_fruit_d_and_place_in_the_toy_d
+scene_type:
+- cafe
+- factory
+atomic_actions:
+- flip
+- insert
+- place
+- rotate
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.5
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

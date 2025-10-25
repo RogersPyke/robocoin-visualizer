@@ -1,0 +1,30 @@
+dataset_name: place_fruit_c_to_fruit_b_1870
+dataset_uuid: 50cc8b7c-120d-4b98-a2ee-14fa752f37bd
+task_descriptions:
+- place_the_fruit_c_and_place_in_the_fruit_b
+scene_type:
+- store
+- hospital
+- cafe
+atomic_actions:
+- remove
+- pull
+- lower
+- push
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 81.6
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

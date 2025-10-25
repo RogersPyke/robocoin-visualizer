@@ -1,0 +1,27 @@
+dataset_name: arrange_container_a_to_toy_b_6078
+dataset_uuid: fc9eebb3-b9bc-41be-a7ce-d6925bcd1426
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_toy_b
+scene_type:
+- office
+- home
+atomic_actions:
+- flip
+- grasp
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.0
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

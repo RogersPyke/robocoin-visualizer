@@ -1,0 +1,28 @@
+dataset_name: arrange_kitchenware_e_to_furniture_a_4850
+dataset_uuid: 5aca5fa2-c87f-49a3-8001-10b0f147894b
+task_descriptions:
+- arrange_the_kitchenware_e_and_place_in_the_furniture_a
+scene_type:
+- restaurant
+- store
+atomic_actions:
+- place
+- pick
+- grasp
+objects:
+- object_name: kitchenware_e
+  level1: kitchenware
+  level2: kitchenware_e
+  level3: kitchenware_e_sub1
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.7
+device_model:
+- agility_h1
+end_effector_type: three_jaw_gripper

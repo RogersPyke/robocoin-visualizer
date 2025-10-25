@@ -1,0 +1,29 @@
+dataset_name: pick_food_b_to_food_c_2024
+dataset_uuid: fa94f8ba-a3a5-44b7-9733-ce095308a6a8
+task_descriptions:
+- pick_the_food_b_and_place_in_the_food_c
+scene_type:
+- warehouse
+- store
+- home
+atomic_actions:
+- rotate
+- lift
+- lower
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

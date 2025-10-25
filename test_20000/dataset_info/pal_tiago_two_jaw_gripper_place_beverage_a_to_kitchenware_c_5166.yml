@@ -1,0 +1,29 @@
+dataset_name: place_beverage_a_to_kitchenware_c_5166
+dataset_uuid: cc24d79c-4b4f-4db9-8383-914fbc8a4529
+task_descriptions:
+- place_the_beverage_a_and_place_in_the_kitchenware_c
+scene_type:
+- office
+- kitchen
+- hospital
+atomic_actions:
+- insert
+- lift
+- lower
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.8
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

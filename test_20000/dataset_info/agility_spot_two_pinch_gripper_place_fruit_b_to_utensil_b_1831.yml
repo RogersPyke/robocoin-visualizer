@@ -1,0 +1,26 @@
+dataset_name: place_fruit_b_to_utensil_b_1831
+dataset_uuid: 33ae4f37-e2b5-456c-87dd-5468591ef0d4
+task_descriptions:
+- place_the_fruit_b_and_place_in_the_utensil_b
+scene_type:
+- kitchen
+atomic_actions:
+- pull
+- rotate
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.9
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_stationery_b_to_utensil_d_9879
+dataset_uuid: 73fd0a57-8065-404b-9678-3433843f1afe
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_utensil_d
+scene_type:
+- hospital
+- home
+atomic_actions:
+- pull
+- insert
+- push
+- grasp
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 78.0
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_tool_a_to_tool_d_6842
+dataset_uuid: 857326a7-e810-42ea-bd2f-b6af88b2f6ea
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_tool_d
+scene_type:
+- store
+- laboratory
+atomic_actions:
+- lower
+- remove
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

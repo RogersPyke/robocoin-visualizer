@@ -1,0 +1,29 @@
+dataset_name: arrange_toy_c_to_stationery_b_2579
+dataset_uuid: f3876d58-893a-4f35-8918-5dbabc0ad97a
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_stationery_b
+scene_type:
+- warehouse
+- hospital
+atomic_actions:
+- push
+- flip
+- pick
+- slide
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

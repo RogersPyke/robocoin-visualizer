@@ -1,0 +1,28 @@
+dataset_name: place_textile_b_to_fruit_d_5429
+dataset_uuid: ee6879ae-d984-431f-8d32-5b32cd642c75
+task_descriptions:
+- place_the_textile_b_and_place_in_the_fruit_d
+scene_type:
+- warehouse
+atomic_actions:
+- place
+- lift
+- grasp
+- remove
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+operation_platform_height: 71.9
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,30 @@
+dataset_name: place_toy_d_to_container_b_9853
+dataset_uuid: 323e2f44-5499-4b62-b2b0-a40d7bd8f262
+task_descriptions:
+- place_the_toy_d_and_place_in_the_container_b
+scene_type:
+- store
+- factory
+- home
+atomic_actions:
+- rotate
+- lift
+- slide
+- insert
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

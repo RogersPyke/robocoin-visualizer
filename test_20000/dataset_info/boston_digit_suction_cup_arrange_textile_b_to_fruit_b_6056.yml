@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_b_to_fruit_b_6056
+dataset_uuid: 1a74d64b-cb02-4fd8-a38c-e375d98f5b29
+task_descriptions:
+- arrange_the_textile_b_and_place_in_the_fruit_b
+scene_type:
+- home
+- store
+atomic_actions:
+- pick
+- remove
+- flip
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 85.3
+device_model:
+- boston_digit
+end_effector_type: suction_cup

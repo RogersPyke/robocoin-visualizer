@@ -1,0 +1,28 @@
+dataset_name: place_stationery_c_to_toy_b_3246
+dataset_uuid: 6f29b266-0643-4288-931a-b2bb08e81994
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_toy_b
+scene_type:
+- cafe
+atomic_actions:
+- remove
+- lift
+- pull
+- insert
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- unitree_g1
+end_effector_type: five_finger_gripper

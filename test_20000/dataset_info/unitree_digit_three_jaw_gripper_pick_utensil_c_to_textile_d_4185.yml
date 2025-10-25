@@ -1,0 +1,30 @@
+dataset_name: pick_utensil_c_to_textile_d_4185
+dataset_uuid: 4f115dc1-300c-4f52-bec9-02308eed6148
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_textile_d
+scene_type:
+- laboratory
+- kitchen
+- factory
+atomic_actions:
+- remove
+- slide
+- pick
+- flip
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+operation_platform_height: 85.6
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

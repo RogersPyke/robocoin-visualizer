@@ -1,0 +1,29 @@
+dataset_name: move_electronics_c_to_furniture_d_7659
+dataset_uuid: f8982f8b-300a-4161-985c-9402289c055a
+task_descriptions:
+- move_the_electronics_c_and_place_in_the_furniture_d
+scene_type:
+- store
+- laboratory
+- warehouse
+atomic_actions:
+- grasp
+- place
+- pick
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

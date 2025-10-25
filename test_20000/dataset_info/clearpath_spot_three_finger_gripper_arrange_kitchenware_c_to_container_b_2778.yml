@@ -1,0 +1,28 @@
+dataset_name: arrange_kitchenware_c_to_container_b_2778
+dataset_uuid: 9d4070c3-f815-49d4-a9bc-ef7abe7ec18e
+task_descriptions:
+- arrange_the_kitchenware_c_and_place_in_the_container_b
+scene_type:
+- laboratory
+atomic_actions:
+- slide
+- rotate
+- pick
+- push
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

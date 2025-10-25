@@ -1,0 +1,29 @@
+dataset_name: stack_furniture_b_to_container_a_8580
+dataset_uuid: 9f311ba9-5fe6-42dc-a6cf-8a526a63d6f3
+task_descriptions:
+- stack_the_furniture_b_and_place_in_the_container_a
+scene_type:
+- cafe
+- home
+atomic_actions:
+- pick
+- remove
+- flip
+- push
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 83.8
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

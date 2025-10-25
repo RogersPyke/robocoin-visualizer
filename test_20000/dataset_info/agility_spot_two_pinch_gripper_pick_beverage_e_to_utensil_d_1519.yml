@@ -1,0 +1,26 @@
+dataset_name: pick_beverage_e_to_utensil_d_1519
+dataset_uuid: c2cdc744-9ee8-40b7-8a4f-995e012fe47f
+task_descriptions:
+- pick_the_beverage_e_and_place_in_the_utensil_d
+scene_type:
+- home
+atomic_actions:
+- slide
+- rotate
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.1
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

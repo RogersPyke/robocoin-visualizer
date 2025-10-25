@@ -1,0 +1,28 @@
+dataset_name: move_stationery_a_to_beverage_b_4805
+dataset_uuid: 763b6ee8-b98e-42fa-926d-d46fbb95f502
+task_descriptions:
+- move_the_stationery_a_and_place_in_the_beverage_b
+scene_type:
+- store
+- laboratory
+- office
+atomic_actions:
+- pick
+- pull
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

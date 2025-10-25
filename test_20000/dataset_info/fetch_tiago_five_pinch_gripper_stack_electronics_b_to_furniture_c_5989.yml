@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_b_to_furniture_c_5989
+dataset_uuid: 423c43c2-1600-4e60-97bc-aada25727cbb
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_furniture_c
+scene_type:
+- laboratory
+atomic_actions:
+- rotate
+- lift
+- grasp
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

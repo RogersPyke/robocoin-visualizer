@@ -1,0 +1,29 @@
+dataset_name: place_tool_b_to_furniture_c_2848
+dataset_uuid: fc19fbce-db7b-4dde-ae28-b7b0f505f064
+task_descriptions:
+- place_the_tool_b_and_place_in_the_furniture_c
+scene_type:
+- home
+- hospital
+- warehouse
+atomic_actions:
+- pick
+- lift
+- remove
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.8
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

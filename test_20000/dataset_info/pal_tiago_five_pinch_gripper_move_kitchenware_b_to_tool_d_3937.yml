@@ -1,0 +1,28 @@
+dataset_name: move_kitchenware_b_to_tool_d_3937
+dataset_uuid: c303ee7a-e3d5-4916-bc40-aad37c0640d7
+task_descriptions:
+- move_the_kitchenware_b_and_place_in_the_tool_d
+scene_type:
+- laboratory
+- store
+- warehouse
+atomic_actions:
+- slide
+- pick
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.6
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

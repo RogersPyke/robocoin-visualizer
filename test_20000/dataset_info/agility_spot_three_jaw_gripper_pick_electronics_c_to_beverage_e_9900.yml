@@ -1,0 +1,29 @@
+dataset_name: pick_electronics_c_to_beverage_e_9900
+dataset_uuid: 8896fb42-3b6d-4197-952d-ddd37f889823
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_beverage_e
+scene_type:
+- home
+- store
+- office
+atomic_actions:
+- rotate
+- flip
+- lift
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.7
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

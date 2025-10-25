@@ -1,0 +1,30 @@
+dataset_name: pick_container_a_to_stationery_e_5458
+dataset_uuid: e9923e2f-7cff-440c-8057-a6d10f61c7cb
+task_descriptions:
+- pick_the_container_a_and_place_in_the_stationery_e
+scene_type:
+- cafe
+- laboratory
+- restaurant
+atomic_actions:
+- lower
+- place
+- slide
+- pick
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: stationery_e
+  level1: stationery
+  level2: stationery_e
+  level3: stationery_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- agility_h1
+end_effector_type: five_claw_gripper

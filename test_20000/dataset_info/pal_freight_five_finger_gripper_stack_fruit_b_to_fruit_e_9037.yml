@@ -1,0 +1,27 @@
+dataset_name: stack_fruit_b_to_fruit_e_9037
+dataset_uuid: eeec916d-4cb1-4c9e-ab27-a26c0c650c5d
+task_descriptions:
+- stack_the_fruit_b_and_place_in_the_fruit_e
+scene_type:
+- office
+atomic_actions:
+- flip
+- slide
+- grasp
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- pal_freight
+end_effector_type: five_finger_gripper

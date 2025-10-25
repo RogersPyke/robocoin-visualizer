@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_b_to_tool_c_2206
+dataset_uuid: 191c6b30-869c-473a-b1d6-7eb2b2a5ca40
+task_descriptions:
+- stack_the_stationery_b_and_place_in_the_tool_c
+scene_type:
+- factory
+- cafe
+atomic_actions:
+- flip
+- pick
+- slide
+- pull
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.9
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

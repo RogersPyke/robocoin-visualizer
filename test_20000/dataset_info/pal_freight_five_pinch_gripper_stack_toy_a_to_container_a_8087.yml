@@ -1,0 +1,27 @@
+dataset_name: stack_toy_a_to_container_a_8087
+dataset_uuid: f049e02b-f922-44cf-9d4e-c5b81167f7bd
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_container_a
+scene_type:
+- factory
+atomic_actions:
+- place
+- pick
+- flip
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

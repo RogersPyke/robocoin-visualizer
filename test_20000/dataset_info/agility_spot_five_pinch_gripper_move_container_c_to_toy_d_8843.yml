@@ -1,0 +1,30 @@
+dataset_name: move_container_c_to_toy_d_8843
+dataset_uuid: 87371cd9-4535-4d4d-ad53-5ef16d4aeae7
+task_descriptions:
+- move_the_container_c_and_place_in_the_toy_d
+scene_type:
+- cafe
+- home
+- hospital
+atomic_actions:
+- lift
+- flip
+- rotate
+- lower
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

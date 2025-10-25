@@ -1,0 +1,27 @@
+dataset_name: stack_toy_a_to_stationery_b_9566
+dataset_uuid: e3f3ce01-4175-436b-8ffb-fdf9508d954d
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_stationery_b
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- slide
+- place
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 76.0
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

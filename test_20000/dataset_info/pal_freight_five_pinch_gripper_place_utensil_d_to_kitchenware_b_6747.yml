@@ -1,0 +1,28 @@
+dataset_name: place_utensil_d_to_kitchenware_b_6747
+dataset_uuid: 83aa219d-b277-4502-918b-057a43043732
+task_descriptions:
+- place_the_utensil_d_and_place_in_the_kitchenware_b
+scene_type:
+- home
+- hospital
+- kitchen
+atomic_actions:
+- place
+- flip
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

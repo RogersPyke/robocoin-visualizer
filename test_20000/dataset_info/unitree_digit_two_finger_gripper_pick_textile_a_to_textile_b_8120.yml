@@ -1,0 +1,27 @@
+dataset_name: pick_textile_a_to_textile_b_8120
+dataset_uuid: 0521a25c-ae80-4aa6-92ca-b63d6d18b8bc
+task_descriptions:
+- pick_the_textile_a_and_place_in_the_textile_b
+scene_type:
+- kitchen
+atomic_actions:
+- slide
+- insert
+- lower
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- unitree_digit
+end_effector_type: two_finger_gripper

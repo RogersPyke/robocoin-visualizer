@@ -1,0 +1,28 @@
+dataset_name: stack_toy_d_to_container_b_3604
+dataset_uuid: 0d0d0606-fdb0-4066-b050-8960eff7029b
+task_descriptions:
+- stack_the_toy_d_and_place_in_the_container_b
+scene_type:
+- cafe
+- factory
+atomic_actions:
+- slide
+- grasp
+- remove
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

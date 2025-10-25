@@ -1,0 +1,27 @@
+dataset_name: stack_textile_e_to_utensil_c_6214
+dataset_uuid: d3423440-7ddc-4d87-b70d-4efbddf0467c
+task_descriptions:
+- stack_the_textile_e_and_place_in_the_utensil_c
+scene_type:
+- laboratory
+- factory
+atomic_actions:
+- insert
+- push
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

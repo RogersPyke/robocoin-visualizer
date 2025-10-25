@@ -1,0 +1,27 @@
+dataset_name: place_toy_a_to_textile_e_9796
+dataset_uuid: abd392cf-6ad3-4972-941c-0ef766cde4b5
+task_descriptions:
+- place_the_toy_a_and_place_in_the_textile_e
+scene_type:
+- restaurant
+- store
+atomic_actions:
+- lower
+- pick
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- pal_tiago
+end_effector_type: five_claw_gripper

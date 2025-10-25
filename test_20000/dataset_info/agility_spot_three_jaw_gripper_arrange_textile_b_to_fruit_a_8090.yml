@@ -1,0 +1,26 @@
+dataset_name: arrange_textile_b_to_fruit_a_8090
+dataset_uuid: c7d496cc-67a1-432d-afad-8aa0e43dcdf0
+task_descriptions:
+- arrange_the_textile_b_and_place_in_the_fruit_a
+scene_type:
+- home
+atomic_actions:
+- rotate
+- push
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

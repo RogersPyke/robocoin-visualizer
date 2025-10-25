@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_a_to_tool_c_8159
+dataset_uuid: f655fcd2-c728-4e38-8dba-1d0407623b63
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_tool_c
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- lift
+- insert
+- push
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+operation_platform_height: 80.1
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

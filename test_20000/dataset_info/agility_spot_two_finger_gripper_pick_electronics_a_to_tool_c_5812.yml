@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_a_to_tool_c_5812
+dataset_uuid: 9208514a-d66c-47a0-ac54-1001f7e20ad4
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_tool_c
+scene_type:
+- warehouse
+- laboratory
+atomic_actions:
+- rotate
+- remove
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- agility_spot
+end_effector_type: two_finger_gripper

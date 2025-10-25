@@ -1,0 +1,27 @@
+dataset_name: pick_tool_a_to_toy_a_8440
+dataset_uuid: 674cc4f3-6021-4999-92c2-8a305adc58ee
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_toy_a
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- rotate
+- place
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- unitree_g1
+end_effector_type: five_claw_gripper

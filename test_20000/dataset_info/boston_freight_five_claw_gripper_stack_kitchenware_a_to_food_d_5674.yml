@@ -1,0 +1,26 @@
+dataset_name: stack_kitchenware_a_to_food_d_5674
+dataset_uuid: 32eda991-f1a1-4c22-842e-f8c06639a1a2
+task_descriptions:
+- stack_the_kitchenware_a_and_place_in_the_food_d
+scene_type:
+- store
+atomic_actions:
+- insert
+- push
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

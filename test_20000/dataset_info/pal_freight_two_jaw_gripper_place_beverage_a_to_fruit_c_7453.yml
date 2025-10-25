@@ -1,0 +1,30 @@
+dataset_name: place_beverage_a_to_fruit_c_7453
+dataset_uuid: 659b5885-24ae-4842-b7da-5c359a151eb9
+task_descriptions:
+- place_the_beverage_a_and_place_in_the_fruit_c
+scene_type:
+- laboratory
+- factory
+- store
+atomic_actions:
+- insert
+- lift
+- push
+- rotate
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

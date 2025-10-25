@@ -1,0 +1,27 @@
+dataset_name: place_fruit_b_to_utensil_a_6002
+dataset_uuid: 54482983-7667-421c-bfd7-3119ee2dfbb3
+task_descriptions:
+- place_the_fruit_b_and_place_in_the_utensil_a
+scene_type:
+- store
+- home
+atomic_actions:
+- grasp
+- pull
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

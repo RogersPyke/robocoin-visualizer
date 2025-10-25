@@ -1,0 +1,27 @@
+dataset_name: stack_toy_a_to_electronics_b_4470
+dataset_uuid: 30d242f8-8c9d-4a6f-b406-537ca153b907
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_electronics_b
+scene_type:
+- home
+- laboratory
+atomic_actions:
+- pick
+- slide
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

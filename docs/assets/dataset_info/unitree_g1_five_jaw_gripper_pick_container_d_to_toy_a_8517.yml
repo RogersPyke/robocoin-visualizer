@@ -1,0 +1,30 @@
+dataset_name: pick_container_d_to_toy_a_8517
+dataset_uuid: 43acbfc4-a345-4fb7-ba36-fd6ba15913cf
+task_descriptions:
+- pick_the_container_d_and_place_in_the_toy_a
+scene_type:
+- kitchen
+- warehouse
+- cafe
+atomic_actions:
+- flip
+- lower
+- pull
+- lift
+objects:
+- object_name: container_d
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- unitree_g1
+end_effector_type: five_jaw_gripper

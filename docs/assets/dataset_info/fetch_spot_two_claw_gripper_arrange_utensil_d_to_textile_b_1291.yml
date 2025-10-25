@@ -1,0 +1,27 @@
+dataset_name: arrange_utensil_d_to_textile_b_1291
+dataset_uuid: 1a221c39-dfc3-4aa5-a6eb-c985de61ffa6
+task_descriptions:
+- arrange_the_utensil_d_and_place_in_the_textile_b
+scene_type:
+- warehouse
+atomic_actions:
+- pull
+- remove
+- lift
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- fetch_spot
+end_effector_type: two_claw_gripper

@@ -1,0 +1,30 @@
+dataset_name: place_kitchenware_c_to_stationery_b_2987
+dataset_uuid: be7793eb-b606-458b-ad60-01c65bb503c6
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_stationery_b
+scene_type:
+- kitchen
+- cafe
+- warehouse
+atomic_actions:
+- lower
+- insert
+- pull
+- pick
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.4
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

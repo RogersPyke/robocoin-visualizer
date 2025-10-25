@@ -1,0 +1,29 @@
+dataset_name: move_fruit_a_to_container_a_5308
+dataset_uuid: 72d35808-cb26-4a05-bf20-2ef5f9c12589
+task_descriptions:
+- move_the_fruit_a_and_place_in_the_container_a
+scene_type:
+- store
+- restaurant
+- warehouse
+atomic_actions:
+- rotate
+- slide
+- remove
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_d_to_kitchenware_b_4528
+dataset_uuid: b95c41f3-a20d-4963-af62-c0e81f2c6019
+task_descriptions:
+- pick_the_fruit_d_and_place_in_the_kitchenware_b
+scene_type:
+- cafe
+- home
+- office
+atomic_actions:
+- insert
+- grasp
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 81.8
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

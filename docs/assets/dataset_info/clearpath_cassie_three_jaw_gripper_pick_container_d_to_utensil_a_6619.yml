@@ -1,0 +1,28 @@
+dataset_name: pick_container_d_to_utensil_a_6619
+dataset_uuid: 17d2558b-9a76-4871-9142-f4f2eceb4d92
+task_descriptions:
+- pick_the_container_d_and_place_in_the_utensil_a
+scene_type:
+- home
+atomic_actions:
+- remove
+- rotate
+- pick
+- pull
+objects:
+- object_name: container_d
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.8
+device_model:
+- clearpath_cassie
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,26 @@
+dataset_name: arrange_beverage_a_to_textile_a_6130
+dataset_uuid: c4b3c08b-b3c6-4362-b71e-be49ee02832c
+task_descriptions:
+- arrange_the_beverage_a_and_place_in_the_textile_a
+scene_type:
+- home
+atomic_actions:
+- pull
+- insert
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.9
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

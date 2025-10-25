@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_d_to_fruit_b_4422
+dataset_uuid: 6e3000b4-4ef0-4a18-b911-cf68b226a5b5
+task_descriptions:
+- arrange_the_toy_d_and_place_in_the_fruit_b
+scene_type:
+- restaurant
+atomic_actions:
+- pull
+- place
+- flip
+- insert
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 86.8
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

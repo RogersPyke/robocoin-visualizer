@@ -1,0 +1,30 @@
+dataset_name: pick_stationery_a_to_utensil_c_9891
+dataset_uuid: 99d39ca7-a880-47af-b7b5-5ff8297d0e2f
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_utensil_c
+scene_type:
+- laboratory
+- home
+- cafe
+atomic_actions:
+- pull
+- lift
+- lower
+- push
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.2
+device_model:
+- pal_freight
+end_effector_type: five_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_container_a_to_container_a_1942
+dataset_uuid: eeff7533-c222-4c09-81a2-8ab217ad306e
+task_descriptions:
+- pick_the_container_a_and_place_in_the_container_a
+scene_type:
+- restaurant
+- home
+atomic_actions:
+- pull
+- insert
+- grasp
+- lower
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 88.5
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

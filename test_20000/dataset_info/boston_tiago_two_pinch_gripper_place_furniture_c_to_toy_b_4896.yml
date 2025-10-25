@@ -1,0 +1,26 @@
+dataset_name: place_furniture_c_to_toy_b_4896
+dataset_uuid: 1210993a-1e9e-4867-b760-3fe659ec811f
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_toy_b
+scene_type:
+- cafe
+atomic_actions:
+- rotate
+- pick
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

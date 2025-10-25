@@ -1,0 +1,28 @@
+dataset_name: arrange_tool_b_to_kitchenware_a_5956
+dataset_uuid: 2fd2bfa1-0b31-46f4-ab89-01169bee19d1
+task_descriptions:
+- arrange_the_tool_b_and_place_in_the_kitchenware_a
+scene_type:
+- hospital
+- laboratory
+- factory
+atomic_actions:
+- pick
+- slide
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.7
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

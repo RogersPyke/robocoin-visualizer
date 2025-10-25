@@ -1,0 +1,28 @@
+dataset_name: pick_beverage_d_to_electronics_a_7267
+dataset_uuid: fbc0888d-c5c7-4146-8f62-b98eb9257544
+task_descriptions:
+- pick_the_beverage_d_and_place_in_the_electronics_a
+scene_type:
+- laboratory
+atomic_actions:
+- grasp
+- lower
+- place
+- flip
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 77.8
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

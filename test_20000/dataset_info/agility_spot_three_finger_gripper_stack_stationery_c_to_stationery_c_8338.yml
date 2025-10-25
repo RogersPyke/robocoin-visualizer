@@ -1,0 +1,28 @@
+dataset_name: stack_stationery_c_to_stationery_c_8338
+dataset_uuid: 9a86faf8-9f55-49f0-b8e0-97673792c5e2
+task_descriptions:
+- stack_the_stationery_c_and_place_in_the_stationery_c
+scene_type:
+- laboratory
+- kitchen
+- factory
+atomic_actions:
+- place
+- pull
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

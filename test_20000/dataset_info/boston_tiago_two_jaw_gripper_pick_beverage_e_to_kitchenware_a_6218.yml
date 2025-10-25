@@ -1,0 +1,30 @@
+dataset_name: pick_beverage_e_to_kitchenware_a_6218
+dataset_uuid: 5b36d7c6-297c-4368-be23-a26699e5046d
+task_descriptions:
+- pick_the_beverage_e_and_place_in_the_kitchenware_a
+scene_type:
+- home
+- restaurant
+- laboratory
+atomic_actions:
+- pull
+- grasp
+- rotate
+- lower
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+operation_platform_height: 86.8
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_toy_d_to_kitchenware_b_1247
+dataset_uuid: 6acbecf8-aa46-4b0b-adf2-1753265d427c
+task_descriptions:
+- place_the_toy_d_and_place_in_the_kitchenware_b
+scene_type:
+- home
+atomic_actions:
+- pick
+- slide
+- lower
+- flip
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.1
+device_model:
+- fetch_tiago
+end_effector_type: two_claw_gripper

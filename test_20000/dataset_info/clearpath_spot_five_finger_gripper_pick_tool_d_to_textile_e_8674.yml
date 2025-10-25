@@ -1,0 +1,28 @@
+dataset_name: pick_tool_d_to_textile_e_8674
+dataset_uuid: b64323e3-b42e-4ae2-8817-45f02d22ea72
+task_descriptions:
+- pick_the_tool_d_and_place_in_the_textile_e
+scene_type:
+- hospital
+- cafe
+- kitchen
+atomic_actions:
+- flip
+- pick
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- clearpath_spot
+end_effector_type: five_finger_gripper

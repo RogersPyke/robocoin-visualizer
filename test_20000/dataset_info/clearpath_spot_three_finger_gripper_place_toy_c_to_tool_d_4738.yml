@@ -1,0 +1,30 @@
+dataset_name: place_toy_c_to_tool_d_4738
+dataset_uuid: c3f6c89e-5e9b-4764-874d-0924befe3992
+task_descriptions:
+- place_the_toy_c_and_place_in_the_tool_d
+scene_type:
+- warehouse
+- factory
+- hospital
+atomic_actions:
+- rotate
+- slide
+- lower
+- flip
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+operation_platform_height: 85.5
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

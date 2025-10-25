@@ -1,0 +1,28 @@
+dataset_name: pick_textile_c_to_furniture_a_2897
+dataset_uuid: 58ea555a-ee1e-4b90-a6f5-186d7e5b770a
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_furniture_a
+scene_type:
+- office
+atomic_actions:
+- grasp
+- pull
+- lower
+- lift
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

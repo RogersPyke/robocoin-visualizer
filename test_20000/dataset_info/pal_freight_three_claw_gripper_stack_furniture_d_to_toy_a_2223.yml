@@ -1,0 +1,29 @@
+dataset_name: stack_furniture_d_to_toy_a_2223
+dataset_uuid: 925e7f23-42c6-4717-ae02-315007ab5871
+task_descriptions:
+- stack_the_furniture_d_and_place_in_the_toy_a
+scene_type:
+- home
+- cafe
+- laboratory
+atomic_actions:
+- pull
+- lower
+- lift
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

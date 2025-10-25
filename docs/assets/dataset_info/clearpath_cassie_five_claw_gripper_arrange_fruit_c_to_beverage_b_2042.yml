@@ -1,0 +1,27 @@
+dataset_name: arrange_fruit_c_to_beverage_b_2042
+dataset_uuid: f344dd0e-e34b-4c4c-aaab-86a1a829bc28
+task_descriptions:
+- arrange_the_fruit_c_and_place_in_the_beverage_b
+scene_type:
+- laboratory
+atomic_actions:
+- pick
+- pull
+- insert
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.0
+device_model:
+- clearpath_cassie
+end_effector_type: five_claw_gripper

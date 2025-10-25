@@ -1,0 +1,30 @@
+dataset_name: move_tool_b_to_textile_a_8008
+dataset_uuid: 2903a466-af61-44f1-946e-e305931b68c4
+task_descriptions:
+- move_the_tool_b_and_place_in_the_textile_a
+scene_type:
+- cafe
+- kitchen
+- office
+atomic_actions:
+- push
+- lower
+- slide
+- rotate
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- agility_cassie
+end_effector_type: three_jaw_gripper

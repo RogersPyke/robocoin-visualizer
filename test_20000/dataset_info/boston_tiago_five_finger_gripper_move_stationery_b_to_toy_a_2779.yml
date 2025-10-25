@@ -1,0 +1,27 @@
+dataset_name: move_stationery_b_to_toy_a_2779
+dataset_uuid: 7718b11d-035f-4a72-ae8b-2e3608c488c9
+task_descriptions:
+- move_the_stationery_b_and_place_in_the_toy_a
+scene_type:
+- home
+atomic_actions:
+- slide
+- insert
+- flip
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

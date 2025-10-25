@@ -1,0 +1,26 @@
+dataset_name: move_utensil_c_to_stationery_b_6160
+dataset_uuid: 5b4f7fe1-3867-45cc-934c-3eb4776015f3
+task_descriptions:
+- move_the_utensil_c_and_place_in_the_stationery_b
+scene_type:
+- hospital
+atomic_actions:
+- insert
+- place
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.6
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

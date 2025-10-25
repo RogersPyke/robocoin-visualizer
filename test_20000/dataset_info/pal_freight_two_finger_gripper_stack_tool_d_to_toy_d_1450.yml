@@ -1,0 +1,27 @@
+dataset_name: stack_tool_d_to_toy_d_1450
+dataset_uuid: 070097fb-4b0b-4113-af51-162430f8b362
+task_descriptions:
+- stack_the_tool_d_and_place_in_the_toy_d
+scene_type:
+- kitchen
+atomic_actions:
+- push
+- lift
+- pull
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.4
+device_model:
+- pal_freight
+end_effector_type: two_finger_gripper

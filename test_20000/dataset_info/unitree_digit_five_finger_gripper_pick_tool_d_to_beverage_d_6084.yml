@@ -1,0 +1,26 @@
+dataset_name: pick_tool_d_to_beverage_d_6084
+dataset_uuid: 61511e52-071e-40ea-ae27-a1978c5a8897
+task_descriptions:
+- pick_the_tool_d_and_place_in_the_beverage_d
+scene_type:
+- laboratory
+atomic_actions:
+- rotate
+- grasp
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.1
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

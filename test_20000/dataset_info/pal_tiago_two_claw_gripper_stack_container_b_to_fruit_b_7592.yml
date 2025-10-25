@@ -1,0 +1,27 @@
+dataset_name: stack_container_b_to_fruit_b_7592
+dataset_uuid: bd3e9339-a507-47d2-9b3d-05e9a60177a6
+task_descriptions:
+- stack_the_container_b_and_place_in_the_fruit_b
+scene_type:
+- home
+atomic_actions:
+- slide
+- lower
+- lift
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- pal_tiago
+end_effector_type: two_claw_gripper

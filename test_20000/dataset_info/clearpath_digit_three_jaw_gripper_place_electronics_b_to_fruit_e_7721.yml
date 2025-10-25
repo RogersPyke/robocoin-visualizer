@@ -1,0 +1,28 @@
+dataset_name: place_electronics_b_to_fruit_e_7721
+dataset_uuid: dc8691bb-3685-45df-8c8c-0f7127783f46
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_fruit_e
+scene_type:
+- warehouse
+- kitchen
+atomic_actions:
+- lift
+- pick
+- place
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

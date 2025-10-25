@@ -1,0 +1,28 @@
+dataset_name: place_electronics_c_to_electronics_b_5580
+dataset_uuid: 15af0d71-102c-4b5a-9f02-882a4f7d86c8
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_electronics_b
+scene_type:
+- laboratory
+atomic_actions:
+- rotate
+- pick
+- flip
+- place
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.5
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

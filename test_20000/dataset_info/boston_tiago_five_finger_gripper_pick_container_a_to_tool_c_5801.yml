@@ -1,0 +1,28 @@
+dataset_name: pick_container_a_to_tool_c_5801
+dataset_uuid: 2756610f-d8db-4665-804c-c8d8d9f244f4
+task_descriptions:
+- pick_the_container_a_and_place_in_the_tool_c
+scene_type:
+- kitchen
+atomic_actions:
+- rotate
+- pick
+- lower
+- slide
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

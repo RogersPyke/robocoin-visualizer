@@ -1,0 +1,26 @@
+dataset_name: pick_electronics_b_to_utensil_b_3720
+dataset_uuid: 7627d0dc-4195-4b70-b0a2-dc3256c90f5d
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_utensil_b
+scene_type:
+- restaurant
+atomic_actions:
+- flip
+- lower
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- pal_freight
+end_effector_type: three_finger_gripper

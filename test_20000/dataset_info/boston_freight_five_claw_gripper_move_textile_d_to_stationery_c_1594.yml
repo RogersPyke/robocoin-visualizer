@@ -1,0 +1,30 @@
+dataset_name: move_textile_d_to_stationery_c_1594
+dataset_uuid: 9ca1b6eb-011a-4b11-bceb-472c1a39469b
+task_descriptions:
+- move_the_textile_d_and_place_in_the_stationery_c
+scene_type:
+- home
+- warehouse
+- laboratory
+atomic_actions:
+- slide
+- rotate
+- lower
+- remove
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

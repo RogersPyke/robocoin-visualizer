@@ -1,0 +1,26 @@
+dataset_name: pick_stationery_a_to_beverage_a_8941
+dataset_uuid: 3c19e56f-55f0-4fcf-921a-847ddb7e1439
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_beverage_a
+scene_type:
+- laboratory
+atomic_actions:
+- push
+- lift
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+operation_platform_height: 77.9
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

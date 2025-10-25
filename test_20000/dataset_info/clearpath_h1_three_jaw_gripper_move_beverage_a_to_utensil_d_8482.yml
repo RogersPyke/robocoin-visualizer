@@ -1,0 +1,29 @@
+dataset_name: move_beverage_a_to_utensil_d_8482
+dataset_uuid: 39e67cd5-7a33-46d7-a80f-bf2ab9588d44
+task_descriptions:
+- move_the_beverage_a_and_place_in_the_utensil_d
+scene_type:
+- restaurant
+- office
+atomic_actions:
+- insert
+- slide
+- remove
+- rotate
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.1
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

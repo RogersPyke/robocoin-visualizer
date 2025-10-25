@@ -1,0 +1,28 @@
+dataset_name: place_container_b_to_fruit_a_8396
+dataset_uuid: a296f937-6736-449d-8d9a-136a7bb4fdb1
+task_descriptions:
+- place_the_container_b_and_place_in_the_fruit_a
+scene_type:
+- hospital
+atomic_actions:
+- lower
+- slide
+- remove
+- rotate
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- unitree_tiago
+end_effector_type: two_claw_gripper

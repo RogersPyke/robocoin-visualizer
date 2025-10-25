@@ -1,0 +1,29 @@
+dataset_name: place_kitchenware_a_to_container_b_4361
+dataset_uuid: cf7f6890-1454-4930-98f0-002d4793df42
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_container_b
+scene_type:
+- kitchen
+- factory
+- home
+atomic_actions:
+- pull
+- remove
+- grasp
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 75.9
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_utensil_b_to_furniture_d_2825
+dataset_uuid: dc4a7674-89f1-45c0-af70-fe3a629d90dc
+task_descriptions:
+- move_the_utensil_b_and_place_in_the_furniture_d
+scene_type:
+- home
+atomic_actions:
+- insert
+- slide
+- grasp
+- flip
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.4
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_food_e_to_container_c_5434
+dataset_uuid: b45fd54a-d9f3-40ab-9a16-fd1664c2cbbb
+task_descriptions:
+- arrange_the_food_e_and_place_in_the_container_c
+scene_type:
+- home
+atomic_actions:
+- flip
+- lift
+- pull
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.6
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

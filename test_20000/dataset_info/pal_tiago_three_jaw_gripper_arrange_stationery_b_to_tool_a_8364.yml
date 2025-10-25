@@ -1,0 +1,29 @@
+dataset_name: arrange_stationery_b_to_tool_a_8364
+dataset_uuid: a23be8c0-5d67-41c6-b6b9-1d2fb0f57c87
+task_descriptions:
+- arrange_the_stationery_b_and_place_in_the_tool_a
+scene_type:
+- warehouse
+- restaurant
+atomic_actions:
+- place
+- slide
+- lower
+- push
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

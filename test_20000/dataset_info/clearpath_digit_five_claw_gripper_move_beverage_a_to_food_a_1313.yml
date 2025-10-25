@@ -1,0 +1,26 @@
+dataset_name: move_beverage_a_to_food_a_1313
+dataset_uuid: 0af3966e-2aa6-4e38-b1dd-cc3bf6d622df
+task_descriptions:
+- move_the_beverage_a_and_place_in_the_food_a
+scene_type:
+- store
+atomic_actions:
+- slide
+- rotate
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_food_a_to_fruit_d_3309
+dataset_uuid: b39a1976-5157-4462-ab6a-a5c8b74bd1e8
+task_descriptions:
+- place_the_food_a_and_place_in_the_fruit_d
+scene_type:
+- restaurant
+- laboratory
+atomic_actions:
+- rotate
+- remove
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

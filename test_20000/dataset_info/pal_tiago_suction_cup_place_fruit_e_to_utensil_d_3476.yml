@@ -1,0 +1,28 @@
+dataset_name: place_fruit_e_to_utensil_d_3476
+dataset_uuid: 61396ee3-c5b3-467a-a5ee-020159893281
+task_descriptions:
+- place_the_fruit_e_and_place_in_the_utensil_d
+scene_type:
+- home
+- hospital
+atomic_actions:
+- pick
+- remove
+- lower
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- pal_tiago
+end_effector_type: suction_cup

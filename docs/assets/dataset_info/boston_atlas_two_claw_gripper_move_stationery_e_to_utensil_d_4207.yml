@@ -1,0 +1,28 @@
+dataset_name: move_stationery_e_to_utensil_d_4207
+dataset_uuid: d0200109-0a4d-4abe-ab06-04d544bb0a6d
+task_descriptions:
+- move_the_stationery_e_and_place_in_the_utensil_d
+scene_type:
+- hospital
+atomic_actions:
+- pull
+- flip
+- grasp
+- place
+objects:
+- object_name: stationery_e
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- boston_atlas
+end_effector_type: two_claw_gripper

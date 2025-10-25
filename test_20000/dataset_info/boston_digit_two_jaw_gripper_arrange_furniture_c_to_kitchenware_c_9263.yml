@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_c_to_kitchenware_c_9263
+dataset_uuid: 96bb6c3f-1392-46cd-9c3d-4baf0a274d0e
+task_descriptions:
+- arrange_the_furniture_c_and_place_in_the_kitchenware_c
+scene_type:
+- store
+- restaurant
+- cafe
+atomic_actions:
+- pick
+- rotate
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

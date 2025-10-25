@@ -1,0 +1,28 @@
+dataset_name: move_tool_a_to_fruit_e_8153
+dataset_uuid: 4afdda12-a670-4d2a-969a-df0f314fe567
+task_descriptions:
+- move_the_tool_a_and_place_in_the_fruit_e
+scene_type:
+- home
+atomic_actions:
+- insert
+- lift
+- lower
+- remove
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.7
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: move_stationery_a_to_container_c_2511
+dataset_uuid: cd517ea4-459c-4c91-8af6-5dc6d6b21713
+task_descriptions:
+- move_the_stationery_a_and_place_in_the_container_c
+scene_type:
+- laboratory
+- factory
+atomic_actions:
+- rotate
+- remove
+- lower
+- place
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

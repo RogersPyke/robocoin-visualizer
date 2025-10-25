@@ -1,0 +1,30 @@
+dataset_name: arrange_container_b_to_tool_a_1577
+dataset_uuid: faab2089-6376-4001-b659-642b7f09c185
+task_descriptions:
+- arrange_the_container_b_and_place_in_the_tool_a
+scene_type:
+- store
+- cafe
+- kitchen
+atomic_actions:
+- lower
+- grasp
+- flip
+- pick
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+operation_platform_height: 87.9
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,26 @@
+dataset_name: pick_beverage_d_to_tool_d_9321
+dataset_uuid: 3301aa03-3d13-4550-affe-9191053b5100
+task_descriptions:
+- pick_the_beverage_d_and_place_in_the_tool_d
+scene_type:
+- home
+atomic_actions:
+- slide
+- remove
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.6
+device_model:
+- clearpath_digit
+end_effector_type: suction_cup

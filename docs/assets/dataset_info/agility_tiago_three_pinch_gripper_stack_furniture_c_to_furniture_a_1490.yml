@@ -1,0 +1,27 @@
+dataset_name: stack_furniture_c_to_furniture_a_1490
+dataset_uuid: 86ae0bec-4163-4fd6-93b5-48bd35749666
+task_descriptions:
+- stack_the_furniture_c_and_place_in_the_furniture_a
+scene_type:
+- store
+- restaurant
+atomic_actions:
+- lower
+- rotate
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- agility_tiago
+end_effector_type: three_pinch_gripper

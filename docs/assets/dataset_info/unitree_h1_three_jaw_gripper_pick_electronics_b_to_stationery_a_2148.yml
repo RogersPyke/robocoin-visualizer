@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_b_to_stationery_a_2148
+dataset_uuid: fb4d1847-3e20-4711-88d9-132794bb8a90
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_stationery_a
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- slide
+- lift
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.8
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

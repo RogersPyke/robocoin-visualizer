@@ -1,0 +1,30 @@
+dataset_name: stack_food_d_to_fruit_b_8176
+dataset_uuid: 13cc0e54-f196-4183-8483-dae9668d1a38
+task_descriptions:
+- stack_the_food_d_and_place_in_the_fruit_b
+scene_type:
+- store
+- warehouse
+- restaurant
+atomic_actions:
+- flip
+- lower
+- slide
+- pull
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.8
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: move_fruit_d_to_kitchenware_c_1187
+dataset_uuid: 3395e98a-3f6a-42ae-823f-33c4783898fd
+task_descriptions:
+- move_the_fruit_d_and_place_in_the_kitchenware_c
+scene_type:
+- office
+- factory
+atomic_actions:
+- rotate
+- lift
+- flip
+- grasp
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.6
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

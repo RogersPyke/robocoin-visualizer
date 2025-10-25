@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_a_to_stationery_d_9466
+dataset_uuid: 01155bf4-71a3-42cc-a678-a24802ae0443
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_stationery_d
+scene_type:
+- cafe
+- warehouse
+- office
+atomic_actions:
+- remove
+- rotate
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: stationery_d
+  level1: stationery
+  level2: stationery_d
+  level3: stationery_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- clearpath_cassie
+end_effector_type: five_pinch_gripper

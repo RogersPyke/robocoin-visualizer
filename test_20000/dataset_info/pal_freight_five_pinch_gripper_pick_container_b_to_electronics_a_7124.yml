@@ -1,0 +1,30 @@
+dataset_name: pick_container_b_to_electronics_a_7124
+dataset_uuid: edac7841-0732-4013-aa54-8b1e981ff28f
+task_descriptions:
+- pick_the_container_b_and_place_in_the_electronics_a
+scene_type:
+- office
+- factory
+- home
+atomic_actions:
+- flip
+- grasp
+- slide
+- insert
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

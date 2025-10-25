@@ -1,0 +1,29 @@
+dataset_name: move_utensil_b_to_electronics_a_6605
+dataset_uuid: 46d6011b-0b51-4c33-9ca2-dea3fc4e24f5
+task_descriptions:
+- move_the_utensil_b_and_place_in_the_electronics_a
+scene_type:
+- home
+- cafe
+atomic_actions:
+- lift
+- lower
+- remove
+- grasp
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 80.9
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_e_to_textile_e_2963
+dataset_uuid: 873249c3-0de9-4a3c-a719-0f464c8cddb9
+task_descriptions:
+- pick_the_fruit_e_and_place_in_the_textile_e
+scene_type:
+- office
+- warehouse
+- hospital
+atomic_actions:
+- push
+- slide
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.8
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

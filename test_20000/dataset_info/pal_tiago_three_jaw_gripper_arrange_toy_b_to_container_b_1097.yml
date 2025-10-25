@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_b_to_container_b_1097
+dataset_uuid: 91c68a12-8ec8-4d6a-94de-319281b94606
+task_descriptions:
+- arrange_the_toy_b_and_place_in_the_container_b
+scene_type:
+- kitchen
+atomic_actions:
+- pick
+- push
+- flip
+- place
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

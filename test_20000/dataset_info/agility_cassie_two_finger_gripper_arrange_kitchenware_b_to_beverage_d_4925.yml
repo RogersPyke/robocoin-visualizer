@@ -1,0 +1,28 @@
+dataset_name: arrange_kitchenware_b_to_beverage_d_4925
+dataset_uuid: 6964763a-372a-4975-9b8d-4fb586c14148
+task_descriptions:
+- arrange_the_kitchenware_b_and_place_in_the_beverage_d
+scene_type:
+- store
+atomic_actions:
+- lift
+- lower
+- push
+- pick
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+operation_platform_height: 84.6
+device_model:
+- agility_cassie
+end_effector_type: two_finger_gripper

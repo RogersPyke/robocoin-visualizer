@@ -1,0 +1,28 @@
+dataset_name: arrange_utensil_d_to_stationery_e_3006
+dataset_uuid: 8fc2ab9e-c7b6-4b60-824b-1bcdbaf1d2bf
+task_descriptions:
+- arrange_the_utensil_d_and_place_in_the_stationery_e
+scene_type:
+- home
+- cafe
+atomic_actions:
+- flip
+- lower
+- insert
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+- object_name: stationery_e
+  level1: stationery
+  level2: stationery_e
+  level3: stationery_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.1
+device_model:
+- unitree_g1
+end_effector_type: three_jaw_gripper

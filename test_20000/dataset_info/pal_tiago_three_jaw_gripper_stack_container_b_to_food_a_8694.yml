@@ -1,0 +1,27 @@
+dataset_name: stack_container_b_to_food_a_8694
+dataset_uuid: 694f5321-b6e4-4e2e-bbc0-bc5d8d6817c4
+task_descriptions:
+- stack_the_container_b_and_place_in_the_food_a
+scene_type:
+- home
+- factory
+atomic_actions:
+- slide
+- lift
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

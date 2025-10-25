@@ -1,0 +1,28 @@
+dataset_name: stack_beverage_e_to_beverage_d_3765
+dataset_uuid: b5fd2e0f-00be-4d04-a64a-ec86fc11d48c
+task_descriptions:
+- stack_the_beverage_e_and_place_in_the_beverage_d
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- flip
+- push
+- place
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

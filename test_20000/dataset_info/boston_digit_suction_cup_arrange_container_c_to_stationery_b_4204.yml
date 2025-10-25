@@ -1,0 +1,30 @@
+dataset_name: arrange_container_c_to_stationery_b_4204
+dataset_uuid: 55a741c8-03e9-4f6a-bfdf-c906364d1dac
+task_descriptions:
+- arrange_the_container_c_and_place_in_the_stationery_b
+scene_type:
+- home
+- factory
+- store
+atomic_actions:
+- pull
+- lift
+- insert
+- grasp
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- boston_digit
+end_effector_type: suction_cup

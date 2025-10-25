@@ -1,0 +1,26 @@
+dataset_name: move_electronics_b_to_textile_b_9803
+dataset_uuid: 30dff7a9-c852-4679-bbb4-47c461d3ec60
+task_descriptions:
+- move_the_electronics_b_and_place_in_the_textile_b
+scene_type:
+- warehouse
+atomic_actions:
+- grasp
+- pick
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.8
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

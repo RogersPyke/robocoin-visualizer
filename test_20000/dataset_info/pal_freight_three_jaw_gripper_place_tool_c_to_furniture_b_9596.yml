@@ -1,0 +1,28 @@
+dataset_name: place_tool_c_to_furniture_b_9596
+dataset_uuid: 952632b6-d76c-4d24-8415-25865c813bd6
+task_descriptions:
+- place_the_tool_c_and_place_in_the_furniture_b
+scene_type:
+- hospital
+atomic_actions:
+- lift
+- lower
+- rotate
+- flip
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.4
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

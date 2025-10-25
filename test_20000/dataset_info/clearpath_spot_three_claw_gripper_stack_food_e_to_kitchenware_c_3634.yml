@@ -1,0 +1,28 @@
+dataset_name: stack_food_e_to_kitchenware_c_3634
+dataset_uuid: 964c1b44-6a0b-49e8-9c1d-50dbc502a308
+task_descriptions:
+- stack_the_food_e_and_place_in_the_kitchenware_c
+scene_type:
+- kitchen
+- hospital
+- cafe
+atomic_actions:
+- insert
+- pull
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.3
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

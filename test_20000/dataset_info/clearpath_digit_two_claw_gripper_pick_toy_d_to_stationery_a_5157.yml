@@ -1,0 +1,28 @@
+dataset_name: pick_toy_d_to_stationery_a_5157
+dataset_uuid: f7d0c7c4-8b63-48df-b215-a6a1b83e2995
+task_descriptions:
+- pick_the_toy_d_and_place_in_the_stationery_a
+scene_type:
+- factory
+- office
+- home
+atomic_actions:
+- pick
+- insert
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.4
+device_model:
+- clearpath_digit
+end_effector_type: two_claw_gripper

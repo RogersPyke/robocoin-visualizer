@@ -1,0 +1,28 @@
+dataset_name: place_tool_a_to_electronics_a_7247
+dataset_uuid: fe2a4a8f-8d10-4715-bb42-fa17361ec6e5
+task_descriptions:
+- place_the_tool_a_and_place_in_the_electronics_a
+scene_type:
+- warehouse
+- restaurant
+- laboratory
+atomic_actions:
+- pull
+- insert
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

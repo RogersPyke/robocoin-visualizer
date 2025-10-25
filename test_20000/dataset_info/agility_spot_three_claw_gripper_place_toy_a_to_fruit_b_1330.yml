@@ -1,0 +1,28 @@
+dataset_name: place_toy_a_to_fruit_b_1330
+dataset_uuid: 17719d66-1c61-498b-86ac-e57a8c2c11c0
+task_descriptions:
+- place_the_toy_a_and_place_in_the_fruit_b
+scene_type:
+- kitchen
+- factory
+atomic_actions:
+- pull
+- grasp
+- insert
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

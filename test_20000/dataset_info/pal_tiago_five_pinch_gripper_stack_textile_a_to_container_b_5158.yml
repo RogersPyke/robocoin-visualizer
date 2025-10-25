@@ -1,0 +1,30 @@
+dataset_name: stack_textile_a_to_container_b_5158
+dataset_uuid: 03e3d37f-bf83-40b0-b732-2f587556a8da
+task_descriptions:
+- stack_the_textile_a_and_place_in_the_container_b
+scene_type:
+- warehouse
+- office
+- cafe
+atomic_actions:
+- flip
+- slide
+- insert
+- lower
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.1
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

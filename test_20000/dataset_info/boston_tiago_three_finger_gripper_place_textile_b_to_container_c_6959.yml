@@ -1,0 +1,29 @@
+dataset_name: place_textile_b_to_container_c_6959
+dataset_uuid: a50c16c4-97d1-4234-8c23-2a1ce7cf8ff2
+task_descriptions:
+- place_the_textile_b_and_place_in_the_container_c
+scene_type:
+- home
+- store
+- warehouse
+atomic_actions:
+- rotate
+- push
+- flip
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

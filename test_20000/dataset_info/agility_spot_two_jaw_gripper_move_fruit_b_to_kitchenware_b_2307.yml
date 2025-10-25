@@ -1,0 +1,28 @@
+dataset_name: move_fruit_b_to_kitchenware_b_2307
+dataset_uuid: 7ab27369-9314-4158-b4a9-0d7e281e4e3a
+task_descriptions:
+- move_the_fruit_b_and_place_in_the_kitchenware_b
+scene_type:
+- home
+atomic_actions:
+- grasp
+- flip
+- remove
+- pull
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 84.6
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

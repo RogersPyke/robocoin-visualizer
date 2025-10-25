@@ -1,0 +1,28 @@
+dataset_name: pick_textile_e_to_toy_a_8653
+dataset_uuid: 5c9789a5-b75d-4fa5-a6f1-9de1c970284e
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_toy_a
+scene_type:
+- kitchen
+- office
+- factory
+atomic_actions:
+- rotate
+- pick
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.9
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

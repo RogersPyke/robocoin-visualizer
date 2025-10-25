@@ -1,0 +1,26 @@
+dataset_name: arrange_toy_d_to_kitchenware_c_1146
+dataset_uuid: 4db4b7cd-e823-42d2-8edc-f0ec2cf25d48
+task_descriptions:
+- arrange_the_toy_d_and_place_in_the_kitchenware_c
+scene_type:
+- office
+atomic_actions:
+- push
+- grasp
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.4
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

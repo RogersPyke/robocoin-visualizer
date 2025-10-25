@@ -1,0 +1,28 @@
+dataset_name: move_tool_d_to_toy_d_7076
+dataset_uuid: 95cd548c-174f-4b9c-92c6-c8ac81b3e844
+task_descriptions:
+- move_the_tool_d_and_place_in_the_toy_d
+scene_type:
+- cafe
+atomic_actions:
+- lift
+- push
+- remove
+- rotate
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.3
+device_model:
+- agility_spot
+end_effector_type: two_finger_gripper

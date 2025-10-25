@@ -1,0 +1,28 @@
+dataset_name: stack_tool_d_to_utensil_a_4019
+dataset_uuid: 6479c753-56cc-4d73-b19c-54e246a17b81
+task_descriptions:
+- stack_the_tool_d_and_place_in_the_utensil_a
+scene_type:
+- store
+- kitchen
+- warehouse
+atomic_actions:
+- lift
+- remove
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- agility_spot
+end_effector_type: five_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_stationery_b_to_furniture_d_1440
+dataset_uuid: f495d1e1-c8f1-4076-aeaf-4c241635e827
+task_descriptions:
+- stack_the_stationery_b_and_place_in_the_furniture_d
+scene_type:
+- factory
+- restaurant
+atomic_actions:
+- place
+- pull
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- pal_freight
+end_effector_type: three_finger_gripper

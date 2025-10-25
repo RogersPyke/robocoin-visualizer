@@ -1,0 +1,30 @@
+dataset_name: pick_stationery_b_to_textile_c_9426
+dataset_uuid: 7251b879-568a-4b02-90ca-2a10a1684ad6
+task_descriptions:
+- pick_the_stationery_b_and_place_in_the_textile_c
+scene_type:
+- office
+- factory
+- warehouse
+atomic_actions:
+- remove
+- insert
+- flip
+- place
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 80.2
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

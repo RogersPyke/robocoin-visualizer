@@ -1,0 +1,26 @@
+dataset_name: pick_food_d_to_tool_c_5648
+dataset_uuid: 11d7b65e-174d-4329-ad12-c898942a4a12
+task_descriptions:
+- pick_the_food_d_and_place_in_the_tool_c
+scene_type:
+- restaurant
+atomic_actions:
+- slide
+- place
+objects:
+- object_name: food_d
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.1
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

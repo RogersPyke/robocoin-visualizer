@@ -1,0 +1,27 @@
+dataset_name: move_utensil_d_to_fruit_d_4987
+dataset_uuid: f7235c27-a856-45bf-bd04-100d6c4963d8
+task_descriptions:
+- move_the_utensil_d_and_place_in_the_fruit_d
+scene_type:
+- warehouse
+atomic_actions:
+- place
+- slide
+- insert
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,26 @@
+dataset_name: pick_textile_b_to_container_a_6513
+dataset_uuid: 7f7ca335-6a89-4ef1-a7d0-dfbeecdd369f
+task_descriptions:
+- pick_the_textile_b_and_place_in_the_container_a
+scene_type:
+- kitchen
+atomic_actions:
+- flip
+- lift
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_textile_d_to_food_a_8918
+dataset_uuid: 61bd75ce-71e3-48bc-8a64-413ffd34a588
+task_descriptions:
+- stack_the_textile_d_and_place_in_the_food_a
+scene_type:
+- laboratory
+atomic_actions:
+- flip
+- push
+- pick
+- slide
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

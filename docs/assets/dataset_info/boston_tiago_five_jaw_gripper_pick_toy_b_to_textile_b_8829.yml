@@ -1,0 +1,29 @@
+dataset_name: pick_toy_b_to_textile_b_8829
+dataset_uuid: ccf77ed2-6559-4b2c-865c-303817413d21
+task_descriptions:
+- pick_the_toy_b_and_place_in_the_textile_b
+scene_type:
+- hospital
+- warehouse
+- cafe
+atomic_actions:
+- pick
+- pull
+- lower
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.1
+device_model:
+- boston_tiago
+end_effector_type: five_jaw_gripper

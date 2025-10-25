@@ -1,0 +1,29 @@
+dataset_name: place_tool_a_to_utensil_a_3958
+dataset_uuid: 8ee4261e-2685-4322-b7f6-e6cc3d51888e
+task_descriptions:
+- place_the_tool_a_and_place_in_the_utensil_a
+scene_type:
+- restaurant
+- store
+- hospital
+atomic_actions:
+- push
+- slide
+- lift
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: stack_furniture_e_to_food_a_6248
+dataset_uuid: 6f47eebd-981f-4eb8-b3a1-b89a39e6847c
+task_descriptions:
+- stack_the_furniture_e_and_place_in_the_food_a
+scene_type:
+- hospital
+- cafe
+- office
+atomic_actions:
+- flip
+- lower
+- pull
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.9
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

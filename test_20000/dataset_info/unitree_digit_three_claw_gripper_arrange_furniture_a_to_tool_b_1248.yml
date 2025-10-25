@@ -1,0 +1,29 @@
+dataset_name: arrange_furniture_a_to_tool_b_1248
+dataset_uuid: a12cd5de-67e8-4165-804b-da012b4c1053
+task_descriptions:
+- arrange_the_furniture_a_and_place_in_the_tool_b
+scene_type:
+- home
+- laboratory
+atomic_actions:
+- lift
+- grasp
+- push
+- pull
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

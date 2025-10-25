@@ -1,0 +1,29 @@
+dataset_name: stack_beverage_e_to_textile_c_9882
+dataset_uuid: 635ec165-5d26-48e3-a877-b47582fe793f
+task_descriptions:
+- stack_the_beverage_e_and_place_in_the_textile_c
+scene_type:
+- store
+- laboratory
+- kitchen
+atomic_actions:
+- remove
+- grasp
+- lower
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 73.7
+device_model:
+- unitree_tiago
+end_effector_type: two_finger_gripper

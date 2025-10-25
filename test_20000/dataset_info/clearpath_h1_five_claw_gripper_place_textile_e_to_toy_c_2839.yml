@@ -1,0 +1,28 @@
+dataset_name: place_textile_e_to_toy_c_2839
+dataset_uuid: a8a2f84c-bf62-4376-9862-9eb29a100edf
+task_descriptions:
+- place_the_textile_e_and_place_in_the_toy_c
+scene_type:
+- office
+atomic_actions:
+- grasp
+- lower
+- remove
+- rotate
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

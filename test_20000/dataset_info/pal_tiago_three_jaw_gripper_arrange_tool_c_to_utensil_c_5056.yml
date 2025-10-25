@@ -1,0 +1,30 @@
+dataset_name: arrange_tool_c_to_utensil_c_5056
+dataset_uuid: b956b7db-9462-45de-afb1-1831b1c7dc8b
+task_descriptions:
+- arrange_the_tool_c_and_place_in_the_utensil_c
+scene_type:
+- office
+- factory
+- cafe
+atomic_actions:
+- slide
+- insert
+- push
+- grasp
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

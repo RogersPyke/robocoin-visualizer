@@ -1,0 +1,27 @@
+dataset_name: stack_stationery_c_to_tool_b_7807
+dataset_uuid: b11224f5-bb45-4fd8-9a2a-ed24983771bd
+task_descriptions:
+- stack_the_stationery_c_and_place_in_the_tool_b
+scene_type:
+- laboratory
+atomic_actions:
+- remove
+- rotate
+- pull
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

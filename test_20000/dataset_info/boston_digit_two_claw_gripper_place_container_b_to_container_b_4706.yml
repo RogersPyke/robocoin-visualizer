@@ -1,0 +1,28 @@
+dataset_name: place_container_b_to_container_b_4706
+dataset_uuid: 9f6d3a39-de8f-4ea1-9b94-7a0be0054029
+task_descriptions:
+- place_the_container_b_and_place_in_the_container_b
+scene_type:
+- kitchen
+- office
+- factory
+atomic_actions:
+- lift
+- pull
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.4
+device_model:
+- boston_digit
+end_effector_type: two_claw_gripper

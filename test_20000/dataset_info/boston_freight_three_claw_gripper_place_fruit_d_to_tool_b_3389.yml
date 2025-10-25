@@ -1,0 +1,29 @@
+dataset_name: place_fruit_d_to_tool_b_3389
+dataset_uuid: 5e8a91ba-2639-4688-abab-9a2d8dd9a0b8
+task_descriptions:
+- place_the_fruit_d_and_place_in_the_tool_b
+scene_type:
+- hospital
+- cafe
+- factory
+atomic_actions:
+- remove
+- push
+- lower
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

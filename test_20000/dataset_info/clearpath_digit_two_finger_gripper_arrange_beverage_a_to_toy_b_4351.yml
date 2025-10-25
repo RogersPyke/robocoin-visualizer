@@ -1,0 +1,27 @@
+dataset_name: arrange_beverage_a_to_toy_b_4351
+dataset_uuid: 5f4b3848-d05a-4aa9-b745-d36294c953db
+task_descriptions:
+- arrange_the_beverage_a_and_place_in_the_toy_b
+scene_type:
+- kitchen
+atomic_actions:
+- rotate
+- pull
+- insert
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.5
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

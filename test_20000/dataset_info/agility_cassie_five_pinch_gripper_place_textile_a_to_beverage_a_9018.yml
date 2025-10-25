@@ -1,0 +1,27 @@
+dataset_name: place_textile_a_to_beverage_a_9018
+dataset_uuid: 1498eb18-6106-411f-bed7-42a516f0e7eb
+task_descriptions:
+- place_the_textile_a_and_place_in_the_beverage_a
+scene_type:
+- warehouse
+- kitchen
+atomic_actions:
+- remove
+- flip
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

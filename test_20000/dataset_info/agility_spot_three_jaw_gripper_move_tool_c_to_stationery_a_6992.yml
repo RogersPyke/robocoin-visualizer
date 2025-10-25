@@ -1,0 +1,28 @@
+dataset_name: move_tool_c_to_stationery_a_6992
+dataset_uuid: 36d3dbbc-4b57-4ec1-bfcd-0c231c30c5d6
+task_descriptions:
+- move_the_tool_c_and_place_in_the_stationery_a
+scene_type:
+- cafe
+- home
+- store
+atomic_actions:
+- pull
+- remove
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.5
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

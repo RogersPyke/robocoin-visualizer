@@ -1,0 +1,28 @@
+dataset_name: stack_container_c_to_fruit_e_3572
+dataset_uuid: 32f1771e-d185-4e4d-bdb6-1d612dc68e46
+task_descriptions:
+- stack_the_container_c_and_place_in_the_fruit_e
+scene_type:
+- kitchen
+atomic_actions:
+- pick
+- slide
+- flip
+- rotate
+objects:
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.7
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

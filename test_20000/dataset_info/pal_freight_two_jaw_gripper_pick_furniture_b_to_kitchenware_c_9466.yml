@@ -1,0 +1,29 @@
+dataset_name: pick_furniture_b_to_kitchenware_c_9466
+dataset_uuid: 28355008-7eb4-4808-a53e-2ce6785aaa1b
+task_descriptions:
+- pick_the_furniture_b_and_place_in_the_kitchenware_c
+scene_type:
+- kitchen
+- store
+atomic_actions:
+- flip
+- place
+- lift
+- slide
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

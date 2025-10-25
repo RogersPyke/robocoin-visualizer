@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_c_to_toy_b_8524
+dataset_uuid: d2b49430-cf3a-4ff6-a24b-a570b4de9ff9
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_toy_b
+scene_type:
+- laboratory
+atomic_actions:
+- pick
+- grasp
+- push
+- lift
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.5
+device_model:
+- unitree_digit
+end_effector_type: two_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_e_to_electronics_b_4199
+dataset_uuid: b55cbc68-d36c-4e66-a27f-77fd4635cce5
+task_descriptions:
+- arrange_the_furniture_e_and_place_in_the_electronics_b
+scene_type:
+- warehouse
+- hospital
+- office
+atomic_actions:
+- slide
+- insert
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

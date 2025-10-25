@@ -1,0 +1,30 @@
+dataset_name: place_stationery_b_to_beverage_d_6369
+dataset_uuid: a8d2cd73-5865-48ee-8214-a4e81f398ef6
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_beverage_d
+scene_type:
+- factory
+- kitchen
+- store
+atomic_actions:
+- place
+- flip
+- pull
+- pick
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

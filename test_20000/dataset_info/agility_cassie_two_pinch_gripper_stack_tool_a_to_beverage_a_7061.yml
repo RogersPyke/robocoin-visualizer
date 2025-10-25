@@ -1,0 +1,30 @@
+dataset_name: stack_tool_a_to_beverage_a_7061
+dataset_uuid: 66d11ff2-60b0-4362-b565-f2bd858457d9
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_beverage_a
+scene_type:
+- warehouse
+- factory
+- restaurant
+atomic_actions:
+- grasp
+- place
+- slide
+- flip
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.8
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

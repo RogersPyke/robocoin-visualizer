@@ -1,0 +1,29 @@
+dataset_name: place_electronics_a_to_stationery_b_7371
+dataset_uuid: 1602d4ec-ecba-4259-aacd-283ede979571
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_stationery_b
+scene_type:
+- cafe
+- kitchen
+- hospital
+atomic_actions:
+- grasp
+- pick
+- insert
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: stack_container_a_to_electronics_a_1051
+dataset_uuid: cdad712c-d9bd-4b48-989c-d22b61d4595a
+task_descriptions:
+- stack_the_container_a_and_place_in_the_electronics_a
+scene_type:
+- hospital
+- restaurant
+- warehouse
+atomic_actions:
+- pull
+- remove
+- flip
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.8
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

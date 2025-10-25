@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_c_to_electronics_a_5491
+dataset_uuid: 577ceeb1-4a43-4250-a5c5-63740ebcd930
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_electronics_a
+scene_type:
+- warehouse
+- store
+- cafe
+atomic_actions:
+- rotate
+- lower
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.0
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

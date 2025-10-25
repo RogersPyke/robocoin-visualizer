@@ -1,0 +1,26 @@
+dataset_name: stack_food_c_to_food_a_2815
+dataset_uuid: 073720fb-53a8-473b-8b99-0eae792a289a
+task_descriptions:
+- stack_the_food_c_and_place_in_the_food_a
+scene_type:
+- restaurant
+atomic_actions:
+- grasp
+- lift
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- unitree_h1
+end_effector_type: three_claw_gripper

@@ -1,0 +1,26 @@
+dataset_name: stack_furniture_e_to_utensil_b_2986
+dataset_uuid: 889c811a-b7fc-444b-b369-0a01b5d4bfb7
+task_descriptions:
+- stack_the_furniture_e_and_place_in_the_utensil_b
+scene_type:
+- store
+atomic_actions:
+- rotate
+- pick
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

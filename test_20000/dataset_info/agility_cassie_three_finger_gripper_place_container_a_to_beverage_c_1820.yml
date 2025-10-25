@@ -1,0 +1,27 @@
+dataset_name: place_container_a_to_beverage_c_1820
+dataset_uuid: fc3ec63d-ad63-4e5a-92be-d59c50f21f70
+task_descriptions:
+- place_the_container_a_and_place_in_the_beverage_c
+scene_type:
+- office
+- kitchen
+atomic_actions:
+- flip
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: beverage_c_sub2
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

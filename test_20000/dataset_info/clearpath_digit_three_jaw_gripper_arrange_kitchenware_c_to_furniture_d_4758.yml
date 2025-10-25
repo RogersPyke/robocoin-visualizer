@@ -1,0 +1,30 @@
+dataset_name: arrange_kitchenware_c_to_furniture_d_4758
+dataset_uuid: 7a6cb6d3-704a-499e-8a7e-4f77d0b6adc1
+task_descriptions:
+- arrange_the_kitchenware_c_and_place_in_the_furniture_d
+scene_type:
+- restaurant
+- hospital
+- cafe
+atomic_actions:
+- pull
+- pick
+- grasp
+- insert
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

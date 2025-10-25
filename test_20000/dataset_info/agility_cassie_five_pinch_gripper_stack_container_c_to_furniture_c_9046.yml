@@ -1,0 +1,29 @@
+dataset_name: stack_container_c_to_furniture_c_9046
+dataset_uuid: ff58e3bd-3ce3-4a4e-aab5-80baf14bb9f4
+task_descriptions:
+- stack_the_container_c_and_place_in_the_furniture_c
+scene_type:
+- store
+- factory
+- office
+atomic_actions:
+- push
+- place
+- remove
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.0
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

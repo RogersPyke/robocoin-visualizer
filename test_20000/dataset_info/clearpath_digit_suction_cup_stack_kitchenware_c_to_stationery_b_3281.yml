@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_c_to_stationery_b_3281
+dataset_uuid: 90ab18c9-5160-4508-aa8b-432020ee531d
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_stationery_b
+scene_type:
+- warehouse
+- office
+atomic_actions:
+- pick
+- push
+- flip
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- clearpath_digit
+end_effector_type: suction_cup

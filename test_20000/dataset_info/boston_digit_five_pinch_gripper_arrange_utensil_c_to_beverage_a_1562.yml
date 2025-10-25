@@ -1,0 +1,28 @@
+dataset_name: arrange_utensil_c_to_beverage_a_1562
+dataset_uuid: 53b07666-f8de-48d6-b705-c7ba154b5d1e
+task_descriptions:
+- arrange_the_utensil_c_and_place_in_the_beverage_a
+scene_type:
+- factory
+- laboratory
+atomic_actions:
+- place
+- remove
+- pick
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+operation_platform_height: 80.1
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

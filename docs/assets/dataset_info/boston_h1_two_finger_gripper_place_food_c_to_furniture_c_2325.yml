@@ -1,0 +1,27 @@
+dataset_name: place_food_c_to_furniture_c_2325
+dataset_uuid: ede1257a-3a72-4908-b566-444ce1c68c45
+task_descriptions:
+- place_the_food_c_and_place_in_the_furniture_c
+scene_type:
+- home
+atomic_actions:
+- rotate
+- pick
+- push
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- boston_h1
+end_effector_type: two_finger_gripper

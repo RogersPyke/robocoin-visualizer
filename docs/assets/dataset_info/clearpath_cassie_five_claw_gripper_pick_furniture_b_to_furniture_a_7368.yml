@@ -1,0 +1,27 @@
+dataset_name: pick_furniture_b_to_furniture_a_7368
+dataset_uuid: ab0a2a45-8887-4983-908a-9250bcdb89f3
+task_descriptions:
+- pick_the_furniture_b_and_place_in_the_furniture_a
+scene_type:
+- laboratory
+atomic_actions:
+- remove
+- lower
+- slide
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.0
+device_model:
+- clearpath_cassie
+end_effector_type: five_claw_gripper

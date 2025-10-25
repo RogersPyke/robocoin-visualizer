@@ -1,0 +1,29 @@
+dataset_name: move_kitchenware_a_to_tool_b_3996
+dataset_uuid: 73a5ff0b-b8c4-4325-b88d-0121aed36d6f
+task_descriptions:
+- move_the_kitchenware_a_and_place_in_the_tool_b
+scene_type:
+- factory
+- restaurant
+- hospital
+atomic_actions:
+- push
+- lower
+- pull
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

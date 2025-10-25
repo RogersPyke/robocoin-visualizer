@@ -1,0 +1,30 @@
+dataset_name: place_toy_b_to_tool_d_2698
+dataset_uuid: 8cafcba4-5596-43d6-b88f-48ec444adc0b
+task_descriptions:
+- place_the_toy_b_and_place_in_the_tool_d
+scene_type:
+- laboratory
+- restaurant
+- hospital
+atomic_actions:
+- remove
+- push
+- grasp
+- pick
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.9
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

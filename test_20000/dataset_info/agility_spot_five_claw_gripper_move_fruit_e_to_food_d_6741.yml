@@ -1,0 +1,28 @@
+dataset_name: move_fruit_e_to_food_d_6741
+dataset_uuid: 7bafa94b-cb9c-4730-a2ee-b0cfae4039a0
+task_descriptions:
+- move_the_fruit_e_and_place_in_the_food_d
+scene_type:
+- hospital
+- factory
+- kitchen
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+operation_platform_height: 87.1
+device_model:
+- agility_spot
+end_effector_type: five_claw_gripper

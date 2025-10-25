@@ -1,0 +1,28 @@
+dataset_name: stack_food_b_to_fruit_a_6415
+dataset_uuid: 9085fae4-85b2-4ec0-b2a6-c8091c4a851d
+task_descriptions:
+- stack_the_food_b_and_place_in_the_fruit_a
+scene_type:
+- office
+- kitchen
+atomic_actions:
+- pick
+- grasp
+- push
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_electronics_c_to_food_a_3737
+dataset_uuid: 900b8d8a-732e-4c5e-8b78-ae0a170dbc5a
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_food_a
+scene_type:
+- laboratory
+atomic_actions:
+- insert
+- flip
+- grasp
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.1
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

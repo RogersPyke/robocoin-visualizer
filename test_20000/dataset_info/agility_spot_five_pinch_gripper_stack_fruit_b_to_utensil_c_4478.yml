@@ -1,0 +1,28 @@
+dataset_name: stack_fruit_b_to_utensil_c_4478
+dataset_uuid: 4f52859e-9b86-4cca-be16-66bb4b538458
+task_descriptions:
+- stack_the_fruit_b_and_place_in_the_utensil_c
+scene_type:
+- store
+atomic_actions:
+- place
+- pull
+- slide
+- pick
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.5
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

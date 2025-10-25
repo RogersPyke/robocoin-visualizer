@@ -1,0 +1,29 @@
+dataset_name: place_furniture_d_to_tool_a_7363
+dataset_uuid: 084cfa0d-6d05-4d2a-afb7-157c0c7739c2
+task_descriptions:
+- place_the_furniture_d_and_place_in_the_tool_a
+scene_type:
+- kitchen
+- store
+- office
+atomic_actions:
+- flip
+- insert
+- place
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

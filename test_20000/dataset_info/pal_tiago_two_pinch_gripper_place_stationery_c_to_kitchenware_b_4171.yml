@@ -1,0 +1,28 @@
+dataset_name: place_stationery_c_to_kitchenware_b_4171
+dataset_uuid: 83d9ec5d-9e6f-4869-98fa-36202cbe24d7
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_kitchenware_b
+scene_type:
+- cafe
+- store
+- restaurant
+atomic_actions:
+- flip
+- insert
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.3
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

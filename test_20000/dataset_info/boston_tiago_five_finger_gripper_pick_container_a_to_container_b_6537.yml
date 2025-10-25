@@ -1,0 +1,26 @@
+dataset_name: pick_container_a_to_container_b_6537
+dataset_uuid: 2e7bd83c-53c4-4a55-9e83-f8f76db82829
+task_descriptions:
+- pick_the_container_a_and_place_in_the_container_b
+scene_type:
+- kitchen
+atomic_actions:
+- grasp
+- lift
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.2
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

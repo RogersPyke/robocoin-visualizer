@@ -1,0 +1,29 @@
+dataset_name: pick_electronics_a_to_utensil_a_9672
+dataset_uuid: 97ddc5c5-79b0-4e57-a503-e6290e4c10a0
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_utensil_a
+scene_type:
+- factory
+- office
+- kitchen
+atomic_actions:
+- push
+- remove
+- pick
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.7
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

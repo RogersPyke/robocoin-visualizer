@@ -1,0 +1,27 @@
+dataset_name: pick_container_c_to_tool_b_3037
+dataset_uuid: 045920a7-0eef-4b0e-b638-813f08f8e0b4
+task_descriptions:
+- pick_the_container_c_and_place_in_the_tool_b
+scene_type:
+- restaurant
+- warehouse
+atomic_actions:
+- lower
+- remove
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- agility_spot
+end_effector_type: two_finger_gripper

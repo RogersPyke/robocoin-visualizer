@@ -1,0 +1,26 @@
+dataset_name: move_container_b_to_furniture_e_9173
+dataset_uuid: 1c904654-186f-4edd-a9ba-6623af584ff7
+task_descriptions:
+- move_the_container_b_and_place_in_the_furniture_e
+scene_type:
+- hospital
+atomic_actions:
+- place
+- lift
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- clearpath_spot
+end_effector_type: two_claw_gripper

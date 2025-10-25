@@ -1,0 +1,29 @@
+dataset_name: stack_beverage_a_to_tool_d_6934
+dataset_uuid: fe454b6d-c303-43d9-abfb-bb9bba0d42a9
+task_descriptions:
+- stack_the_beverage_a_and_place_in_the_tool_d
+scene_type:
+- home
+- store
+- hospital
+atomic_actions:
+- pick
+- slide
+- place
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

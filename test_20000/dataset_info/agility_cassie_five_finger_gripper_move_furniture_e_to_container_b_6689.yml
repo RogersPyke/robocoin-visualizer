@@ -1,0 +1,29 @@
+dataset_name: move_furniture_e_to_container_b_6689
+dataset_uuid: 4f806f40-05d5-45db-be66-754464503e23
+task_descriptions:
+- move_the_furniture_e_and_place_in_the_container_b
+scene_type:
+- cafe
+- kitchen
+atomic_actions:
+- flip
+- push
+- slide
+- place
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

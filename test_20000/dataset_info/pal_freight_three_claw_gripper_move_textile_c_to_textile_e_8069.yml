@@ -1,0 +1,26 @@
+dataset_name: move_textile_c_to_textile_e_8069
+dataset_uuid: 6fff8d24-183e-456f-a32f-0b7b0de33b7f
+task_descriptions:
+- move_the_textile_c_and_place_in_the_textile_e
+scene_type:
+- warehouse
+atomic_actions:
+- lift
+- place
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.4
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

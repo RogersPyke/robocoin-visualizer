@@ -1,0 +1,27 @@
+dataset_name: move_stationery_d_to_fruit_a_5772
+dataset_uuid: f73acc16-567b-4bc1-ad53-deaf98d5277d
+task_descriptions:
+- move_the_stationery_d_and_place_in_the_fruit_a
+scene_type:
+- home
+atomic_actions:
+- slide
+- place
+- lower
+objects:
+- object_name: stationery_d
+  level1: stationery
+  level2: stationery_d
+  level3: stationery_d_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.9
+device_model:
+- boston_atlas
+end_effector_type: three_jaw_gripper

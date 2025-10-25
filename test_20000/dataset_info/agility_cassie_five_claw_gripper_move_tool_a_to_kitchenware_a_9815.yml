@@ -1,0 +1,28 @@
+dataset_name: move_tool_a_to_kitchenware_a_9815
+dataset_uuid: c3a34e52-8a78-43c6-8b26-def77d55b592
+task_descriptions:
+- move_the_tool_a_and_place_in_the_kitchenware_a
+scene_type:
+- office
+- cafe
+- restaurant
+atomic_actions:
+- lower
+- flip
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.9
+device_model:
+- agility_cassie
+end_effector_type: five_claw_gripper

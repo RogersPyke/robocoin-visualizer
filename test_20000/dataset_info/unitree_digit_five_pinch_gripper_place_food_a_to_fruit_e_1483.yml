@@ -1,0 +1,29 @@
+dataset_name: place_food_a_to_fruit_e_1483
+dataset_uuid: 2ef3f60e-861c-4fd6-bfbb-f5277c9853c1
+task_descriptions:
+- place_the_food_a_and_place_in_the_fruit_e
+scene_type:
+- factory
+- store
+- hospital
+atomic_actions:
+- place
+- pick
+- lift
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

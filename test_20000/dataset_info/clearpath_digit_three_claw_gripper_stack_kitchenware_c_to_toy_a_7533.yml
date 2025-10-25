@@ -1,0 +1,27 @@
+dataset_name: stack_kitchenware_c_to_toy_a_7533
+dataset_uuid: bb0c9a3e-531b-4e13-a221-6e90a42074ea
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_toy_a
+scene_type:
+- cafe
+atomic_actions:
+- push
+- rotate
+- grasp
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

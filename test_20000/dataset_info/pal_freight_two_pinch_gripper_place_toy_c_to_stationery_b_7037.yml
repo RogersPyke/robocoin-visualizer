@@ -1,0 +1,29 @@
+dataset_name: place_toy_c_to_stationery_b_7037
+dataset_uuid: efbfeece-a9ee-4f6d-bd6e-67b660d1f8ba
+task_descriptions:
+- place_the_toy_c_and_place_in_the_stationery_b
+scene_type:
+- hospital
+- home
+atomic_actions:
+- remove
+- lift
+- flip
+- rotate
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

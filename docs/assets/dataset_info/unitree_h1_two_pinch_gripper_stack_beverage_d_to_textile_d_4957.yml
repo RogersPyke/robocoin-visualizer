@@ -1,0 +1,27 @@
+dataset_name: stack_beverage_d_to_textile_d_4957
+dataset_uuid: 74781ca0-e0f3-48d2-942a-56f5410594f0
+task_descriptions:
+- stack_the_beverage_d_and_place_in_the_textile_d
+scene_type:
+- restaurant
+atomic_actions:
+- rotate
+- slide
+- pull
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.1
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

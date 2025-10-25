@@ -1,0 +1,30 @@
+dataset_name: arrange_beverage_d_to_kitchenware_a_3857
+dataset_uuid: bdd78934-2262-4b0b-8b86-bb76e26607e3
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_kitchenware_a
+scene_type:
+- store
+- warehouse
+- office
+atomic_actions:
+- rotate
+- remove
+- insert
+- flip
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.9
+device_model:
+- pal_freight
+end_effector_type: two_finger_gripper

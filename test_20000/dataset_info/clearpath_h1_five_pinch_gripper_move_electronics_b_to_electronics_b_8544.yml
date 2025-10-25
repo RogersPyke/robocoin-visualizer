@@ -1,0 +1,30 @@
+dataset_name: move_electronics_b_to_electronics_b_8544
+dataset_uuid: fc3a6895-17e7-437e-9874-14213880fcfa
+task_descriptions:
+- move_the_electronics_b_and_place_in_the_electronics_b
+scene_type:
+- factory
+- hospital
+- cafe
+atomic_actions:
+- push
+- insert
+- remove
+- slide
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

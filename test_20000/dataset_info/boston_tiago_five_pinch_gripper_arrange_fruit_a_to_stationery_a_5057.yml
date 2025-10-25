@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_a_to_stationery_a_5057
+dataset_uuid: 8a4ba75f-de6d-47fc-b3ff-a8099e39948c
+task_descriptions:
+- arrange_the_fruit_a_and_place_in_the_stationery_a
+scene_type:
+- home
+- factory
+- laboratory
+atomic_actions:
+- slide
+- insert
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

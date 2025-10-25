@@ -1,0 +1,27 @@
+dataset_name: arrange_tool_a_to_furniture_d_5104
+dataset_uuid: c8538eec-9f58-4241-8391-0decae65bcc4
+task_descriptions:
+- arrange_the_tool_a_and_place_in_the_furniture_d
+scene_type:
+- kitchen
+atomic_actions:
+- pick
+- insert
+- push
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.0
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_furniture_e_to_container_b_4176
+dataset_uuid: 63a17dd1-cf31-4903-a71f-081573e817dc
+task_descriptions:
+- arrange_the_furniture_e_and_place_in_the_container_b
+scene_type:
+- kitchen
+- office
+atomic_actions:
+- insert
+- push
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- agility_cassie
+end_effector_type: two_finger_gripper

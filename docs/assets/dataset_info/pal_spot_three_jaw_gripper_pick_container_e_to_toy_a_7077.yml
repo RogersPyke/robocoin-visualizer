@@ -1,0 +1,26 @@
+dataset_name: pick_container_e_to_toy_a_7077
+dataset_uuid: eb3c93db-949b-4982-a286-500bd698f0fb
+task_descriptions:
+- pick_the_container_e_and_place_in_the_toy_a
+scene_type:
+- factory
+atomic_actions:
+- lift
+- slide
+objects:
+- object_name: container_e
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.9
+device_model:
+- pal_spot
+end_effector_type: three_jaw_gripper

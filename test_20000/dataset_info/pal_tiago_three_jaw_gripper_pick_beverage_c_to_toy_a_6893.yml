@@ -1,0 +1,27 @@
+dataset_name: pick_beverage_c_to_toy_a_6893
+dataset_uuid: 9324bb84-ac96-44aa-afcb-e8fe771412e5
+task_descriptions:
+- pick_the_beverage_c_and_place_in_the_toy_a
+scene_type:
+- warehouse
+atomic_actions:
+- pick
+- push
+- grasp
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_utensil_c_to_electronics_c_7094
+dataset_uuid: 52554f71-5470-4fbc-b301-1dd0769175c3
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_electronics_c
+scene_type:
+- warehouse
+- hospital
+atomic_actions:
+- lift
+- grasp
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.5
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_toy_a_to_utensil_a_5969
+dataset_uuid: a66da2a9-2939-4e7c-968d-5c727021f763
+task_descriptions:
+- pick_the_toy_a_and_place_in_the_utensil_a
+scene_type:
+- kitchen
+atomic_actions:
+- remove
+- rotate
+- pull
+- place
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.6
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

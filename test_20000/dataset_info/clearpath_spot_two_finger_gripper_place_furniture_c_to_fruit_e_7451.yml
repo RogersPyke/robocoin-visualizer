@@ -1,0 +1,27 @@
+dataset_name: place_furniture_c_to_fruit_e_7451
+dataset_uuid: c132f884-854e-45c8-89c2-96ea61176938
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_fruit_e
+scene_type:
+- cafe
+atomic_actions:
+- lower
+- grasp
+- remove
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

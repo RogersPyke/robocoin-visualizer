@@ -1,0 +1,29 @@
+dataset_name: arrange_fruit_c_to_container_a_4443
+dataset_uuid: 8c37ea0b-cbc3-46f7-854f-09e993ea769c
+task_descriptions:
+- arrange_the_fruit_c_and_place_in_the_container_a
+scene_type:
+- kitchen
+- home
+atomic_actions:
+- rotate
+- push
+- pick
+- pull
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

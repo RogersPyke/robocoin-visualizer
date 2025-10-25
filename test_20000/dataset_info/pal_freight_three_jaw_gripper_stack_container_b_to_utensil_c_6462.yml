@@ -1,0 +1,29 @@
+dataset_name: stack_container_b_to_utensil_c_6462
+dataset_uuid: 69887168-2e49-4dc5-8ded-dea46709f0f3
+task_descriptions:
+- stack_the_container_b_and_place_in_the_utensil_c
+scene_type:
+- office
+- kitchen
+atomic_actions:
+- push
+- pull
+- insert
+- remove
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

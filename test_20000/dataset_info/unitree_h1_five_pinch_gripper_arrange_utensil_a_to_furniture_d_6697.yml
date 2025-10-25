@@ -1,0 +1,29 @@
+dataset_name: arrange_utensil_a_to_furniture_d_6697
+dataset_uuid: b254b979-6c6c-4422-b92d-fab3544e9cb9
+task_descriptions:
+- arrange_the_utensil_a_and_place_in_the_furniture_d
+scene_type:
+- warehouse
+- hospital
+atomic_actions:
+- grasp
+- remove
+- slide
+- push
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.8
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

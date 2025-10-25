@@ -1,0 +1,29 @@
+dataset_name: stack_furniture_c_to_beverage_d_1205
+dataset_uuid: 979c1433-ff90-421e-bdef-817c80f2c16b
+task_descriptions:
+- stack_the_furniture_c_and_place_in_the_beverage_d
+scene_type:
+- cafe
+- laboratory
+- office
+atomic_actions:
+- insert
+- pull
+- flip
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.4
+device_model:
+- unitree_g1
+end_effector_type: three_finger_gripper

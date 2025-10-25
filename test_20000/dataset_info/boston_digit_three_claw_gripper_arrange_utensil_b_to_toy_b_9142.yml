@@ -1,0 +1,26 @@
+dataset_name: arrange_utensil_b_to_toy_b_9142
+dataset_uuid: 5b1b6584-41cb-470e-8221-6fabc02d9075
+task_descriptions:
+- arrange_the_utensil_b_and_place_in_the_toy_b
+scene_type:
+- office
+atomic_actions:
+- flip
+- rotate
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

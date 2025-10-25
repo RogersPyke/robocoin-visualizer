@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_b_to_fruit_e_4028
+dataset_uuid: d6bd0ba4-9b3f-42e9-9aea-ef45071ad5c3
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_fruit_e
+scene_type:
+- restaurant
+- hospital
+- cafe
+atomic_actions:
+- lower
+- pull
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.0
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

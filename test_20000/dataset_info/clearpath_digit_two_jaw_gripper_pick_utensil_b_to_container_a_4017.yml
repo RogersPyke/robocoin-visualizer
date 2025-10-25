@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_b_to_container_a_4017
+dataset_uuid: 1ed4ac6f-633a-44a9-813c-db310bf7d05b
+task_descriptions:
+- pick_the_utensil_b_and_place_in_the_container_a
+scene_type:
+- cafe
+- home
+atomic_actions:
+- flip
+- remove
+- pull
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: arrange_furniture_d_to_utensil_a_6153
+dataset_uuid: 0fd06b6b-534d-4fdb-962b-1de3466c27ac
+task_descriptions:
+- arrange_the_furniture_d_and_place_in_the_utensil_a
+scene_type:
+- store
+- restaurant
+atomic_actions:
+- pull
+- place
+- lift
+- pick
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.8
+device_model:
+- agility_spot
+end_effector_type: five_claw_gripper

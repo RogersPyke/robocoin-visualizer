@@ -1,0 +1,27 @@
+dataset_name: place_utensil_b_to_food_a_1132
+dataset_uuid: 91c5eb09-c272-4573-b755-8d98a360152b
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_food_a
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- remove
+- lift
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.5
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_a_to_container_a_3761
+dataset_uuid: f5629d12-0cc2-4e8a-a674-73635f97a8ee
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_container_a
+scene_type:
+- office
+- warehouse
+atomic_actions:
+- lower
+- pull
+- remove
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.9
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

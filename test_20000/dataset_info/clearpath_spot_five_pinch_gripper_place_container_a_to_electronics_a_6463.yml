@@ -1,0 +1,27 @@
+dataset_name: place_container_a_to_electronics_a_6463
+dataset_uuid: 6015205b-c219-4d6b-b9fa-cd8c38e302fb
+task_descriptions:
+- place_the_container_a_and_place_in_the_electronics_a
+scene_type:
+- cafe
+- home
+atomic_actions:
+- push
+- pull
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.3
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

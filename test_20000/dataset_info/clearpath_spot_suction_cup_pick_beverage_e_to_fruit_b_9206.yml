@@ -1,0 +1,28 @@
+dataset_name: pick_beverage_e_to_fruit_b_9206
+dataset_uuid: 06f90e1f-bd0f-4963-83aa-37747efeb783
+task_descriptions:
+- pick_the_beverage_e_and_place_in_the_fruit_b
+scene_type:
+- restaurant
+- store
+- kitchen
+atomic_actions:
+- place
+- grasp
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- clearpath_spot
+end_effector_type: suction_cup

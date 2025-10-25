@@ -1,0 +1,27 @@
+dataset_name: stack_fruit_c_to_electronics_c_5087
+dataset_uuid: e82e8c15-229c-4807-99ee-2b922103bbcb
+task_descriptions:
+- stack_the_fruit_c_and_place_in_the_electronics_c
+scene_type:
+- home
+- store
+atomic_actions:
+- insert
+- lower
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

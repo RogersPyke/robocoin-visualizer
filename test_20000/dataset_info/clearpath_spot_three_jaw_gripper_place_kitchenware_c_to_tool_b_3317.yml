@@ -1,0 +1,27 @@
+dataset_name: place_kitchenware_c_to_tool_b_3317
+dataset_uuid: ac34807b-7d37-4346-88a3-84484bf49202
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_tool_b
+scene_type:
+- office
+atomic_actions:
+- remove
+- pull
+- lower
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

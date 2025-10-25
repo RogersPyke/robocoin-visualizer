@@ -1,0 +1,28 @@
+dataset_name: place_tool_b_to_utensil_d_2047
+dataset_uuid: f18dcebe-92a5-4235-b243-8469e7ba3657
+task_descriptions:
+- place_the_tool_b_and_place_in_the_utensil_d
+scene_type:
+- hospital
+- store
+- cafe
+atomic_actions:
+- pull
+- insert
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.1
+device_model:
+- clearpath_spot
+end_effector_type: five_finger_gripper

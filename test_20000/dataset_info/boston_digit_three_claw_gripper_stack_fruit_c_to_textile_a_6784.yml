@@ -1,0 +1,30 @@
+dataset_name: stack_fruit_c_to_textile_a_6784
+dataset_uuid: 2b5a7876-0eee-4ea5-85bc-73171a31297a
+task_descriptions:
+- stack_the_fruit_c_and_place_in_the_textile_a
+scene_type:
+- cafe
+- home
+- factory
+atomic_actions:
+- grasp
+- insert
+- remove
+- pick
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 71.8
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

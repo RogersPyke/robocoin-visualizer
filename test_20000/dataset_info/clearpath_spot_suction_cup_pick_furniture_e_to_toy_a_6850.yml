@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_e_to_toy_a_6850
+dataset_uuid: 9af7e78a-6984-49a7-bdae-d916dc2412e8
+task_descriptions:
+- pick_the_furniture_e_and_place_in_the_toy_a
+scene_type:
+- hospital
+- office
+- cafe
+atomic_actions:
+- lift
+- pick
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 75.4
+device_model:
+- clearpath_spot
+end_effector_type: suction_cup

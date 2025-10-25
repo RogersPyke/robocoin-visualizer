@@ -1,0 +1,28 @@
+dataset_name: move_toy_d_to_tool_b_3552
+dataset_uuid: 4a805a9e-e413-4c54-b965-aa5b07ebe707
+task_descriptions:
+- move_the_toy_d_and_place_in_the_tool_b
+scene_type:
+- cafe
+atomic_actions:
+- insert
+- push
+- slide
+- lift
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.0
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

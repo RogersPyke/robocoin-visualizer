@@ -1,0 +1,27 @@
+dataset_name: pick_tool_a_to_stationery_a_2334
+dataset_uuid: 127c2168-873e-4a76-b308-f6394209b296
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_stationery_a
+scene_type:
+- hospital
+- restaurant
+atomic_actions:
+- lift
+- push
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

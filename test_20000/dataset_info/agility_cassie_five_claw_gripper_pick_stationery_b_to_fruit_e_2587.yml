@@ -1,0 +1,26 @@
+dataset_name: pick_stationery_b_to_fruit_e_2587
+dataset_uuid: 78aee792-d611-4305-a2fe-2700f3acc9f2
+task_descriptions:
+- pick_the_stationery_b_and_place_in_the_fruit_e
+scene_type:
+- hospital
+atomic_actions:
+- place
+- rotate
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.7
+device_model:
+- agility_cassie
+end_effector_type: five_claw_gripper

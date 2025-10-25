@@ -1,0 +1,27 @@
+dataset_name: move_toy_d_to_tool_b_7939
+dataset_uuid: f68198a9-2f9a-49dc-bb05-4ba477674c92
+task_descriptions:
+- move_the_toy_d_and_place_in_the_tool_b
+scene_type:
+- office
+- restaurant
+atomic_actions:
+- lower
+- grasp
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.3
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

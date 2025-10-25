@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_a_to_toy_b_2941
+dataset_uuid: d3c306cf-219a-475d-8195-eb2df61cd0f6
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_toy_b
+scene_type:
+- cafe
+- warehouse
+- hospital
+atomic_actions:
+- pick
+- place
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.4
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

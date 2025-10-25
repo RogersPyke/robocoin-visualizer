@@ -1,0 +1,27 @@
+dataset_name: pick_kitchenware_b_to_utensil_c_7447
+dataset_uuid: 21c234a7-551f-4d83-b600-999888d89c10
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_utensil_c
+scene_type:
+- restaurant
+- laboratory
+atomic_actions:
+- insert
+- remove
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

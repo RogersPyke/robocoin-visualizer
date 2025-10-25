@@ -1,0 +1,29 @@
+dataset_name: place_toy_b_to_tool_c_4299
+dataset_uuid: 25a81983-9256-42c3-b093-cc99f138689d
+task_descriptions:
+- place_the_toy_b_and_place_in_the_tool_c
+scene_type:
+- store
+- factory
+- office
+atomic_actions:
+- remove
+- lift
+- slide
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.1
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

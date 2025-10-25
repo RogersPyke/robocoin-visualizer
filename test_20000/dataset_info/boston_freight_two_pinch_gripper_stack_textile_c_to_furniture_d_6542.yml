@@ -1,0 +1,26 @@
+dataset_name: stack_textile_c_to_furniture_d_6542
+dataset_uuid: 73499818-f3da-42b7-a4b2-40eca529a3d7
+task_descriptions:
+- stack_the_textile_c_and_place_in_the_furniture_d
+scene_type:
+- laboratory
+atomic_actions:
+- insert
+- flip
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.8
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

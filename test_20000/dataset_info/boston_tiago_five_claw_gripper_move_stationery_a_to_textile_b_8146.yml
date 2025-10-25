@@ -1,0 +1,26 @@
+dataset_name: move_stationery_a_to_textile_b_8146
+dataset_uuid: 93a03cfd-70f6-4649-a9c7-46dc80e7b054
+task_descriptions:
+- move_the_stationery_a_and_place_in_the_textile_b
+scene_type:
+- cafe
+atomic_actions:
+- pick
+- rotate
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

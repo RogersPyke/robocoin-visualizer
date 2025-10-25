@@ -1,0 +1,27 @@
+dataset_name: stack_utensil_b_to_tool_b_1901
+dataset_uuid: dedc4829-c54a-4759-9e03-bd13658bc5ff
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_tool_b
+scene_type:
+- home
+- kitchen
+atomic_actions:
+- grasp
+- flip
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 87.2
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

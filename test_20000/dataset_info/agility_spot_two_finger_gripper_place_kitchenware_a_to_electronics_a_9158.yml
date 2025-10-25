@@ -1,0 +1,27 @@
+dataset_name: place_kitchenware_a_to_electronics_a_9158
+dataset_uuid: 3cb6e751-2983-445f-941a-7eee8515489e
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_electronics_a
+scene_type:
+- factory
+- home
+atomic_actions:
+- push
+- rotate
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.2
+device_model:
+- agility_spot
+end_effector_type: two_finger_gripper

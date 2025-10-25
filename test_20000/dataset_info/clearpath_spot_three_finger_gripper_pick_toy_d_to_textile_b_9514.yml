@@ -1,0 +1,27 @@
+dataset_name: pick_toy_d_to_textile_b_9514
+dataset_uuid: ea057abd-b574-41a2-aaeb-8d6d1f189fc3
+task_descriptions:
+- pick_the_toy_d_and_place_in_the_textile_b
+scene_type:
+- factory
+atomic_actions:
+- lower
+- slide
+- rotate
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.4
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

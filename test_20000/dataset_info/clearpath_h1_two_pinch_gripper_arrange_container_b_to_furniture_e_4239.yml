@@ -1,0 +1,27 @@
+dataset_name: arrange_container_b_to_furniture_e_4239
+dataset_uuid: 830483c7-a7ee-488c-9d97-bef61fe2026e
+task_descriptions:
+- arrange_the_container_b_and_place_in_the_furniture_e
+scene_type:
+- store
+- laboratory
+atomic_actions:
+- slide
+- place
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

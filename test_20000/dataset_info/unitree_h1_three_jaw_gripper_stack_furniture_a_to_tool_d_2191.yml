@@ -1,0 +1,29 @@
+dataset_name: stack_furniture_a_to_tool_d_2191
+dataset_uuid: 09519d77-1eb7-4272-aa65-49bf4ba9abd0
+task_descriptions:
+- stack_the_furniture_a_and_place_in_the_tool_d
+scene_type:
+- office
+- kitchen
+atomic_actions:
+- lift
+- rotate
+- push
+- place
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+operation_platform_height: 81.7
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

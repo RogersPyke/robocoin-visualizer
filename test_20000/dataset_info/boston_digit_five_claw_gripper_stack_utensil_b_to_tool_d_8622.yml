@@ -1,0 +1,29 @@
+dataset_name: stack_utensil_b_to_tool_d_8622
+dataset_uuid: f23688e6-de99-4675-a154-9deb00c72461
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_tool_d
+scene_type:
+- hospital
+- office
+atomic_actions:
+- rotate
+- lift
+- remove
+- insert
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.5
+device_model:
+- boston_digit
+end_effector_type: five_claw_gripper

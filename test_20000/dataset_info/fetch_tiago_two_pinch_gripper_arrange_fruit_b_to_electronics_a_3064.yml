@@ -1,0 +1,29 @@
+dataset_name: arrange_fruit_b_to_electronics_a_3064
+dataset_uuid: dc5ffded-73df-49fe-b7f1-64211f0c3f1f
+task_descriptions:
+- arrange_the_fruit_b_and_place_in_the_electronics_a
+scene_type:
+- hospital
+- cafe
+- laboratory
+atomic_actions:
+- lift
+- pick
+- grasp
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- fetch_tiago
+end_effector_type: two_pinch_gripper

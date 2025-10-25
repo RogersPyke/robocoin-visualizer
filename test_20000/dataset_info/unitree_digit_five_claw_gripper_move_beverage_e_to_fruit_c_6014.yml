@@ -1,0 +1,30 @@
+dataset_name: move_beverage_e_to_fruit_c_6014
+dataset_uuid: 10f6ffd0-a5b4-407d-ae67-452c04f643cf
+task_descriptions:
+- move_the_beverage_e_and_place_in_the_fruit_c
+scene_type:
+- office
+- kitchen
+- restaurant
+atomic_actions:
+- slide
+- rotate
+- place
+- pull
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

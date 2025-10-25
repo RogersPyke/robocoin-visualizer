@@ -1,0 +1,29 @@
+dataset_name: place_food_d_to_kitchenware_b_8193
+dataset_uuid: 985cec2c-9db3-4f77-9cbd-2dc1f2240cf9
+task_descriptions:
+- place_the_food_d_and_place_in_the_kitchenware_b
+scene_type:
+- store
+- hospital
+atomic_actions:
+- grasp
+- pick
+- lift
+- insert
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.2
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

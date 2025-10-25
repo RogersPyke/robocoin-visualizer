@@ -1,0 +1,30 @@
+dataset_name: pick_fruit_b_to_furniture_a_4271
+dataset_uuid: 15838031-1559-4714-9a65-4f140fd4ea5a
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_furniture_a
+scene_type:
+- factory
+- laboratory
+- kitchen
+atomic_actions:
+- insert
+- remove
+- lower
+- grasp
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.2
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

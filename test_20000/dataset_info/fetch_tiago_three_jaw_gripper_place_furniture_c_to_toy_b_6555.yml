@@ -1,0 +1,28 @@
+dataset_name: place_furniture_c_to_toy_b_6555
+dataset_uuid: 7793975f-b5f4-4632-856d-8c18f7486062
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_toy_b
+scene_type:
+- restaurant
+- laboratory
+- cafe
+atomic_actions:
+- grasp
+- lift
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.7
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

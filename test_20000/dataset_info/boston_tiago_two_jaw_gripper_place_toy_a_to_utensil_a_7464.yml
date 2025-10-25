@@ -1,0 +1,30 @@
+dataset_name: place_toy_a_to_utensil_a_7464
+dataset_uuid: 39fd0c6f-cf05-4507-96d5-8c1195b59f78
+task_descriptions:
+- place_the_toy_a_and_place_in_the_utensil_a
+scene_type:
+- kitchen
+- restaurant
+- hospital
+atomic_actions:
+- lower
+- slide
+- pick
+- insert
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.7
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

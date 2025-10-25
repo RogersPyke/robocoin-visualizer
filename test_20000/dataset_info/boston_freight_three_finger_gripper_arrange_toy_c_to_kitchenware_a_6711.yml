@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_c_to_kitchenware_a_6711
+dataset_uuid: a8dac33f-e809-4dae-bbf2-d271cd747cdd
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_kitchenware_a
+scene_type:
+- factory
+atomic_actions:
+- flip
+- place
+- grasp
+- lower
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

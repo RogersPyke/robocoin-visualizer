@@ -1,0 +1,28 @@
+dataset_name: place_tool_a_to_electronics_b_9973
+dataset_uuid: a6125b37-921a-498b-80d1-9c900cf28374
+task_descriptions:
+- place_the_tool_a_and_place_in_the_electronics_b
+scene_type:
+- factory
+- store
+- warehouse
+atomic_actions:
+- lower
+- remove
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- boston_pepper
+end_effector_type: two_pinch_gripper

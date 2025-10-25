@@ -1,0 +1,27 @@
+dataset_name: pick_textile_a_to_furniture_c_9514
+dataset_uuid: e5f4d75e-fd74-4b65-9ca7-937b03735472
+task_descriptions:
+- pick_the_textile_a_and_place_in_the_furniture_c
+scene_type:
+- factory
+- warehouse
+atomic_actions:
+- rotate
+- remove
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- clearpath_spot
+end_effector_type: two_claw_gripper

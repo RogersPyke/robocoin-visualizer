@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_b_to_stationery_c_5029
+dataset_uuid: ea117457-f069-4ac6-920c-d0c3c68a90cf
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_stationery_c
+scene_type:
+- home
+- store
+atomic_actions:
+- slide
+- place
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+operation_platform_height: 73.2
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

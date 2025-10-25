@@ -1,0 +1,27 @@
+dataset_name: stack_stationery_d_to_furniture_c_5101
+dataset_uuid: 32c0de80-6fa9-4e51-a043-ec80249ffee1
+task_descriptions:
+- stack_the_stationery_d_and_place_in_the_furniture_c
+scene_type:
+- cafe
+- office
+atomic_actions:
+- slide
+- insert
+objects:
+- object_name: stationery_d
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.6
+device_model:
+- unitree_tiago
+end_effector_type: five_claw_gripper

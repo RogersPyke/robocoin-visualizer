@@ -1,0 +1,28 @@
+dataset_name: pick_textile_c_to_textile_c_5331
+dataset_uuid: 8529d3b7-cb9f-4316-ba4c-30208e5a3294
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_textile_c
+scene_type:
+- restaurant
+- hospital
+- kitchen
+atomic_actions:
+- remove
+- lower
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.6
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

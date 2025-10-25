@@ -1,0 +1,29 @@
+dataset_name: pick_textile_a_to_stationery_c_8139
+dataset_uuid: a0dedf9a-2b85-4465-9186-06ec56a39ba0
+task_descriptions:
+- pick_the_textile_a_and_place_in_the_stationery_c
+scene_type:
+- warehouse
+- restaurant
+atomic_actions:
+- push
+- flip
+- insert
+- slide
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

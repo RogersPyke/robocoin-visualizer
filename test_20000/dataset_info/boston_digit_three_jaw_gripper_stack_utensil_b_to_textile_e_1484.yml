@@ -1,0 +1,26 @@
+dataset_name: stack_utensil_b_to_textile_e_1484
+dataset_uuid: 4e120bc5-295c-4c5c-b16f-fbdc11cd15ce
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_textile_e
+scene_type:
+- restaurant
+atomic_actions:
+- pick
+- lower
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

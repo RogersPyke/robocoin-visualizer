@@ -1,0 +1,28 @@
+dataset_name: place_container_c_to_kitchenware_b_1551
+dataset_uuid: 60c0f9d1-5b7a-421d-87d6-6a34c620034a
+task_descriptions:
+- place_the_container_c_and_place_in_the_kitchenware_b
+scene_type:
+- hospital
+- store
+atomic_actions:
+- remove
+- flip
+- lift
+objects:
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_c_to_stationery_a_5166
+dataset_uuid: 4d1569da-a3b0-4a70-a950-892b223f9274
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_stationery_a
+scene_type:
+- store
+atomic_actions:
+- insert
+- pick
+- remove
+- place
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

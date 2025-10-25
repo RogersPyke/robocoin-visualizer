@@ -1,0 +1,27 @@
+dataset_name: pick_stationery_b_to_utensil_b_5371
+dataset_uuid: 55495a45-0d37-4a5d-ad85-8096d3689171
+task_descriptions:
+- pick_the_stationery_b_and_place_in_the_utensil_b
+scene_type:
+- hospital
+atomic_actions:
+- rotate
+- grasp
+- place
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

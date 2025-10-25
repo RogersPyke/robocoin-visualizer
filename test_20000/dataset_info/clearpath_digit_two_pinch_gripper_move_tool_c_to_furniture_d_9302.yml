@@ -1,0 +1,26 @@
+dataset_name: move_tool_c_to_furniture_d_9302
+dataset_uuid: 908029d9-f2f4-41bb-ab75-7c69c49ef6f5
+task_descriptions:
+- move_the_tool_c_and_place_in_the_furniture_d
+scene_type:
+- factory
+atomic_actions:
+- remove
+- rotate
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 80.6
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

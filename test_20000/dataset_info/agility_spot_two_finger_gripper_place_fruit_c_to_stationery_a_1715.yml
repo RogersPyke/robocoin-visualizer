@@ -1,0 +1,26 @@
+dataset_name: place_fruit_c_to_stationery_a_1715
+dataset_uuid: a8b9878b-16ef-4b57-aea6-7c4dbbd9626c
+task_descriptions:
+- place_the_fruit_c_and_place_in_the_stationery_a
+scene_type:
+- cafe
+atomic_actions:
+- remove
+- flip
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- agility_spot
+end_effector_type: two_finger_gripper

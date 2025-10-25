@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_a_to_furniture_e_3295
+dataset_uuid: c2a0290b-7577-4c32-ad52-fc2f0ce8ebc6
+task_descriptions:
+- stack_the_kitchenware_a_and_place_in_the_furniture_e
+scene_type:
+- store
+- kitchen
+- factory
+atomic_actions:
+- insert
+- place
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.3
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

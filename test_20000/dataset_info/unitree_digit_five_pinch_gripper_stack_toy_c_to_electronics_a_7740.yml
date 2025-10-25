@@ -1,0 +1,29 @@
+dataset_name: stack_toy_c_to_electronics_a_7740
+dataset_uuid: ad514e0d-3fe7-4fdc-ba85-eaf523ecc4f0
+task_descriptions:
+- stack_the_toy_c_and_place_in_the_electronics_a
+scene_type:
+- kitchen
+- factory
+- store
+atomic_actions:
+- place
+- rotate
+- push
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.2
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

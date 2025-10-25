@@ -1,0 +1,29 @@
+dataset_name: move_kitchenware_a_to_stationery_c_4252
+dataset_uuid: d4dae428-112c-4a9b-95bb-ee3700487008
+task_descriptions:
+- move_the_kitchenware_a_and_place_in_the_stationery_c
+scene_type:
+- office
+- factory
+- laboratory
+atomic_actions:
+- lower
+- pull
+- flip
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

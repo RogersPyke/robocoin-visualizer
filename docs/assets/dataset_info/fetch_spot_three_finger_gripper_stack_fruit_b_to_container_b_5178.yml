@@ -1,0 +1,29 @@
+dataset_name: stack_fruit_b_to_container_b_5178
+dataset_uuid: 7280f463-e666-4a91-8894-8c6b8d6cb903
+task_descriptions:
+- stack_the_fruit_b_and_place_in_the_container_b
+scene_type:
+- office
+- restaurant
+- hospital
+atomic_actions:
+- lower
+- grasp
+- remove
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.6
+device_model:
+- fetch_spot
+end_effector_type: three_finger_gripper

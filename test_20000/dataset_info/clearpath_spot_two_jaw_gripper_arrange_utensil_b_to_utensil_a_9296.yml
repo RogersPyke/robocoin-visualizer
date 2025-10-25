@@ -1,0 +1,27 @@
+dataset_name: arrange_utensil_b_to_utensil_a_9296
+dataset_uuid: 9c4f0bfc-5661-48d2-8911-8c5edd284b1d
+task_descriptions:
+- arrange_the_utensil_b_and_place_in_the_utensil_a
+scene_type:
+- office
+- factory
+atomic_actions:
+- insert
+- rotate
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.2
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

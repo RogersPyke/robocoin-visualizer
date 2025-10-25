@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_b_to_container_a_2292
+dataset_uuid: 3d3c4948-bb4c-4f25-b61a-28bd4c90c7b9
+task_descriptions:
+- pick_the_furniture_b_and_place_in_the_container_a
+scene_type:
+- warehouse
+- hospital
+- kitchen
+atomic_actions:
+- grasp
+- rotate
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- boston_h1
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_a_to_textile_a_2414
+dataset_uuid: fbd32739-9316-41e2-b386-c0ef66e7b4e3
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_textile_a
+scene_type:
+- kitchen
+- warehouse
+atomic_actions:
+- rotate
+- flip
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 83.6
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

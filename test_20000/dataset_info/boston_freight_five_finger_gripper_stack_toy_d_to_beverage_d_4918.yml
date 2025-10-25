@@ -1,0 +1,27 @@
+dataset_name: stack_toy_d_to_beverage_d_4918
+dataset_uuid: 88a3e64f-e413-48f5-b55f-421112c4ca4d
+task_descriptions:
+- stack_the_toy_d_and_place_in_the_beverage_d
+scene_type:
+- warehouse
+atomic_actions:
+- lift
+- flip
+- place
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.3
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

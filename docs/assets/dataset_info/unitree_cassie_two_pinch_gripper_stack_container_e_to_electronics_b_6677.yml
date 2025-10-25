@@ -1,0 +1,30 @@
+dataset_name: stack_container_e_to_electronics_b_6677
+dataset_uuid: 48a29c15-8efd-4b69-84f0-5de6ade67de2
+task_descriptions:
+- stack_the_container_e_and_place_in_the_electronics_b
+scene_type:
+- office
+- restaurant
+- home
+atomic_actions:
+- slide
+- pull
+- insert
+- rotate
+objects:
+- object_name: container_e
+  level1: container
+  level2: container_e
+  level3: container_e_sub1
+  level4: container_e_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 77.0
+device_model:
+- unitree_cassie
+end_effector_type: two_pinch_gripper

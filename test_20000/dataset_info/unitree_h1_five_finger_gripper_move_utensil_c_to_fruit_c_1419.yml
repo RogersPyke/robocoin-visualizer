@@ -1,0 +1,27 @@
+dataset_name: move_utensil_c_to_fruit_c_1419
+dataset_uuid: 00cd1586-0b21-464e-bfff-1bea897384f6
+task_descriptions:
+- move_the_utensil_c_and_place_in_the_fruit_c
+scene_type:
+- kitchen
+atomic_actions:
+- flip
+- pick
+- pull
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- unitree_h1
+end_effector_type: five_finger_gripper

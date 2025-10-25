@@ -1,0 +1,27 @@
+dataset_name: move_container_b_to_container_b_2254
+dataset_uuid: e69f6d56-ec6c-4bb9-8dfd-a58a22901e9f
+task_descriptions:
+- move_the_container_b_and_place_in_the_container_b
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- pull
+- remove
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

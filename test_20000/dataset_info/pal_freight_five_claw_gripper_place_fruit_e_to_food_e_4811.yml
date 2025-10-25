@@ -1,0 +1,27 @@
+dataset_name: place_fruit_e_to_food_e_4811
+dataset_uuid: 6a88fdcf-e4c7-4047-80a0-407ca49d4562
+task_descriptions:
+- place_the_fruit_e_and_place_in_the_food_e
+scene_type:
+- home
+- laboratory
+atomic_actions:
+- lift
+- flip
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.6
+device_model:
+- pal_freight
+end_effector_type: five_claw_gripper

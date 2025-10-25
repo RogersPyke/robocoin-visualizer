@@ -1,0 +1,29 @@
+dataset_name: move_tool_b_to_utensil_c_5595
+dataset_uuid: 522199fb-9e8d-468b-9edd-7a66646f1222
+task_descriptions:
+- move_the_tool_b_and_place_in_the_utensil_c
+scene_type:
+- restaurant
+- office
+atomic_actions:
+- insert
+- pick
+- pull
+- slide
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- clearpath_h1
+end_effector_type: two_jaw_gripper

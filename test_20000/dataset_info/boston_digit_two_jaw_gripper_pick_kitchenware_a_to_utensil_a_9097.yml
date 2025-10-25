@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_a_to_utensil_a_9097
+dataset_uuid: 11a0ebd5-43e5-49a6-8d92-28e39af83cf2
+task_descriptions:
+- pick_the_kitchenware_a_and_place_in_the_utensil_a
+scene_type:
+- warehouse
+atomic_actions:
+- lower
+- remove
+- pull
+- lift
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 82.6
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

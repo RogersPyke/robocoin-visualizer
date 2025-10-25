@@ -1,0 +1,29 @@
+dataset_name: pick_fruit_e_to_fruit_e_6258
+dataset_uuid: e9d88215-9104-4300-b479-387931a7a6b3
+task_descriptions:
+- pick_the_fruit_e_and_place_in_the_fruit_e
+scene_type:
+- home
+- factory
+atomic_actions:
+- pull
+- push
+- remove
+- flip
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

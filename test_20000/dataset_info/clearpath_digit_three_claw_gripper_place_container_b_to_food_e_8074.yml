@@ -1,0 +1,28 @@
+dataset_name: place_container_b_to_food_e_8074
+dataset_uuid: 5c0d8d84-810e-479a-b9e0-a668b599957a
+task_descriptions:
+- place_the_container_b_and_place_in_the_food_e
+scene_type:
+- store
+atomic_actions:
+- place
+- flip
+- pull
+- lift
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.8
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

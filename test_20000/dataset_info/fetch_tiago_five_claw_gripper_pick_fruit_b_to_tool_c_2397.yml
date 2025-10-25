@@ -1,0 +1,30 @@
+dataset_name: pick_fruit_b_to_tool_c_2397
+dataset_uuid: e2bfd68c-4c63-4917-a5a7-8afe9e17ebae
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_tool_c
+scene_type:
+- hospital
+- restaurant
+- home
+atomic_actions:
+- pull
+- place
+- slide
+- lift
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

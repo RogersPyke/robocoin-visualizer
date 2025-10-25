@@ -1,0 +1,27 @@
+dataset_name: arrange_food_b_to_fruit_c_9202
+dataset_uuid: db2470a1-40a6-4c22-8567-b24da6ac6cc5
+task_descriptions:
+- arrange_the_food_b_and_place_in_the_fruit_c
+scene_type:
+- warehouse
+- kitchen
+atomic_actions:
+- remove
+- grasp
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.7
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

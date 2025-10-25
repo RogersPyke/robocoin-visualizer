@@ -1,0 +1,27 @@
+dataset_name: pick_beverage_a_to_fruit_c_7282
+dataset_uuid: ed23a253-f812-4ca8-9ebd-45ffab6ed766
+task_descriptions:
+- pick_the_beverage_a_and_place_in_the_fruit_c
+scene_type:
+- home
+atomic_actions:
+- rotate
+- flip
+- push
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.9
+device_model:
+- fetch_tiago
+end_effector_type: two_finger_gripper

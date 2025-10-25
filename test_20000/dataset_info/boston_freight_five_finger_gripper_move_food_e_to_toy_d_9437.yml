@@ -1,0 +1,28 @@
+dataset_name: move_food_e_to_toy_d_9437
+dataset_uuid: 8b62b808-2ee6-43e8-83c0-dabfc94346c6
+task_descriptions:
+- move_the_food_e_and_place_in_the_toy_d
+scene_type:
+- laboratory
+- cafe
+- store
+atomic_actions:
+- pick
+- remove
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.5
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

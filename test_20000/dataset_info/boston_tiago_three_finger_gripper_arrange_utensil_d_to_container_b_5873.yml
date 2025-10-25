@@ -1,0 +1,27 @@
+dataset_name: arrange_utensil_d_to_container_b_5873
+dataset_uuid: a268abe4-6472-43ed-83e7-f35be0649091
+task_descriptions:
+- arrange_the_utensil_d_and_place_in_the_container_b
+scene_type:
+- home
+- office
+atomic_actions:
+- slide
+- rotate
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.0
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

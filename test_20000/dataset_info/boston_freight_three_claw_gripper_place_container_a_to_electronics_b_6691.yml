@@ -1,0 +1,28 @@
+dataset_name: place_container_a_to_electronics_b_6691
+dataset_uuid: 24d46534-54db-4815-a5ac-e94023f1abf1
+task_descriptions:
+- place_the_container_a_and_place_in_the_electronics_b
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- grasp
+- slide
+- insert
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

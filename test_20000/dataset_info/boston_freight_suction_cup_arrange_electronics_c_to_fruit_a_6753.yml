@@ -1,0 +1,29 @@
+dataset_name: arrange_electronics_c_to_fruit_a_6753
+dataset_uuid: 74791894-a97e-4cf2-a580-1db7316ebe9f
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_fruit_a
+scene_type:
+- office
+- store
+- laboratory
+atomic_actions:
+- slide
+- flip
+- push
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.3
+device_model:
+- boston_freight
+end_effector_type: suction_cup

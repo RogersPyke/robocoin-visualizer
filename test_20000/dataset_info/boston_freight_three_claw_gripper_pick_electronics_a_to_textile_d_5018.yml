@@ -1,0 +1,29 @@
+dataset_name: pick_electronics_a_to_textile_d_5018
+dataset_uuid: 580ba721-b454-48ce-8c76-ec978ed8e4d1
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_textile_d
+scene_type:
+- kitchen
+- home
+- cafe
+atomic_actions:
+- slide
+- rotate
+- pick
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.5
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

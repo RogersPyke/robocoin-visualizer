@@ -1,0 +1,26 @@
+dataset_name: arrange_electronics_b_to_toy_c_6406
+dataset_uuid: b6f28940-e299-48e6-9d77-daa5de3eff02
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_toy_c
+scene_type:
+- office
+atomic_actions:
+- lower
+- rotate
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- agility_spot
+end_effector_type: two_claw_gripper

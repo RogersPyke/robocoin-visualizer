@@ -1,0 +1,26 @@
+dataset_name: pick_textile_c_to_fruit_e_9063
+dataset_uuid: db676170-b10a-4cca-aba1-8c344bb36051
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_fruit_e
+scene_type:
+- store
+atomic_actions:
+- remove
+- pick
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+operation_platform_height: 72.2
+device_model:
+- agility_cassie
+end_effector_type: two_finger_gripper

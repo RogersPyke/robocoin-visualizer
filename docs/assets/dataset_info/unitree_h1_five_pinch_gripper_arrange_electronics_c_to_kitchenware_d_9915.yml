@@ -1,0 +1,30 @@
+dataset_name: arrange_electronics_c_to_kitchenware_d_9915
+dataset_uuid: d67271b4-a548-4593-92da-d782c4b05320
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_kitchenware_d
+scene_type:
+- restaurant
+- hospital
+- cafe
+atomic_actions:
+- pull
+- insert
+- push
+- grasp
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_d
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.7
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

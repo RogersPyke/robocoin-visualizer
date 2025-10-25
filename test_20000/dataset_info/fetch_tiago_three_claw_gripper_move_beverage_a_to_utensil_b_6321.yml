@@ -1,0 +1,28 @@
+dataset_name: move_beverage_a_to_utensil_b_6321
+dataset_uuid: d1fc73a4-eb95-4bad-908e-3d006b0ef7a6
+task_descriptions:
+- move_the_beverage_a_and_place_in_the_utensil_b
+scene_type:
+- restaurant
+- kitchen
+- store
+atomic_actions:
+- lift
+- rotate
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.8
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

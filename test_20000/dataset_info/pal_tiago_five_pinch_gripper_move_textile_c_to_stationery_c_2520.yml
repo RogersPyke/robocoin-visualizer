@@ -1,0 +1,30 @@
+dataset_name: move_textile_c_to_stationery_c_2520
+dataset_uuid: 1c94a0a0-5a86-4ef3-b7ca-48438cac1b33
+task_descriptions:
+- move_the_textile_c_and_place_in_the_stationery_c
+scene_type:
+- cafe
+- laboratory
+- restaurant
+atomic_actions:
+- pick
+- insert
+- rotate
+- flip
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

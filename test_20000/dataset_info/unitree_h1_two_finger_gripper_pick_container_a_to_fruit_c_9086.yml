@@ -1,0 +1,26 @@
+dataset_name: pick_container_a_to_fruit_c_9086
+dataset_uuid: dff883b7-4bac-41d8-86fe-716c2347b710
+task_descriptions:
+- pick_the_container_a_and_place_in_the_fruit_c
+scene_type:
+- warehouse
+atomic_actions:
+- place
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- unitree_h1
+end_effector_type: two_finger_gripper

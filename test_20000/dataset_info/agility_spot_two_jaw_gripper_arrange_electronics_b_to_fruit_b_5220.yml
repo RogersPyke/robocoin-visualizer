@@ -1,0 +1,26 @@
+dataset_name: arrange_electronics_b_to_fruit_b_5220
+dataset_uuid: 8fe7eba5-4fe6-44b7-a1ed-6f8e4fc7602b
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_fruit_b
+scene_type:
+- warehouse
+atomic_actions:
+- push
+- lower
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.7
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

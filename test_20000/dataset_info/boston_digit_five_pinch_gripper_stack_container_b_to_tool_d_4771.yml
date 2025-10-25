@@ -1,0 +1,28 @@
+dataset_name: stack_container_b_to_tool_d_4771
+dataset_uuid: ffadbe5f-7bbb-4c82-a030-89039eaecf95
+task_descriptions:
+- stack_the_container_b_and_place_in_the_tool_d
+scene_type:
+- hospital
+atomic_actions:
+- lift
+- remove
+- flip
+- insert
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

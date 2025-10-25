@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_c_to_fruit_a_6634
+dataset_uuid: aeb29486-a9c1-439c-b86d-44ec62709f95
+task_descriptions:
+- arrange_the_textile_c_and_place_in_the_fruit_a
+scene_type:
+- cafe
+atomic_actions:
+- lower
+- grasp
+- pull
+- slide
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

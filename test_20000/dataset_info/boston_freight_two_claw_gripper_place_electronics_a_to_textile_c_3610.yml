@@ -1,0 +1,28 @@
+dataset_name: place_electronics_a_to_textile_c_3610
+dataset_uuid: dfb29984-5188-4a5f-8c38-875a0141ca22
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_textile_c
+scene_type:
+- hospital
+- store
+atomic_actions:
+- place
+- push
+- grasp
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.0
+device_model:
+- boston_freight
+end_effector_type: two_claw_gripper

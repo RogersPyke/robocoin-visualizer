@@ -1,0 +1,27 @@
+dataset_name: stack_utensil_b_to_container_c_1265
+dataset_uuid: 57a52b6e-e7d4-43f9-a0ff-5420ee1f5201
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_container_c
+scene_type:
+- office
+atomic_actions:
+- lower
+- pick
+- pull
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- agility_tiago
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,30 @@
+dataset_name: place_utensil_b_to_fruit_d_4478
+dataset_uuid: ed2fbfa9-e7cb-429c-a888-d63835647e63
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_fruit_d
+scene_type:
+- home
+- laboratory
+- kitchen
+atomic_actions:
+- pick
+- push
+- flip
+- place
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

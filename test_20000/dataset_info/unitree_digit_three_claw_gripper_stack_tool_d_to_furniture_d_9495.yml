@@ -1,0 +1,27 @@
+dataset_name: stack_tool_d_to_furniture_d_9495
+dataset_uuid: df7a0a8f-c6c9-49ca-b90f-d997c775ce32
+task_descriptions:
+- stack_the_tool_d_and_place_in_the_furniture_d
+scene_type:
+- hospital
+- office
+atomic_actions:
+- push
+- remove
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

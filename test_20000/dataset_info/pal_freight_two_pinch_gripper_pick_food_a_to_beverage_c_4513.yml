@@ -1,0 +1,29 @@
+dataset_name: pick_food_a_to_beverage_c_4513
+dataset_uuid: 085a6e83-0760-49b8-88a8-6c3cd0b7651a
+task_descriptions:
+- pick_the_food_a_and_place_in_the_beverage_c
+scene_type:
+- office
+- kitchen
+- home
+atomic_actions:
+- remove
+- place
+- slide
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

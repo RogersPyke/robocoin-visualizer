@@ -1,0 +1,26 @@
+dataset_name: arrange_container_b_to_food_a_1547
+dataset_uuid: 354a6816-2dfc-456a-8c92-df08c1fd56d2
+task_descriptions:
+- arrange_the_container_b_and_place_in_the_food_a
+scene_type:
+- kitchen
+atomic_actions:
+- grasp
+- pick
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.1
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

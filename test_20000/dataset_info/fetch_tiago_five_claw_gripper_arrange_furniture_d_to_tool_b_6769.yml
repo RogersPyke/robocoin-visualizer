@@ -1,0 +1,30 @@
+dataset_name: arrange_furniture_d_to_tool_b_6769
+dataset_uuid: 1e330cd8-b0fd-4b9e-be60-e9a4c66f11ef
+task_descriptions:
+- arrange_the_furniture_d_and_place_in_the_tool_b
+scene_type:
+- cafe
+- laboratory
+- store
+atomic_actions:
+- pick
+- insert
+- remove
+- rotate
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

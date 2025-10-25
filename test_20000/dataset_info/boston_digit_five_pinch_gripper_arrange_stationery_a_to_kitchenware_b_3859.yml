@@ -1,0 +1,28 @@
+dataset_name: arrange_stationery_a_to_kitchenware_b_3859
+dataset_uuid: 72d8a479-88f0-44a8-a2d9-2099ff2b55f5
+task_descriptions:
+- arrange_the_stationery_a_and_place_in_the_kitchenware_b
+scene_type:
+- office
+- laboratory
+atomic_actions:
+- lift
+- place
+- lower
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

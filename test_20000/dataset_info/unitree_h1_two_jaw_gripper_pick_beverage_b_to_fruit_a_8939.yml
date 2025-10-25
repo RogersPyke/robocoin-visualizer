@@ -1,0 +1,27 @@
+dataset_name: pick_beverage_b_to_fruit_a_8939
+dataset_uuid: 1754dafe-cf8e-45c1-ac5e-ec4f359214f0
+task_descriptions:
+- pick_the_beverage_b_and_place_in_the_fruit_a
+scene_type:
+- laboratory
+- warehouse
+atomic_actions:
+- remove
+- pull
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

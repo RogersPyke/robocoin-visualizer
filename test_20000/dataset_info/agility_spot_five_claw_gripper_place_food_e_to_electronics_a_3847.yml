@@ -1,0 +1,28 @@
+dataset_name: place_food_e_to_electronics_a_3847
+dataset_uuid: 7b64254d-53a5-4339-b65e-309a117f4ea0
+task_descriptions:
+- place_the_food_e_and_place_in_the_electronics_a
+scene_type:
+- warehouse
+atomic_actions:
+- flip
+- insert
+- pick
+- lift
+objects:
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.1
+device_model:
+- agility_spot
+end_effector_type: five_claw_gripper

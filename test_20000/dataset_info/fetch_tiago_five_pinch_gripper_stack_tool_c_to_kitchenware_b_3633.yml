@@ -1,0 +1,28 @@
+dataset_name: stack_tool_c_to_kitchenware_b_3633
+dataset_uuid: 6f6f50e1-9220-4215-a40a-f1ab93c69d34
+task_descriptions:
+- stack_the_tool_c_and_place_in_the_kitchenware_b
+scene_type:
+- kitchen
+- cafe
+- factory
+atomic_actions:
+- remove
+- push
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

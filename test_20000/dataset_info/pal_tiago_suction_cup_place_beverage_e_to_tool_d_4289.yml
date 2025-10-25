@@ -1,0 +1,28 @@
+dataset_name: place_beverage_e_to_tool_d_4289
+dataset_uuid: 8afa1ef4-dc50-4de0-b738-863eae13edfd
+task_descriptions:
+- place_the_beverage_e_and_place_in_the_tool_d
+scene_type:
+- restaurant
+- factory
+- store
+atomic_actions:
+- rotate
+- push
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+operation_platform_height: 84.5
+device_model:
+- pal_tiago
+end_effector_type: suction_cup

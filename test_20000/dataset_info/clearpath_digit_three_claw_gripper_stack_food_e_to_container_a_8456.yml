@@ -1,0 +1,28 @@
+dataset_name: stack_food_e_to_container_a_8456
+dataset_uuid: e56c8719-8639-4d66-9d73-12588ea457d1
+task_descriptions:
+- stack_the_food_e_and_place_in_the_container_a
+scene_type:
+- office
+atomic_actions:
+- push
+- lower
+- rotate
+- place
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.6
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

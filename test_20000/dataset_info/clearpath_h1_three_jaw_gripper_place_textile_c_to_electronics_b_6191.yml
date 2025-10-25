@@ -1,0 +1,29 @@
+dataset_name: place_textile_c_to_electronics_b_6191
+dataset_uuid: d21153aa-de4c-404e-8d8c-81f99380cf4c
+task_descriptions:
+- place_the_textile_c_and_place_in_the_electronics_b
+scene_type:
+- warehouse
+- hospital
+atomic_actions:
+- insert
+- remove
+- pull
+- flip
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.1
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

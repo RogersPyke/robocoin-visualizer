@@ -1,0 +1,29 @@
+dataset_name: move_food_c_to_toy_d_2210
+dataset_uuid: 42b2a03c-08df-47d9-884c-e39f4356f297
+task_descriptions:
+- move_the_food_c_and_place_in_the_toy_d
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- place
+- pull
+- push
+- grasp
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: food_c_sub2
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

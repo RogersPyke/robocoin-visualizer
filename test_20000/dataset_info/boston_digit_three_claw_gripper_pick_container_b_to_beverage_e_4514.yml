@@ -1,0 +1,26 @@
+dataset_name: pick_container_b_to_beverage_e_4514
+dataset_uuid: 50127418-e0f4-4c08-9169-c2f1d900481c
+task_descriptions:
+- pick_the_container_b_and_place_in_the_beverage_e
+scene_type:
+- laboratory
+atomic_actions:
+- push
+- insert
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

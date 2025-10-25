@@ -1,0 +1,29 @@
+dataset_name: stack_container_a_to_furniture_d_8899
+dataset_uuid: b5232d23-0564-4c43-a0b1-fcd19f3d0551
+task_descriptions:
+- stack_the_container_a_and_place_in_the_furniture_d
+scene_type:
+- store
+- home
+- laboratory
+atomic_actions:
+- slide
+- lower
+- pull
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- boston_tiago
+end_effector_type: two_finger_gripper

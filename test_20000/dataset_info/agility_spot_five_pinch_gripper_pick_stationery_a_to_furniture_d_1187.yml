@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_a_to_furniture_d_1187
+dataset_uuid: 451f3af7-fa85-46f6-8563-ae0c1033a9ab
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_furniture_d
+scene_type:
+- office
+atomic_actions:
+- place
+- pull
+- rotate
+- flip
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_stationery_c_to_tool_b_1739
+dataset_uuid: 51a3c708-9bb2-482b-95f5-cb0617896dc5
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_tool_b
+scene_type:
+- home
+- hospital
+atomic_actions:
+- push
+- lower
+- pull
+- place
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

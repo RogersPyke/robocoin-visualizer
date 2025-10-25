@@ -1,0 +1,27 @@
+dataset_name: place_stationery_b_to_kitchenware_b_6763
+dataset_uuid: 1942119a-f9fd-40d9-9b23-1b8b3b17b74e
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_kitchenware_b
+scene_type:
+- laboratory
+- store
+atomic_actions:
+- lift
+- slide
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

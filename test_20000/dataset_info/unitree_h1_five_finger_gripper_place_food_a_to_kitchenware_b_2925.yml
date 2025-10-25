@@ -1,0 +1,29 @@
+dataset_name: place_food_a_to_kitchenware_b_2925
+dataset_uuid: ecc7b73f-83c2-4545-b183-9ddc0530cdb0
+task_descriptions:
+- place_the_food_a_and_place_in_the_kitchenware_b
+scene_type:
+- kitchen
+- laboratory
+atomic_actions:
+- pull
+- lift
+- insert
+- pick
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.9
+device_model:
+- unitree_h1
+end_effector_type: five_finger_gripper

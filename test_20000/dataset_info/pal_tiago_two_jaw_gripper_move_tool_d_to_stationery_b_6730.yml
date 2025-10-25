@@ -1,0 +1,27 @@
+dataset_name: move_tool_d_to_stationery_b_6730
+dataset_uuid: 739275eb-237b-4584-9ec3-a8c98123f72e
+task_descriptions:
+- move_the_tool_d_and_place_in_the_stationery_b
+scene_type:
+- laboratory
+atomic_actions:
+- lift
+- place
+- push
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

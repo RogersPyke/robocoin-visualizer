@@ -1,0 +1,27 @@
+dataset_name: pick_container_c_to_furniture_a_5078
+dataset_uuid: d224551f-e437-45d1-b586-b9e730e4a019
+task_descriptions:
+- pick_the_container_c_and_place_in_the_furniture_a
+scene_type:
+- hospital
+- kitchen
+atomic_actions:
+- lower
+- remove
+objects:
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.8
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

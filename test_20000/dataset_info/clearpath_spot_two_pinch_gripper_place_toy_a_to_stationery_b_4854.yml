@@ -1,0 +1,28 @@
+dataset_name: place_toy_a_to_stationery_b_4854
+dataset_uuid: bff45e20-ae5f-496b-b7ad-41d1c04cd175
+task_descriptions:
+- place_the_toy_a_and_place_in_the_stationery_b
+scene_type:
+- factory
+atomic_actions:
+- flip
+- lift
+- lower
+- insert
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 80.9
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

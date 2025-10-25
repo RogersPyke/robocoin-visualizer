@@ -1,0 +1,28 @@
+dataset_name: place_utensil_b_to_toy_c_2316
+dataset_uuid: a4973248-ee8a-4d03-8952-255784cbb0ca
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_toy_c
+scene_type:
+- laboratory
+- home
+- hospital
+atomic_actions:
+- place
+- lower
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.7
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

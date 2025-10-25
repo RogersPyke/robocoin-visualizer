@@ -1,0 +1,27 @@
+dataset_name: place_beverage_d_to_beverage_d_3734
+dataset_uuid: f35f88fe-d22f-45b6-888a-06424da12c3e
+task_descriptions:
+- place_the_beverage_d_and_place_in_the_beverage_d
+scene_type:
+- restaurant
+atomic_actions:
+- insert
+- grasp
+- rotate
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.8
+device_model:
+- agility_spot
+end_effector_type: five_claw_gripper

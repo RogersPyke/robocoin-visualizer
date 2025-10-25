@@ -1,0 +1,27 @@
+dataset_name: stack_beverage_b_to_container_a_7626
+dataset_uuid: dd0f76dc-7993-4a9a-84a9-8f07f58e81cc
+task_descriptions:
+- stack_the_beverage_b_and_place_in_the_container_a
+scene_type:
+- office
+atomic_actions:
+- pick
+- lower
+- slide
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.3
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

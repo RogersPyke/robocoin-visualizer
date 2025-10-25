@@ -1,0 +1,30 @@
+dataset_name: stack_utensil_d_to_toy_c_5809
+dataset_uuid: 329f4ca3-7cbf-4a14-9325-e01c26bb6a96
+task_descriptions:
+- stack_the_utensil_d_and_place_in_the_toy_c
+scene_type:
+- restaurant
+- factory
+- warehouse
+atomic_actions:
+- place
+- pull
+- push
+- rotate
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

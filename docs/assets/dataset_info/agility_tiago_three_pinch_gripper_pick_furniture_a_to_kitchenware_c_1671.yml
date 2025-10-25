@@ -1,0 +1,27 @@
+dataset_name: pick_furniture_a_to_kitchenware_c_1671
+dataset_uuid: 1ed2cd3d-63e5-48de-b0a8-47315a7728e2
+task_descriptions:
+- pick_the_furniture_a_and_place_in_the_kitchenware_c
+scene_type:
+- home
+atomic_actions:
+- grasp
+- lower
+- lift
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.8
+device_model:
+- agility_tiago
+end_effector_type: three_pinch_gripper

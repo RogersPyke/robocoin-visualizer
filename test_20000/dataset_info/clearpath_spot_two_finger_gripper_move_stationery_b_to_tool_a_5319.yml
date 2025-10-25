@@ -1,0 +1,30 @@
+dataset_name: move_stationery_b_to_tool_a_5319
+dataset_uuid: 5d6fa047-80d9-4733-b0bf-bfe03a86e860
+task_descriptions:
+- move_the_stationery_b_and_place_in_the_tool_a
+scene_type:
+- cafe
+- laboratory
+- factory
+atomic_actions:
+- grasp
+- lower
+- lift
+- rotate
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.7
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_electronics_c_to_textile_d_2811
+dataset_uuid: 36268174-b751-46bb-807c-111571c34744
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_textile_d
+scene_type:
+- warehouse
+- factory
+- cafe
+atomic_actions:
+- push
+- insert
+- lift
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.1
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

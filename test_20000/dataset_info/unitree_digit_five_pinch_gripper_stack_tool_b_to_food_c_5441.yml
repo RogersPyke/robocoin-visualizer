@@ -1,0 +1,28 @@
+dataset_name: stack_tool_b_to_food_c_5441
+dataset_uuid: f209a76a-ca64-484e-ba5c-6221a9cbf433
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_food_c
+scene_type:
+- warehouse
+atomic_actions:
+- flip
+- lower
+- remove
+- grasp
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

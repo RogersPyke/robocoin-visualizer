@@ -1,0 +1,27 @@
+dataset_name: stack_beverage_d_to_container_b_3333
+dataset_uuid: 16d250a7-b3c9-44df-8fe7-d21733c5bf1b
+task_descriptions:
+- stack_the_beverage_d_and_place_in_the_container_b
+scene_type:
+- warehouse
+atomic_actions:
+- lift
+- place
+- pull
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.4
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

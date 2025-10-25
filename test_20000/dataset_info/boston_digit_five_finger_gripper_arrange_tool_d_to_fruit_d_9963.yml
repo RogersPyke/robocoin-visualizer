@@ -1,0 +1,28 @@
+dataset_name: arrange_tool_d_to_fruit_d_9963
+dataset_uuid: 0c28991e-ae05-4e19-8410-021fa7c09d64
+task_descriptions:
+- arrange_the_tool_d_and_place_in_the_fruit_d
+scene_type:
+- hospital
+atomic_actions:
+- push
+- remove
+- pull
+- pick
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.5
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

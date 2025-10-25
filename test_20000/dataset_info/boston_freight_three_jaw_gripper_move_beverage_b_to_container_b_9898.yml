@@ -1,0 +1,27 @@
+dataset_name: move_beverage_b_to_container_b_9898
+dataset_uuid: d5e0d491-4839-4d19-afb4-1dd57b8f5b0b
+task_descriptions:
+- move_the_beverage_b_and_place_in_the_container_b
+scene_type:
+- office
+atomic_actions:
+- push
+- place
+- pick
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

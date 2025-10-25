@@ -1,0 +1,30 @@
+dataset_name: move_furniture_d_to_tool_a_7677
+dataset_uuid: a1b729c7-c040-402f-a678-ebe9bd93baa4
+task_descriptions:
+- move_the_furniture_d_and_place_in_the_tool_a
+scene_type:
+- restaurant
+- office
+- laboratory
+atomic_actions:
+- pick
+- push
+- lift
+- slide
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_tool_c_to_utensil_c_4865
+dataset_uuid: 353e5fa7-d0e0-45f9-b8df-8a8d26d30359
+task_descriptions:
+- place_the_tool_c_and_place_in_the_utensil_c
+scene_type:
+- restaurant
+- kitchen
+atomic_actions:
+- lower
+- rotate
+- flip
+- pick
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.1
+device_model:
+- fetch_spot
+end_effector_type: three_jaw_gripper

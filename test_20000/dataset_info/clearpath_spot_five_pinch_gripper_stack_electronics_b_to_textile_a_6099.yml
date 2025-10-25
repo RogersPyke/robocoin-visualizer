@@ -1,0 +1,29 @@
+dataset_name: stack_electronics_b_to_textile_a_6099
+dataset_uuid: 16d73552-9bc2-4910-9c2d-30f8cdc16ed6
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_textile_a
+scene_type:
+- home
+- hospital
+- restaurant
+atomic_actions:
+- pull
+- grasp
+- lift
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.0
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

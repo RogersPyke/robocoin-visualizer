@@ -1,0 +1,26 @@
+dataset_name: place_kitchenware_b_to_tool_a_8300
+dataset_uuid: b1a21ef6-5835-4d16-ae77-14cfc9691c87
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_tool_a
+scene_type:
+- restaurant
+atomic_actions:
+- flip
+- place
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.6
+device_model:
+- unitree_digit
+end_effector_type: two_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_container_b_to_kitchenware_a_6772
+dataset_uuid: efc661b2-14fd-4ffb-927c-3a3d05ee5830
+task_descriptions:
+- pick_the_container_b_and_place_in_the_kitchenware_a
+scene_type:
+- restaurant
+- laboratory
+atomic_actions:
+- grasp
+- rotate
+- pull
+- slide
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

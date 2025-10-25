@@ -1,0 +1,26 @@
+dataset_name: arrange_tool_b_to_furniture_a_1429
+dataset_uuid: 6fe3c734-b0ee-48e7-a498-26974bf6b781
+task_descriptions:
+- arrange_the_tool_b_and_place_in_the_furniture_a
+scene_type:
+- home
+atomic_actions:
+- slide
+- lower
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

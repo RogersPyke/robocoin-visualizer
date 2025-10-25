@@ -1,0 +1,29 @@
+dataset_name: place_tool_c_to_fruit_d_2097
+dataset_uuid: 73643710-8e74-4451-b35d-7d910d2a9e7e
+task_descriptions:
+- place_the_tool_c_and_place_in_the_fruit_d
+scene_type:
+- store
+- laboratory
+atomic_actions:
+- lower
+- grasp
+- slide
+- push
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

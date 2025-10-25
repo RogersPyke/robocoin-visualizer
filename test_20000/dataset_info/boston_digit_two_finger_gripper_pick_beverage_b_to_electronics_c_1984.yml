@@ -1,0 +1,28 @@
+dataset_name: pick_beverage_b_to_electronics_c_1984
+dataset_uuid: 89070210-e084-4972-9202-338ff6d4f880
+task_descriptions:
+- pick_the_beverage_b_and_place_in_the_electronics_c
+scene_type:
+- hospital
+- warehouse
+atomic_actions:
+- grasp
+- lift
+- place
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.6
+device_model:
+- boston_digit
+end_effector_type: two_finger_gripper

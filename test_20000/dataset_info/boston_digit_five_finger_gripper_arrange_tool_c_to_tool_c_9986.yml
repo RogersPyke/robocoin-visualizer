@@ -1,0 +1,29 @@
+dataset_name: arrange_tool_c_to_tool_c_9986
+dataset_uuid: 68d83558-b45c-4bb0-97b5-9a431a74e0f6
+task_descriptions:
+- arrange_the_tool_c_and_place_in_the_tool_c
+scene_type:
+- home
+- hospital
+atomic_actions:
+- lift
+- flip
+- pull
+- pick
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

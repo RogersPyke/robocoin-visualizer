@@ -1,0 +1,29 @@
+dataset_name: arrange_food_b_to_fruit_a_7240
+dataset_uuid: b5ef68d7-bb42-42c8-8bb6-bc27b5b56dc1
+task_descriptions:
+- arrange_the_food_b_and_place_in_the_fruit_a
+scene_type:
+- kitchen
+- hospital
+atomic_actions:
+- remove
+- flip
+- pull
+- slide
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.9
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

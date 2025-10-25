@@ -1,0 +1,27 @@
+dataset_name: stack_furniture_a_to_fruit_b_1549
+dataset_uuid: b26fa398-c092-4b86-b2ba-318202a569d6
+task_descriptions:
+- stack_the_furniture_a_and_place_in_the_fruit_b
+scene_type:
+- kitchen
+- factory
+atomic_actions:
+- pick
+- slide
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 85.3
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

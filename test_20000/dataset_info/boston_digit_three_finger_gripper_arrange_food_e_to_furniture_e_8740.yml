@@ -1,0 +1,27 @@
+dataset_name: arrange_food_e_to_furniture_e_8740
+dataset_uuid: e3142772-b1df-472d-abb0-de43027e9f70
+task_descriptions:
+- arrange_the_food_e_and_place_in_the_furniture_e
+scene_type:
+- kitchen
+atomic_actions:
+- remove
+- pull
+- flip
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.5
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

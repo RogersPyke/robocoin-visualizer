@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_c_to_utensil_a_2091
+dataset_uuid: cb061994-f00f-4a25-8e46-0bd81f0ab854
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_utensil_a
+scene_type:
+- warehouse
+- cafe
+atomic_actions:
+- remove
+- rotate
+- flip
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

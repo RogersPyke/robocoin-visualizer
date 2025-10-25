@@ -1,0 +1,28 @@
+dataset_name: move_furniture_c_to_beverage_a_2542
+dataset_uuid: 79f280dc-9b5e-49bd-9c70-fdaac5fddae9
+task_descriptions:
+- move_the_furniture_c_and_place_in_the_beverage_a
+scene_type:
+- hospital
+- cafe
+atomic_actions:
+- grasp
+- flip
+- lower
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.4
+device_model:
+- pal_freight
+end_effector_type: two_claw_gripper

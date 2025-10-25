@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_d_to_food_a_8877
+dataset_uuid: 87adb180-5902-452b-bfd0-f132e1b684a6
+task_descriptions:
+- stack_the_furniture_d_and_place_in_the_food_a
+scene_type:
+- restaurant
+- laboratory
+- home
+atomic_actions:
+- lift
+- pull
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_food_b_to_stationery_c_4718
+dataset_uuid: 4ba63522-c8e4-40bf-a079-f69db6e3a3db
+task_descriptions:
+- stack_the_food_b_and_place_in_the_stationery_c
+scene_type:
+- restaurant
+- hospital
+atomic_actions:
+- lift
+- remove
+- slide
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.9
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

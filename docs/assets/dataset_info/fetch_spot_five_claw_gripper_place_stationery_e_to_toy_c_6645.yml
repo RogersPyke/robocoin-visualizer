@@ -1,0 +1,28 @@
+dataset_name: place_stationery_e_to_toy_c_6645
+dataset_uuid: bf41984b-8710-4746-addf-3951804d70f2
+task_descriptions:
+- place_the_stationery_e_and_place_in_the_toy_c
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- lift
+- insert
+- push
+objects:
+- object_name: stationery_e
+  level1: stationery
+  level2: stationery_e
+  level3: stationery_e_sub1
+  level4: stationery_e_sub2
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.8
+device_model:
+- fetch_spot
+end_effector_type: five_claw_gripper

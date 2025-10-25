@@ -1,0 +1,27 @@
+dataset_name: place_fruit_e_to_tool_b_4528
+dataset_uuid: ab35db28-fb6b-46a2-a33c-05ae96ffa96f
+task_descriptions:
+- place_the_fruit_e_and_place_in_the_tool_b
+scene_type:
+- office
+atomic_actions:
+- lower
+- slide
+- push
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 86.7
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

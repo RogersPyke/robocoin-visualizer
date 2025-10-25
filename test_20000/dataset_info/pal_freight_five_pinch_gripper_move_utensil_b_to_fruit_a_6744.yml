@@ -1,0 +1,28 @@
+dataset_name: move_utensil_b_to_fruit_a_6744
+dataset_uuid: 9970a1ad-5879-4ca8-9b6b-e317f4b61df5
+task_descriptions:
+- move_the_utensil_b_and_place_in_the_fruit_a
+scene_type:
+- store
+- kitchen
+atomic_actions:
+- flip
+- place
+- lift
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.8
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,30 @@
+dataset_name: move_tool_c_to_tool_a_6181
+dataset_uuid: 73668d48-c2f8-4811-9507-afb7a8d39fbf
+task_descriptions:
+- move_the_tool_c_and_place_in_the_tool_a
+scene_type:
+- store
+- restaurant
+- factory
+atomic_actions:
+- grasp
+- insert
+- lower
+- lift
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- boston_pepper
+end_effector_type: two_claw_gripper

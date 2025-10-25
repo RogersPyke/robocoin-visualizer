@@ -1,0 +1,27 @@
+dataset_name: move_utensil_b_to_electronics_a_6844
+dataset_uuid: e815eeeb-8311-43f5-b4d5-ade1472cac22
+task_descriptions:
+- move_the_utensil_b_and_place_in_the_electronics_a
+scene_type:
+- office
+- kitchen
+atomic_actions:
+- slide
+- insert
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- unitree_tiago
+end_effector_type: five_pinch_gripper

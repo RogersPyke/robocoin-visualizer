@@ -1,0 +1,30 @@
+dataset_name: pick_textile_a_to_container_e_4247
+dataset_uuid: a541ac6f-00d2-4ef5-90fc-25d5bef81f10
+task_descriptions:
+- pick_the_textile_a_and_place_in_the_container_e
+scene_type:
+- office
+- laboratory
+- home
+atomic_actions:
+- place
+- lower
+- flip
+- pull
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: container_e
+  level1: container
+  level2: container_e
+  level3: container_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- agility_tiago
+end_effector_type: five_claw_gripper

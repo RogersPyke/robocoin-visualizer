@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_c_to_utensil_c_1907
+dataset_uuid: db2e558e-b502-4eb7-ab5f-f2bad431e5cb
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_utensil_c
+scene_type:
+- kitchen
+- laboratory
+- factory
+atomic_actions:
+- pick
+- lift
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

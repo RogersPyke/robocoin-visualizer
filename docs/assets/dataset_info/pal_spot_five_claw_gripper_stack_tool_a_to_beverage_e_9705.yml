@@ -1,0 +1,28 @@
+dataset_name: stack_tool_a_to_beverage_e_9705
+dataset_uuid: f4499733-f3da-488b-98aa-a11bdf2d37b7
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_beverage_e
+scene_type:
+- restaurant
+- hospital
+atomic_actions:
+- rotate
+- grasp
+- place
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.5
+device_model:
+- pal_spot
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_e_to_container_a_6732
+dataset_uuid: 81c04056-24d6-4ccc-a7f2-084465801cf5
+task_descriptions:
+- arrange_the_furniture_e_and_place_in_the_container_a
+scene_type:
+- restaurant
+- cafe
+atomic_actions:
+- pick
+- remove
+- flip
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 75.9
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_food_e_to_textile_a_2025
+dataset_uuid: d13d96d7-8303-4e8a-aa37-0ff9e7a65a41
+task_descriptions:
+- pick_the_food_e_and_place_in_the_textile_a
+scene_type:
+- restaurant
+atomic_actions:
+- slide
+- place
+- flip
+- pull
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

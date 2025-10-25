@@ -1,0 +1,26 @@
+dataset_name: arrange_tool_a_to_fruit_c_6641
+dataset_uuid: fbfa1186-186f-4788-9c93-eb367398d33d
+task_descriptions:
+- arrange_the_tool_a_and_place_in_the_fruit_c
+scene_type:
+- kitchen
+atomic_actions:
+- slide
+- remove
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+operation_platform_height: 87.3
+device_model:
+- unitree_h1
+end_effector_type: two_claw_gripper

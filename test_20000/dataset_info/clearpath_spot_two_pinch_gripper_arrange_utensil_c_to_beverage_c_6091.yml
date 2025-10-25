@@ -1,0 +1,29 @@
+dataset_name: arrange_utensil_c_to_beverage_c_6091
+dataset_uuid: 4df139f7-81b8-46b9-a449-cea9980dfd19
+task_descriptions:
+- arrange_the_utensil_c_and_place_in_the_beverage_c
+scene_type:
+- kitchen
+- hospital
+atomic_actions:
+- flip
+- rotate
+- grasp
+- place
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

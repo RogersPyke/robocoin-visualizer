@@ -1,0 +1,29 @@
+dataset_name: pick_fruit_c_to_utensil_b_6167
+dataset_uuid: e3fde66e-d490-4e8d-8769-53744ab50a9d
+task_descriptions:
+- pick_the_fruit_c_and_place_in_the_utensil_b
+scene_type:
+- restaurant
+- store
+atomic_actions:
+- slide
+- flip
+- place
+- pull
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- unitree_g1
+end_effector_type: five_claw_gripper

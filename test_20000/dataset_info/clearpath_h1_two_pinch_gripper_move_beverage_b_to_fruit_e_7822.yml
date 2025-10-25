@@ -1,0 +1,27 @@
+dataset_name: move_beverage_b_to_fruit_e_7822
+dataset_uuid: a96bffa6-bee1-4550-9a13-9784138a1d42
+task_descriptions:
+- move_the_beverage_b_and_place_in_the_fruit_e
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- push
+- lift
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.7
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

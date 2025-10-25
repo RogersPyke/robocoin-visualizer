@@ -1,0 +1,29 @@
+dataset_name: arrange_toy_b_to_electronics_c_5609
+dataset_uuid: 8953a693-6344-4d83-935b-b77ee1783198
+task_descriptions:
+- arrange_the_toy_b_and_place_in_the_electronics_c
+scene_type:
+- kitchen
+- store
+atomic_actions:
+- slide
+- lift
+- pick
+- pull
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.3
+device_model:
+- fetch_tiago
+end_effector_type: suction_cup

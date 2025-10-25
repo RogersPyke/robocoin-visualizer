@@ -1,0 +1,29 @@
+dataset_name: place_kitchenware_c_to_toy_c_4405
+dataset_uuid: de1af61e-3ed6-4cff-805e-c4a5bd7f92a9
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_toy_c
+scene_type:
+- cafe
+- warehouse
+atomic_actions:
+- rotate
+- pull
+- push
+- pick
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.6
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

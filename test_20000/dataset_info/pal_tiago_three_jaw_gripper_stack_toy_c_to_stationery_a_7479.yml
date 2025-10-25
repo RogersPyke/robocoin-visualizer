@@ -1,0 +1,28 @@
+dataset_name: stack_toy_c_to_stationery_a_7479
+dataset_uuid: 61b76609-f182-4e4e-8e8d-2a7cfaa078f7
+task_descriptions:
+- stack_the_toy_c_and_place_in_the_stationery_a
+scene_type:
+- home
+- laboratory
+atomic_actions:
+- flip
+- slide
+- pick
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.9
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

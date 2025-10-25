@@ -1,0 +1,26 @@
+dataset_name: arrange_kitchenware_b_to_textile_c_9926
+dataset_uuid: 66864c76-c38d-4951-a582-9792aa8d205c
+task_descriptions:
+- arrange_the_kitchenware_b_and_place_in_the_textile_c
+scene_type:
+- cafe
+atomic_actions:
+- pull
+- pick
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

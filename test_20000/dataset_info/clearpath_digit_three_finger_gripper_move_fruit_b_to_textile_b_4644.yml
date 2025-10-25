@@ -1,0 +1,29 @@
+dataset_name: move_fruit_b_to_textile_b_4644
+dataset_uuid: d9edb7d7-8c85-4f31-b82b-5fe3a27a631f
+task_descriptions:
+- move_the_fruit_b_and_place_in_the_textile_b
+scene_type:
+- hospital
+- laboratory
+atomic_actions:
+- remove
+- flip
+- pull
+- grasp
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.4
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

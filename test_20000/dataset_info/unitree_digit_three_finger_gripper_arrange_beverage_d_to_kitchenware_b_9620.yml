@@ -1,0 +1,30 @@
+dataset_name: arrange_beverage_d_to_kitchenware_b_9620
+dataset_uuid: eeb6f4e6-768e-4837-b854-c2a86e861e72
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_kitchenware_b
+scene_type:
+- office
+- home
+- restaurant
+atomic_actions:
+- insert
+- pick
+- lower
+- grasp
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

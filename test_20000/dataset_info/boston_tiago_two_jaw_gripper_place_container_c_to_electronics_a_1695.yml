@@ -1,0 +1,30 @@
+dataset_name: place_container_c_to_electronics_a_1695
+dataset_uuid: 058ce451-0713-439e-aba1-4731ea9fc109
+task_descriptions:
+- place_the_container_c_and_place_in_the_electronics_a
+scene_type:
+- restaurant
+- store
+- office
+atomic_actions:
+- pull
+- push
+- lower
+- flip
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

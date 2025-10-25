@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_a_to_food_e_1569
+dataset_uuid: e654cc7f-e7b0-43bf-bcde-7173a0dc875d
+task_descriptions:
+- pick_the_furniture_a_and_place_in_the_food_e
+scene_type:
+- kitchen
+atomic_actions:
+- lift
+- place
+- flip
+- lower
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

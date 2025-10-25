@@ -1,0 +1,26 @@
+dataset_name: move_textile_e_to_furniture_c_3288
+dataset_uuid: b411e00d-73d3-4e3b-abfb-a9721db176a6
+task_descriptions:
+- move_the_textile_e_and_place_in_the_furniture_c
+scene_type:
+- factory
+atomic_actions:
+- insert
+- lower
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_beverage_b_to_fruit_a_9742
+dataset_uuid: 3939a1cf-c44d-4eaf-99b7-8877e56fb3c1
+task_descriptions:
+- arrange_the_beverage_b_and_place_in_the_fruit_a
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- grasp
+- pull
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 73.8
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

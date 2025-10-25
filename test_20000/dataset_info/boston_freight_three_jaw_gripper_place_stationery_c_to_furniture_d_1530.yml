@@ -1,0 +1,28 @@
+dataset_name: place_stationery_c_to_furniture_d_1530
+dataset_uuid: 5489a849-c4fc-4256-ae8d-1f39983862f6
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_furniture_d
+scene_type:
+- office
+- hospital
+atomic_actions:
+- push
+- insert
+- pull
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,26 @@
+dataset_name: place_container_b_to_food_a_5553
+dataset_uuid: 027bb1ac-79fe-4ebe-8b0d-9e682cfcb6ec
+task_descriptions:
+- place_the_container_b_and_place_in_the_food_a
+scene_type:
+- restaurant
+atomic_actions:
+- grasp
+- lift
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.5
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

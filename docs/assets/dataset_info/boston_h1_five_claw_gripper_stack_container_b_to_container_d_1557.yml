@@ -1,0 +1,28 @@
+dataset_name: stack_container_b_to_container_d_1557
+dataset_uuid: 9782cc2c-f146-4c77-8e3c-e95a0c52d8a9
+task_descriptions:
+- stack_the_container_b_and_place_in_the_container_d
+scene_type:
+- home
+- store
+atomic_actions:
+- lower
+- insert
+- slide
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: container_d
+  level1: container
+  level2: container_d
+  level3: container_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- boston_h1
+end_effector_type: five_claw_gripper

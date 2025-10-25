@@ -1,0 +1,29 @@
+dataset_name: place_beverage_b_to_stationery_b_4730
+dataset_uuid: 01e4b49d-2f7d-4e07-a041-9b57eb1125ce
+task_descriptions:
+- place_the_beverage_b_and_place_in_the_stationery_b
+scene_type:
+- hospital
+- restaurant
+atomic_actions:
+- lift
+- rotate
+- lower
+- push
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

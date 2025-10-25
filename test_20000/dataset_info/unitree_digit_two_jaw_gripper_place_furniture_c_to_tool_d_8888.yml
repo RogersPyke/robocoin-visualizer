@@ -1,0 +1,28 @@
+dataset_name: place_furniture_c_to_tool_d_8888
+dataset_uuid: 22503b0f-0215-4370-95c7-4ab88f221acf
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_tool_d
+scene_type:
+- store
+- factory
+- hospital
+atomic_actions:
+- pick
+- insert
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.9
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_c_to_toy_b_2169
+dataset_uuid: 53f4de6d-708c-4e06-beb6-3e49252d3c62
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_toy_b
+scene_type:
+- warehouse
+- cafe
+atomic_actions:
+- rotate
+- push
+- lift
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

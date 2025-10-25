@@ -1,0 +1,28 @@
+dataset_name: stack_container_b_to_container_c_2207
+dataset_uuid: e0a884a8-5b54-4aef-be79-88e18d71dc68
+task_descriptions:
+- stack_the_container_b_and_place_in_the_container_c
+scene_type:
+- laboratory
+- restaurant
+- office
+atomic_actions:
+- grasp
+- pull
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- boston_digit
+end_effector_type: two_finger_gripper

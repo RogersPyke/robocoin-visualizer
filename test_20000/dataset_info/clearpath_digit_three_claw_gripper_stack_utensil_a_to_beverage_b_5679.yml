@@ -1,0 +1,27 @@
+dataset_name: stack_utensil_a_to_beverage_b_5679
+dataset_uuid: c264e185-be39-4520-89d1-5065c64dbfab
+task_descriptions:
+- stack_the_utensil_a_and_place_in_the_beverage_b
+scene_type:
+- hospital
+atomic_actions:
+- rotate
+- pick
+- push
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.6
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

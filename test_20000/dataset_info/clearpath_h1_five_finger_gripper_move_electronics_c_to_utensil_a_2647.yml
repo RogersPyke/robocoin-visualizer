@@ -1,0 +1,29 @@
+dataset_name: move_electronics_c_to_utensil_a_2647
+dataset_uuid: 39440811-c472-49c6-b9b9-33c352e05652
+task_descriptions:
+- move_the_electronics_c_and_place_in_the_utensil_a
+scene_type:
+- kitchen
+- hospital
+- restaurant
+atomic_actions:
+- slide
+- pull
+- push
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 83.1
+device_model:
+- clearpath_h1
+end_effector_type: five_finger_gripper

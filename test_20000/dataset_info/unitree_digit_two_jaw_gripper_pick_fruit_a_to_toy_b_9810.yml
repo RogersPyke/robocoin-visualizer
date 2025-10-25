@@ -1,0 +1,29 @@
+dataset_name: pick_fruit_a_to_toy_b_9810
+dataset_uuid: a01d98d2-b227-41d2-a03f-ffe5def383d1
+task_descriptions:
+- pick_the_fruit_a_and_place_in_the_toy_b
+scene_type:
+- store
+- warehouse
+- laboratory
+atomic_actions:
+- flip
+- push
+- grasp
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

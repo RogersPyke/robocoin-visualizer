@@ -1,0 +1,28 @@
+dataset_name: pick_textile_b_to_toy_b_9786
+dataset_uuid: c94fa170-6ad9-4db0-8b00-23b96338d552
+task_descriptions:
+- pick_the_textile_b_and_place_in_the_toy_b
+scene_type:
+- warehouse
+- hospital
+- office
+atomic_actions:
+- flip
+- slide
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.3
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

@@ -1,0 +1,26 @@
+dataset_name: place_textile_d_to_kitchenware_c_5999
+dataset_uuid: 648ed197-d772-4afb-851c-702fc54009e6
+task_descriptions:
+- place_the_textile_d_and_place_in_the_kitchenware_c
+scene_type:
+- home
+atomic_actions:
+- rotate
+- pull
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

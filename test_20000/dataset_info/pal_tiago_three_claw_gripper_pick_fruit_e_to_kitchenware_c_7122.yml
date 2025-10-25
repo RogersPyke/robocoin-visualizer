@@ -1,0 +1,27 @@
+dataset_name: pick_fruit_e_to_kitchenware_c_7122
+dataset_uuid: deb04101-b283-4956-bd93-d0d611824f2f
+task_descriptions:
+- pick_the_fruit_e_and_place_in_the_kitchenware_c
+scene_type:
+- cafe
+atomic_actions:
+- rotate
+- lower
+- push
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.8
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

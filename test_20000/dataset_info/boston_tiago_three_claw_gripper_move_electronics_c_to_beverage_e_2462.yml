@@ -1,0 +1,27 @@
+dataset_name: move_electronics_c_to_beverage_e_2462
+dataset_uuid: 9702d1ca-02cc-4e37-a373-9c3c8bc5bf38
+task_descriptions:
+- move_the_electronics_c_and_place_in_the_beverage_e
+scene_type:
+- restaurant
+- store
+atomic_actions:
+- rotate
+- lower
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.1
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_beverage_d_to_toy_d_9678
+dataset_uuid: da497bc2-4aa6-449e-a180-cd1181be5c5a
+task_descriptions:
+- pick_the_beverage_d_and_place_in_the_toy_d
+scene_type:
+- factory
+atomic_actions:
+- push
+- lift
+- place
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

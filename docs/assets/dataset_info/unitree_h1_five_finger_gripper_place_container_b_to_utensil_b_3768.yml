@@ -1,0 +1,28 @@
+dataset_name: place_container_b_to_utensil_b_3768
+dataset_uuid: a6988d12-f6c0-44a2-aceb-6392be1f1770
+task_descriptions:
+- place_the_container_b_and_place_in_the_utensil_b
+scene_type:
+- office
+- restaurant
+atomic_actions:
+- flip
+- remove
+- push
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.1
+device_model:
+- unitree_h1
+end_effector_type: five_finger_gripper

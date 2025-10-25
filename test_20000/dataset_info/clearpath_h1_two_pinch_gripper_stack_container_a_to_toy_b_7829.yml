@@ -1,0 +1,27 @@
+dataset_name: stack_container_a_to_toy_b_7829
+dataset_uuid: e646e1b2-d7d5-485d-bbec-9ab7b6a32ed9
+task_descriptions:
+- stack_the_container_a_and_place_in_the_toy_b
+scene_type:
+- restaurant
+atomic_actions:
+- grasp
+- place
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

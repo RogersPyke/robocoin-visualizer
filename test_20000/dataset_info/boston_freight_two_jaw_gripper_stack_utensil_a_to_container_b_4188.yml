@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_a_to_container_b_4188
+dataset_uuid: c2ac9173-dd09-47ef-87de-f3dd076cd8b2
+task_descriptions:
+- stack_the_utensil_a_and_place_in_the_container_b
+scene_type:
+- store
+- kitchen
+- office
+atomic_actions:
+- pull
+- slide
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.7
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

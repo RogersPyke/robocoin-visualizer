@@ -1,0 +1,29 @@
+dataset_name: arrange_food_c_to_tool_a_5542
+dataset_uuid: 408ae90f-4756-46a2-bba1-a5c4a778cd05
+task_descriptions:
+- arrange_the_food_c_and_place_in_the_tool_a
+scene_type:
+- store
+- kitchen
+atomic_actions:
+- place
+- pick
+- grasp
+- rotate
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.6
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_container_b_to_beverage_b_5507
+dataset_uuid: 3dfd4fe0-dea6-47c8-b6c3-d4f051d08dec
+task_descriptions:
+- pick_the_container_b_and_place_in_the_beverage_b
+scene_type:
+- restaurant
+- store
+atomic_actions:
+- insert
+- push
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

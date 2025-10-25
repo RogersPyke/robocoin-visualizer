@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_a_to_furniture_b_9648
+dataset_uuid: 42b3a194-7c5f-4a93-a00c-b2978a5cc3d7
+task_descriptions:
+- arrange_the_electronics_a_and_place_in_the_furniture_b
+scene_type:
+- laboratory
+atomic_actions:
+- remove
+- pick
+- lower
+- pull
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

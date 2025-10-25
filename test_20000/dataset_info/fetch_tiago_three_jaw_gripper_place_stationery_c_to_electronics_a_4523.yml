@@ -1,0 +1,29 @@
+dataset_name: place_stationery_c_to_electronics_a_4523
+dataset_uuid: fa08a4ad-700c-46b6-9605-5721ec05206b
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_electronics_a
+scene_type:
+- store
+- restaurant
+- laboratory
+atomic_actions:
+- lower
+- lift
+- insert
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

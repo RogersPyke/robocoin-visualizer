@@ -1,0 +1,29 @@
+dataset_name: place_food_e_to_utensil_a_9655
+dataset_uuid: d9ed7d66-65be-4148-b23e-b19ea6223aeb
+task_descriptions:
+- place_the_food_e_and_place_in_the_utensil_a
+scene_type:
+- laboratory
+- home
+- hospital
+atomic_actions:
+- pull
+- flip
+- rotate
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.4
+device_model:
+- unitree_h1
+end_effector_type: five_finger_gripper

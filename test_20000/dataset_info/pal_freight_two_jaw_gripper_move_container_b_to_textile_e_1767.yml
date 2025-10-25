@@ -1,0 +1,29 @@
+dataset_name: move_container_b_to_textile_e_1767
+dataset_uuid: 13422556-bf29-412f-93b1-534d2c62fe99
+task_descriptions:
+- move_the_container_b_and_place_in_the_textile_e
+scene_type:
+- cafe
+- home
+- laboratory
+atomic_actions:
+- pull
+- pick
+- remove
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.9
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

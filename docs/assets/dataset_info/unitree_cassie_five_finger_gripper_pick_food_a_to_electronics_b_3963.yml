@@ -1,0 +1,26 @@
+dataset_name: pick_food_a_to_electronics_b_3963
+dataset_uuid: b057169d-db58-481e-bd1c-6ceda4c62373
+task_descriptions:
+- pick_the_food_a_and_place_in_the_electronics_b
+scene_type:
+- laboratory
+atomic_actions:
+- lower
+- remove
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- unitree_cassie
+end_effector_type: five_finger_gripper

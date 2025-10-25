@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_d_to_textile_d_3628
+dataset_uuid: 67c8d27b-9530-4e01-a956-054b9690c214
+task_descriptions:
+- arrange_the_fruit_d_and_place_in_the_textile_d
+scene_type:
+- kitchen
+atomic_actions:
+- grasp
+- flip
+- pull
+- remove
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.1
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

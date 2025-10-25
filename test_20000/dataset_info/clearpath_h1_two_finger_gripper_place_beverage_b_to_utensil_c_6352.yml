@@ -1,0 +1,29 @@
+dataset_name: place_beverage_b_to_utensil_c_6352
+dataset_uuid: 91acc88e-69ec-41ce-aa7a-ef20392a7259
+task_descriptions:
+- place_the_beverage_b_and_place_in_the_utensil_c
+scene_type:
+- store
+- hospital
+atomic_actions:
+- push
+- remove
+- place
+- pick
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- clearpath_h1
+end_effector_type: two_finger_gripper

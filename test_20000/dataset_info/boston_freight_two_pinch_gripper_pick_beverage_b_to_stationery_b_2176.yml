@@ -1,0 +1,29 @@
+dataset_name: pick_beverage_b_to_stationery_b_2176
+dataset_uuid: ee81f9a3-0944-41fc-b1b8-8934b68961e5
+task_descriptions:
+- pick_the_beverage_b_and_place_in_the_stationery_b
+scene_type:
+- home
+- factory
+- restaurant
+atomic_actions:
+- place
+- pick
+- remove
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.4
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

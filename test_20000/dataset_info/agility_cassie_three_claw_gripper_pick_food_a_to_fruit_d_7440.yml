@@ -1,0 +1,27 @@
+dataset_name: pick_food_a_to_fruit_d_7440
+dataset_uuid: 80cb27b0-8775-4fb5-8e11-21a93d20e17e
+task_descriptions:
+- pick_the_food_a_and_place_in_the_fruit_d
+scene_type:
+- office
+atomic_actions:
+- pull
+- remove
+- insert
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

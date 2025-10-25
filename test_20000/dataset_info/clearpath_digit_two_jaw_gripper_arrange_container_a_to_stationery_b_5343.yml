@@ -1,0 +1,27 @@
+dataset_name: arrange_container_a_to_stationery_b_5343
+dataset_uuid: d71d8af2-fd60-4771-9928-29b812ecf8a7
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_stationery_b
+scene_type:
+- warehouse
+atomic_actions:
+- lift
+- rotate
+- flip
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.8
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

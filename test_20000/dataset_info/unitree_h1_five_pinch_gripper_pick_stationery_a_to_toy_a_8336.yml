@@ -1,0 +1,30 @@
+dataset_name: pick_stationery_a_to_toy_a_8336
+dataset_uuid: 7b367c15-0956-43c3-bb8e-8cbd9e350ebd
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_toy_a
+scene_type:
+- home
+- office
+- factory
+atomic_actions:
+- push
+- pick
+- slide
+- place
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.6
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

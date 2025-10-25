@@ -1,0 +1,27 @@
+dataset_name: stack_fruit_d_to_beverage_e_7916
+dataset_uuid: 14b1b164-fb6e-463f-b3cc-ec5fcc0428f4
+task_descriptions:
+- stack_the_fruit_d_and_place_in_the_beverage_e
+scene_type:
+- laboratory
+- office
+atomic_actions:
+- rotate
+- slide
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

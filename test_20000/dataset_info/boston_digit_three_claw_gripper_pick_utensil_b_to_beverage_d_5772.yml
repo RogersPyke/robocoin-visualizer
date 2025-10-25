@@ -1,0 +1,29 @@
+dataset_name: pick_utensil_b_to_beverage_d_5772
+dataset_uuid: 1fdb63e3-2b02-43a6-95fa-7b57b8ec34ca
+task_descriptions:
+- pick_the_utensil_b_and_place_in_the_beverage_d
+scene_type:
+- hospital
+- factory
+- home
+atomic_actions:
+- push
+- flip
+- lower
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.4
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_kitchenware_a_to_furniture_c_7303
+dataset_uuid: 221596c2-a0b6-42b3-83f5-32d40e8e7a63
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_furniture_c
+scene_type:
+- kitchen
+- restaurant
+atomic_actions:
+- insert
+- push
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.6
+device_model:
+- unitree_h1
+end_effector_type: two_finger_gripper

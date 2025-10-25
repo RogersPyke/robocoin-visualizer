@@ -1,0 +1,29 @@
+dataset_name: pick_beverage_c_to_stationery_b_1728
+dataset_uuid: 07adab38-a6ac-4451-95f7-f012004b55d8
+task_descriptions:
+- pick_the_beverage_c_and_place_in_the_stationery_b
+scene_type:
+- hospital
+- home
+atomic_actions:
+- remove
+- lower
+- pick
+- flip
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- agility_h1
+end_effector_type: three_claw_gripper

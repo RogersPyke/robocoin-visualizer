@@ -1,0 +1,26 @@
+dataset_name: place_beverage_a_to_fruit_b_7180
+dataset_uuid: 5a8dec62-3c7f-4bbd-a2ae-db7c62ee0df8
+task_descriptions:
+- place_the_beverage_a_and_place_in_the_fruit_b
+scene_type:
+- warehouse
+atomic_actions:
+- remove
+- pick
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- unitree_h1
+end_effector_type: five_claw_gripper

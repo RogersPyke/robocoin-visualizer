@@ -1,0 +1,29 @@
+dataset_name: place_stationery_a_to_beverage_a_4630
+dataset_uuid: e859560c-ecd6-4e79-ac84-8243a3f8f47e
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_beverage_a
+scene_type:
+- factory
+- hospital
+- office
+atomic_actions:
+- push
+- lift
+- insert
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.4
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

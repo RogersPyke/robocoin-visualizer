@@ -1,0 +1,28 @@
+dataset_name: stack_fruit_c_to_stationery_d_4512
+dataset_uuid: 6a6bd734-f8d0-44ee-bc46-378b9f881010
+task_descriptions:
+- stack_the_fruit_c_and_place_in_the_stationery_d
+scene_type:
+- store
+- cafe
+atomic_actions:
+- pull
+- remove
+- lift
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_d
+  level1: stationery
+  level2: stationery_d
+  level3: stationery_d_sub1
+  level4: stationery_d_sub2
+  level5: null
+operation_platform_height: 83.4
+device_model:
+- boston_h1
+end_effector_type: suction_cup

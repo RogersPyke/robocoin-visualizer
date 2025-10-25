@@ -1,0 +1,29 @@
+dataset_name: arrange_textile_a_to_kitchenware_a_1870
+dataset_uuid: 32f5778e-b85b-45c2-b2be-09559c042ab8
+task_descriptions:
+- arrange_the_textile_a_and_place_in_the_kitchenware_a
+scene_type:
+- kitchen
+- restaurant
+atomic_actions:
+- pick
+- rotate
+- place
+- grasp
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.1
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

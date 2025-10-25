@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_b_to_toy_b_1948
+dataset_uuid: 953dfc99-97bb-4c5b-bb50-111c3994f3ef
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_toy_b
+scene_type:
+- hospital
+- laboratory
+atomic_actions:
+- place
+- flip
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- pal_tiago
+end_effector_type: suction_cup

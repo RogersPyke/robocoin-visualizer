@@ -1,0 +1,29 @@
+dataset_name: stack_furniture_c_to_electronics_d_3929
+dataset_uuid: 2d048e68-3277-4429-96dc-88be4858e32e
+task_descriptions:
+- stack_the_furniture_c_and_place_in_the_electronics_d
+scene_type:
+- cafe
+- hospital
+- restaurant
+atomic_actions:
+- push
+- grasp
+- flip
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+- object_name: electronics_d
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- boston_tiago
+end_effector_type: three_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_container_b_to_utensil_d_1444
+dataset_uuid: 42f600b3-daf1-4355-94ba-8dd32d9c2279
+task_descriptions:
+- move_the_container_b_and_place_in_the_utensil_d
+scene_type:
+- factory
+- restaurant
+atomic_actions:
+- place
+- lift
+- flip
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.5
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_tool_c_to_tool_b_2208
+dataset_uuid: 250f1a72-6a69-482b-b1e4-3f3d50e4a338
+task_descriptions:
+- place_the_tool_c_and_place_in_the_tool_b
+scene_type:
+- hospital
+- warehouse
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

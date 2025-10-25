@@ -1,0 +1,27 @@
+dataset_name: pick_utensil_a_to_electronics_b_2906
+dataset_uuid: 1049e4b5-9d7f-4479-93ea-ce28cc540348
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_electronics_b
+scene_type:
+- home
+- cafe
+atomic_actions:
+- rotate
+- place
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.1
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_furniture_c_to_furniture_a_9193
+dataset_uuid: 82b5258f-e727-4aa5-b35f-79cc5411c150
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_furniture_a
+scene_type:
+- laboratory
+atomic_actions:
+- lower
+- rotate
+- flip
+- lift
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- clearpath_digit
+end_effector_type: suction_cup

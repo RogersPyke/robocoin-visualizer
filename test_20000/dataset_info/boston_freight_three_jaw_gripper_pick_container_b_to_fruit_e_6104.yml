@@ -1,0 +1,28 @@
+dataset_name: pick_container_b_to_fruit_e_6104
+dataset_uuid: 383dc977-a67e-4335-9b86-212e513493cd
+task_descriptions:
+- pick_the_container_b_and_place_in_the_fruit_e
+scene_type:
+- restaurant
+- cafe
+- office
+atomic_actions:
+- pick
+- flip
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

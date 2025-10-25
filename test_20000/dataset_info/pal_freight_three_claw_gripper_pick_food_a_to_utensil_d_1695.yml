@@ -1,0 +1,26 @@
+dataset_name: pick_food_a_to_utensil_d_1695
+dataset_uuid: ad8260e7-1b18-432c-ba3b-48dd035c7fc3
+task_descriptions:
+- pick_the_food_a_and_place_in_the_utensil_d
+scene_type:
+- office
+atomic_actions:
+- push
+- lower
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_b_to_kitchenware_b_6185
+dataset_uuid: 3d7340a1-ad47-4d86-83d7-ee37402d7e95
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_kitchenware_b
+scene_type:
+- factory
+- restaurant
+- warehouse
+atomic_actions:
+- slide
+- place
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

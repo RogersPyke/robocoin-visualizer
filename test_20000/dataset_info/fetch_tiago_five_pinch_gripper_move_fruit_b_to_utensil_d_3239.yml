@@ -1,0 +1,27 @@
+dataset_name: move_fruit_b_to_utensil_d_3239
+dataset_uuid: 1f030dac-f93c-4917-8071-ddb223df9dab
+task_descriptions:
+- move_the_fruit_b_and_place_in_the_utensil_d
+scene_type:
+- home
+- kitchen
+atomic_actions:
+- place
+- remove
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.1
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

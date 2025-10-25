@@ -1,0 +1,28 @@
+dataset_name: move_food_a_to_fruit_c_6352
+dataset_uuid: fcb14934-7547-49d4-9d1f-fd61f7c19b4e
+task_descriptions:
+- move_the_food_a_and_place_in_the_fruit_c
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- flip
+- insert
+- push
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.1
+device_model:
+- boston_pepper
+end_effector_type: three_pinch_gripper

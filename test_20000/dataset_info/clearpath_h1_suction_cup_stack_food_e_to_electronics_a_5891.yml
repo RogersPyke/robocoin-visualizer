@@ -1,0 +1,29 @@
+dataset_name: stack_food_e_to_electronics_a_5891
+dataset_uuid: e65546fc-2ffd-484a-be20-4964de5bb6dd
+task_descriptions:
+- stack_the_food_e_and_place_in_the_electronics_a
+scene_type:
+- kitchen
+- laboratory
+atomic_actions:
+- lift
+- rotate
+- pick
+- slide
+objects:
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- clearpath_h1
+end_effector_type: suction_cup

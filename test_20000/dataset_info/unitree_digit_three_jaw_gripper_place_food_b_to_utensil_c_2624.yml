@@ -1,0 +1,29 @@
+dataset_name: place_food_b_to_utensil_c_2624
+dataset_uuid: a3cc00f8-2a55-440b-9ad8-17d228c40142
+task_descriptions:
+- place_the_food_b_and_place_in_the_utensil_c
+scene_type:
+- store
+- kitchen
+- restaurant
+atomic_actions:
+- lower
+- place
+- push
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

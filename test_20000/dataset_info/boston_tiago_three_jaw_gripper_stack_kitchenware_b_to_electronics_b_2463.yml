@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_b_to_electronics_b_2463
+dataset_uuid: fa2fcbdf-0018-458e-b0d3-eec1eb0c8d52
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_electronics_b
+scene_type:
+- store
+- warehouse
+- restaurant
+atomic_actions:
+- pull
+- remove
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.9
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

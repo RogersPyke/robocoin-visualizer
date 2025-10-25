@@ -1,0 +1,28 @@
+dataset_name: move_container_b_to_electronics_a_9978
+dataset_uuid: 074ce3d8-74fe-4496-b4c2-ac3064712454
+task_descriptions:
+- move_the_container_b_and_place_in_the_electronics_a
+scene_type:
+- laboratory
+atomic_actions:
+- lower
+- rotate
+- flip
+- insert
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_fruit_a_to_toy_d_8903
+dataset_uuid: f21266d9-7cff-4434-8353-df50d452ca6a
+task_descriptions:
+- arrange_the_fruit_a_and_place_in_the_toy_d
+scene_type:
+- hospital
+- kitchen
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+operation_platform_height: 75.6
+device_model:
+- pal_freight
+end_effector_type: suction_cup

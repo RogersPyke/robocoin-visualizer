@@ -1,0 +1,28 @@
+dataset_name: move_furniture_a_to_fruit_a_2810
+dataset_uuid: 6de9e7b6-edf7-44c2-ae65-9c053e8c9a84
+task_descriptions:
+- move_the_furniture_a_and_place_in_the_fruit_a
+scene_type:
+- home
+atomic_actions:
+- flip
+- push
+- lift
+- insert
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.4
+device_model:
+- unitree_g1
+end_effector_type: two_claw_gripper

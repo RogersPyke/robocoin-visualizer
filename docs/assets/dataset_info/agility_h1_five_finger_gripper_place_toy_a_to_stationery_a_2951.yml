@@ -1,0 +1,29 @@
+dataset_name: place_toy_a_to_stationery_a_2951
+dataset_uuid: 66bc62d5-c1c7-4e40-b0d7-ac71245fbd53
+task_descriptions:
+- place_the_toy_a_and_place_in_the_stationery_a
+scene_type:
+- home
+- hospital
+- store
+atomic_actions:
+- place
+- grasp
+- pull
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- agility_h1
+end_effector_type: five_finger_gripper

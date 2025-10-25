@@ -1,0 +1,29 @@
+dataset_name: arrange_container_a_to_container_a_3178
+dataset_uuid: 1885b6ff-eb3c-416c-b13f-6111debe1c83
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_container_a
+scene_type:
+- office
+- restaurant
+atomic_actions:
+- pick
+- pull
+- insert
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.0
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

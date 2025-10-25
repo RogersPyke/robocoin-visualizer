@@ -1,0 +1,27 @@
+dataset_name: place_tool_c_to_kitchenware_b_4395
+dataset_uuid: bad889ef-b8ac-4e78-b053-2599f242b339
+task_descriptions:
+- place_the_tool_c_and_place_in_the_kitchenware_b
+scene_type:
+- hospital
+atomic_actions:
+- pull
+- pick
+- slide
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.3
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

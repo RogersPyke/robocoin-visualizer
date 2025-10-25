@@ -1,0 +1,28 @@
+dataset_name: pick_container_c_to_container_b_2902
+dataset_uuid: d88dd7d9-04c1-463a-af5e-dc5a30c6bef0
+task_descriptions:
+- pick_the_container_c_and_place_in_the_container_b
+scene_type:
+- hospital
+atomic_actions:
+- pull
+- insert
+- lower
+- pick
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.9
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

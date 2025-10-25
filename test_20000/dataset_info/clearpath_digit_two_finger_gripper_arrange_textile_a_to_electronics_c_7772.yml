@@ -1,0 +1,26 @@
+dataset_name: arrange_textile_a_to_electronics_c_7772
+dataset_uuid: b3e1be37-40e5-4406-a9d9-c543a511bd75
+task_descriptions:
+- arrange_the_textile_a_and_place_in_the_electronics_c
+scene_type:
+- laboratory
+atomic_actions:
+- pick
+- flip
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

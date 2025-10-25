@@ -1,0 +1,30 @@
+dataset_name: move_tool_a_to_textile_d_1241
+dataset_uuid: e27a7cab-4b7f-4733-a9de-1c19fe0941a2
+task_descriptions:
+- move_the_tool_a_and_place_in_the_textile_d
+scene_type:
+- home
+- restaurant
+- factory
+atomic_actions:
+- lower
+- flip
+- remove
+- insert
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

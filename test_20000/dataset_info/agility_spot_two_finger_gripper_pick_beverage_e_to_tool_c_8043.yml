@@ -1,0 +1,28 @@
+dataset_name: pick_beverage_e_to_tool_c_8043
+dataset_uuid: 12b92c48-583b-4a81-96e3-6a7257e99c2e
+task_descriptions:
+- pick_the_beverage_e_and_place_in_the_tool_c
+scene_type:
+- cafe
+atomic_actions:
+- lift
+- push
+- insert
+- grasp
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- agility_spot
+end_effector_type: two_finger_gripper

@@ -1,0 +1,30 @@
+dataset_name: place_kitchenware_b_to_food_a_2019
+dataset_uuid: ab74622d-6d77-4355-8b01-9a1c3dfb6cbd
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_food_a
+scene_type:
+- home
+- factory
+- hospital
+atomic_actions:
+- place
+- lift
+- pull
+- grasp
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,26 @@
+dataset_name: pick_container_b_to_textile_d_7857
+dataset_uuid: c2e3cb4e-d64d-4d5b-815a-c0aa3c63f251
+task_descriptions:
+- pick_the_container_b_and_place_in_the_textile_d
+scene_type:
+- office
+atomic_actions:
+- push
+- flip
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.3
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

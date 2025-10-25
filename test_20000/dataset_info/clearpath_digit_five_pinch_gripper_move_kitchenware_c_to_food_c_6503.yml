@@ -1,0 +1,28 @@
+dataset_name: move_kitchenware_c_to_food_c_6503
+dataset_uuid: cbf6b9d4-3800-46e3-be8d-34e498bef0ab
+task_descriptions:
+- move_the_kitchenware_c_and_place_in_the_food_c
+scene_type:
+- store
+- warehouse
+- hospital
+atomic_actions:
+- push
+- pull
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.5
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_toy_d_to_beverage_d_6374
+dataset_uuid: 33501ac9-8d55-4fc7-a415-47fdf5107917
+task_descriptions:
+- pick_the_toy_d_and_place_in_the_beverage_d
+scene_type:
+- kitchen
+- cafe
+atomic_actions:
+- flip
+- place
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.9
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: move_beverage_d_to_utensil_b_7072
+dataset_uuid: c3b4053e-fe87-4d53-879a-e29cd34c5aeb
+task_descriptions:
+- move_the_beverage_d_and_place_in_the_utensil_b
+scene_type:
+- kitchen
+- office
+atomic_actions:
+- lift
+- lower
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

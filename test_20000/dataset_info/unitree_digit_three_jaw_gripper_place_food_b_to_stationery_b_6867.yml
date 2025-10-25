@@ -1,0 +1,26 @@
+dataset_name: place_food_b_to_stationery_b_6867
+dataset_uuid: 7fad7819-e68a-4020-a523-2b6558ed08be
+task_descriptions:
+- place_the_food_b_and_place_in_the_stationery_b
+scene_type:
+- home
+atomic_actions:
+- pick
+- place
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

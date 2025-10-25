@@ -1,0 +1,29 @@
+dataset_name: move_fruit_c_to_kitchenware_d_1942
+dataset_uuid: 5223de1d-ef86-44f7-8d07-c23fa214bf6e
+task_descriptions:
+- move_the_fruit_c_and_place_in_the_kitchenware_d
+scene_type:
+- kitchen
+- cafe
+atomic_actions:
+- lift
+- flip
+- pick
+- rotate
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_d
+  level1: kitchenware
+  level2: kitchenware_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.7
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

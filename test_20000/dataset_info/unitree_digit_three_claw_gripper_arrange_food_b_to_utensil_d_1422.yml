@@ -1,0 +1,26 @@
+dataset_name: arrange_food_b_to_utensil_d_1422
+dataset_uuid: 1c3ad650-c27e-424f-a69b-5a9b1cbb9089
+task_descriptions:
+- arrange_the_food_b_and_place_in_the_utensil_d
+scene_type:
+- factory
+atomic_actions:
+- lift
+- pick
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

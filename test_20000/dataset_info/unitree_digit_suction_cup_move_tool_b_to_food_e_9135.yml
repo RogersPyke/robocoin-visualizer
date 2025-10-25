@@ -1,0 +1,28 @@
+dataset_name: move_tool_b_to_food_e_9135
+dataset_uuid: 8daa6713-0ed6-40b3-818c-877a36164332
+task_descriptions:
+- move_the_tool_b_and_place_in_the_food_e
+scene_type:
+- store
+atomic_actions:
+- flip
+- lift
+- insert
+- rotate
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.6
+device_model:
+- unitree_digit
+end_effector_type: suction_cup

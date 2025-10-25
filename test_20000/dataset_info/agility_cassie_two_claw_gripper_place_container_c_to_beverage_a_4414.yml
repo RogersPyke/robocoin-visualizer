@@ -1,0 +1,28 @@
+dataset_name: place_container_c_to_beverage_a_4414
+dataset_uuid: 34a25110-16f7-4818-903e-7435300906d8
+task_descriptions:
+- place_the_container_c_and_place_in_the_beverage_a
+scene_type:
+- office
+atomic_actions:
+- grasp
+- remove
+- slide
+- push
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- agility_cassie
+end_effector_type: two_claw_gripper

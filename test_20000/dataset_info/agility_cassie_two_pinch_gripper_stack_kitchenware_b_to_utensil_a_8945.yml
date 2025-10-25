@@ -1,0 +1,27 @@
+dataset_name: stack_kitchenware_b_to_utensil_a_8945
+dataset_uuid: c6bc97c6-20c4-491c-a142-712145854b0e
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_utensil_a
+scene_type:
+- kitchen
+- cafe
+atomic_actions:
+- pull
+- slide
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

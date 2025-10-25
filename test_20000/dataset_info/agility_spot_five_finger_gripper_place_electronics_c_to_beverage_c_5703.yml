@@ -1,0 +1,29 @@
+dataset_name: place_electronics_c_to_beverage_c_5703
+dataset_uuid: 57211bf3-c6cc-4f3b-b183-f1d6874882e4
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_beverage_c
+scene_type:
+- office
+- hospital
+atomic_actions:
+- pick
+- place
+- insert
+- pull
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.4
+device_model:
+- agility_spot
+end_effector_type: five_finger_gripper

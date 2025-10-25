@@ -1,0 +1,27 @@
+dataset_name: pick_stationery_b_to_tool_b_5649
+dataset_uuid: efe48d28-f099-4ac0-a791-879560e87528
+task_descriptions:
+- pick_the_stationery_b_and_place_in_the_tool_b
+scene_type:
+- restaurant
+- kitchen
+atomic_actions:
+- place
+- lower
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.4
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

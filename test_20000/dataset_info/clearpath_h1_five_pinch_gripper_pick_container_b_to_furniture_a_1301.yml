@@ -1,0 +1,27 @@
+dataset_name: pick_container_b_to_furniture_a_1301
+dataset_uuid: de9cfa8a-33d5-488d-aea6-137e18f9e44b
+task_descriptions:
+- pick_the_container_b_and_place_in_the_furniture_a
+scene_type:
+- kitchen
+- restaurant
+atomic_actions:
+- lift
+- slide
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

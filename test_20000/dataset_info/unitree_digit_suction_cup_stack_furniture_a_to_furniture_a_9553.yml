@@ -1,0 +1,26 @@
+dataset_name: stack_furniture_a_to_furniture_a_9553
+dataset_uuid: 913a94b0-a695-44f5-b0e7-f66eb775ef0a
+task_descriptions:
+- stack_the_furniture_a_and_place_in_the_furniture_a
+scene_type:
+- warehouse
+atomic_actions:
+- grasp
+- rotate
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+operation_platform_height: 83.8
+device_model:
+- unitree_digit
+end_effector_type: suction_cup

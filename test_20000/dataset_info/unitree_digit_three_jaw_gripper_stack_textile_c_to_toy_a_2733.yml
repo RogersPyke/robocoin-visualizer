@@ -1,0 +1,28 @@
+dataset_name: stack_textile_c_to_toy_a_2733
+dataset_uuid: 62dff6f4-e785-4940-9573-a1dde4501c93
+task_descriptions:
+- stack_the_textile_c_and_place_in_the_toy_a
+scene_type:
+- hospital
+- cafe
+- store
+atomic_actions:
+- push
+- lower
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

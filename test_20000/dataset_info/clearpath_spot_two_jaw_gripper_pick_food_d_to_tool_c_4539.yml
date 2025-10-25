@@ -1,0 +1,29 @@
+dataset_name: pick_food_d_to_tool_c_4539
+dataset_uuid: 9a505b96-e421-4c96-82e1-add6187e4650
+task_descriptions:
+- pick_the_food_d_and_place_in_the_tool_c
+scene_type:
+- laboratory
+- cafe
+- hospital
+atomic_actions:
+- push
+- grasp
+- place
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

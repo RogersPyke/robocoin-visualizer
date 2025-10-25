@@ -1,0 +1,28 @@
+dataset_name: pick_tool_b_to_electronics_b_5392
+dataset_uuid: 3212e721-203a-4f89-a6c5-a99a37be27a1
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_electronics_b
+scene_type:
+- kitchen
+- home
+atomic_actions:
+- pull
+- flip
+- remove
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

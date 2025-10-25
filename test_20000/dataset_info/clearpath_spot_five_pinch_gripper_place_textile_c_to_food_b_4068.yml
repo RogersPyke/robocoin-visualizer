@@ -1,0 +1,30 @@
+dataset_name: place_textile_c_to_food_b_4068
+dataset_uuid: 416ced27-2c22-4ef9-9c35-95bd522aae9f
+task_descriptions:
+- place_the_textile_c_and_place_in_the_food_b
+scene_type:
+- home
+- hospital
+- office
+atomic_actions:
+- rotate
+- grasp
+- flip
+- place
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

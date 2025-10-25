@@ -1,0 +1,28 @@
+dataset_name: place_container_b_to_food_b_7718
+dataset_uuid: 8201dc13-209c-43c2-b0e9-38636d6fabc6
+task_descriptions:
+- place_the_container_b_and_place_in_the_food_b
+scene_type:
+- laboratory
+- restaurant
+atomic_actions:
+- lower
+- lift
+- flip
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

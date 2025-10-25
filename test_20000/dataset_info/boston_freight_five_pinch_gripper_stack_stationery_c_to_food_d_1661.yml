@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_c_to_food_d_1661
+dataset_uuid: 182d8ab7-57bd-4840-b3d6-d68309a3d166
+task_descriptions:
+- stack_the_stationery_c_and_place_in_the_food_d
+scene_type:
+- factory
+- laboratory
+- cafe
+atomic_actions:
+- flip
+- lower
+- pick
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

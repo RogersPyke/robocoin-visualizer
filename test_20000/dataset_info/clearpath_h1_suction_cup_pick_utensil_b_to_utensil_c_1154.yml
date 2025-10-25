@@ -1,0 +1,30 @@
+dataset_name: pick_utensil_b_to_utensil_c_1154
+dataset_uuid: 4fd012d6-83a9-4f16-bec3-11cfd054c402
+task_descriptions:
+- pick_the_utensil_b_and_place_in_the_utensil_c
+scene_type:
+- factory
+- hospital
+- restaurant
+atomic_actions:
+- slide
+- pick
+- place
+- rotate
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.0
+device_model:
+- clearpath_h1
+end_effector_type: suction_cup

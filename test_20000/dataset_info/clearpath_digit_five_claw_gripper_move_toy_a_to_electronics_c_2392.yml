@@ -1,0 +1,28 @@
+dataset_name: move_toy_a_to_electronics_c_2392
+dataset_uuid: d77073cd-a97e-4d13-9cec-5e4cbe138d78
+task_descriptions:
+- move_the_toy_a_and_place_in_the_electronics_c
+scene_type:
+- warehouse
+atomic_actions:
+- pick
+- lift
+- rotate
+- grasp
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

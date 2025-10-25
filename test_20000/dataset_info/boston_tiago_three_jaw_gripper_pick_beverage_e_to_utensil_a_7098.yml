@@ -1,0 +1,29 @@
+dataset_name: pick_beverage_e_to_utensil_a_7098
+dataset_uuid: 32058a2c-c6e1-44f6-b04b-77e4b56f4a12
+task_descriptions:
+- pick_the_beverage_e_and_place_in_the_utensil_a
+scene_type:
+- restaurant
+- hospital
+atomic_actions:
+- lift
+- push
+- grasp
+- insert
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.6
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

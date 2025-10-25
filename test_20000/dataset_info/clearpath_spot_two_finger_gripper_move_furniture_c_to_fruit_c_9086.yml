@@ -1,0 +1,28 @@
+dataset_name: move_furniture_c_to_fruit_c_9086
+dataset_uuid: 0d10279a-609e-48b4-8e92-0dd5771e3e92
+task_descriptions:
+- move_the_furniture_c_and_place_in_the_fruit_c
+scene_type:
+- laboratory
+atomic_actions:
+- pull
+- rotate
+- insert
+- remove
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.4
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

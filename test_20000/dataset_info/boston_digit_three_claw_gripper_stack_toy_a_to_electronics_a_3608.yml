@@ -1,0 +1,29 @@
+dataset_name: stack_toy_a_to_electronics_a_3608
+dataset_uuid: 3271b71f-2146-489d-a106-9e306669c5f4
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_electronics_a
+scene_type:
+- kitchen
+- office
+- laboratory
+atomic_actions:
+- place
+- insert
+- pick
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

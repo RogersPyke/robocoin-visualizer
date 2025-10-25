@@ -1,0 +1,27 @@
+dataset_name: pick_utensil_a_to_electronics_b_3542
+dataset_uuid: ca94b1d2-2524-4a87-bcb3-d0323ba907b3
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_electronics_b
+scene_type:
+- cafe
+atomic_actions:
+- lift
+- pull
+- push
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.1
+device_model:
+- unitree_cassie
+end_effector_type: five_pinch_gripper

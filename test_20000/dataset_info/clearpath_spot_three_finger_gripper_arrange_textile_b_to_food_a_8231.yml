@@ -1,0 +1,30 @@
+dataset_name: arrange_textile_b_to_food_a_8231
+dataset_uuid: c9e36de3-cb65-4705-8380-57c0a3a2a57a
+task_descriptions:
+- arrange_the_textile_b_and_place_in_the_food_a
+scene_type:
+- store
+- cafe
+- office
+atomic_actions:
+- grasp
+- remove
+- flip
+- place
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

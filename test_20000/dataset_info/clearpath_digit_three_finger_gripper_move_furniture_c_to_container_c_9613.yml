@@ -1,0 +1,28 @@
+dataset_name: move_furniture_c_to_container_c_9613
+dataset_uuid: 4de7a1e7-0a34-4ea0-8e69-554f1a494360
+task_descriptions:
+- move_the_furniture_c_and_place_in_the_container_c
+scene_type:
+- warehouse
+- laboratory
+- factory
+atomic_actions:
+- lower
+- pick
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

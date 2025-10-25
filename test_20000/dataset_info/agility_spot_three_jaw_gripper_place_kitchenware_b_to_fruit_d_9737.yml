@@ -1,0 +1,27 @@
+dataset_name: place_kitchenware_b_to_fruit_d_9737
+dataset_uuid: 39f6cdcb-7f9b-4ebb-825f-d2c33a418097
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_fruit_d
+scene_type:
+- office
+- home
+atomic_actions:
+- grasp
+- pick
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

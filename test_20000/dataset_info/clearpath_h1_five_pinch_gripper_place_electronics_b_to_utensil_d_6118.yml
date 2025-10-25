@@ -1,0 +1,27 @@
+dataset_name: place_electronics_b_to_utensil_d_6118
+dataset_uuid: e14713a1-6c5a-4b33-84ed-3c3a8b5acdb3
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_utensil_d
+scene_type:
+- restaurant
+- laboratory
+atomic_actions:
+- slide
+- lift
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

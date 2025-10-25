@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_d_to_tool_c_2750
+dataset_uuid: 5f47ff78-3ac1-4d33-9a33-3ab8372324de
+task_descriptions:
+- stack_the_electronics_d_and_place_in_the_tool_c
+scene_type:
+- office
+atomic_actions:
+- remove
+- place
+- pull
+- slide
+objects:
+- object_name: electronics_d
+  level1: electronics
+  level2: electronics_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- agility_tiago
+end_effector_type: five_pinch_gripper

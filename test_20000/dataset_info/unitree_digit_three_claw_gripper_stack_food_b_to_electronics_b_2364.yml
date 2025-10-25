@@ -1,0 +1,28 @@
+dataset_name: stack_food_b_to_electronics_b_2364
+dataset_uuid: 513048bf-505c-4668-9f9b-a47583a92dd8
+task_descriptions:
+- stack_the_food_b_and_place_in_the_electronics_b
+scene_type:
+- restaurant
+- laboratory
+- store
+atomic_actions:
+- place
+- lift
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

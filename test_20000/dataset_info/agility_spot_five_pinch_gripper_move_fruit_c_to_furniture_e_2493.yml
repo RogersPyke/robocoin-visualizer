@@ -1,0 +1,28 @@
+dataset_name: move_fruit_c_to_furniture_e_2493
+dataset_uuid: 4a03fda3-2d4f-4107-9ac6-a6b6e8a3146a
+task_descriptions:
+- move_the_fruit_c_and_place_in_the_furniture_e
+scene_type:
+- store
+- office
+- laboratory
+atomic_actions:
+- rotate
+- flip
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

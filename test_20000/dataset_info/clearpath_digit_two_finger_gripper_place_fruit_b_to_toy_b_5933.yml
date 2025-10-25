@@ -1,0 +1,27 @@
+dataset_name: place_fruit_b_to_toy_b_5933
+dataset_uuid: 25e9b220-6963-4e3a-a8f8-f1c5e7f426b5
+task_descriptions:
+- place_the_fruit_b_and_place_in_the_toy_b
+scene_type:
+- kitchen
+atomic_actions:
+- remove
+- push
+- slide
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

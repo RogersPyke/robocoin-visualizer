@@ -1,0 +1,30 @@
+dataset_name: stack_furniture_c_to_container_a_1544
+dataset_uuid: 659885ab-6155-4b98-9faf-211297088fe6
+task_descriptions:
+- stack_the_furniture_c_and_place_in_the_container_a
+scene_type:
+- laboratory
+- cafe
+- warehouse
+atomic_actions:
+- place
+- rotate
+- flip
+- lower
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

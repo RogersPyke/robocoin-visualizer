@@ -1,0 +1,30 @@
+dataset_name: pick_tool_d_to_utensil_b_2098
+dataset_uuid: fe166b65-7cec-4b98-a686-55a51f22c625
+task_descriptions:
+- pick_the_tool_d_and_place_in_the_utensil_b
+scene_type:
+- cafe
+- restaurant
+- kitchen
+atomic_actions:
+- grasp
+- place
+- slide
+- pull
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

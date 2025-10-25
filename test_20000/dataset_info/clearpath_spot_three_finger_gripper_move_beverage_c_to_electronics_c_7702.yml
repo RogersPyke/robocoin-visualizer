@@ -1,0 +1,29 @@
+dataset_name: move_beverage_c_to_electronics_c_7702
+dataset_uuid: afd529f0-79fa-4d38-a3b7-26d09b248387
+task_descriptions:
+- move_the_beverage_c_and_place_in_the_electronics_c
+scene_type:
+- warehouse
+- cafe
+atomic_actions:
+- flip
+- grasp
+- place
+- lift
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

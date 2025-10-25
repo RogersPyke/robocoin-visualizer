@@ -1,0 +1,27 @@
+dataset_name: pick_furniture_a_to_container_d_8519
+dataset_uuid: 57fc7d3d-e464-4c21-b2b5-ffaa78f1b73f
+task_descriptions:
+- pick_the_furniture_a_and_place_in_the_container_d
+scene_type:
+- kitchen
+atomic_actions:
+- lower
+- pull
+- push
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: container_d
+  level1: container
+  level2: container_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- boston_pepper
+end_effector_type: five_claw_gripper

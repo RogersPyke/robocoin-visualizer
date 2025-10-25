@@ -1,0 +1,29 @@
+dataset_name: place_utensil_b_to_textile_b_5367
+dataset_uuid: a35aefd9-f8b3-4ae8-9e42-a5e988f91463
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_textile_b
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- push
+- pull
+- lower
+- pick
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

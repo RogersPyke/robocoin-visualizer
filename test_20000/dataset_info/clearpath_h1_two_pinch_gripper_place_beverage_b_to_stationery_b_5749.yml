@@ -1,0 +1,28 @@
+dataset_name: place_beverage_b_to_stationery_b_5749
+dataset_uuid: f56ef065-7f7c-43e4-bc66-885f3729c35b
+task_descriptions:
+- place_the_beverage_b_and_place_in_the_stationery_b
+scene_type:
+- office
+atomic_actions:
+- slide
+- remove
+- flip
+- pull
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

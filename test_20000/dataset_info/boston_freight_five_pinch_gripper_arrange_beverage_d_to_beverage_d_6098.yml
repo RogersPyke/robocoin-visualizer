@@ -1,0 +1,29 @@
+dataset_name: arrange_beverage_d_to_beverage_d_6098
+dataset_uuid: 1c2a5afc-f5b0-42b6-87eb-ad1fb51f7c1e
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_beverage_d
+scene_type:
+- hospital
+- home
+atomic_actions:
+- slide
+- pull
+- grasp
+- push
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.5
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

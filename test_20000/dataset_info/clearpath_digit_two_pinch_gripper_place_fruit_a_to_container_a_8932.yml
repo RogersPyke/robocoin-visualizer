@@ -1,0 +1,29 @@
+dataset_name: place_fruit_a_to_container_a_8932
+dataset_uuid: 9e5b10fb-43bc-4d9f-95cd-f038f2341db0
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_container_a
+scene_type:
+- kitchen
+- restaurant
+- store
+atomic_actions:
+- slide
+- place
+- remove
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

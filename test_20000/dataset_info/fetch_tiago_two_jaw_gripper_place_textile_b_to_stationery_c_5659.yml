@@ -1,0 +1,28 @@
+dataset_name: place_textile_b_to_stationery_c_5659
+dataset_uuid: 3c3c6086-804c-4c47-bd47-7a2d9b922d3c
+task_descriptions:
+- place_the_textile_b_and_place_in_the_stationery_c
+scene_type:
+- store
+- office
+atomic_actions:
+- insert
+- push
+- lift
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+operation_platform_height: 71.0
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

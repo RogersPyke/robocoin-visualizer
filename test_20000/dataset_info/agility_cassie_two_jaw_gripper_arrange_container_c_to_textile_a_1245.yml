@@ -1,0 +1,27 @@
+dataset_name: arrange_container_c_to_textile_a_1245
+dataset_uuid: 64b7f345-b6fb-4cb8-a212-2d28327fe69c
+task_descriptions:
+- arrange_the_container_c_and_place_in_the_textile_a
+scene_type:
+- office
+- laboratory
+atomic_actions:
+- flip
+- grasp
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.9
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

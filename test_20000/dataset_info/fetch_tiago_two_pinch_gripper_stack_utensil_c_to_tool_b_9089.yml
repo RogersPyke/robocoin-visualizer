@@ -1,0 +1,27 @@
+dataset_name: stack_utensil_c_to_tool_b_9089
+dataset_uuid: 62c5bfa7-1288-49e0-8fda-3d3cecb1d48f
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_tool_b
+scene_type:
+- store
+atomic_actions:
+- insert
+- flip
+- lower
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.7
+device_model:
+- fetch_tiago
+end_effector_type: two_pinch_gripper

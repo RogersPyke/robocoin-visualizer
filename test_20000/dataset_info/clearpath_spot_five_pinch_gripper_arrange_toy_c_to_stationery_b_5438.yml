@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_c_to_stationery_b_5438
+dataset_uuid: c1e9f5cf-81a9-4980-a7bd-56b5d69e6b6f
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_stationery_b
+scene_type:
+- cafe
+- laboratory
+- factory
+atomic_actions:
+- pick
+- grasp
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.5
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_beverage_d_to_electronics_a_2078
+dataset_uuid: 0101b5cc-dd83-4eed-a343-1f10a69dc2c2
+task_descriptions:
+- place_the_beverage_d_and_place_in_the_electronics_a
+scene_type:
+- store
+- cafe
+- office
+atomic_actions:
+- lift
+- rotate
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 82.4
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

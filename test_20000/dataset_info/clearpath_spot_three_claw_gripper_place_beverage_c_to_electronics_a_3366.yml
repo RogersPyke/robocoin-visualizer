@@ -1,0 +1,26 @@
+dataset_name: place_beverage_c_to_electronics_a_3366
+dataset_uuid: 74f22045-703e-4cc8-b5ea-70c3641a335c
+task_descriptions:
+- place_the_beverage_c_and_place_in_the_electronics_a
+scene_type:
+- store
+atomic_actions:
+- flip
+- push
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.8
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

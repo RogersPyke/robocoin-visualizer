@@ -1,0 +1,30 @@
+dataset_name: arrange_textile_b_to_food_d_8981
+dataset_uuid: 0371d974-0a91-4d85-a7bb-01fb9034f84d
+task_descriptions:
+- arrange_the_textile_b_and_place_in_the_food_d
+scene_type:
+- home
+- laboratory
+- restaurant
+atomic_actions:
+- slide
+- remove
+- push
+- pick
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- clearpath_spot
+end_effector_type: two_claw_gripper

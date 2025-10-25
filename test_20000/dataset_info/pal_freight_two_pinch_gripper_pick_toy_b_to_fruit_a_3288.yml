@@ -1,0 +1,29 @@
+dataset_name: pick_toy_b_to_fruit_a_3288
+dataset_uuid: a7bd9718-cb2f-4318-87cc-33a24f1eade7
+task_descriptions:
+- pick_the_toy_b_and_place_in_the_fruit_a
+scene_type:
+- cafe
+- office
+- warehouse
+atomic_actions:
+- push
+- grasp
+- slide
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

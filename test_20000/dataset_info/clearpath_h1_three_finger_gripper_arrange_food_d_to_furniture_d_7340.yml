@@ -1,0 +1,27 @@
+dataset_name: arrange_food_d_to_furniture_d_7340
+dataset_uuid: 29c5cd14-117a-4202-818f-543107a55f9b
+task_descriptions:
+- arrange_the_food_d_and_place_in_the_furniture_d
+scene_type:
+- store
+atomic_actions:
+- lower
+- rotate
+- lift
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.1
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

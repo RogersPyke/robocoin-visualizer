@@ -1,0 +1,29 @@
+dataset_name: stack_container_a_to_stationery_a_5578
+dataset_uuid: 680b566d-27af-45a4-8414-eee524dbbbe1
+task_descriptions:
+- stack_the_container_a_and_place_in_the_stationery_a
+scene_type:
+- hospital
+- warehouse
+- laboratory
+atomic_actions:
+- lift
+- slide
+- flip
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

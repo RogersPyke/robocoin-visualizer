@@ -1,0 +1,27 @@
+dataset_name: stack_fruit_e_to_container_a_9607
+dataset_uuid: 30ec85b5-52b8-4164-b0f8-779ec37f4edf
+task_descriptions:
+- stack_the_fruit_e_and_place_in_the_container_a
+scene_type:
+- laboratory
+atomic_actions:
+- rotate
+- push
+- lift
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

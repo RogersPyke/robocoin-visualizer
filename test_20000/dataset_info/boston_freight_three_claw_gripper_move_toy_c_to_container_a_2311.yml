@@ -1,0 +1,28 @@
+dataset_name: move_toy_c_to_container_a_2311
+dataset_uuid: c23163ba-259d-47a1-b28c-0a39dbad4442
+task_descriptions:
+- move_the_toy_c_and_place_in_the_container_a
+scene_type:
+- hospital
+atomic_actions:
+- slide
+- rotate
+- lift
+- flip
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.7
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

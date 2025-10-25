@@ -1,0 +1,29 @@
+dataset_name: arrange_furniture_b_to_stationery_c_6858
+dataset_uuid: 3d775bdc-b8c4-4953-87e5-39065fef8f07
+task_descriptions:
+- arrange_the_furniture_b_and_place_in_the_stationery_c
+scene_type:
+- home
+- laboratory
+atomic_actions:
+- pull
+- rotate
+- remove
+- pick
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: arrange_electronics_b_to_electronics_a_2803
+dataset_uuid: b5f59fb7-5401-483b-81eb-a910abe94548
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_electronics_a
+scene_type:
+- laboratory
+- restaurant
+- factory
+atomic_actions:
+- flip
+- slide
+- insert
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- boston_digit
+end_effector_type: suction_cup

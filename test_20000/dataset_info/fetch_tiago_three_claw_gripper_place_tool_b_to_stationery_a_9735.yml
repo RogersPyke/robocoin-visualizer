@@ -1,0 +1,29 @@
+dataset_name: place_tool_b_to_stationery_a_9735
+dataset_uuid: a87187d3-1e5e-4da0-b32c-8364837ecb54
+task_descriptions:
+- place_the_tool_b_and_place_in_the_stationery_a
+scene_type:
+- kitchen
+- laboratory
+atomic_actions:
+- slide
+- lower
+- rotate
+- remove
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

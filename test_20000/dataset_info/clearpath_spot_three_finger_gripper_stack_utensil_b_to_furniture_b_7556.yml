@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_b_to_furniture_b_7556
+dataset_uuid: e782b3d7-b7f7-4720-b7f4-b8c8d7a14c6e
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_furniture_b
+scene_type:
+- hospital
+- cafe
+atomic_actions:
+- place
+- flip
+- insert
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 83.8
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

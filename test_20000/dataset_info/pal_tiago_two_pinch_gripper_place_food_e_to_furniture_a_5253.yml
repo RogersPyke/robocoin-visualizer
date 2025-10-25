@@ -1,0 +1,29 @@
+dataset_name: place_food_e_to_furniture_a_5253
+dataset_uuid: 9b88f184-4a1e-4da8-9199-4b1fa9df7a88
+task_descriptions:
+- place_the_food_e_and_place_in_the_furniture_a
+scene_type:
+- home
+- laboratory
+atomic_actions:
+- flip
+- remove
+- lower
+- push
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.2
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

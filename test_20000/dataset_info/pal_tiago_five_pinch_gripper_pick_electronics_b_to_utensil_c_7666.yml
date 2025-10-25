@@ -1,0 +1,30 @@
+dataset_name: pick_electronics_b_to_utensil_c_7666
+dataset_uuid: c6e8cdee-af3e-4e9b-9f1a-ff0817b2ae93
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_utensil_c
+scene_type:
+- cafe
+- warehouse
+- office
+atomic_actions:
+- push
+- lower
+- pick
+- lift
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 83.4
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

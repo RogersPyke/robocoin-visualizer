@@ -1,0 +1,26 @@
+dataset_name: arrange_textile_b_to_furniture_a_4684
+dataset_uuid: 76327649-ee70-4af6-aba7-fe09f48d3dd3
+task_descriptions:
+- arrange_the_textile_b_and_place_in_the_furniture_a
+scene_type:
+- hospital
+atomic_actions:
+- insert
+- lift
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

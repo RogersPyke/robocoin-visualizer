@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_c_to_kitchenware_a_3021
+dataset_uuid: c61500b6-ead6-400f-940c-23802e7a5712
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_kitchenware_a
+scene_type:
+- kitchen
+- factory
+atomic_actions:
+- lift
+- slide
+- rotate
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

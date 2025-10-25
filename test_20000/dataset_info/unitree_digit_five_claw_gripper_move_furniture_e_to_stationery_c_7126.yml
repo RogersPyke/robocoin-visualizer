@@ -1,0 +1,27 @@
+dataset_name: move_furniture_e_to_stationery_c_7126
+dataset_uuid: 7ec71177-3156-43ec-a627-22c2526f1735
+task_descriptions:
+- move_the_furniture_e_and_place_in_the_stationery_c
+scene_type:
+- hospital
+atomic_actions:
+- pick
+- rotate
+- remove
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

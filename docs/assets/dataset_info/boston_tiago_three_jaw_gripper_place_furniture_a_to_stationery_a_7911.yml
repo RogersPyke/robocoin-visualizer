@@ -1,0 +1,28 @@
+dataset_name: place_furniture_a_to_stationery_a_7911
+dataset_uuid: ec096e59-b6c9-43b6-a773-a7c9651750b6
+task_descriptions:
+- place_the_furniture_a_and_place_in_the_stationery_a
+scene_type:
+- office
+- warehouse
+atomic_actions:
+- remove
+- insert
+- slide
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.8
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

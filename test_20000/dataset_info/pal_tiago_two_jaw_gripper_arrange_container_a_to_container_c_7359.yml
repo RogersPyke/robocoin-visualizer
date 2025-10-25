@@ -1,0 +1,29 @@
+dataset_name: arrange_container_a_to_container_c_7359
+dataset_uuid: b75d9d8d-865b-48a1-b643-b76be3e3fb9f
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_container_c
+scene_type:
+- cafe
+- home
+atomic_actions:
+- pick
+- lift
+- flip
+- push
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.9
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

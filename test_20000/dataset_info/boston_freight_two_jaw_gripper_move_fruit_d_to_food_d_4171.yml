@@ -1,0 +1,29 @@
+dataset_name: move_fruit_d_to_food_d_4171
+dataset_uuid: 262bedbd-675e-4aa6-85d0-5672c0c97c71
+task_descriptions:
+- move_the_fruit_d_and_place_in_the_food_d
+scene_type:
+- factory
+- warehouse
+atomic_actions:
+- lower
+- insert
+- grasp
+- pick
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.4
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_textile_d_to_container_c_9530
+dataset_uuid: 7b725133-5aa6-4877-ab9e-b79072b8b864
+task_descriptions:
+- arrange_the_textile_d_and_place_in_the_container_c
+scene_type:
+- cafe
+atomic_actions:
+- slide
+- remove
+- push
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

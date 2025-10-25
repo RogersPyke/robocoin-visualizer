@@ -1,0 +1,28 @@
+dataset_name: pick_beverage_a_to_container_b_6581
+dataset_uuid: 74361b99-a2dd-4250-afd1-70e1e2cd6b49
+task_descriptions:
+- pick_the_beverage_a_and_place_in_the_container_b
+scene_type:
+- laboratory
+atomic_actions:
+- push
+- pull
+- grasp
+- slide
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

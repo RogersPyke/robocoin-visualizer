@@ -1,0 +1,30 @@
+dataset_name: pick_furniture_b_to_food_a_4419
+dataset_uuid: b41dbb48-f5f7-4c40-a325-89a057b07104
+task_descriptions:
+- pick_the_furniture_b_and_place_in_the_food_a
+scene_type:
+- hospital
+- home
+- laboratory
+atomic_actions:
+- lower
+- flip
+- remove
+- grasp
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- pal_tiago
+end_effector_type: five_finger_gripper

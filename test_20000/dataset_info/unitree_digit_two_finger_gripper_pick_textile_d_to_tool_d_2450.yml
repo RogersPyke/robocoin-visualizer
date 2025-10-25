@@ -1,0 +1,29 @@
+dataset_name: pick_textile_d_to_tool_d_2450
+dataset_uuid: b7110340-4dc2-4da4-bb2a-4d9fa68bc0b4
+task_descriptions:
+- pick_the_textile_d_and_place_in_the_tool_d
+scene_type:
+- store
+- restaurant
+- laboratory
+atomic_actions:
+- lower
+- pull
+- place
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- unitree_digit
+end_effector_type: two_finger_gripper

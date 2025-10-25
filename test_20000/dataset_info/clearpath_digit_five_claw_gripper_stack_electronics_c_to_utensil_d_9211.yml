@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_c_to_utensil_d_9211
+dataset_uuid: 020d7669-00c9-4547-a814-016cdeeb9ad7
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_utensil_d
+scene_type:
+- cafe
+- hospital
+- restaurant
+atomic_actions:
+- slide
+- lower
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.9
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

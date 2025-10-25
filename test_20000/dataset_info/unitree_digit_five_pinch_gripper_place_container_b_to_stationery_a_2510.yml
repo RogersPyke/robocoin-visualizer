@@ -1,0 +1,29 @@
+dataset_name: place_container_b_to_stationery_a_2510
+dataset_uuid: bf82853b-6789-4f89-a446-c024f8dc3b51
+task_descriptions:
+- place_the_container_b_and_place_in_the_stationery_a
+scene_type:
+- warehouse
+- restaurant
+- factory
+atomic_actions:
+- flip
+- rotate
+- pull
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

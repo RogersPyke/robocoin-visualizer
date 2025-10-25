@@ -1,0 +1,27 @@
+dataset_name: move_container_a_to_tool_b_5125
+dataset_uuid: d08db425-0683-403d-9c17-3533f5022d55
+task_descriptions:
+- move_the_container_a_and_place_in_the_tool_b
+scene_type:
+- warehouse
+- kitchen
+atomic_actions:
+- lower
+- pick
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

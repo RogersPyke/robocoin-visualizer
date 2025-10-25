@@ -1,0 +1,30 @@
+dataset_name: pick_food_a_to_toy_d_8034
+dataset_uuid: 8aa2f248-9a8a-4685-959f-950da8f5c37d
+task_descriptions:
+- pick_the_food_a_and_place_in_the_toy_d
+scene_type:
+- restaurant
+- office
+- factory
+atomic_actions:
+- pick
+- insert
+- lower
+- lift
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

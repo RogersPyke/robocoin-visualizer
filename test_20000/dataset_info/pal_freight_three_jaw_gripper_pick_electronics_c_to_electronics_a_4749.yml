@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_c_to_electronics_a_4749
+dataset_uuid: 42c4e75b-9297-4d62-9a12-73bdb8a338f6
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_electronics_a
+scene_type:
+- factory
+atomic_actions:
+- slide
+- insert
+- pick
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

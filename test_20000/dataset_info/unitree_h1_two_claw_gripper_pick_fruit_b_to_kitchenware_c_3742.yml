@@ -1,0 +1,26 @@
+dataset_name: pick_fruit_b_to_kitchenware_c_3742
+dataset_uuid: 27fa7d85-c7c4-4c47-9a99-89154486e6fa
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_kitchenware_c
+scene_type:
+- store
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.3
+device_model:
+- unitree_h1
+end_effector_type: two_claw_gripper

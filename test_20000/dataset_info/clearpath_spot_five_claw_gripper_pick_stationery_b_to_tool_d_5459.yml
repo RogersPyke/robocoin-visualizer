@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_b_to_tool_d_5459
+dataset_uuid: 028cca7b-d671-46b4-a7f0-ea3470225d87
+task_descriptions:
+- pick_the_stationery_b_and_place_in_the_tool_d
+scene_type:
+- cafe
+- kitchen
+- store
+atomic_actions:
+- insert
+- push
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

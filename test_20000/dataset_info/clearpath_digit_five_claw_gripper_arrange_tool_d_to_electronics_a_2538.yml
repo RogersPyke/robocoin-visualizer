@@ -1,0 +1,30 @@
+dataset_name: arrange_tool_d_to_electronics_a_2538
+dataset_uuid: aa277741-584c-4237-96ed-77e9d6701414
+task_descriptions:
+- arrange_the_tool_d_and_place_in_the_electronics_a
+scene_type:
+- office
+- kitchen
+- laboratory
+atomic_actions:
+- push
+- pick
+- slide
+- insert
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.7
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

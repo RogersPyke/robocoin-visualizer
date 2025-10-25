@@ -1,0 +1,27 @@
+dataset_name: stack_fruit_d_to_tool_d_3673
+dataset_uuid: 9d2c3367-bcd0-458d-becc-9669038aa013
+task_descriptions:
+- stack_the_fruit_d_and_place_in_the_tool_d
+scene_type:
+- factory
+- hospital
+atomic_actions:
+- push
+- slide
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

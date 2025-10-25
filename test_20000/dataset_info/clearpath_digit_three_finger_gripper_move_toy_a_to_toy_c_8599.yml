@@ -1,0 +1,27 @@
+dataset_name: move_toy_a_to_toy_c_8599
+dataset_uuid: ba3e225d-8162-4f01-9566-5216faa39c2d
+task_descriptions:
+- move_the_toy_a_and_place_in_the_toy_c
+scene_type:
+- kitchen
+atomic_actions:
+- slide
+- rotate
+- insert
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

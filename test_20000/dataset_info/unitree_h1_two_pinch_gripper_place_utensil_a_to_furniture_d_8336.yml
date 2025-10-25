@@ -1,0 +1,30 @@
+dataset_name: place_utensil_a_to_furniture_d_8336
+dataset_uuid: c7b4e4da-8db2-48d6-b0bc-fa5aa0d671f3
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_furniture_d
+scene_type:
+- home
+- warehouse
+- factory
+atomic_actions:
+- rotate
+- lower
+- lift
+- insert
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 77.9
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

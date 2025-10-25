@@ -1,0 +1,29 @@
+dataset_name: stack_beverage_e_to_fruit_a_4673
+dataset_uuid: 877d7c47-036a-42d8-90a1-7acf142652ad
+task_descriptions:
+- stack_the_beverage_e_and_place_in_the_fruit_a
+scene_type:
+- home
+- store
+atomic_actions:
+- flip
+- slide
+- rotate
+- push
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 80.6
+device_model:
+- unitree_h1
+end_effector_type: five_finger_gripper

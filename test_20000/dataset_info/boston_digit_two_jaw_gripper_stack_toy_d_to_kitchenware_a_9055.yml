@@ -1,0 +1,28 @@
+dataset_name: stack_toy_d_to_kitchenware_a_9055
+dataset_uuid: 02a648f4-5020-4ee8-afab-9b6353450ca7
+task_descriptions:
+- stack_the_toy_d_and_place_in_the_kitchenware_a
+scene_type:
+- factory
+- office
+atomic_actions:
+- push
+- rotate
+- flip
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+operation_platform_height: 85.3
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

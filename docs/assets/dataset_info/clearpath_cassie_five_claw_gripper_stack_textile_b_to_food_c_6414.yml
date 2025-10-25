@@ -1,0 +1,29 @@
+dataset_name: stack_textile_b_to_food_c_6414
+dataset_uuid: d43f69a5-78b8-42f4-85ce-70b2c4a31e95
+task_descriptions:
+- stack_the_textile_b_and_place_in_the_food_c
+scene_type:
+- store
+- restaurant
+- cafe
+atomic_actions:
+- lower
+- insert
+- pick
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- clearpath_cassie
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_a_to_furniture_c_5820
+dataset_uuid: 08546b14-9e9f-4bfa-a348-c1f42cb52868
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_furniture_c
+scene_type:
+- office
+- store
+- hospital
+atomic_actions:
+- insert
+- slide
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

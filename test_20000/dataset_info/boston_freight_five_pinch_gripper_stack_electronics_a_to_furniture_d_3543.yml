@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_a_to_furniture_d_3543
+dataset_uuid: 18d5abf4-0dff-476f-80bd-5f1ffe5e2162
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_furniture_d
+scene_type:
+- cafe
+- restaurant
+atomic_actions:
+- place
+- pick
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 78.0
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

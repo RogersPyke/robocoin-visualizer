@@ -1,0 +1,27 @@
+dataset_name: place_tool_b_to_toy_a_5118
+dataset_uuid: d4b176d5-46a5-41f3-ac2a-4b2d595f943a
+task_descriptions:
+- place_the_tool_b_and_place_in_the_toy_a
+scene_type:
+- laboratory
+atomic_actions:
+- lift
+- rotate
+- lower
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.1
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_container_a_to_stationery_b_9384
+dataset_uuid: dfd162ef-1d5d-4fec-a94a-b9ce768fc910
+task_descriptions:
+- place_the_container_a_and_place_in_the_stationery_b
+scene_type:
+- hospital
+- office
+atomic_actions:
+- place
+- pull
+- grasp
+- insert
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

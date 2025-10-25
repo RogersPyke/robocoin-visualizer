@@ -1,0 +1,26 @@
+dataset_name: pick_tool_a_to_toy_b_7994
+dataset_uuid: 49847178-03af-4a20-82e3-10d9ffdc7c69
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_toy_b
+scene_type:
+- warehouse
+atomic_actions:
+- grasp
+- rotate
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+operation_platform_height: 86.0
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

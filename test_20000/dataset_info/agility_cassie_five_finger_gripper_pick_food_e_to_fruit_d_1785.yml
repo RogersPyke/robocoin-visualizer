@@ -1,0 +1,28 @@
+dataset_name: pick_food_e_to_fruit_d_1785
+dataset_uuid: d959d572-6c7b-4430-bbc4-9063a9d58e8d
+task_descriptions:
+- pick_the_food_e_and_place_in_the_fruit_d
+scene_type:
+- laboratory
+atomic_actions:
+- push
+- lower
+- pick
+- remove
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

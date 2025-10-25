@@ -1,0 +1,29 @@
+dataset_name: move_tool_c_to_electronics_a_8922
+dataset_uuid: cb3a8676-efc0-4904-93db-bdfc8bf51828
+task_descriptions:
+- move_the_tool_c_and_place_in_the_electronics_a
+scene_type:
+- office
+- factory
+- restaurant
+atomic_actions:
+- lift
+- pick
+- place
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

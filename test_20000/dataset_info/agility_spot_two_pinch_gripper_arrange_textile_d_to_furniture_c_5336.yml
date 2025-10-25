@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_d_to_furniture_c_5336
+dataset_uuid: 372277f9-2aad-4bd0-92e3-db2ae6adc1b4
+task_descriptions:
+- arrange_the_textile_d_and_place_in_the_furniture_c
+scene_type:
+- office
+- store
+atomic_actions:
+- flip
+- pull
+- pick
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+operation_platform_height: 84.7
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

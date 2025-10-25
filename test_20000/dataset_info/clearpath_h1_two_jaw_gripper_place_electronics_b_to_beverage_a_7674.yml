@@ -1,0 +1,28 @@
+dataset_name: place_electronics_b_to_beverage_a_7674
+dataset_uuid: d89ef86d-aada-452e-8aac-a9d562d19156
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_beverage_a
+scene_type:
+- warehouse
+- office
+- restaurant
+atomic_actions:
+- pick
+- lift
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.0
+device_model:
+- clearpath_h1
+end_effector_type: two_jaw_gripper

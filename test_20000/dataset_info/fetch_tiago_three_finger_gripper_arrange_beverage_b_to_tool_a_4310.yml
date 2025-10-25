@@ -1,0 +1,28 @@
+dataset_name: arrange_beverage_b_to_tool_a_4310
+dataset_uuid: 37005852-594f-437d-9962-033cebb74a72
+task_descriptions:
+- arrange_the_beverage_b_and_place_in_the_tool_a
+scene_type:
+- hospital
+- store
+- factory
+atomic_actions:
+- grasp
+- flip
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

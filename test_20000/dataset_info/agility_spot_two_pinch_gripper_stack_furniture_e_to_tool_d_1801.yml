@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_e_to_tool_d_1801
+dataset_uuid: 1a52fb9d-fe0f-4f42-b684-3ff9e167d0fb
+task_descriptions:
+- stack_the_furniture_e_and_place_in_the_tool_d
+scene_type:
+- laboratory
+- restaurant
+atomic_actions:
+- slide
+- pick
+- insert
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.5
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

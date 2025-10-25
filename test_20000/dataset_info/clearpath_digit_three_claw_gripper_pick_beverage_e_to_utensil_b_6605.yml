@@ -1,0 +1,27 @@
+dataset_name: pick_beverage_e_to_utensil_b_6605
+dataset_uuid: 6e64ded8-f10c-4dad-b7f2-944f022ad884
+task_descriptions:
+- pick_the_beverage_e_and_place_in_the_utensil_b
+scene_type:
+- laboratory
+atomic_actions:
+- lift
+- place
+- remove
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

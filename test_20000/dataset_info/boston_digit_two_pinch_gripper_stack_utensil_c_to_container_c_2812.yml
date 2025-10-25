@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_c_to_container_c_2812
+dataset_uuid: 7feae98b-724c-4388-a924-c1cdb6396357
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_container_c
+scene_type:
+- kitchen
+- store
+- cafe
+atomic_actions:
+- place
+- flip
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

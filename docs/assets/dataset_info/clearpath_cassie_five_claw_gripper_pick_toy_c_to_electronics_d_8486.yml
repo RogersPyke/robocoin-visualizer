@@ -1,0 +1,29 @@
+dataset_name: pick_toy_c_to_electronics_d_8486
+dataset_uuid: 6e28019d-fc97-4756-b18d-4c5c8de73777
+task_descriptions:
+- pick_the_toy_c_and_place_in_the_electronics_d
+scene_type:
+- cafe
+- office
+atomic_actions:
+- remove
+- lower
+- insert
+- grasp
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_d
+  level1: electronics
+  level2: electronics_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.8
+device_model:
+- clearpath_cassie
+end_effector_type: five_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_beverage_d_to_toy_a_3540
+dataset_uuid: 261b2404-4827-4358-8a49-904cfe1ebad4
+task_descriptions:
+- pick_the_beverage_d_and_place_in_the_toy_a
+scene_type:
+- hospital
+- kitchen
+atomic_actions:
+- push
+- rotate
+- flip
+- insert
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

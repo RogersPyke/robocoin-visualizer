@@ -1,0 +1,29 @@
+dataset_name: arrange_stationery_b_to_textile_e_4078
+dataset_uuid: 7b106f63-3891-4728-bf26-d8034fc9fc24
+task_descriptions:
+- arrange_the_stationery_b_and_place_in_the_textile_e
+scene_type:
+- factory
+- laboratory
+atomic_actions:
+- slide
+- lift
+- rotate
+- lower
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

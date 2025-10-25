@@ -1,0 +1,28 @@
+dataset_name: place_stationery_a_to_container_b_4545
+dataset_uuid: 2476d6e0-1d15-4a33-86ef-3167026f271b
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_container_b
+scene_type:
+- warehouse
+- factory
+- kitchen
+atomic_actions:
+- place
+- pick
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.1
+device_model:
+- unitree_tiago
+end_effector_type: five_jaw_gripper

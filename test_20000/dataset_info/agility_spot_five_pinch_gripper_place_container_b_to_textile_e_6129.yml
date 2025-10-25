@@ -1,0 +1,30 @@
+dataset_name: place_container_b_to_textile_e_6129
+dataset_uuid: 51875aac-fd7e-4344-8067-a6e7459ed180
+task_descriptions:
+- place_the_container_b_and_place_in_the_textile_e
+scene_type:
+- cafe
+- warehouse
+- restaurant
+atomic_actions:
+- pull
+- rotate
+- lower
+- place
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

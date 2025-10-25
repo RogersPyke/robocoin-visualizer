@@ -1,0 +1,28 @@
+dataset_name: move_utensil_d_to_stationery_b_1898
+dataset_uuid: ac640775-4c2e-497c-80a3-5971e8cb91c5
+task_descriptions:
+- move_the_utensil_d_and_place_in_the_stationery_b
+scene_type:
+- home
+- kitchen
+atomic_actions:
+- place
+- pick
+- rotate
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

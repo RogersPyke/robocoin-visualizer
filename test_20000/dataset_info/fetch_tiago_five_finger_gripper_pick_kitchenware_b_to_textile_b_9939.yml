@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_b_to_textile_b_9939
+dataset_uuid: 40ab7071-3281-46da-805d-b0221dd10fdc
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_textile_b
+scene_type:
+- cafe
+- restaurant
+atomic_actions:
+- lift
+- remove
+- flip
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- fetch_tiago
+end_effector_type: five_finger_gripper

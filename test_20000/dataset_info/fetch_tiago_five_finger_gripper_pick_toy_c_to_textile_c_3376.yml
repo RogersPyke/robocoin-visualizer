@@ -1,0 +1,29 @@
+dataset_name: pick_toy_c_to_textile_c_3376
+dataset_uuid: 912e03df-b285-41ad-bb02-dd8425735b38
+task_descriptions:
+- pick_the_toy_c_and_place_in_the_textile_c
+scene_type:
+- factory
+- laboratory
+atomic_actions:
+- rotate
+- slide
+- grasp
+- pick
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- fetch_tiago
+end_effector_type: five_finger_gripper

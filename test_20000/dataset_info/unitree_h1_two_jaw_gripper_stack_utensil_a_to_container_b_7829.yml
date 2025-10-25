@@ -1,0 +1,30 @@
+dataset_name: stack_utensil_a_to_container_b_7829
+dataset_uuid: 47e0bb51-ed68-4e1a-b967-0041e3a06a2d
+task_descriptions:
+- stack_the_utensil_a_and_place_in_the_container_b
+scene_type:
+- hospital
+- warehouse
+- cafe
+atomic_actions:
+- pick
+- remove
+- grasp
+- rotate
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.1
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

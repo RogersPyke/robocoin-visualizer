@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_b_to_textile_d_7234
+dataset_uuid: 3b90489f-db26-4bd9-bc96-9af53fe00e0a
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_textile_d
+scene_type:
+- hospital
+atomic_actions:
+- pull
+- pick
+- remove
+- insert
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_utensil_a_to_utensil_d_9892
+dataset_uuid: 390826ed-6472-408f-8e53-cc818accff82
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_utensil_d
+scene_type:
+- cafe
+- office
+atomic_actions:
+- grasp
+- slide
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

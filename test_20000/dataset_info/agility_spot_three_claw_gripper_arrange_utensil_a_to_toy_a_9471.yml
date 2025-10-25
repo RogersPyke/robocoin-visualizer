@@ -1,0 +1,28 @@
+dataset_name: arrange_utensil_a_to_toy_a_9471
+dataset_uuid: e6ecc37b-bd87-49e4-a377-7b04f84eeada
+task_descriptions:
+- arrange_the_utensil_a_and_place_in_the_toy_a
+scene_type:
+- warehouse
+- cafe
+- kitchen
+atomic_actions:
+- pick
+- slide
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

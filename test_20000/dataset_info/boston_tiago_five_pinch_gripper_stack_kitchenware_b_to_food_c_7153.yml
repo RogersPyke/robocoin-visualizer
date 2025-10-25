@@ -1,0 +1,27 @@
+dataset_name: stack_kitchenware_b_to_food_c_7153
+dataset_uuid: 892017d3-b11e-4dc5-aedd-2b7a433bc10e
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_food_c
+scene_type:
+- hospital
+atomic_actions:
+- lift
+- lower
+- grasp
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.9
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

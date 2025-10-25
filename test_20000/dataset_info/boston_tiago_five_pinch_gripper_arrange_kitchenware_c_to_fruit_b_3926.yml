@@ -1,0 +1,28 @@
+dataset_name: arrange_kitchenware_c_to_fruit_b_3926
+dataset_uuid: 348c88f6-7335-45af-bfc4-4045bcf1e8db
+task_descriptions:
+- arrange_the_kitchenware_c_and_place_in_the_fruit_b
+scene_type:
+- warehouse
+- hospital
+- factory
+atomic_actions:
+- rotate
+- place
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.9
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,30 @@
+dataset_name: place_beverage_a_to_kitchenware_c_5457
+dataset_uuid: e9a81308-101a-4121-9b96-c1be446660d5
+task_descriptions:
+- place_the_beverage_a_and_place_in_the_kitchenware_c
+scene_type:
+- warehouse
+- factory
+- cafe
+atomic_actions:
+- lower
+- rotate
+- place
+- push
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- pal_freight
+end_effector_type: suction_cup

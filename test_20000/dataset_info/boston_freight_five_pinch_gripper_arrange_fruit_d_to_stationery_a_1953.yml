@@ -1,0 +1,27 @@
+dataset_name: arrange_fruit_d_to_stationery_a_1953
+dataset_uuid: f1810893-d9cd-41fb-b07a-723b29e98960
+task_descriptions:
+- arrange_the_fruit_d_and_place_in_the_stationery_a
+scene_type:
+- warehouse
+atomic_actions:
+- remove
+- lift
+- place
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.0
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

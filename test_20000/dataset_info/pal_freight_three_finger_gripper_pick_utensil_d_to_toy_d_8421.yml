@@ -1,0 +1,27 @@
+dataset_name: pick_utensil_d_to_toy_d_8421
+dataset_uuid: ed2ac990-617d-4521-8800-53cb0a0c01ea
+task_descriptions:
+- pick_the_utensil_d_and_place_in_the_toy_d
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- place
+- insert
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+operation_platform_height: 87.2
+device_model:
+- pal_freight
+end_effector_type: three_finger_gripper

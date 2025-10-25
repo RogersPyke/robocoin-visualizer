@@ -1,0 +1,29 @@
+dataset_name: pick_furniture_b_to_utensil_a_1096
+dataset_uuid: 05a86355-45f0-4af3-906b-294d2aec35fc
+task_descriptions:
+- pick_the_furniture_b_and_place_in_the_utensil_a
+scene_type:
+- warehouse
+- hospital
+atomic_actions:
+- lift
+- slide
+- grasp
+- pick
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.5
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

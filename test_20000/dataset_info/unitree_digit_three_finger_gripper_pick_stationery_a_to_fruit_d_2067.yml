@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_a_to_fruit_d_2067
+dataset_uuid: d5e6e3e7-b4b9-4634-a5a4-4b4a19719641
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_fruit_d
+scene_type:
+- store
+- factory
+atomic_actions:
+- grasp
+- push
+- insert
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

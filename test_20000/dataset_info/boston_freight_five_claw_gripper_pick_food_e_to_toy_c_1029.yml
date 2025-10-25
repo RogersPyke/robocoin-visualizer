@@ -1,0 +1,30 @@
+dataset_name: pick_food_e_to_toy_c_1029
+dataset_uuid: b44e7432-ef0c-4b86-adfa-f46cc68a15e5
+task_descriptions:
+- pick_the_food_e_and_place_in_the_toy_c
+scene_type:
+- office
+- factory
+- cafe
+atomic_actions:
+- pull
+- remove
+- rotate
+- pick
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.4
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

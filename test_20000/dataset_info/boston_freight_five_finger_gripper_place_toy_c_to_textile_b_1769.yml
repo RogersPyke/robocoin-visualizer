@@ -1,0 +1,27 @@
+dataset_name: place_toy_c_to_textile_b_1769
+dataset_uuid: 9f9ed0f9-f6c1-4e7f-95e6-4c9606635fff
+task_descriptions:
+- place_the_toy_c_and_place_in_the_textile_b
+scene_type:
+- laboratory
+atomic_actions:
+- flip
+- pull
+- pick
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.1
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

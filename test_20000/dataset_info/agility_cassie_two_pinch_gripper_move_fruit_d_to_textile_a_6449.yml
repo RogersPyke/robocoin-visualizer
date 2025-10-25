@@ -1,0 +1,30 @@
+dataset_name: move_fruit_d_to_textile_a_6449
+dataset_uuid: 21f0ae0a-15b6-45b0-91f1-aa847c226703
+task_descriptions:
+- move_the_fruit_d_and_place_in_the_textile_a
+scene_type:
+- store
+- cafe
+- office
+atomic_actions:
+- insert
+- pick
+- rotate
+- push
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 85.6
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

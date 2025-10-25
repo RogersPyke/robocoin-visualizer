@@ -1,0 +1,26 @@
+dataset_name: move_utensil_c_to_beverage_e_1017
+dataset_uuid: f3df8c57-b1c9-4797-b5b4-dcbcc90a4bd1
+task_descriptions:
+- move_the_utensil_c_and_place_in_the_beverage_e
+scene_type:
+- factory
+atomic_actions:
+- pick
+- lift
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

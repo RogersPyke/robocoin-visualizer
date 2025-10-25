@@ -1,0 +1,29 @@
+dataset_name: move_stationery_c_to_kitchenware_b_6510
+dataset_uuid: 89a001b3-898e-4b51-8764-94bcd72087f8
+task_descriptions:
+- move_the_stationery_c_and_place_in_the_kitchenware_b
+scene_type:
+- laboratory
+- store
+atomic_actions:
+- lower
+- flip
+- push
+- grasp
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- clearpath_spot
+end_effector_type: suction_cup

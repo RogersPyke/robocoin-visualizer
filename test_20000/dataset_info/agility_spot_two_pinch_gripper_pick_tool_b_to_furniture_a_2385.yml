@@ -1,0 +1,29 @@
+dataset_name: pick_tool_b_to_furniture_a_2385
+dataset_uuid: ebbba2ef-9b00-4cb4-83ab-46ec6597d43f
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_furniture_a
+scene_type:
+- home
+- laboratory
+atomic_actions:
+- remove
+- grasp
+- insert
+- pull
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

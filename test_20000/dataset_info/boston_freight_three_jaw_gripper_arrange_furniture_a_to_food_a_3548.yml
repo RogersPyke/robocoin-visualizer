@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_a_to_food_a_3548
+dataset_uuid: c5f11a99-6d42-455b-810b-bf46431d4ab2
+task_descriptions:
+- arrange_the_furniture_a_and_place_in_the_food_a
+scene_type:
+- laboratory
+- office
+- restaurant
+atomic_actions:
+- remove
+- slide
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

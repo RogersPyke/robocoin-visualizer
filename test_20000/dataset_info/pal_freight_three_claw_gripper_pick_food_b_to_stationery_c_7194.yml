@@ -1,0 +1,27 @@
+dataset_name: pick_food_b_to_stationery_c_7194
+dataset_uuid: 2c51cab2-263e-411e-a481-b72a0c692b18
+task_descriptions:
+- pick_the_food_b_and_place_in_the_stationery_c
+scene_type:
+- restaurant
+- store
+atomic_actions:
+- rotate
+- lift
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

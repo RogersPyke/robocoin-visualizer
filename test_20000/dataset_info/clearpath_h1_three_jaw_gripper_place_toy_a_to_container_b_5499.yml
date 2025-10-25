@@ -1,0 +1,30 @@
+dataset_name: place_toy_a_to_container_b_5499
+dataset_uuid: 65e51976-310c-48ae-869b-217d73927793
+task_descriptions:
+- place_the_toy_a_and_place_in_the_container_b
+scene_type:
+- store
+- cafe
+- home
+atomic_actions:
+- grasp
+- place
+- pull
+- lower
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

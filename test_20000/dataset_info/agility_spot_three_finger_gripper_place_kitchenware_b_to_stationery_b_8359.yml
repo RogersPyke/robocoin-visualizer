@@ -1,0 +1,27 @@
+dataset_name: place_kitchenware_b_to_stationery_b_8359
+dataset_uuid: 4e65c029-d698-4e4c-9629-2a1d28b672cc
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_stationery_b
+scene_type:
+- restaurant
+atomic_actions:
+- rotate
+- lower
+- grasp
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.5
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

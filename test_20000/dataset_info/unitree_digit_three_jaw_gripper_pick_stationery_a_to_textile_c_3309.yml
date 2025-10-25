@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_a_to_textile_c_3309
+dataset_uuid: b5210d1b-c29d-488a-8b9a-ef97377421cf
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_textile_c
+scene_type:
+- cafe
+- factory
+- hospital
+atomic_actions:
+- flip
+- pick
+- lift
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

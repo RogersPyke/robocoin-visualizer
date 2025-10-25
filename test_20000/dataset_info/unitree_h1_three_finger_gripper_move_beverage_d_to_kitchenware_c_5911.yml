@@ -1,0 +1,27 @@
+dataset_name: move_beverage_d_to_kitchenware_c_5911
+dataset_uuid: 7739d068-27a1-467b-973d-fb0e88fae837
+task_descriptions:
+- move_the_beverage_d_and_place_in_the_kitchenware_c
+scene_type:
+- laboratory
+atomic_actions:
+- lift
+- grasp
+- place
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

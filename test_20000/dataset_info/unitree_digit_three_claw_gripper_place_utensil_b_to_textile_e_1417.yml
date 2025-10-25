@@ -1,0 +1,28 @@
+dataset_name: place_utensil_b_to_textile_e_1417
+dataset_uuid: 662fe741-777c-4129-a54d-163c599904b9
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_textile_e
+scene_type:
+- laboratory
+atomic_actions:
+- flip
+- place
+- insert
+- push
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

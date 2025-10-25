@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_b_to_utensil_d_1663
+dataset_uuid: 33bbb6c5-bc2b-498f-bf4a-145c917f49c6
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_utensil_d
+scene_type:
+- store
+- cafe
+- home
+atomic_actions:
+- lift
+- insert
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.6
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

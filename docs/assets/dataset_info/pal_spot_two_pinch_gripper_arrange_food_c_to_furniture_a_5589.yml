@@ -1,0 +1,27 @@
+dataset_name: arrange_food_c_to_furniture_a_5589
+dataset_uuid: bdec2f48-0bee-42b9-8db8-6edf6fedc6bb
+task_descriptions:
+- arrange_the_food_c_and_place_in_the_furniture_a
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- push
+- flip
+objects:
+- object_name: food_c
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- pal_spot
+end_effector_type: two_pinch_gripper

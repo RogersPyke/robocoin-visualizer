@@ -1,0 +1,29 @@
+dataset_name: stack_toy_d_to_beverage_c_9594
+dataset_uuid: 5ea03660-df76-41af-8737-6a0bc3183e0d
+task_descriptions:
+- stack_the_toy_d_and_place_in_the_beverage_c
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- push
+- rotate
+- pull
+- grasp
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_electronics_c_to_toy_d_9648
+dataset_uuid: 19355a00-5921-40b9-8997-35ab159425fa
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_toy_d
+scene_type:
+- hospital
+- laboratory
+- cafe
+atomic_actions:
+- pull
+- slide
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.9
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

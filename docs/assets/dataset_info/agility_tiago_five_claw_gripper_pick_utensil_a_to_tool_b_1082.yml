@@ -1,0 +1,29 @@
+dataset_name: pick_utensil_a_to_tool_b_1082
+dataset_uuid: 2aea595d-8492-488e-a660-c14fbfc63bb0
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_tool_b
+scene_type:
+- cafe
+- factory
+atomic_actions:
+- flip
+- insert
+- pull
+- grasp
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- agility_tiago
+end_effector_type: five_claw_gripper

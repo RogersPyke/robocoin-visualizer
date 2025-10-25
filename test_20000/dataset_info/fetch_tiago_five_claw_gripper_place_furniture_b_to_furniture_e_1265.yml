@@ -1,0 +1,28 @@
+dataset_name: place_furniture_b_to_furniture_e_1265
+dataset_uuid: 7ceae314-baa5-4910-962c-1e3ffc767ae2
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_furniture_e
+scene_type:
+- kitchen
+- factory
+- warehouse
+atomic_actions:
+- remove
+- insert
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.1
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_container_a_to_food_a_9982
+dataset_uuid: 3b97f37e-a457-4b19-8128-6f89aecc272b
+task_descriptions:
+- move_the_container_a_and_place_in_the_food_a
+scene_type:
+- cafe
+atomic_actions:
+- rotate
+- pull
+- insert
+- place
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.4
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

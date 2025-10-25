@@ -1,0 +1,28 @@
+dataset_name: place_textile_a_to_stationery_b_6860
+dataset_uuid: 40041f6e-a354-4215-9827-d32e61c3e6c2
+task_descriptions:
+- place_the_textile_a_and_place_in_the_stationery_b
+scene_type:
+- office
+- cafe
+atomic_actions:
+- remove
+- lower
+- pull
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

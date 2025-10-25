@@ -1,0 +1,28 @@
+dataset_name: move_stationery_c_to_kitchenware_c_8525
+dataset_uuid: e0e746c3-4a7d-4885-9ad4-678d4b002c60
+task_descriptions:
+- move_the_stationery_c_and_place_in_the_kitchenware_c
+scene_type:
+- office
+atomic_actions:
+- remove
+- grasp
+- flip
+- slide
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.2
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

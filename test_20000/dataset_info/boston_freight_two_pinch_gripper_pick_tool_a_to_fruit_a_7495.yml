@@ -1,0 +1,27 @@
+dataset_name: pick_tool_a_to_fruit_a_7495
+dataset_uuid: ea1533e8-52ce-4d3c-b01c-f360e09b32bd
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_fruit_a
+scene_type:
+- hospital
+- store
+atomic_actions:
+- lower
+- push
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.1
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

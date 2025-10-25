@@ -1,0 +1,27 @@
+dataset_name: pick_utensil_d_to_furniture_c_6911
+dataset_uuid: d53194ad-19e3-4719-86a4-20dc6314566d
+task_descriptions:
+- pick_the_utensil_d_and_place_in_the_furniture_c
+scene_type:
+- restaurant
+- home
+atomic_actions:
+- lift
+- insert
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

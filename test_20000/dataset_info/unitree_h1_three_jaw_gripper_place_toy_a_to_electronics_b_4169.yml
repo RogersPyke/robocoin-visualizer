@@ -1,0 +1,28 @@
+dataset_name: place_toy_a_to_electronics_b_4169
+dataset_uuid: b7cddc53-7414-43a3-b50a-33e34b5121d4
+task_descriptions:
+- place_the_toy_a_and_place_in_the_electronics_b
+scene_type:
+- home
+atomic_actions:
+- insert
+- place
+- pick
+- grasp
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

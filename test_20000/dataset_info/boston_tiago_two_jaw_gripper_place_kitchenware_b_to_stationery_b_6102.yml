@@ -1,0 +1,30 @@
+dataset_name: place_kitchenware_b_to_stationery_b_6102
+dataset_uuid: f11d455e-e962-4424-9f65-f17cb359c8eb
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_stationery_b
+scene_type:
+- warehouse
+- home
+- cafe
+atomic_actions:
+- push
+- grasp
+- pick
+- flip
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

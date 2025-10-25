@@ -1,0 +1,28 @@
+dataset_name: move_container_b_to_toy_a_5643
+dataset_uuid: e5dffea0-01f8-455d-8237-78f648a6df73
+task_descriptions:
+- move_the_container_b_and_place_in_the_toy_a
+scene_type:
+- home
+- warehouse
+atomic_actions:
+- insert
+- flip
+- lower
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.5
+device_model:
+- clearpath_cassie
+end_effector_type: three_jaw_gripper

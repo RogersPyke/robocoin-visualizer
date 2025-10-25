@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_a_to_furniture_b_7856
+dataset_uuid: d8900eb5-132b-4cb2-bb74-2b48457570bc
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_furniture_b
+scene_type:
+- hospital
+atomic_actions:
+- grasp
+- insert
+- slide
+- push
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

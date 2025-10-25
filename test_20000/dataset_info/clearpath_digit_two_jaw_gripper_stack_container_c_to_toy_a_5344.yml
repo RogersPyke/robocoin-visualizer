@@ -1,0 +1,28 @@
+dataset_name: stack_container_c_to_toy_a_5344
+dataset_uuid: 04f967cc-205b-4f71-9a72-d3e431f5aaf6
+task_descriptions:
+- stack_the_container_c_and_place_in_the_toy_a
+scene_type:
+- hospital
+- home
+- cafe
+atomic_actions:
+- flip
+- slide
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

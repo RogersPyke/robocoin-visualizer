@@ -1,0 +1,28 @@
+dataset_name: place_beverage_a_to_beverage_c_6157
+dataset_uuid: 039ced8f-bae5-48f9-9c80-e2598674f8ef
+task_descriptions:
+- place_the_beverage_a_and_place_in_the_beverage_c
+scene_type:
+- laboratory
+- hospital
+- office
+atomic_actions:
+- pull
+- slide
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

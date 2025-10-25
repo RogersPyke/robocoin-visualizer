@@ -1,0 +1,29 @@
+dataset_name: stack_tool_a_to_furniture_a_7471
+dataset_uuid: 63764c41-4e26-4241-abbe-034002b297c0
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_furniture_a
+scene_type:
+- kitchen
+- restaurant
+- home
+atomic_actions:
+- flip
+- grasp
+- lower
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

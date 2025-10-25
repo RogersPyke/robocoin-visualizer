@@ -1,0 +1,29 @@
+dataset_name: arrange_electronics_b_to_toy_c_5138
+dataset_uuid: a8f37577-5e77-469d-86ac-014dc6e47604
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_toy_c
+scene_type:
+- warehouse
+- factory
+atomic_actions:
+- pull
+- rotate
+- push
+- place
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 84.7
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_kitchenware_a_to_kitchenware_c_3480
+dataset_uuid: a3c2d473-6638-4767-85f4-bdbac2b660e7
+task_descriptions:
+- pick_the_kitchenware_a_and_place_in_the_kitchenware_c
+scene_type:
+- restaurant
+- warehouse
+atomic_actions:
+- flip
+- grasp
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

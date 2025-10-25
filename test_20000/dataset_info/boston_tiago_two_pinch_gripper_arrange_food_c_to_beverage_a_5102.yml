@@ -1,0 +1,26 @@
+dataset_name: arrange_food_c_to_beverage_a_5102
+dataset_uuid: 0503d286-6466-4574-8c41-a3983a5d4753
+task_descriptions:
+- arrange_the_food_c_and_place_in_the_beverage_a
+scene_type:
+- hospital
+atomic_actions:
+- lift
+- rotate
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,30 @@
+dataset_name: place_fruit_d_to_electronics_c_6759
+dataset_uuid: 643727eb-1fd8-48d5-9264-3059f799865c
+task_descriptions:
+- place_the_fruit_d_and_place_in_the_electronics_c
+scene_type:
+- laboratory
+- home
+- cafe
+atomic_actions:
+- lower
+- insert
+- place
+- pick
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 84.4
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

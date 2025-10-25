@@ -1,0 +1,26 @@
+dataset_name: move_toy_a_to_food_d_2206
+dataset_uuid: 8a679d5f-8534-4225-8077-03cc141b8a96
+task_descriptions:
+- move_the_toy_a_and_place_in_the_food_d
+scene_type:
+- restaurant
+atomic_actions:
+- insert
+- place
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

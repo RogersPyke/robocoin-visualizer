@@ -1,0 +1,28 @@
+dataset_name: place_toy_a_to_furniture_d_4259
+dataset_uuid: 854f09b6-005b-4abb-bd56-7d58347668f4
+task_descriptions:
+- place_the_toy_a_and_place_in_the_furniture_d
+scene_type:
+- office
+atomic_actions:
+- slide
+- pick
+- lower
+- rotate
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

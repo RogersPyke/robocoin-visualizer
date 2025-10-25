@@ -1,0 +1,27 @@
+dataset_name: pick_fruit_d_to_kitchenware_c_8158
+dataset_uuid: 5055fc72-7351-4a38-af48-a66c419d752b
+task_descriptions:
+- pick_the_fruit_d_and_place_in_the_kitchenware_c
+scene_type:
+- restaurant
+atomic_actions:
+- insert
+- slide
+- rotate
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.9
+device_model:
+- clearpath_h1
+end_effector_type: two_finger_gripper

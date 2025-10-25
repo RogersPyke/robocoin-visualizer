@@ -1,0 +1,26 @@
+dataset_name: pick_fruit_b_to_fruit_a_4726
+dataset_uuid: 94f25208-3cf7-4c04-b661-915530c59b8f
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_fruit_a
+scene_type:
+- cafe
+atomic_actions:
+- grasp
+- lift
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- boston_h1
+end_effector_type: five_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_container_c_to_textile_b_5042
+dataset_uuid: 40ecdd0e-c41f-45e3-9ced-9c3e639a0237
+task_descriptions:
+- pick_the_container_c_and_place_in_the_textile_b
+scene_type:
+- kitchen
+- home
+atomic_actions:
+- slide
+- grasp
+objects:
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.6
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

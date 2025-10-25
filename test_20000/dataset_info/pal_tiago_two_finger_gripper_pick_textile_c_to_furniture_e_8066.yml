@@ -1,0 +1,28 @@
+dataset_name: pick_textile_c_to_furniture_e_8066
+dataset_uuid: 049eb222-ab56-44d7-9f4c-dae7fc2ada16
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_furniture_e
+scene_type:
+- hospital
+- home
+atomic_actions:
+- rotate
+- remove
+- pick
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.4
+device_model:
+- pal_tiago
+end_effector_type: two_finger_gripper

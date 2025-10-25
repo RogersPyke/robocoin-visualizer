@@ -1,0 +1,26 @@
+dataset_name: pick_textile_c_to_furniture_c_1940
+dataset_uuid: 8e2f0791-d907-4eb4-b19f-cd7cfda76188
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_furniture_c
+scene_type:
+- cafe
+atomic_actions:
+- place
+- rotate
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- unitree_h1
+end_effector_type: two_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_furniture_e_to_stationery_a_2935
+dataset_uuid: f255f4e1-27df-45c9-8678-67591fcc4af5
+task_descriptions:
+- pick_the_furniture_e_and_place_in_the_stationery_a
+scene_type:
+- home
+atomic_actions:
+- lift
+- grasp
+- pull
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,26 @@
+dataset_name: pick_toy_c_to_furniture_a_8995
+dataset_uuid: 04bf1854-99ef-4706-b9ad-40391ee2a493
+task_descriptions:
+- pick_the_toy_c_and_place_in_the_furniture_a
+scene_type:
+- factory
+atomic_actions:
+- rotate
+- slide
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

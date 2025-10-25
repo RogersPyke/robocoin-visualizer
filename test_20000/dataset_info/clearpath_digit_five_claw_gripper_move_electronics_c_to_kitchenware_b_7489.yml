@@ -1,0 +1,28 @@
+dataset_name: move_electronics_c_to_kitchenware_b_7489
+dataset_uuid: 2d86b56f-c27e-4960-900f-171fead2bfa6
+task_descriptions:
+- move_the_electronics_c_and_place_in_the_kitchenware_b
+scene_type:
+- factory
+atomic_actions:
+- push
+- flip
+- lower
+- grasp
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 72.0
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

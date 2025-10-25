@@ -1,0 +1,29 @@
+dataset_name: pick_textile_e_to_fruit_c_5460
+dataset_uuid: 32ff6c2c-1a5e-455a-b307-3e871604b268
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_fruit_c
+scene_type:
+- restaurant
+- cafe
+atomic_actions:
+- flip
+- grasp
+- pull
+- rotate
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.4
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

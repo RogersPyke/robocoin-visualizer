@@ -1,0 +1,27 @@
+dataset_name: pick_textile_c_to_furniture_d_5316
+dataset_uuid: 9ba2272d-9296-4f16-91b5-c01d888e709f
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_furniture_d
+scene_type:
+- factory
+atomic_actions:
+- place
+- flip
+- lift
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- clearpath_spot
+end_effector_type: suction_cup

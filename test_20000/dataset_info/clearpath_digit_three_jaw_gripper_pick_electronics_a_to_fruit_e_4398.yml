@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_a_to_fruit_e_4398
+dataset_uuid: 8ed890f0-8ed0-4bc2-bbcc-4c3086b18f45
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_fruit_e
+scene_type:
+- hospital
+atomic_actions:
+- pick
+- lower
+- remove
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+operation_platform_height: 78.2
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

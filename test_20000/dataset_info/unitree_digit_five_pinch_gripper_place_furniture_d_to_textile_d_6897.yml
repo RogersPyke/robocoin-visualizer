@@ -1,0 +1,29 @@
+dataset_name: place_furniture_d_to_textile_d_6897
+dataset_uuid: e6f979dc-309d-46f9-9abe-44aa88a16883
+task_descriptions:
+- place_the_furniture_d_and_place_in_the_textile_d
+scene_type:
+- hospital
+- kitchen
+- office
+atomic_actions:
+- remove
+- rotate
+- grasp
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

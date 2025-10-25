@@ -1,0 +1,26 @@
+dataset_name: pick_container_c_to_toy_c_2462
+dataset_uuid: de977c7b-195e-4611-8462-ab132c1f5763
+task_descriptions:
+- pick_the_container_c_and_place_in_the_toy_c
+scene_type:
+- warehouse
+atomic_actions:
+- push
+- pull
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- clearpath_cassie
+end_effector_type: two_pinch_gripper

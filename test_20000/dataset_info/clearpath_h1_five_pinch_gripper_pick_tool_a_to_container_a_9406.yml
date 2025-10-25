@@ -1,0 +1,30 @@
+dataset_name: pick_tool_a_to_container_a_9406
+dataset_uuid: 9554f19e-c094-4cf0-bdf4-6368561d26e4
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_container_a
+scene_type:
+- cafe
+- hospital
+- office
+atomic_actions:
+- pull
+- lift
+- insert
+- lower
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.8
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

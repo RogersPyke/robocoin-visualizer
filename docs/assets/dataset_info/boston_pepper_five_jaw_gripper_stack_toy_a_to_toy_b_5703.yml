@@ -1,0 +1,30 @@
+dataset_name: stack_toy_a_to_toy_b_5703
+dataset_uuid: f71289e0-52a1-4782-a97b-7da7e4ec939b
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_toy_b
+scene_type:
+- laboratory
+- restaurant
+- store
+atomic_actions:
+- pick
+- rotate
+- grasp
+- insert
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- boston_pepper
+end_effector_type: five_jaw_gripper

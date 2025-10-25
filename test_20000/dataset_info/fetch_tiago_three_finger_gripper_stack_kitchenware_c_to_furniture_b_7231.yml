@@ -1,0 +1,27 @@
+dataset_name: stack_kitchenware_c_to_furniture_b_7231
+dataset_uuid: 23816b08-b4bc-4c19-a941-105f47e2fab4
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_furniture_b
+scene_type:
+- warehouse
+- factory
+atomic_actions:
+- remove
+- grasp
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 77.8
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

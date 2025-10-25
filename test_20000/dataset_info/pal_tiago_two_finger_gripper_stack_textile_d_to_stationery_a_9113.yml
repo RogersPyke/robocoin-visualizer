@@ -1,0 +1,30 @@
+dataset_name: stack_textile_d_to_stationery_a_9113
+dataset_uuid: 317ecf61-48d3-4969-bab0-f4a1ad79e333
+task_descriptions:
+- stack_the_textile_d_and_place_in_the_stationery_a
+scene_type:
+- cafe
+- laboratory
+- factory
+atomic_actions:
+- rotate
+- grasp
+- lift
+- lower
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- pal_tiago
+end_effector_type: two_finger_gripper

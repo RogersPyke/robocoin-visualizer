@@ -1,0 +1,30 @@
+dataset_name: pick_utensil_b_to_fruit_e_7346
+dataset_uuid: d6fd0f2c-01bf-4e90-b511-03addff952dc
+task_descriptions:
+- pick_the_utensil_b_and_place_in_the_fruit_e
+scene_type:
+- warehouse
+- factory
+- cafe
+atomic_actions:
+- lower
+- lift
+- pull
+- pick
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

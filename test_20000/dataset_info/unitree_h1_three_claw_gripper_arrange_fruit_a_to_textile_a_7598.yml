@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_a_to_textile_a_7598
+dataset_uuid: d203ed4a-3c39-455b-a256-bbdf455b164c
+task_descriptions:
+- arrange_the_fruit_a_and_place_in_the_textile_a
+scene_type:
+- cafe
+- office
+- store
+atomic_actions:
+- pick
+- push
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.0
+device_model:
+- unitree_h1
+end_effector_type: three_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_tool_b_to_container_c_8778
+dataset_uuid: 43d0892e-6ab3-463b-b8e1-498ac225a647
+task_descriptions:
+- arrange_the_tool_b_and_place_in_the_container_c
+scene_type:
+- home
+- store
+- laboratory
+atomic_actions:
+- grasp
+- slide
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.9
+device_model:
+- agility_cassie
+end_effector_type: suction_cup

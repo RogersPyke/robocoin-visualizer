@@ -1,0 +1,30 @@
+dataset_name: stack_toy_c_to_fruit_b_8890
+dataset_uuid: 948b2ba7-82b0-4ab8-b9dd-76d1b4c49a00
+task_descriptions:
+- stack_the_toy_c_and_place_in_the_fruit_b
+scene_type:
+- cafe
+- store
+- kitchen
+atomic_actions:
+- pick
+- lower
+- remove
+- slide
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

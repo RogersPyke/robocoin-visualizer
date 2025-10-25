@@ -1,0 +1,29 @@
+dataset_name: arrange_kitchenware_d_to_utensil_d_5208
+dataset_uuid: e00b61d5-2240-422e-9bf9-f19397d9c448
+task_descriptions:
+- arrange_the_kitchenware_d_and_place_in_the_utensil_d
+scene_type:
+- kitchen
+- cafe
+atomic_actions:
+- push
+- rotate
+- lift
+- grasp
+objects:
+- object_name: kitchenware_d
+  level1: kitchenware
+  level2: kitchenware_d
+  level3: kitchenware_d_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.6
+device_model:
+- unitree_g1
+end_effector_type: two_pinch_gripper

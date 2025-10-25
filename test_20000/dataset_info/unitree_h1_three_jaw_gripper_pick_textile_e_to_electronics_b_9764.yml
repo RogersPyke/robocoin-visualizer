@@ -1,0 +1,27 @@
+dataset_name: pick_textile_e_to_electronics_b_9764
+dataset_uuid: be31585d-c30d-45ac-a600-f32bdb7180e2
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_electronics_b
+scene_type:
+- factory
+atomic_actions:
+- remove
+- lower
+- rotate
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

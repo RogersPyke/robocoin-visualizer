@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_a_to_utensil_b_3585
+dataset_uuid: 1b1686bc-96e0-40ee-9b96-fa1fcf9f0506
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_utensil_b
+scene_type:
+- store
+- hospital
+- kitchen
+atomic_actions:
+- pick
+- remove
+- insert
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.2
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

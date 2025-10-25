@@ -1,0 +1,27 @@
+dataset_name: move_container_b_to_kitchenware_a_6424
+dataset_uuid: f63aceff-53c1-4ba1-b04d-479ad5dbafd1
+task_descriptions:
+- move_the_container_b_and_place_in_the_kitchenware_a
+scene_type:
+- store
+atomic_actions:
+- lower
+- place
+- remove
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.7
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

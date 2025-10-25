@@ -1,0 +1,28 @@
+dataset_name: move_container_c_to_toy_a_9772
+dataset_uuid: e2672e04-912d-4fa0-a61f-1746ed61c4ef
+task_descriptions:
+- move_the_container_c_and_place_in_the_toy_a
+scene_type:
+- factory
+- store
+- home
+atomic_actions:
+- flip
+- grasp
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.7
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_toy_b_to_beverage_d_8560
+dataset_uuid: 62bb5431-ec5d-45cb-91fe-4555dedf28ef
+task_descriptions:
+- place_the_toy_b_and_place_in_the_beverage_d
+scene_type:
+- hospital
+- home
+- office
+atomic_actions:
+- flip
+- place
+- lower
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.9
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

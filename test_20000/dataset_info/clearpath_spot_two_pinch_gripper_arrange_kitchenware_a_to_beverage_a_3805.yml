@@ -1,0 +1,28 @@
+dataset_name: arrange_kitchenware_a_to_beverage_a_3805
+dataset_uuid: ad2ffce5-158d-4fc3-a3c8-de0647b4cf7f
+task_descriptions:
+- arrange_the_kitchenware_a_and_place_in_the_beverage_a
+scene_type:
+- store
+atomic_actions:
+- push
+- place
+- slide
+- rotate
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.9
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

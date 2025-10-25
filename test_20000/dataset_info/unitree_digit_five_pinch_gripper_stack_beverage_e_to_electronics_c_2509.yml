@@ -1,0 +1,28 @@
+dataset_name: stack_beverage_e_to_electronics_c_2509
+dataset_uuid: 721ac6a1-3dce-4f0d-b813-bc0f45cd3815
+task_descriptions:
+- stack_the_beverage_e_and_place_in_the_electronics_c
+scene_type:
+- hospital
+atomic_actions:
+- remove
+- place
+- grasp
+- lift
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 89.0
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

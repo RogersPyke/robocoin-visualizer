@@ -1,0 +1,27 @@
+dataset_name: pick_fruit_a_to_stationery_b_9877
+dataset_uuid: 02c86be1-b8f8-4001-ae69-d6dcf5de614b
+task_descriptions:
+- pick_the_fruit_a_and_place_in_the_stationery_b
+scene_type:
+- home
+atomic_actions:
+- slide
+- grasp
+- pull
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

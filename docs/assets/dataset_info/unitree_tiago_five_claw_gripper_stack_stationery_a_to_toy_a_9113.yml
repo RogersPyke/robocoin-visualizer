@@ -1,0 +1,28 @@
+dataset_name: stack_stationery_a_to_toy_a_9113
+dataset_uuid: 577679b6-2959-497f-9efc-df6f976e64ae
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_toy_a
+scene_type:
+- kitchen
+- restaurant
+atomic_actions:
+- pick
+- pull
+- lift
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- unitree_tiago
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_container_b_to_food_c_9222
+dataset_uuid: 2f4dd3fd-ba50-47b0-b8bf-bc8c87277762
+task_descriptions:
+- move_the_container_b_and_place_in_the_food_c
+scene_type:
+- hospital
+- warehouse
+atomic_actions:
+- push
+- insert
+- pick
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.1
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

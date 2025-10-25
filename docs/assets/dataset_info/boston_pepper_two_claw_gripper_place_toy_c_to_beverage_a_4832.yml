@@ -1,0 +1,28 @@
+dataset_name: place_toy_c_to_beverage_a_4832
+dataset_uuid: 868ef203-ef1c-4648-90e6-6802d6e28985
+task_descriptions:
+- place_the_toy_c_and_place_in_the_beverage_a
+scene_type:
+- cafe
+atomic_actions:
+- lift
+- remove
+- grasp
+- pull
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- boston_pepper
+end_effector_type: two_claw_gripper

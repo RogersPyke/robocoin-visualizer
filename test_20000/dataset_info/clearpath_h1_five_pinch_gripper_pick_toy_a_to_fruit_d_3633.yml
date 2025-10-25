@@ -1,0 +1,30 @@
+dataset_name: pick_toy_a_to_fruit_d_3633
+dataset_uuid: b20c6b1e-dac6-46de-a309-4d79a80e538a
+task_descriptions:
+- pick_the_toy_a_and_place_in_the_fruit_d
+scene_type:
+- restaurant
+- cafe
+- hospital
+atomic_actions:
+- lower
+- grasp
+- remove
+- pick
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.9
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_c_to_furniture_b_6787
+dataset_uuid: 984ba8c5-1a2c-4e00-a0e5-2f922dbcd615
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_furniture_b
+scene_type:
+- store
+- cafe
+atomic_actions:
+- push
+- lift
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 70.9
+device_model:
+- unitree_h1
+end_effector_type: five_claw_gripper

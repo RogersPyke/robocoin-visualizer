@@ -1,0 +1,26 @@
+dataset_name: move_fruit_b_to_beverage_d_1719
+dataset_uuid: ac08ec83-d4dc-4297-b779-02305ba8324b
+task_descriptions:
+- move_the_fruit_b_and_place_in_the_beverage_d
+scene_type:
+- store
+atomic_actions:
+- rotate
+- lower
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- boston_digit
+end_effector_type: two_finger_gripper

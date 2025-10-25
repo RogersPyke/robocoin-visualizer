@@ -1,0 +1,30 @@
+dataset_name: place_stationery_a_to_tool_d_1491
+dataset_uuid: 8b19d50b-74e2-4927-9f69-588c0e7d53df
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_tool_d
+scene_type:
+- factory
+- kitchen
+- restaurant
+atomic_actions:
+- rotate
+- lower
+- slide
+- push
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

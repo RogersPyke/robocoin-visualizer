@@ -1,0 +1,28 @@
+dataset_name: place_fruit_b_to_tool_c_9935
+dataset_uuid: 63b7b08f-22b0-42e9-af65-ed1d5f897671
+task_descriptions:
+- place_the_fruit_b_and_place_in_the_tool_c
+scene_type:
+- factory
+- warehouse
+atomic_actions:
+- push
+- grasp
+- rotate
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: move_kitchenware_c_to_utensil_c_4846
+dataset_uuid: c5a07951-96e5-431e-bc73-a4b5a974e671
+task_descriptions:
+- move_the_kitchenware_c_and_place_in_the_utensil_c
+scene_type:
+- hospital
+- cafe
+atomic_actions:
+- lower
+- grasp
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

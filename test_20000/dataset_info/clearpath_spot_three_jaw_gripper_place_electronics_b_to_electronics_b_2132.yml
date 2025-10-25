@@ -1,0 +1,28 @@
+dataset_name: place_electronics_b_to_electronics_b_2132
+dataset_uuid: 44140da2-ab6f-4eb3-a4b9-92ba22a2a37d
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_electronics_b
+scene_type:
+- home
+atomic_actions:
+- place
+- pull
+- slide
+- lower
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

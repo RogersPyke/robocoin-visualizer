@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_c_to_electronics_b_3607
+dataset_uuid: bd213de1-cbfb-4b50-b8a0-7e186974e14d
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_electronics_b
+scene_type:
+- cafe
+- laboratory
+- kitchen
+atomic_actions:
+- remove
+- pick
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- agility_cassie
+end_effector_type: two_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_d_to_beverage_e_7852
+dataset_uuid: 0ec6625a-f4a4-4fa4-927c-95344347f3ed
+task_descriptions:
+- arrange_the_toy_d_and_place_in_the_beverage_e
+scene_type:
+- office
+- cafe
+- store
+atomic_actions:
+- flip
+- remove
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.1
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

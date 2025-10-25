@@ -1,0 +1,27 @@
+dataset_name: pick_textile_e_to_furniture_c_7193
+dataset_uuid: 2c2ed7d5-f564-4b70-9fe7-1a845796cd9f
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_furniture_c
+scene_type:
+- hospital
+atomic_actions:
+- place
+- insert
+- lift
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.4
+device_model:
+- unitree_tiago
+end_effector_type: five_jaw_gripper

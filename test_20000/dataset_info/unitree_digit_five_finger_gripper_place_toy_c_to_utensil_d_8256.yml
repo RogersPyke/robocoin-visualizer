@@ -1,0 +1,28 @@
+dataset_name: place_toy_c_to_utensil_d_8256
+dataset_uuid: 4506ccb7-7d88-46e9-bdde-cb0c7a8c7642
+task_descriptions:
+- place_the_toy_c_and_place_in_the_utensil_d
+scene_type:
+- warehouse
+- factory
+- home
+atomic_actions:
+- pick
+- push
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

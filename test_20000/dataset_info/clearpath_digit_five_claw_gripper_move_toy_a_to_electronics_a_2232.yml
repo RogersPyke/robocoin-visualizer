@@ -1,0 +1,26 @@
+dataset_name: move_toy_a_to_electronics_a_2232
+dataset_uuid: 74510884-c839-43f2-b1f1-a647ebf49ffb
+task_descriptions:
+- move_the_toy_a_and_place_in_the_electronics_a
+scene_type:
+- warehouse
+atomic_actions:
+- remove
+- insert
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.7
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_furniture_c_to_electronics_a_2416
+dataset_uuid: 248acfce-a87e-4a34-a147-daf89f857d16
+task_descriptions:
+- pick_the_furniture_c_and_place_in_the_electronics_a
+scene_type:
+- office
+- home
+- hospital
+atomic_actions:
+- rotate
+- slide
+- grasp
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

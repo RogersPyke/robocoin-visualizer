@@ -1,0 +1,28 @@
+dataset_name: stack_tool_d_to_beverage_d_5609
+dataset_uuid: 69d03bb9-6c7d-4c8f-a2e9-b645a1dfa649
+task_descriptions:
+- stack_the_tool_d_and_place_in_the_beverage_d
+scene_type:
+- home
+- store
+atomic_actions:
+- flip
+- place
+- remove
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- boston_tiago
+end_effector_type: two_finger_gripper

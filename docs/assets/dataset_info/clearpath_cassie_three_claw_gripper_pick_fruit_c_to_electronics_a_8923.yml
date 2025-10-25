@@ -1,0 +1,29 @@
+dataset_name: pick_fruit_c_to_electronics_a_8923
+dataset_uuid: ab99ca30-bd0e-4107-abd5-7534cffc68cc
+task_descriptions:
+- pick_the_fruit_c_and_place_in_the_electronics_a
+scene_type:
+- restaurant
+- office
+atomic_actions:
+- remove
+- place
+- pull
+- grasp
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- clearpath_cassie
+end_effector_type: three_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_kitchenware_b_to_textile_d_9799
+dataset_uuid: d37b04fa-4bc8-4467-b79e-7186eb6dcd3c
+task_descriptions:
+- arrange_the_kitchenware_b_and_place_in_the_textile_d
+scene_type:
+- factory
+- store
+- hospital
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+operation_platform_height: 70.3
+device_model:
+- clearpath_h1
+end_effector_type: two_jaw_gripper

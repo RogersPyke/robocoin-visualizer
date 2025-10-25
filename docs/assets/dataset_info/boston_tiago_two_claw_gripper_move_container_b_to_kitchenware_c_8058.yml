@@ -1,0 +1,27 @@
+dataset_name: move_container_b_to_kitchenware_c_8058
+dataset_uuid: c455dc7b-3443-4dd4-822c-710b209a8425
+task_descriptions:
+- move_the_container_b_and_place_in_the_kitchenware_c
+scene_type:
+- factory
+atomic_actions:
+- pull
+- remove
+- grasp
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.8
+device_model:
+- boston_tiago
+end_effector_type: two_claw_gripper

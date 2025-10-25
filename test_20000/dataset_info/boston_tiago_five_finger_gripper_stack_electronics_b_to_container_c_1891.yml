@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_b_to_container_c_1891
+dataset_uuid: cfc345e9-4290-49ab-a667-85ae6ec760c9
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_container_c
+scene_type:
+- restaurant
+- hospital
+- kitchen
+atomic_actions:
+- lower
+- place
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: arrange_toy_c_to_container_b_2054
+dataset_uuid: 72bec063-b312-477c-80ed-0ad158d725ab
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_container_b
+scene_type:
+- home
+- laboratory
+atomic_actions:
+- flip
+- slide
+- pull
+- pick
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

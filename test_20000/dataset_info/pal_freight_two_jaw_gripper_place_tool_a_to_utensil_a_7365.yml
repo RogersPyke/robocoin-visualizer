@@ -1,0 +1,28 @@
+dataset_name: place_tool_a_to_utensil_a_7365
+dataset_uuid: 2439f0fc-2ae5-4c36-bdc6-051afb0b1a6d
+task_descriptions:
+- place_the_tool_a_and_place_in_the_utensil_a
+scene_type:
+- store
+atomic_actions:
+- flip
+- lower
+- grasp
+- push
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

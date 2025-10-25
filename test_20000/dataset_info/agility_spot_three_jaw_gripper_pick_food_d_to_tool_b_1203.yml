@@ -1,0 +1,26 @@
+dataset_name: pick_food_d_to_tool_b_1203
+dataset_uuid: 3b3b54c9-8172-47c8-83a5-ca086c11c680
+task_descriptions:
+- pick_the_food_d_and_place_in_the_tool_b
+scene_type:
+- restaurant
+atomic_actions:
+- rotate
+- grasp
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.0
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_utensil_d_to_container_b_6116
+dataset_uuid: 5af91836-52a6-40cf-8bc2-df2a6588a452
+task_descriptions:
+- place_the_utensil_d_and_place_in_the_container_b
+scene_type:
+- laboratory
+- restaurant
+atomic_actions:
+- place
+- flip
+- pick
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.0
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

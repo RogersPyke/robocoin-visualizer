@@ -1,0 +1,26 @@
+dataset_name: arrange_beverage_d_to_beverage_a_5547
+dataset_uuid: 9e0c62a2-fcf8-4abf-9097-27d8e10dfd17
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_beverage_a
+scene_type:
+- office
+atomic_actions:
+- pull
+- remove
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+operation_platform_height: 71.5
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

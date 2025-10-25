@@ -1,0 +1,29 @@
+dataset_name: move_toy_c_to_toy_a_7611
+dataset_uuid: b9a2e169-cfaf-44ca-8256-61bae5af283a
+task_descriptions:
+- move_the_toy_c_and_place_in_the_toy_a
+scene_type:
+- kitchen
+- store
+- home
+atomic_actions:
+- pull
+- pick
+- slide
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

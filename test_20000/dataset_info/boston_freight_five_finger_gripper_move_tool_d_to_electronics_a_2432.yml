@@ -1,0 +1,30 @@
+dataset_name: move_tool_d_to_electronics_a_2432
+dataset_uuid: 384c2bdf-a2c4-40b1-9710-2ec645b3226e
+task_descriptions:
+- move_the_tool_d_and_place_in_the_electronics_a
+scene_type:
+- store
+- laboratory
+- office
+atomic_actions:
+- place
+- lift
+- remove
+- insert
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

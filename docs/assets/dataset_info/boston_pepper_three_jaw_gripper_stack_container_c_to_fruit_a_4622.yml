@@ -1,0 +1,29 @@
+dataset_name: stack_container_c_to_fruit_a_4622
+dataset_uuid: bfd7285a-7a9f-416f-ae47-f5fa1eb49921
+task_descriptions:
+- stack_the_container_c_and_place_in_the_fruit_a
+scene_type:
+- warehouse
+- office
+atomic_actions:
+- flip
+- lift
+- insert
+- rotate
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- boston_pepper
+end_effector_type: three_jaw_gripper

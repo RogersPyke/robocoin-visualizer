@@ -1,0 +1,28 @@
+dataset_name: pick_beverage_a_to_textile_b_6514
+dataset_uuid: 785b3cdd-466d-4c8d-92e6-0846d175a94a
+task_descriptions:
+- pick_the_beverage_a_and_place_in_the_textile_b
+scene_type:
+- office
+- kitchen
+- factory
+atomic_actions:
+- place
+- flip
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

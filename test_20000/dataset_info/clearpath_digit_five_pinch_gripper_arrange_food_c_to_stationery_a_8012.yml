@@ -1,0 +1,29 @@
+dataset_name: arrange_food_c_to_stationery_a_8012
+dataset_uuid: d0d28eff-bdcf-4665-9c61-cbd7fdf205a2
+task_descriptions:
+- arrange_the_food_c_and_place_in_the_stationery_a
+scene_type:
+- store
+- restaurant
+- factory
+atomic_actions:
+- place
+- pick
+- flip
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_container_a_to_kitchenware_b_8363
+dataset_uuid: 4ef32326-5e18-443a-a6e8-25c506b8dc24
+task_descriptions:
+- place_the_container_a_and_place_in_the_kitchenware_b
+scene_type:
+- hospital
+atomic_actions:
+- pull
+- remove
+- lower
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.6
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

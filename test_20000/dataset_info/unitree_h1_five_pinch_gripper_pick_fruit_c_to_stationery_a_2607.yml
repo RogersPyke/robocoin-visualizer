@@ -1,0 +1,27 @@
+dataset_name: pick_fruit_c_to_stationery_a_2607
+dataset_uuid: 8379e6bd-7359-4410-b7cd-b112d8326a51
+task_descriptions:
+- pick_the_fruit_c_and_place_in_the_stationery_a
+scene_type:
+- laboratory
+- warehouse
+atomic_actions:
+- pull
+- insert
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

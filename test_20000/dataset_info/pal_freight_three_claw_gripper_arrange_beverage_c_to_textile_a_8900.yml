@@ -1,0 +1,28 @@
+dataset_name: arrange_beverage_c_to_textile_a_8900
+dataset_uuid: 9a7b7e4a-2418-43ea-9d5c-d4884ac37658
+task_descriptions:
+- arrange_the_beverage_c_and_place_in_the_textile_a
+scene_type:
+- cafe
+atomic_actions:
+- pick
+- place
+- slide
+- grasp
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.9
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

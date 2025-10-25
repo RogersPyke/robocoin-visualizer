@@ -1,0 +1,28 @@
+dataset_name: arrange_utensil_b_to_furniture_c_8935
+dataset_uuid: 1e4d4168-81a5-4b5f-a8ff-cdbc398884b1
+task_descriptions:
+- arrange_the_utensil_b_and_place_in_the_furniture_c
+scene_type:
+- restaurant
+- laboratory
+atomic_actions:
+- push
+- rotate
+- pull
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.7
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

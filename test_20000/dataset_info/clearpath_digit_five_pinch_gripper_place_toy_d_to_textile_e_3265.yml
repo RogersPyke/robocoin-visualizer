@@ -1,0 +1,28 @@
+dataset_name: place_toy_d_to_textile_e_3265
+dataset_uuid: 5cd05bd6-b83c-445b-8a28-a2a16bf36c9b
+task_descriptions:
+- place_the_toy_d_and_place_in_the_textile_e
+scene_type:
+- factory
+atomic_actions:
+- push
+- place
+- slide
+- remove
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

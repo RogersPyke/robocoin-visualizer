@@ -1,0 +1,28 @@
+dataset_name: pick_toy_c_to_container_b_9201
+dataset_uuid: e94c9af6-580e-4664-b741-1d27bad45b4e
+task_descriptions:
+- pick_the_toy_c_and_place_in_the_container_b
+scene_type:
+- home
+atomic_actions:
+- flip
+- place
+- remove
+- push
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- pal_freight
+end_effector_type: three_finger_gripper

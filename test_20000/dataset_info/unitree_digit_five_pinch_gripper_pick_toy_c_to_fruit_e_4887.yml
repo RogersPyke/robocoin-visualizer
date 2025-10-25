@@ -1,0 +1,28 @@
+dataset_name: pick_toy_c_to_fruit_e_4887
+dataset_uuid: b6f2b432-dc6b-4879-97e9-68853c77354f
+task_descriptions:
+- pick_the_toy_c_and_place_in_the_fruit_e
+scene_type:
+- cafe
+atomic_actions:
+- lift
+- push
+- remove
+- rotate
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

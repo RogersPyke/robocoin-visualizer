@@ -1,0 +1,28 @@
+dataset_name: move_beverage_d_to_container_a_1849
+dataset_uuid: 2876d969-ab73-486f-9bcf-a24644d5f36f
+task_descriptions:
+- move_the_beverage_d_and_place_in_the_container_a
+scene_type:
+- factory
+atomic_actions:
+- flip
+- pull
+- push
+- grasp
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.8
+device_model:
+- boston_h1
+end_effector_type: five_claw_gripper

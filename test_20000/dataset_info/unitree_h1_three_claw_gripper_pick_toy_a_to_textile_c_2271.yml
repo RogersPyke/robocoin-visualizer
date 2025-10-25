@@ -1,0 +1,29 @@
+dataset_name: pick_toy_a_to_textile_c_2271
+dataset_uuid: 71b1b045-985c-4e03-b0b2-e4bddc6194aa
+task_descriptions:
+- pick_the_toy_a_and_place_in_the_textile_c
+scene_type:
+- home
+- restaurant
+- factory
+atomic_actions:
+- pull
+- flip
+- grasp
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 83.6
+device_model:
+- unitree_h1
+end_effector_type: three_claw_gripper

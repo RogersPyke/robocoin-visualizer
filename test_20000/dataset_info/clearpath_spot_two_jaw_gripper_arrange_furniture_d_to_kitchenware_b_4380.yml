@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_d_to_kitchenware_b_4380
+dataset_uuid: b0261b2c-e0b0-4c20-af91-b028f8cddb82
+task_descriptions:
+- arrange_the_furniture_d_and_place_in_the_kitchenware_b
+scene_type:
+- home
+atomic_actions:
+- slide
+- remove
+- place
+- grasp
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_b_to_tool_b_8011
+dataset_uuid: cc5a81ad-4504-41cc-b6ad-8a9000212c88
+task_descriptions:
+- stack_the_stationery_b_and_place_in_the_tool_b
+scene_type:
+- office
+- factory
+atomic_actions:
+- slide
+- rotate
+- pull
+- pick
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.0
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

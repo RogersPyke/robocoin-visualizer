@@ -1,0 +1,27 @@
+dataset_name: place_stationery_a_to_furniture_b_3428
+dataset_uuid: e046958f-1d6b-46a5-aefa-bd40e8f720a9
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_furniture_b
+scene_type:
+- laboratory
+atomic_actions:
+- pick
+- push
+- lift
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

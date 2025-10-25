@@ -1,0 +1,30 @@
+dataset_name: arrange_kitchenware_c_to_tool_a_3049
+dataset_uuid: b90b6b0b-0653-4568-8ab9-20acbe8cb97b
+task_descriptions:
+- arrange_the_kitchenware_c_and_place_in_the_tool_a
+scene_type:
+- warehouse
+- kitchen
+- factory
+atomic_actions:
+- slide
+- lower
+- pick
+- place
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

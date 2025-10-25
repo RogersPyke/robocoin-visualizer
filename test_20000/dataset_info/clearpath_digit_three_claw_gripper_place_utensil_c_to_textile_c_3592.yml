@@ -1,0 +1,30 @@
+dataset_name: place_utensil_c_to_textile_c_3592
+dataset_uuid: ea26d1c9-01b6-413a-8583-f4179ee0044a
+task_descriptions:
+- place_the_utensil_c_and_place_in_the_textile_c
+scene_type:
+- store
+- office
+- laboratory
+atomic_actions:
+- lower
+- remove
+- push
+- pull
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

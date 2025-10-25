@@ -1,0 +1,28 @@
+dataset_name: place_textile_e_to_food_c_1586
+dataset_uuid: 468e99ec-f70d-440c-ad9c-b2c2530de7db
+task_descriptions:
+- place_the_textile_e_and_place_in_the_food_c
+scene_type:
+- restaurant
+- office
+- warehouse
+atomic_actions:
+- rotate
+- remove
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- boston_atlas
+end_effector_type: three_finger_gripper

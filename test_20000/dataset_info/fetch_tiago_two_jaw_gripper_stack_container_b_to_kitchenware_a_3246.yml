@@ -1,0 +1,29 @@
+dataset_name: stack_container_b_to_kitchenware_a_3246
+dataset_uuid: 8fb76e17-4150-4627-9074-1f41a1740884
+task_descriptions:
+- stack_the_container_b_and_place_in_the_kitchenware_a
+scene_type:
+- factory
+- kitchen
+atomic_actions:
+- remove
+- slide
+- grasp
+- flip
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+operation_platform_height: 89.2
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,30 @@
+dataset_name: place_furniture_a_to_beverage_d_9208
+dataset_uuid: 59c2f7ed-1c10-4e42-9f12-ab168fa2bb3e
+task_descriptions:
+- place_the_furniture_a_and_place_in_the_beverage_d
+scene_type:
+- laboratory
+- office
+- cafe
+atomic_actions:
+- push
+- rotate
+- pick
+- flip
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.3
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

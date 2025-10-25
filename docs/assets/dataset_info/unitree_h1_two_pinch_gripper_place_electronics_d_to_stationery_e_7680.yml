@@ -1,0 +1,29 @@
+dataset_name: place_electronics_d_to_stationery_e_7680
+dataset_uuid: e5eac1d9-318f-4ef8-9fd7-8bade3719a20
+task_descriptions:
+- place_the_electronics_d_and_place_in_the_stationery_e
+scene_type:
+- laboratory
+- office
+atomic_actions:
+- insert
+- push
+- rotate
+- slide
+objects:
+- object_name: electronics_d
+  level1: electronics
+  level2: electronics_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_e
+  level1: stationery
+  level2: stationery_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.9
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

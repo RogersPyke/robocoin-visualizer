@@ -1,0 +1,27 @@
+dataset_name: arrange_textile_a_to_container_c_5959
+dataset_uuid: 459e710c-f280-4cf1-890c-2c337db2dc68
+task_descriptions:
+- arrange_the_textile_a_and_place_in_the_container_c
+scene_type:
+- home
+- factory
+atomic_actions:
+- slide
+- pick
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.0
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

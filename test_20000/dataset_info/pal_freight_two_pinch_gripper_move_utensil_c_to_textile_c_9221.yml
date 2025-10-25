@@ -1,0 +1,28 @@
+dataset_name: move_utensil_c_to_textile_c_9221
+dataset_uuid: 9a87d706-2a98-43a4-a9c1-c685d2652556
+task_descriptions:
+- move_the_utensil_c_and_place_in_the_textile_c
+scene_type:
+- cafe
+- restaurant
+atomic_actions:
+- push
+- grasp
+- place
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.0
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

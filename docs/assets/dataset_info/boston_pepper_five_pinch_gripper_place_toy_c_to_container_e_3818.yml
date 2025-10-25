@@ -1,0 +1,29 @@
+dataset_name: place_toy_c_to_container_e_3818
+dataset_uuid: f097eb3b-fee0-45ba-9f90-6e365def3ab3
+task_descriptions:
+- place_the_toy_c_and_place_in_the_container_e
+scene_type:
+- restaurant
+- kitchen
+- laboratory
+atomic_actions:
+- lift
+- pull
+- rotate
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: container_e
+  level1: container
+  level2: container_e
+  level3: container_e_sub1
+  level4: container_e_sub2
+  level5: null
+operation_platform_height: 86.6
+device_model:
+- boston_pepper
+end_effector_type: five_pinch_gripper

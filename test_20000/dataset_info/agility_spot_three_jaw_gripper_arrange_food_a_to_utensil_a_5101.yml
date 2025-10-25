@@ -1,0 +1,30 @@
+dataset_name: arrange_food_a_to_utensil_a_5101
+dataset_uuid: 254c6a2a-50b8-4924-83fb-8fc984e6ca1f
+task_descriptions:
+- arrange_the_food_a_and_place_in_the_utensil_a
+scene_type:
+- store
+- home
+- kitchen
+atomic_actions:
+- pull
+- grasp
+- insert
+- place
+objects:
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

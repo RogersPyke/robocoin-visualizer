@@ -1,0 +1,27 @@
+dataset_name: place_beverage_b_to_beverage_c_4435
+dataset_uuid: 170d076c-1312-4724-8841-4a01bb171802
+task_descriptions:
+- place_the_beverage_b_and_place_in_the_beverage_c
+scene_type:
+- cafe
+- hospital
+atomic_actions:
+- push
+- lower
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_food_a_to_fruit_a_7895
+dataset_uuid: 1822f338-5fcb-48f3-9fcc-914a8fd93846
+task_descriptions:
+- stack_the_food_a_and_place_in_the_fruit_a
+scene_type:
+- store
+atomic_actions:
+- place
+- flip
+- rotate
+objects:
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.8
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

@@ -1,0 +1,26 @@
+dataset_name: stack_toy_c_to_furniture_b_1150
+dataset_uuid: a806e84c-36a2-41bc-9be9-f6a660c47b0d
+task_descriptions:
+- stack_the_toy_c_and_place_in_the_furniture_b
+scene_type:
+- office
+atomic_actions:
+- pull
+- slide
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.5
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

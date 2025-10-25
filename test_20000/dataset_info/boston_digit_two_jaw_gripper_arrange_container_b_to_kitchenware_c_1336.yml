@@ -1,0 +1,29 @@
+dataset_name: arrange_container_b_to_kitchenware_c_1336
+dataset_uuid: 62212fcc-26ac-46f3-9d01-556335ef7477
+task_descriptions:
+- arrange_the_container_b_and_place_in_the_kitchenware_c
+scene_type:
+- home
+- factory
+- hospital
+atomic_actions:
+- flip
+- lift
+- slide
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.4
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

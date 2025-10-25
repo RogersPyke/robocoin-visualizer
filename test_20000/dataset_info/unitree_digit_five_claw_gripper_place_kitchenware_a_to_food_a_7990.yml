@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_a_to_food_a_7990
+dataset_uuid: 47317342-628b-45d4-800d-ebc522be9b98
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_food_a
+scene_type:
+- laboratory
+- store
+- hospital
+atomic_actions:
+- insert
+- slide
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_textile_a_to_furniture_d_9851
+dataset_uuid: 30e9300d-6550-41af-94a6-37b0d7304f2e
+task_descriptions:
+- stack_the_textile_a_and_place_in_the_furniture_d
+scene_type:
+- laboratory
+atomic_actions:
+- flip
+- pick
+- lift
+- remove
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

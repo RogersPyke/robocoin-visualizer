@@ -1,0 +1,28 @@
+dataset_name: move_stationery_c_to_textile_d_9411
+dataset_uuid: 6dadedf9-538a-45c1-9491-63f03c0a9689
+task_descriptions:
+- move_the_stationery_c_and_place_in_the_textile_d
+scene_type:
+- warehouse
+- cafe
+atomic_actions:
+- flip
+- push
+- grasp
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.6
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

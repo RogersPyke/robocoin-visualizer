@@ -1,0 +1,30 @@
+dataset_name: arrange_textile_c_to_beverage_d_8632
+dataset_uuid: b406499f-c068-40be-b92a-5039824a413a
+task_descriptions:
+- arrange_the_textile_c_and_place_in_the_beverage_d
+scene_type:
+- factory
+- warehouse
+- home
+atomic_actions:
+- pick
+- grasp
+- push
+- lift
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

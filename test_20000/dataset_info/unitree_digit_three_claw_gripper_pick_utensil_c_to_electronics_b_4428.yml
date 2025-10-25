@@ -1,0 +1,30 @@
+dataset_name: pick_utensil_c_to_electronics_b_4428
+dataset_uuid: 982427da-352c-4fd9-ba27-6638751c7ea3
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_electronics_b
+scene_type:
+- store
+- hospital
+- office
+atomic_actions:
+- rotate
+- lower
+- remove
+- push
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.0
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

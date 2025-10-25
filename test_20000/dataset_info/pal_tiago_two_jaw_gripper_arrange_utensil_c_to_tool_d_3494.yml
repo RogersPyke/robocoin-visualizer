@@ -1,0 +1,28 @@
+dataset_name: arrange_utensil_c_to_tool_d_3494
+dataset_uuid: 4e45d8e2-cf2f-4442-acb0-8668f50c5364
+task_descriptions:
+- arrange_the_utensil_c_and_place_in_the_tool_d
+scene_type:
+- factory
+atomic_actions:
+- place
+- flip
+- pull
+- rotate
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.7
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

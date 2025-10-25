@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_e_to_textile_b_3690
+dataset_uuid: cb93deb0-4af7-4614-9a3e-55c6839a1eaa
+task_descriptions:
+- arrange_the_furniture_e_and_place_in_the_textile_b
+scene_type:
+- warehouse
+- laboratory
+- cafe
+atomic_actions:
+- pull
+- place
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.7
+device_model:
+- fetch_tiago
+end_effector_type: suction_cup

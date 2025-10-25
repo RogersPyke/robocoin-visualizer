@@ -1,0 +1,30 @@
+dataset_name: pick_container_c_to_textile_d_7315
+dataset_uuid: 13425a0d-c39a-426a-b361-d0e0fb4afcd5
+task_descriptions:
+- pick_the_container_c_and_place_in_the_textile_d
+scene_type:
+- laboratory
+- warehouse
+- restaurant
+atomic_actions:
+- remove
+- flip
+- lower
+- pick
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- fetch_spot
+end_effector_type: five_pinch_gripper

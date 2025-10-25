@@ -1,0 +1,28 @@
+dataset_name: place_fruit_d_to_toy_a_6088
+dataset_uuid: e60faa53-24f3-4fff-ba2f-ca44ea74d8b1
+task_descriptions:
+- place_the_fruit_d_and_place_in_the_toy_a
+scene_type:
+- hospital
+- home
+atomic_actions:
+- pick
+- lower
+- pull
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

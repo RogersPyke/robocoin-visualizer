@@ -1,0 +1,28 @@
+dataset_name: move_electronics_b_to_utensil_a_6286
+dataset_uuid: 5e3b8798-313d-45fb-9e35-2343ea8c1e8e
+task_descriptions:
+- move_the_electronics_b_and_place_in_the_utensil_a
+scene_type:
+- hospital
+- home
+atomic_actions:
+- pull
+- place
+- flip
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

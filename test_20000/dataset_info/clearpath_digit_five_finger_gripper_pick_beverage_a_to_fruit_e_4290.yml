@@ -1,0 +1,27 @@
+dataset_name: pick_beverage_a_to_fruit_e_4290
+dataset_uuid: 8d8d6217-7ca1-418d-9b48-4aacf12cce3b
+task_descriptions:
+- pick_the_beverage_a_and_place_in_the_fruit_e
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- flip
+- pull
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+operation_platform_height: 73.7
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

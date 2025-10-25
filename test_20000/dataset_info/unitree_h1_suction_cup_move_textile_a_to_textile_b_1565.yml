@@ -1,0 +1,28 @@
+dataset_name: move_textile_a_to_textile_b_1565
+dataset_uuid: 5897822e-88aa-4ee2-bb95-6866a81951b3
+task_descriptions:
+- move_the_textile_a_and_place_in_the_textile_b
+scene_type:
+- hospital
+- office
+- warehouse
+atomic_actions:
+- rotate
+- remove
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.1
+device_model:
+- unitree_h1
+end_effector_type: suction_cup

@@ -1,0 +1,28 @@
+dataset_name: place_container_a_to_furniture_b_7071
+dataset_uuid: 80a086d1-89aa-487e-9c5b-a70387bc6e3f
+task_descriptions:
+- place_the_container_a_and_place_in_the_furniture_b
+scene_type:
+- home
+- warehouse
+- restaurant
+atomic_actions:
+- remove
+- lower
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

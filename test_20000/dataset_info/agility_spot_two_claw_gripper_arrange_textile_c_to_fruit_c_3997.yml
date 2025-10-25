@@ -1,0 +1,27 @@
+dataset_name: arrange_textile_c_to_fruit_c_3997
+dataset_uuid: 86686b38-ede9-4563-82fa-e2186a9c86ee
+task_descriptions:
+- arrange_the_textile_c_and_place_in_the_fruit_c
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- push
+- rotate
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- agility_spot
+end_effector_type: two_claw_gripper

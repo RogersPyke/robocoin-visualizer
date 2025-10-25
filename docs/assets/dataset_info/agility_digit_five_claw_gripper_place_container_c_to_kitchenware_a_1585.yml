@@ -1,0 +1,27 @@
+dataset_name: place_container_c_to_kitchenware_a_1585
+dataset_uuid: 3ac0778b-81d8-47d9-a6a2-c472f1fb195f
+task_descriptions:
+- place_the_container_c_and_place_in_the_kitchenware_a
+scene_type:
+- office
+atomic_actions:
+- rotate
+- flip
+- remove
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- agility_digit
+end_effector_type: five_claw_gripper

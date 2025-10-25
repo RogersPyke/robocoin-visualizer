@@ -1,0 +1,29 @@
+dataset_name: stack_textile_a_to_container_b_1616
+dataset_uuid: 6c4b0cb5-7d9e-4de9-949e-309e6810077d
+task_descriptions:
+- stack_the_textile_a_and_place_in_the_container_b
+scene_type:
+- factory
+- cafe
+atomic_actions:
+- lift
+- push
+- remove
+- pull
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

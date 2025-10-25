@@ -1,0 +1,27 @@
+dataset_name: place_fruit_e_to_container_b_2566
+dataset_uuid: 17baa88a-4edf-4030-81d9-bcc60fb0b1a6
+task_descriptions:
+- place_the_fruit_e_and_place_in_the_container_b
+scene_type:
+- home
+atomic_actions:
+- lift
+- insert
+- grasp
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

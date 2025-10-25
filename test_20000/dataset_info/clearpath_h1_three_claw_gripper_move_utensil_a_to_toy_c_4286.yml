@@ -1,0 +1,27 @@
+dataset_name: move_utensil_a_to_toy_c_4286
+dataset_uuid: 4437caba-20b8-4492-9fbc-31fb6834e540
+task_descriptions:
+- move_the_utensil_a_and_place_in_the_toy_c
+scene_type:
+- hospital
+atomic_actions:
+- slide
+- lift
+- pick
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.6
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

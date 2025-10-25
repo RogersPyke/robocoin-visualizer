@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_a_to_furniture_e_1435
+dataset_uuid: df32ab72-9b7d-49cb-a015-73c14b645df0
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_furniture_e
+scene_type:
+- home
+- office
+- factory
+atomic_actions:
+- place
+- slide
+- pull
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

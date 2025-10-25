@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_b_to_stationery_b_4938
+dataset_uuid: 094b7b88-c411-4b41-85e0-1960b94ab891
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_stationery_b
+scene_type:
+- restaurant
+- kitchen
+- warehouse
+atomic_actions:
+- push
+- lower
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

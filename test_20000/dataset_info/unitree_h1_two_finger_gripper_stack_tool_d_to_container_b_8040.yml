@@ -1,0 +1,27 @@
+dataset_name: stack_tool_d_to_container_b_8040
+dataset_uuid: 968566de-9598-4536-b3ae-b604dd5cd560
+task_descriptions:
+- stack_the_tool_d_and_place_in_the_container_b
+scene_type:
+- hospital
+atomic_actions:
+- place
+- pick
+- lower
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- unitree_h1
+end_effector_type: two_finger_gripper

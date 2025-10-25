@@ -1,0 +1,26 @@
+dataset_name: stack_textile_e_to_tool_b_9216
+dataset_uuid: 4e8f4be9-c7be-4e5e-b0c6-e3149b8e8be3
+task_descriptions:
+- stack_the_textile_e_and_place_in_the_tool_b
+scene_type:
+- warehouse
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.2
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

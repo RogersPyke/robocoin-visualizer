@@ -1,0 +1,28 @@
+dataset_name: move_electronics_c_to_toy_c_2343
+dataset_uuid: 2dd90f1d-d06d-4347-b6fb-d7e595f4728a
+task_descriptions:
+- move_the_electronics_c_and_place_in_the_toy_c
+scene_type:
+- office
+atomic_actions:
+- place
+- flip
+- push
+- slide
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.4
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: stack_beverage_a_to_tool_a_9847
+dataset_uuid: 25798612-b41e-46a1-833b-d6b68a1b1aeb
+task_descriptions:
+- stack_the_beverage_a_and_place_in_the_tool_a
+scene_type:
+- home
+- office
+- warehouse
+atomic_actions:
+- lift
+- place
+- grasp
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- unitree_digit
+end_effector_type: two_claw_gripper

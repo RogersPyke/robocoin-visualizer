@@ -1,0 +1,29 @@
+dataset_name: arrange_container_c_to_container_b_6330
+dataset_uuid: 4cad5740-0f18-487e-aea5-e46a0e481b71
+task_descriptions:
+- arrange_the_container_c_and_place_in_the_container_b
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- rotate
+- lower
+- pick
+- lift
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.5
+device_model:
+- unitree_h1
+end_effector_type: two_finger_gripper

@@ -1,0 +1,30 @@
+dataset_name: place_fruit_d_to_utensil_c_7457
+dataset_uuid: bd552447-04d2-4d57-9a4d-c706f0c9e583
+task_descriptions:
+- place_the_fruit_d_and_place_in_the_utensil_c
+scene_type:
+- home
+- cafe
+- hospital
+atomic_actions:
+- lift
+- pick
+- insert
+- flip
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.5
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

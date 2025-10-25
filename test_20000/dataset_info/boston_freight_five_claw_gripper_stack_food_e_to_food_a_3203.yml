@@ -1,0 +1,29 @@
+dataset_name: stack_food_e_to_food_a_3203
+dataset_uuid: 273d808c-1fa0-4044-9c82-c5f84abe115d
+task_descriptions:
+- stack_the_food_e_and_place_in_the_food_a
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- pick
+- pull
+- slide
+- remove
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_a_to_stationery_a_2024
+dataset_uuid: c78d7240-c13f-4992-bfaa-75353a0a3b9f
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_stationery_a
+scene_type:
+- store
+- cafe
+atomic_actions:
+- pull
+- push
+- lower
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.0
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

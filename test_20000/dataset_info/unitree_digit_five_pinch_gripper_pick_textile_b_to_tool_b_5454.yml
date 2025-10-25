@@ -1,0 +1,29 @@
+dataset_name: pick_textile_b_to_tool_b_5454
+dataset_uuid: f04c465e-a6e5-430d-895e-9de300797ea3
+task_descriptions:
+- pick_the_textile_b_and_place_in_the_tool_b
+scene_type:
+- warehouse
+- cafe
+- hospital
+atomic_actions:
+- grasp
+- rotate
+- place
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.1
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

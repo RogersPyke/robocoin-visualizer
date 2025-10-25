@@ -1,0 +1,26 @@
+dataset_name: move_fruit_b_to_toy_c_4112
+dataset_uuid: 08d1b0db-4a43-4f14-8b8a-24efae52e0a5
+task_descriptions:
+- move_the_fruit_b_and_place_in_the_toy_c
+scene_type:
+- office
+atomic_actions:
+- lift
+- push
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 77.0
+device_model:
+- fetch_spot
+end_effector_type: two_claw_gripper

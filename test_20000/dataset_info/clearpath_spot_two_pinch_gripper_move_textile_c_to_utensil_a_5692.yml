@@ -1,0 +1,29 @@
+dataset_name: move_textile_c_to_utensil_a_5692
+dataset_uuid: 10a2bca7-6462-4050-9a62-c06cf463c558
+task_descriptions:
+- move_the_textile_c_and_place_in_the_utensil_a
+scene_type:
+- hospital
+- office
+- home
+atomic_actions:
+- rotate
+- lift
+- insert
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

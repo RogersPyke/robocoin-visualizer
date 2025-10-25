@@ -1,0 +1,27 @@
+dataset_name: place_food_d_to_stationery_c_1951
+dataset_uuid: af6c0605-803b-4bd7-9adf-12b596a027e8
+task_descriptions:
+- place_the_food_d_and_place_in_the_stationery_c
+scene_type:
+- factory
+- cafe
+atomic_actions:
+- insert
+- place
+objects:
+- object_name: food_d
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.4
+device_model:
+- unitree_h1
+end_effector_type: three_claw_gripper

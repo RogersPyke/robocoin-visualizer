@@ -1,0 +1,30 @@
+dataset_name: place_container_a_to_utensil_a_7121
+dataset_uuid: 6b6e4b3d-430c-4587-91ec-9036f3925c2c
+task_descriptions:
+- place_the_container_a_and_place_in_the_utensil_a
+scene_type:
+- home
+- laboratory
+- factory
+atomic_actions:
+- lower
+- remove
+- slide
+- place
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.9
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_food_b_to_beverage_c_6972
+dataset_uuid: 5cd0b367-c390-4d3b-8f93-f1bf53326fd5
+task_descriptions:
+- place_the_food_b_and_place_in_the_beverage_c
+scene_type:
+- cafe
+- warehouse
+- factory
+atomic_actions:
+- rotate
+- lower
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.1
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

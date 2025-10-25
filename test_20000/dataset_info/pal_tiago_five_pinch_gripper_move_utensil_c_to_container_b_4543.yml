@@ -1,0 +1,27 @@
+dataset_name: move_utensil_c_to_container_b_4543
+dataset_uuid: 41d0d9f4-8c4f-43c1-a66a-ebf1365f366b
+task_descriptions:
+- move_the_utensil_c_and_place_in_the_container_b
+scene_type:
+- store
+- kitchen
+atomic_actions:
+- lower
+- push
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

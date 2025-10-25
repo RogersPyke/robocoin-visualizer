@@ -1,0 +1,28 @@
+dataset_name: arrange_beverage_c_to_food_a_2357
+dataset_uuid: 8aa9acc3-505f-47c8-8d08-bee80695c8fc
+task_descriptions:
+- arrange_the_beverage_c_and_place_in_the_food_a
+scene_type:
+- store
+atomic_actions:
+- pull
+- slide
+- remove
+- lift
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.2
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

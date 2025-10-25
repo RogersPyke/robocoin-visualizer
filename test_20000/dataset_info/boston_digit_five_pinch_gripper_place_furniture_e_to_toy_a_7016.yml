@@ -1,0 +1,30 @@
+dataset_name: place_furniture_e_to_toy_a_7016
+dataset_uuid: d31f7184-ad39-495b-9316-b65b1eb9df72
+task_descriptions:
+- place_the_furniture_e_and_place_in_the_toy_a
+scene_type:
+- cafe
+- hospital
+- restaurant
+atomic_actions:
+- rotate
+- grasp
+- slide
+- lower
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.5
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

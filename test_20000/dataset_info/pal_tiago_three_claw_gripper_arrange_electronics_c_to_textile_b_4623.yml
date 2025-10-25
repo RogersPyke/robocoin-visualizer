@@ -1,0 +1,29 @@
+dataset_name: arrange_electronics_c_to_textile_b_4623
+dataset_uuid: 2e055151-e7c0-494e-86e2-0cc793c2fd41
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_textile_b
+scene_type:
+- kitchen
+- cafe
+- factory
+atomic_actions:
+- slide
+- pull
+- push
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

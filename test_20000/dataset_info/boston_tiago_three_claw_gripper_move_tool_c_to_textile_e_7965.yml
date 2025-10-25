@@ -1,0 +1,30 @@
+dataset_name: move_tool_c_to_textile_e_7965
+dataset_uuid: abc7d6bf-5d9f-4634-adae-e0d39183ba43
+task_descriptions:
+- move_the_tool_c_and_place_in_the_textile_e
+scene_type:
+- home
+- restaurant
+- hospital
+atomic_actions:
+- place
+- remove
+- insert
+- slide
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.6
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

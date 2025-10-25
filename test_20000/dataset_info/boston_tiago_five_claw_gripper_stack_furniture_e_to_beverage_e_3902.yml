@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_e_to_beverage_e_3902
+dataset_uuid: db81b0b2-ff10-4551-87b1-47642c5f84f7
+task_descriptions:
+- stack_the_furniture_e_and_place_in_the_beverage_e
+scene_type:
+- warehouse
+- kitchen
+atomic_actions:
+- place
+- grasp
+- remove
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

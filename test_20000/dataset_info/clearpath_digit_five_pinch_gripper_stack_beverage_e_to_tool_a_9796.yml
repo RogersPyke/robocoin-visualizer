@@ -1,0 +1,29 @@
+dataset_name: stack_beverage_e_to_tool_a_9796
+dataset_uuid: e5969cb4-808e-451c-81b2-b970efc2ba1c
+task_descriptions:
+- stack_the_beverage_e_and_place_in_the_tool_a
+scene_type:
+- hospital
+- laboratory
+atomic_actions:
+- pull
+- lift
+- slide
+- lower
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.2
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,30 @@
+dataset_name: arrange_stationery_c_to_tool_d_1220
+dataset_uuid: f02a9c40-8248-46c6-a59a-39aa979a8aae
+task_descriptions:
+- arrange_the_stationery_c_and_place_in_the_tool_d
+scene_type:
+- cafe
+- warehouse
+- office
+atomic_actions:
+- push
+- flip
+- remove
+- grasp
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

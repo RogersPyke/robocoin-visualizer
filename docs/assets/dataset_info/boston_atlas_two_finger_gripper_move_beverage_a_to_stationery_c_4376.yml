@@ -1,0 +1,28 @@
+dataset_name: move_beverage_a_to_stationery_c_4376
+dataset_uuid: 2cf8d03e-a85f-4fda-a6cb-cdf13d227a0b
+task_descriptions:
+- move_the_beverage_a_and_place_in_the_stationery_c
+scene_type:
+- kitchen
+- cafe
+atomic_actions:
+- place
+- pick
+- lower
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- boston_atlas
+end_effector_type: two_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_textile_d_to_beverage_d_1925
+dataset_uuid: 1e63b2b0-7d22-4344-bac7-6ccca892de0c
+task_descriptions:
+- arrange_the_textile_d_and_place_in_the_beverage_d
+scene_type:
+- restaurant
+- home
+atomic_actions:
+- remove
+- pull
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.6
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

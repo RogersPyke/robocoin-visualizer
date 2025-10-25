@@ -1,0 +1,30 @@
+dataset_name: pick_stationery_a_to_toy_a_9357
+dataset_uuid: 5d587b74-f127-49ee-86bf-82d1cead3441
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_toy_a
+scene_type:
+- office
+- cafe
+- kitchen
+atomic_actions:
+- grasp
+- remove
+- insert
+- place
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- pal_freight
+end_effector_type: three_finger_gripper

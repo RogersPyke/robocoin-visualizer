@@ -1,0 +1,26 @@
+dataset_name: arrange_textile_c_to_textile_c_7349
+dataset_uuid: eba9df39-84e2-438f-8a8f-7a4653b5ce8e
+task_descriptions:
+- arrange_the_textile_c_and_place_in_the_textile_c
+scene_type:
+- hospital
+atomic_actions:
+- pull
+- lift
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,30 @@
+dataset_name: move_tool_c_to_utensil_c_9066
+dataset_uuid: 57e50ec1-ac00-464f-9af9-7a5dc0e1d5b9
+task_descriptions:
+- move_the_tool_c_and_place_in_the_utensil_c
+scene_type:
+- home
+- restaurant
+- warehouse
+atomic_actions:
+- place
+- grasp
+- lift
+- insert
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- agility_tiago
+end_effector_type: two_pinch_gripper

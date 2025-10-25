@@ -1,0 +1,27 @@
+dataset_name: place_furniture_c_to_electronics_a_1402
+dataset_uuid: 6ca5e734-13f6-4f2c-bccd-4acd3ff8244f
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_electronics_a
+scene_type:
+- store
+atomic_actions:
+- lift
+- place
+- insert
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

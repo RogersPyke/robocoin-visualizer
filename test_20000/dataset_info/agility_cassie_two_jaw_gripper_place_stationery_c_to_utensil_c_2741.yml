@@ -1,0 +1,27 @@
+dataset_name: place_stationery_c_to_utensil_c_2741
+dataset_uuid: 80a89829-0940-4176-8f1f-4436598abc66
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_utensil_c
+scene_type:
+- cafe
+- factory
+atomic_actions:
+- grasp
+- pick
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 73.7
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

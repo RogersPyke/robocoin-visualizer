@@ -1,0 +1,26 @@
+dataset_name: place_container_a_to_tool_a_7680
+dataset_uuid: fd5d0044-d222-44d2-8f13-b0f3813bd044
+task_descriptions:
+- place_the_container_a_and_place_in_the_tool_a
+scene_type:
+- office
+atomic_actions:
+- place
+- pick
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.3
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

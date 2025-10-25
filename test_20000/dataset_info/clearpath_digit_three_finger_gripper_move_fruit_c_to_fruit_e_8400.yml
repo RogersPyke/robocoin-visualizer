@@ -1,0 +1,26 @@
+dataset_name: move_fruit_c_to_fruit_e_8400
+dataset_uuid: 28e3b39a-17a5-4e0d-a89e-4f1fed1b496d
+task_descriptions:
+- move_the_fruit_c_and_place_in_the_fruit_e
+scene_type:
+- warehouse
+atomic_actions:
+- push
+- place
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

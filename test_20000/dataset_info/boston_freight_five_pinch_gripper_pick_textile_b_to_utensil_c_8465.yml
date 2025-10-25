@@ -1,0 +1,27 @@
+dataset_name: pick_textile_b_to_utensil_c_8465
+dataset_uuid: 7f2de8f4-1cc5-467d-8b11-67f6b87f3024
+task_descriptions:
+- pick_the_textile_b_and_place_in_the_utensil_c
+scene_type:
+- home
+atomic_actions:
+- insert
+- slide
+- pick
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.6
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

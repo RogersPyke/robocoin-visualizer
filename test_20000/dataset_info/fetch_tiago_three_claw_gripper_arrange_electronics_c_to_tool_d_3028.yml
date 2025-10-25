@@ -1,0 +1,27 @@
+dataset_name: arrange_electronics_c_to_tool_d_3028
+dataset_uuid: 26196a25-8d3b-47e7-b03e-f2073eed49d1
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_tool_d
+scene_type:
+- warehouse
+- restaurant
+atomic_actions:
+- grasp
+- slide
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.9
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

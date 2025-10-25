@@ -1,0 +1,28 @@
+dataset_name: arrange_container_b_to_container_b_8212
+dataset_uuid: c5860062-6427-41f9-90cc-7ed0d41e2660
+task_descriptions:
+- arrange_the_container_b_and_place_in_the_container_b
+scene_type:
+- cafe
+atomic_actions:
+- grasp
+- lift
+- place
+- pick
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

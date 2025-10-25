@@ -1,0 +1,27 @@
+dataset_name: stack_kitchenware_a_to_kitchenware_a_6667
+dataset_uuid: 3bdb9e19-b3d0-4706-bc3e-be2dcb6d394b
+task_descriptions:
+- stack_the_kitchenware_a_and_place_in_the_kitchenware_a
+scene_type:
+- office
+- restaurant
+atomic_actions:
+- slide
+- lower
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.0
+device_model:
+- unitree_h1
+end_effector_type: two_finger_gripper

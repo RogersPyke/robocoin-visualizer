@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_b_to_stationery_c_2549
+dataset_uuid: 75ff3732-a900-484e-bb41-02392c45aca7
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_stationery_c
+scene_type:
+- restaurant
+- hospital
+- cafe
+atomic_actions:
+- push
+- lower
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+operation_platform_height: 79.7
+device_model:
+- boston_freight
+end_effector_type: two_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: stack_furniture_e_to_electronics_a_3816
+dataset_uuid: c002bdf2-3ba6-4cfc-8335-7d7db1eef778
+task_descriptions:
+- stack_the_furniture_e_and_place_in_the_electronics_a
+scene_type:
+- hospital
+- laboratory
+- office
+atomic_actions:
+- pick
+- insert
+- push
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.4
+device_model:
+- pal_tiago
+end_effector_type: three_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_container_c_to_tool_c_1532
+dataset_uuid: f1aee235-a12c-49ce-beeb-82026f4f07c9
+task_descriptions:
+- stack_the_container_c_and_place_in_the_tool_c
+scene_type:
+- hospital
+- restaurant
+atomic_actions:
+- push
+- pick
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_toy_d_to_fruit_a_4346
+dataset_uuid: 675ed9d6-9296-4661-b661-771cd4d6b813
+task_descriptions:
+- move_the_toy_d_and_place_in_the_fruit_a
+scene_type:
+- office
+atomic_actions:
+- pull
+- pick
+- place
+- rotate
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.8
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

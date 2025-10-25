@@ -1,0 +1,26 @@
+dataset_name: pick_textile_c_to_beverage_c_3259
+dataset_uuid: 9384ad53-99f3-4dfc-9e9a-19fa49139c21
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_beverage_c
+scene_type:
+- cafe
+atomic_actions:
+- lower
+- remove
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- clearpath_digit
+end_effector_type: suction_cup

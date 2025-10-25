@@ -1,0 +1,30 @@
+dataset_name: arrange_tool_a_to_utensil_a_3617
+dataset_uuid: 466391c3-6633-497b-9087-f10ac0171e85
+task_descriptions:
+- arrange_the_tool_a_and_place_in_the_utensil_a
+scene_type:
+- restaurant
+- cafe
+- office
+atomic_actions:
+- slide
+- pull
+- remove
+- grasp
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.0
+device_model:
+- pal_spot
+end_effector_type: five_claw_gripper

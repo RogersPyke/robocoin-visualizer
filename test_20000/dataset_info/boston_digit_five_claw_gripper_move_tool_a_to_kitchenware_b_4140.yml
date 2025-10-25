@@ -1,0 +1,28 @@
+dataset_name: move_tool_a_to_kitchenware_b_4140
+dataset_uuid: 971cd761-b90c-4852-9aa3-a292ed1f459b
+task_descriptions:
+- move_the_tool_a_and_place_in_the_kitchenware_b
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- rotate
+- slide
+- grasp
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- boston_digit
+end_effector_type: five_claw_gripper

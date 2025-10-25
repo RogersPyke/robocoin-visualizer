@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_d_to_toy_b_2507
+dataset_uuid: 6e45758c-112f-4635-896a-948252d49c23
+task_descriptions:
+- arrange_the_textile_d_and_place_in_the_toy_b
+scene_type:
+- cafe
+- restaurant
+- office
+atomic_actions:
+- rotate
+- grasp
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+operation_platform_height: 88.0
+device_model:
+- agility_cassie
+end_effector_type: suction_cup

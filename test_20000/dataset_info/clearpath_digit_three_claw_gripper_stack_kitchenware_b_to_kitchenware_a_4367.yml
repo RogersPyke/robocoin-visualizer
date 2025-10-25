@@ -1,0 +1,29 @@
+dataset_name: stack_kitchenware_b_to_kitchenware_a_4367
+dataset_uuid: 4ce851a4-a50f-4bb6-9444-d094790fb924
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_kitchenware_a
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- lower
+- remove
+- lift
+- place
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

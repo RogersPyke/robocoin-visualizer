@@ -1,0 +1,27 @@
+dataset_name: place_container_a_to_tool_c_4071
+dataset_uuid: 126b0150-6c6b-40d6-88ca-306112533d58
+task_descriptions:
+- place_the_container_a_and_place_in_the_tool_c
+scene_type:
+- restaurant
+- store
+atomic_actions:
+- slide
+- lower
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- pal_freight
+end_effector_type: suction_cup

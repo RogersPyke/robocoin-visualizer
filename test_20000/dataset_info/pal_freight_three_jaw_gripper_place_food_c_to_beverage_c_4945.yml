@@ -1,0 +1,29 @@
+dataset_name: place_food_c_to_beverage_c_4945
+dataset_uuid: 191f4e21-dadf-4e37-8c40-5582bad3acf0
+task_descriptions:
+- place_the_food_c_and_place_in_the_beverage_c
+scene_type:
+- restaurant
+- hospital
+- kitchen
+atomic_actions:
+- grasp
+- push
+- flip
+objects:
+- object_name: food_c
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.9
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

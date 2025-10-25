@@ -1,0 +1,27 @@
+dataset_name: place_stationery_b_to_tool_b_8860
+dataset_uuid: 2d0f4194-1dae-41df-89b5-65bb4a0716db
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_tool_b
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- lift
+- lower
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

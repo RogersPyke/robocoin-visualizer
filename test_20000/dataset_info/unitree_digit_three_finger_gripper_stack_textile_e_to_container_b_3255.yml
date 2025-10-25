@@ -1,0 +1,28 @@
+dataset_name: stack_textile_e_to_container_b_3255
+dataset_uuid: 82f86579-46e8-4b28-a248-794b0bedefcc
+task_descriptions:
+- stack_the_textile_e_and_place_in_the_container_b
+scene_type:
+- kitchen
+- factory
+atomic_actions:
+- lift
+- insert
+- place
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

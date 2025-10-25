@@ -1,0 +1,28 @@
+dataset_name: stack_textile_d_to_textile_d_3031
+dataset_uuid: 7a7a4f71-0f4c-4a5f-9041-24113a11dc29
+task_descriptions:
+- stack_the_textile_d_and_place_in_the_textile_d
+scene_type:
+- kitchen
+- warehouse
+- store
+atomic_actions:
+- place
+- lower
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.8
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

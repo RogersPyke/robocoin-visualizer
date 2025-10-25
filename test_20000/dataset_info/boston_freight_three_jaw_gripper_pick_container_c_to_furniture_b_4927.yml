@@ -1,0 +1,26 @@
+dataset_name: pick_container_c_to_furniture_b_4927
+dataset_uuid: bafdad30-7227-46bd-a93a-ddcdbb466ef1
+task_descriptions:
+- pick_the_container_c_and_place_in_the_furniture_b
+scene_type:
+- warehouse
+atomic_actions:
+- lift
+- slide
+objects:
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 84.7
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

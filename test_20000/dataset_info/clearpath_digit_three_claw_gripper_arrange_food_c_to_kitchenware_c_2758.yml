@@ -1,0 +1,26 @@
+dataset_name: arrange_food_c_to_kitchenware_c_2758
+dataset_uuid: 1a5cde83-4be2-4b9b-828c-4f4273409f54
+task_descriptions:
+- arrange_the_food_c_and_place_in_the_kitchenware_c
+scene_type:
+- laboratory
+atomic_actions:
+- flip
+- remove
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.3
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

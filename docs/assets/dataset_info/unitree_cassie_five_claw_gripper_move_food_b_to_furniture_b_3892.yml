@@ -1,0 +1,29 @@
+dataset_name: move_food_b_to_furniture_b_3892
+dataset_uuid: 39384018-fc6a-40bc-b61e-9a9eecec623c
+task_descriptions:
+- move_the_food_b_and_place_in_the_furniture_b
+scene_type:
+- store
+- laboratory
+- warehouse
+atomic_actions:
+- lower
+- flip
+- insert
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- unitree_cassie
+end_effector_type: five_claw_gripper

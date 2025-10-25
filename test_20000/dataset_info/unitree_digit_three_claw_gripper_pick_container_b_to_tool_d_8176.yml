@@ -1,0 +1,30 @@
+dataset_name: pick_container_b_to_tool_d_8176
+dataset_uuid: 0ad74469-4936-46ac-8df7-bc9b680e8f9a
+task_descriptions:
+- pick_the_container_b_and_place_in_the_tool_d
+scene_type:
+- store
+- factory
+- office
+atomic_actions:
+- grasp
+- lower
+- pick
+- lift
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+operation_platform_height: 77.4
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

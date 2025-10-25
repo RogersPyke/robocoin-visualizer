@@ -1,0 +1,28 @@
+dataset_name: move_utensil_a_to_beverage_e_6938
+dataset_uuid: 2c1338a7-1992-47c7-a2cf-a4b2d12fe524
+task_descriptions:
+- move_the_utensil_a_and_place_in_the_beverage_e
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- pick
+- flip
+- push
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.4
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: arrange_furniture_c_to_furniture_e_6565
+dataset_uuid: b13dc2ea-e133-4882-b7c6-83b275740e07
+task_descriptions:
+- arrange_the_furniture_c_and_place_in_the_furniture_e
+scene_type:
+- cafe
+- home
+atomic_actions:
+- pick
+- lift
+- rotate
+- insert
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.7
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

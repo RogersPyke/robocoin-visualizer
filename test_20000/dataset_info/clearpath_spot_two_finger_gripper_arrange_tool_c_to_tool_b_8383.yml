@@ -1,0 +1,27 @@
+dataset_name: arrange_tool_c_to_tool_b_8383
+dataset_uuid: c1531f4e-6b23-4a6e-8194-e3c87f9bf851
+task_descriptions:
+- arrange_the_tool_c_and_place_in_the_tool_b
+scene_type:
+- store
+atomic_actions:
+- push
+- remove
+- flip
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 75.4
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

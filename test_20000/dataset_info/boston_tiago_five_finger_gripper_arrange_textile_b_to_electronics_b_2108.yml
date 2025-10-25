@@ -1,0 +1,30 @@
+dataset_name: arrange_textile_b_to_electronics_b_2108
+dataset_uuid: 0860789b-94ec-48e6-9ef3-c8a04f13a669
+task_descriptions:
+- arrange_the_textile_b_and_place_in_the_electronics_b
+scene_type:
+- office
+- restaurant
+- laboratory
+atomic_actions:
+- grasp
+- pick
+- rotate
+- slide
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.6
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

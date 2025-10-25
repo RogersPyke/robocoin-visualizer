@@ -1,0 +1,28 @@
+dataset_name: move_tool_a_to_toy_c_5941
+dataset_uuid: c6282c58-f493-4431-a73e-0219344e4e81
+task_descriptions:
+- move_the_tool_a_and_place_in_the_toy_c
+scene_type:
+- office
+atomic_actions:
+- place
+- remove
+- lower
+- flip
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_container_a_to_toy_c_9409
+dataset_uuid: 5c6a6458-9580-4fdd-8cf7-03303da14fe9
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_toy_c
+scene_type:
+- cafe
+- restaurant
+- office
+atomic_actions:
+- pick
+- grasp
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.7
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

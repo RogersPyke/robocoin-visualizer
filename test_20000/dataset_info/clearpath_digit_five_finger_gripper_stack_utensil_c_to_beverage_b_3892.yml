@@ -1,0 +1,30 @@
+dataset_name: stack_utensil_c_to_beverage_b_3892
+dataset_uuid: ce556886-1761-4f9d-8ceb-bac8fd5afe42
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_beverage_b
+scene_type:
+- home
+- restaurant
+- laboratory
+atomic_actions:
+- lower
+- place
+- flip
+- pick
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

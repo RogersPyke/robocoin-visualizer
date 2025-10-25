@@ -1,0 +1,30 @@
+dataset_name: place_container_a_to_electronics_b_6516
+dataset_uuid: ef791b11-6ea0-4578-bf4e-545a0ec76c97
+task_descriptions:
+- place_the_container_a_and_place_in_the_electronics_b
+scene_type:
+- hospital
+- kitchen
+- home
+atomic_actions:
+- rotate
+- push
+- grasp
+- pick
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

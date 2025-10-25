@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_a_to_beverage_a_4467
+dataset_uuid: f4ce2b7f-b4e8-4c11-8f60-72fd47ad4355
+task_descriptions:
+- arrange_the_toy_a_and_place_in_the_beverage_a
+scene_type:
+- kitchen
+atomic_actions:
+- rotate
+- place
+- grasp
+- lift
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

@@ -1,0 +1,30 @@
+dataset_name: move_beverage_d_to_toy_d_3790
+dataset_uuid: 0f105eea-c994-4514-8239-458247edefe1
+task_descriptions:
+- move_the_beverage_d_and_place_in_the_toy_d
+scene_type:
+- store
+- hospital
+- factory
+atomic_actions:
+- rotate
+- lift
+- lower
+- grasp
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.1
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: move_stationery_b_to_food_a_8036
+dataset_uuid: 08aa9b06-9d96-4697-b6bc-ec380c2dfd65
+task_descriptions:
+- move_the_stationery_b_and_place_in_the_food_a
+scene_type:
+- cafe
+- office
+atomic_actions:
+- push
+- slide
+- remove
+- lower
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.2
+device_model:
+- agility_spot
+end_effector_type: two_finger_gripper

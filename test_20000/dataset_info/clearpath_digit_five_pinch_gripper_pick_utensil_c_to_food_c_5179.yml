@@ -1,0 +1,29 @@
+dataset_name: pick_utensil_c_to_food_c_5179
+dataset_uuid: 6a333930-1fde-4116-8cdf-db9a932b7eb2
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_food_c
+scene_type:
+- hospital
+- home
+atomic_actions:
+- rotate
+- insert
+- lower
+- lift
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.8
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

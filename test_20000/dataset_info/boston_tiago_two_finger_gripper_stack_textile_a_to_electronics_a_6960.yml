@@ -1,0 +1,28 @@
+dataset_name: stack_textile_a_to_electronics_a_6960
+dataset_uuid: 747d7d4f-0781-462f-ba0d-9f97ef72fecc
+task_descriptions:
+- stack_the_textile_a_and_place_in_the_electronics_a
+scene_type:
+- store
+- factory
+- hospital
+atomic_actions:
+- slide
+- grasp
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- boston_tiago
+end_effector_type: two_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_kitchenware_b_to_toy_c_6359
+dataset_uuid: 85b97f23-9493-4e1b-8394-5da007111915
+task_descriptions:
+- move_the_kitchenware_b_and_place_in_the_toy_c
+scene_type:
+- hospital
+- factory
+- home
+atomic_actions:
+- lower
+- slide
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.9
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

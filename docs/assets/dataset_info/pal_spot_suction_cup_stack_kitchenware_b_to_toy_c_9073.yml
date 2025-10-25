@@ -1,0 +1,29 @@
+dataset_name: stack_kitchenware_b_to_toy_c_9073
+dataset_uuid: 1e8b57b4-c354-4703-afa4-58700d2d146b
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_toy_c
+scene_type:
+- home
+- warehouse
+atomic_actions:
+- insert
+- remove
+- push
+- rotate
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- pal_spot
+end_effector_type: suction_cup

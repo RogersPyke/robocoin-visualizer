@@ -1,0 +1,28 @@
+dataset_name: stack_beverage_e_to_kitchenware_a_4737
+dataset_uuid: fa714c82-a1d1-45a8-bbaf-05605f049d30
+task_descriptions:
+- stack_the_beverage_e_and_place_in_the_kitchenware_a
+scene_type:
+- laboratory
+atomic_actions:
+- lift
+- remove
+- pull
+- insert
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

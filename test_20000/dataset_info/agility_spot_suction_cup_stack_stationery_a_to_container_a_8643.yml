@@ -1,0 +1,28 @@
+dataset_name: stack_stationery_a_to_container_a_8643
+dataset_uuid: 82b64531-7f37-447e-ad18-4b56438db204
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_container_a
+scene_type:
+- warehouse
+- store
+atomic_actions:
+- flip
+- rotate
+- grasp
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- agility_spot
+end_effector_type: suction_cup

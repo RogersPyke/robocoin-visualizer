@@ -1,0 +1,29 @@
+dataset_name: place_stationery_b_to_food_b_3268
+dataset_uuid: b707bdb9-c1a0-48bc-b126-60b915c7d84f
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_food_b
+scene_type:
+- hospital
+- office
+atomic_actions:
+- lift
+- rotate
+- pick
+- push
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.6
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

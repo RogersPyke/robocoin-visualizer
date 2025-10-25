@@ -1,0 +1,29 @@
+dataset_name: pick_electronics_b_to_container_a_5811
+dataset_uuid: b98e0220-33b5-4cd2-bd4d-b73281b1a401
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_container_a
+scene_type:
+- warehouse
+- cafe
+atomic_actions:
+- grasp
+- pick
+- remove
+- insert
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

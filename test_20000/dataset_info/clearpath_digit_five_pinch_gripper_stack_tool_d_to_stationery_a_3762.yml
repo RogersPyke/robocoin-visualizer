@@ -1,0 +1,30 @@
+dataset_name: stack_tool_d_to_stationery_a_3762
+dataset_uuid: 6e4a77d7-edc3-4346-b288-f80acc320ebf
+task_descriptions:
+- stack_the_tool_d_and_place_in_the_stationery_a
+scene_type:
+- factory
+- restaurant
+- office
+atomic_actions:
+- pick
+- push
+- lift
+- pull
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+operation_platform_height: 80.5
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

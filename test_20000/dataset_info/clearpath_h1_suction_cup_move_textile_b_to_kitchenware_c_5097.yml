@@ -1,0 +1,27 @@
+dataset_name: move_textile_b_to_kitchenware_c_5097
+dataset_uuid: 2b1c5334-1c3e-4d95-ab8d-072e986c8fe6
+task_descriptions:
+- move_the_textile_b_and_place_in_the_kitchenware_c
+scene_type:
+- laboratory
+atomic_actions:
+- rotate
+- remove
+- grasp
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- clearpath_h1
+end_effector_type: suction_cup

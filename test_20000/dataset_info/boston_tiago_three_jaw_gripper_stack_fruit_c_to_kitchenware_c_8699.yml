@@ -1,0 +1,29 @@
+dataset_name: stack_fruit_c_to_kitchenware_c_8699
+dataset_uuid: 91619537-4399-4f12-81a5-2efe6bb036c7
+task_descriptions:
+- stack_the_fruit_c_and_place_in_the_kitchenware_c
+scene_type:
+- laboratory
+- office
+- restaurant
+atomic_actions:
+- grasp
+- insert
+- rotate
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

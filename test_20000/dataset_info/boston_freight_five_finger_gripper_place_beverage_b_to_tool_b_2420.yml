@@ -1,0 +1,28 @@
+dataset_name: place_beverage_b_to_tool_b_2420
+dataset_uuid: 18f7aa2f-e370-4644-8a99-fd0900eaa3f0
+task_descriptions:
+- place_the_beverage_b_and_place_in_the_tool_b
+scene_type:
+- laboratory
+- office
+atomic_actions:
+- pick
+- lift
+- insert
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.1
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

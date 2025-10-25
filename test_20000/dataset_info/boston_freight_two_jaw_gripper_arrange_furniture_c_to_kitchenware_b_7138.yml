@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_c_to_kitchenware_b_7138
+dataset_uuid: b58afb70-beed-4f0d-adde-160cc8e83138
+task_descriptions:
+- arrange_the_furniture_c_and_place_in_the_kitchenware_b
+scene_type:
+- cafe
+- home
+atomic_actions:
+- flip
+- remove
+- push
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.7
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_food_d_to_stationery_b_4075
+dataset_uuid: 98160e4f-ebb9-42cb-abff-00546d1fa64c
+task_descriptions:
+- move_the_food_d_and_place_in_the_stationery_b
+scene_type:
+- warehouse
+- home
+- hospital
+atomic_actions:
+- rotate
+- lift
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

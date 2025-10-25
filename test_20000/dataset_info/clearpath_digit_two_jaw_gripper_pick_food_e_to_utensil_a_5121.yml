@@ -1,0 +1,26 @@
+dataset_name: pick_food_e_to_utensil_a_5121
+dataset_uuid: 64ea91cb-65ab-488e-95ab-83af30401b8c
+task_descriptions:
+- pick_the_food_e_and_place_in_the_utensil_a
+scene_type:
+- store
+atomic_actions:
+- remove
+- push
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 84.9
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

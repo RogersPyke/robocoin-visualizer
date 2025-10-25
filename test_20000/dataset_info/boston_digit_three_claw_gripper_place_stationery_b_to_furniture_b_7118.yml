@@ -1,0 +1,26 @@
+dataset_name: place_stationery_b_to_furniture_b_7118
+dataset_uuid: c2d3d209-38e4-4820-a532-dd2d3c58c0cd
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_furniture_b
+scene_type:
+- factory
+atomic_actions:
+- rotate
+- push
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

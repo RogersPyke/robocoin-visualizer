@@ -1,0 +1,29 @@
+dataset_name: place_utensil_a_to_food_b_6775
+dataset_uuid: 495a9d55-944b-4d60-9676-4e05aaa2a8ac
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_food_b
+scene_type:
+- store
+- laboratory
+atomic_actions:
+- pull
+- remove
+- slide
+- pick
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

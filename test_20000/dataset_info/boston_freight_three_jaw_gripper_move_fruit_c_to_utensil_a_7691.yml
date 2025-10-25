@@ -1,0 +1,28 @@
+dataset_name: move_fruit_c_to_utensil_a_7691
+dataset_uuid: 260770c4-8ec9-44b7-8d25-e7047597d2b3
+task_descriptions:
+- move_the_fruit_c_and_place_in_the_utensil_a
+scene_type:
+- restaurant
+atomic_actions:
+- rotate
+- lower
+- insert
+- flip
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

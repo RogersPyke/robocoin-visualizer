@@ -1,0 +1,30 @@
+dataset_name: place_furniture_e_to_tool_b_3093
+dataset_uuid: 3b2f24d8-e3c8-4e0f-9619-d5368d0a7abf
+task_descriptions:
+- place_the_furniture_e_and_place_in_the_tool_b
+scene_type:
+- office
+- warehouse
+- laboratory
+atomic_actions:
+- push
+- slide
+- flip
+- place
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 76.1
+device_model:
+- clearpath_digit
+end_effector_type: suction_cup

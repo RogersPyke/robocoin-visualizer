@@ -1,0 +1,26 @@
+dataset_name: stack_stationery_a_to_kitchenware_b_4696
+dataset_uuid: 32954440-064b-457f-8ff5-a62baaa69666
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_kitchenware_b
+scene_type:
+- hospital
+atomic_actions:
+- pull
+- grasp
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.5
+device_model:
+- pal_freight
+end_effector_type: five_claw_gripper

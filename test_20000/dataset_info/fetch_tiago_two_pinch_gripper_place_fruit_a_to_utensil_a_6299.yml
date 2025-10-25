@@ -1,0 +1,27 @@
+dataset_name: place_fruit_a_to_utensil_a_6299
+dataset_uuid: 30f036f9-de51-4ede-a810-9eaa8cbd7f3e
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_utensil_a
+scene_type:
+- warehouse
+- laboratory
+atomic_actions:
+- flip
+- lower
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- fetch_tiago
+end_effector_type: two_pinch_gripper

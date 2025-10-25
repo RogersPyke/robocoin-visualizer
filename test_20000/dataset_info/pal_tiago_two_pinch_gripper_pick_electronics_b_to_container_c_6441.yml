@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_b_to_container_c_6441
+dataset_uuid: c60a247c-4cf5-437f-bba1-6bd3a84eb391
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_container_c
+scene_type:
+- store
+- cafe
+atomic_actions:
+- slide
+- lower
+- pull
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.0
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

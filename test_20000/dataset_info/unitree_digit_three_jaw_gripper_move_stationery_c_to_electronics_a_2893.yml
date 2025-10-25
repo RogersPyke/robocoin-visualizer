@@ -1,0 +1,27 @@
+dataset_name: move_stationery_c_to_electronics_a_2893
+dataset_uuid: 8443481f-ad5e-4eac-a9a6-b5755295cccb
+task_descriptions:
+- move_the_stationery_c_and_place_in_the_electronics_a
+scene_type:
+- laboratory
+- office
+atomic_actions:
+- flip
+- rotate
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.3
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

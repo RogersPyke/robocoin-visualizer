@@ -1,0 +1,28 @@
+dataset_name: stack_stationery_c_to_beverage_b_4224
+dataset_uuid: 3b590b04-b68e-4604-b9ee-dba0c16a977a
+task_descriptions:
+- stack_the_stationery_c_and_place_in_the_beverage_b
+scene_type:
+- office
+- home
+atomic_actions:
+- pull
+- rotate
+- place
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.5
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

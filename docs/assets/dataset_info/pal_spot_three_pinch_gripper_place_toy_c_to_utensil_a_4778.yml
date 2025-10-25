@@ -1,0 +1,28 @@
+dataset_name: place_toy_c_to_utensil_a_4778
+dataset_uuid: 9b768a91-6071-4b6e-98ed-3cd5c03699da
+task_descriptions:
+- place_the_toy_c_and_place_in_the_utensil_a
+scene_type:
+- restaurant
+atomic_actions:
+- place
+- flip
+- rotate
+- insert
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.5
+device_model:
+- pal_spot
+end_effector_type: three_pinch_gripper

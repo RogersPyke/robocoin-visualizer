@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_a_to_furniture_c_9840
+dataset_uuid: 4949cdae-2a6a-4289-9379-d67e807f8ca2
+task_descriptions:
+- stack_the_furniture_a_and_place_in_the_furniture_c
+scene_type:
+- kitchen
+- office
+atomic_actions:
+- pick
+- slide
+- rotate
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- fetch_tiago
+end_effector_type: two_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_food_d_to_electronics_b_8733
+dataset_uuid: e9e2a1e4-3fe3-4351-98fd-7d7510841113
+task_descriptions:
+- pick_the_food_d_and_place_in_the_electronics_b
+scene_type:
+- hospital
+- restaurant
+- office
+atomic_actions:
+- pull
+- lower
+- push
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 86.7
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

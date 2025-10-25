@@ -1,0 +1,30 @@
+dataset_name: pick_electronics_a_to_stationery_c_8990
+dataset_uuid: 617f85d8-c520-4b23-8743-b268375a4216
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_stationery_c
+scene_type:
+- home
+- factory
+- restaurant
+atomic_actions:
+- rotate
+- lift
+- push
+- pull
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- agility_spot
+end_effector_type: two_finger_gripper

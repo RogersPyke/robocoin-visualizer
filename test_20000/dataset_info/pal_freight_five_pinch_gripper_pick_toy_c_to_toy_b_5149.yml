@@ -1,0 +1,28 @@
+dataset_name: pick_toy_c_to_toy_b_5149
+dataset_uuid: ba63a8e4-159a-412a-8c7f-f1972f36be99
+task_descriptions:
+- pick_the_toy_c_and_place_in_the_toy_b
+scene_type:
+- hospital
+- office
+atomic_actions:
+- pull
+- place
+- lower
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 90.0
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

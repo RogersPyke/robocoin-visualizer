@@ -1,0 +1,28 @@
+dataset_name: arrange_kitchenware_a_to_tool_d_9183
+dataset_uuid: dd29bc71-6596-4790-b785-1bdf3e9be663
+task_descriptions:
+- arrange_the_kitchenware_a_and_place_in_the_tool_d
+scene_type:
+- factory
+- store
+- warehouse
+atomic_actions:
+- remove
+- place
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.1
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

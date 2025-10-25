@@ -1,0 +1,29 @@
+dataset_name: stack_kitchenware_b_to_food_a_1481
+dataset_uuid: e3185052-793f-45f8-a530-94f9554256d1
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_food_a
+scene_type:
+- home
+- office
+atomic_actions:
+- lower
+- push
+- insert
+- pick
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- pal_spot
+end_effector_type: three_finger_gripper

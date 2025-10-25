@@ -1,0 +1,29 @@
+dataset_name: stack_toy_d_to_textile_d_3502
+dataset_uuid: b614ab74-67a2-44d0-804c-f6795c40ac0e
+task_descriptions:
+- stack_the_toy_d_and_place_in_the_textile_d
+scene_type:
+- restaurant
+- factory
+- home
+atomic_actions:
+- lift
+- lower
+- place
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

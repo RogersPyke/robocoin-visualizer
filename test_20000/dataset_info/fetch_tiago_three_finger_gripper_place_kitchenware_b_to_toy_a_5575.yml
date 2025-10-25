@@ -1,0 +1,29 @@
+dataset_name: place_kitchenware_b_to_toy_a_5575
+dataset_uuid: fa9608ce-4a3d-4c19-88d8-a49c57f27f57
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_toy_a
+scene_type:
+- factory
+- store
+- laboratory
+atomic_actions:
+- slide
+- grasp
+- remove
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

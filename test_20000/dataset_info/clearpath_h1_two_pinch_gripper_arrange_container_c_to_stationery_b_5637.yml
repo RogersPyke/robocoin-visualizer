@@ -1,0 +1,26 @@
+dataset_name: arrange_container_c_to_stationery_b_5637
+dataset_uuid: b431db45-7dad-4888-97ff-d009fe650b6a
+task_descriptions:
+- arrange_the_container_c_and_place_in_the_stationery_b
+scene_type:
+- cafe
+atomic_actions:
+- grasp
+- lift
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

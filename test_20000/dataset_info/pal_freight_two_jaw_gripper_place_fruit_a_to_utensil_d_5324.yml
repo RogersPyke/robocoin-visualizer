@@ -1,0 +1,30 @@
+dataset_name: place_fruit_a_to_utensil_d_5324
+dataset_uuid: 7e780ffa-b277-4884-aed8-c14502a9d787
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_utensil_d
+scene_type:
+- warehouse
+- restaurant
+- cafe
+atomic_actions:
+- rotate
+- remove
+- insert
+- pick
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.3
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

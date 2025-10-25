@@ -1,0 +1,29 @@
+dataset_name: arrange_toy_d_to_textile_a_9138
+dataset_uuid: 7306127b-92f6-4f65-a7cb-77073fa1a0f8
+task_descriptions:
+- arrange_the_toy_d_and_place_in_the_textile_a
+scene_type:
+- laboratory
+- home
+- restaurant
+atomic_actions:
+- pick
+- lift
+- grasp
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

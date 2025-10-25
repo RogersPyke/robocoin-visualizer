@@ -1,0 +1,27 @@
+dataset_name: stack_beverage_c_to_toy_c_1350
+dataset_uuid: c4ce6893-08fc-48ea-bcf4-4661585a2ab0
+task_descriptions:
+- stack_the_beverage_c_and_place_in_the_toy_c
+scene_type:
+- hospital
+atomic_actions:
+- flip
+- rotate
+- lower
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.1
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

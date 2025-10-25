@@ -1,0 +1,27 @@
+dataset_name: stack_food_b_to_furniture_b_6598
+dataset_uuid: ab8220e1-a3cd-4b88-bff4-c631a059c809
+task_descriptions:
+- stack_the_food_b_and_place_in_the_furniture_b
+scene_type:
+- store
+- warehouse
+atomic_actions:
+- insert
+- slide
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- agility_tiago
+end_effector_type: five_pinch_gripper

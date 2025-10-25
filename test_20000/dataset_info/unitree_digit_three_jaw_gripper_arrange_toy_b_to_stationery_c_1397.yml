@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_b_to_stationery_c_1397
+dataset_uuid: 1e507030-b5d6-43c8-8080-7bc46ef3c97f
+task_descriptions:
+- arrange_the_toy_b_and_place_in_the_stationery_c
+scene_type:
+- home
+- store
+- factory
+atomic_actions:
+- pick
+- lower
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.3
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

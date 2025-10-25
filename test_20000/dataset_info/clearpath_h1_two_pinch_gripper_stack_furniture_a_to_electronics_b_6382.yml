@@ -1,0 +1,26 @@
+dataset_name: stack_furniture_a_to_electronics_b_6382
+dataset_uuid: 239bc22e-f69b-4cdb-80a0-bcddae9c74e4
+task_descriptions:
+- stack_the_furniture_a_and_place_in_the_electronics_b
+scene_type:
+- laboratory
+atomic_actions:
+- pick
+- insert
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

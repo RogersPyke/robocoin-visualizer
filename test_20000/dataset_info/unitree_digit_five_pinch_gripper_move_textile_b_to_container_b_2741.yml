@@ -1,0 +1,28 @@
+dataset_name: move_textile_b_to_container_b_2741
+dataset_uuid: d00b0848-acb3-4116-b32a-fcc590e96e14
+task_descriptions:
+- move_the_textile_b_and_place_in_the_container_b
+scene_type:
+- factory
+atomic_actions:
+- insert
+- grasp
+- slide
+- remove
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

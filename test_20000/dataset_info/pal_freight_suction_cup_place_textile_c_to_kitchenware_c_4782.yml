@@ -1,0 +1,28 @@
+dataset_name: place_textile_c_to_kitchenware_c_4782
+dataset_uuid: 72d2673a-e72d-4b38-a5c3-68645fc6a4db
+task_descriptions:
+- place_the_textile_c_and_place_in_the_kitchenware_c
+scene_type:
+- warehouse
+- laboratory
+atomic_actions:
+- lift
+- place
+- pick
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- pal_freight
+end_effector_type: suction_cup

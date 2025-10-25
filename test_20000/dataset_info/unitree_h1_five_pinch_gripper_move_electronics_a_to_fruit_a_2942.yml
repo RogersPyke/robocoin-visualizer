@@ -1,0 +1,27 @@
+dataset_name: move_electronics_a_to_fruit_a_2942
+dataset_uuid: 3acf65dd-2f3d-421f-9b6e-4e41909bacb0
+task_descriptions:
+- move_the_electronics_a_and_place_in_the_fruit_a
+scene_type:
+- kitchen
+atomic_actions:
+- lift
+- push
+- flip
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 84.9
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

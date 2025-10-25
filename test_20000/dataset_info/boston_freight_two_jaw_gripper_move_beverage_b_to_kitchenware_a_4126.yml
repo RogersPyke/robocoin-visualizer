@@ -1,0 +1,28 @@
+dataset_name: move_beverage_b_to_kitchenware_a_4126
+dataset_uuid: 050bbbf3-ff97-464d-af8f-5353f0cec653
+task_descriptions:
+- move_the_beverage_b_and_place_in_the_kitchenware_a
+scene_type:
+- kitchen
+- laboratory
+atomic_actions:
+- slide
+- remove
+- push
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+operation_platform_height: 78.6
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

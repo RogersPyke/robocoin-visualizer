@@ -1,0 +1,28 @@
+dataset_name: place_tool_d_to_utensil_d_1982
+dataset_uuid: 3e97e7f5-4278-4e3d-8595-71a030126a67
+task_descriptions:
+- place_the_tool_d_and_place_in_the_utensil_d
+scene_type:
+- hospital
+- cafe
+- restaurant
+atomic_actions:
+- pick
+- insert
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- agility_spot
+end_effector_type: five_claw_gripper

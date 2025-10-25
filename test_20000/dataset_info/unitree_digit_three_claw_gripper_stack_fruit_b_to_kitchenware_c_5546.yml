@@ -1,0 +1,27 @@
+dataset_name: stack_fruit_b_to_kitchenware_c_5546
+dataset_uuid: 3724fe9f-4b64-4a49-adf4-7d54177af76e
+task_descriptions:
+- stack_the_fruit_b_and_place_in_the_kitchenware_c
+scene_type:
+- restaurant
+atomic_actions:
+- insert
+- rotate
+- slide
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.8
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

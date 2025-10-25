@@ -1,0 +1,28 @@
+dataset_name: arrange_container_a_to_toy_b_9056
+dataset_uuid: 355c6091-951c-448d-8ea4-8c888fdd3d47
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_toy_b
+scene_type:
+- restaurant
+- factory
+- office
+atomic_actions:
+- push
+- flip
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

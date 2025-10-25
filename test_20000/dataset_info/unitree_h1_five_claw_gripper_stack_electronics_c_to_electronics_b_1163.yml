@@ -1,0 +1,26 @@
+dataset_name: stack_electronics_c_to_electronics_b_1163
+dataset_uuid: debf4605-f752-474b-915c-6c7b9f2f270a
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_electronics_b
+scene_type:
+- home
+atomic_actions:
+- grasp
+- push
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- unitree_h1
+end_effector_type: five_claw_gripper

@@ -1,0 +1,30 @@
+dataset_name: arrange_food_b_to_textile_c_3140
+dataset_uuid: 3dff2bf2-5e64-44c8-b5f7-49f008e45b5a
+task_descriptions:
+- arrange_the_food_b_and_place_in_the_textile_c
+scene_type:
+- laboratory
+- office
+- kitchen
+atomic_actions:
+- flip
+- pull
+- pick
+- remove
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- boston_freight
+end_effector_type: two_claw_gripper

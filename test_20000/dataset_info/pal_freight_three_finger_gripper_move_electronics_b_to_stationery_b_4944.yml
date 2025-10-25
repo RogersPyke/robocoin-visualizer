@@ -1,0 +1,28 @@
+dataset_name: move_electronics_b_to_stationery_b_4944
+dataset_uuid: ff629787-91b9-49cc-ace5-5b6256efb520
+task_descriptions:
+- move_the_electronics_b_and_place_in_the_stationery_b
+scene_type:
+- cafe
+atomic_actions:
+- slide
+- pull
+- push
+- place
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 72.4
+device_model:
+- pal_freight
+end_effector_type: three_finger_gripper

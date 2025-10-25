@@ -1,0 +1,28 @@
+dataset_name: place_food_a_to_food_b_5575
+dataset_uuid: 0c7e1419-564a-4af5-bda2-05623d119831
+task_descriptions:
+- place_the_food_a_and_place_in_the_food_b
+scene_type:
+- office
+- restaurant
+- home
+atomic_actions:
+- lower
+- grasp
+objects:
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- agility_digit
+end_effector_type: five_pinch_gripper

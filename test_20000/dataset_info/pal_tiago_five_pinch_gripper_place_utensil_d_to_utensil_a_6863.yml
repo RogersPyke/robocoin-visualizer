@@ -1,0 +1,27 @@
+dataset_name: place_utensil_d_to_utensil_a_6863
+dataset_uuid: 0c4839c9-8061-4bee-a18b-770dea18fb6c
+task_descriptions:
+- place_the_utensil_d_and_place_in_the_utensil_a
+scene_type:
+- factory
+- office
+atomic_actions:
+- pull
+- rotate
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_a_to_tool_d_6446
+dataset_uuid: fd6321f6-2e9e-4327-869b-464edd476fce
+task_descriptions:
+- pick_the_kitchenware_a_and_place_in_the_tool_d
+scene_type:
+- warehouse
+- restaurant
+atomic_actions:
+- lower
+- remove
+- push
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

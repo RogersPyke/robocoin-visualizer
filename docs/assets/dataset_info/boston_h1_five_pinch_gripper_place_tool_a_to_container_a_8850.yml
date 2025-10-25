@@ -1,0 +1,30 @@
+dataset_name: place_tool_a_to_container_a_8850
+dataset_uuid: e85d0153-c961-4f73-bcc5-ce908db93dde
+task_descriptions:
+- place_the_tool_a_and_place_in_the_container_a
+scene_type:
+- laboratory
+- cafe
+- home
+atomic_actions:
+- lower
+- slide
+- grasp
+- flip
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- boston_h1
+end_effector_type: five_pinch_gripper

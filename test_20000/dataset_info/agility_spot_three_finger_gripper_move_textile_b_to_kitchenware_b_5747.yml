@@ -1,0 +1,27 @@
+dataset_name: move_textile_b_to_kitchenware_b_5747
+dataset_uuid: 9a59bb2c-f107-4df8-a5c7-3dd6c9b6fa20
+task_descriptions:
+- move_the_textile_b_and_place_in_the_kitchenware_b
+scene_type:
+- store
+- home
+atomic_actions:
+- slide
+- insert
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.7
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

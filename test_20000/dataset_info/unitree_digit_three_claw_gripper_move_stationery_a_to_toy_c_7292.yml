@@ -1,0 +1,28 @@
+dataset_name: move_stationery_a_to_toy_c_7292
+dataset_uuid: c123136b-539a-4a57-830b-106a25b8c7ba
+task_descriptions:
+- move_the_stationery_a_and_place_in_the_toy_c
+scene_type:
+- hospital
+atomic_actions:
+- rotate
+- slide
+- flip
+- place
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.1
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

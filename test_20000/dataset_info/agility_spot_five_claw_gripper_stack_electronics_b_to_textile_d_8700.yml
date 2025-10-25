@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_b_to_textile_d_8700
+dataset_uuid: 996b3adb-4cdb-4c8b-a23c-9f6264619db5
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_textile_d
+scene_type:
+- store
+- office
+atomic_actions:
+- grasp
+- pull
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- agility_spot
+end_effector_type: five_claw_gripper

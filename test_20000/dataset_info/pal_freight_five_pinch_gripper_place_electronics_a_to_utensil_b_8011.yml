@@ -1,0 +1,28 @@
+dataset_name: place_electronics_a_to_utensil_b_8011
+dataset_uuid: 635d9f6b-bf7e-42c7-83a2-f913e32009fa
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_utensil_b
+scene_type:
+- factory
+- warehouse
+atomic_actions:
+- rotate
+- push
+- remove
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

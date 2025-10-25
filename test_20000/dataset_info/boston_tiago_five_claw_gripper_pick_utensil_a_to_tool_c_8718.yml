@@ -1,0 +1,26 @@
+dataset_name: pick_utensil_a_to_tool_c_8718
+dataset_uuid: 596e94dd-d3ad-4b52-9ddd-cabbd986cf7c
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_tool_c
+scene_type:
+- cafe
+atomic_actions:
+- pick
+- remove
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.5
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

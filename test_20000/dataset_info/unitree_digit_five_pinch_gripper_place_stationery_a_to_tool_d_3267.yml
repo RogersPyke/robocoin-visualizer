@@ -1,0 +1,28 @@
+dataset_name: place_stationery_a_to_tool_d_3267
+dataset_uuid: 6d8a352f-ccb5-4e7f-8141-09e864bb8be0
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_tool_d
+scene_type:
+- store
+- warehouse
+- home
+atomic_actions:
+- push
+- flip
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

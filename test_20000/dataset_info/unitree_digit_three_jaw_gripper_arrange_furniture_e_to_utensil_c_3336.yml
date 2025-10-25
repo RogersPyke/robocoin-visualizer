@@ -1,0 +1,30 @@
+dataset_name: arrange_furniture_e_to_utensil_c_3336
+dataset_uuid: 8cb41c24-33a5-470c-91b6-16189f9044a5
+task_descriptions:
+- arrange_the_furniture_e_and_place_in_the_utensil_c
+scene_type:
+- hospital
+- warehouse
+- cafe
+atomic_actions:
+- rotate
+- slide
+- pull
+- lift
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.8
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

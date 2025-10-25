@@ -1,0 +1,29 @@
+dataset_name: stack_textile_b_to_toy_b_4705
+dataset_uuid: 1a6c0a99-57d6-466b-85b4-8347f7ad8a8e
+task_descriptions:
+- stack_the_textile_b_and_place_in_the_toy_b
+scene_type:
+- office
+- kitchen
+- factory
+atomic_actions:
+- slide
+- lift
+- pull
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.3
+device_model:
+- agility_digit
+end_effector_type: three_jaw_gripper

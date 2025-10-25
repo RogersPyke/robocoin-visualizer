@@ -1,0 +1,30 @@
+dataset_name: pick_toy_b_to_tool_b_5171
+dataset_uuid: 308f47cb-fdd0-47da-88f8-763a4872112c
+task_descriptions:
+- pick_the_toy_b_and_place_in_the_tool_b
+scene_type:
+- hospital
+- restaurant
+- home
+atomic_actions:
+- insert
+- lift
+- place
+- grasp
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.1
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_food_b_to_toy_c_3665
+dataset_uuid: d2dd047b-2394-4d4e-bcab-ca87465ceabd
+task_descriptions:
+- place_the_food_b_and_place_in_the_toy_c
+scene_type:
+- cafe
+- laboratory
+- hospital
+atomic_actions:
+- flip
+- remove
+- lift
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.5
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

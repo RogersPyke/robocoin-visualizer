@@ -1,0 +1,27 @@
+dataset_name: stack_fruit_a_to_tool_a_3877
+dataset_uuid: c97bee4c-eb02-4ce6-9d36-2d4dccdcc0bf
+task_descriptions:
+- stack_the_fruit_a_and_place_in_the_tool_a
+scene_type:
+- cafe
+- laboratory
+atomic_actions:
+- slide
+- insert
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

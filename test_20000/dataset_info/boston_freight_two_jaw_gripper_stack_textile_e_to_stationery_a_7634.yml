@@ -1,0 +1,28 @@
+dataset_name: stack_textile_e_to_stationery_a_7634
+dataset_uuid: 03f6c30f-f4d8-4cfa-bf9e-9315c308a941
+task_descriptions:
+- stack_the_textile_e_and_place_in_the_stationery_a
+scene_type:
+- hospital
+atomic_actions:
+- pick
+- pull
+- lift
+- insert
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.9
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

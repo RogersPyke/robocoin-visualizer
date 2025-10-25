@@ -1,0 +1,28 @@
+dataset_name: place_food_e_to_toy_a_6048
+dataset_uuid: 7ae0e736-5913-433d-ad48-73b13d64a1ab
+task_descriptions:
+- place_the_food_e_and_place_in_the_toy_a
+scene_type:
+- hospital
+- kitchen
+- warehouse
+atomic_actions:
+- push
+- place
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_a_to_furniture_c_7546
+dataset_uuid: 7eb9fa09-d4aa-4547-ad29-3fb60e6980e6
+task_descriptions:
+- arrange_the_electronics_a_and_place_in_the_furniture_c
+scene_type:
+- hospital
+- factory
+- kitchen
+atomic_actions:
+- remove
+- lift
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.9
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_beverage_b_to_toy_c_6542
+dataset_uuid: f5030f4c-7a4b-41c5-8d26-9941ac201fdc
+task_descriptions:
+- stack_the_beverage_b_and_place_in_the_toy_c
+scene_type:
+- store
+- warehouse
+- home
+atomic_actions:
+- slide
+- place
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- agility_h1
+end_effector_type: five_claw_gripper

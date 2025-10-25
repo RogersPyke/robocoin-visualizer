@@ -1,0 +1,28 @@
+dataset_name: pick_textile_b_to_fruit_b_6267
+dataset_uuid: ab488e64-1f63-49e8-8afa-2755386819bc
+task_descriptions:
+- pick_the_textile_b_and_place_in_the_fruit_b
+scene_type:
+- kitchen
+- cafe
+atomic_actions:
+- push
+- lift
+- pick
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.2
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

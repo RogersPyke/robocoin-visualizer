@@ -1,0 +1,27 @@
+dataset_name: arrange_furniture_a_to_tool_b_3678
+dataset_uuid: 1481d51a-1d51-41bf-8f35-cdcd2e682e3d
+task_descriptions:
+- arrange_the_furniture_a_and_place_in_the_tool_b
+scene_type:
+- home
+- store
+atomic_actions:
+- pull
+- grasp
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.1
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

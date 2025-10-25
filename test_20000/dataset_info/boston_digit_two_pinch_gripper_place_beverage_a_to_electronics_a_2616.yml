@@ -1,0 +1,29 @@
+dataset_name: place_beverage_a_to_electronics_a_2616
+dataset_uuid: 86e51339-4a96-47eb-ab64-147682c4fcfa
+task_descriptions:
+- place_the_beverage_a_and_place_in_the_electronics_a
+scene_type:
+- hospital
+- home
+- warehouse
+atomic_actions:
+- remove
+- flip
+- rotate
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

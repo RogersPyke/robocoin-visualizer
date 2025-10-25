@@ -1,0 +1,26 @@
+dataset_name: pick_container_b_to_fruit_e_2173
+dataset_uuid: e2ca9db7-4124-4e55-a9ef-5b171fc71008
+task_descriptions:
+- pick_the_container_b_and_place_in_the_fruit_e
+scene_type:
+- laboratory
+atomic_actions:
+- slide
+- place
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- unitree_h1
+end_effector_type: two_finger_gripper

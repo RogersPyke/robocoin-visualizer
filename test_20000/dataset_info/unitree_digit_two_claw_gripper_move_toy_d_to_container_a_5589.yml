@@ -1,0 +1,29 @@
+dataset_name: move_toy_d_to_container_a_5589
+dataset_uuid: fea925a4-324c-4831-bc00-c83287e914d2
+task_descriptions:
+- move_the_toy_d_and_place_in_the_container_a
+scene_type:
+- office
+- cafe
+atomic_actions:
+- lift
+- grasp
+- push
+- flip
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- unitree_digit
+end_effector_type: two_claw_gripper

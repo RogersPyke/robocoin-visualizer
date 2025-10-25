@@ -1,0 +1,28 @@
+dataset_name: pick_beverage_e_to_container_c_1398
+dataset_uuid: 89276be9-725b-4d24-9cda-1fc0db9d81ac
+task_descriptions:
+- pick_the_beverage_e_and_place_in_the_container_c
+scene_type:
+- cafe
+atomic_actions:
+- pull
+- flip
+- rotate
+- push
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

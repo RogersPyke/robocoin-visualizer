@@ -1,0 +1,28 @@
+dataset_name: place_fruit_d_to_electronics_a_4540
+dataset_uuid: 221b8101-822b-424c-abc9-57b85e77c874
+task_descriptions:
+- place_the_fruit_d_and_place_in_the_electronics_a
+scene_type:
+- hospital
+- kitchen
+- office
+atomic_actions:
+- slide
+- rotate
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 77.0
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

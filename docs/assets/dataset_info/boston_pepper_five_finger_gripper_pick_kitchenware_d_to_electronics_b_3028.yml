@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_d_to_electronics_b_3028
+dataset_uuid: dd3cd6fd-fde4-45d9-87e7-e84650dce944
+task_descriptions:
+- pick_the_kitchenware_d_and_place_in_the_electronics_b
+scene_type:
+- hospital
+- kitchen
+- laboratory
+atomic_actions:
+- rotate
+- lift
+objects:
+- object_name: kitchenware_d
+  level1: kitchenware
+  level2: kitchenware_d
+  level3: kitchenware_d_sub1
+  level4: kitchenware_d_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- boston_pepper
+end_effector_type: five_finger_gripper

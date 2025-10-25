@@ -1,0 +1,28 @@
+dataset_name: pick_food_c_to_textile_e_7456
+dataset_uuid: ab72f0d5-04d4-4b41-9aa1-464e4b616ed2
+task_descriptions:
+- pick_the_food_c_and_place_in_the_textile_e
+scene_type:
+- kitchen
+- office
+- restaurant
+atomic_actions:
+- grasp
+- push
+objects:
+- object_name: food_c
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.9
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

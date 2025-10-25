@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_b_to_stationery_b_2947
+dataset_uuid: 950856c5-4396-40b8-b612-9d3df452ae48
+task_descriptions:
+- pick_the_stationery_b_and_place_in_the_stationery_b
+scene_type:
+- restaurant
+- hospital
+atomic_actions:
+- insert
+- rotate
+- flip
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

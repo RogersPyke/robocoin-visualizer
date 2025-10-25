@@ -1,0 +1,26 @@
+dataset_name: pick_tool_a_to_tool_b_6998
+dataset_uuid: eaccc943-7743-4c62-b1e5-fc1dd73a4b7d
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_tool_b
+scene_type:
+- hospital
+atomic_actions:
+- insert
+- pull
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.1
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

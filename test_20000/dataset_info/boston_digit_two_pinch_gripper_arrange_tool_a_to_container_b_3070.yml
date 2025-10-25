@@ -1,0 +1,30 @@
+dataset_name: arrange_tool_a_to_container_b_3070
+dataset_uuid: f6175d5c-3bac-4a9e-bfcb-5d9905eb7a2e
+task_descriptions:
+- arrange_the_tool_a_and_place_in_the_container_b
+scene_type:
+- hospital
+- warehouse
+- cafe
+atomic_actions:
+- push
+- pull
+- rotate
+- grasp
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 71.0
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

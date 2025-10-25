@@ -1,0 +1,29 @@
+dataset_name: stack_beverage_d_to_stationery_c_8265
+dataset_uuid: 5347fc6c-3769-4899-ab10-41614687ead7
+task_descriptions:
+- stack_the_beverage_d_and_place_in_the_stationery_c
+scene_type:
+- warehouse
+- office
+atomic_actions:
+- lower
+- insert
+- rotate
+- grasp
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.6
+device_model:
+- fetch_tiago
+end_effector_type: two_pinch_gripper

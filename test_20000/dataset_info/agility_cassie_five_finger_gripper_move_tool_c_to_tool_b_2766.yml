@@ -1,0 +1,28 @@
+dataset_name: move_tool_c_to_tool_b_2766
+dataset_uuid: 4fe3060c-0ebf-434e-a49e-17c5be68aac7
+task_descriptions:
+- move_the_tool_c_and_place_in_the_tool_b
+scene_type:
+- home
+- hospital
+- laboratory
+atomic_actions:
+- lower
+- pick
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

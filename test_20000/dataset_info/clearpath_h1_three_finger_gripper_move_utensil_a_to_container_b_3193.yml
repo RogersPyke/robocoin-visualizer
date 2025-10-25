@@ -1,0 +1,29 @@
+dataset_name: move_utensil_a_to_container_b_3193
+dataset_uuid: 27f24e1f-cd0a-48f0-81b8-21b5b93d8e35
+task_descriptions:
+- move_the_utensil_a_and_place_in_the_container_b
+scene_type:
+- store
+- restaurant
+atomic_actions:
+- pick
+- push
+- slide
+- grasp
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.9
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_utensil_c_to_stationery_c_3150
+dataset_uuid: 7d1ac39b-e53b-4679-b25b-970dffbe77a9
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_stationery_c
+scene_type:
+- store
+- home
+atomic_actions:
+- flip
+- slide
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+operation_platform_height: 87.3
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

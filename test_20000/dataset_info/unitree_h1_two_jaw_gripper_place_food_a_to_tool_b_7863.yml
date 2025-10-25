@@ -1,0 +1,28 @@
+dataset_name: place_food_a_to_tool_b_7863
+dataset_uuid: 0a56169f-f141-43ab-8422-c8a3ee3dc1c8
+task_descriptions:
+- place_the_food_a_and_place_in_the_tool_b
+scene_type:
+- home
+atomic_actions:
+- grasp
+- rotate
+- place
+- slide
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

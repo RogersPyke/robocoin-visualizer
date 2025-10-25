@@ -1,0 +1,28 @@
+dataset_name: move_beverage_b_to_fruit_a_8253
+dataset_uuid: 381cce0f-b0b3-4990-a9bc-d765765090e0
+task_descriptions:
+- move_the_beverage_b_and_place_in_the_fruit_a
+scene_type:
+- store
+- warehouse
+- laboratory
+atomic_actions:
+- lower
+- place
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: move_toy_a_to_stationery_a_4382
+dataset_uuid: a176cedf-d854-4021-a3ce-a19cf4046e47
+task_descriptions:
+- move_the_toy_a_and_place_in_the_stationery_a
+scene_type:
+- hospital
+- home
+atomic_actions:
+- lower
+- grasp
+- insert
+- place
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

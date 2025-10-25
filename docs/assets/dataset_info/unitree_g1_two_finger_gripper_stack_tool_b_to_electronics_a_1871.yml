@@ -1,0 +1,29 @@
+dataset_name: stack_tool_b_to_electronics_a_1871
+dataset_uuid: 5d19b8cb-14c7-4e21-b9de-f0aeaf28ad75
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_electronics_a
+scene_type:
+- kitchen
+- restaurant
+- office
+atomic_actions:
+- place
+- grasp
+- rotate
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 74.6
+device_model:
+- unitree_g1
+end_effector_type: two_finger_gripper

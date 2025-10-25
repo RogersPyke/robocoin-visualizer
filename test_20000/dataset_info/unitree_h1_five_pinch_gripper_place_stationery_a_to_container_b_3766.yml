@@ -1,0 +1,29 @@
+dataset_name: place_stationery_a_to_container_b_3766
+dataset_uuid: cec20ba9-0381-44da-9466-11ce127cf3e3
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_container_b
+scene_type:
+- laboratory
+- factory
+atomic_actions:
+- pull
+- push
+- lower
+- insert
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.0
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

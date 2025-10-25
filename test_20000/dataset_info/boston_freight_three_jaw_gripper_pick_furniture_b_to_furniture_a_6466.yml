@@ -1,0 +1,26 @@
+dataset_name: pick_furniture_b_to_furniture_a_6466
+dataset_uuid: c0c32d55-754e-4129-974b-a59d1bf4f5aa
+task_descriptions:
+- pick_the_furniture_b_and_place_in_the_furniture_a
+scene_type:
+- kitchen
+atomic_actions:
+- insert
+- lower
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

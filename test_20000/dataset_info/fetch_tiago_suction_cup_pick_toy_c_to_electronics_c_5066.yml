@@ -1,0 +1,27 @@
+dataset_name: pick_toy_c_to_electronics_c_5066
+dataset_uuid: 78460df2-6a3e-4be6-8c29-aed74a048934
+task_descriptions:
+- pick_the_toy_c_and_place_in_the_electronics_c
+scene_type:
+- store
+- hospital
+atomic_actions:
+- push
+- flip
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- fetch_tiago
+end_effector_type: suction_cup

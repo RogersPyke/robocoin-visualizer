@@ -1,0 +1,27 @@
+dataset_name: move_textile_a_to_kitchenware_e_2945
+dataset_uuid: 102edf2c-c24f-4b2d-bd41-9b577e396472
+task_descriptions:
+- move_the_textile_a_and_place_in_the_kitchenware_e
+scene_type:
+- office
+- restaurant
+atomic_actions:
+- grasp
+- push
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_e
+  level1: kitchenware
+  level2: kitchenware_e
+  level3: kitchenware_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- unitree_h1
+end_effector_type: three_claw_gripper

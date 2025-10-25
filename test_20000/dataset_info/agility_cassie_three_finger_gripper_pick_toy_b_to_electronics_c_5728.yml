@@ -1,0 +1,27 @@
+dataset_name: pick_toy_b_to_electronics_c_5728
+dataset_uuid: 62e9028a-04c7-48e8-9967-b9b0ee669011
+task_descriptions:
+- pick_the_toy_b_and_place_in_the_electronics_c
+scene_type:
+- office
+- kitchen
+atomic_actions:
+- push
+- grasp
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.4
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

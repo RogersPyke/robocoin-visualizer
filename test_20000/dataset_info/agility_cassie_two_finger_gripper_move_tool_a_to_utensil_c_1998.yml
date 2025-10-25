@@ -1,0 +1,28 @@
+dataset_name: move_tool_a_to_utensil_c_1998
+dataset_uuid: 4f9c7eae-a2a9-4247-9d4a-9c323fa76d85
+task_descriptions:
+- move_the_tool_a_and_place_in_the_utensil_c
+scene_type:
+- factory
+- hospital
+- cafe
+atomic_actions:
+- push
+- pull
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- agility_cassie
+end_effector_type: two_finger_gripper

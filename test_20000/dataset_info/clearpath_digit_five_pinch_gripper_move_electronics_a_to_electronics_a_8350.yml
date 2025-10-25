@@ -1,0 +1,30 @@
+dataset_name: move_electronics_a_to_electronics_a_8350
+dataset_uuid: 1954658f-f2c8-4bcf-b944-dd170e33cf9f
+task_descriptions:
+- move_the_electronics_a_and_place_in_the_electronics_a
+scene_type:
+- office
+- store
+- hospital
+atomic_actions:
+- insert
+- pick
+- slide
+- remove
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

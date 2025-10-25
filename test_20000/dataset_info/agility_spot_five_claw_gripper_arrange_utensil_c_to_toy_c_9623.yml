@@ -1,0 +1,27 @@
+dataset_name: arrange_utensil_c_to_toy_c_9623
+dataset_uuid: 7c022a0d-d841-451d-8701-50921860d201
+task_descriptions:
+- arrange_the_utensil_c_and_place_in_the_toy_c
+scene_type:
+- hospital
+atomic_actions:
+- pick
+- pull
+- place
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- agility_spot
+end_effector_type: five_claw_gripper

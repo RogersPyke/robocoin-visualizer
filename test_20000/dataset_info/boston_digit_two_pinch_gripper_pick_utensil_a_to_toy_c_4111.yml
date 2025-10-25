@@ -1,0 +1,29 @@
+dataset_name: pick_utensil_a_to_toy_c_4111
+dataset_uuid: d9dbb26c-5a95-4c09-ae9c-cc59cab2f649
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_toy_c
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- lift
+- flip
+- rotate
+- lower
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.8
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,26 @@
+dataset_name: pick_kitchenware_c_to_beverage_a_5918
+dataset_uuid: 0e1e434c-3416-4d45-ba3a-9d1270c26559
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_beverage_a
+scene_type:
+- factory
+atomic_actions:
+- pick
+- grasp
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

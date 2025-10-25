@@ -1,0 +1,27 @@
+dataset_name: arrange_fruit_e_to_container_a_9854
+dataset_uuid: 345ce9d8-99c1-4ee1-881b-9a11443ad471
+task_descriptions:
+- arrange_the_fruit_e_and_place_in_the_container_a
+scene_type:
+- warehouse
+atomic_actions:
+- insert
+- lower
+- lift
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.4
+device_model:
+- pal_tiago
+end_effector_type: five_finger_gripper

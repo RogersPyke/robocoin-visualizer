@@ -1,0 +1,29 @@
+dataset_name: move_toy_c_to_utensil_b_2404
+dataset_uuid: c1e8141f-172c-4f96-92bb-e623626f0266
+task_descriptions:
+- move_the_toy_c_and_place_in_the_utensil_b
+scene_type:
+- kitchen
+- hospital
+- store
+atomic_actions:
+- pull
+- grasp
+- lower
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

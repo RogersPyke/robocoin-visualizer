@@ -1,0 +1,29 @@
+dataset_name: stack_utensil_a_to_furniture_a_7744
+dataset_uuid: 1551c580-c1c3-467d-941b-09db5e4948d5
+task_descriptions:
+- stack_the_utensil_a_and_place_in_the_furniture_a
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- rotate
+- place
+- lower
+- lift
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- unitree_h1
+end_effector_type: three_claw_gripper

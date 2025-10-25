@@ -1,0 +1,28 @@
+dataset_name: stack_tool_a_to_stationery_b_9176
+dataset_uuid: a90c3de7-6c12-407e-a7ed-80afd4b96cfa
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_stationery_b
+scene_type:
+- store
+atomic_actions:
+- slide
+- place
+- remove
+- push
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

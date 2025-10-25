@@ -1,0 +1,26 @@
+dataset_name: pick_container_c_to_electronics_c_3128
+dataset_uuid: 4572f7dd-e858-4848-951e-b083de2d969a
+task_descriptions:
+- pick_the_container_c_and_place_in_the_electronics_c
+scene_type:
+- laboratory
+atomic_actions:
+- pick
+- insert
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- agility_h1
+end_effector_type: three_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_tool_a_to_tool_d_8666
+dataset_uuid: ff98825d-53c2-4588-9775-1c25e5c90786
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_tool_d
+scene_type:
+- cafe
+- home
+atomic_actions:
+- remove
+- lift
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.5
+device_model:
+- pal_freight
+end_effector_type: three_finger_gripper

@@ -1,0 +1,30 @@
+dataset_name: stack_beverage_b_to_beverage_e_9014
+dataset_uuid: 250cce0e-b47f-4f42-9468-2c4e0dd4aa3e
+task_descriptions:
+- stack_the_beverage_b_and_place_in_the_beverage_e
+scene_type:
+- office
+- restaurant
+- cafe
+atomic_actions:
+- pull
+- slide
+- lift
+- push
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.8
+device_model:
+- fetch_tiago
+end_effector_type: five_finger_gripper

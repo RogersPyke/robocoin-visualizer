@@ -1,0 +1,29 @@
+dataset_name: arrange_stationery_c_to_toy_c_6330
+dataset_uuid: b21ad8a8-635f-4b5b-8165-bc26a3067492
+task_descriptions:
+- arrange_the_stationery_c_and_place_in_the_toy_c
+scene_type:
+- restaurant
+- warehouse
+- store
+atomic_actions:
+- lift
+- lower
+- flip
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

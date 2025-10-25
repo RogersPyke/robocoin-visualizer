@@ -1,0 +1,27 @@
+dataset_name: place_tool_c_to_electronics_a_2832
+dataset_uuid: a8e7fa23-59fc-44e4-9b08-fa73d7b9b357
+task_descriptions:
+- place_the_tool_c_and_place_in_the_electronics_a
+scene_type:
+- hospital
+- laboratory
+atomic_actions:
+- lower
+- insert
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.9
+device_model:
+- boston_tiago
+end_effector_type: two_finger_gripper

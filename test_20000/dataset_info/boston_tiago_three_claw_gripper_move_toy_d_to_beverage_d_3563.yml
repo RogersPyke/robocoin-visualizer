@@ -1,0 +1,29 @@
+dataset_name: move_toy_d_to_beverage_d_3563
+dataset_uuid: 22264e55-a2ec-4ae6-aaa8-45f334f9b918
+task_descriptions:
+- move_the_toy_d_and_place_in_the_beverage_d
+scene_type:
+- kitchen
+- cafe
+- office
+atomic_actions:
+- pick
+- rotate
+- insert
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

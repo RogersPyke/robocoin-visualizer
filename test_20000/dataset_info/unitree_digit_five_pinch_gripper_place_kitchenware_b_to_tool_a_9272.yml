@@ -1,0 +1,27 @@
+dataset_name: place_kitchenware_b_to_tool_a_9272
+dataset_uuid: cf6f8c5f-8ccd-44a4-a7a6-3cae445a6ced
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_tool_a
+scene_type:
+- cafe
+atomic_actions:
+- pull
+- slide
+- lift
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

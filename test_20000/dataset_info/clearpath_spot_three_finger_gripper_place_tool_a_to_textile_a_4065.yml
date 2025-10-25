@@ -1,0 +1,28 @@
+dataset_name: place_tool_a_to_textile_a_4065
+dataset_uuid: 8d1551bc-ec5f-4a22-8b11-c39c4d4fa90b
+task_descriptions:
+- place_the_tool_a_and_place_in_the_textile_a
+scene_type:
+- warehouse
+- factory
+- cafe
+atomic_actions:
+- slide
+- grasp
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

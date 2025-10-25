@@ -1,0 +1,29 @@
+dataset_name: place_beverage_e_to_beverage_b_6007
+dataset_uuid: a549869a-96a1-4921-8550-5d212c2b5af8
+task_descriptions:
+- place_the_beverage_e_and_place_in_the_beverage_b
+scene_type:
+- factory
+- cafe
+atomic_actions:
+- rotate
+- place
+- push
+- flip
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.2
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

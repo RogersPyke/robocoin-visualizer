@@ -1,0 +1,28 @@
+dataset_name: pick_textile_b_to_tool_b_9912
+dataset_uuid: e56623f9-a8de-4351-a3ea-856ea98d001e
+task_descriptions:
+- pick_the_textile_b_and_place_in_the_tool_b
+scene_type:
+- store
+- home
+- factory
+atomic_actions:
+- rotate
+- remove
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

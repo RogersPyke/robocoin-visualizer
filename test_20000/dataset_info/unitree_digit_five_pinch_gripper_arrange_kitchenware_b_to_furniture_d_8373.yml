@@ -1,0 +1,28 @@
+dataset_name: arrange_kitchenware_b_to_furniture_d_8373
+dataset_uuid: 53706436-67c0-43ea-b12e-7e7d05a26ccd
+task_descriptions:
+- arrange_the_kitchenware_b_and_place_in_the_furniture_d
+scene_type:
+- home
+atomic_actions:
+- pull
+- insert
+- push
+- lift
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.4
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

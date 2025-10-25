@@ -1,0 +1,27 @@
+dataset_name: place_food_a_to_electronics_a_2986
+dataset_uuid: 66bd36f9-7e31-4e88-bf17-41df5dcb17b1
+task_descriptions:
+- place_the_food_a_and_place_in_the_electronics_a
+scene_type:
+- home
+atomic_actions:
+- remove
+- insert
+- flip
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.1
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

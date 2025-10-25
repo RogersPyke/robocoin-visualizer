@@ -1,0 +1,28 @@
+dataset_name: pick_textile_c_to_utensil_a_2312
+dataset_uuid: 24bf3abd-b531-44f0-8337-ce3ff417a4eb
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_utensil_a
+scene_type:
+- factory
+atomic_actions:
+- flip
+- insert
+- grasp
+- slide
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

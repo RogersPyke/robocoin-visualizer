@@ -1,0 +1,29 @@
+dataset_name: move_stationery_b_to_furniture_b_1241
+dataset_uuid: f1a293b2-a909-4261-95bf-977f620a9f62
+task_descriptions:
+- move_the_stationery_b_and_place_in_the_furniture_b
+scene_type:
+- factory
+- restaurant
+atomic_actions:
+- grasp
+- pick
+- flip
+- lower
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.6
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

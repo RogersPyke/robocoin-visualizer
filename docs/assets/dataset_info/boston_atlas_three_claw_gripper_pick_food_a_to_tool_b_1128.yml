@@ -1,0 +1,29 @@
+dataset_name: pick_food_a_to_tool_b_1128
+dataset_uuid: c83c96c3-5302-4246-9548-8b1e6e6b45f5
+task_descriptions:
+- pick_the_food_a_and_place_in_the_tool_b
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- place
+- pick
+- insert
+- push
+objects:
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.1
+device_model:
+- boston_atlas
+end_effector_type: three_claw_gripper

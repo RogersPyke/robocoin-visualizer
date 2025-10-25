@@ -1,0 +1,28 @@
+dataset_name: place_stationery_b_to_textile_a_4987
+dataset_uuid: 00f1fb5c-1d60-4102-8c4b-07a1f3be1ae5
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_textile_a
+scene_type:
+- office
+atomic_actions:
+- insert
+- lift
+- grasp
+- rotate
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.3
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

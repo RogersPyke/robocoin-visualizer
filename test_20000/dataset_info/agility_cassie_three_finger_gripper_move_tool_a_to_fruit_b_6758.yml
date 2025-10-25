@@ -1,0 +1,30 @@
+dataset_name: move_tool_a_to_fruit_b_6758
+dataset_uuid: d4d4dcdc-dd9c-4f68-ac9b-9ff33d23304c
+task_descriptions:
+- move_the_tool_a_and_place_in_the_fruit_b
+scene_type:
+- store
+- restaurant
+- hospital
+atomic_actions:
+- rotate
+- place
+- flip
+- insert
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

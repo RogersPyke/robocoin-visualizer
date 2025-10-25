@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_a_to_container_a_8680
+dataset_uuid: cf9cfcf3-7229-4125-a9db-e42b8e143794
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_container_a
+scene_type:
+- kitchen
+atomic_actions:
+- grasp
+- push
+- rotate
+- pick
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.5
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

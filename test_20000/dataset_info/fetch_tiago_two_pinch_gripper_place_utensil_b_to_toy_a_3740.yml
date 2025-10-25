@@ -1,0 +1,28 @@
+dataset_name: place_utensil_b_to_toy_a_3740
+dataset_uuid: dd1172c7-d2b9-4cd8-9a73-ea237fb1b245
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_toy_a
+scene_type:
+- home
+- restaurant
+- warehouse
+atomic_actions:
+- remove
+- grasp
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- fetch_tiago
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_tool_d_to_electronics_b_1209
+dataset_uuid: cf2db68d-297f-4951-9e1a-96f70eb342fa
+task_descriptions:
+- stack_the_tool_d_and_place_in_the_electronics_b
+scene_type:
+- restaurant
+- cafe
+atomic_actions:
+- flip
+- grasp
+- lower
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

@@ -1,0 +1,30 @@
+dataset_name: stack_furniture_c_to_tool_a_7371
+dataset_uuid: 38f05db3-d56a-4a13-9ffc-42a2cb5a3494
+task_descriptions:
+- stack_the_furniture_c_and_place_in_the_tool_a
+scene_type:
+- warehouse
+- store
+- factory
+atomic_actions:
+- lift
+- rotate
+- push
+- slide
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.5
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

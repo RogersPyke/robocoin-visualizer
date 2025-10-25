@@ -1,0 +1,26 @@
+dataset_name: stack_kitchenware_e_to_container_e_7170
+dataset_uuid: 724d8790-0c2a-404e-a23b-d14a0c0e9629
+task_descriptions:
+- stack_the_kitchenware_e_and_place_in_the_container_e
+scene_type:
+- kitchen
+atomic_actions:
+- rotate
+- pull
+objects:
+- object_name: kitchenware_e
+  level1: kitchenware
+  level2: kitchenware_e
+  level3: kitchenware_e_sub1
+  level4: null
+  level5: null
+- object_name: container_e
+  level1: container
+  level2: container_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.2
+device_model:
+- pal_spot
+end_effector_type: three_jaw_gripper

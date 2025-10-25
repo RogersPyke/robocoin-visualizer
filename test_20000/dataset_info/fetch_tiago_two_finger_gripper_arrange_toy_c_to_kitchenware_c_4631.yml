@@ -1,0 +1,29 @@
+dataset_name: arrange_toy_c_to_kitchenware_c_4631
+dataset_uuid: 2dc89963-447c-4624-a6e4-046eda8fa8ee
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_kitchenware_c
+scene_type:
+- cafe
+- warehouse
+atomic_actions:
+- insert
+- lower
+- lift
+- grasp
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- fetch_tiago
+end_effector_type: two_finger_gripper

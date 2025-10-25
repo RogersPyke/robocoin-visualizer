@@ -1,0 +1,29 @@
+dataset_name: place_utensil_c_to_electronics_b_6768
+dataset_uuid: 12cfe3e4-324c-4c1f-93b9-de3108891f01
+task_descriptions:
+- place_the_utensil_c_and_place_in_the_electronics_b
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- lower
+- place
+- lift
+- pick
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- pal_freight
+end_effector_type: suction_cup

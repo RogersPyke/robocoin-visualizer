@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_c_to_textile_e_4054
+dataset_uuid: 259b443d-ae06-4f58-925a-bbd4e2ffcb40
+task_descriptions:
+- stack_the_stationery_c_and_place_in_the_textile_e
+scene_type:
+- office
+- hospital
+atomic_actions:
+- pull
+- push
+- rotate
+- place
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

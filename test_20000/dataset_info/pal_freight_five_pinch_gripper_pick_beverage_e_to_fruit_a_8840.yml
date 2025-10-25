@@ -1,0 +1,28 @@
+dataset_name: pick_beverage_e_to_fruit_a_8840
+dataset_uuid: b32a6842-0574-442e-b9c2-b69dc98eb5e5
+task_descriptions:
+- pick_the_beverage_e_and_place_in_the_fruit_a
+scene_type:
+- store
+- cafe
+atomic_actions:
+- lift
+- pull
+- flip
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

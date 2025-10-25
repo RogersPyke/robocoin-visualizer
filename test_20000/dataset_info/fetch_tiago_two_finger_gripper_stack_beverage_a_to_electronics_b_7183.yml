@@ -1,0 +1,26 @@
+dataset_name: stack_beverage_a_to_electronics_b_7183
+dataset_uuid: f3f3e17f-a704-4eca-8cb9-74772a1c601f
+task_descriptions:
+- stack_the_beverage_a_and_place_in_the_electronics_b
+scene_type:
+- store
+atomic_actions:
+- slide
+- push
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- fetch_tiago
+end_effector_type: two_finger_gripper

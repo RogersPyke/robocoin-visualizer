@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_a_to_utensil_c_1342
+dataset_uuid: 00ecb5a4-af19-4385-a24b-84b3b391bf8c
+task_descriptions:
+- stack_the_utensil_a_and_place_in_the_utensil_c
+scene_type:
+- kitchen
+- cafe
+atomic_actions:
+- grasp
+- place
+- lift
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

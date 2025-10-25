@@ -1,0 +1,30 @@
+dataset_name: arrange_electronics_c_to_electronics_c_4391
+dataset_uuid: 3af84c91-0527-4bef-b6f2-79f18bc8d287
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_electronics_c
+scene_type:
+- factory
+- laboratory
+- hospital
+atomic_actions:
+- pull
+- flip
+- lift
+- grasp
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

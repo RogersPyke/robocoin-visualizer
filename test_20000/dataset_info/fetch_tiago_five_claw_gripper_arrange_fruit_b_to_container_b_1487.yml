@@ -1,0 +1,26 @@
+dataset_name: arrange_fruit_b_to_container_b_1487
+dataset_uuid: 8f54ad23-7349-4563-9b1f-e4f969381ac7
+task_descriptions:
+- arrange_the_fruit_b_and_place_in_the_container_b
+scene_type:
+- cafe
+atomic_actions:
+- lift
+- grasp
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

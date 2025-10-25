@@ -1,0 +1,27 @@
+dataset_name: pick_stationery_c_to_food_c_2226
+dataset_uuid: 46da59bc-a97a-466a-997a-0e3d8be5dce1
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_food_c
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- pull
+- grasp
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: food_c_sub2
+  level5: null
+operation_platform_height: 72.3
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

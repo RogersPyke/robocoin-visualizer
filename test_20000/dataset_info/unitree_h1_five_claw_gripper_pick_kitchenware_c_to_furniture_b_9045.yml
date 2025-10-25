@@ -1,0 +1,27 @@
+dataset_name: pick_kitchenware_c_to_furniture_b_9045
+dataset_uuid: a9f15e3c-7cb6-480a-8b8d-778a547a369f
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_furniture_b
+scene_type:
+- kitchen
+atomic_actions:
+- rotate
+- pick
+- lower
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- unitree_h1
+end_effector_type: five_claw_gripper

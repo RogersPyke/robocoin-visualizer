@@ -1,0 +1,26 @@
+dataset_name: stack_container_e_to_textile_a_7513
+dataset_uuid: 7336b053-262e-4745-b742-a619f7ea27e1
+task_descriptions:
+- stack_the_container_e_and_place_in_the_textile_a
+scene_type:
+- office
+atomic_actions:
+- flip
+- grasp
+objects:
+- object_name: container_e
+  level1: container
+  level2: container_e
+  level3: container_e_sub1
+  level4: container_e_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.5
+device_model:
+- agility_h1
+end_effector_type: five_claw_gripper

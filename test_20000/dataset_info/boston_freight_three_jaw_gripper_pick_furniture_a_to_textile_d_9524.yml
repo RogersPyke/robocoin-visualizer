@@ -1,0 +1,27 @@
+dataset_name: pick_furniture_a_to_textile_d_9524
+dataset_uuid: ca34f41e-ad41-42c9-a4ce-9308c1d0ca13
+task_descriptions:
+- pick_the_furniture_a_and_place_in_the_textile_d
+scene_type:
+- cafe
+- store
+atomic_actions:
+- grasp
+- place
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.2
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_food_d_to_toy_a_6387
+dataset_uuid: b7ba3f49-a775-490a-b9d3-df66e4951ceb
+task_descriptions:
+- place_the_food_d_and_place_in_the_toy_a
+scene_type:
+- restaurant
+- laboratory
+- store
+atomic_actions:
+- grasp
+- place
+- flip
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 89.1
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

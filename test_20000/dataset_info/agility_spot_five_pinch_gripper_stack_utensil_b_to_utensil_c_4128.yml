@@ -1,0 +1,30 @@
+dataset_name: stack_utensil_b_to_utensil_c_4128
+dataset_uuid: 6c6dcd74-1a7e-4fd4-865f-b63febad6502
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_utensil_c
+scene_type:
+- office
+- hospital
+- restaurant
+atomic_actions:
+- pull
+- grasp
+- pick
+- remove
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.9
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

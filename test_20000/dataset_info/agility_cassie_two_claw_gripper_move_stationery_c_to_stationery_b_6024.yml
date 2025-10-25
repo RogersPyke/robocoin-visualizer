@@ -1,0 +1,27 @@
+dataset_name: move_stationery_c_to_stationery_b_6024
+dataset_uuid: a67d0070-e5a1-404d-885c-060d381c02d1
+task_descriptions:
+- move_the_stationery_c_and_place_in_the_stationery_b
+scene_type:
+- office
+- hospital
+atomic_actions:
+- lower
+- rotate
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- agility_cassie
+end_effector_type: two_claw_gripper

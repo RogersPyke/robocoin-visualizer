@@ -1,0 +1,28 @@
+dataset_name: move_container_a_to_food_e_9175
+dataset_uuid: f394f75d-d8d0-4ba8-9bcf-5ad53e7f9719
+task_descriptions:
+- move_the_container_a_and_place_in_the_food_e
+scene_type:
+- kitchen
+atomic_actions:
+- remove
+- rotate
+- lift
+- insert
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.9
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

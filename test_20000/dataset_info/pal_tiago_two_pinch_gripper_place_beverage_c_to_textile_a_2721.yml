@@ -1,0 +1,29 @@
+dataset_name: place_beverage_c_to_textile_a_2721
+dataset_uuid: ba8ed7a3-538f-4479-9fde-708ade57ef7b
+task_descriptions:
+- place_the_beverage_c_and_place_in_the_textile_a
+scene_type:
+- factory
+- kitchen
+- cafe
+atomic_actions:
+- rotate
+- pull
+- grasp
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

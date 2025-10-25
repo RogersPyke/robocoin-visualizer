@@ -1,0 +1,28 @@
+dataset_name: arrange_container_a_to_kitchenware_c_6362
+dataset_uuid: f7f6bab9-0f71-4950-be49-595a4adfedeb
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_kitchenware_c
+scene_type:
+- store
+- home
+- cafe
+atomic_actions:
+- grasp
+- remove
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

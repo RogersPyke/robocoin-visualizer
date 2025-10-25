@@ -1,0 +1,27 @@
+dataset_name: stack_food_e_to_fruit_e_2667
+dataset_uuid: e6db17c7-d3e3-4aba-9ad6-98f9faecafeb
+task_descriptions:
+- stack_the_food_e_and_place_in_the_fruit_e
+scene_type:
+- cafe
+atomic_actions:
+- rotate
+- pull
+- grasp
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.8
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

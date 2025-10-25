@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_b_to_beverage_e_8186
+dataset_uuid: 2dd99cd8-2cc6-4478-9581-3d1b7d16ca94
+task_descriptions:
+- stack_the_stationery_b_and_place_in_the_beverage_e
+scene_type:
+- factory
+- store
+- hospital
+atomic_actions:
+- remove
+- push
+- grasp
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.5
+device_model:
+- boston_atlas
+end_effector_type: five_finger_gripper

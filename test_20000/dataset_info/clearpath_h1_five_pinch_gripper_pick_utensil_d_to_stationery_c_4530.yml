@@ -1,0 +1,30 @@
+dataset_name: pick_utensil_d_to_stationery_c_4530
+dataset_uuid: a497e9eb-f54a-47dc-b351-6c4fa6c3392f
+task_descriptions:
+- pick_the_utensil_d_and_place_in_the_stationery_c
+scene_type:
+- factory
+- store
+- cafe
+atomic_actions:
+- flip
+- remove
+- pick
+- lower
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.6
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

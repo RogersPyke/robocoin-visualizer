@@ -1,0 +1,27 @@
+dataset_name: place_tool_c_to_container_c_7068
+dataset_uuid: 991f6faf-ef21-4c39-b0b9-2180a9bc4a30
+task_descriptions:
+- place_the_tool_c_and_place_in_the_container_c
+scene_type:
+- home
+- kitchen
+atomic_actions:
+- remove
+- insert
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

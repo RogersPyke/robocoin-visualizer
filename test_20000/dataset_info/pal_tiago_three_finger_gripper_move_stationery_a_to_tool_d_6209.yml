@@ -1,0 +1,28 @@
+dataset_name: move_stationery_a_to_tool_d_6209
+dataset_uuid: 3a1acb00-f84f-4f9b-bc8b-fe9ed9639e83
+task_descriptions:
+- move_the_stationery_a_and_place_in_the_tool_d
+scene_type:
+- factory
+- hospital
+- restaurant
+atomic_actions:
+- pick
+- slide
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.4
+device_model:
+- pal_tiago
+end_effector_type: three_finger_gripper

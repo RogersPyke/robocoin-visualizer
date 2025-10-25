@@ -1,0 +1,30 @@
+dataset_name: arrange_beverage_b_to_fruit_d_3844
+dataset_uuid: 7ef2416e-9530-4bd2-905f-b085e5f005a4
+task_descriptions:
+- arrange_the_beverage_b_and_place_in_the_fruit_d
+scene_type:
+- hospital
+- cafe
+- kitchen
+atomic_actions:
+- push
+- slide
+- rotate
+- place
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

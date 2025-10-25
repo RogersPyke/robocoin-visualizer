@@ -1,0 +1,27 @@
+dataset_name: pick_textile_c_to_furniture_d_6173
+dataset_uuid: cacc62ab-51b8-4f49-aced-08cf6d3e6156
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_furniture_d
+scene_type:
+- hospital
+atomic_actions:
+- slide
+- grasp
+- lower
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

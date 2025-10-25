@@ -1,0 +1,30 @@
+dataset_name: pick_stationery_c_to_kitchenware_a_5579
+dataset_uuid: 569b2577-b6d5-4c66-bff6-2b3599e74f74
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_kitchenware_a
+scene_type:
+- laboratory
+- office
+- hospital
+atomic_actions:
+- remove
+- pull
+- slide
+- rotate
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.7
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

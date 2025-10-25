@@ -1,0 +1,30 @@
+dataset_name: pick_container_c_to_container_c_9875
+dataset_uuid: 7bbba243-b284-407f-a2b4-b83ca98f2434
+task_descriptions:
+- pick_the_container_c_and_place_in_the_container_c
+scene_type:
+- factory
+- store
+- office
+atomic_actions:
+- flip
+- pick
+- place
+- grasp
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+operation_platform_height: 77.4
+device_model:
+- clearpath_h1
+end_effector_type: suction_cup

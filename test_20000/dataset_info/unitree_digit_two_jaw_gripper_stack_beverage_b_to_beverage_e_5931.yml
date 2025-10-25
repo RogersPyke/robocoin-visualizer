@@ -1,0 +1,27 @@
+dataset_name: stack_beverage_b_to_beverage_e_5931
+dataset_uuid: d9997425-5fcc-4950-be13-08f3aba5d39c
+task_descriptions:
+- stack_the_beverage_b_and_place_in_the_beverage_e
+scene_type:
+- kitchen
+atomic_actions:
+- place
+- remove
+- insert
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

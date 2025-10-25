@@ -1,0 +1,27 @@
+dataset_name: pick_stationery_a_to_electronics_b_2840
+dataset_uuid: 77d53b87-9b4d-48f1-aa5b-108bfbe4b31f
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_electronics_b
+scene_type:
+- restaurant
+atomic_actions:
+- remove
+- lift
+- lower
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.9
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

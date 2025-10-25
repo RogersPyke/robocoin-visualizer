@@ -1,0 +1,30 @@
+dataset_name: place_utensil_c_to_tool_b_7723
+dataset_uuid: b2938735-9807-4994-9618-6814b344d7ea
+task_descriptions:
+- place_the_utensil_c_and_place_in_the_tool_b
+scene_type:
+- home
+- hospital
+- restaurant
+atomic_actions:
+- rotate
+- grasp
+- lift
+- lower
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- boston_atlas
+end_effector_type: two_claw_gripper

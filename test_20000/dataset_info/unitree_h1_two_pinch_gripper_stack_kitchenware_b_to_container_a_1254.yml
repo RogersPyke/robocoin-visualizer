@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_b_to_container_a_1254
+dataset_uuid: 0e5f7ace-ec2b-42d5-90b1-bc01abdeebca
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_container_a
+scene_type:
+- office
+- hospital
+- kitchen
+atomic_actions:
+- slide
+- insert
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

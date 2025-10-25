@@ -1,0 +1,28 @@
+dataset_name: place_textile_a_to_kitchenware_a_2353
+dataset_uuid: 4877925d-1c0a-46dc-894b-9804af979a69
+task_descriptions:
+- place_the_textile_a_and_place_in_the_kitchenware_a
+scene_type:
+- hospital
+atomic_actions:
+- push
+- lift
+- rotate
+- slide
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

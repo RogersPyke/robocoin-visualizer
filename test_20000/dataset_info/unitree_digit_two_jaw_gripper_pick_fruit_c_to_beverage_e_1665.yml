@@ -1,0 +1,29 @@
+dataset_name: pick_fruit_c_to_beverage_e_1665
+dataset_uuid: 7994db5d-cd7d-4ebc-8e17-a154a85d92bc
+task_descriptions:
+- pick_the_fruit_c_and_place_in_the_beverage_e
+scene_type:
+- warehouse
+- office
+- kitchen
+atomic_actions:
+- rotate
+- lower
+- slide
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

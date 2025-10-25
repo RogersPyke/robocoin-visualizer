@@ -1,0 +1,28 @@
+dataset_name: pick_food_a_to_toy_b_5535
+dataset_uuid: 398de354-0b57-420e-ba30-15f330bb0c4e
+task_descriptions:
+- pick_the_food_a_and_place_in_the_toy_b
+scene_type:
+- hospital
+- restaurant
+atomic_actions:
+- rotate
+- pick
+- lower
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.0
+device_model:
+- boston_h1
+end_effector_type: five_claw_gripper

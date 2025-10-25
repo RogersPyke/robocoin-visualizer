@@ -1,0 +1,26 @@
+dataset_name: place_beverage_c_to_textile_e_2440
+dataset_uuid: 0a05c5a9-b010-4e91-8893-a09a76800857
+task_descriptions:
+- place_the_beverage_c_and_place_in_the_textile_e
+scene_type:
+- store
+atomic_actions:
+- pick
+- grasp
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.1
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

@@ -1,0 +1,30 @@
+dataset_name: stack_tool_b_to_toy_d_8273
+dataset_uuid: 8a2fd227-8fb1-459d-adec-d83b64584a7f
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_toy_d
+scene_type:
+- restaurant
+- office
+- home
+atomic_actions:
+- pick
+- grasp
+- lower
+- slide
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

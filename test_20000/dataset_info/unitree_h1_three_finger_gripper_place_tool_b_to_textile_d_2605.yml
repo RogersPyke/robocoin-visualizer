@@ -1,0 +1,27 @@
+dataset_name: place_tool_b_to_textile_d_2605
+dataset_uuid: 96f02796-0818-484e-8bf5-4f115d8d0d23
+task_descriptions:
+- place_the_tool_b_and_place_in_the_textile_d
+scene_type:
+- restaurant
+- hospital
+atomic_actions:
+- push
+- lift
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.3
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

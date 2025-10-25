@@ -1,0 +1,29 @@
+dataset_name: arrange_kitchenware_e_to_food_b_6915
+dataset_uuid: 300aae82-7b03-4ab1-9ae5-3420f46cc6d0
+task_descriptions:
+- arrange_the_kitchenware_e_and_place_in_the_food_b
+scene_type:
+- office
+- store
+- kitchen
+atomic_actions:
+- rotate
+- slide
+- lower
+objects:
+- object_name: kitchenware_e
+  level1: kitchenware
+  level2: kitchenware_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- pal_spot
+end_effector_type: five_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_c_to_toy_c_4758
+dataset_uuid: b0bd33d3-7154-443f-b4c6-328e79cfc9f6
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_toy_c
+scene_type:
+- kitchen
+- laboratory
+atomic_actions:
+- slide
+- remove
+- push
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.7
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

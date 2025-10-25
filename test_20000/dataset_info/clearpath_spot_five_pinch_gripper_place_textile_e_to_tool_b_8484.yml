@@ -1,0 +1,27 @@
+dataset_name: place_textile_e_to_tool_b_8484
+dataset_uuid: cddb83e0-2004-447f-a191-a78a700cb2bf
+task_descriptions:
+- place_the_textile_e_and_place_in_the_tool_b
+scene_type:
+- warehouse
+atomic_actions:
+- place
+- grasp
+- pull
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.7
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_utensil_b_to_toy_c_2710
+dataset_uuid: 250ed320-c5a6-4840-af48-65e1c6ce666d
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_toy_c
+scene_type:
+- factory
+- cafe
+atomic_actions:
+- flip
+- rotate
+- place
+- insert
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.8
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

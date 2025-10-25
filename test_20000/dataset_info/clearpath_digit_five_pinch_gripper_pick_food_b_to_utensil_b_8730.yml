@@ -1,0 +1,28 @@
+dataset_name: pick_food_b_to_utensil_b_8730
+dataset_uuid: 4beedee7-cd6d-485e-9b9b-f57ad5cc4ba8
+task_descriptions:
+- pick_the_food_b_and_place_in_the_utensil_b
+scene_type:
+- home
+- factory
+atomic_actions:
+- lower
+- remove
+- lift
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 81.0
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

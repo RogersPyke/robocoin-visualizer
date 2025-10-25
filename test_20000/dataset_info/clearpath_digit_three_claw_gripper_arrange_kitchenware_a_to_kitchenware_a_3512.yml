@@ -1,0 +1,27 @@
+dataset_name: arrange_kitchenware_a_to_kitchenware_a_3512
+dataset_uuid: 6e900721-dd88-4171-9912-83d610aa2fa4
+task_descriptions:
+- arrange_the_kitchenware_a_and_place_in_the_kitchenware_a
+scene_type:
+- kitchen
+- cafe
+atomic_actions:
+- lower
+- place
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

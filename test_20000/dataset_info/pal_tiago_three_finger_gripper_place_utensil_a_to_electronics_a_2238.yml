@@ -1,0 +1,28 @@
+dataset_name: place_utensil_a_to_electronics_a_2238
+dataset_uuid: 42d93621-1e23-4677-907b-4bb1b1967ce5
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_electronics_a
+scene_type:
+- factory
+- store
+atomic_actions:
+- push
+- slide
+- remove
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- pal_tiago
+end_effector_type: three_finger_gripper

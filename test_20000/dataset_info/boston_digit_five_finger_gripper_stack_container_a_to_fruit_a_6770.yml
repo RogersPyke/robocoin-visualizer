@@ -1,0 +1,28 @@
+dataset_name: stack_container_a_to_fruit_a_6770
+dataset_uuid: 8958b7b7-3406-41cd-8e64-8ebfc5c53e24
+task_descriptions:
+- stack_the_container_a_and_place_in_the_fruit_a
+scene_type:
+- hospital
+- restaurant
+- laboratory
+atomic_actions:
+- place
+- lower
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

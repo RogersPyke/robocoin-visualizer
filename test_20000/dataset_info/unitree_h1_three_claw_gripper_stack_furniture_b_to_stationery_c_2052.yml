@@ -1,0 +1,27 @@
+dataset_name: stack_furniture_b_to_stationery_c_2052
+dataset_uuid: 7c3d9170-e485-45a4-a62c-75daaa22023c
+task_descriptions:
+- stack_the_furniture_b_and_place_in_the_stationery_c
+scene_type:
+- kitchen
+- laboratory
+atomic_actions:
+- grasp
+- lower
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.3
+device_model:
+- unitree_h1
+end_effector_type: three_claw_gripper

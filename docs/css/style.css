@@ -1,0 +1,1343 @@
+/* ==================== Layout Parameters ==================== */
+:root {
+    /* Loading Parameters */
+    --loading-batch-size: 150;  /* 数据加载批次大小 */
+
+    /* Layout Width Parameters */
+    --filter-panel-width: 20%;
+    --video-panel-width: 60%;
+    --selection-panel-width: 20%;
+    
+    /* Layout Spacing Parameters */
+    --content-padding: 12px;  /* 统一的内容内边距 */
+    
+    /* Grid Layout Parameters */
+    --grid-min-card-width: 250px;
+    --grid-card-height: 270px;
+    --grid-gap: 16px;
+    --grid-columns: 4;
+    --grid-buffer-rows: 3;
+    --grid-padding: var(--content-padding); /* 使用统一的内边距 */
+    
+    /* Selection Panel Parameters */
+    --selection-item-height: 45px;  /* 单个选项的高度（包含padding和border）*/
+    --selection-item-padding: 16px;
+    --selection-buffer-items: 20;
+    
+    /* Video Observer Parameters */
+    --video-observer-margin: 200px;
+    --video-observer-threshold: 0.1;
+    
+    /* Hierarchy Parameters */
+    --hierarchy-indent: 8px;  /* 固定层级缩进 - 每一级统一缩进16px（非累积）*/
+    --hierarchy-max-levels: 5;  /* 最大层级深度 */
+    
+    /* Badge Parameters */
+    --badge-size: 24px;
+    --badge-margin: 8px;
+    
+    /* Interaction Timing Parameters */
+    --hover-delay: 500ms;
+    --resize-debounce: 200ms;
+    --scroll-throttle: 16ms;
+    
+    /* Preview Card Parameters */
+    --preview-card-max-width: 320px;
+    --preview-card-min-width: 240px;
+    --preview-card-padding: 16px;
+    --preview-card-offset: 8px;
+    
+    /* Animation Parameters */
+    --transition-duration: 0.2s;
+    --fade-duration: 300ms;
+    
+    /* UI Element Parameters */
+    --button-size: 32px;
+    --icon-size: 16px;
+    --border-radius: 4px;
+    
+    /* Responsive Layout Breakpoints */
+    --breakpoint-small: 600px;
+    --breakpoint-medium: 900px;
+    --breakpoint-large: 1200px;
+    --breakpoint-xlarge: 1600px;
+}
+
+/* Responsive Layout Rules */
+@media (max-width: 1200px) {
+    :root {
+        --grid-columns: 3;
+    }
+}
+
+@media (max-width: 900px) {
+    :root {
+        --grid-columns: 2;
+    }
+}
+
+@media (max-width: 600px) {
+    :root {
+        --grid-columns: 1;
+    }
+}
+
+@media (min-width: 1600px) {
+    :root {
+        --grid-columns: 5;
+    }
+}
+
+/* ==================== overall basic format ==================== */
+* { 
+    box-sizing: border-box;  /* 让padding和border计入元素总宽度，便于布局计算 */
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f5f7fa;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.app-container {
+    display: flex;
+    flex: 1;  /* 占据剩余所有空间 */
+    overflow: hidden;
+}
+
+/* ==================== left-filter (18% width) ==================== */
+.filter-panel {
+    width: var(--filter-panel-width);
+    background: white;  /* 白色背景 */
+    border-right: 1px solid #e0e0e0;  /* 右侧分隔线 */
+    display: flex;
+    flex-direction: column;  /* 垂直排列：头部、统计、内容、底部按钮 */
+    overflow: hidden;  /* 防止内容溢出 */
+}
+
+/* 筛选面板 - 顶部搜索区 */
+.filter-header {
+    padding: 12px 8px;  /* 内边距 - 缩小左右padding */
+    border-bottom: 1px solid #e0e0e0;  /* 底部分隔线 */
+    position: relative;
+}
+.filter-search {
+    width: 100%;  /* 搜索框占满宽度 */
+    padding: 8px 12px;  /* 内边距 */
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;  /* 圆角 */
+    font-size: 14px;
+    background: transparent;
+    outline: none;
+}
+.filter-search:focus {
+    border-bottom-color: #007bff;  /* 聚焦时变蓝 */
+}
+.filter-search::placeholder {
+    color: #999;
+}
+
+/* Filter Finder - 筛选项搜索 */
+.filter-finder {
+    margin-top: 8px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.filter-finder-input {
+    flex: 1;
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 12px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.filter-finder-input:focus {
+    border-color: #007bff;
+}
+
+.filter-finder-nav {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.filter-finder-btn {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.filter-finder-btn:hover:not(:disabled) {
+    background: #f0f8ff;
+    border-color: #007bff;
+    color: #007bff;
+}
+
+.filter-finder-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.filter-finder-count {
+    font-size: 11px;
+    color: #666;
+    min-width: 35px;
+    text-align: center;
+}
+
+/* Filter高亮样式 */
+.filter-option.highlight-match {
+    background-color: #fff3cd;
+    border-radius: 3px;
+    animation: pulse-highlight 0.5s ease;
+}
+
+.filter-option.highlight-match.current-match {
+    background-color: #ffc107;
+    box-shadow: 0 0 0 2px rgba(255, 193, 7, 0.5);
+}
+
+@keyframes pulse-highlight {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+}
+
+/* 筛选面板 - 统计信息区 */
+.filter-stats {
+    padding: 12px 8px;  /* 缩小左右padding */
+    background: #f8f9fa;  /* 浅灰色背景区分 */
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 13px;
+}
+.stat-item {
+    display: flex;
+    justify-content: space-between;  /* 左右两端对齐（标签在左，数值在右）*/
+    margin: 4px 0;
+}
+
+/* 筛选面板 - 可滚动内容区 */
+.filter-content {
+    flex: 1;  /* 占据剩余所有空间 */
+    overflow-y: auto;  /* 内容过多时显示垂直滚动条 */
+    padding: 12px 8px;  /* 缩小左右padding */
+}
+
+/* 筛选组（可折叠） */
+.filter-group {
+    margin-bottom: 16px;  /* 组之间间距 */
+    padding-top: 12px;
+    border-top: 2px solid #e0e0e0; /* 粗分隔线 */
+    padding-left: 4px;  /* 缩小左侧padding */
+}
+
+.filter-group:first-child {
+    border-top: none; /* 第一个分类不需要顶部线 */
+    padding-top: 0;
+}
+
+.filter-group-title {
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* 改为两端对齐 */
+    gap: 6px;
+    padding-right: 0;
+}
+.filter-group-title-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: 1;
+}
+
+.filter-group-title-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    transition: all 0.2s;
+    width: 80px;
+    justify-content: flex-end;
+}
+
+.filter-group-title-checkbox:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+.filter-group-title-checkbox input[type="checkbox"] {
+    margin: 0;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    accent-color: #007bff;
+}
+
+/* 大类标题高亮效果 */
+.filter-group-title.highlight-title .filter-group-title-left {
+    color: #007bff;
+}
+
+.filter-group-title:hover {
+    color: #007bff;  /* 悬停时变蓝 */
+}
+.toggle-icon {
+    font-size: 10px;
+    transition: transform 0.2s;  /* 旋转动画过渡 */
+}
+.filter-group.collapsed .toggle-icon {
+    transform: rotate(-90deg);  /* 折叠时图标旋转-90度 */
+}
+.filter-group.collapsed .filter-options {
+    display: none;  /* 折叠时隐藏选项 */
+}
+.filter-option.has-children {
+    display: flex;
+    align-items: center;
+}
+
+.filter-option.hierarchy-name-only .filter-option-label {
+    cursor: pointer;
+}
+.filter-option.hierarchy-name-only .filter-option-label:hover {
+    background-color: #f0f8ff;
+}
+.filter-option.hierarchy-name-only .filter-option-label:hover .hierarchy-label {
+    color: #007bff;
+    font-weight: 600;
+}
+.filter-option.hierarchy-name-only .hierarchy-label {
+    font-weight: 500;
+    transition: all 0.2s;
+}
+.filter-option-control:hover + * .hierarchy-label,
+.filter-option-control:hover ~ .filter-option-label .hierarchy-label {
+    color: #007bff;
+    font-weight: 600;
+    transform: scale(1.02);
+}
+.filter-children.collapsed {
+    display: none;
+}
+.filter-children {
+    display: block;
+    margin-left: 0;
+}
+.hierarchy-toggle {/* 分级筛选折叠图标 */
+    position: absolute;
+    left: -14px;  /* 将图标放在文本左侧 */
+    font-size: 10px;
+    cursor: pointer;
+    user-select: none;
+    width: 12px;
+    text-align: center;
+}
+.hierarchy-spacer {/* 分级筛选折叠图标占位符 */
+    display: none;  /* 完全隐藏，叶子节点不需要占位符 */
+}
+
+/* 筛选选项列表 */
+.filter-options {
+    padding-left: 0;  /* 移除padding，让缩进完全由层级控制 */
+}
+/* 避免缩进累积 */
+.filter-options .filter-options {
+    padding-left: 0;  /* 不需要额外padding */
+}
+.filter-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6px 0;
+    font-size: 13px;
+    position: relative;
+    padding: 4px 0;
+}
+/* label文字区域 - 强制左对齐 */
+.filter-option-label {
+    display: flex;
+    align-items: center;
+    gap: 0;  /* 移除gap，让图标紧贴文本 */
+    flex: 0 0 auto;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    position: relative;  /* 为绝对定位的图标提供参考 */
+}
+/* 复选框文字说明 */
+.checkbox-label {
+    display: none;
+}
+.filter-option-connector {
+    flex: 1;
+    border-bottom: 1px dotted #ddd;
+    margin: 0 8px;
+    min-width: 20px;
+}
+/* 复选框容器（右侧） */
+.filter-option-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex: 0 0 auto;
+    padding: 2px 8px;
+    border-radius: 4px;
+    transition: all 0.2s;
+    width: 80px;  /* 固定宽度80px，与大类复选框对齐 */
+    justify-content: flex-end;  /* 内部元素右对齐 */
+}
+/* 复选框悬停效果 */
+.filter-option-checkbox:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+.filter-option-checkbox:hover .checkbox-label {
+    color: #007bff;
+}
+/* 复选框本身的样式 */
+.filter-option input[type="checkbox"] {
+    margin: 0;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    accent-color: #007bff;
+}
+/* 选中状态 */
+.filter-option input[type="checkbox"]:checked {
+    background-color: #007bff;
+}
+/* label高亮效果（悬停复选框时触发） */
+.filter-option.highlight-label .filter-option-label {
+    color: #007bff;
+    font-weight: 600;
+}
+.filter-option input {
+    margin-right: 0;
+}
+.filter-option-control input {
+    margin: 0;
+}
+/* 层级名称样式（可展开的节点） */
+.filter-option.hierarchy-name-only {
+    cursor: pointer;
+    user-select: none;
+}
+
+.filter-option.hierarchy-name-only:hover {
+    background-color: #f8f9fa;
+}
+
+.hierarchy-label {
+    font-weight: 500;
+}
+
+/* 计数标签移到虚线之前 */
+/* 这里设置复选框的右边距(min-width) */
+.filter-option-count {
+    display: inline-block;
+    min-width: 30px;  /* 固定最小宽度50px */
+    text-align: right;  /* 右对齐显示数字 */
+    color: #999;
+    font-size: 11px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.filter-option-control {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 4px;
+}
+
+.filter-option-control-text {
+    font-size: 11px;
+    color: #666;
+    white-space: nowrap;
+    user-select: none;
+}
+
+/* 筛选面板 - 底部操作按钮区 */
+.btn-filter:hover {
+    background: #f8f9fa;  /* 悬停时变灰 */
+}
+.btn-filter.primary {
+    background: #007bff;  /* 主要按钮蓝色背景 */
+    color: white;
+    border-color: #007bff;
+}
+.btn-filter.primary:hover {
+    background: #0056b3;  /* 悬停时深蓝色 */
+}
+
+/* ==================== 中间视频网格区 (57%宽度) ==================== */
+/* ==================== 中间栏顶部工具栏 ==================== */
+.video-toolbar {
+    padding: var(--content-padding);
+    background: white;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.toolbar-actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.btn-toolbar {
+    padding: 8px 16px;
+    border: 1px solid var(--toolbar-border, #ddd);
+    background: var(--toolbar-bg, white);
+    color: var(--toolbar-text, #333);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    white-space: nowrap;
+    transition: all 0.2s;
+}
+
+.btn-toolbar:hover {
+    background: var(--toolbar-hover-bg, #f8f9fa);
+    border-color: var(--toolbar-hover-border, #bbb);
+}
+
+.btn-toolbar.primary {
+    background: var(--toolbar-primary-bg, #007bff);
+    color: var(--toolbar-primary-text, white);
+    border-color: var(--toolbar-primary-border, #007bff);
+}
+
+.btn-toolbar.primary:hover {
+    background: var(--toolbar-primary-hover, #0056b3);
+}
+
+.btn-toolbar.success {
+    background: #28a745;
+    color: white;
+    border-color: #28a745;
+    margin-left: auto;  /* 将此按钮及其后的按钮推到右侧 */
+}
+
+.btn-toolbar.success:hover {
+    background: #218838;
+    border-color: #1e7e34;
+}
+
+.toolbar-divider {
+    width: 1px;
+    height: 24px;
+    background: #ddd;
+    margin: 0 4px;
+}
+
+.video-panel {
+    width: var(--video-panel-width);
+    display: flex;
+    flex-direction: column;  /* 垂直排列：工具栏、网格区 */
+    background: #fafbfc;  /* 浅灰背景 */
+    padding: 0;  /* 移除任何可能的内边距 */
+}
+
+/* 视频网格可滚动容器 */
+.video-grid-container {
+    position: relative;
+    width: 100%;
+    flex: 1;  /* 占据剩余空间 */
+    overflow-y: auto;  /* 启用垂直滚动 */
+    overflow-x: hidden;  /* 禁用横向滚动 */
+    display: flex;  /* 使用flex布局使grid容器居中 */
+    justify-content: center;  /* 水平居中 */
+}
+.video-grid {
+    position: relative;
+    display: grid !important;  /* 使用Grid布局 */
+    grid-template-columns: repeat(auto-fit, minmax(var(--grid-min-card-width), 1fr));
+    gap: var(--grid-gap);
+    align-items: start;
+    width: calc(100% - var(--grid-padding) * 2);  /* 减去左右内边距 */
+    margin: var(--grid-padding) auto;  /* 使用auto margin实现水平居中 */
+    padding: 0;  /* 确保没有额外的内边距 */
+}
+
+/* 视频卡片 */
+.video-card {
+    background: white;
+    border-radius: 0;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 2px solid transparent;
+    position: absolute;
+    display: flex;
+    width: var(--grid-card-width);
+    height: var(--grid-card-height);
+    margin: calc(var(--grid-gap) / 2);
+    flex-direction: column;
+}
+
+.video-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.video-card.selected {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0,123,255,0.2);
+}
+
+/* 视频缩略图 */
+.video-thumbnail {
+    width: 100%;
+    aspect-ratio: 16/9;  /* 保持16:9的比例 */
+    background: #000;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.video-thumbnail video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-error {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 14px;
+    background: none;
+    display: none;
+}
+
+/* 成功标识徽章（右上角）*/
+.video-success-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(40, 167, 69, 0.6);
+    color: white;
+    padding: 4px 12px;        /* 从 2px 8px 改为 4px 12px */
+    border-radius: 20px;        /* 从 4px 改为 6px */
+    font-size: 16px;           /* 从 11px 改为 16px */
+    font-weight: 700;          /* 从 600 改为 700 */
+    z-index: 11;  /* 确保在蒙版之上 */
+}
+
+/* 视频信息区 */
+.video-info {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.video-title {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.4;
+    height: 42px;      /* 固定为2行高度 */
+    overflow: hidden;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin: 0 0 8px 0;
+}
+
+/* 标签组 */
+.video-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    align-content: flex-start;
+}
+
+.video-tag {
+    padding: 1px 6px;  /* 减小上下padding以适应两行显示 */
+    background: #e9ecef;
+    border-radius: 12px;
+    font-size: 11px;
+    color: #495057;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-shrink: 0;  /* 防止标签被压缩 */
+    height: 20px;
+    line-height: 16px;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* ==================== 悬浮信息层 ==================== */
+.video-hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);  /* 更深的半透明黑色蒙版 */
+    color: white;
+    padding: 16px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    z-index: 10;
+    overflow-y: auto;  /* 只允许纵向滚动 */
+    overflow-x: hidden;  /* 禁止横向滚动 */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;  /* 允许点击 */
+}
+
+.video-card:hover .video-hover-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* 悬浮层标题 */
+.hover-title {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    word-wrap: break-word;  /* 自动换行 */
+    word-break: break-word;
+}
+
+/* 悬浮层信息组 */
+.hover-info-group {
+    margin-bottom: 6px;
+}
+
+.hover-info-label {
+    font-size: 10px;
+    color: #adb5bd;
+    margin-bottom: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hover-info-content {
+    font-size: 11px;
+    line-height: 1.5;
+    color: #fff;
+    display: block;  /* 改为block，不使用flex */
+    word-wrap: break-word;  /* 长单词自动换行 */
+    word-break: break-word;  /* 强制断行 */
+    white-space: normal;  /* 允许换行 */
+    overflow-wrap: break-word;  /* 确保换行 */
+}
+.hover-info-content.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.hover-tag {
+    display: inline-block;
+    padding: 2px 6px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    font-size: 10px;
+    word-break: break-word;  /* 长文本自动断行 */
+    max-width: 100%;  /* 不超出父容器 */
+    overflow-wrap: anywhere;
+    box-sizing: border-box;  /* 确保padding计入宽度 */
+}
+
+/* ==================== 右侧选中面板 (25%宽度) ==================== */
+.selection-panel {
+    width: var(--selection-panel-width);
+    background: white;
+    border-left: 1px solid #e0e0e0;  /* 左侧分隔线 */
+    display: flex;
+    flex-direction: column;  /* 垂直排列：头部、列表、底部 */
+    overflow: hidden;
+}
+
+/* 选中面板 - 头部 */
+.selection-header {
+    padding: 8px 16px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0;
+    border-bottom: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+}
+.selection-title {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 12px;
+    padding-bottom: 0;
+    border-bottom: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.selection-actions {
+    display: flex;
+    gap: 8px;
+}
+.btn-selection {
+    flex: 1;
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.5s ease;
+    white-space: nowrap;
+}
+.btn-selection:hover {
+    background: #f8f9fa;
+}
+.btn-selection.success {
+    background: #28a745;
+    color: white;
+    border-color: #28a745;
+    pointer-events: none;
+}
+.btn-selection.success:hover {
+    background: #28a745;
+}
+
+/* 选中项列表（可滚动）*/
+.selection-list {
+    flex: 1;  /* 占据剩余空间 */
+    overflow-y: auto;  /* 垂直滚动 */
+    overflow-x: hidden; 
+    padding: 0;
+    position: relative;
+}
+
+/* 空购物车提示样式 - 简洁版 */
+.empty-cart-hint {
+    padding: 24px 20px;
+    pointer-events: none;
+    user-select: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: #fafbfc;
+}
+
+.hint-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.hint-subtitle {
+    font-size: 11px;
+    font-weight: 600;
+    color: #666;
+    text-align: left;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+.hint-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.hint-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 7px 0;
+}
+
+.step-number {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    background: #666;
+    color: white;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    margin-top: 2px;
+}
+
+.step-text {
+    flex: 1;
+    font-size: 12px;
+    color: #666;
+    line-height: 1.6;
+    text-align: left;
+    font-weight: 400;
+}
+
+.hint-arrow {
+    text-align: left;
+    color: #999;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding-left: 10px;
+}
+
+/* 虚拟滚动容器 */
+.selection-virtual-container {
+    position: relative;
+    width: 100%;
+    padding: 0;  /* 不需要padding，由item自己控制 */
+}
+
+/* 单个选中项 - Card-Based 设计（矩形卡片，微小间隙）*/
+.selection-item {
+    position: absolute;
+    left: var(--selection-item-padding);
+    right: var(--selection-item-padding);
+    height: calc(var(--selection-item-height) - 2px);  /* 减去2px为垂直间隙留空间 */
+    padding: 10px 12px;
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 0;  /* 矩形，无圆角 */
+    margin-bottom: 2px;  /* 2px微小垂直间隙 */
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+/* 悬停状态 - 浅绿背景 + 绿色边框 */
+.selection-item:hover {
+    background: #f8f9fa;
+    border-color: #28a745;
+    box-shadow: 0 2px 4px rgba(40, 167, 69, 0.12);
+    transform: translateY(-1px);
+}
+
+/* 选中状态 - 浅蓝背景 + 蓝色边框 */
+.selection-item.selected {
+    background: #f0f8ff;
+    border-color: #007bff;
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.12);
+}
+
+/* 选中项的悬停状态 - 浅绿背景 + 绿色边框 */
+.selection-item.selected:hover {
+    background: #f0fff4;
+    border-color: #28a745;
+    box-shadow: 0 2px 4px rgba(40, 167, 69, 0.12);
+}
+
+/* 悬停时文本变绿 */
+.selection-item:hover .selection-item-name {
+    color: #28a745;
+}
+
+/* 选中时文本变蓝 */
+.selection-item.selected .selection-item-name {
+    color: #007bff; 
+    font-weight: 600;
+}
+
+/* 选中项悬停时文本变绿 */
+.selection-item.selected:hover .selection-item-name {
+    color: #28a745;
+}
+
+.selection-item-name {
+    flex: 1;
+    font-size: 13px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
+}
+.btn-remove {
+    background: none;
+    border: none;
+    color: #dc3545;  /* 红色删除按钮 */
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}
+.btn-detail {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    transition: color 0.2s;
+}
+.btn-detail:hover {
+    color: #0056b3;
+}
+
+/* 选中面板 - 底部代码输出区 */
+.selection-footer {
+    border-top: 1px solid #e0e0e0;
+    padding: 16px;
+}
+.code-section-title {
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+.code-section-description {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+/* 代码格式切换标签页 */
+.code-format-tabs {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+.code-tab {
+    padding: 4px 12px;
+    border: 1px solid #ddd;
+    background: white;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 4px 4px 0 0;  /* 只有顶部圆角 */
+}
+.code-tab.active {
+    background: #f8f9fa;  /* 激活标签背景色 */
+    border-bottom-color: #f8f9fa;  /* 底部边框与内容区融合 */
+}
+
+/* 代码输出框 */
+.code-output {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+    max-height: 200px;  /* 最大高度 */
+    overflow-y: auto;  /* 超出滚动 */
+    white-space: pre-wrap;  /* 保留空白符并换行 */
+    word-break: break-all;  /* 长单词断行 */
+}
+.code-actions {
+    display: flex;
+    gap: 0;
+    margin-top: 8px;
+}
+
+/* ==================== 全局滚动条样式 ==================== */
+::-webkit-scrollbar {
+    width: 8px;  /* 垂直滚动条宽度 */
+    height: 8px;  /* 水平滚动条高度 */
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;  /* 滚动条轨道背景 */
+}
+::-webkit-scrollbar-thumb {
+    background: #888;  /* 滚动条滑块颜色 */
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;  /* 悬停时变深 */
+}
+
+/* ==================== 加载动画 ==================== */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(245, 247, 250, 0.95);
+    z-index: 99999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+.loading-overlay.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loading-spinner {
+    width: 60px;
+    height: 60px;
+    border: 4px solid #e0e0e0;
+    border-top-color: #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.loading-text {
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.loading-progress {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #666;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.loading-bar-container {
+    width: 300px;
+    height: 4px;
+    background: #e0e0e0;
+    border-radius: 2px;
+    margin-top: 16px;
+    overflow: hidden;
+}
+
+.loading-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+/* ==================== 详情模态框 ==================== */
+.detail-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.detail-modal-overlay.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.detail-modal {
+    width: 600px;
+    max-height: 80vh;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transform: scale(0.95);
+    transition: transform 0.3s;
+}
+
+.detail-modal-overlay.visible .detail-modal {
+    transform: scale(1);
+}
+
+.detail-modal-header {
+    padding: 20px 24px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail-modal-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+.detail-modal-close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #999;
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s;
+}
+
+.detail-modal-close:hover {
+    color: #333;
+}
+
+.detail-modal-body {
+    padding: 24px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.detail-video-container {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: #000;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.detail-video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.detail-info-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.detail-info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.detail-info-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.detail-info-value {
+    font-size: 14px;
+    color: #333;
+    word-wrap: break-word;
+}
+
+/* ==================== 悬停预览卡片 ==================== */
+.hover-preview-card {
+    position: fixed;
+    width: 320px;
+    height: 240px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s, visibility 0.2s;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.hover-preview-card.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.hover-preview-video {
+    width: 100%;
+    height: 160px;
+    background: #000;
+    flex-shrink: 0;
+}
+
+.hover-preview-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hover-preview-info {
+    padding: 12px;
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.hover-preview-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hover-preview-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.hover-preview-meta-item {
+    font-size: 11px;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hover-preview-meta-item strong {
+    color: #333;
+    font-weight: 600;
+}

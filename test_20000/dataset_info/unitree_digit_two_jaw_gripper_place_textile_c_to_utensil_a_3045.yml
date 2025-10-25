@@ -1,0 +1,28 @@
+dataset_name: place_textile_c_to_utensil_a_3045
+dataset_uuid: 5ba91aaa-e490-4989-afff-b15bb0841c98
+task_descriptions:
+- place_the_textile_c_and_place_in_the_utensil_a
+scene_type:
+- kitchen
+- laboratory
+- hospital
+atomic_actions:
+- lift
+- slide
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

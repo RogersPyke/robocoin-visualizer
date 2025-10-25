@@ -1,0 +1,27 @@
+dataset_name: arrange_utensil_d_to_kitchenware_c_5869
+dataset_uuid: 04510370-6267-412a-88c1-667f77e9eb59
+task_descriptions:
+- arrange_the_utensil_d_and_place_in_the_kitchenware_c
+scene_type:
+- cafe
+atomic_actions:
+- lift
+- pull
+- lower
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+operation_platform_height: 86.6
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

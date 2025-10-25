@@ -1,0 +1,29 @@
+dataset_name: place_beverage_a_to_container_b_7875
+dataset_uuid: 8738fa90-5232-435a-9ce5-d91f9e307b5b
+task_descriptions:
+- place_the_beverage_a_and_place_in_the_container_b
+scene_type:
+- laboratory
+- office
+- kitchen
+atomic_actions:
+- pick
+- insert
+- push
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.5
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

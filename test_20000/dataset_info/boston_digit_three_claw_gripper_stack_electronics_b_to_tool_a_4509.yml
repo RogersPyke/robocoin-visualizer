@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_b_to_tool_a_4509
+dataset_uuid: 8e0a68b9-284f-4d6c-8513-54a8bd05b53f
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_tool_a
+scene_type:
+- warehouse
+atomic_actions:
+- place
+- push
+- pull
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.4
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

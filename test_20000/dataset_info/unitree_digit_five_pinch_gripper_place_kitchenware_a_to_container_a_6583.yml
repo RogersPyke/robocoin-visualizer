@@ -1,0 +1,29 @@
+dataset_name: place_kitchenware_a_to_container_a_6583
+dataset_uuid: 3647504c-f529-4760-9d03-6065d23433e4
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_container_a
+scene_type:
+- store
+- cafe
+- restaurant
+atomic_actions:
+- place
+- remove
+- slide
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.2
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

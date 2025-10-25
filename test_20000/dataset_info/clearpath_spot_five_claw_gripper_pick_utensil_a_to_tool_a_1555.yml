@@ -1,0 +1,26 @@
+dataset_name: pick_utensil_a_to_tool_a_1555
+dataset_uuid: 8c715946-0423-49fd-8b78-5ac87a3f158f
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_tool_a
+scene_type:
+- hospital
+atomic_actions:
+- push
+- flip
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.2
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

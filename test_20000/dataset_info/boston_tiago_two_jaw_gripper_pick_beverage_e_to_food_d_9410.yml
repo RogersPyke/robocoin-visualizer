@@ -1,0 +1,29 @@
+dataset_name: pick_beverage_e_to_food_d_9410
+dataset_uuid: 2d088be0-3f60-4301-9f32-478f25426f4b
+task_descriptions:
+- pick_the_beverage_e_and_place_in_the_food_d
+scene_type:
+- factory
+- kitchen
+atomic_actions:
+- push
+- rotate
+- flip
+- slide
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

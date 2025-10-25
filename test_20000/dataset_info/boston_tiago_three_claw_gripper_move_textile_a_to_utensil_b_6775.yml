@@ -1,0 +1,29 @@
+dataset_name: move_textile_a_to_utensil_b_6775
+dataset_uuid: 93d982a6-a926-49d6-b9f1-2f1664d3a24f
+task_descriptions:
+- move_the_textile_a_and_place_in_the_utensil_b
+scene_type:
+- factory
+- kitchen
+- office
+atomic_actions:
+- rotate
+- pull
+- grasp
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

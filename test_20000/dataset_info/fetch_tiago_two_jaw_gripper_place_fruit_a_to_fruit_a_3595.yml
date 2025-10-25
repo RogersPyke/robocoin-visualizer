@@ -1,0 +1,28 @@
+dataset_name: place_fruit_a_to_fruit_a_3595
+dataset_uuid: 72367fe9-0232-47ee-b9df-5ea8c2bf1069
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_fruit_a
+scene_type:
+- warehouse
+- factory
+- office
+atomic_actions:
+- rotate
+- grasp
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

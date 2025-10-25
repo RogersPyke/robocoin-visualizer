@@ -1,0 +1,30 @@
+dataset_name: pick_beverage_e_to_toy_b_5607
+dataset_uuid: 725ed6d8-0288-42e3-8734-65fdf41e2006
+task_descriptions:
+- pick_the_beverage_e_and_place_in_the_toy_b
+scene_type:
+- factory
+- restaurant
+- office
+atomic_actions:
+- insert
+- flip
+- pull
+- remove
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+operation_platform_height: 82.4
+device_model:
+- boston_h1
+end_effector_type: five_jaw_gripper

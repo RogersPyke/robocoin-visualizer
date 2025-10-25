@@ -1,0 +1,28 @@
+dataset_name: move_container_b_to_container_a_6817
+dataset_uuid: 2e1b5c11-dbd1-45ef-a511-449659642e83
+task_descriptions:
+- move_the_container_b_and_place_in_the_container_a
+scene_type:
+- laboratory
+- factory
+- cafe
+atomic_actions:
+- pick
+- place
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

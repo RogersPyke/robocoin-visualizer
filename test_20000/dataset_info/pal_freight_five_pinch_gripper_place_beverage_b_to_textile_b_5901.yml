@@ -1,0 +1,27 @@
+dataset_name: place_beverage_b_to_textile_b_5901
+dataset_uuid: 9d929cfa-9613-4904-b851-c27edd8caa67
+task_descriptions:
+- place_the_beverage_b_and_place_in_the_textile_b
+scene_type:
+- laboratory
+- warehouse
+atomic_actions:
+- insert
+- pull
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.6
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

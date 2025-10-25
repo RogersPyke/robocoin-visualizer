@@ -1,0 +1,28 @@
+dataset_name: stack_tool_b_to_furniture_e_2513
+dataset_uuid: 6094cccc-ec5e-4c4a-a2ee-15844a128df4
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_furniture_e
+scene_type:
+- kitchen
+- laboratory
+atomic_actions:
+- grasp
+- push
+- rotate
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

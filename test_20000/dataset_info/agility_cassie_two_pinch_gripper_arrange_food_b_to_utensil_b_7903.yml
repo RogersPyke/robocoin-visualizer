@@ -1,0 +1,27 @@
+dataset_name: arrange_food_b_to_utensil_b_7903
+dataset_uuid: 8ba676d2-b992-4c81-933f-3f11090c6bd2
+task_descriptions:
+- arrange_the_food_b_and_place_in_the_utensil_b
+scene_type:
+- laboratory
+atomic_actions:
+- insert
+- pull
+- pick
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

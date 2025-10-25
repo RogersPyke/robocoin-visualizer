@@ -1,0 +1,29 @@
+dataset_name: stack_toy_d_to_kitchenware_b_1015
+dataset_uuid: 92c75ec3-3f3b-48b6-a364-c928a4d547c6
+task_descriptions:
+- stack_the_toy_d_and_place_in_the_kitchenware_b
+scene_type:
+- cafe
+- factory
+- store
+atomic_actions:
+- insert
+- place
+- slide
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

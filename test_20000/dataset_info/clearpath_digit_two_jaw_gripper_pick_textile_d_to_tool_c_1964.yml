@@ -1,0 +1,28 @@
+dataset_name: pick_textile_d_to_tool_c_1964
+dataset_uuid: 51c4b30c-41c3-438f-8782-e3b7e5a3194d
+task_descriptions:
+- pick_the_textile_d_and_place_in_the_tool_c
+scene_type:
+- store
+atomic_actions:
+- insert
+- rotate
+- remove
+- lift
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

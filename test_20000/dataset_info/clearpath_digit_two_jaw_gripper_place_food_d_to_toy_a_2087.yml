@@ -1,0 +1,26 @@
+dataset_name: place_food_d_to_toy_a_2087
+dataset_uuid: e29302f1-6490-46ba-8598-356942f3c0da
+task_descriptions:
+- place_the_food_d_and_place_in_the_toy_a
+scene_type:
+- factory
+atomic_actions:
+- lower
+- push
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

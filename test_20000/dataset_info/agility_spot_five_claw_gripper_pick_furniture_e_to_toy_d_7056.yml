@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_e_to_toy_d_7056
+dataset_uuid: cd3862d8-afc8-4015-aef1-273ecfa42172
+task_descriptions:
+- pick_the_furniture_e_and_place_in_the_toy_d
+scene_type:
+- kitchen
+atomic_actions:
+- pull
+- rotate
+- slide
+- remove
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.5
+device_model:
+- agility_spot
+end_effector_type: five_claw_gripper

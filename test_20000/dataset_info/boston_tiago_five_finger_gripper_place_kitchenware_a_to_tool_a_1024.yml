@@ -1,0 +1,26 @@
+dataset_name: place_kitchenware_a_to_tool_a_1024
+dataset_uuid: 7e10ad60-1322-4e05-8349-7bf43548ec3f
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_tool_a
+scene_type:
+- factory
+atomic_actions:
+- insert
+- rotate
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

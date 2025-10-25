@@ -1,0 +1,30 @@
+dataset_name: place_utensil_d_to_stationery_a_8890
+dataset_uuid: 229ac7a2-2fca-4c5f-a6b2-b19a2fb5cbfb
+task_descriptions:
+- place_the_utensil_d_and_place_in_the_stationery_a
+scene_type:
+- restaurant
+- laboratory
+- home
+atomic_actions:
+- rotate
+- push
+- insert
+- pick
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

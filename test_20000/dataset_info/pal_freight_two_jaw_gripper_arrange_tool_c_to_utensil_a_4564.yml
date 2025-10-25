@@ -1,0 +1,27 @@
+dataset_name: arrange_tool_c_to_utensil_a_4564
+dataset_uuid: 2d39ed65-e5c5-4ca4-a1d7-8b879feea854
+task_descriptions:
+- arrange_the_tool_c_and_place_in_the_utensil_a
+scene_type:
+- kitchen
+- warehouse
+atomic_actions:
+- pick
+- flip
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

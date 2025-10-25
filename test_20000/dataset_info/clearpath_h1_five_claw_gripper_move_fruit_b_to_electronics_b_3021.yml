@@ -1,0 +1,28 @@
+dataset_name: move_fruit_b_to_electronics_b_3021
+dataset_uuid: ad18aedc-869e-49fa-b7c1-62f3f630d86b
+task_descriptions:
+- move_the_fruit_b_and_place_in_the_electronics_b
+scene_type:
+- factory
+- kitchen
+- office
+atomic_actions:
+- place
+- pull
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

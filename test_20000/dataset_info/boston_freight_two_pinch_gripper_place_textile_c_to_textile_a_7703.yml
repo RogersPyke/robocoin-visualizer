@@ -1,0 +1,28 @@
+dataset_name: place_textile_c_to_textile_a_7703
+dataset_uuid: d8ee1d30-3ff7-474f-8fda-2bd1bdf8c097
+task_descriptions:
+- place_the_textile_c_and_place_in_the_textile_a
+scene_type:
+- store
+- home
+- laboratory
+atomic_actions:
+- slide
+- rotate
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.0
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

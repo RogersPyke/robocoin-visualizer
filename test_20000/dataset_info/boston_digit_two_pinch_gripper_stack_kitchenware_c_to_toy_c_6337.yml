@@ -1,0 +1,30 @@
+dataset_name: stack_kitchenware_c_to_toy_c_6337
+dataset_uuid: c6169df0-e07c-4f13-a49e-5b5da8e69d50
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_toy_c
+scene_type:
+- warehouse
+- office
+- hospital
+atomic_actions:
+- rotate
+- insert
+- slide
+- lift
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

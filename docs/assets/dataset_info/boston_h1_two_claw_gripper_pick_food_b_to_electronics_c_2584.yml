@@ -1,0 +1,28 @@
+dataset_name: pick_food_b_to_electronics_c_2584
+dataset_uuid: 367fa836-7918-4528-a5d3-dbdcbeb5b5cd
+task_descriptions:
+- pick_the_food_b_and_place_in_the_electronics_c
+scene_type:
+- factory
+- office
+- warehouse
+atomic_actions:
+- insert
+- remove
+objects:
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.1
+device_model:
+- boston_h1
+end_effector_type: two_claw_gripper

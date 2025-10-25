@@ -1,0 +1,28 @@
+dataset_name: move_textile_a_to_container_c_9393
+dataset_uuid: c51e7584-b180-4be8-8aa7-eabba58a28f8
+task_descriptions:
+- move_the_textile_a_and_place_in_the_container_c
+scene_type:
+- laboratory
+- cafe
+- kitchen
+atomic_actions:
+- flip
+- slide
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

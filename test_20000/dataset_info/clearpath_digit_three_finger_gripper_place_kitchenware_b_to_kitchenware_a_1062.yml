@@ -1,0 +1,27 @@
+dataset_name: place_kitchenware_b_to_kitchenware_a_1062
+dataset_uuid: bff7ecc5-8cad-4431-b5a6-d53dbc624b79
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_kitchenware_a
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- flip
+- lower
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.6
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

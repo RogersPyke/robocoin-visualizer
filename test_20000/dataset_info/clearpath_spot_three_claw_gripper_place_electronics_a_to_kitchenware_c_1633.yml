@@ -1,0 +1,29 @@
+dataset_name: place_electronics_a_to_kitchenware_c_1633
+dataset_uuid: 8b072f69-f300-49d5-bebd-1a892942d674
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_kitchenware_c
+scene_type:
+- home
+- store
+- restaurant
+atomic_actions:
+- insert
+- remove
+- rotate
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+operation_platform_height: 74.9
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

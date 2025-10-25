@@ -1,0 +1,28 @@
+dataset_name: arrange_tool_c_to_beverage_d_7898
+dataset_uuid: a3fda8aa-33fe-4493-a3b3-26f36734e328
+task_descriptions:
+- arrange_the_tool_c_and_place_in_the_beverage_d
+scene_type:
+- cafe
+- restaurant
+atomic_actions:
+- grasp
+- remove
+- rotate
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.9
+device_model:
+- fetch_tiago
+end_effector_type: two_claw_gripper

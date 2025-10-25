@@ -1,0 +1,28 @@
+dataset_name: place_container_a_to_fruit_b_6921
+dataset_uuid: ab678a93-0d8c-4756-8139-cf754f371e7c
+task_descriptions:
+- place_the_container_a_and_place_in_the_fruit_b
+scene_type:
+- store
+- restaurant
+atomic_actions:
+- grasp
+- rotate
+- place
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- pal_tiago
+end_effector_type: five_finger_gripper

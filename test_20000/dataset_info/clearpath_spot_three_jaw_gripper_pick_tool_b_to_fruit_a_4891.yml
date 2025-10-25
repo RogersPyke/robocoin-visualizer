@@ -1,0 +1,29 @@
+dataset_name: pick_tool_b_to_fruit_a_4891
+dataset_uuid: c73176f8-ac21-46fe-8e9c-88fc1005c396
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_fruit_a
+scene_type:
+- hospital
+- store
+atomic_actions:
+- slide
+- pull
+- lower
+- place
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.6
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

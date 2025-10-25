@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_b_to_tool_d_4588
+dataset_uuid: 016ade62-6e6b-44a6-acd6-4f02fae65f02
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_tool_d
+scene_type:
+- office
+atomic_actions:
+- insert
+- push
+- rotate
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

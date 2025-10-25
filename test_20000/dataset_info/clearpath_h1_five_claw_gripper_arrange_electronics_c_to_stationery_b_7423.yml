@@ -1,0 +1,27 @@
+dataset_name: arrange_electronics_c_to_stationery_b_7423
+dataset_uuid: 2c726ad4-75e5-4416-a33d-9efc57f633fd
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_stationery_b
+scene_type:
+- cafe
+atomic_actions:
+- insert
+- lift
+- place
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

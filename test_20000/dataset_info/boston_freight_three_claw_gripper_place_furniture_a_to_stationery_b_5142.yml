@@ -1,0 +1,30 @@
+dataset_name: place_furniture_a_to_stationery_b_5142
+dataset_uuid: fb0322c3-4520-45d7-8883-63a7b50f6fc0
+task_descriptions:
+- place_the_furniture_a_and_place_in_the_stationery_b
+scene_type:
+- kitchen
+- store
+- laboratory
+atomic_actions:
+- slide
+- grasp
+- insert
+- flip
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

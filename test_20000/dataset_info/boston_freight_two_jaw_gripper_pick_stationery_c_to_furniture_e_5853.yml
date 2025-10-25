@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_c_to_furniture_e_5853
+dataset_uuid: 1ca796a5-ce97-444d-b031-57dbc9c65efe
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_furniture_e
+scene_type:
+- home
+- factory
+atomic_actions:
+- lift
+- flip
+- remove
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+operation_platform_height: 74.4
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

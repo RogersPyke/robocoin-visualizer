@@ -1,0 +1,27 @@
+dataset_name: pick_stationery_c_to_fruit_d_4192
+dataset_uuid: 90b662ef-be74-480d-a676-6e25fc63e68c
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_fruit_d
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- push
+- insert
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.7
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

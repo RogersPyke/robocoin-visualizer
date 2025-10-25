@@ -1,0 +1,30 @@
+dataset_name: move_kitchenware_b_to_furniture_c_5902
+dataset_uuid: debf7b62-6ac5-4093-9b98-c37669030d96
+task_descriptions:
+- move_the_kitchenware_b_and_place_in_the_furniture_c
+scene_type:
+- hospital
+- factory
+- restaurant
+atomic_actions:
+- remove
+- grasp
+- rotate
+- place
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.6
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

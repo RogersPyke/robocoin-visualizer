@@ -1,0 +1,30 @@
+dataset_name: place_food_d_to_kitchenware_a_5072
+dataset_uuid: d0b02917-4509-4e66-a4e5-481c994e3281
+task_descriptions:
+- place_the_food_d_and_place_in_the_kitchenware_a
+scene_type:
+- restaurant
+- store
+- home
+atomic_actions:
+- pull
+- pick
+- rotate
+- remove
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

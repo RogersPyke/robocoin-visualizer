@@ -1,0 +1,28 @@
+dataset_name: arrange_beverage_c_to_furniture_c_4920
+dataset_uuid: 264ee797-4c66-4395-9267-e3fd6f62e5e7
+task_descriptions:
+- arrange_the_beverage_c_and_place_in_the_furniture_c
+scene_type:
+- hospital
+- cafe
+atomic_actions:
+- push
+- lower
+- grasp
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.5
+device_model:
+- agility_h1
+end_effector_type: five_finger_gripper

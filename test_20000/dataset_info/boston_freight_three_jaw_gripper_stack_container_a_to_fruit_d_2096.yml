@@ -1,0 +1,30 @@
+dataset_name: stack_container_a_to_fruit_d_2096
+dataset_uuid: c60d01fa-24f0-4a2e-b5f9-609e75a1d449
+task_descriptions:
+- stack_the_container_a_and_place_in_the_fruit_d
+scene_type:
+- home
+- warehouse
+- restaurant
+atomic_actions:
+- lower
+- insert
+- remove
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

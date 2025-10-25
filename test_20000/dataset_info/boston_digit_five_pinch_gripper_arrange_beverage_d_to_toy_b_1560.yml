@@ -1,0 +1,27 @@
+dataset_name: arrange_beverage_d_to_toy_b_1560
+dataset_uuid: 193e70d1-f627-48ff-934a-20283bab8be8
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_toy_b
+scene_type:
+- warehouse
+atomic_actions:
+- slide
+- flip
+- lift
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.4
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

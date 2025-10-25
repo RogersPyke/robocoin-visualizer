@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_b_to_utensil_d_7819
+dataset_uuid: 9f7e6f52-53b7-4c0e-bc7e-1eaa29c8ebe6
+task_descriptions:
+- stack_the_stationery_b_and_place_in_the_utensil_d
+scene_type:
+- warehouse
+- store
+atomic_actions:
+- flip
+- push
+- lift
+- pick
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

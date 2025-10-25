@@ -1,0 +1,30 @@
+dataset_name: place_furniture_c_to_electronics_a_5864
+dataset_uuid: c17dedc3-b797-405c-85be-076c3a5d5ea2
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_electronics_a
+scene_type:
+- home
+- laboratory
+- office
+atomic_actions:
+- place
+- lift
+- insert
+- pull
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.6
+device_model:
+- agility_h1
+end_effector_type: three_jaw_gripper

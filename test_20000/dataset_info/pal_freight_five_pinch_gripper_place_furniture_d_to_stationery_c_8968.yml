@@ -1,0 +1,27 @@
+dataset_name: place_furniture_d_to_stationery_c_8968
+dataset_uuid: 4cc1a905-43ae-4bfc-9447-7e96a1d0b52a
+task_descriptions:
+- place_the_furniture_d_and_place_in_the_stationery_c
+scene_type:
+- office
+- warehouse
+atomic_actions:
+- rotate
+- flip
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

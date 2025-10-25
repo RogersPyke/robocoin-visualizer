@@ -1,0 +1,30 @@
+dataset_name: place_textile_b_to_toy_b_6206
+dataset_uuid: 85b4413b-5944-49c6-a900-ffd8625b6db3
+task_descriptions:
+- place_the_textile_b_and_place_in_the_toy_b
+scene_type:
+- factory
+- laboratory
+- store
+atomic_actions:
+- lower
+- grasp
+- pull
+- remove
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

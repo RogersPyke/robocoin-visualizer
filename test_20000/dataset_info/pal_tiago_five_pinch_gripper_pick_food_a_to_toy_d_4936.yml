@@ -1,0 +1,28 @@
+dataset_name: pick_food_a_to_toy_d_4936
+dataset_uuid: ead72595-2595-4b16-8a35-9f1538f1e720
+task_descriptions:
+- pick_the_food_a_and_place_in_the_toy_d
+scene_type:
+- kitchen
+atomic_actions:
+- remove
+- slide
+- pick
+- insert
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

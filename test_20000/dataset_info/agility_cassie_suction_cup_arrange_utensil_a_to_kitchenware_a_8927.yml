@@ -1,0 +1,29 @@
+dataset_name: arrange_utensil_a_to_kitchenware_a_8927
+dataset_uuid: 286dc385-68bc-4828-ab8e-235e1b3d65a6
+task_descriptions:
+- arrange_the_utensil_a_and_place_in_the_kitchenware_a
+scene_type:
+- home
+- cafe
+atomic_actions:
+- flip
+- rotate
+- lower
+- lift
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.0
+device_model:
+- agility_cassie
+end_effector_type: suction_cup

@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_d_to_food_c_1947
+dataset_uuid: 5d87f571-f98f-405d-9aef-5473e2d53281
+task_descriptions:
+- pick_the_utensil_d_and_place_in_the_food_c
+scene_type:
+- hospital
+atomic_actions:
+- lower
+- grasp
+- pull
+- lift
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.9
+device_model:
+- agility_tiago
+end_effector_type: five_claw_gripper

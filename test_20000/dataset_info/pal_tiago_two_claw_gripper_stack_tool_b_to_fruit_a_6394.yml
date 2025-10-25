@@ -1,0 +1,26 @@
+dataset_name: stack_tool_b_to_fruit_a_6394
+dataset_uuid: 6aa5f3d2-c7b0-4b5f-bce7-599163b49326
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_fruit_a
+scene_type:
+- cafe
+atomic_actions:
+- remove
+- pull
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.0
+device_model:
+- pal_tiago
+end_effector_type: two_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_fruit_a_to_fruit_c_8671
+dataset_uuid: d510a88b-caed-4745-957f-49b64bfb2375
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_fruit_c
+scene_type:
+- kitchen
+- restaurant
+- home
+atomic_actions:
+- remove
+- push
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.3
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

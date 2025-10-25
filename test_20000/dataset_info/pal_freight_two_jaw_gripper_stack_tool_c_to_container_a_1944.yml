@@ -1,0 +1,27 @@
+dataset_name: stack_tool_c_to_container_a_1944
+dataset_uuid: a224fd3f-e43b-4021-a3e1-faa46ba670b6
+task_descriptions:
+- stack_the_tool_c_and_place_in_the_container_a
+scene_type:
+- laboratory
+atomic_actions:
+- grasp
+- place
+- pull
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

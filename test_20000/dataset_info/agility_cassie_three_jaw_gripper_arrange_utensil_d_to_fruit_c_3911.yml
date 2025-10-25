@@ -1,0 +1,30 @@
+dataset_name: arrange_utensil_d_to_fruit_c_3911
+dataset_uuid: c90abef6-4f3b-4f9a-80f9-73896f6a1475
+task_descriptions:
+- arrange_the_utensil_d_and_place_in_the_fruit_c
+scene_type:
+- store
+- cafe
+- restaurant
+atomic_actions:
+- flip
+- slide
+- remove
+- lift
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.0
+device_model:
+- agility_cassie
+end_effector_type: three_jaw_gripper

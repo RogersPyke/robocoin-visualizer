@@ -1,0 +1,29 @@
+dataset_name: arrange_beverage_e_to_utensil_a_6888
+dataset_uuid: 0b3b8d42-ff12-4d01-85f1-07b72c726355
+task_descriptions:
+- arrange_the_beverage_e_and_place_in_the_utensil_a
+scene_type:
+- hospital
+- cafe
+atomic_actions:
+- pick
+- pull
+- insert
+- slide
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

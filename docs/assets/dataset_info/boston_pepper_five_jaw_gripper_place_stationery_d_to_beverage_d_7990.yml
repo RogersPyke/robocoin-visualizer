@@ -1,0 +1,29 @@
+dataset_name: place_stationery_d_to_beverage_d_7990
+dataset_uuid: d890a99f-1232-4571-93c0-6c64f8f8dccd
+task_descriptions:
+- place_the_stationery_d_and_place_in_the_beverage_d
+scene_type:
+- cafe
+- hospital
+atomic_actions:
+- flip
+- grasp
+- push
+- slide
+objects:
+- object_name: stationery_d
+  level1: stationery
+  level2: stationery_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- boston_pepper
+end_effector_type: five_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_tool_b_to_toy_b_2268
+dataset_uuid: 7ae894c8-ae00-4b59-8edf-4cbf2d8907da
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_toy_b
+scene_type:
+- kitchen
+- hospital
+atomic_actions:
+- pull
+- lift
+- slide
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

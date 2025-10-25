@@ -1,0 +1,28 @@
+dataset_name: pick_textile_e_to_stationery_b_6505
+dataset_uuid: c8c244c7-215d-4ae7-8c1a-76a01353c9e6
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_stationery_b
+scene_type:
+- cafe
+atomic_actions:
+- pick
+- remove
+- place
+- slide
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.7
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

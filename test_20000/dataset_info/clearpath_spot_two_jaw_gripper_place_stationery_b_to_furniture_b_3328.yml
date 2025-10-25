@@ -1,0 +1,28 @@
+dataset_name: place_stationery_b_to_furniture_b_3328
+dataset_uuid: 52f819d8-b8c0-4cbe-82cb-4684035a6628
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_furniture_b
+scene_type:
+- restaurant
+atomic_actions:
+- push
+- place
+- remove
+- insert
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

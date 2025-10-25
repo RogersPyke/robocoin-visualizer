@@ -1,0 +1,28 @@
+dataset_name: stack_fruit_c_to_electronics_b_1008
+dataset_uuid: b8a42bd7-6121-4588-adf1-6eb80a887e00
+task_descriptions:
+- stack_the_fruit_c_and_place_in_the_electronics_b
+scene_type:
+- hospital
+- home
+- office
+atomic_actions:
+- insert
+- pick
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.0
+device_model:
+- pal_tiago
+end_effector_type: three_finger_gripper

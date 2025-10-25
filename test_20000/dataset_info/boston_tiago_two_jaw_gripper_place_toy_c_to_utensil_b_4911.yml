@@ -1,0 +1,28 @@
+dataset_name: place_toy_c_to_utensil_b_4911
+dataset_uuid: 3cb4e6e5-e5c4-4544-82bb-98b418156a89
+task_descriptions:
+- place_the_toy_c_and_place_in_the_utensil_b
+scene_type:
+- home
+- kitchen
+atomic_actions:
+- lower
+- rotate
+- lift
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.4
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

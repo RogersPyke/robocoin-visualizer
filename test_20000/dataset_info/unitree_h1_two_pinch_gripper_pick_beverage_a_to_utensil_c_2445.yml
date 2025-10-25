@@ -1,0 +1,29 @@
+dataset_name: pick_beverage_a_to_utensil_c_2445
+dataset_uuid: 03f6671d-f72f-4c7f-89b2-b8a69bcde399
+task_descriptions:
+- pick_the_beverage_a_and_place_in_the_utensil_c
+scene_type:
+- store
+- restaurant
+atomic_actions:
+- pull
+- remove
+- push
+- lift
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.9
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

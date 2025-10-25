@@ -1,0 +1,28 @@
+dataset_name: arrange_container_b_to_electronics_a_7147
+dataset_uuid: 76c368f3-579d-4a96-9d90-21531e0f896e
+task_descriptions:
+- arrange_the_container_b_and_place_in_the_electronics_a
+scene_type:
+- kitchen
+- warehouse
+atomic_actions:
+- grasp
+- pull
+- slide
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 76.4
+device_model:
+- fetch_tiago
+end_effector_type: suction_cup

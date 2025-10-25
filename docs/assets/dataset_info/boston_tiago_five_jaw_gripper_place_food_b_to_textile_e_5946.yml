@@ -1,0 +1,28 @@
+dataset_name: place_food_b_to_textile_e_5946
+dataset_uuid: 350f7261-fbcf-4474-8fb0-15024de54080
+task_descriptions:
+- place_the_food_b_and_place_in_the_textile_e
+scene_type:
+- warehouse
+- cafe
+- store
+atomic_actions:
+- pull
+- grasp
+objects:
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.2
+device_model:
+- boston_tiago
+end_effector_type: five_jaw_gripper

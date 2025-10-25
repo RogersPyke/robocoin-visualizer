@@ -1,0 +1,28 @@
+dataset_name: place_toy_c_to_stationery_b_8136
+dataset_uuid: d9c67ace-4a3c-400e-9d70-01ebd4539f05
+task_descriptions:
+- place_the_toy_c_and_place_in_the_stationery_b
+scene_type:
+- store
+atomic_actions:
+- insert
+- push
+- slide
+- flip
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

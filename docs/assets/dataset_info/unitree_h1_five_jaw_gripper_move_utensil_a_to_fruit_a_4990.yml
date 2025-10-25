@@ -1,0 +1,28 @@
+dataset_name: move_utensil_a_to_fruit_a_4990
+dataset_uuid: d1023b8d-3bda-4767-bc9b-24fb189d59ea
+task_descriptions:
+- move_the_utensil_a_and_place_in_the_fruit_a
+scene_type:
+- kitchen
+atomic_actions:
+- rotate
+- slide
+- grasp
+- lift
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- unitree_h1
+end_effector_type: five_jaw_gripper

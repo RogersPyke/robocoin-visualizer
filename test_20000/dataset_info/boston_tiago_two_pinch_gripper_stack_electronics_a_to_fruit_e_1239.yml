@@ -1,0 +1,26 @@
+dataset_name: stack_electronics_a_to_fruit_e_1239
+dataset_uuid: d0259a3b-19a6-4d27-b1dc-2a433d30b235
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_fruit_e
+scene_type:
+- cafe
+atomic_actions:
+- pick
+- insert
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.1
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

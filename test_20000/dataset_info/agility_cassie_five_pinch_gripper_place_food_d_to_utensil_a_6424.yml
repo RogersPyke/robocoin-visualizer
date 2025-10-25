@@ -1,0 +1,29 @@
+dataset_name: place_food_d_to_utensil_a_6424
+dataset_uuid: 57ee4a98-9d8e-4d19-b506-b85497785934
+task_descriptions:
+- place_the_food_d_and_place_in_the_utensil_a
+scene_type:
+- laboratory
+- store
+- kitchen
+atomic_actions:
+- flip
+- remove
+- pick
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.8
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

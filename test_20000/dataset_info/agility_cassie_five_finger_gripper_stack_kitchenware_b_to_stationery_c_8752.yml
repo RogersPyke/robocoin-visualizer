@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_b_to_stationery_c_8752
+dataset_uuid: 581c6cd1-c942-45c6-b3ea-351c4c7c7d25
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_stationery_c
+scene_type:
+- home
+- laboratory
+- office
+atomic_actions:
+- pick
+- slide
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.3
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

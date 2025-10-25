@@ -1,0 +1,30 @@
+dataset_name: pick_utensil_c_to_food_e_4114
+dataset_uuid: 5719b10e-830d-47af-947e-af7b7fe00bf6
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_food_e
+scene_type:
+- restaurant
+- warehouse
+- hospital
+atomic_actions:
+- lift
+- flip
+- place
+- lower
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+operation_platform_height: 73.2
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

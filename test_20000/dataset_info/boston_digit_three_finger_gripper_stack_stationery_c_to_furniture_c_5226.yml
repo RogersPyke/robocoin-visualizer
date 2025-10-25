@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_c_to_furniture_c_5226
+dataset_uuid: 57089da8-43bc-4883-af40-c6aa76fd10bf
+task_descriptions:
+- stack_the_stationery_c_and_place_in_the_furniture_c
+scene_type:
+- office
+- kitchen
+atomic_actions:
+- push
+- flip
+- lower
+- pull
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.1
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_furniture_e_to_fruit_b_7595
+dataset_uuid: ea7742b9-ed40-4303-907f-5942213d8b55
+task_descriptions:
+- stack_the_furniture_e_and_place_in_the_fruit_b
+scene_type:
+- hospital
+atomic_actions:
+- flip
+- push
+- slide
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 73.2
+device_model:
+- pal_tiago
+end_effector_type: five_claw_gripper

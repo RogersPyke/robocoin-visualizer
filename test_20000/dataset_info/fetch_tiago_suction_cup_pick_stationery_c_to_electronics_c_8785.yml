@@ -1,0 +1,30 @@
+dataset_name: pick_stationery_c_to_electronics_c_8785
+dataset_uuid: 2d208f6f-648d-4a9f-9846-0dbe7b2d88e8
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_electronics_c
+scene_type:
+- home
+- restaurant
+- laboratory
+atomic_actions:
+- lift
+- place
+- insert
+- grasp
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- fetch_tiago
+end_effector_type: suction_cup

@@ -1,0 +1,30 @@
+dataset_name: move_beverage_a_to_fruit_c_3326
+dataset_uuid: fffeac4f-02c0-4b97-9085-a9ed447ae596
+task_descriptions:
+- move_the_beverage_a_and_place_in_the_fruit_c
+scene_type:
+- office
+- laboratory
+- warehouse
+atomic_actions:
+- place
+- pick
+- slide
+- pull
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

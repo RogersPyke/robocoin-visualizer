@@ -1,0 +1,27 @@
+dataset_name: arrange_fruit_b_to_electronics_a_7799
+dataset_uuid: ffab1cab-412c-46f2-8590-f36caadf6ac8
+task_descriptions:
+- arrange_the_fruit_b_and_place_in_the_electronics_a
+scene_type:
+- home
+- warehouse
+atomic_actions:
+- place
+- lift
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

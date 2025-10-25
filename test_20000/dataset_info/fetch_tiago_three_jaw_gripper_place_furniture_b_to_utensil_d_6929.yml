@@ -1,0 +1,28 @@
+dataset_name: place_furniture_b_to_utensil_d_6929
+dataset_uuid: 40c52271-4e61-4871-9d8a-dbe86fbeac27
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_utensil_d
+scene_type:
+- cafe
+- store
+- hospital
+atomic_actions:
+- pick
+- place
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

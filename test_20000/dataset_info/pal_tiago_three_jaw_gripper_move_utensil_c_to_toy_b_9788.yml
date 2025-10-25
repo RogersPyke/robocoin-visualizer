@@ -1,0 +1,30 @@
+dataset_name: move_utensil_c_to_toy_b_9788
+dataset_uuid: a2328c66-ec1b-4523-aa3c-c22a9c84854e
+task_descriptions:
+- move_the_utensil_c_and_place_in_the_toy_b
+scene_type:
+- store
+- factory
+- kitchen
+atomic_actions:
+- rotate
+- place
+- flip
+- slide
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

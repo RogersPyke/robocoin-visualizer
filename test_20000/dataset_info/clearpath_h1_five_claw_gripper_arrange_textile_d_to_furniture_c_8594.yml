@@ -1,0 +1,27 @@
+dataset_name: arrange_textile_d_to_furniture_c_8594
+dataset_uuid: 15185323-e52e-4c0c-a393-7fa2f77e5ac2
+task_descriptions:
+- arrange_the_textile_d_and_place_in_the_furniture_c
+scene_type:
+- factory
+atomic_actions:
+- remove
+- rotate
+- place
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

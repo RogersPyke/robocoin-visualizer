@@ -1,0 +1,27 @@
+dataset_name: arrange_electronics_a_to_fruit_c_4284
+dataset_uuid: 0da7836d-ad2f-4a1e-a664-9ff427fd1177
+task_descriptions:
+- arrange_the_electronics_a_and_place_in_the_fruit_c
+scene_type:
+- factory
+- restaurant
+atomic_actions:
+- place
+- pick
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+operation_platform_height: 83.3
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

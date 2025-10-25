@@ -1,0 +1,27 @@
+dataset_name: place_stationery_c_to_fruit_c_4799
+dataset_uuid: 2ed639e8-bb88-44fd-9a6d-2657c8f78c3f
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_fruit_c
+scene_type:
+- kitchen
+- store
+atomic_actions:
+- rotate
+- lift
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

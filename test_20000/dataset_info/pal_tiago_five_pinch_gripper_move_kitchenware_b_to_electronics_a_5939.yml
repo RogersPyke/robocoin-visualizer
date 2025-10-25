@@ -1,0 +1,28 @@
+dataset_name: move_kitchenware_b_to_electronics_a_5939
+dataset_uuid: 21f96435-6f7e-453b-8ba0-5110b18bb113
+task_descriptions:
+- move_the_kitchenware_b_and_place_in_the_electronics_a
+scene_type:
+- hospital
+- warehouse
+- restaurant
+atomic_actions:
+- pull
+- remove
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

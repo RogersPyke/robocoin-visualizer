@@ -1,0 +1,30 @@
+dataset_name: arrange_beverage_d_to_utensil_b_3130
+dataset_uuid: 29af5bbc-738b-4a19-861c-5dd4c53b3699
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_utensil_b
+scene_type:
+- hospital
+- laboratory
+- store
+atomic_actions:
+- flip
+- pick
+- grasp
+- remove
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.0
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

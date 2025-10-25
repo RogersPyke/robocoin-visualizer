@@ -1,0 +1,27 @@
+dataset_name: place_container_b_to_fruit_b_6031
+dataset_uuid: 5113e83c-66ed-4acf-8415-eb6f7a0eb0e9
+task_descriptions:
+- place_the_container_b_and_place_in_the_fruit_b
+scene_type:
+- store
+atomic_actions:
+- pull
+- flip
+- remove
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

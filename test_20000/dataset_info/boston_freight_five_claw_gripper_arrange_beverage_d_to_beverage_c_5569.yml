@@ -1,0 +1,28 @@
+dataset_name: arrange_beverage_d_to_beverage_c_5569
+dataset_uuid: d4ada420-ee88-4c63-9407-60906fdf83d7
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_beverage_c
+scene_type:
+- restaurant
+- store
+- cafe
+atomic_actions:
+- lower
+- push
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: beverage_c_sub2
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

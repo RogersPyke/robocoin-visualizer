@@ -1,0 +1,29 @@
+dataset_name: pick_furniture_d_to_toy_c_5322
+dataset_uuid: 175e12e1-c116-4590-88d1-b91184b353e9
+task_descriptions:
+- pick_the_furniture_d_and_place_in_the_toy_c
+scene_type:
+- kitchen
+- warehouse
+- office
+atomic_actions:
+- flip
+- rotate
+- grasp
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

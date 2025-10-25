@@ -1,0 +1,29 @@
+dataset_name: place_food_a_to_fruit_d_4145
+dataset_uuid: 7734f8d9-bd58-4801-8af2-10cfeca82909
+task_descriptions:
+- place_the_food_a_and_place_in_the_fruit_d
+scene_type:
+- laboratory
+- office
+- restaurant
+atomic_actions:
+- slide
+- lower
+- flip
+objects:
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- pal_tiago
+end_effector_type: suction_cup

@@ -1,0 +1,26 @@
+dataset_name: place_stationery_a_to_stationery_b_9212
+dataset_uuid: 623cb16b-22ef-4c53-98f8-7219de9a2335
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_stationery_b
+scene_type:
+- store
+atomic_actions:
+- lift
+- rotate
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

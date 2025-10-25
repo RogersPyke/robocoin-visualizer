@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_a_to_textile_e_7662
+dataset_uuid: bc93df43-78df-4e21-aae8-ca6ff0ed7e20
+task_descriptions:
+- pick_the_furniture_a_and_place_in_the_textile_e
+scene_type:
+- home
+- restaurant
+- kitchen
+atomic_actions:
+- insert
+- place
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- pal_freight
+end_effector_type: five_claw_gripper

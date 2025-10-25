@@ -1,0 +1,26 @@
+dataset_name: arrange_utensil_c_to_utensil_b_9505
+dataset_uuid: fe8e3b2f-4884-4e6e-8969-dd7944e88061
+task_descriptions:
+- arrange_the_utensil_c_and_place_in_the_utensil_b
+scene_type:
+- cafe
+atomic_actions:
+- slide
+- push
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.1
+device_model:
+- pal_tiago
+end_effector_type: two_finger_gripper

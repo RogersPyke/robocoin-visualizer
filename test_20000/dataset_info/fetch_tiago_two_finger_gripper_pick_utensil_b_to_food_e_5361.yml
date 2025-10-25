@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_b_to_food_e_5361
+dataset_uuid: d4628b1f-f3af-4505-af07-b8bbd779046f
+task_descriptions:
+- pick_the_utensil_b_and_place_in_the_food_e
+scene_type:
+- cafe
+- restaurant
+atomic_actions:
+- insert
+- pick
+- pull
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- fetch_tiago
+end_effector_type: two_finger_gripper

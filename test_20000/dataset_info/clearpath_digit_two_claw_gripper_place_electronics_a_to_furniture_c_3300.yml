@@ -1,0 +1,28 @@
+dataset_name: place_electronics_a_to_furniture_c_3300
+dataset_uuid: 4571dd37-f2b4-4ed0-8a46-254bf3e13ef1
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_furniture_c
+scene_type:
+- warehouse
+atomic_actions:
+- pick
+- push
+- insert
+- slide
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- clearpath_digit
+end_effector_type: two_claw_gripper

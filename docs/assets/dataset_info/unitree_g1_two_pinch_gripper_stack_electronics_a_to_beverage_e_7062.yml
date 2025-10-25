@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_a_to_beverage_e_7062
+dataset_uuid: 52efe17a-53a0-4a54-bcd7-edb8b498c60d
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_beverage_e
+scene_type:
+- laboratory
+- store
+atomic_actions:
+- insert
+- pull
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- unitree_g1
+end_effector_type: two_pinch_gripper

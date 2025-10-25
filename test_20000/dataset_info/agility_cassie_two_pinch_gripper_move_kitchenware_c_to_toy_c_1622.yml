@@ -1,0 +1,28 @@
+dataset_name: move_kitchenware_c_to_toy_c_1622
+dataset_uuid: 5c2d0b42-7e7c-49c4-94a8-271481467ed4
+task_descriptions:
+- move_the_kitchenware_c_and_place_in_the_toy_c
+scene_type:
+- cafe
+- laboratory
+atomic_actions:
+- insert
+- lower
+- rotate
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

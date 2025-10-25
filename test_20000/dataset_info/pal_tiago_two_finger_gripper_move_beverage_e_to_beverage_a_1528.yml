@@ -1,0 +1,30 @@
+dataset_name: move_beverage_e_to_beverage_a_1528
+dataset_uuid: 8604006f-11bb-4d01-87e8-3bcb454b8300
+task_descriptions:
+- move_the_beverage_e_and_place_in_the_beverage_a
+scene_type:
+- store
+- cafe
+- home
+atomic_actions:
+- slide
+- rotate
+- pull
+- lift
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- pal_tiago
+end_effector_type: two_finger_gripper

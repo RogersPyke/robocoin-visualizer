@@ -1,0 +1,29 @@
+dataset_name: pick_furniture_a_to_utensil_d_1000
+dataset_uuid: 824bc3fa-b0ff-454f-a090-8f791090dac6
+task_descriptions:
+- pick_the_furniture_a_and_place_in_the_utensil_d
+scene_type:
+- restaurant
+- cafe
+- warehouse
+atomic_actions:
+- flip
+- pick
+- pull
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.7
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

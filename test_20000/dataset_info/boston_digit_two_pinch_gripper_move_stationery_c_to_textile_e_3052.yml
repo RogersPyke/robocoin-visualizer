@@ -1,0 +1,27 @@
+dataset_name: move_stationery_c_to_textile_e_3052
+dataset_uuid: 59acc9fa-e882-43c3-ab30-69f5fc07d7ba
+task_descriptions:
+- move_the_stationery_c_and_place_in_the_textile_e
+scene_type:
+- cafe
+atomic_actions:
+- lift
+- rotate
+- place
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

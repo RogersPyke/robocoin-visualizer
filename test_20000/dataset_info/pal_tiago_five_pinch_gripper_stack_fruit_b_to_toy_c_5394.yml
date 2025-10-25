@@ -1,0 +1,27 @@
+dataset_name: stack_fruit_b_to_toy_c_5394
+dataset_uuid: b71dbd88-5c61-48a9-af00-2ebb6e0ed840
+task_descriptions:
+- stack_the_fruit_b_and_place_in_the_toy_c
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- rotate
+- pick
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.9
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

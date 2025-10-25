@@ -1,0 +1,30 @@
+dataset_name: stack_beverage_e_to_tool_b_7935
+dataset_uuid: 356f84a1-a3d6-4b06-b6a6-43fe6e2baafd
+task_descriptions:
+- stack_the_beverage_e_and_place_in_the_tool_b
+scene_type:
+- office
+- store
+- home
+atomic_actions:
+- grasp
+- pick
+- pull
+- lower
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.5
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

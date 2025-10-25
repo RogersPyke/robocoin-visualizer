@@ -1,0 +1,27 @@
+dataset_name: place_food_e_to_fruit_e_1551
+dataset_uuid: d86c9433-5bc3-42ad-bc7c-54641ec80dc1
+task_descriptions:
+- place_the_food_e_and_place_in_the_fruit_e
+scene_type:
+- kitchen
+atomic_actions:
+- pull
+- lift
+- grasp
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_tool_a_to_tool_b_2442
+dataset_uuid: 9aa54c15-14d8-4dc1-9708-145effd24ea8
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_tool_b
+scene_type:
+- factory
+- kitchen
+atomic_actions:
+- grasp
+- place
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 87.7
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

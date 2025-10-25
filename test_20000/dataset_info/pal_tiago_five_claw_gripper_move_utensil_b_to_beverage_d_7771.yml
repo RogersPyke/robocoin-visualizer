@@ -1,0 +1,27 @@
+dataset_name: move_utensil_b_to_beverage_d_7771
+dataset_uuid: 9a3eff19-cff1-4356-baed-68995863568e
+task_descriptions:
+- move_the_utensil_b_and_place_in_the_beverage_d
+scene_type:
+- factory
+- kitchen
+atomic_actions:
+- lift
+- grasp
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- pal_tiago
+end_effector_type: five_claw_gripper

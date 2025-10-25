@@ -1,0 +1,26 @@
+dataset_name: pick_fruit_b_to_beverage_b_8518
+dataset_uuid: d9e64657-70ab-47fb-96cf-2be46fb5b1e4
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_beverage_b
+scene_type:
+- warehouse
+atomic_actions:
+- remove
+- insert
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.5
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

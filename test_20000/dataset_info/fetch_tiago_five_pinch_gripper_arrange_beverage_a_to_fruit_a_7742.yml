@@ -1,0 +1,28 @@
+dataset_name: arrange_beverage_a_to_fruit_a_7742
+dataset_uuid: b00a147d-8b38-43f2-96d6-ca28a6c586fa
+task_descriptions:
+- arrange_the_beverage_a_and_place_in_the_fruit_a
+scene_type:
+- home
+atomic_actions:
+- pull
+- slide
+- push
+- place
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.6
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: move_textile_a_to_toy_c_7914
+dataset_uuid: 14c9de68-3062-4281-ada8-44ccf5dd7c23
+task_descriptions:
+- move_the_textile_a_and_place_in_the_toy_c
+scene_type:
+- store
+atomic_actions:
+- flip
+- rotate
+- pick
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.4
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

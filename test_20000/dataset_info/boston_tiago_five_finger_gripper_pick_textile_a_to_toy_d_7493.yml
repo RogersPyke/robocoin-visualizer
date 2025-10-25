@@ -1,0 +1,26 @@
+dataset_name: pick_textile_a_to_toy_d_7493
+dataset_uuid: 41d5b574-df32-4368-ad61-620134200c39
+task_descriptions:
+- pick_the_textile_a_and_place_in_the_toy_d
+scene_type:
+- warehouse
+atomic_actions:
+- pull
+- rotate
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

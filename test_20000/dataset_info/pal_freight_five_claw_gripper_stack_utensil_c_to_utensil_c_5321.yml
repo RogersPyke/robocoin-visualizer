@@ -1,0 +1,30 @@
+dataset_name: stack_utensil_c_to_utensil_c_5321
+dataset_uuid: d70a7cad-8c15-4934-a681-051a00f49091
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_utensil_c
+scene_type:
+- cafe
+- kitchen
+- restaurant
+atomic_actions:
+- flip
+- pull
+- lift
+- grasp
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.5
+device_model:
+- pal_freight
+end_effector_type: five_claw_gripper

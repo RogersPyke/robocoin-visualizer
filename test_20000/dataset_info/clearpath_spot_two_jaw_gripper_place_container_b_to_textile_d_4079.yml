@@ -1,0 +1,27 @@
+dataset_name: place_container_b_to_textile_d_4079
+dataset_uuid: 35ff3289-42cc-4d09-9b1a-d0eb6843e966
+task_descriptions:
+- place_the_container_b_and_place_in_the_textile_d
+scene_type:
+- cafe
+- restaurant
+atomic_actions:
+- grasp
+- place
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

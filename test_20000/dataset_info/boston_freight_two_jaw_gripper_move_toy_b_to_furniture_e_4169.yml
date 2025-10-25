@@ -1,0 +1,29 @@
+dataset_name: move_toy_b_to_furniture_e_4169
+dataset_uuid: 9ee7252f-ed24-4c37-9fc2-e31615cf116e
+task_descriptions:
+- move_the_toy_b_and_place_in_the_furniture_e
+scene_type:
+- warehouse
+- cafe
+- office
+atomic_actions:
+- insert
+- push
+- grasp
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.6
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

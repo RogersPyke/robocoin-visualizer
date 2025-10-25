@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_b_to_toy_a_9406
+dataset_uuid: 6d0cf836-6285-4d92-ad35-36a999eac902
+task_descriptions:
+- stack_the_stationery_b_and_place_in_the_toy_a
+scene_type:
+- hospital
+- restaurant
+atomic_actions:
+- rotate
+- insert
+- push
+- place
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

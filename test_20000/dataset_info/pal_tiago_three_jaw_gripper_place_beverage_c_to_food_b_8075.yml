@@ -1,0 +1,29 @@
+dataset_name: place_beverage_c_to_food_b_8075
+dataset_uuid: 8557ef71-74d5-4ca3-ad84-f11de20566fe
+task_descriptions:
+- place_the_beverage_c_and_place_in_the_food_b
+scene_type:
+- laboratory
+- factory
+- cafe
+atomic_actions:
+- lower
+- flip
+- insert
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: beverage_c_sub2
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

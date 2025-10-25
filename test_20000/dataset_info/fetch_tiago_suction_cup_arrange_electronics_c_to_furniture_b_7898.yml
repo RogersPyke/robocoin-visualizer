@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_c_to_furniture_b_7898
+dataset_uuid: 5b4a6076-dfd0-4795-8774-0cebef4ac56a
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_furniture_b
+scene_type:
+- restaurant
+- cafe
+- warehouse
+atomic_actions:
+- remove
+- push
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.9
+device_model:
+- fetch_tiago
+end_effector_type: suction_cup

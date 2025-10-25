@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_a_to_beverage_c_3641
+dataset_uuid: 57092f73-aae0-49a7-b3a0-8305ceddd534
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_beverage_c
+scene_type:
+- home
+atomic_actions:
+- insert
+- rotate
+- slide
+- grasp
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

@@ -1,0 +1,30 @@
+dataset_name: arrange_container_c_to_electronics_a_8086
+dataset_uuid: cdaf15ba-e2a9-45fe-be00-9b38a22c6323
+task_descriptions:
+- arrange_the_container_c_and_place_in_the_electronics_a
+scene_type:
+- home
+- restaurant
+- kitchen
+atomic_actions:
+- place
+- grasp
+- lift
+- slide
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

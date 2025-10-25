@@ -1,0 +1,30 @@
+dataset_name: place_toy_d_to_fruit_b_9776
+dataset_uuid: 1eca7ea6-3db7-42c8-b8b1-a501b16a9c68
+task_descriptions:
+- place_the_toy_d_and_place_in_the_fruit_b
+scene_type:
+- cafe
+- home
+- store
+atomic_actions:
+- slide
+- push
+- flip
+- grasp
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- fetch_tiago
+end_effector_type: two_finger_gripper

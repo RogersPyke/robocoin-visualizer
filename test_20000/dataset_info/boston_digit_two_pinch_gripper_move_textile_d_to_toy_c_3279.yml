@@ -1,0 +1,29 @@
+dataset_name: move_textile_d_to_toy_c_3279
+dataset_uuid: 238ff427-fa30-40f4-ab41-e046c27a90cf
+task_descriptions:
+- move_the_textile_d_and_place_in_the_toy_c
+scene_type:
+- cafe
+- office
+- hospital
+atomic_actions:
+- rotate
+- lower
+- grasp
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

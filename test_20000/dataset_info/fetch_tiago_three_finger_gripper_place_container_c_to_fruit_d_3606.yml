@@ -1,0 +1,29 @@
+dataset_name: place_container_c_to_fruit_d_3606
+dataset_uuid: cb0eb0a0-7b9e-44da-a733-6721f7331ed0
+task_descriptions:
+- place_the_container_c_and_place_in_the_fruit_d
+scene_type:
+- kitchen
+- laboratory
+- warehouse
+atomic_actions:
+- push
+- pick
+- grasp
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+operation_platform_height: 70.7
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

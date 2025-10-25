@@ -1,0 +1,28 @@
+dataset_name: stack_stationery_c_to_container_a_3683
+dataset_uuid: b7044ee2-52ed-428a-b811-7f712d395510
+task_descriptions:
+- stack_the_stationery_c_and_place_in_the_container_a
+scene_type:
+- factory
+- restaurant
+atomic_actions:
+- slide
+- push
+- grasp
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- agility_spot
+end_effector_type: five_finger_gripper

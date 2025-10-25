@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_c_to_stationery_a_4099
+dataset_uuid: 57237ad3-4dd4-41c0-87d9-3839218fdcfd
+task_descriptions:
+- pick_the_fruit_c_and_place_in_the_stationery_a
+scene_type:
+- kitchen
+- warehouse
+- cafe
+atomic_actions:
+- rotate
+- push
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.9
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_textile_d_to_utensil_c_8447
+dataset_uuid: a017a22e-4601-4393-8032-b60c2b05b672
+task_descriptions:
+- pick_the_textile_d_and_place_in_the_utensil_c
+scene_type:
+- cafe
+- home
+- office
+atomic_actions:
+- lower
+- insert
+- rotate
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

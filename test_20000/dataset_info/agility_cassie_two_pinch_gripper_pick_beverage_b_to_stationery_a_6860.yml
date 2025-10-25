@@ -1,0 +1,26 @@
+dataset_name: pick_beverage_b_to_stationery_a_6860
+dataset_uuid: e82ff99a-17d5-42bc-95eb-031c7250519a
+task_descriptions:
+- pick_the_beverage_b_and_place_in_the_stationery_a
+scene_type:
+- hospital
+atomic_actions:
+- pick
+- grasp
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.0
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

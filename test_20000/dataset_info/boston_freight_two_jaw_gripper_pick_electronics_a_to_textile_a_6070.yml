@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_a_to_textile_a_6070
+dataset_uuid: 5d1a5c74-ab37-497a-b769-17ac063debf9
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_textile_a
+scene_type:
+- home
+- kitchen
+atomic_actions:
+- pick
+- flip
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.3
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

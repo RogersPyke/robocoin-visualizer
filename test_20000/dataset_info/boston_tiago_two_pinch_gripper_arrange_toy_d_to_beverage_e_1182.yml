@@ -1,0 +1,29 @@
+dataset_name: arrange_toy_d_to_beverage_e_1182
+dataset_uuid: 5f309523-7884-443b-90b2-bc8f055455c8
+task_descriptions:
+- arrange_the_toy_d_and_place_in_the_beverage_e
+scene_type:
+- laboratory
+- warehouse
+atomic_actions:
+- place
+- push
+- slide
+- remove
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

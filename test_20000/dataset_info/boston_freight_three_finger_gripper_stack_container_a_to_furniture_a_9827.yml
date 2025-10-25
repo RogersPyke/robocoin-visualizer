@@ -1,0 +1,28 @@
+dataset_name: stack_container_a_to_furniture_a_9827
+dataset_uuid: 0511d183-bcde-4589-a151-b4035cffb0ea
+task_descriptions:
+- stack_the_container_a_and_place_in_the_furniture_a
+scene_type:
+- home
+- factory
+atomic_actions:
+- push
+- rotate
+- place
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

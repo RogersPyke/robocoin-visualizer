@@ -1,0 +1,27 @@
+dataset_name: pick_toy_a_to_toy_a_2893
+dataset_uuid: 400e0b37-11f2-41ce-880e-ef1db724ba41
+task_descriptions:
+- pick_the_toy_a_and_place_in_the_toy_a
+scene_type:
+- restaurant
+- warehouse
+atomic_actions:
+- insert
+- flip
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.4
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

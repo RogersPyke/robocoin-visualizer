@@ -1,0 +1,30 @@
+dataset_name: arrange_kitchenware_c_to_beverage_a_5047
+dataset_uuid: a1dcf3b8-769e-4338-83da-18e1548246ec
+task_descriptions:
+- arrange_the_kitchenware_c_and_place_in_the_beverage_a
+scene_type:
+- factory
+- home
+- restaurant
+atomic_actions:
+- remove
+- grasp
+- insert
+- rotate
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.7
+device_model:
+- agility_digit
+end_effector_type: three_jaw_gripper

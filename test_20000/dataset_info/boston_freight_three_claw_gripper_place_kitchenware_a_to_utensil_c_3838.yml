@@ -1,0 +1,30 @@
+dataset_name: place_kitchenware_a_to_utensil_c_3838
+dataset_uuid: 087f3083-c66e-4580-8244-60645437a764
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_utensil_c
+scene_type:
+- kitchen
+- store
+- restaurant
+atomic_actions:
+- insert
+- remove
+- pull
+- pick
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

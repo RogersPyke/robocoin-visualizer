@@ -1,0 +1,28 @@
+dataset_name: place_food_d_to_stationery_a_6778
+dataset_uuid: c60e26e9-9b8c-41c2-9585-9d2499c86a3b
+task_descriptions:
+- place_the_food_d_and_place_in_the_stationery_a
+scene_type:
+- hospital
+atomic_actions:
+- grasp
+- pick
+- lift
+- remove
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.3
+device_model:
+- boston_digit
+end_effector_type: two_finger_gripper

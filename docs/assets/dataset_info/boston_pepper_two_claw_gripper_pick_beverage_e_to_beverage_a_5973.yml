@@ -1,0 +1,27 @@
+dataset_name: pick_beverage_e_to_beverage_a_5973
+dataset_uuid: 38bfca5f-5ebe-4444-8530-103c31e927d9
+task_descriptions:
+- pick_the_beverage_e_and_place_in_the_beverage_a
+scene_type:
+- warehouse
+- restaurant
+atomic_actions:
+- slide
+- place
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.3
+device_model:
+- boston_pepper
+end_effector_type: two_claw_gripper

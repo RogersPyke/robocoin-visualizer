@@ -1,0 +1,28 @@
+dataset_name: place_stationery_b_to_utensil_b_1228
+dataset_uuid: f952c4d9-6d71-45ca-9352-adb4b51c71a9
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_utensil_b
+scene_type:
+- kitchen
+- hospital
+- warehouse
+atomic_actions:
+- rotate
+- remove
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.0
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

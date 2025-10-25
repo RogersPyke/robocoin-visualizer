@@ -1,0 +1,28 @@
+dataset_name: move_container_a_to_kitchenware_a_9198
+dataset_uuid: b04fdfc5-29d9-4942-a604-c23cf8eaaeb0
+task_descriptions:
+- move_the_container_a_and_place_in_the_kitchenware_a
+scene_type:
+- home
+- warehouse
+- store
+atomic_actions:
+- slide
+- remove
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.9
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

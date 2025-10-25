@@ -1,0 +1,28 @@
+dataset_name: arrange_utensil_b_to_tool_d_8192
+dataset_uuid: 9cc05ba6-37b4-4e28-be75-9eba5f59ecfa
+task_descriptions:
+- arrange_the_utensil_b_and_place_in_the_tool_d
+scene_type:
+- office
+- hospital
+atomic_actions:
+- slide
+- push
+- place
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

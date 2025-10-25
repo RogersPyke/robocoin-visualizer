@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_b_to_container_c_4614
+dataset_uuid: 9b665947-f335-442f-8774-049e3dca00bc
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_container_c
+scene_type:
+- kitchen
+- warehouse
+atomic_actions:
+- lift
+- grasp
+- rotate
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.9
+device_model:
+- agility_spot
+end_effector_type: suction_cup

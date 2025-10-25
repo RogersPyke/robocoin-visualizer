@@ -1,0 +1,30 @@
+dataset_name: move_food_a_to_kitchenware_c_6188
+dataset_uuid: cdadae98-01e1-448f-82dc-8f086fae7f31
+task_descriptions:
+- move_the_food_a_and_place_in_the_kitchenware_c
+scene_type:
+- cafe
+- store
+- office
+atomic_actions:
+- grasp
+- slide
+- lift
+- lower
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.1
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

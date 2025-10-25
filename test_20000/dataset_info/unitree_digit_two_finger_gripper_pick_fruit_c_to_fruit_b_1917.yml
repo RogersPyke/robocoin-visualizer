@@ -1,0 +1,27 @@
+dataset_name: pick_fruit_c_to_fruit_b_1917
+dataset_uuid: 1a39f381-85b3-4a89-ae0c-33ab377efe2e
+task_descriptions:
+- pick_the_fruit_c_and_place_in_the_fruit_b
+scene_type:
+- factory
+- store
+atomic_actions:
+- place
+- lower
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- unitree_digit
+end_effector_type: two_finger_gripper

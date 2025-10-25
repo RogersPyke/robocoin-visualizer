@@ -1,0 +1,29 @@
+dataset_name: stack_textile_b_to_electronics_c_8762
+dataset_uuid: 3d3a3f0a-6557-4d4b-a75b-32ed07f9e1d2
+task_descriptions:
+- stack_the_textile_b_and_place_in_the_electronics_c
+scene_type:
+- factory
+- warehouse
+atomic_actions:
+- push
+- pick
+- slide
+- place
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 81.7
+device_model:
+- unitree_h1
+end_effector_type: two_claw_gripper

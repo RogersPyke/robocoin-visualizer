@@ -1,0 +1,26 @@
+dataset_name: arrange_electronics_c_to_textile_d_3080
+dataset_uuid: b37a2666-b47d-4494-82b0-d6d56cb10ddf
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_textile_d
+scene_type:
+- warehouse
+atomic_actions:
+- pull
+- remove
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.2
+device_model:
+- agility_h1
+end_effector_type: five_jaw_gripper

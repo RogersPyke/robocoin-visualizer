@@ -1,0 +1,27 @@
+dataset_name: stack_utensil_b_to_textile_a_8527
+dataset_uuid: 0c0c34f2-65d4-4ba0-bc62-6c093ef5e8eb
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_textile_a
+scene_type:
+- restaurant
+atomic_actions:
+- remove
+- rotate
+- push
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.0
+device_model:
+- fetch_tiago
+end_effector_type: two_pinch_gripper

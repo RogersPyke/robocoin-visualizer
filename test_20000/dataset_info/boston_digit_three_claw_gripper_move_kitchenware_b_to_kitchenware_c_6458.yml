@@ -1,0 +1,28 @@
+dataset_name: move_kitchenware_b_to_kitchenware_c_6458
+dataset_uuid: 4be30f5b-4eec-4ee1-b77b-e199ed09e283
+task_descriptions:
+- move_the_kitchenware_b_and_place_in_the_kitchenware_c
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- insert
+- push
+- pull
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

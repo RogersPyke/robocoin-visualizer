@@ -1,0 +1,28 @@
+dataset_name: stack_fruit_c_to_utensil_a_1791
+dataset_uuid: 4b969dbe-cf37-4898-82df-90f876d29c9e
+task_descriptions:
+- stack_the_fruit_c_and_place_in_the_utensil_a
+scene_type:
+- office
+- kitchen
+atomic_actions:
+- lift
+- flip
+- remove
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

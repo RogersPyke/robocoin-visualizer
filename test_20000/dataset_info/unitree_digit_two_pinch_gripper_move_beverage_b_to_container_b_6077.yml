@@ -1,0 +1,30 @@
+dataset_name: move_beverage_b_to_container_b_6077
+dataset_uuid: b50927a7-d45f-4110-855b-8d0f836e9c33
+task_descriptions:
+- move_the_beverage_b_and_place_in_the_container_b
+scene_type:
+- kitchen
+- home
+- hospital
+atomic_actions:
+- pull
+- push
+- flip
+- remove
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

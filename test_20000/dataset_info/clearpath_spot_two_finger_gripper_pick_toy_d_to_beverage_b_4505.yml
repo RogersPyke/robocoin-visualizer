@@ -1,0 +1,27 @@
+dataset_name: pick_toy_d_to_beverage_b_4505
+dataset_uuid: b93bd4df-6d8f-4a88-aeef-6ef5b8358fba
+task_descriptions:
+- pick_the_toy_d_and_place_in_the_beverage_b
+scene_type:
+- home
+atomic_actions:
+- flip
+- insert
+- push
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.6
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_food_a_to_beverage_e_3780
+dataset_uuid: 5ee60643-2f22-425c-a4aa-f6d995d21a0a
+task_descriptions:
+- arrange_the_food_a_and_place_in_the_beverage_e
+scene_type:
+- cafe
+- laboratory
+- factory
+atomic_actions:
+- insert
+- remove
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.4
+device_model:
+- boston_h1
+end_effector_type: three_pinch_gripper

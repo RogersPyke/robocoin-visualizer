@@ -1,0 +1,27 @@
+dataset_name: pick_kitchenware_c_to_kitchenware_b_2396
+dataset_uuid: 036dd85a-b9b3-4d5b-9f41-d79f8e7f3a50
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_kitchenware_b
+scene_type:
+- cafe
+atomic_actions:
+- lower
+- rotate
+- pull
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.1
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_kitchenware_a_to_utensil_b_6438
+dataset_uuid: 6d9e5cbc-6924-4e3d-a12b-7bb29f9fd0e1
+task_descriptions:
+- move_the_kitchenware_a_and_place_in_the_utensil_b
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- pick
+- push
+- flip
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,30 @@
+dataset_name: arrange_textile_a_to_textile_c_2645
+dataset_uuid: 6b762c07-2ea4-4541-ac3c-409bf0b3180c
+task_descriptions:
+- arrange_the_textile_a_and_place_in_the_textile_c
+scene_type:
+- hospital
+- office
+- home
+atomic_actions:
+- grasp
+- pick
+- rotate
+- lift
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- boston_h1
+end_effector_type: two_claw_gripper

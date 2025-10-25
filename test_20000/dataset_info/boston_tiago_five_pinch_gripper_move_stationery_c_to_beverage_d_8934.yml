@@ -1,0 +1,27 @@
+dataset_name: move_stationery_c_to_beverage_d_8934
+dataset_uuid: 936a30e7-0ced-4656-bb67-11144d1db7f1
+task_descriptions:
+- move_the_stationery_c_and_place_in_the_beverage_d
+scene_type:
+- cafe
+- office
+atomic_actions:
+- slide
+- place
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

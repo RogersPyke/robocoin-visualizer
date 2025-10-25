@@ -1,0 +1,28 @@
+dataset_name: place_utensil_b_to_utensil_b_8827
+dataset_uuid: 66e6fa53-611c-4811-a43e-e9ba4f7013ae
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_utensil_b
+scene_type:
+- home
+- factory
+- store
+atomic_actions:
+- lower
+- grasp
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- clearpath_digit
+end_effector_type: suction_cup

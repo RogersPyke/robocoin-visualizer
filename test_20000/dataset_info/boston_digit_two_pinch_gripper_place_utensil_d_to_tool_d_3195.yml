@@ -1,0 +1,28 @@
+dataset_name: place_utensil_d_to_tool_d_3195
+dataset_uuid: 400c907a-9a5d-4bc2-8c10-70d5d3608e66
+task_descriptions:
+- place_the_utensil_d_and_place_in_the_tool_d
+scene_type:
+- home
+atomic_actions:
+- pull
+- insert
+- place
+- pick
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

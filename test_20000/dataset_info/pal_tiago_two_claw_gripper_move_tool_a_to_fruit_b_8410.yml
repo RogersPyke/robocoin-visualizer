@@ -1,0 +1,27 @@
+dataset_name: move_tool_a_to_fruit_b_8410
+dataset_uuid: c0577174-819e-4044-92fa-e98d95300703
+task_descriptions:
+- move_the_tool_a_and_place_in_the_fruit_b
+scene_type:
+- store
+atomic_actions:
+- pull
+- remove
+- pick
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- pal_tiago
+end_effector_type: two_claw_gripper

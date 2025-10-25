@@ -1,0 +1,28 @@
+dataset_name: place_stationery_c_to_kitchenware_c_3304
+dataset_uuid: cc09319d-bcaa-490e-bcc4-4debe8b77514
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_kitchenware_c
+scene_type:
+- warehouse
+atomic_actions:
+- slide
+- place
+- push
+- remove
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

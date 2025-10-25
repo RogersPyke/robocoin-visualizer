@@ -1,0 +1,29 @@
+dataset_name: arrange_furniture_a_to_toy_a_5389
+dataset_uuid: 271f1c20-a2ec-47d2-a1be-a4233f53b7f1
+task_descriptions:
+- arrange_the_furniture_a_and_place_in_the_toy_a
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- flip
+- slide
+- push
+- pick
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 87.9
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

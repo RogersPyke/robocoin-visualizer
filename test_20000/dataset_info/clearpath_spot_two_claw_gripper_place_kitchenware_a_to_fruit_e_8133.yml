@@ -1,0 +1,26 @@
+dataset_name: place_kitchenware_a_to_fruit_e_8133
+dataset_uuid: f4ec0963-7083-410f-96a1-26d61d768f2f
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_fruit_e
+scene_type:
+- warehouse
+atomic_actions:
+- pull
+- remove
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.7
+device_model:
+- clearpath_spot
+end_effector_type: two_claw_gripper

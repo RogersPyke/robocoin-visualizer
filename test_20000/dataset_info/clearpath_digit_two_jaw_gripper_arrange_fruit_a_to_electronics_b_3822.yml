@@ -1,0 +1,29 @@
+dataset_name: arrange_fruit_a_to_electronics_b_3822
+dataset_uuid: 1709145f-ffe3-4b58-b25c-4033be1e5065
+task_descriptions:
+- arrange_the_fruit_a_and_place_in_the_electronics_b
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- remove
+- flip
+- pull
+- pick
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

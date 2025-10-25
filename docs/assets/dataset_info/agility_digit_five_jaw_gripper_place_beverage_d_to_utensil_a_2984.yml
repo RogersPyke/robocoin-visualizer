@@ -1,0 +1,27 @@
+dataset_name: place_beverage_d_to_utensil_a_2984
+dataset_uuid: 09db03a7-2866-4146-99ae-f7768beb2df4
+task_descriptions:
+- place_the_beverage_d_and_place_in_the_utensil_a
+scene_type:
+- home
+atomic_actions:
+- remove
+- lift
+- push
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.1
+device_model:
+- agility_digit
+end_effector_type: five_jaw_gripper

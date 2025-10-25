@@ -1,0 +1,28 @@
+dataset_name: move_textile_b_to_kitchenware_b_6602
+dataset_uuid: dea71fc3-5fa3-448b-87eb-bca0150347ac
+task_descriptions:
+- move_the_textile_b_and_place_in_the_kitchenware_b
+scene_type:
+- hospital
+- store
+atomic_actions:
+- grasp
+- pick
+- slide
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.8
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

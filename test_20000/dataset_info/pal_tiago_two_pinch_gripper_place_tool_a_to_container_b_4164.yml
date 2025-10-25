@@ -1,0 +1,30 @@
+dataset_name: place_tool_a_to_container_b_4164
+dataset_uuid: 9a2a93db-23e0-4411-a7a2-ea027af467a2
+task_descriptions:
+- place_the_tool_a_and_place_in_the_container_b
+scene_type:
+- restaurant
+- factory
+- cafe
+atomic_actions:
+- lift
+- push
+- flip
+- remove
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.4
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

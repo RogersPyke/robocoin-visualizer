@@ -1,0 +1,28 @@
+dataset_name: stack_food_e_to_furniture_e_7740
+dataset_uuid: c5a72236-11fd-4b6f-80cd-498e156e0ba1
+task_descriptions:
+- stack_the_food_e_and_place_in_the_furniture_e
+scene_type:
+- factory
+atomic_actions:
+- grasp
+- pick
+- push
+- flip
+objects:
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.3
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

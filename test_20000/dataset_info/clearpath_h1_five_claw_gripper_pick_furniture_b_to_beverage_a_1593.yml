@@ -1,0 +1,27 @@
+dataset_name: pick_furniture_b_to_beverage_a_1593
+dataset_uuid: 0a02ff99-7e3a-4ecb-9a79-3fc0cba37474
+task_descriptions:
+- pick_the_furniture_b_and_place_in_the_beverage_a
+scene_type:
+- hospital
+atomic_actions:
+- remove
+- grasp
+- pick
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.3
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

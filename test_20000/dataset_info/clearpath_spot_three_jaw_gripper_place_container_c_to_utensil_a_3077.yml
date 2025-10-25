@@ -1,0 +1,27 @@
+dataset_name: place_container_c_to_utensil_a_3077
+dataset_uuid: b4838718-39fa-44a9-9324-3219815c1e8b
+task_descriptions:
+- place_the_container_c_and_place_in_the_utensil_a
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- pull
+- remove
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

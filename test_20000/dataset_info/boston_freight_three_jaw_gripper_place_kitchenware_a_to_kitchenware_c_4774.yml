@@ -1,0 +1,30 @@
+dataset_name: place_kitchenware_a_to_kitchenware_c_4774
+dataset_uuid: 16e1da72-6725-4e45-91d3-2d2fb8511327
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_kitchenware_c
+scene_type:
+- office
+- factory
+- cafe
+atomic_actions:
+- pull
+- pick
+- flip
+- place
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.1
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

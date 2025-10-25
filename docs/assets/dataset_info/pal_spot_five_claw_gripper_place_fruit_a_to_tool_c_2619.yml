@@ -1,0 +1,28 @@
+dataset_name: place_fruit_a_to_tool_c_2619
+dataset_uuid: 32bf5a26-18f8-48d2-907c-4914f2e14089
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_tool_c
+scene_type:
+- laboratory
+atomic_actions:
+- grasp
+- rotate
+- push
+- pull
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.9
+device_model:
+- pal_spot
+end_effector_type: five_claw_gripper

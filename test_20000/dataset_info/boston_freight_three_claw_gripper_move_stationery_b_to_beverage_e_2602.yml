@@ -1,0 +1,30 @@
+dataset_name: move_stationery_b_to_beverage_e_2602
+dataset_uuid: db1508bd-61c0-4c70-9ef1-abc0de577908
+task_descriptions:
+- move_the_stationery_b_and_place_in_the_beverage_e
+scene_type:
+- hospital
+- cafe
+- warehouse
+atomic_actions:
+- slide
+- remove
+- lower
+- place
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+operation_platform_height: 89.3
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

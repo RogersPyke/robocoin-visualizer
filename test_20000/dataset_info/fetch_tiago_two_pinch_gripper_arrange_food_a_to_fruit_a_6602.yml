@@ -1,0 +1,27 @@
+dataset_name: arrange_food_a_to_fruit_a_6602
+dataset_uuid: e87fec5d-e537-446b-a370-e8d55198ec5d
+task_descriptions:
+- arrange_the_food_a_and_place_in_the_fruit_a
+scene_type:
+- hospital
+atomic_actions:
+- push
+- pull
+- grasp
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- fetch_tiago
+end_effector_type: two_pinch_gripper

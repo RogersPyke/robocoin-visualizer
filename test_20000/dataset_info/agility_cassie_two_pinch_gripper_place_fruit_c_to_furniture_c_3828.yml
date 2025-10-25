@@ -1,0 +1,26 @@
+dataset_name: place_fruit_c_to_furniture_c_3828
+dataset_uuid: a1b6200a-084e-46b2-bf11-9a67a4328a97
+task_descriptions:
+- place_the_fruit_c_and_place_in_the_furniture_c
+scene_type:
+- restaurant
+atomic_actions:
+- slide
+- pull
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

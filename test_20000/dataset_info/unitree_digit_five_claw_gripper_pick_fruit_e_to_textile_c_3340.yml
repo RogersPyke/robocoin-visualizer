@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_e_to_textile_c_3340
+dataset_uuid: 722f6947-441b-4d5c-b0de-b0779cfb88f2
+task_descriptions:
+- pick_the_fruit_e_and_place_in_the_textile_c
+scene_type:
+- laboratory
+atomic_actions:
+- slide
+- insert
+- remove
+- grasp
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_b_to_textile_b_9086
+dataset_uuid: 52e63fad-92eb-4ee9-ae6e-1f5518bf20f6
+task_descriptions:
+- pick_the_furniture_b_and_place_in_the_textile_b
+scene_type:
+- kitchen
+- hospital
+atomic_actions:
+- pull
+- lift
+- flip
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

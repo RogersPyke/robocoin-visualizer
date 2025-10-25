@@ -1,0 +1,27 @@
+dataset_name: move_fruit_b_to_fruit_c_7813
+dataset_uuid: 3177bc70-7f71-4d53-a9dc-6d253d3abe2c
+task_descriptions:
+- move_the_fruit_b_and_place_in_the_fruit_c
+scene_type:
+- store
+atomic_actions:
+- lower
+- remove
+- grasp
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+operation_platform_height: 71.6
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

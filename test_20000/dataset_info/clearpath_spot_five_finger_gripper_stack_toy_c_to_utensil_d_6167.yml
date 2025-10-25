@@ -1,0 +1,29 @@
+dataset_name: stack_toy_c_to_utensil_d_6167
+dataset_uuid: 17ef1180-4af4-4743-9f7e-83621e38f5b2
+task_descriptions:
+- stack_the_toy_c_and_place_in_the_utensil_d
+scene_type:
+- laboratory
+- restaurant
+- hospital
+atomic_actions:
+- push
+- flip
+- insert
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- clearpath_spot
+end_effector_type: five_finger_gripper

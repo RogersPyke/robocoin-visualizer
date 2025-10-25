@@ -1,0 +1,29 @@
+dataset_name: pick_textile_e_to_stationery_a_4860
+dataset_uuid: bf528790-e757-45b5-b6ad-3ed1b5a2dda5
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_stationery_a
+scene_type:
+- restaurant
+- cafe
+- store
+atomic_actions:
+- push
+- grasp
+- lower
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

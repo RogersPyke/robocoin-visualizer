@@ -1,0 +1,28 @@
+dataset_name: move_furniture_e_to_food_a_8048
+dataset_uuid: 15210fa9-3a9f-4127-ac95-b9e0cde82335
+task_descriptions:
+- move_the_furniture_e_and_place_in_the_food_a
+scene_type:
+- hospital
+- cafe
+- warehouse
+atomic_actions:
+- lift
+- pick
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_fruit_c_to_kitchenware_c_5338
+dataset_uuid: dce4f7cb-c79d-431d-927f-f0a0bb04f7f7
+task_descriptions:
+- pick_the_fruit_c_and_place_in_the_kitchenware_c
+scene_type:
+- factory
+- laboratory
+atomic_actions:
+- slide
+- lower
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- unitree_h1
+end_effector_type: five_finger_gripper

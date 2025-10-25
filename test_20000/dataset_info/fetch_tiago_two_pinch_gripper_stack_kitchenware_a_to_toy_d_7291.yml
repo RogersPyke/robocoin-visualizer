@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_a_to_toy_d_7291
+dataset_uuid: 639bb218-152a-4502-8dfe-87c7d77ea1d0
+task_descriptions:
+- stack_the_kitchenware_a_and_place_in_the_toy_d
+scene_type:
+- office
+- kitchen
+atomic_actions:
+- lower
+- flip
+- slide
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.9
+device_model:
+- fetch_tiago
+end_effector_type: two_pinch_gripper

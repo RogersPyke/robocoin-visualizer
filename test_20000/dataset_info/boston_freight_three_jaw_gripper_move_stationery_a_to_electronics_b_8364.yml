@@ -1,0 +1,27 @@
+dataset_name: move_stationery_a_to_electronics_b_8364
+dataset_uuid: e39c7c2b-9717-4a0f-9a2b-83d9fa3039bc
+task_descriptions:
+- move_the_stationery_a_and_place_in_the_electronics_b
+scene_type:
+- hospital
+- warehouse
+atomic_actions:
+- pull
+- rotate
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.6
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,30 @@
+dataset_name: stack_tool_b_to_toy_b_2910
+dataset_uuid: b64e8e67-b1b0-44d7-a3de-fcf41bf9f9b5
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_toy_b
+scene_type:
+- factory
+- restaurant
+- cafe
+atomic_actions:
+- lift
+- flip
+- pull
+- grasp
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.1
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

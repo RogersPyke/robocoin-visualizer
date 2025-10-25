@@ -1,0 +1,29 @@
+dataset_name: pick_fruit_c_to_textile_e_5482
+dataset_uuid: a8355d13-83f4-4278-a4ac-1edd46d02612
+task_descriptions:
+- pick_the_fruit_c_and_place_in_the_textile_e
+scene_type:
+- laboratory
+- restaurant
+atomic_actions:
+- insert
+- pull
+- lower
+- lift
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

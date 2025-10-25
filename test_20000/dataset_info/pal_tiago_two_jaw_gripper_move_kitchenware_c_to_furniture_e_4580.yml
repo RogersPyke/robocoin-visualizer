@@ -1,0 +1,27 @@
+dataset_name: move_kitchenware_c_to_furniture_e_4580
+dataset_uuid: 7cc1adf1-ffe5-4b33-99f2-f7c4e6c3636d
+task_descriptions:
+- move_the_kitchenware_c_and_place_in_the_furniture_e
+scene_type:
+- store
+atomic_actions:
+- pick
+- rotate
+- lower
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,27 @@
+dataset_name: move_furniture_b_to_electronics_b_6315
+dataset_uuid: 7362465b-af53-4d93-beeb-903b2275e45d
+task_descriptions:
+- move_the_furniture_b_and_place_in_the_electronics_b
+scene_type:
+- warehouse
+atomic_actions:
+- pull
+- rotate
+- lift
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

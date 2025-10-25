@@ -1,0 +1,26 @@
+dataset_name: place_stationery_b_to_kitchenware_a_6355
+dataset_uuid: c2eb6fd1-82ea-4c41-ba02-55874b43f8a0
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_kitchenware_a
+scene_type:
+- hospital
+atomic_actions:
+- lift
+- pick
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

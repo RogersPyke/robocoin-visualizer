@@ -1,0 +1,29 @@
+dataset_name: stack_food_d_to_stationery_a_6201
+dataset_uuid: 0b0dd164-1d3e-492b-b5ad-0bf92791625e
+task_descriptions:
+- stack_the_food_d_and_place_in_the_stationery_a
+scene_type:
+- factory
+- laboratory
+- hospital
+atomic_actions:
+- flip
+- place
+- pull
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.7
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

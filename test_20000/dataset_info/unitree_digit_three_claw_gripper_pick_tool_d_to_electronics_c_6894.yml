@@ -1,0 +1,30 @@
+dataset_name: pick_tool_d_to_electronics_c_6894
+dataset_uuid: 7111320f-8ee6-4df0-a353-13ae26aa55b7
+task_descriptions:
+- pick_the_tool_d_and_place_in_the_electronics_c
+scene_type:
+- factory
+- cafe
+- hospital
+atomic_actions:
+- push
+- slide
+- flip
+- grasp
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

@@ -1,0 +1,30 @@
+dataset_name: pick_electronics_b_to_tool_d_7704
+dataset_uuid: 65df298d-5eeb-4b3d-a9ae-fbcf2defb50b
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_tool_d
+scene_type:
+- restaurant
+- kitchen
+- home
+atomic_actions:
+- place
+- push
+- remove
+- insert
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

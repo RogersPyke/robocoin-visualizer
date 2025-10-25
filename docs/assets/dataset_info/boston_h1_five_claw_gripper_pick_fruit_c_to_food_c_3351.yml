@@ -1,0 +1,26 @@
+dataset_name: pick_fruit_c_to_food_c_3351
+dataset_uuid: 69670312-c52a-4d79-b9e2-be551e237e9f
+task_descriptions:
+- pick_the_fruit_c_and_place_in_the_food_c
+scene_type:
+- home
+atomic_actions:
+- flip
+- remove
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.6
+device_model:
+- boston_h1
+end_effector_type: five_claw_gripper

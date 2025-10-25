@@ -1,0 +1,27 @@
+dataset_name: stack_tool_c_to_tool_a_2027
+dataset_uuid: 9c57f078-1326-4021-9129-fab01d14cc0f
+task_descriptions:
+- stack_the_tool_c_and_place_in_the_tool_a
+scene_type:
+- kitchen
+atomic_actions:
+- lift
+- pick
+- grasp
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_tool_b_to_beverage_d_4933
+dataset_uuid: 4314e66a-a62a-43c4-9112-8af93e2bef83
+task_descriptions:
+- move_the_tool_b_and_place_in_the_beverage_d
+scene_type:
+- warehouse
+- factory
+- store
+atomic_actions:
+- push
+- insert
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- boston_h1
+end_effector_type: five_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_fruit_b_to_textile_d_3222
+dataset_uuid: 52ed2691-201b-4320-85ab-4a2193905eda
+task_descriptions:
+- move_the_fruit_b_and_place_in_the_textile_d
+scene_type:
+- laboratory
+atomic_actions:
+- pick
+- flip
+- lower
+- slide
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

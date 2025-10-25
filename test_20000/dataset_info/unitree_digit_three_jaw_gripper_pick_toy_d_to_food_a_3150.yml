@@ -1,0 +1,30 @@
+dataset_name: pick_toy_d_to_food_a_3150
+dataset_uuid: f86f8db8-76c4-40ba-934c-b5f6c189632f
+task_descriptions:
+- pick_the_toy_d_and_place_in_the_food_a
+scene_type:
+- hospital
+- cafe
+- restaurant
+atomic_actions:
+- push
+- rotate
+- slide
+- pull
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,30 @@
+dataset_name: move_utensil_b_to_toy_b_5560
+dataset_uuid: 425a1d5e-1847-4ed9-ac71-2789ebf383d0
+task_descriptions:
+- move_the_utensil_b_and_place_in_the_toy_b
+scene_type:
+- factory
+- hospital
+- store
+atomic_actions:
+- remove
+- place
+- lower
+- lift
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.6
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

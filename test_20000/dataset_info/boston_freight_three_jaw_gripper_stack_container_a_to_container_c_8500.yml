@@ -1,0 +1,28 @@
+dataset_name: stack_container_a_to_container_c_8500
+dataset_uuid: d4469e9f-c162-4636-a42b-b1a129d08d71
+task_descriptions:
+- stack_the_container_a_and_place_in_the_container_c
+scene_type:
+- warehouse
+- laboratory
+atomic_actions:
+- grasp
+- lift
+- lower
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.7
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

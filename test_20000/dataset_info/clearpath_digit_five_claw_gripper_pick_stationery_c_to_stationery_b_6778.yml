@@ -1,0 +1,27 @@
+dataset_name: pick_stationery_c_to_stationery_b_6778
+dataset_uuid: e143440c-2fe1-4050-b892-4022e0c5ccda
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_stationery_b
+scene_type:
+- restaurant
+atomic_actions:
+- rotate
+- pull
+- insert
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

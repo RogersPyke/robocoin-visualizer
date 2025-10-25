@@ -1,0 +1,27 @@
+dataset_name: stack_container_a_to_toy_a_6218
+dataset_uuid: 08b941b3-f145-4d05-ba6a-f163008f6f81
+task_descriptions:
+- stack_the_container_a_and_place_in_the_toy_a
+scene_type:
+- factory
+- hospital
+atomic_actions:
+- remove
+- flip
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 73.4
+device_model:
+- fetch_tiago
+end_effector_type: suction_cup

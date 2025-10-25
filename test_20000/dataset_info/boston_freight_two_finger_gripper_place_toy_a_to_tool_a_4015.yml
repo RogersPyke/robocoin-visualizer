@@ -1,0 +1,26 @@
+dataset_name: place_toy_a_to_tool_a_4015
+dataset_uuid: c86ea620-6886-4615-a18e-892f6c238473
+task_descriptions:
+- place_the_toy_a_and_place_in_the_tool_a
+scene_type:
+- cafe
+atomic_actions:
+- push
+- lift
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

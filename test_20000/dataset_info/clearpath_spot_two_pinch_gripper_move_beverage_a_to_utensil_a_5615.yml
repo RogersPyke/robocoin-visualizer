@@ -1,0 +1,28 @@
+dataset_name: move_beverage_a_to_utensil_a_5615
+dataset_uuid: 47c95b3d-70e2-4486-b9c9-7c123cb16689
+task_descriptions:
+- move_the_beverage_a_and_place_in_the_utensil_a
+scene_type:
+- cafe
+atomic_actions:
+- slide
+- pick
+- pull
+- grasp
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

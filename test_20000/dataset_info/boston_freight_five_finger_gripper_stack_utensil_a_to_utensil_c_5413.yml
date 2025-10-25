@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_a_to_utensil_c_5413
+dataset_uuid: 8181c2d3-ae30-4f47-a203-e2cf610dde23
+task_descriptions:
+- stack_the_utensil_a_and_place_in_the_utensil_c
+scene_type:
+- store
+- home
+atomic_actions:
+- pull
+- insert
+- remove
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.6
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

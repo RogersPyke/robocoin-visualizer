@@ -1,0 +1,28 @@
+dataset_name: pick_textile_a_to_tool_a_3698
+dataset_uuid: 922d8330-cd04-45dc-a81d-2829af24fd80
+task_descriptions:
+- pick_the_textile_a_and_place_in_the_tool_a
+scene_type:
+- restaurant
+atomic_actions:
+- rotate
+- pick
+- lower
+- flip
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.6
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_furniture_a_to_food_e_3203
+dataset_uuid: 66c0a976-2630-4369-937f-83bba1ed398a
+task_descriptions:
+- arrange_the_furniture_a_and_place_in_the_food_e
+scene_type:
+- factory
+- store
+atomic_actions:
+- insert
+- lower
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.1
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

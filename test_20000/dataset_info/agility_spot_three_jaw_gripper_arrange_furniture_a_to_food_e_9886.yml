@@ -1,0 +1,30 @@
+dataset_name: arrange_furniture_a_to_food_e_9886
+dataset_uuid: 3fd91677-a5bc-4fef-a279-2935cb486eca
+task_descriptions:
+- arrange_the_furniture_a_and_place_in_the_food_e
+scene_type:
+- store
+- restaurant
+- warehouse
+atomic_actions:
+- insert
+- pull
+- place
+- pick
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

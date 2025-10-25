@@ -1,0 +1,30 @@
+dataset_name: place_utensil_c_to_utensil_d_5576
+dataset_uuid: a2177c5f-e2b3-451f-a3c1-7052dbb76c39
+task_descriptions:
+- place_the_utensil_c_and_place_in_the_utensil_d
+scene_type:
+- factory
+- office
+- laboratory
+atomic_actions:
+- remove
+- push
+- pick
+- flip
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.9
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

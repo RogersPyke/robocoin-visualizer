@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_a_to_kitchenware_b_5512
+dataset_uuid: 7897c101-ab6c-49b0-9118-28302de0e11d
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_kitchenware_b
+scene_type:
+- office
+atomic_actions:
+- lower
+- slide
+- push
+- lift
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.7
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

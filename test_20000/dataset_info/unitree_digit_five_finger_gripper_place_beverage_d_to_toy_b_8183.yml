@@ -1,0 +1,26 @@
+dataset_name: place_beverage_d_to_toy_b_8183
+dataset_uuid: d3c1ee6f-c999-442a-8188-662542091e27
+task_descriptions:
+- place_the_beverage_d_and_place_in_the_toy_b
+scene_type:
+- store
+atomic_actions:
+- place
+- pick
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.4
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

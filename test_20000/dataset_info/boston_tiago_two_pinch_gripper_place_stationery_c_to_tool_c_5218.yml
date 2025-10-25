@@ -1,0 +1,28 @@
+dataset_name: place_stationery_c_to_tool_c_5218
+dataset_uuid: 31d8ab72-9cdc-4f97-aaa2-83eb7ae12b77
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_tool_c
+scene_type:
+- hospital
+- office
+atomic_actions:
+- lower
+- pull
+- push
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

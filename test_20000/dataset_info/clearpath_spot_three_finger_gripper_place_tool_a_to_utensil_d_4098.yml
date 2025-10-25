@@ -1,0 +1,29 @@
+dataset_name: place_tool_a_to_utensil_d_4098
+dataset_uuid: 8ec1cbeb-f186-40ca-a0fe-9fdb746366ae
+task_descriptions:
+- place_the_tool_a_and_place_in_the_utensil_d
+scene_type:
+- hospital
+- cafe
+atomic_actions:
+- rotate
+- remove
+- insert
+- grasp
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 82.8
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

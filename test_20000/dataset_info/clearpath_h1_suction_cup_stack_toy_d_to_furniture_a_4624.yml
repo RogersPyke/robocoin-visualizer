@@ -1,0 +1,29 @@
+dataset_name: stack_toy_d_to_furniture_a_4624
+dataset_uuid: 10c86d70-8e24-4f79-bc78-a103c4307bc9
+task_descriptions:
+- stack_the_toy_d_and_place_in_the_furniture_a
+scene_type:
+- store
+- restaurant
+- laboratory
+atomic_actions:
+- lower
+- place
+- pull
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- clearpath_h1
+end_effector_type: suction_cup

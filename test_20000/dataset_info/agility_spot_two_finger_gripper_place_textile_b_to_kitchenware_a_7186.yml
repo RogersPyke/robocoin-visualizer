@@ -1,0 +1,27 @@
+dataset_name: place_textile_b_to_kitchenware_a_7186
+dataset_uuid: 4bbbae73-77b9-45be-9405-a2ca1d6bd5b7
+task_descriptions:
+- place_the_textile_b_and_place_in_the_kitchenware_a
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- rotate
+- grasp
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.2
+device_model:
+- agility_spot
+end_effector_type: two_finger_gripper

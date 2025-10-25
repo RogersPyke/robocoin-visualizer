@@ -1,0 +1,27 @@
+dataset_name: move_beverage_d_to_container_b_3451
+dataset_uuid: b79891fe-e903-4be2-93ab-0eec4324802b
+task_descriptions:
+- move_the_beverage_d_and_place_in_the_container_b
+scene_type:
+- store
+- office
+atomic_actions:
+- flip
+- lift
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

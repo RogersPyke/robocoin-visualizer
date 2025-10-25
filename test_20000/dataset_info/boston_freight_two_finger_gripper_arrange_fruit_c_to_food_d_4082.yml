@@ -1,0 +1,27 @@
+dataset_name: arrange_fruit_c_to_food_d_4082
+dataset_uuid: 779ffde9-7b82-423f-ad27-b4b001553e85
+task_descriptions:
+- arrange_the_fruit_c_and_place_in_the_food_d
+scene_type:
+- hospital
+atomic_actions:
+- push
+- grasp
+- lower
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.0
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

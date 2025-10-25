@@ -1,0 +1,27 @@
+dataset_name: arrange_tool_b_to_tool_d_2277
+dataset_uuid: f592a8d6-cd45-4cf4-a04e-f084e91debb7
+task_descriptions:
+- arrange_the_tool_b_and_place_in_the_tool_d
+scene_type:
+- home
+- warehouse
+atomic_actions:
+- push
+- place
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- unitree_digit
+end_effector_type: two_claw_gripper

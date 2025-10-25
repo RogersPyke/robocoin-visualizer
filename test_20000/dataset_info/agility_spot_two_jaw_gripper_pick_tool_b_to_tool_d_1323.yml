@@ -1,0 +1,30 @@
+dataset_name: pick_tool_b_to_tool_d_1323
+dataset_uuid: 1c6fb046-6604-4686-8cc6-21b972d37acb
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_tool_d
+scene_type:
+- home
+- restaurant
+- office
+atomic_actions:
+- slide
+- grasp
+- pick
+- push
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

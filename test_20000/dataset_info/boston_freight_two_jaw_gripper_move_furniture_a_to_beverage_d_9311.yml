@@ -1,0 +1,28 @@
+dataset_name: move_furniture_a_to_beverage_d_9311
+dataset_uuid: 2bb1d442-b43d-4b77-b3e3-8568e50ff634
+task_descriptions:
+- move_the_furniture_a_and_place_in_the_beverage_d
+scene_type:
+- restaurant
+atomic_actions:
+- insert
+- slide
+- pick
+- pull
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

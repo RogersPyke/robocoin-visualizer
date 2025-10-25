@@ -1,0 +1,27 @@
+dataset_name: pick_food_d_to_stationery_c_3379
+dataset_uuid: 92edd62c-b733-4184-9d7b-f19d4d73da97
+task_descriptions:
+- pick_the_food_d_and_place_in_the_stationery_c
+scene_type:
+- store
+atomic_actions:
+- pull
+- place
+- lower
+objects:
+- object_name: food_d
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

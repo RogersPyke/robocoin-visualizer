@@ -1,0 +1,28 @@
+dataset_name: pick_container_b_to_tool_b_5024
+dataset_uuid: d58c2348-1446-477e-83ec-0d84f938808b
+task_descriptions:
+- pick_the_container_b_and_place_in_the_tool_b
+scene_type:
+- home
+atomic_actions:
+- rotate
+- grasp
+- lower
+- insert
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- clearpath_h1
+end_effector_type: two_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_container_c_to_beverage_e_6459
+dataset_uuid: 35459e06-0c07-4d5d-86bb-31b7a9d7ad9d
+task_descriptions:
+- pick_the_container_c_and_place_in_the_beverage_e
+scene_type:
+- cafe
+- hospital
+atomic_actions:
+- lower
+- place
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.2
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

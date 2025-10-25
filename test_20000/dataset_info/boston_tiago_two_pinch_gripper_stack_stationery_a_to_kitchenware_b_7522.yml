@@ -1,0 +1,28 @@
+dataset_name: stack_stationery_a_to_kitchenware_b_7522
+dataset_uuid: 4b927316-684c-430d-89f9-ff3e7004501d
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_kitchenware_b
+scene_type:
+- home
+- kitchen
+- store
+atomic_actions:
+- grasp
+- place
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_stationery_a_to_furniture_e_2508
+dataset_uuid: 60f030ef-74f5-4141-8773-13199c9fc3f5
+task_descriptions:
+- arrange_the_stationery_a_and_place_in_the_furniture_e
+scene_type:
+- store
+- restaurant
+atomic_actions:
+- flip
+- grasp
+- slide
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+operation_platform_height: 75.6
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

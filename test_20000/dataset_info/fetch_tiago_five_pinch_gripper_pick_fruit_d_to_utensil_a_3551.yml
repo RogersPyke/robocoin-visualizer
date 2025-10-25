@@ -1,0 +1,29 @@
+dataset_name: pick_fruit_d_to_utensil_a_3551
+dataset_uuid: 21013b15-72b9-4590-9be4-768117603062
+task_descriptions:
+- pick_the_fruit_d_and_place_in_the_utensil_a
+scene_type:
+- warehouse
+- restaurant
+- home
+atomic_actions:
+- remove
+- push
+- insert
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

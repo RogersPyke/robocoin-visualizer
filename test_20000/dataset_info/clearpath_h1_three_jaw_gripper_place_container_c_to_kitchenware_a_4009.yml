@@ -1,0 +1,27 @@
+dataset_name: place_container_c_to_kitchenware_a_4009
+dataset_uuid: 20caf17e-a005-4b04-a4b3-1df8c2076961
+task_descriptions:
+- place_the_container_c_and_place_in_the_kitchenware_a
+scene_type:
+- factory
+atomic_actions:
+- rotate
+- slide
+- place
+objects:
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.2
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

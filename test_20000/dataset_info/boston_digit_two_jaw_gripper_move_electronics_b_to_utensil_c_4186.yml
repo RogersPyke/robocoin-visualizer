@@ -1,0 +1,28 @@
+dataset_name: move_electronics_b_to_utensil_c_4186
+dataset_uuid: 92bc07e4-8eb4-4a3a-8ead-be40c9a5ec1c
+task_descriptions:
+- move_the_electronics_b_and_place_in_the_utensil_c
+scene_type:
+- home
+atomic_actions:
+- place
+- flip
+- grasp
+- slide
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_d_to_beverage_d_7889
+dataset_uuid: f84757e3-5ce3-49d7-9288-c3a328899d25
+task_descriptions:
+- pick_the_furniture_d_and_place_in_the_beverage_d
+scene_type:
+- laboratory
+- factory
+atomic_actions:
+- pick
+- push
+- flip
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_toy_a_to_textile_a_6088
+dataset_uuid: 21cc4949-ca0a-47e2-945a-2fc82d6ffdb6
+task_descriptions:
+- pick_the_toy_a_and_place_in_the_textile_a
+scene_type:
+- warehouse
+atomic_actions:
+- push
+- grasp
+- lower
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

@@ -1,0 +1,26 @@
+dataset_name: stack_furniture_e_to_beverage_d_9928
+dataset_uuid: 4091cea3-65d8-444e-99a4-c7cb1e62029d
+task_descriptions:
+- stack_the_furniture_e_and_place_in_the_beverage_d
+scene_type:
+- hospital
+atomic_actions:
+- pull
+- remove
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

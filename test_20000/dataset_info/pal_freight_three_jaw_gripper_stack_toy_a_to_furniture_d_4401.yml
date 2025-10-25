@@ -1,0 +1,30 @@
+dataset_name: stack_toy_a_to_furniture_d_4401
+dataset_uuid: 5bf22ea3-2e06-4170-b681-6a7421a921c3
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_furniture_d
+scene_type:
+- factory
+- laboratory
+- restaurant
+atomic_actions:
+- insert
+- place
+- grasp
+- slide
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

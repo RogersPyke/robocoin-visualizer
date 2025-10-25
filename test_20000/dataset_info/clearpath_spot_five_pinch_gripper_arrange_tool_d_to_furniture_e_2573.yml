@@ -1,0 +1,28 @@
+dataset_name: arrange_tool_d_to_furniture_e_2573
+dataset_uuid: 68b62ed7-c384-4885-9864-9812ccd37a9c
+task_descriptions:
+- arrange_the_tool_d_and_place_in_the_furniture_e
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- lift
+- lower
+- pick
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.7
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

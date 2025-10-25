@@ -1,0 +1,28 @@
+dataset_name: place_toy_b_to_toy_c_1527
+dataset_uuid: a4b3ea21-df4c-483f-9bf3-7c4fe182e50f
+task_descriptions:
+- place_the_toy_b_and_place_in_the_toy_c
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- place
+- pull
+- pick
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.8
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

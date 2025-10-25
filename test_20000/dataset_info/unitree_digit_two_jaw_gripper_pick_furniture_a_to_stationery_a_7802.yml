@@ -1,0 +1,30 @@
+dataset_name: pick_furniture_a_to_stationery_a_7802
+dataset_uuid: 639fb1e5-22fa-460f-b781-630b08c1a849
+task_descriptions:
+- pick_the_furniture_a_and_place_in_the_stationery_a
+scene_type:
+- office
+- warehouse
+- restaurant
+atomic_actions:
+- remove
+- pick
+- slide
+- place
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.0
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

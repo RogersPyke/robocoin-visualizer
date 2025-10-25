@@ -1,0 +1,27 @@
+dataset_name: place_container_c_to_stationery_b_2239
+dataset_uuid: 160b44b0-0339-483f-b8cd-64f21f064be4
+task_descriptions:
+- place_the_container_c_and_place_in_the_stationery_b
+scene_type:
+- laboratory
+atomic_actions:
+- lower
+- lift
+- rotate
+objects:
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 77.1
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

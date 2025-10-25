@@ -1,0 +1,29 @@
+dataset_name: stack_electronics_c_to_electronics_a_9899
+dataset_uuid: f878863b-2479-4c18-a04a-3ae2001bc555
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_electronics_a
+scene_type:
+- cafe
+- hospital
+atomic_actions:
+- lower
+- flip
+- remove
+- place
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

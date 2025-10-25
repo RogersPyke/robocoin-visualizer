@@ -1,0 +1,29 @@
+dataset_name: arrange_furniture_e_to_food_c_5240
+dataset_uuid: ae858f30-c299-46a5-9a00-c0751602603c
+task_descriptions:
+- arrange_the_furniture_e_and_place_in_the_food_c
+scene_type:
+- hospital
+- laboratory
+- kitchen
+atomic_actions:
+- pull
+- insert
+- lift
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.6
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_utensil_d_to_container_a_7807
+dataset_uuid: 0b47ee16-aa66-4956-b5b1-8cefe1910892
+task_descriptions:
+- place_the_utensil_d_and_place_in_the_container_a
+scene_type:
+- warehouse
+atomic_actions:
+- grasp
+- insert
+- pick
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

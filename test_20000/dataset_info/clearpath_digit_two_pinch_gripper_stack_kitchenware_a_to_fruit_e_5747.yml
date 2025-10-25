@@ -1,0 +1,26 @@
+dataset_name: stack_kitchenware_a_to_fruit_e_5747
+dataset_uuid: 600d3ad1-98c2-4023-9a16-01d47627e1d9
+task_descriptions:
+- stack_the_kitchenware_a_and_place_in_the_fruit_e
+scene_type:
+- hospital
+atomic_actions:
+- pick
+- place
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

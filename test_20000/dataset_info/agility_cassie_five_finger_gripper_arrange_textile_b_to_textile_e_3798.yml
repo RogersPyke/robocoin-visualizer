@@ -1,0 +1,26 @@
+dataset_name: arrange_textile_b_to_textile_e_3798
+dataset_uuid: e6895a4b-0a45-4811-b24a-bc6278d6727b
+task_descriptions:
+- arrange_the_textile_b_and_place_in_the_textile_e
+scene_type:
+- hospital
+atomic_actions:
+- remove
+- pick
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

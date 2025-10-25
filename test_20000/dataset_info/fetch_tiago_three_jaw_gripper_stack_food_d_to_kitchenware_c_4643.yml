@@ -1,0 +1,29 @@
+dataset_name: stack_food_d_to_kitchenware_c_4643
+dataset_uuid: 6fff9f1b-a4dd-40dd-b0e0-62475473f206
+task_descriptions:
+- stack_the_food_d_and_place_in_the_kitchenware_c
+scene_type:
+- cafe
+- store
+- kitchen
+atomic_actions:
+- pull
+- remove
+- slide
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

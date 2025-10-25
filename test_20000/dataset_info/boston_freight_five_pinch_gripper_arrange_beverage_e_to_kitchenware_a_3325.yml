@@ -1,0 +1,27 @@
+dataset_name: arrange_beverage_e_to_kitchenware_a_3325
+dataset_uuid: c58b9aae-1630-41e7-b03b-9d3c7731a1b1
+task_descriptions:
+- arrange_the_beverage_e_and_place_in_the_kitchenware_a
+scene_type:
+- home
+atomic_actions:
+- pick
+- pull
+- lift
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.0
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

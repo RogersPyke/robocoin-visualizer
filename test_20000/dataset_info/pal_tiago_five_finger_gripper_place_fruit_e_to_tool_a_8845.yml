@@ -1,0 +1,28 @@
+dataset_name: place_fruit_e_to_tool_a_8845
+dataset_uuid: ac909eb5-daeb-4f2e-86f7-13375e520f2b
+task_descriptions:
+- place_the_fruit_e_and_place_in_the_tool_a
+scene_type:
+- hospital
+- restaurant
+atomic_actions:
+- slide
+- push
+- insert
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.9
+device_model:
+- pal_tiago
+end_effector_type: five_finger_gripper

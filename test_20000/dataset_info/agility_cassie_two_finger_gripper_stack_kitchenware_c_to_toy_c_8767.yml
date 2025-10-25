@@ -1,0 +1,27 @@
+dataset_name: stack_kitchenware_c_to_toy_c_8767
+dataset_uuid: 36357769-1b6e-4dc1-bfa4-203ee898071b
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_toy_c
+scene_type:
+- store
+- hospital
+atomic_actions:
+- insert
+- slide
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.4
+device_model:
+- agility_cassie
+end_effector_type: two_finger_gripper

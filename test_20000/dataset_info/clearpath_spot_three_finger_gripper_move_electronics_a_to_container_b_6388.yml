@@ -1,0 +1,28 @@
+dataset_name: move_electronics_a_to_container_b_6388
+dataset_uuid: 8deceeb1-2938-4a59-ad7e-c9faab15658a
+task_descriptions:
+- move_the_electronics_a_and_place_in_the_container_b
+scene_type:
+- store
+- hospital
+atomic_actions:
+- insert
+- grasp
+- remove
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_furniture_b_to_furniture_e_5137
+dataset_uuid: 51f22b86-1674-4515-9011-403e4c8cd1db
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_furniture_e
+scene_type:
+- factory
+- hospital
+atomic_actions:
+- remove
+- lower
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.9
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

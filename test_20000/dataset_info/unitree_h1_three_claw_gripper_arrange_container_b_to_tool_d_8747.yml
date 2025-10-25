@@ -1,0 +1,28 @@
+dataset_name: arrange_container_b_to_tool_d_8747
+dataset_uuid: 632bde87-471e-4ee0-918c-85a67406c4f7
+task_descriptions:
+- arrange_the_container_b_and_place_in_the_tool_d
+scene_type:
+- factory
+atomic_actions:
+- place
+- rotate
+- slide
+- grasp
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- unitree_h1
+end_effector_type: three_claw_gripper

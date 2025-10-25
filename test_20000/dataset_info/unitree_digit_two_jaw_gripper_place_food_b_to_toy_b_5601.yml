@@ -1,0 +1,29 @@
+dataset_name: place_food_b_to_toy_b_5601
+dataset_uuid: 81b2685c-16ad-45f2-b4c4-da50a5e1ab19
+task_descriptions:
+- place_the_food_b_and_place_in_the_toy_b
+scene_type:
+- kitchen
+- laboratory
+atomic_actions:
+- lower
+- pick
+- remove
+- rotate
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+operation_platform_height: 86.0
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

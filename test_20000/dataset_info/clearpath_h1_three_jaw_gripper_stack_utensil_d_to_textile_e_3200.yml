@@ -1,0 +1,26 @@
+dataset_name: stack_utensil_d_to_textile_e_3200
+dataset_uuid: 20cdce37-d6e9-463c-9218-20394376327f
+task_descriptions:
+- stack_the_utensil_d_and_place_in_the_textile_e
+scene_type:
+- cafe
+atomic_actions:
+- place
+- insert
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.3
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

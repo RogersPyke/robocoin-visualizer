@@ -1,0 +1,29 @@
+dataset_name: stack_beverage_b_to_utensil_a_4919
+dataset_uuid: ffe01878-0732-44d9-a934-14f9a88d59a8
+task_descriptions:
+- stack_the_beverage_b_and_place_in_the_utensil_a
+scene_type:
+- kitchen
+- hospital
+atomic_actions:
+- lower
+- lift
+- rotate
+- insert
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

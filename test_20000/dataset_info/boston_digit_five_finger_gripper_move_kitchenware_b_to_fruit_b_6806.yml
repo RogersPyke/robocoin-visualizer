@@ -1,0 +1,29 @@
+dataset_name: move_kitchenware_b_to_fruit_b_6806
+dataset_uuid: 6ca43f60-3ee1-40ec-abe7-fe0ec7773467
+task_descriptions:
+- move_the_kitchenware_b_and_place_in_the_fruit_b
+scene_type:
+- restaurant
+- laboratory
+- warehouse
+atomic_actions:
+- lift
+- pull
+- grasp
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.2
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

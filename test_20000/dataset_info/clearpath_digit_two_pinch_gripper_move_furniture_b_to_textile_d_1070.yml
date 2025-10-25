@@ -1,0 +1,28 @@
+dataset_name: move_furniture_b_to_textile_d_1070
+dataset_uuid: 3460cc66-64e6-4266-b83e-ad07f9a3c5bd
+task_descriptions:
+- move_the_furniture_b_and_place_in_the_textile_d
+scene_type:
+- laboratory
+atomic_actions:
+- lift
+- remove
+- place
+- push
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

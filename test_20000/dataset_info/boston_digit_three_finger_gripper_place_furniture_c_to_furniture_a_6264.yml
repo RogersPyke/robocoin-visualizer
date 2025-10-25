@@ -1,0 +1,27 @@
+dataset_name: place_furniture_c_to_furniture_a_6264
+dataset_uuid: 9bc8d5e4-63cc-4b19-980c-4dbac4cd23ba
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_furniture_a
+scene_type:
+- office
+- restaurant
+atomic_actions:
+- push
+- pull
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.1
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

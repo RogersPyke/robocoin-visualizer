@@ -1,0 +1,27 @@
+dataset_name: pick_furniture_c_to_electronics_c_4726
+dataset_uuid: 086b01be-36fb-492e-839a-7a5f930a32f3
+task_descriptions:
+- pick_the_furniture_c_and_place_in_the_electronics_c
+scene_type:
+- cafe
+atomic_actions:
+- slide
+- remove
+- lower
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.0
+device_model:
+- pal_tiago
+end_effector_type: two_finger_gripper

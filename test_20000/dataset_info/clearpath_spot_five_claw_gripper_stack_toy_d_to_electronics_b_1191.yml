@@ -1,0 +1,28 @@
+dataset_name: stack_toy_d_to_electronics_b_1191
+dataset_uuid: 5f894958-1be8-4703-8c9f-d025d9a4e83c
+task_descriptions:
+- stack_the_toy_d_and_place_in_the_electronics_b
+scene_type:
+- restaurant
+atomic_actions:
+- pick
+- lift
+- grasp
+- push
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 75.4
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

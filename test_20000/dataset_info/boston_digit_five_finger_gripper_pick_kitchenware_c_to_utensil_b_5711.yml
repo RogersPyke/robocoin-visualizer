@@ -1,0 +1,29 @@
+dataset_name: pick_kitchenware_c_to_utensil_b_5711
+dataset_uuid: b49f643f-8980-4d47-8f3e-9362ac9af0b1
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_utensil_b
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- remove
+- pick
+- insert
+- slide
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

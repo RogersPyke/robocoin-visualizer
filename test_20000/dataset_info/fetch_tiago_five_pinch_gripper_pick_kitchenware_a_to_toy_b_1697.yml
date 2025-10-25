@@ -1,0 +1,29 @@
+dataset_name: pick_kitchenware_a_to_toy_b_1697
+dataset_uuid: 358a41b2-8c77-4abc-946e-6c3691be7876
+task_descriptions:
+- pick_the_kitchenware_a_and_place_in_the_toy_b
+scene_type:
+- factory
+- home
+- hospital
+atomic_actions:
+- grasp
+- insert
+- flip
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

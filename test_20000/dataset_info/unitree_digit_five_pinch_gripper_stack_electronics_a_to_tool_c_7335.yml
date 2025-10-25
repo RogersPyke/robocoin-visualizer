@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_a_to_tool_c_7335
+dataset_uuid: f44eebb7-5ea9-4a4c-ac62-b45ec244cd7c
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_tool_c
+scene_type:
+- kitchen
+atomic_actions:
+- flip
+- push
+- lift
+- slide
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+operation_platform_height: 70.7
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

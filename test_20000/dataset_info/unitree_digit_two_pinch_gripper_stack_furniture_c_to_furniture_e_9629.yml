@@ -1,0 +1,27 @@
+dataset_name: stack_furniture_c_to_furniture_e_9629
+dataset_uuid: f111cb0d-a446-49c2-9ccf-4039af2bf5e3
+task_descriptions:
+- stack_the_furniture_c_and_place_in_the_furniture_e
+scene_type:
+- store
+atomic_actions:
+- insert
+- flip
+- grasp
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.2
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

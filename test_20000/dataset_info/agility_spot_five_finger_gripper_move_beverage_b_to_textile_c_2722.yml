@@ -1,0 +1,27 @@
+dataset_name: move_beverage_b_to_textile_c_2722
+dataset_uuid: 6072a830-29eb-4a84-bf49-9c4648a78d81
+task_descriptions:
+- move_the_beverage_b_and_place_in_the_textile_c
+scene_type:
+- laboratory
+atomic_actions:
+- pull
+- insert
+- place
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.2
+device_model:
+- agility_spot
+end_effector_type: five_finger_gripper

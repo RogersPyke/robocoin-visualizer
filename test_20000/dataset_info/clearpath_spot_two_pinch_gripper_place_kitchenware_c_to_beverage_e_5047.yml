@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_c_to_beverage_e_5047
+dataset_uuid: 29a7eb35-18c7-435d-a324-5c9b623bfa01
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_beverage_e
+scene_type:
+- factory
+- laboratory
+atomic_actions:
+- lift
+- lower
+- pick
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

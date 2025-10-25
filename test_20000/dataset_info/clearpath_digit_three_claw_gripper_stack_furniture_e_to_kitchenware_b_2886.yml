@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_e_to_kitchenware_b_2886
+dataset_uuid: 71ec90cc-1060-41e8-ab3b-ba29d8994ae8
+task_descriptions:
+- stack_the_furniture_e_and_place_in_the_kitchenware_b
+scene_type:
+- store
+atomic_actions:
+- lower
+- remove
+- rotate
+- pick
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

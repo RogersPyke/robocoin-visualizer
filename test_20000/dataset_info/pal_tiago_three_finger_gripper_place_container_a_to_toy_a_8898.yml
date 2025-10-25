@@ -1,0 +1,28 @@
+dataset_name: place_container_a_to_toy_a_8898
+dataset_uuid: ff1e2c45-9e61-4508-8247-18948895a080
+task_descriptions:
+- place_the_container_a_and_place_in_the_toy_a
+scene_type:
+- store
+atomic_actions:
+- insert
+- grasp
+- lower
+- slide
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.8
+device_model:
+- pal_tiago
+end_effector_type: three_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_tool_a_to_toy_d_4064
+dataset_uuid: 496d665d-5853-4a4e-81d2-f9a109fb03fa
+task_descriptions:
+- arrange_the_tool_a_and_place_in_the_toy_d
+scene_type:
+- store
+- hospital
+- laboratory
+atomic_actions:
+- pick
+- lift
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

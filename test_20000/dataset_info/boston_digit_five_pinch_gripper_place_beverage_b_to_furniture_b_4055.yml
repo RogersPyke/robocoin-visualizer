@@ -1,0 +1,28 @@
+dataset_name: place_beverage_b_to_furniture_b_4055
+dataset_uuid: f81fbb17-a348-4737-85e3-fcb3cf067ac3
+task_descriptions:
+- place_the_beverage_b_and_place_in_the_furniture_b
+scene_type:
+- home
+- laboratory
+- kitchen
+atomic_actions:
+- flip
+- remove
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

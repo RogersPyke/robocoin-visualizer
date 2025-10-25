@@ -1,0 +1,30 @@
+dataset_name: place_fruit_d_to_food_c_2229
+dataset_uuid: d2d19d1d-ac86-44a1-8c82-1c55a21f46b4
+task_descriptions:
+- place_the_fruit_d_and_place_in_the_food_c
+scene_type:
+- warehouse
+- hospital
+- factory
+atomic_actions:
+- grasp
+- slide
+- pull
+- insert
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: food_c_sub2
+  level5: null
+operation_platform_height: 76.1
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

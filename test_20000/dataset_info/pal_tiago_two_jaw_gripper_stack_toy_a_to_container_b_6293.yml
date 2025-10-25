@@ -1,0 +1,26 @@
+dataset_name: stack_toy_a_to_container_b_6293
+dataset_uuid: 6ef18585-1883-41ec-975b-90b65564812e
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_container_b
+scene_type:
+- warehouse
+atomic_actions:
+- grasp
+- flip
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.6
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

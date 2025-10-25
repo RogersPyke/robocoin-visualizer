@@ -1,0 +1,29 @@
+dataset_name: arrange_beverage_a_to_furniture_b_7177
+dataset_uuid: 9b735e82-60af-4f67-992c-0133577fb3eb
+task_descriptions:
+- arrange_the_beverage_a_and_place_in_the_furniture_b
+scene_type:
+- store
+- restaurant
+atomic_actions:
+- lift
+- insert
+- flip
+- remove
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.6
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

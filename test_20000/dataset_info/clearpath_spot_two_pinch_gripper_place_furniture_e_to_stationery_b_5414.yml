@@ -1,0 +1,29 @@
+dataset_name: place_furniture_e_to_stationery_b_5414
+dataset_uuid: b761cbd4-8414-4412-8849-e34bbd14d2ed
+task_descriptions:
+- place_the_furniture_e_and_place_in_the_stationery_b
+scene_type:
+- office
+- restaurant
+atomic_actions:
+- pick
+- place
+- flip
+- pull
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 84.1
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

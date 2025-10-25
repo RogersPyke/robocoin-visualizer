@@ -1,0 +1,29 @@
+dataset_name: place_food_a_to_furniture_e_5099
+dataset_uuid: 72134aae-6093-4622-b348-1213b791916c
+task_descriptions:
+- place_the_food_a_and_place_in_the_furniture_e
+scene_type:
+- factory
+- restaurant
+- hospital
+atomic_actions:
+- lift
+- flip
+- insert
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+operation_platform_height: 82.8
+device_model:
+- fetch_tiago
+end_effector_type: suction_cup

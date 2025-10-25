@@ -1,0 +1,29 @@
+dataset_name: place_textile_c_to_furniture_c_1548
+dataset_uuid: dcec9c89-4bea-4731-a813-04f7989881cd
+task_descriptions:
+- place_the_textile_c_and_place_in_the_furniture_c
+scene_type:
+- restaurant
+- laboratory
+atomic_actions:
+- rotate
+- lift
+- place
+- grasp
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+operation_platform_height: 82.4
+device_model:
+- clearpath_h1
+end_effector_type: two_jaw_gripper

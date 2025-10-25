@@ -1,0 +1,30 @@
+dataset_name: stack_electronics_a_to_furniture_b_9001
+dataset_uuid: 77f0ffe3-75a2-49a7-938b-5e24a0341e26
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_furniture_b
+scene_type:
+- laboratory
+- store
+- cafe
+atomic_actions:
+- grasp
+- lower
+- slide
+- place
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.7
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

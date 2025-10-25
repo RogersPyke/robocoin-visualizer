@@ -1,0 +1,30 @@
+dataset_name: move_furniture_e_to_toy_c_6062
+dataset_uuid: b12bd3df-1efa-41b1-8eea-60e3b8a03ffc
+task_descriptions:
+- move_the_furniture_e_and_place_in_the_toy_c
+scene_type:
+- warehouse
+- office
+- restaurant
+atomic_actions:
+- place
+- lower
+- lift
+- flip
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 76.1
+device_model:
+- agility_spot
+end_effector_type: five_finger_gripper

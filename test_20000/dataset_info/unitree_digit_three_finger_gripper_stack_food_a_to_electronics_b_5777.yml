@@ -1,0 +1,28 @@
+dataset_name: stack_food_a_to_electronics_b_5777
+dataset_uuid: 311c7689-d13f-4b95-91b1-c9618a83c182
+task_descriptions:
+- stack_the_food_a_and_place_in_the_electronics_b
+scene_type:
+- hospital
+atomic_actions:
+- remove
+- insert
+- slide
+- lift
+objects:
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

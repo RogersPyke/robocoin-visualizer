@@ -1,0 +1,27 @@
+dataset_name: move_beverage_e_to_toy_c_7912
+dataset_uuid: 7b41b22d-edab-4b16-a1b6-1a4fe2d4099b
+task_descriptions:
+- move_the_beverage_e_and_place_in_the_toy_c
+scene_type:
+- factory
+atomic_actions:
+- pull
+- grasp
+- rotate
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

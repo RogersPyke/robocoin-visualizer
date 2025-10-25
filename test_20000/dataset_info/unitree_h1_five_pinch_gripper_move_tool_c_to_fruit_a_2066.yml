@@ -1,0 +1,27 @@
+dataset_name: move_tool_c_to_fruit_a_2066
+dataset_uuid: 54c25423-f97c-4239-a835-1580724f39db
+task_descriptions:
+- move_the_tool_c_and_place_in_the_fruit_a
+scene_type:
+- restaurant
+atomic_actions:
+- lower
+- rotate
+- insert
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_container_b_to_beverage_a_2031
+dataset_uuid: 4d8c168d-f9fa-4bd6-9d36-88cc786c6358
+task_descriptions:
+- place_the_container_b_and_place_in_the_beverage_a
+scene_type:
+- home
+- office
+atomic_actions:
+- push
+- place
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

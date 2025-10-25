@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_c_to_utensil_d_8964
+dataset_uuid: 803a2eba-5ec5-4c68-b9ba-33ba7d1c74fe
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_utensil_d
+scene_type:
+- factory
+atomic_actions:
+- push
+- pull
+- pick
+- place
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- pal_freight
+end_effector_type: two_finger_gripper

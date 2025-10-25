@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_a_to_beverage_d_7786
+dataset_uuid: 1e4e4fbf-c02f-44f4-81e2-647867ce74c0
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_beverage_d
+scene_type:
+- hospital
+- office
+- home
+atomic_actions:
+- pick
+- pull
+- slide
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

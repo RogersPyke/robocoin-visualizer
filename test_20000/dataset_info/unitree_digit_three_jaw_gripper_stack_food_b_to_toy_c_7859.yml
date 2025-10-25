@@ -1,0 +1,29 @@
+dataset_name: stack_food_b_to_toy_c_7859
+dataset_uuid: ffb75549-3f59-44b6-affd-fbd6681fca60
+task_descriptions:
+- stack_the_food_b_and_place_in_the_toy_c
+scene_type:
+- store
+- kitchen
+- factory
+atomic_actions:
+- rotate
+- insert
+- lift
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

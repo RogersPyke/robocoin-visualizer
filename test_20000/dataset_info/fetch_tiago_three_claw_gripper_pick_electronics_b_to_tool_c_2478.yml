@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_b_to_tool_c_2478
+dataset_uuid: 53ebf93c-cdfc-41f1-b40e-bf123ba28518
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_tool_c
+scene_type:
+- factory
+atomic_actions:
+- flip
+- rotate
+- remove
+- push
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

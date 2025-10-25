@@ -1,0 +1,27 @@
+dataset_name: stack_beverage_c_to_fruit_d_5871
+dataset_uuid: df5c9df6-f2c6-4568-af22-5480901a5cbc
+task_descriptions:
+- stack_the_beverage_c_and_place_in_the_fruit_d
+scene_type:
+- office
+- warehouse
+atomic_actions:
+- pick
+- insert
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- pal_freight
+end_effector_type: five_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_c_to_utensil_a_7405
+dataset_uuid: 82b09689-6dc8-4623-9563-aaf9106552c4
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_utensil_a
+scene_type:
+- hospital
+- office
+atomic_actions:
+- insert
+- remove
+- grasp
+- place
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

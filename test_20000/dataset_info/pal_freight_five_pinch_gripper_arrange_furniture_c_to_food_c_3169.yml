@@ -1,0 +1,29 @@
+dataset_name: arrange_furniture_c_to_food_c_3169
+dataset_uuid: ac69eae6-7475-46a5-8f81-ea7a305046cd
+task_descriptions:
+- arrange_the_furniture_c_and_place_in_the_food_c
+scene_type:
+- factory
+- restaurant
+- hospital
+atomic_actions:
+- pull
+- rotate
+- slide
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

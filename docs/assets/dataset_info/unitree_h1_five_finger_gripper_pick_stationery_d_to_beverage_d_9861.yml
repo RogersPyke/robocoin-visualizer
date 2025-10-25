@@ -1,0 +1,27 @@
+dataset_name: pick_stationery_d_to_beverage_d_9861
+dataset_uuid: 57451049-1d37-417c-a151-dad9873e703e
+task_descriptions:
+- pick_the_stationery_d_and_place_in_the_beverage_d
+scene_type:
+- home
+atomic_actions:
+- pull
+- lower
+- place
+objects:
+- object_name: stationery_d
+  level1: stationery
+  level2: stationery_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.2
+device_model:
+- unitree_h1
+end_effector_type: five_finger_gripper

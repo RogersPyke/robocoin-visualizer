@@ -1,0 +1,29 @@
+dataset_name: place_furniture_d_to_fruit_a_8192
+dataset_uuid: 06208adc-709c-4525-9452-b385289eeec3
+task_descriptions:
+- place_the_furniture_d_and_place_in_the_fruit_a
+scene_type:
+- factory
+- restaurant
+atomic_actions:
+- push
+- slide
+- place
+- remove
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

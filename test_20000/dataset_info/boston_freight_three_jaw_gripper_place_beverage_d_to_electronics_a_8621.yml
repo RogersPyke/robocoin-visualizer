@@ -1,0 +1,28 @@
+dataset_name: place_beverage_d_to_electronics_a_8621
+dataset_uuid: fe00cfbb-018c-4bec-93a6-faafacfa1bfe
+task_descriptions:
+- place_the_beverage_d_and_place_in_the_electronics_a
+scene_type:
+- factory
+- hospital
+- restaurant
+atomic_actions:
+- remove
+- lift
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.9
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

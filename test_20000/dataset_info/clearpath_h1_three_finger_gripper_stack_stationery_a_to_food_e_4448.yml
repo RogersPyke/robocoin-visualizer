@@ -1,0 +1,27 @@
+dataset_name: stack_stationery_a_to_food_e_4448
+dataset_uuid: 54771169-af65-40df-852e-2edb8f563050
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_food_e
+scene_type:
+- home
+atomic_actions:
+- lift
+- lower
+- pull
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.1
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

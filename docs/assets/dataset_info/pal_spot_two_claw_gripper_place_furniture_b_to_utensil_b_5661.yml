@@ -1,0 +1,28 @@
+dataset_name: place_furniture_b_to_utensil_b_5661
+dataset_uuid: 09aff138-626f-4dcd-b195-1e9bccb8604e
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_utensil_b
+scene_type:
+- factory
+- laboratory
+- restaurant
+atomic_actions:
+- slide
+- place
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 75.8
+device_model:
+- pal_spot
+end_effector_type: two_claw_gripper

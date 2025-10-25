@@ -1,0 +1,27 @@
+dataset_name: pick_container_a_to_textile_a_6963
+dataset_uuid: 96d78017-5a8f-4330-90b7-227e3a2e4cc8
+task_descriptions:
+- pick_the_container_a_and_place_in_the_textile_a
+scene_type:
+- laboratory
+- home
+atomic_actions:
+- insert
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- boston_tiago
+end_effector_type: two_claw_gripper

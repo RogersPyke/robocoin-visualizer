@@ -1,0 +1,26 @@
+dataset_name: move_food_c_to_beverage_a_2593
+dataset_uuid: 80c2a59d-f1fe-4096-a679-6936afe73ee1
+task_descriptions:
+- move_the_food_c_and_place_in_the_beverage_a
+scene_type:
+- home
+atomic_actions:
+- place
+- slide
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+operation_platform_height: 72.2
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

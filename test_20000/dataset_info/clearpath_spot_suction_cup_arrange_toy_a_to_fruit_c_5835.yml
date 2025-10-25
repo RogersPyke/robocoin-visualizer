@@ -1,0 +1,27 @@
+dataset_name: arrange_toy_a_to_fruit_c_5835
+dataset_uuid: cbef861f-9431-4d70-9771-03d0a6703218
+task_descriptions:
+- arrange_the_toy_a_and_place_in_the_fruit_c
+scene_type:
+- office
+- laboratory
+atomic_actions:
+- flip
+- push
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- clearpath_spot
+end_effector_type: suction_cup

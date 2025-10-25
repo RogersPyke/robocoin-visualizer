@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_d_to_toy_a_9372
+dataset_uuid: 2e3baf3c-d116-450b-99b8-a6027a2e7f7c
+task_descriptions:
+- stack_the_electronics_d_and_place_in_the_toy_a
+scene_type:
+- laboratory
+atomic_actions:
+- grasp
+- rotate
+- pull
+- slide
+objects:
+- object_name: electronics_d
+  level1: electronics
+  level2: electronics_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.8
+device_model:
+- clearpath_cassie
+end_effector_type: suction_cup

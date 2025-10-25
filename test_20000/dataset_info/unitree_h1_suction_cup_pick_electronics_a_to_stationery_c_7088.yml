@@ -1,0 +1,30 @@
+dataset_name: pick_electronics_a_to_stationery_c_7088
+dataset_uuid: 40c2de11-4f79-446c-be98-7feb694b929a
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_stationery_c
+scene_type:
+- warehouse
+- hospital
+- home
+atomic_actions:
+- place
+- insert
+- grasp
+- pull
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- unitree_h1
+end_effector_type: suction_cup

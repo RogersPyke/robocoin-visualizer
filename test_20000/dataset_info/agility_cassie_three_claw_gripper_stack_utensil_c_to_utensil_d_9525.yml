@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_c_to_utensil_d_9525
+dataset_uuid: e9113566-1ac1-4363-91e7-b07cb5bd36c7
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_utensil_d
+scene_type:
+- hospital
+atomic_actions:
+- lift
+- flip
+- pull
+- push
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.3
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_electronics_c_to_container_b_4354
+dataset_uuid: f3339df4-b134-4c77-a87f-042c79bd89c4
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_container_b
+scene_type:
+- home
+- cafe
+- warehouse
+atomic_actions:
+- remove
+- rotate
+- insert
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.4
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

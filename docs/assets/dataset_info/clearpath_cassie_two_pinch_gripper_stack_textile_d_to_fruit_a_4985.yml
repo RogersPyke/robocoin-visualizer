@@ -1,0 +1,27 @@
+dataset_name: stack_textile_d_to_fruit_a_4985
+dataset_uuid: fdccd508-2f73-4c2c-98bc-708f6a3ae872
+task_descriptions:
+- stack_the_textile_d_and_place_in_the_fruit_a
+scene_type:
+- office
+atomic_actions:
+- lift
+- slide
+- push
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- clearpath_cassie
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_food_a_to_toy_c_1549
+dataset_uuid: b04b1749-3fbc-4b4b-99be-a39c76e12524
+task_descriptions:
+- arrange_the_food_a_and_place_in_the_toy_c
+scene_type:
+- home
+- cafe
+atomic_actions:
+- insert
+- lift
+objects:
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.2
+device_model:
+- unitree_h1
+end_effector_type: five_jaw_gripper

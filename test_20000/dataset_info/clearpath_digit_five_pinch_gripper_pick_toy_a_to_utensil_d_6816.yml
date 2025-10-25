@@ -1,0 +1,28 @@
+dataset_name: pick_toy_a_to_utensil_d_6816
+dataset_uuid: 4fe1ddd1-3e90-4757-9a98-80e760239964
+task_descriptions:
+- pick_the_toy_a_and_place_in_the_utensil_d
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- pull
+- lower
+- slide
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.5
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

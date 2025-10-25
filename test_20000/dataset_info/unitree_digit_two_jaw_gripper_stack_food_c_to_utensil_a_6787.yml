@@ -1,0 +1,26 @@
+dataset_name: stack_food_c_to_utensil_a_6787
+dataset_uuid: d9a1925a-dd4f-44f5-9ce1-d9c95feec10b
+task_descriptions:
+- stack_the_food_c_and_place_in_the_utensil_a
+scene_type:
+- hospital
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: food_c
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 72.0
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

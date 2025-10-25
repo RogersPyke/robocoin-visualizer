@@ -1,0 +1,30 @@
+dataset_name: arrange_toy_d_to_kitchenware_c_5832
+dataset_uuid: 579387f3-02d2-4fa4-b2a6-394d0948f444
+task_descriptions:
+- arrange_the_toy_d_and_place_in_the_kitchenware_c
+scene_type:
+- kitchen
+- home
+- warehouse
+atomic_actions:
+- slide
+- pull
+- lift
+- rotate
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

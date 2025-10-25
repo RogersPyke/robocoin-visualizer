@@ -1,0 +1,29 @@
+dataset_name: arrange_container_b_to_textile_c_5653
+dataset_uuid: 3cc0be82-67fe-4605-a972-477a46bc536c
+task_descriptions:
+- arrange_the_container_b_and_place_in_the_textile_c
+scene_type:
+- kitchen
+- laboratory
+atomic_actions:
+- place
+- flip
+- insert
+- lift
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

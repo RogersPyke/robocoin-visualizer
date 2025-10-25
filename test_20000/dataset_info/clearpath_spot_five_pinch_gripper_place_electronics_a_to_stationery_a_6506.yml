@@ -1,0 +1,29 @@
+dataset_name: place_electronics_a_to_stationery_a_6506
+dataset_uuid: 74c39ea3-aa4a-4a52-ac28-865f8a4ef79f
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_stationery_a
+scene_type:
+- office
+- kitchen
+- factory
+atomic_actions:
+- insert
+- push
+- place
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.1
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

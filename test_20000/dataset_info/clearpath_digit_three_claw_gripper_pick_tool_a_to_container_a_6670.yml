@@ -1,0 +1,29 @@
+dataset_name: pick_tool_a_to_container_a_6670
+dataset_uuid: f611df36-0736-493f-b4e3-82cc891e96de
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_container_a
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- rotate
+- lower
+- pick
+- grasp
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

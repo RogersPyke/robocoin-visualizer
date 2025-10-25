@@ -1,0 +1,26 @@
+dataset_name: stack_tool_d_to_container_c_7985
+dataset_uuid: cd7e11fd-1e81-4276-915b-91a73b94c5f0
+task_descriptions:
+- stack_the_tool_d_and_place_in_the_container_c
+scene_type:
+- hospital
+atomic_actions:
+- lower
+- push
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

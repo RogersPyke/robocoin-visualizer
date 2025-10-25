@@ -1,0 +1,27 @@
+dataset_name: place_tool_a_to_tool_b_9722
+dataset_uuid: 95550474-a20e-477c-a533-02a91aeb97e0
+task_descriptions:
+- place_the_tool_a_and_place_in_the_tool_b
+scene_type:
+- restaurant
+- warehouse
+atomic_actions:
+- lower
+- lift
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- unitree_cassie
+end_effector_type: suction_cup

@@ -1,0 +1,29 @@
+dataset_name: arrange_stationery_c_to_kitchenware_b_3962
+dataset_uuid: 1610da27-8fd3-473e-acb0-f3b0e64d8d56
+task_descriptions:
+- arrange_the_stationery_c_and_place_in_the_kitchenware_b
+scene_type:
+- office
+- hospital
+- home
+atomic_actions:
+- place
+- remove
+- slide
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.2
+device_model:
+- unitree_digit
+end_effector_type: two_claw_gripper

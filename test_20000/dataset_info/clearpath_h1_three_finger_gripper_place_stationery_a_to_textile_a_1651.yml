@@ -1,0 +1,28 @@
+dataset_name: place_stationery_a_to_textile_a_1651
+dataset_uuid: 0507e68b-2239-4923-9716-93f821a1766c
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_textile_a
+scene_type:
+- cafe
+atomic_actions:
+- pick
+- pull
+- rotate
+- flip
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

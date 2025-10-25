@@ -1,0 +1,29 @@
+dataset_name: move_beverage_a_to_beverage_a_7179
+dataset_uuid: 0a62ae3d-a964-4f20-91c2-179d7f96ec70
+task_descriptions:
+- move_the_beverage_a_and_place_in_the_beverage_a
+scene_type:
+- office
+- laboratory
+- restaurant
+atomic_actions:
+- slide
+- pull
+- flip
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- boston_h1
+end_effector_type: three_pinch_gripper

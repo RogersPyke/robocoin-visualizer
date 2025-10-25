@@ -1,0 +1,28 @@
+dataset_name: place_toy_b_to_textile_d_1985
+dataset_uuid: c438b6b5-2a9d-4931-8662-7eef4b97bd78
+task_descriptions:
+- place_the_toy_b_and_place_in_the_textile_d
+scene_type:
+- kitchen
+- factory
+- store
+atomic_actions:
+- pick
+- flip
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

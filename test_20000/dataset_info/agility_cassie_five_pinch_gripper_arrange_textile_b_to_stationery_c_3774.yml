@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_b_to_stationery_c_3774
+dataset_uuid: edacdd02-0446-453b-81e5-bebbd03b41a8
+task_descriptions:
+- arrange_the_textile_b_and_place_in_the_stationery_c
+scene_type:
+- store
+- kitchen
+atomic_actions:
+- insert
+- lift
+- pull
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.1
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

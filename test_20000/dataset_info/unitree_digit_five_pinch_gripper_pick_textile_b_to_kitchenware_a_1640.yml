@@ -1,0 +1,28 @@
+dataset_name: pick_textile_b_to_kitchenware_a_1640
+dataset_uuid: 560106ce-cc07-4555-ba5f-69a746022d52
+task_descriptions:
+- pick_the_textile_b_and_place_in_the_kitchenware_a
+scene_type:
+- office
+- restaurant
+atomic_actions:
+- rotate
+- insert
+- grasp
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.6
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_tool_b_to_textile_a_3093
+dataset_uuid: 8d05aee9-83c6-4c59-bafd-ce49f7ae2b56
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_textile_a
+scene_type:
+- home
+atomic_actions:
+- push
+- pull
+- pick
+- rotate
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 74.9
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

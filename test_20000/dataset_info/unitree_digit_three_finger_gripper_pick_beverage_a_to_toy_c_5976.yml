@@ -1,0 +1,29 @@
+dataset_name: pick_beverage_a_to_toy_c_5976
+dataset_uuid: 6b69e39c-d34d-4125-a16e-e793da76c322
+task_descriptions:
+- pick_the_beverage_a_and_place_in_the_toy_c
+scene_type:
+- kitchen
+- office
+- restaurant
+atomic_actions:
+- rotate
+- pick
+- grasp
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

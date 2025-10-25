@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_b_to_textile_a_2954
+dataset_uuid: c51d23fc-6072-46a7-ae6a-82d6d0f82556
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_textile_a
+scene_type:
+- home
+- kitchen
+- factory
+atomic_actions:
+- rotate
+- pull
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

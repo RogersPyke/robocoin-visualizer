@@ -1,0 +1,28 @@
+dataset_name: pick_tool_d_to_stationery_c_9308
+dataset_uuid: 0578d919-79b3-44fb-a73b-84278ae7afaa
+task_descriptions:
+- pick_the_tool_d_and_place_in_the_stationery_c
+scene_type:
+- home
+- kitchen
+atomic_actions:
+- rotate
+- slide
+- flip
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.0
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

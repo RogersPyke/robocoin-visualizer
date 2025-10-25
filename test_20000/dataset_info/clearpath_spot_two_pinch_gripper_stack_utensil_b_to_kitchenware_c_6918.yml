@@ -1,0 +1,27 @@
+dataset_name: stack_utensil_b_to_kitchenware_c_6918
+dataset_uuid: 6ed29b83-0284-4bd0-a7f1-0c96dac9edad
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_kitchenware_c
+scene_type:
+- kitchen
+atomic_actions:
+- lift
+- flip
+- pick
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.8
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

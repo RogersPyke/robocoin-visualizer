@@ -1,0 +1,26 @@
+dataset_name: stack_furniture_c_to_container_d_9960
+dataset_uuid: 7f47c142-0848-4dc4-bec5-3b1d5609bcaa
+task_descriptions:
+- stack_the_furniture_c_and_place_in_the_container_d
+scene_type:
+- restaurant
+atomic_actions:
+- lower
+- pull
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+- object_name: container_d
+  level1: container
+  level2: container_d
+  level3: container_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.6
+device_model:
+- agility_digit
+end_effector_type: two_claw_gripper

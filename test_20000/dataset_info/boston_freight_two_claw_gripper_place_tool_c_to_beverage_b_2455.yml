@@ -1,0 +1,27 @@
+dataset_name: place_tool_c_to_beverage_b_2455
+dataset_uuid: 421e5d2b-1fa2-4da6-9881-c16ac80132c2
+task_descriptions:
+- place_the_tool_c_and_place_in_the_beverage_b
+scene_type:
+- store
+atomic_actions:
+- flip
+- pull
+- rotate
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- boston_freight
+end_effector_type: two_claw_gripper

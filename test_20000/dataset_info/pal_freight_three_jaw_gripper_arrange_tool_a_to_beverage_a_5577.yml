@@ -1,0 +1,26 @@
+dataset_name: arrange_tool_a_to_beverage_a_5577
+dataset_uuid: 3ed53848-b8c4-4bd3-897a-c232fbf42f32
+task_descriptions:
+- arrange_the_tool_a_and_place_in_the_beverage_a
+scene_type:
+- restaurant
+atomic_actions:
+- insert
+- pull
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.1
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

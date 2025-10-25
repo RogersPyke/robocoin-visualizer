@@ -1,0 +1,30 @@
+dataset_name: stack_electronics_a_to_beverage_a_2382
+dataset_uuid: c0de6740-861b-4700-a959-e6bf9ddc5e07
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_beverage_a
+scene_type:
+- office
+- home
+- kitchen
+atomic_actions:
+- rotate
+- grasp
+- pull
+- slide
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

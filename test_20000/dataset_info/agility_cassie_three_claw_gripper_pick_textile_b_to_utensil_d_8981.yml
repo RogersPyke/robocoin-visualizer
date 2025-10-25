@@ -1,0 +1,29 @@
+dataset_name: pick_textile_b_to_utensil_d_8981
+dataset_uuid: ae9d0c3c-eb88-4ff0-be77-821bd0877263
+task_descriptions:
+- pick_the_textile_b_and_place_in_the_utensil_d
+scene_type:
+- factory
+- restaurant
+atomic_actions:
+- rotate
+- remove
+- flip
+- slide
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

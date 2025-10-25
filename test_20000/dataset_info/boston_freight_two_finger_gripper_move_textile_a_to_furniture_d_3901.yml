@@ -1,0 +1,27 @@
+dataset_name: move_textile_a_to_furniture_d_3901
+dataset_uuid: 4013f06d-f640-418b-84e7-9509367a96a1
+task_descriptions:
+- move_the_textile_a_and_place_in_the_furniture_d
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.4
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

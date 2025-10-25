@@ -1,0 +1,30 @@
+dataset_name: pick_fruit_e_to_electronics_b_5736
+dataset_uuid: 588d5406-ef09-4b31-9c0b-aa548d251d7b
+task_descriptions:
+- pick_the_fruit_e_and_place_in_the_electronics_b
+scene_type:
+- home
+- restaurant
+- laboratory
+atomic_actions:
+- grasp
+- remove
+- slide
+- flip
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.4
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

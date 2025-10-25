@@ -1,0 +1,30 @@
+dataset_name: place_fruit_a_to_furniture_c_7511
+dataset_uuid: 7cda7a64-d468-4c70-8673-f8e0594ed76b
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_furniture_c
+scene_type:
+- office
+- laboratory
+- home
+atomic_actions:
+- grasp
+- lower
+- pick
+- flip
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.9
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

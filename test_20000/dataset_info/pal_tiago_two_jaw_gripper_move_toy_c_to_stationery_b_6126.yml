@@ -1,0 +1,26 @@
+dataset_name: move_toy_c_to_stationery_b_6126
+dataset_uuid: 565fa299-2fe5-4027-be79-a2fc8fbb8a72
+task_descriptions:
+- move_the_toy_c_and_place_in_the_stationery_b
+scene_type:
+- restaurant
+atomic_actions:
+- push
+- flip
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

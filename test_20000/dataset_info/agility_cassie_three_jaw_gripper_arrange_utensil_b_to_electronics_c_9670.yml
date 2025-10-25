@@ -1,0 +1,28 @@
+dataset_name: arrange_utensil_b_to_electronics_c_9670
+dataset_uuid: ebc41b6a-7385-46d2-9c47-bc2832584211
+task_descriptions:
+- arrange_the_utensil_b_and_place_in_the_electronics_c
+scene_type:
+- kitchen
+- cafe
+- factory
+atomic_actions:
+- pick
+- grasp
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.5
+device_model:
+- agility_cassie
+end_effector_type: three_jaw_gripper

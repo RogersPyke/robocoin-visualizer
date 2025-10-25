@@ -1,0 +1,26 @@
+dataset_name: arrange_utensil_b_to_kitchenware_c_6278
+dataset_uuid: 324d507c-6f9e-4cb0-88c3-2342362b25e0
+task_descriptions:
+- arrange_the_utensil_b_and_place_in_the_kitchenware_c
+scene_type:
+- office
+atomic_actions:
+- slide
+- grasp
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+operation_platform_height: 73.8
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

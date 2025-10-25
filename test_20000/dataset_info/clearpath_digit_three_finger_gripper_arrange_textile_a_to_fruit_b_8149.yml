@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_a_to_fruit_b_8149
+dataset_uuid: d8cee886-43bb-4ea0-b717-440ec2704c09
+task_descriptions:
+- arrange_the_textile_a_and_place_in_the_fruit_b
+scene_type:
+- laboratory
+atomic_actions:
+- rotate
+- push
+- pick
+- insert
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.7
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

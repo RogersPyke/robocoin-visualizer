@@ -1,0 +1,29 @@
+dataset_name: move_beverage_d_to_stationery_c_4630
+dataset_uuid: 3edea2e3-7d88-4d5e-a64e-57e97370bd1f
+task_descriptions:
+- move_the_beverage_d_and_place_in_the_stationery_c
+scene_type:
+- restaurant
+- laboratory
+- kitchen
+atomic_actions:
+- pull
+- remove
+- lift
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.6
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

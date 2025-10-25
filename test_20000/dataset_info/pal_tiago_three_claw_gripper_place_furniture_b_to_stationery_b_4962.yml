@@ -1,0 +1,30 @@
+dataset_name: place_furniture_b_to_stationery_b_4962
+dataset_uuid: 9805f69e-f0b3-4aff-b6b4-a6d5d187234a
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_stationery_b
+scene_type:
+- hospital
+- home
+- office
+atomic_actions:
+- remove
+- lift
+- push
+- flip
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.5
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

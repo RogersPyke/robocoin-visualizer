@@ -1,0 +1,29 @@
+dataset_name: place_furniture_b_to_textile_e_2605
+dataset_uuid: 1cf7ae6e-c506-4024-9773-f5f208d3695c
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_textile_e
+scene_type:
+- restaurant
+- home
+- warehouse
+atomic_actions:
+- slide
+- flip
+- pick
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.0
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_fruit_a_to_furniture_b_4818
+dataset_uuid: 7bc236e1-0c2c-494c-b25c-be1b0a08ba3b
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_furniture_b
+scene_type:
+- home
+atomic_actions:
+- remove
+- insert
+- push
+- place
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.4
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

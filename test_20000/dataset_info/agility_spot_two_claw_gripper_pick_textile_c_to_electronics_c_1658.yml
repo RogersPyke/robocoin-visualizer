@@ -1,0 +1,27 @@
+dataset_name: pick_textile_c_to_electronics_c_1658
+dataset_uuid: c9b4113f-6fc1-41ce-b9cb-04126256c76e
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_electronics_c
+scene_type:
+- laboratory
+- home
+atomic_actions:
+- rotate
+- insert
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.6
+device_model:
+- agility_spot
+end_effector_type: two_claw_gripper

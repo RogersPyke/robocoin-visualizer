@@ -1,0 +1,29 @@
+dataset_name: move_kitchenware_b_to_container_b_8166
+dataset_uuid: 3d619bdf-c4e2-4837-a154-4cd5065f1298
+task_descriptions:
+- move_the_kitchenware_b_and_place_in_the_container_b
+scene_type:
+- office
+- kitchen
+- restaurant
+atomic_actions:
+- grasp
+- pick
+- remove
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- clearpath_spot
+end_effector_type: two_claw_gripper

@@ -1,0 +1,26 @@
+dataset_name: move_kitchenware_a_to_container_a_1322
+dataset_uuid: 5ed91af0-139a-41a9-b9ff-d4aed3964f7e
+task_descriptions:
+- move_the_kitchenware_a_and_place_in_the_container_a
+scene_type:
+- factory
+atomic_actions:
+- lift
+- pick
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

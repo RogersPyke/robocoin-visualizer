@@ -1,0 +1,26 @@
+dataset_name: pick_toy_c_to_furniture_a_8673
+dataset_uuid: a3e819ae-4cda-4568-9d9f-d698b1da7963
+task_descriptions:
+- pick_the_toy_c_and_place_in_the_furniture_a
+scene_type:
+- hospital
+atomic_actions:
+- pull
+- pick
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- boston_freight
+end_effector_type: suction_cup

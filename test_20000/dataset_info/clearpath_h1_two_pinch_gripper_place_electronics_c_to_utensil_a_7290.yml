@@ -1,0 +1,28 @@
+dataset_name: place_electronics_c_to_utensil_a_7290
+dataset_uuid: 30cdf75d-abb8-46dd-af04-102c8e5e12e3
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_utensil_a
+scene_type:
+- office
+- home
+- warehouse
+atomic_actions:
+- remove
+- place
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

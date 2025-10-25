@@ -1,0 +1,29 @@
+dataset_name: stack_electronics_c_to_food_c_9735
+dataset_uuid: 4207f54b-3d3d-427d-90fe-eda8003fd09f
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_food_c
+scene_type:
+- hospital
+- laboratory
+atomic_actions:
+- lift
+- pick
+- flip
+- pull
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: food_c_sub2
+  level5: null
+operation_platform_height: 85.2
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

@@ -1,0 +1,26 @@
+dataset_name: pick_furniture_e_to_fruit_d_7440
+dataset_uuid: 351ba41f-f66b-455d-ac12-4bfb931ec41d
+task_descriptions:
+- pick_the_furniture_e_and_place_in_the_fruit_d
+scene_type:
+- warehouse
+atomic_actions:
+- grasp
+- push
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.7
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

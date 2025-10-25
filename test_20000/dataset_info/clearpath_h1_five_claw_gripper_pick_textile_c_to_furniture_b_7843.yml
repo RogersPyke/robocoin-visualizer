@@ -1,0 +1,28 @@
+dataset_name: pick_textile_c_to_furniture_b_7843
+dataset_uuid: 67d8ba84-8e07-453e-b3ca-2caf6812fda3
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_furniture_b
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- insert
+- lower
+- grasp
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

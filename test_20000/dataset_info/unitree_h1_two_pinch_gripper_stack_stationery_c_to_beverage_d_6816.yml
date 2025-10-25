@@ -1,0 +1,26 @@
+dataset_name: stack_stationery_c_to_beverage_d_6816
+dataset_uuid: c2e05b2a-2389-4a21-8038-f054a32efbd1
+task_descriptions:
+- stack_the_stationery_c_and_place_in_the_beverage_d
+scene_type:
+- home
+atomic_actions:
+- slide
+- pull
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.1
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

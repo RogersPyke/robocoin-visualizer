@@ -1,0 +1,27 @@
+dataset_name: pick_toy_d_to_furniture_d_9635
+dataset_uuid: 9578b3c8-0443-4b91-a22b-d05690788962
+task_descriptions:
+- pick_the_toy_d_and_place_in_the_furniture_d
+scene_type:
+- office
+atomic_actions:
+- flip
+- grasp
+- remove
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.4
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

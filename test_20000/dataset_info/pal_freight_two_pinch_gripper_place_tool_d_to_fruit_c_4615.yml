@@ -1,0 +1,29 @@
+dataset_name: place_tool_d_to_fruit_c_4615
+dataset_uuid: 51732958-b7c0-431e-aacb-74d2b2bc9705
+task_descriptions:
+- place_the_tool_d_and_place_in_the_fruit_c
+scene_type:
+- hospital
+- cafe
+- factory
+atomic_actions:
+- flip
+- pull
+- push
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+operation_platform_height: 80.1
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

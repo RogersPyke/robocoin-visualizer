@@ -1,0 +1,29 @@
+dataset_name: arrange_fruit_b_to_utensil_a_6939
+dataset_uuid: a5d36a4d-9226-4169-99b3-a5219f2a3f30
+task_descriptions:
+- arrange_the_fruit_b_and_place_in_the_utensil_a
+scene_type:
+- office
+- factory
+- home
+atomic_actions:
+- place
+- remove
+- push
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

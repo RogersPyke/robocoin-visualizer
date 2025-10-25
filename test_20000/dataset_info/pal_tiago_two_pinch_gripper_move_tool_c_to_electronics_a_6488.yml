@@ -1,0 +1,27 @@
+dataset_name: move_tool_c_to_electronics_a_6488
+dataset_uuid: 2623fe7f-c012-4433-965f-177834621d1b
+task_descriptions:
+- move_the_tool_c_and_place_in_the_electronics_a
+scene_type:
+- warehouse
+- cafe
+atomic_actions:
+- push
+- pick
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

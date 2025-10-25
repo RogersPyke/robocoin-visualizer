@@ -1,0 +1,27 @@
+dataset_name: stack_furniture_b_to_textile_e_8360
+dataset_uuid: 7e97e998-17d6-41ab-8ce1-4b48bcf5f9b0
+task_descriptions:
+- stack_the_furniture_b_and_place_in_the_textile_e
+scene_type:
+- warehouse
+atomic_actions:
+- remove
+- lower
+- insert
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+operation_platform_height: 88.5
+device_model:
+- pal_tiago
+end_effector_type: suction_cup

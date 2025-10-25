@@ -1,0 +1,30 @@
+dataset_name: arrange_beverage_b_to_fruit_b_4302
+dataset_uuid: 3dd5acb2-009c-4d92-8446-ba4700ceae75
+task_descriptions:
+- arrange_the_beverage_b_and_place_in_the_fruit_b
+scene_type:
+- warehouse
+- cafe
+- store
+atomic_actions:
+- rotate
+- lift
+- slide
+- remove
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

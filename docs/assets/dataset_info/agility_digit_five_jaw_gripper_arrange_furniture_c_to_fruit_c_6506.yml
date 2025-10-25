@@ -1,0 +1,30 @@
+dataset_name: arrange_furniture_c_to_fruit_c_6506
+dataset_uuid: 74d10b52-dcff-4cdf-94aa-f5d74d799346
+task_descriptions:
+- arrange_the_furniture_c_and_place_in_the_fruit_c
+scene_type:
+- hospital
+- factory
+- warehouse
+atomic_actions:
+- remove
+- pick
+- rotate
+- insert
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- agility_digit
+end_effector_type: five_jaw_gripper

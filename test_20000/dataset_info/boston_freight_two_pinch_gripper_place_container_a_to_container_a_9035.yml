@@ -1,0 +1,26 @@
+dataset_name: place_container_a_to_container_a_9035
+dataset_uuid: 96a49847-be3e-41f2-8015-9ec843c28b0b
+task_descriptions:
+- place_the_container_a_and_place_in_the_container_a
+scene_type:
+- warehouse
+atomic_actions:
+- pick
+- lower
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.3
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

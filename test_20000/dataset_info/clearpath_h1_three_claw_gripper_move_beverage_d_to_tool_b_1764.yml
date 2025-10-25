@@ -1,0 +1,27 @@
+dataset_name: move_beverage_d_to_tool_b_1764
+dataset_uuid: bac38610-f1eb-4d10-92a1-77e681b4a86e
+task_descriptions:
+- move_the_beverage_d_and_place_in_the_tool_b
+scene_type:
+- home
+atomic_actions:
+- push
+- pick
+- remove
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

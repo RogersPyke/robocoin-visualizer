@@ -1,0 +1,26 @@
+dataset_name: place_fruit_d_to_stationery_b_6898
+dataset_uuid: 6d7af1a7-a807-4519-8f9a-bed258d17986
+task_descriptions:
+- place_the_fruit_d_and_place_in_the_stationery_b
+scene_type:
+- hospital
+atomic_actions:
+- insert
+- push
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.5
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

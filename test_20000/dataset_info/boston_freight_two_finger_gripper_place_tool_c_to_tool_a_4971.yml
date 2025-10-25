@@ -1,0 +1,27 @@
+dataset_name: place_tool_c_to_tool_a_4971
+dataset_uuid: ad1e3fea-bc21-47db-aa6a-c777297f191f
+task_descriptions:
+- place_the_tool_c_and_place_in_the_tool_a
+scene_type:
+- laboratory
+atomic_actions:
+- remove
+- grasp
+- slide
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.9
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

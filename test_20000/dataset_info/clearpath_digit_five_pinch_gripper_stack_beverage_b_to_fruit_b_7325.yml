@@ -1,0 +1,28 @@
+dataset_name: stack_beverage_b_to_fruit_b_7325
+dataset_uuid: a32044e7-5fce-4b8d-8863-bc64ab64844a
+task_descriptions:
+- stack_the_beverage_b_and_place_in_the_fruit_b
+scene_type:
+- cafe
+- warehouse
+atomic_actions:
+- push
+- pick
+- lower
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.6
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

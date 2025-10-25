@@ -1,0 +1,28 @@
+dataset_name: pick_tool_b_to_furniture_c_6873
+dataset_uuid: ca9a181f-8807-49c7-9af4-e91aa05d574b
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_furniture_c
+scene_type:
+- hospital
+- laboratory
+- office
+atomic_actions:
+- flip
+- lower
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- fetch_spot
+end_effector_type: five_claw_gripper

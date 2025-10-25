@@ -1,0 +1,28 @@
+dataset_name: move_textile_b_to_food_e_6540
+dataset_uuid: dc522d17-d2c6-4d76-bee2-622a768435b1
+task_descriptions:
+- move_the_textile_b_and_place_in_the_food_e
+scene_type:
+- office
+- warehouse
+atomic_actions:
+- lower
+- insert
+- grasp
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.9
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

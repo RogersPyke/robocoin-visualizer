@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_c_to_container_b_1240
+dataset_uuid: c2f8d03b-3435-4863-98aa-392dad0ae5db
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_container_b
+scene_type:
+- hospital
+- warehouse
+atomic_actions:
+- lift
+- insert
+- rotate
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.4
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

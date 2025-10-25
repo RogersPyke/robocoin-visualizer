@@ -1,0 +1,26 @@
+dataset_name: stack_container_a_to_textile_e_4969
+dataset_uuid: dc907a2c-9410-4c2c-9b5d-e18da3445e4a
+task_descriptions:
+- stack_the_container_a_and_place_in_the_textile_e
+scene_type:
+- laboratory
+atomic_actions:
+- insert
+- pick
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+operation_platform_height: 73.4
+device_model:
+- pal_tiago
+end_effector_type: three_finger_gripper

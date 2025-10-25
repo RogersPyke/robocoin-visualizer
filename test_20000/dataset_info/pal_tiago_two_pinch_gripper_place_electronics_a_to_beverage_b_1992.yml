@@ -1,0 +1,28 @@
+dataset_name: place_electronics_a_to_beverage_b_1992
+dataset_uuid: 2a83bdcf-8dea-43a3-b166-39a51680f056
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_beverage_b
+scene_type:
+- warehouse
+- restaurant
+atomic_actions:
+- insert
+- lift
+- lower
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.4
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,30 @@
+dataset_name: stack_kitchenware_c_to_tool_d_8997
+dataset_uuid: f5147f5c-670c-4184-8ba3-71d84281653c
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_tool_d
+scene_type:
+- warehouse
+- factory
+- cafe
+atomic_actions:
+- slide
+- place
+- pull
+- insert
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

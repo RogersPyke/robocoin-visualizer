@@ -1,0 +1,29 @@
+dataset_name: place_textile_e_to_toy_b_3618
+dataset_uuid: c4b0de5a-296a-4ca9-b61f-9bef54c1e7da
+task_descriptions:
+- place_the_textile_e_and_place_in_the_toy_b
+scene_type:
+- restaurant
+- office
+- factory
+atomic_actions:
+- lower
+- pull
+- grasp
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

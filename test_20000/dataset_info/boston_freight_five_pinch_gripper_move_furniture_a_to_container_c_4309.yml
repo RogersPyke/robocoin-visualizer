@@ -1,0 +1,26 @@
+dataset_name: move_furniture_a_to_container_c_4309
+dataset_uuid: 212e0815-71a3-4817-a34d-6d3aee00bb2f
+task_descriptions:
+- move_the_furniture_a_and_place_in_the_container_c
+scene_type:
+- kitchen
+atomic_actions:
+- lower
+- lift
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_fruit_c_to_fruit_e_7420
+dataset_uuid: b58b9957-fb4a-460c-9902-23f746e30598
+task_descriptions:
+- arrange_the_fruit_c_and_place_in_the_fruit_e
+scene_type:
+- cafe
+- laboratory
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+operation_platform_height: 71.1
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

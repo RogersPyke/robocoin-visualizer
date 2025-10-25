@@ -1,0 +1,29 @@
+dataset_name: pick_kitchenware_e_to_stationery_e_6290
+dataset_uuid: 055424e9-15c9-44b1-aa84-b010d4f021b9
+task_descriptions:
+- pick_the_kitchenware_e_and_place_in_the_stationery_e
+scene_type:
+- cafe
+- warehouse
+atomic_actions:
+- remove
+- rotate
+- lower
+- slide
+objects:
+- object_name: kitchenware_e
+  level1: kitchenware
+  level2: kitchenware_e
+  level3: kitchenware_e_sub1
+  level4: kitchenware_e_sub2
+  level5: null
+- object_name: stationery_e
+  level1: stationery
+  level2: stationery_e
+  level3: stationery_e_sub1
+  level4: stationery_e_sub2
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- clearpath_cassie
+end_effector_type: three_finger_gripper

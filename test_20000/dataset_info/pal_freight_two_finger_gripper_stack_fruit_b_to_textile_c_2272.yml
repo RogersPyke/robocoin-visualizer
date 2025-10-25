@@ -1,0 +1,30 @@
+dataset_name: stack_fruit_b_to_textile_c_2272
+dataset_uuid: aa5c05e7-1f56-4afa-82e0-9305a5bc5e84
+task_descriptions:
+- stack_the_fruit_b_and_place_in_the_textile_c
+scene_type:
+- restaurant
+- store
+- warehouse
+atomic_actions:
+- flip
+- place
+- rotate
+- pull
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- pal_freight
+end_effector_type: two_finger_gripper

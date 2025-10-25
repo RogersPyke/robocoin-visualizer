@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_a_to_kitchenware_a_2608
+dataset_uuid: b32056e2-f18f-44ff-ab9f-93c191683411
+task_descriptions:
+- arrange_the_textile_a_and_place_in_the_kitchenware_a
+scene_type:
+- factory
+- cafe
+- office
+atomic_actions:
+- flip
+- slide
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.4
+device_model:
+- boston_h1
+end_effector_type: two_claw_gripper

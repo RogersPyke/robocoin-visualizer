@@ -1,0 +1,27 @@
+dataset_name: pick_container_e_to_container_a_7392
+dataset_uuid: 89303123-c35b-4379-bdcf-4d1dd7f024ee
+task_descriptions:
+- pick_the_container_e_and_place_in_the_container_a
+scene_type:
+- hospital
+- restaurant
+atomic_actions:
+- grasp
+- push
+objects:
+- object_name: container_e
+  level1: container
+  level2: container_e
+  level3: container_e_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- unitree_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_electronics_c_to_kitchenware_c_9779
+dataset_uuid: ab3cf344-7be7-43e1-934e-a751e8094359
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_kitchenware_c
+scene_type:
+- restaurant
+atomic_actions:
+- place
+- grasp
+- pick
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: stack_toy_d_to_stationery_b_4524
+dataset_uuid: 3af5eb04-7437-46fe-b5d1-771dae973fd7
+task_descriptions:
+- stack_the_toy_d_and_place_in_the_stationery_b
+scene_type:
+- cafe
+- laboratory
+- office
+atomic_actions:
+- place
+- pick
+- insert
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.7
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

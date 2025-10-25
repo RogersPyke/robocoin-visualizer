@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_d_to_beverage_d_6928
+dataset_uuid: 37895319-3033-4f60-bd67-9c77265834a6
+task_descriptions:
+- stack_the_utensil_d_and_place_in_the_beverage_d
+scene_type:
+- factory
+atomic_actions:
+- rotate
+- lift
+- flip
+- remove
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.8
+device_model:
+- boston_atlas
+end_effector_type: five_jaw_gripper

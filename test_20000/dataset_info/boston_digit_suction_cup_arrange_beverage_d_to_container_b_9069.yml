@@ -1,0 +1,27 @@
+dataset_name: arrange_beverage_d_to_container_b_9069
+dataset_uuid: dbe3203e-b920-4b6b-9cb5-a6b450ae5611
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_container_b
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- pick
+- remove
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- boston_digit
+end_effector_type: suction_cup

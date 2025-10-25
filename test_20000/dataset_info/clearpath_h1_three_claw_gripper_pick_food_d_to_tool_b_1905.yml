@@ -1,0 +1,26 @@
+dataset_name: pick_food_d_to_tool_b_1905
+dataset_uuid: 0c5c190f-0651-4be1-a3bf-2e3726024885
+task_descriptions:
+- pick_the_food_d_and_place_in_the_tool_b
+scene_type:
+- kitchen
+atomic_actions:
+- push
+- grasp
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

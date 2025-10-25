@@ -1,0 +1,27 @@
+dataset_name: arrange_beverage_d_to_container_c_3753
+dataset_uuid: a0731e42-f724-4f5f-8f79-97c27244707f
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_container_c
+scene_type:
+- office
+- store
+atomic_actions:
+- grasp
+- lift
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.9
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

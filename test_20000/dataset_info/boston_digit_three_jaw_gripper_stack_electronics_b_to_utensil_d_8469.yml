@@ -1,0 +1,29 @@
+dataset_name: stack_electronics_b_to_utensil_d_8469
+dataset_uuid: e9683112-6b9a-4613-85be-8fe58a4b3ca2
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_utensil_d
+scene_type:
+- warehouse
+- office
+atomic_actions:
+- flip
+- rotate
+- insert
+- grasp
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

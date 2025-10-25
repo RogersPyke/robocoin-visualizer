@@ -1,0 +1,27 @@
+dataset_name: pick_furniture_b_to_furniture_e_1682
+dataset_uuid: 77ec33b5-b3dc-491b-94ab-d8484f6f3884
+task_descriptions:
+- pick_the_furniture_b_and_place_in_the_furniture_e
+scene_type:
+- office
+- warehouse
+atomic_actions:
+- push
+- rotate
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+operation_platform_height: 75.5
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_a_to_stationery_a_2362
+dataset_uuid: bcfb93e2-7067-46c5-a70f-c446a80e8371
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_stationery_a
+scene_type:
+- store
+- kitchen
+atomic_actions:
+- pick
+- flip
+- lower
+- remove
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

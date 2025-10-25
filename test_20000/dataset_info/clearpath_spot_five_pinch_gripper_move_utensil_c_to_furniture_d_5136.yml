@@ -1,0 +1,27 @@
+dataset_name: move_utensil_c_to_furniture_d_5136
+dataset_uuid: 04fe9180-d2ac-4927-9bfb-72145c724fc1
+task_descriptions:
+- move_the_utensil_c_and_place_in_the_furniture_d
+scene_type:
+- home
+- cafe
+atomic_actions:
+- place
+- push
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 88.3
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

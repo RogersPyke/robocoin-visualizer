@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_a_to_beverage_a_3734
+dataset_uuid: 5b725dcd-58fc-47da-afa1-a57bd0a6e6a8
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_beverage_a
+scene_type:
+- office
+- warehouse
+atomic_actions:
+- rotate
+- pull
+- slide
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

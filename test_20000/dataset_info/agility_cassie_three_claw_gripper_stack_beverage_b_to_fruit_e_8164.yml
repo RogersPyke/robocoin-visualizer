@@ -1,0 +1,28 @@
+dataset_name: stack_beverage_b_to_fruit_e_8164
+dataset_uuid: 306c9bbe-76b9-4c06-bb38-a8504f9679c7
+task_descriptions:
+- stack_the_beverage_b_and_place_in_the_fruit_e
+scene_type:
+- cafe
+atomic_actions:
+- flip
+- slide
+- pick
+- lower
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

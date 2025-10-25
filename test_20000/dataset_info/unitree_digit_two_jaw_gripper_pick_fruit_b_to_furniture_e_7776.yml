@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_b_to_furniture_e_7776
+dataset_uuid: 0bfdab9f-9164-4a73-9f6d-e31f6c07fd23
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_furniture_e
+scene_type:
+- store
+- kitchen
+- hospital
+atomic_actions:
+- push
+- grasp
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,27 @@
+dataset_name: move_food_d_to_utensil_d_7208
+dataset_uuid: a73a318f-c002-4eb5-bcb3-1a2f877913ed
+task_descriptions:
+- move_the_food_d_and_place_in_the_utensil_d
+scene_type:
+- hospital
+- store
+atomic_actions:
+- flip
+- remove
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 90.0
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

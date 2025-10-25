@@ -1,0 +1,26 @@
+dataset_name: arrange_tool_d_to_utensil_c_9980
+dataset_uuid: 10b15929-faed-4abc-a03e-23be4618442d
+task_descriptions:
+- arrange_the_tool_d_and_place_in_the_utensil_c
+scene_type:
+- store
+atomic_actions:
+- place
+- grasp
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_stationery_a_to_tool_d_5001
+dataset_uuid: 1fb7ec7a-1083-44ec-b936-8b542f47a217
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_tool_d
+scene_type:
+- home
+- office
+atomic_actions:
+- push
+- pull
+- insert
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+operation_platform_height: 82.6
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

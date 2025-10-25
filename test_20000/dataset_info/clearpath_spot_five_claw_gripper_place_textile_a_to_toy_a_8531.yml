@@ -1,0 +1,26 @@
+dataset_name: place_textile_a_to_toy_a_8531
+dataset_uuid: aa30aaf9-037b-4115-940d-45a874b57cc2
+task_descriptions:
+- place_the_textile_a_and_place_in_the_toy_a
+scene_type:
+- kitchen
+atomic_actions:
+- pull
+- place
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

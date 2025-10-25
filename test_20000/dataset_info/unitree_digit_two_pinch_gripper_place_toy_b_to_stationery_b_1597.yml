@@ -1,0 +1,27 @@
+dataset_name: place_toy_b_to_stationery_b_1597
+dataset_uuid: 66749c0e-419e-4af5-a5ef-a661b90c6674
+task_descriptions:
+- place_the_toy_b_and_place_in_the_stationery_b
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- flip
+- insert
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 80.6
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

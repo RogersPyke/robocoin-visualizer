@@ -1,0 +1,29 @@
+dataset_name: move_utensil_b_to_fruit_a_2356
+dataset_uuid: eb3ed362-2ae1-4608-9559-306466693bd4
+task_descriptions:
+- move_the_utensil_b_and_place_in_the_fruit_a
+scene_type:
+- cafe
+- restaurant
+atomic_actions:
+- lower
+- pick
+- rotate
+- flip
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 83.5
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

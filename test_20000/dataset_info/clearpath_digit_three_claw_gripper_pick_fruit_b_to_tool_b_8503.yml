@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_b_to_tool_b_8503
+dataset_uuid: a3b4cf73-d870-4b75-a250-a61fa9f7ed76
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_tool_b
+scene_type:
+- restaurant
+- hospital
+- factory
+atomic_actions:
+- place
+- push
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

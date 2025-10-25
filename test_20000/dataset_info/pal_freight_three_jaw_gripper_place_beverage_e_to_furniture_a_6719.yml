@@ -1,0 +1,27 @@
+dataset_name: place_beverage_e_to_furniture_a_6719
+dataset_uuid: 1d21d916-f7f1-4026-afce-defdc93c6332
+task_descriptions:
+- place_the_beverage_e_and_place_in_the_furniture_a
+scene_type:
+- laboratory
+- warehouse
+atomic_actions:
+- remove
+- rotate
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.3
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

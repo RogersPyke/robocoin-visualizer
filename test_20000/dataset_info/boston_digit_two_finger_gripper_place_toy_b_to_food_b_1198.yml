@@ -1,0 +1,28 @@
+dataset_name: place_toy_b_to_food_b_1198
+dataset_uuid: 4ba8eaa2-0cce-4f5e-89d2-c621553b9e48
+task_descriptions:
+- place_the_toy_b_and_place_in_the_food_b
+scene_type:
+- factory
+atomic_actions:
+- pull
+- lift
+- slide
+- remove
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+operation_platform_height: 87.9
+device_model:
+- boston_digit
+end_effector_type: two_finger_gripper

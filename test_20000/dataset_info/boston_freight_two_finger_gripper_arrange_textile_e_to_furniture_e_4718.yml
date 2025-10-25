@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_e_to_furniture_e_4718
+dataset_uuid: e0a08abc-d4ef-446a-b07b-a94f323f5821
+task_descriptions:
+- arrange_the_textile_e_and_place_in_the_furniture_e
+scene_type:
+- store
+atomic_actions:
+- flip
+- push
+- grasp
+- rotate
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+operation_platform_height: 73.4
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

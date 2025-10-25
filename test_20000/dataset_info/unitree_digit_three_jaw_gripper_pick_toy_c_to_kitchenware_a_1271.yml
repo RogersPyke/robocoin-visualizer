@@ -1,0 +1,27 @@
+dataset_name: pick_toy_c_to_kitchenware_a_1271
+dataset_uuid: 90c73eb4-caae-426e-a419-673897a1d8cc
+task_descriptions:
+- pick_the_toy_c_and_place_in_the_kitchenware_a
+scene_type:
+- store
+- restaurant
+atomic_actions:
+- flip
+- lift
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.9
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

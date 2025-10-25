@@ -1,0 +1,27 @@
+dataset_name: pick_textile_e_to_utensil_c_8102
+dataset_uuid: 53bfdd6e-3052-4e5d-8345-fd4bc7d30fd9
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_utensil_c
+scene_type:
+- kitchen
+atomic_actions:
+- insert
+- grasp
+- slide
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,30 @@
+dataset_name: place_tool_b_to_kitchenware_b_7807
+dataset_uuid: a1f5c052-4b1f-437f-9198-94878e29680e
+task_descriptions:
+- place_the_tool_b_and_place_in_the_kitchenware_b
+scene_type:
+- home
+- warehouse
+- store
+atomic_actions:
+- rotate
+- slide
+- place
+- remove
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.0
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

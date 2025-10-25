@@ -1,0 +1,28 @@
+dataset_name: pick_textile_a_to_textile_b_4497
+dataset_uuid: fd4d6d4d-c4ef-4086-9a3a-15f679a54f62
+task_descriptions:
+- pick_the_textile_a_and_place_in_the_textile_b
+scene_type:
+- kitchen
+- restaurant
+- warehouse
+atomic_actions:
+- pull
+- place
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

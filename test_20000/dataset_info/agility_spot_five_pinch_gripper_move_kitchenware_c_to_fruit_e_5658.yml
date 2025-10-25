@@ -1,0 +1,30 @@
+dataset_name: move_kitchenware_c_to_fruit_e_5658
+dataset_uuid: 4b5c4bc4-5e49-4572-bb2d-05240dcfb082
+task_descriptions:
+- move_the_kitchenware_c_and_place_in_the_fruit_e
+scene_type:
+- hospital
+- office
+- cafe
+atomic_actions:
+- place
+- remove
+- rotate
+- grasp
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_b_to_textile_d_4627
+dataset_uuid: 35e39823-e09d-47e4-a237-d5ce28d377e2
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_textile_d
+scene_type:
+- hospital
+- office
+atomic_actions:
+- lift
+- pick
+- rotate
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.3
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

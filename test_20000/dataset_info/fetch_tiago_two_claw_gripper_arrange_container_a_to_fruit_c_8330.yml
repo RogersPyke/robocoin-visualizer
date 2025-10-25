@@ -1,0 +1,28 @@
+dataset_name: arrange_container_a_to_fruit_c_8330
+dataset_uuid: 2f2399fb-282f-45b2-9e3b-75063ceb5ec1
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_fruit_c
+scene_type:
+- laboratory
+- restaurant
+- store
+atomic_actions:
+- lower
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.9
+device_model:
+- fetch_tiago
+end_effector_type: two_claw_gripper

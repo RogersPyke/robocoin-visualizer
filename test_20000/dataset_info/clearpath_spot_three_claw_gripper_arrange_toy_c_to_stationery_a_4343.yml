@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_c_to_stationery_a_4343
+dataset_uuid: 9f02ee10-89e1-413e-98a9-48671656cee6
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_stationery_a
+scene_type:
+- cafe
+- office
+- restaurant
+atomic_actions:
+- grasp
+- rotate
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

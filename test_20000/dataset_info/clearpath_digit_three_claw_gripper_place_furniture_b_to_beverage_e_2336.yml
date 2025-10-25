@@ -1,0 +1,28 @@
+dataset_name: place_furniture_b_to_beverage_e_2336
+dataset_uuid: 5800af4c-377c-4a92-af3e-6e1c2521774e
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_beverage_e
+scene_type:
+- warehouse
+- home
+- factory
+atomic_actions:
+- place
+- rotate
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+operation_platform_height: 78.0
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

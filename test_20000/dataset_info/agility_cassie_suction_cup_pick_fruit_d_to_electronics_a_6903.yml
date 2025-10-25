@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_d_to_electronics_a_6903
+dataset_uuid: f9e89b42-a7c0-42f2-8f8b-199973f4253c
+task_descriptions:
+- pick_the_fruit_d_and_place_in_the_electronics_a
+scene_type:
+- home
+atomic_actions:
+- lower
+- insert
+- slide
+- place
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- agility_cassie
+end_effector_type: suction_cup

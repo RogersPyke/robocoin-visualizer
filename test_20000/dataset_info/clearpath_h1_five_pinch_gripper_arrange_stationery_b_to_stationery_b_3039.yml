@@ -1,0 +1,30 @@
+dataset_name: arrange_stationery_b_to_stationery_b_3039
+dataset_uuid: 60644c5d-bf21-4739-aa1c-5de3358e4c5e
+task_descriptions:
+- arrange_the_stationery_b_and_place_in_the_stationery_b
+scene_type:
+- restaurant
+- factory
+- home
+atomic_actions:
+- remove
+- push
+- insert
+- rotate
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.6
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

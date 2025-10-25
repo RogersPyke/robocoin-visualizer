@@ -1,0 +1,27 @@
+dataset_name: stack_fruit_a_to_utensil_b_9212
+dataset_uuid: b36695d5-b093-44c3-b0e4-6a013fd0f578
+task_descriptions:
+- stack_the_fruit_a_and_place_in_the_utensil_b
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- insert
+- rotate
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- clearpath_h1
+end_effector_type: two_claw_gripper

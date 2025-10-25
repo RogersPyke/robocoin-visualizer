@@ -1,0 +1,28 @@
+dataset_name: move_textile_c_to_stationery_c_9620
+dataset_uuid: 248d728d-a249-463d-b1f6-28716bf9a1c5
+task_descriptions:
+- move_the_textile_c_and_place_in_the_stationery_c
+scene_type:
+- warehouse
+atomic_actions:
+- push
+- pull
+- grasp
+- remove
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.9
+device_model:
+- boston_digit
+end_effector_type: suction_cup

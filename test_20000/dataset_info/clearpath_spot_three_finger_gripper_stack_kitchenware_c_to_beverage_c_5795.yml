@@ -1,0 +1,27 @@
+dataset_name: stack_kitchenware_c_to_beverage_c_5795
+dataset_uuid: 82ea300e-839c-456c-8411-7ed2eb50adb6
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_beverage_c
+scene_type:
+- kitchen
+atomic_actions:
+- place
+- pull
+- remove
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: beverage_c_sub2
+  level5: null
+operation_platform_height: 72.9
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

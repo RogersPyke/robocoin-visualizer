@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_c_to_utensil_b_2684
+dataset_uuid: a41d4460-6148-41dd-a372-6d824169c976
+task_descriptions:
+- stack_the_stationery_c_and_place_in_the_utensil_b
+scene_type:
+- office
+- laboratory
+- restaurant
+atomic_actions:
+- pick
+- pull
+- place
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_b_to_beverage_d_9656
+dataset_uuid: 67d8585f-d82e-40e1-ae0d-26fc4efe36af
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_beverage_d
+scene_type:
+- hospital
+atomic_actions:
+- rotate
+- insert
+- grasp
+- push
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

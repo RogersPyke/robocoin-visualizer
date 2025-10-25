@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_c_to_utensil_b_2866
+dataset_uuid: 7f4233d1-007c-4f29-b059-01c0433995b7
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_utensil_b
+scene_type:
+- laboratory
+- restaurant
+atomic_actions:
+- insert
+- remove
+- push
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- boston_digit
+end_effector_type: suction_cup

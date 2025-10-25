@@ -1,0 +1,29 @@
+dataset_name: place_utensil_d_to_toy_c_6171
+dataset_uuid: cf317b96-79bc-4884-a4b6-69f9089dd6a7
+task_descriptions:
+- place_the_utensil_d_and_place_in_the_toy_c
+scene_type:
+- home
+- laboratory
+atomic_actions:
+- rotate
+- flip
+- insert
+- slide
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

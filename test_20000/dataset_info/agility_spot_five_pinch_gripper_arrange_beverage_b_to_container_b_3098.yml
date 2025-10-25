@@ -1,0 +1,27 @@
+dataset_name: arrange_beverage_b_to_container_b_3098
+dataset_uuid: 48b93cb6-b8f5-4f49-8d4a-f14968b4e258
+task_descriptions:
+- arrange_the_beverage_b_and_place_in_the_container_b
+scene_type:
+- office
+- restaurant
+atomic_actions:
+- pick
+- rotate
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

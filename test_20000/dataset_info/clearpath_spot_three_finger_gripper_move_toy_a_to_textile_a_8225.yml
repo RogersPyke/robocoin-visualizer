@@ -1,0 +1,28 @@
+dataset_name: move_toy_a_to_textile_a_8225
+dataset_uuid: 451e8a22-0ef3-4e34-ba92-c66aaa666f8a
+task_descriptions:
+- move_the_toy_a_and_place_in_the_textile_a
+scene_type:
+- office
+- laboratory
+- factory
+atomic_actions:
+- lift
+- grasp
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

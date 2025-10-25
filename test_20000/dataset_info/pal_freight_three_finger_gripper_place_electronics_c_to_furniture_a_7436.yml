@@ -1,0 +1,27 @@
+dataset_name: place_electronics_c_to_furniture_a_7436
+dataset_uuid: 532e1ed7-d674-405e-87fb-a2c844d0655b
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_furniture_a
+scene_type:
+- hospital
+atomic_actions:
+- rotate
+- pull
+- push
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.3
+device_model:
+- pal_freight
+end_effector_type: three_finger_gripper

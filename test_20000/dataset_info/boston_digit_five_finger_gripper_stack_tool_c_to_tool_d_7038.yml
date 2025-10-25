@@ -1,0 +1,26 @@
+dataset_name: stack_tool_c_to_tool_d_7038
+dataset_uuid: 1ac37349-8335-408f-8a32-adbdea7cd98b
+task_descriptions:
+- stack_the_tool_c_and_place_in_the_tool_d
+scene_type:
+- factory
+atomic_actions:
+- rotate
+- grasp
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

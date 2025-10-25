@@ -1,0 +1,30 @@
+dataset_name: arrange_kitchenware_c_to_furniture_d_1560
+dataset_uuid: 081f5a02-849d-42ea-9438-6a99ee20f887
+task_descriptions:
+- arrange_the_kitchenware_c_and_place_in_the_furniture_d
+scene_type:
+- factory
+- restaurant
+- store
+atomic_actions:
+- remove
+- grasp
+- pick
+- pull
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 74.4
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

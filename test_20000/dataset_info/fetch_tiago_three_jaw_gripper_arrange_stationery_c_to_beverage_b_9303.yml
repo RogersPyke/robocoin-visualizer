@@ -1,0 +1,27 @@
+dataset_name: arrange_stationery_c_to_beverage_b_9303
+dataset_uuid: 5f1a6905-92e9-417e-9e08-6f12a2e10f44
+task_descriptions:
+- arrange_the_stationery_c_and_place_in_the_beverage_b
+scene_type:
+- laboratory
+- restaurant
+atomic_actions:
+- push
+- pull
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

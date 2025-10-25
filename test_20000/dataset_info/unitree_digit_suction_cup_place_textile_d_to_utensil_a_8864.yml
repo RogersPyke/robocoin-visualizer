@@ -1,0 +1,29 @@
+dataset_name: place_textile_d_to_utensil_a_8864
+dataset_uuid: b8124962-1e37-4c3b-a4e7-f5154f9913fe
+task_descriptions:
+- place_the_textile_d_and_place_in_the_utensil_a
+scene_type:
+- hospital
+- cafe
+- store
+atomic_actions:
+- push
+- insert
+- rotate
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- unitree_digit
+end_effector_type: suction_cup

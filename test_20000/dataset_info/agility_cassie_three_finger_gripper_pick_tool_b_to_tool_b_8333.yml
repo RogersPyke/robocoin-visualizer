@@ -1,0 +1,28 @@
+dataset_name: pick_tool_b_to_tool_b_8333
+dataset_uuid: e5968b00-1232-43ef-b66e-09afb5d4c425
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_tool_b
+scene_type:
+- store
+atomic_actions:
+- lower
+- flip
+- pull
+- slide
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.1
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_container_a_to_food_b_6851
+dataset_uuid: 24354e36-ec17-48c5-bd81-305d856263e5
+task_descriptions:
+- place_the_container_a_and_place_in_the_food_b
+scene_type:
+- hospital
+- factory
+- kitchen
+atomic_actions:
+- rotate
+- pick
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.0
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

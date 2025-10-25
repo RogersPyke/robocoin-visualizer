@@ -1,0 +1,30 @@
+dataset_name: place_furniture_c_to_container_b_4820
+dataset_uuid: cf28c9fe-8cec-4e8b-b1c4-37be21f16674
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_container_b
+scene_type:
+- cafe
+- hospital
+- home
+atomic_actions:
+- lower
+- pull
+- remove
+- pick
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

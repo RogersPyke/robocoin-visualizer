@@ -1,0 +1,27 @@
+dataset_name: stack_food_b_to_electronics_c_7171
+dataset_uuid: b0d7bfd8-b208-4ede-9bea-a9523cc5b67d
+task_descriptions:
+- stack_the_food_b_and_place_in_the_electronics_c
+scene_type:
+- warehouse
+atomic_actions:
+- flip
+- lower
+- slide
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 83.7
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

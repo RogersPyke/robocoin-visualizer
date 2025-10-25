@@ -1,0 +1,28 @@
+dataset_name: place_stationery_a_to_tool_a_8715
+dataset_uuid: ed73dbb5-8d69-4323-a6e6-0bf6f0a6e34c
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_tool_a
+scene_type:
+- warehouse
+atomic_actions:
+- grasp
+- rotate
+- pull
+- pick
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

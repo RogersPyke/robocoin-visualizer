@@ -1,0 +1,27 @@
+dataset_name: pick_kitchenware_c_to_food_e_2668
+dataset_uuid: 1f1ead6e-680e-480e-b7e7-eaab565f1e85
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_food_e
+scene_type:
+- kitchen
+atomic_actions:
+- remove
+- place
+- insert
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

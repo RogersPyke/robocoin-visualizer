@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_c_to_kitchenware_a_3737
+dataset_uuid: 8be7f8bf-46d2-4a7e-adaa-67fce75ba25a
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_kitchenware_a
+scene_type:
+- restaurant
+atomic_actions:
+- pull
+- remove
+- rotate
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.0
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

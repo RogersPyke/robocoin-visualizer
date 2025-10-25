@@ -1,0 +1,28 @@
+dataset_name: stack_textile_e_to_furniture_c_5886
+dataset_uuid: 66bf3f3d-85f7-4055-8ca7-20d87aa5189b
+task_descriptions:
+- stack_the_textile_e_and_place_in_the_furniture_c
+scene_type:
+- hospital
+- factory
+- kitchen
+atomic_actions:
+- pull
+- lift
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

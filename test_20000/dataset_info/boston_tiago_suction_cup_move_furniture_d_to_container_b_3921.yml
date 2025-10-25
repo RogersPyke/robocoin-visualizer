@@ -1,0 +1,26 @@
+dataset_name: move_furniture_d_to_container_b_3921
+dataset_uuid: ea159102-34e2-4925-9a46-1fbaa0c50898
+task_descriptions:
+- move_the_furniture_d_and_place_in_the_container_b
+scene_type:
+- hospital
+atomic_actions:
+- lift
+- rotate
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- boston_tiago
+end_effector_type: suction_cup

@@ -1,0 +1,26 @@
+dataset_name: move_kitchenware_a_to_utensil_a_3692
+dataset_uuid: 01cd4ce5-5ec6-4fee-ad4b-9a86ae54332e
+task_descriptions:
+- move_the_kitchenware_a_and_place_in_the_utensil_a
+scene_type:
+- home
+atomic_actions:
+- insert
+- place
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.3
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

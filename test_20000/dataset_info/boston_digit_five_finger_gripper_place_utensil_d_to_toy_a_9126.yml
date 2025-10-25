@@ -1,0 +1,30 @@
+dataset_name: place_utensil_d_to_toy_a_9126
+dataset_uuid: 4f3aa6e6-c548-4737-ae0d-c1d33a5e679e
+task_descriptions:
+- place_the_utensil_d_and_place_in_the_toy_a
+scene_type:
+- store
+- factory
+- hospital
+atomic_actions:
+- flip
+- remove
+- insert
+- lower
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

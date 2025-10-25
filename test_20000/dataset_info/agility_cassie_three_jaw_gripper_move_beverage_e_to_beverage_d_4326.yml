@@ -1,0 +1,30 @@
+dataset_name: move_beverage_e_to_beverage_d_4326
+dataset_uuid: 29db24be-60f5-413a-9b1c-fcd2b44ffe89
+task_descriptions:
+- move_the_beverage_e_and_place_in_the_beverage_d
+scene_type:
+- home
+- cafe
+- hospital
+atomic_actions:
+- flip
+- lower
+- insert
+- place
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.1
+device_model:
+- agility_cassie
+end_effector_type: three_jaw_gripper

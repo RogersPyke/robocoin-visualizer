@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_b_to_textile_c_4548
+dataset_uuid: 2e885830-3598-4a44-be94-0e6b7c244194
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_textile_c
+scene_type:
+- kitchen
+- hospital
+- home
+atomic_actions:
+- remove
+- grasp
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- agility_cassie
+end_effector_type: three_jaw_gripper

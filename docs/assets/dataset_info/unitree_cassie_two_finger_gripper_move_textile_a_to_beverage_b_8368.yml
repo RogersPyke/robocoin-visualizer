@@ -1,0 +1,27 @@
+dataset_name: move_textile_a_to_beverage_b_8368
+dataset_uuid: ca694a86-d782-4669-91f3-b80a402ee9c0
+task_descriptions:
+- move_the_textile_a_and_place_in_the_beverage_b
+scene_type:
+- cafe
+atomic_actions:
+- place
+- lower
+- rotate
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- unitree_cassie
+end_effector_type: two_finger_gripper

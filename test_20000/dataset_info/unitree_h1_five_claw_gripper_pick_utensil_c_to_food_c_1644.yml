@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_c_to_food_c_1644
+dataset_uuid: 3fe2d0b3-a38d-4e69-a20f-4cfca0ac8368
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_food_c
+scene_type:
+- home
+- store
+- office
+atomic_actions:
+- slide
+- flip
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.3
+device_model:
+- unitree_h1
+end_effector_type: five_claw_gripper

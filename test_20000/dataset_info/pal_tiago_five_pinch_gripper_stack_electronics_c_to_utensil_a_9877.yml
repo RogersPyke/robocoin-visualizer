@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_c_to_utensil_a_9877
+dataset_uuid: 7589a14e-4f4a-40bc-b24c-51ca0c81f16e
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_utensil_a
+scene_type:
+- store
+- hospital
+- kitchen
+atomic_actions:
+- grasp
+- slide
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

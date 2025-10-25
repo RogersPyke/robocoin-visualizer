@@ -1,0 +1,28 @@
+dataset_name: move_utensil_b_to_container_a_3992
+dataset_uuid: f0ae7891-1fc7-488c-9efe-85a9a5e8078c
+task_descriptions:
+- move_the_utensil_b_and_place_in_the_container_a
+scene_type:
+- home
+- office
+- hospital
+atomic_actions:
+- push
+- lower
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.0
+device_model:
+- clearpath_cassie
+end_effector_type: two_claw_gripper

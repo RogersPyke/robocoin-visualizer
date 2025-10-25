@@ -1,0 +1,29 @@
+dataset_name: stack_electronics_c_to_food_d_9310
+dataset_uuid: c8f7e951-e923-42f1-9127-f5d267670db9
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_food_d
+scene_type:
+- restaurant
+- laboratory
+- home
+atomic_actions:
+- pull
+- place
+- lower
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.0
+device_model:
+- fetch_tiago
+end_effector_type: five_finger_gripper

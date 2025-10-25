@@ -1,0 +1,28 @@
+dataset_name: place_utensil_a_to_kitchenware_c_9071
+dataset_uuid: 8f9d0519-957e-4e06-a2c3-ebbfddeab595
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_kitchenware_c
+scene_type:
+- kitchen
+atomic_actions:
+- grasp
+- place
+- slide
+- push
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.2
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

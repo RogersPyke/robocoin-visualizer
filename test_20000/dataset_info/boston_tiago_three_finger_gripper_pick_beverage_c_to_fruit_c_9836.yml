@@ -1,0 +1,27 @@
+dataset_name: pick_beverage_c_to_fruit_c_9836
+dataset_uuid: 4acabe4e-27fa-4483-bcda-5f4f94742d8a
+task_descriptions:
+- pick_the_beverage_c_and_place_in_the_fruit_c
+scene_type:
+- laboratory
+- factory
+atomic_actions:
+- flip
+- pull
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

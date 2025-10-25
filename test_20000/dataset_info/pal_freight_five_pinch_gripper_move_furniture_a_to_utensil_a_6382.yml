@@ -1,0 +1,27 @@
+dataset_name: move_furniture_a_to_utensil_a_6382
+dataset_uuid: 351e9693-1c96-4a36-a6c4-5d9877a27b92
+task_descriptions:
+- move_the_furniture_a_and_place_in_the_utensil_a
+scene_type:
+- cafe
+atomic_actions:
+- slide
+- pull
+- flip
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

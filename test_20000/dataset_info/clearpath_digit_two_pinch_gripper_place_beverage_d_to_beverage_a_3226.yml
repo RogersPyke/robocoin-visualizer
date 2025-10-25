@@ -1,0 +1,27 @@
+dataset_name: place_beverage_d_to_beverage_a_3226
+dataset_uuid: 2cc4ce9c-09b4-4c85-a791-b9a66017c51a
+task_descriptions:
+- place_the_beverage_d_and_place_in_the_beverage_a
+scene_type:
+- home
+atomic_actions:
+- remove
+- pick
+- lift
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_e_to_kitchenware_b_1538
+dataset_uuid: 7eb96e4b-028a-4c6f-bf19-517f0d4d699b
+task_descriptions:
+- pick_the_furniture_e_and_place_in_the_kitchenware_b
+scene_type:
+- home
+- store
+- cafe
+atomic_actions:
+- place
+- remove
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- clearpath_digit
+end_effector_type: suction_cup

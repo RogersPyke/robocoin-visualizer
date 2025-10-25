@@ -1,0 +1,29 @@
+dataset_name: place_food_c_to_food_b_4567
+dataset_uuid: 5bd4b228-ed5f-4297-a4c1-fc60f54aa4e4
+task_descriptions:
+- place_the_food_c_and_place_in_the_food_b
+scene_type:
+- office
+- factory
+atomic_actions:
+- lower
+- flip
+- insert
+- pull
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.0
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

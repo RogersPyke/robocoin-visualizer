@@ -1,0 +1,29 @@
+dataset_name: stack_container_e_to_electronics_a_8819
+dataset_uuid: 942293e3-a931-4334-98ba-cdb6ccb00e26
+task_descriptions:
+- stack_the_container_e_and_place_in_the_electronics_a
+scene_type:
+- office
+- kitchen
+- store
+atomic_actions:
+- rotate
+- lower
+- slide
+objects:
+- object_name: container_e
+  level1: container
+  level2: container_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- unitree_tiago
+end_effector_type: five_claw_gripper

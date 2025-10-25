@@ -1,0 +1,28 @@
+dataset_name: move_food_c_to_beverage_d_3732
+dataset_uuid: 4ddbfeb9-50aa-440d-a821-d297343280ca
+task_descriptions:
+- move_the_food_c_and_place_in_the_beverage_d
+scene_type:
+- kitchen
+atomic_actions:
+- insert
+- pick
+- place
+- lower
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: food_c_sub2
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_c_to_stationery_e_4456
+dataset_uuid: 20967fc0-4c56-4faf-b093-090ad51ac86f
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_stationery_e
+scene_type:
+- store
+atomic_actions:
+- rotate
+- place
+- insert
+- lift
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_e
+  level1: stationery
+  level2: stationery_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.2
+device_model:
+- boston_h1
+end_effector_type: two_claw_gripper

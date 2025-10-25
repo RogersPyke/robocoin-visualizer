@@ -1,0 +1,30 @@
+dataset_name: stack_toy_a_to_kitchenware_b_1996
+dataset_uuid: 7fbfa9b0-bdcd-4cc4-b2d3-e221d41574c8
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_kitchenware_b
+scene_type:
+- restaurant
+- store
+- factory
+atomic_actions:
+- lift
+- remove
+- flip
+- grasp
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

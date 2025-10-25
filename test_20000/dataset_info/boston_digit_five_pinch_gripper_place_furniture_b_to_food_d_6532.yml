@@ -1,0 +1,28 @@
+dataset_name: place_furniture_b_to_food_d_6532
+dataset_uuid: 16e933b5-911e-4a49-a069-66fcc4bab89c
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_food_d
+scene_type:
+- office
+- cafe
+atomic_actions:
+- lift
+- rotate
+- remove
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+operation_platform_height: 85.1
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

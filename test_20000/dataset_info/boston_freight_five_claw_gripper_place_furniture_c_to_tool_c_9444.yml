@@ -1,0 +1,28 @@
+dataset_name: place_furniture_c_to_tool_c_9444
+dataset_uuid: e135c89c-7488-4aa3-9f0c-dc16d534902c
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_tool_c
+scene_type:
+- restaurant
+- cafe
+- hospital
+atomic_actions:
+- place
+- insert
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+operation_platform_height: 74.1
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

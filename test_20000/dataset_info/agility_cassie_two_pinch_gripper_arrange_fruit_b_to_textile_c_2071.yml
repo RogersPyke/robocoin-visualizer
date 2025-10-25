@@ -1,0 +1,27 @@
+dataset_name: arrange_fruit_b_to_textile_c_2071
+dataset_uuid: 52e610cc-a4c3-4a9a-b8d3-1d5f4d8abb0b
+task_descriptions:
+- arrange_the_fruit_b_and_place_in_the_textile_c
+scene_type:
+- restaurant
+- office
+atomic_actions:
+- push
+- pick
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.5
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

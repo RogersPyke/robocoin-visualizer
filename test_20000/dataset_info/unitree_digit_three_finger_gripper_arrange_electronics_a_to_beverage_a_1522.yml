@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_a_to_beverage_a_1522
+dataset_uuid: e645ccdc-217c-478f-b42b-7702a9715786
+task_descriptions:
+- arrange_the_electronics_a_and_place_in_the_beverage_a
+scene_type:
+- store
+- kitchen
+atomic_actions:
+- pull
+- lift
+- place
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.4
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

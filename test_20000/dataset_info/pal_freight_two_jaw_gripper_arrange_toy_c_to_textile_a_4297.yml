@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_c_to_textile_a_4297
+dataset_uuid: 4dac3091-70d0-4411-a7ad-257e0e765f9f
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_textile_a
+scene_type:
+- hospital
+- restaurant
+- office
+atomic_actions:
+- insert
+- flip
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

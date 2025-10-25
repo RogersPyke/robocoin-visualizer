@@ -1,0 +1,30 @@
+dataset_name: pick_tool_a_to_container_d_2970
+dataset_uuid: ec5fa6ea-ff8c-494e-9dc5-0992d9fdb2d3
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_container_d
+scene_type:
+- factory
+- store
+- cafe
+atomic_actions:
+- pull
+- lift
+- lower
+- pick
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_d
+  level1: container
+  level2: container_d
+  level3: container_d_sub1
+  level4: container_d_sub2
+  level5: null
+operation_platform_height: 88.5
+device_model:
+- unitree_cassie
+end_effector_type: three_jaw_gripper

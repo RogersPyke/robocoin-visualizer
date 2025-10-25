@@ -1,0 +1,26 @@
+dataset_name: arrange_toy_c_to_textile_b_3719
+dataset_uuid: 8d49151f-421a-4053-b852-7dfeed5bf215
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_textile_b
+scene_type:
+- home
+atomic_actions:
+- grasp
+- rotate
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.5
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

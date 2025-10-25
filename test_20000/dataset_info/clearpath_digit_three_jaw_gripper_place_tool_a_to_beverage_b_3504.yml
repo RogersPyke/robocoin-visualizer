@@ -1,0 +1,27 @@
+dataset_name: place_tool_a_to_beverage_b_3504
+dataset_uuid: a4cf0302-8b70-42f1-aabb-b12b98fb21bd
+task_descriptions:
+- place_the_tool_a_and_place_in_the_beverage_b
+scene_type:
+- store
+- home
+atomic_actions:
+- place
+- lift
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.9
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

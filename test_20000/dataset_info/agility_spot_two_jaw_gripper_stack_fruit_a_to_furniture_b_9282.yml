@@ -1,0 +1,26 @@
+dataset_name: stack_fruit_a_to_furniture_b_9282
+dataset_uuid: 8db39028-de59-45ac-aa4c-61e8779eb5ec
+task_descriptions:
+- stack_the_fruit_a_and_place_in_the_furniture_b
+scene_type:
+- warehouse
+atomic_actions:
+- insert
+- flip
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 75.4
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

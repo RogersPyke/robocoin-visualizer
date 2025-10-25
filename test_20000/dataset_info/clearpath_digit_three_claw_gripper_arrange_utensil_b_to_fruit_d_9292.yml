@@ -1,0 +1,30 @@
+dataset_name: arrange_utensil_b_to_fruit_d_9292
+dataset_uuid: 071a681c-6999-48bf-bf6f-4c1df07612de
+task_descriptions:
+- arrange_the_utensil_b_and_place_in_the_fruit_d
+scene_type:
+- restaurant
+- store
+- hospital
+atomic_actions:
+- grasp
+- insert
+- lift
+- remove
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.8
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

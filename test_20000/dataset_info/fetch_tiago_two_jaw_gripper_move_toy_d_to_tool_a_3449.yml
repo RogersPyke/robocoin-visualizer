@@ -1,0 +1,28 @@
+dataset_name: move_toy_d_to_tool_a_3449
+dataset_uuid: c73707d7-beac-401c-bb2e-424e7c9cb0a9
+task_descriptions:
+- move_the_toy_d_and_place_in_the_tool_a
+scene_type:
+- restaurant
+atomic_actions:
+- slide
+- remove
+- flip
+- insert
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

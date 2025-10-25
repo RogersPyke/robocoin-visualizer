@@ -1,0 +1,29 @@
+dataset_name: place_tool_b_to_electronics_b_7701
+dataset_uuid: 8607d211-b379-406a-b1ef-da16426b5242
+task_descriptions:
+- place_the_tool_b_and_place_in_the_electronics_b
+scene_type:
+- factory
+- home
+atomic_actions:
+- remove
+- push
+- grasp
+- rotate
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.0
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

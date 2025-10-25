@@ -1,0 +1,28 @@
+dataset_name: place_toy_a_to_food_e_8237
+dataset_uuid: 91dd9e60-5869-4680-b8ff-a34cf797541d
+task_descriptions:
+- place_the_toy_a_and_place_in_the_food_e
+scene_type:
+- restaurant
+- office
+atomic_actions:
+- remove
+- pick
+- pull
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- pal_tiago
+end_effector_type: five_claw_gripper

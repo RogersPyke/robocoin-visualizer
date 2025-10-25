@@ -1,0 +1,27 @@
+dataset_name: move_textile_b_to_stationery_e_3618
+dataset_uuid: ee28b811-c72d-4590-a4c1-9a62ab2a8be0
+task_descriptions:
+- move_the_textile_b_and_place_in_the_stationery_e
+scene_type:
+- warehouse
+atomic_actions:
+- pick
+- insert
+- place
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_e
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- boston_tiago
+end_effector_type: two_claw_gripper

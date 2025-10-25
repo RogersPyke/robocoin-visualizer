@@ -1,0 +1,30 @@
+dataset_name: stack_toy_d_to_fruit_c_1329
+dataset_uuid: 51df2c84-8450-4c8d-9aff-73e80709389e
+task_descriptions:
+- stack_the_toy_d_and_place_in_the_fruit_c
+scene_type:
+- office
+- laboratory
+- restaurant
+atomic_actions:
+- insert
+- pull
+- flip
+- push
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.4
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

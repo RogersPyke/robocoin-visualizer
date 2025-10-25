@@ -1,0 +1,27 @@
+dataset_name: pick_textile_e_to_tool_d_4551
+dataset_uuid: d1f5b06f-a3ce-4930-a3c6-b7f84d6e22b9
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_tool_d
+scene_type:
+- home
+- laboratory
+atomic_actions:
+- pick
+- slide
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+operation_platform_height: 82.9
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

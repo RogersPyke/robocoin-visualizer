@@ -1,0 +1,27 @@
+dataset_name: arrange_kitchenware_e_to_container_a_6903
+dataset_uuid: e4cd814b-0318-4633-a90b-ebf4e4320edc
+task_descriptions:
+- arrange_the_kitchenware_e_and_place_in_the_container_a
+scene_type:
+- kitchen
+- factory
+atomic_actions:
+- pick
+- flip
+objects:
+- object_name: kitchenware_e
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

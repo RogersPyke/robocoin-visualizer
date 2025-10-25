@@ -1,0 +1,26 @@
+dataset_name: stack_fruit_b_to_tool_b_3336
+dataset_uuid: 179bcaf0-0266-46c0-8fda-8654e8e4d753
+task_descriptions:
+- stack_the_fruit_b_and_place_in_the_tool_b
+scene_type:
+- office
+atomic_actions:
+- insert
+- rotate
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

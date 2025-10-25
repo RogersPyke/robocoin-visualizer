@@ -1,0 +1,29 @@
+dataset_name: stack_tool_a_to_electronics_c_6486
+dataset_uuid: f395dc09-f27f-4834-a981-9a773e053114
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_electronics_c
+scene_type:
+- cafe
+- store
+- hospital
+atomic_actions:
+- slide
+- rotate
+- remove
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

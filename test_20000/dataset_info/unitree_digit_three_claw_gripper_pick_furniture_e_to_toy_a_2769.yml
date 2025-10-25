@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_e_to_toy_a_2769
+dataset_uuid: d8e64a8b-74d7-4a97-b291-05012a6f06ea
+task_descriptions:
+- pick_the_furniture_e_and_place_in_the_toy_a
+scene_type:
+- hospital
+- laboratory
+atomic_actions:
+- remove
+- place
+- pick
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_utensil_c_to_utensil_d_5816
+dataset_uuid: 4c6fd97f-349a-471b-85fa-0e0307f6a124
+task_descriptions:
+- arrange_the_utensil_c_and_place_in_the_utensil_d
+scene_type:
+- office
+atomic_actions:
+- grasp
+- insert
+- lift
+- pick
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- agility_spot
+end_effector_type: two_finger_gripper

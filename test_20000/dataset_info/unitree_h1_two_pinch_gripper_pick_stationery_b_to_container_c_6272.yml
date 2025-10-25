@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_b_to_container_c_6272
+dataset_uuid: 8352ecf4-4545-4544-a6e1-5efa3a3e6d42
+task_descriptions:
+- pick_the_stationery_b_and_place_in_the_container_c
+scene_type:
+- home
+- kitchen
+atomic_actions:
+- pull
+- grasp
+- rotate
+- insert
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+operation_platform_height: 82.4
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

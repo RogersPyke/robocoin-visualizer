@@ -1,0 +1,26 @@
+dataset_name: stack_furniture_a_to_furniture_d_5475
+dataset_uuid: 111d4c85-da41-4390-b9b3-8bf6c28d9185
+task_descriptions:
+- stack_the_furniture_a_and_place_in_the_furniture_d
+scene_type:
+- laboratory
+atomic_actions:
+- lower
+- pick
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.4
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

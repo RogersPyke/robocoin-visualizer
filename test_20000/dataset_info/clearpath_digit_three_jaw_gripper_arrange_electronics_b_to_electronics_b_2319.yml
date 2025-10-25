@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_b_to_electronics_b_2319
+dataset_uuid: e28cd272-be7d-4d8a-b71d-c8ecd54ef000
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_electronics_b
+scene_type:
+- cafe
+- hospital
+atomic_actions:
+- lift
+- insert
+- rotate
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.0
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

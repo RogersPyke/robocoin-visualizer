@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_a_to_fruit_b_2723
+dataset_uuid: 860315be-32a8-46a8-baac-0fac5e2b567a
+task_descriptions:
+- pick_the_fruit_a_and_place_in_the_fruit_b
+scene_type:
+- restaurant
+atomic_actions:
+- grasp
+- push
+- flip
+- lower
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

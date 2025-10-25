@@ -1,0 +1,30 @@
+dataset_name: place_furniture_b_to_kitchenware_d_2862
+dataset_uuid: 5f8aa23b-8e81-4e90-b154-63540eb7d66b
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_kitchenware_d
+scene_type:
+- hospital
+- cafe
+- factory
+atomic_actions:
+- slide
+- pull
+- insert
+- grasp
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_d
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- unitree_cassie
+end_effector_type: two_claw_gripper

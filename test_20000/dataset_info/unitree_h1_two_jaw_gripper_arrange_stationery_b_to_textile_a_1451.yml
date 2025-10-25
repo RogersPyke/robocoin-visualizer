@@ -1,0 +1,28 @@
+dataset_name: arrange_stationery_b_to_textile_a_1451
+dataset_uuid: 29e49aa5-7d4b-448b-9cd4-c7a5a487a012
+task_descriptions:
+- arrange_the_stationery_b_and_place_in_the_textile_a
+scene_type:
+- store
+atomic_actions:
+- push
+- pull
+- grasp
+- lift
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 84.6
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

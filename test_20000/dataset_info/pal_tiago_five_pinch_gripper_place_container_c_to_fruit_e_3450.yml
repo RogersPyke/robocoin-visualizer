@@ -1,0 +1,27 @@
+dataset_name: place_container_c_to_fruit_e_3450
+dataset_uuid: 34ecc500-805a-4d36-a432-b6e45a6b1eb3
+task_descriptions:
+- place_the_container_c_and_place_in_the_fruit_e
+scene_type:
+- cafe
+- factory
+atomic_actions:
+- flip
+- lift
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+operation_platform_height: 80.5
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

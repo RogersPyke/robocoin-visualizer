@@ -1,0 +1,27 @@
+dataset_name: arrange_toy_c_to_electronics_a_5671
+dataset_uuid: 74778f8b-c34c-4455-99f3-ec295bc1dc62
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_electronics_a
+scene_type:
+- kitchen
+- hospital
+atomic_actions:
+- rotate
+- flip
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.3
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: arrange_electronics_b_to_furniture_d_8037
+dataset_uuid: b16f5eda-99a2-45fd-bf3a-37274d425475
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_furniture_d
+scene_type:
+- kitchen
+- factory
+- cafe
+atomic_actions:
+- push
+- slide
+- rotate
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 86.8
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

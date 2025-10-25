@@ -1,0 +1,28 @@
+dataset_name: stack_beverage_b_to_electronics_b_2604
+dataset_uuid: 186a10df-4b96-4a5a-bf78-038e99661afb
+task_descriptions:
+- stack_the_beverage_b_and_place_in_the_electronics_b
+scene_type:
+- laboratory
+- store
+atomic_actions:
+- rotate
+- remove
+- lift
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.8
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

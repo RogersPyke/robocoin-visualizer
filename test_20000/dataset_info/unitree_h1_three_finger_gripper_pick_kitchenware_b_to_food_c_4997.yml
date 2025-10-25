@@ -1,0 +1,29 @@
+dataset_name: pick_kitchenware_b_to_food_c_4997
+dataset_uuid: 32e61e87-e36e-4ae5-8ad0-529d418da971
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_food_c
+scene_type:
+- home
+- cafe
+- factory
+atomic_actions:
+- pull
+- grasp
+- lift
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

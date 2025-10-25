@@ -1,0 +1,29 @@
+dataset_name: pick_textile_e_to_toy_a_1198
+dataset_uuid: c4232c7c-a7c9-4c28-a671-d8d58d8eba5c
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_toy_a
+scene_type:
+- cafe
+- kitchen
+atomic_actions:
+- grasp
+- pick
+- pull
+- slide
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.9
+device_model:
+- clearpath_digit
+end_effector_type: suction_cup

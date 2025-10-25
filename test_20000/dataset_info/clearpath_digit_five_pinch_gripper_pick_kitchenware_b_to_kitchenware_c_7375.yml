@@ -1,0 +1,29 @@
+dataset_name: pick_kitchenware_b_to_kitchenware_c_7375
+dataset_uuid: 2e590abd-bb52-459a-9a05-48d1354fcd45
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_kitchenware_c
+scene_type:
+- kitchen
+- hospital
+- warehouse
+atomic_actions:
+- pick
+- push
+- grasp
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.8
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

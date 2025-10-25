@@ -1,0 +1,29 @@
+dataset_name: move_tool_d_to_utensil_d_2809
+dataset_uuid: 78706ee6-596c-4126-8431-6cb0fb27f04a
+task_descriptions:
+- move_the_tool_d_and_place_in_the_utensil_d
+scene_type:
+- office
+- kitchen
+- home
+atomic_actions:
+- push
+- slide
+- lower
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.4
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

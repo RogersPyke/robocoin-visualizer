@@ -1,0 +1,29 @@
+dataset_name: arrange_food_c_to_fruit_a_3613
+dataset_uuid: 9b3f06d4-7113-4b71-859c-62cd6f710fd0
+task_descriptions:
+- arrange_the_food_c_and_place_in_the_fruit_a
+scene_type:
+- store
+- laboratory
+- home
+atomic_actions:
+- remove
+- lift
+- lower
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- clearpath_cassie
+end_effector_type: two_claw_gripper

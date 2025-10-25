@@ -1,0 +1,28 @@
+dataset_name: arrange_stationery_c_to_tool_b_8606
+dataset_uuid: 7c6d0095-a6f3-45b3-bb50-5a9766ea3b1e
+task_descriptions:
+- arrange_the_stationery_c_and_place_in_the_tool_b
+scene_type:
+- hospital
+atomic_actions:
+- flip
+- lower
+- place
+- rotate
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.3
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

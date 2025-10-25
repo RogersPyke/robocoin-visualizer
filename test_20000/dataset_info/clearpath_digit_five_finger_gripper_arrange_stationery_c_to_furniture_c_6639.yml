@@ -1,0 +1,29 @@
+dataset_name: arrange_stationery_c_to_furniture_c_6639
+dataset_uuid: 80a1b611-367b-4ccc-a67e-a90cc57e0fea
+task_descriptions:
+- arrange_the_stationery_c_and_place_in_the_furniture_c
+scene_type:
+- store
+- factory
+atomic_actions:
+- place
+- lower
+- slide
+- flip
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: move_stationery_b_to_textile_d_5221
+dataset_uuid: 3e356976-419c-48aa-b565-2186417341c6
+task_descriptions:
+- move_the_stationery_b_and_place_in_the_textile_d
+scene_type:
+- office
+atomic_actions:
+- remove
+- push
+- grasp
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- fetch_tiago
+end_effector_type: two_claw_gripper

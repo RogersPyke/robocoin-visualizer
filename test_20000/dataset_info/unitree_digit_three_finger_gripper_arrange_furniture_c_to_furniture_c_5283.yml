@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_c_to_furniture_c_5283
+dataset_uuid: ade805c4-2f73-4478-acc8-9d3353872428
+task_descriptions:
+- arrange_the_furniture_c_and_place_in_the_furniture_c
+scene_type:
+- hospital
+- laboratory
+- restaurant
+atomic_actions:
+- rotate
+- slide
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.6
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

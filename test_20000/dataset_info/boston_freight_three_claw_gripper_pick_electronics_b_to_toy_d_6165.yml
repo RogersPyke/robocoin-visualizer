@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_b_to_toy_d_6165
+dataset_uuid: 034a591d-a726-42a8-a5a6-b7ace5de156a
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_toy_d
+scene_type:
+- hospital
+- kitchen
+atomic_actions:
+- rotate
+- lift
+- grasp
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

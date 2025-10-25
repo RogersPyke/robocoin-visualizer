@@ -1,0 +1,29 @@
+dataset_name: pick_utensil_d_to_utensil_a_6534
+dataset_uuid: 5ef86ce4-e2b6-4106-b318-55100d5f533c
+task_descriptions:
+- pick_the_utensil_d_and_place_in_the_utensil_a
+scene_type:
+- warehouse
+- restaurant
+- office
+atomic_actions:
+- pull
+- insert
+- place
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.6
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

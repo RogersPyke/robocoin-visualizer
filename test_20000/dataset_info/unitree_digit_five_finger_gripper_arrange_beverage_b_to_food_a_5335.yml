@@ -1,0 +1,26 @@
+dataset_name: arrange_beverage_b_to_food_a_5335
+dataset_uuid: 994314be-9278-488e-8075-95cdd4102b1e
+task_descriptions:
+- arrange_the_beverage_b_and_place_in_the_food_a
+scene_type:
+- home
+atomic_actions:
+- place
+- lift
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

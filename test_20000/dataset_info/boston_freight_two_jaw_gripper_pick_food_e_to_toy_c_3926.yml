@@ -1,0 +1,27 @@
+dataset_name: pick_food_e_to_toy_c_3926
+dataset_uuid: 0ff5cba5-7d4a-453f-a9df-c3d9d52ee898
+task_descriptions:
+- pick_the_food_e_and_place_in_the_toy_c
+scene_type:
+- laboratory
+atomic_actions:
+- grasp
+- push
+- insert
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 73.1
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

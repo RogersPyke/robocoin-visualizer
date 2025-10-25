@@ -1,0 +1,30 @@
+dataset_name: place_beverage_d_to_fruit_a_1372
+dataset_uuid: 6742d070-f327-4bc3-ad9e-cb2207b1070b
+task_descriptions:
+- place_the_beverage_d_and_place_in_the_fruit_a
+scene_type:
+- restaurant
+- hospital
+- home
+atomic_actions:
+- slide
+- push
+- lower
+- rotate
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

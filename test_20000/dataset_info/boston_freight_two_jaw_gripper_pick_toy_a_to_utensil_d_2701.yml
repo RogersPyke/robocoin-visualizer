@@ -1,0 +1,30 @@
+dataset_name: pick_toy_a_to_utensil_d_2701
+dataset_uuid: 61a7e507-419e-4eda-a728-0ac50e9c7857
+task_descriptions:
+- pick_the_toy_a_and_place_in_the_utensil_d
+scene_type:
+- laboratory
+- hospital
+- restaurant
+atomic_actions:
+- slide
+- pull
+- pick
+- push
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

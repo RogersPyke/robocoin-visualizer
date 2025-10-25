@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_a_to_container_e_6083
+dataset_uuid: 977e49c1-d2ec-4ddd-8434-321d4e1d1bd7
+task_descriptions:
+- pick_the_furniture_a_and_place_in_the_container_e
+scene_type:
+- factory
+- cafe
+atomic_actions:
+- flip
+- pull
+- pick
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+- object_name: container_e
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

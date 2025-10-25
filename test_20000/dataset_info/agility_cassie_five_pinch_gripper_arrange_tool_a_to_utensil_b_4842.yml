@@ -1,0 +1,30 @@
+dataset_name: arrange_tool_a_to_utensil_b_4842
+dataset_uuid: 464a8186-021a-4177-a231-fbe5623a8d31
+task_descriptions:
+- arrange_the_tool_a_and_place_in_the_utensil_b
+scene_type:
+- kitchen
+- cafe
+- laboratory
+atomic_actions:
+- lift
+- remove
+- grasp
+- push
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

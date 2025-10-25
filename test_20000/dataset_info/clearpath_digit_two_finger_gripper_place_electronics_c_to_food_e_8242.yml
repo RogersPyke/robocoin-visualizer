@@ -1,0 +1,29 @@
+dataset_name: place_electronics_c_to_food_e_8242
+dataset_uuid: 9168f82e-c63a-4b45-8c3b-09633b6e3f41
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_food_e
+scene_type:
+- store
+- hospital
+- kitchen
+atomic_actions:
+- lower
+- grasp
+- rotate
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

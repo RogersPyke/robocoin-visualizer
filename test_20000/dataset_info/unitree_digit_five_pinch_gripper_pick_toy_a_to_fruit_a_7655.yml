@@ -1,0 +1,27 @@
+dataset_name: pick_toy_a_to_fruit_a_7655
+dataset_uuid: ae36b4b6-25f9-4885-bbd6-c88fc40ed1c5
+task_descriptions:
+- pick_the_toy_a_and_place_in_the_fruit_a
+scene_type:
+- office
+- hospital
+atomic_actions:
+- pull
+- place
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.6
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

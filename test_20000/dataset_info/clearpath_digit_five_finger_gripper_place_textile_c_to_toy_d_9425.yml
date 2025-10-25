@@ -1,0 +1,27 @@
+dataset_name: place_textile_c_to_toy_d_9425
+dataset_uuid: bbef56e7-54fd-463e-bb4d-15ae7831db37
+task_descriptions:
+- place_the_textile_c_and_place_in_the_toy_d
+scene_type:
+- hospital
+- home
+atomic_actions:
+- lower
+- grasp
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: move_container_e_to_kitchenware_c_9421
+dataset_uuid: a54e27c5-1ae6-470e-a2ed-6ca1d28ffe4b
+task_descriptions:
+- move_the_container_e_and_place_in_the_kitchenware_c
+scene_type:
+- home
+- factory
+atomic_actions:
+- pull
+- lift
+- pick
+- slide
+objects:
+- object_name: container_e
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- boston_atlas
+end_effector_type: three_pinch_gripper

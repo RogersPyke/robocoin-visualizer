@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_a_to_stationery_b_7639
+dataset_uuid: 78bc3078-49a0-4186-bd3f-1cc64c2a8774
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_stationery_b
+scene_type:
+- kitchen
+- hospital
+- store
+atomic_actions:
+- push
+- flip
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

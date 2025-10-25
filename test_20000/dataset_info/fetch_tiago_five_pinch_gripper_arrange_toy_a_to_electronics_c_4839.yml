@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_a_to_electronics_c_4839
+dataset_uuid: 0d1e7f6c-973a-4e64-be34-4e473d3c4dab
+task_descriptions:
+- arrange_the_toy_a_and_place_in_the_electronics_c
+scene_type:
+- factory
+- hospital
+- store
+atomic_actions:
+- remove
+- lower
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.5
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

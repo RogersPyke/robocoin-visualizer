@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_b_to_fruit_a_4776
+dataset_uuid: c89f66a6-5231-49af-a577-f8a72d3df7fd
+task_descriptions:
+- arrange_the_furniture_b_and_place_in_the_fruit_a
+scene_type:
+- kitchen
+- factory
+atomic_actions:
+- push
+- rotate
+- pull
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- unitree_h1
+end_effector_type: two_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_utensil_c_to_container_c_7910
+dataset_uuid: 0b7a3981-8e74-446b-8be2-4f84a1d96193
+task_descriptions:
+- move_the_utensil_c_and_place_in_the_container_c
+scene_type:
+- cafe
+atomic_actions:
+- lower
+- push
+- slide
+- flip
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

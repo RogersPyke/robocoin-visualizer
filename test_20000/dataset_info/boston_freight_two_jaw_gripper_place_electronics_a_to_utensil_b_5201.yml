@@ -1,0 +1,28 @@
+dataset_name: place_electronics_a_to_utensil_b_5201
+dataset_uuid: f4a89ecf-f175-4ab6-9dfe-a3638b0f4f27
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_utensil_b
+scene_type:
+- store
+- cafe
+- warehouse
+atomic_actions:
+- push
+- grasp
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

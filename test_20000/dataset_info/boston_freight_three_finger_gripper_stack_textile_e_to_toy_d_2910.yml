@@ -1,0 +1,28 @@
+dataset_name: stack_textile_e_to_toy_d_2910
+dataset_uuid: 81708101-a466-4a04-bacb-a92169e05e28
+task_descriptions:
+- stack_the_textile_e_and_place_in_the_toy_d
+scene_type:
+- warehouse
+- home
+- factory
+atomic_actions:
+- pull
+- insert
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

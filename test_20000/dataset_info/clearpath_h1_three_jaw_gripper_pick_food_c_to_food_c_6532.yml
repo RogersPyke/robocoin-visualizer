@@ -1,0 +1,27 @@
+dataset_name: pick_food_c_to_food_c_6532
+dataset_uuid: 8528269a-b0a4-436f-8486-9d0980341169
+task_descriptions:
+- pick_the_food_c_and_place_in_the_food_c
+scene_type:
+- hospital
+atomic_actions:
+- rotate
+- grasp
+- pull
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.0
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_furniture_d_to_stationery_c_7816
+dataset_uuid: 8e285748-41cf-48d9-8237-c9155f2881bd
+task_descriptions:
+- stack_the_furniture_d_and_place_in_the_stationery_c
+scene_type:
+- store
+atomic_actions:
+- push
+- lower
+- pick
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

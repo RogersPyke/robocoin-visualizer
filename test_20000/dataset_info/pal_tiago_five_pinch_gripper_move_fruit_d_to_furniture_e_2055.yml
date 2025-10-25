@@ -1,0 +1,28 @@
+dataset_name: move_fruit_d_to_furniture_e_2055
+dataset_uuid: b3e66fa5-c058-4c3b-9d9b-fd363b7457c2
+task_descriptions:
+- move_the_fruit_d_and_place_in_the_furniture_e
+scene_type:
+- cafe
+- office
+- store
+atomic_actions:
+- lift
+- remove
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.3
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

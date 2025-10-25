@@ -1,0 +1,27 @@
+dataset_name: pick_beverage_d_to_container_c_2492
+dataset_uuid: 03e3108e-90a3-41fa-917f-b40663ed4a77
+task_descriptions:
+- pick_the_beverage_d_and_place_in_the_container_c
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- slide
+- insert
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.9
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_food_e_to_stationery_b_6268
+dataset_uuid: 70d19932-daa2-4dda-9b05-8ff2a3452d2d
+task_descriptions:
+- place_the_food_e_and_place_in_the_stationery_b
+scene_type:
+- cafe
+- office
+atomic_actions:
+- lower
+- remove
+- place
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.3
+device_model:
+- boston_freight
+end_effector_type: suction_cup

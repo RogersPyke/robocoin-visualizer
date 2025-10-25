@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_a_to_beverage_e_3873
+dataset_uuid: 7183b33b-25ce-4ecd-ab2d-ef779dfa7170
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_beverage_e
+scene_type:
+- kitchen
+- factory
+atomic_actions:
+- grasp
+- push
+- remove
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

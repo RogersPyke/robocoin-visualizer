@@ -1,0 +1,29 @@
+dataset_name: move_tool_a_to_tool_a_1556
+dataset_uuid: f22c81ed-8836-4f00-817c-b34706680f39
+task_descriptions:
+- move_the_tool_a_and_place_in_the_tool_a
+scene_type:
+- restaurant
+- store
+atomic_actions:
+- place
+- grasp
+- pick
+- flip
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- clearpath_cassie
+end_effector_type: five_finger_gripper

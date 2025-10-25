@@ -1,0 +1,28 @@
+dataset_name: move_textile_c_to_food_e_6696
+dataset_uuid: 4a7d2d35-0198-43da-9439-d4ab46d94c43
+task_descriptions:
+- move_the_textile_c_and_place_in_the_food_e
+scene_type:
+- hospital
+atomic_actions:
+- insert
+- slide
+- lower
+- remove
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

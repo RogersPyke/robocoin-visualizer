@@ -1,0 +1,27 @@
+dataset_name: place_kitchenware_a_to_furniture_a_7888
+dataset_uuid: 455d497a-5c80-4fb0-826f-808b5fe9e4de
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_furniture_a
+scene_type:
+- factory
+- office
+atomic_actions:
+- place
+- slide
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

@@ -1,0 +1,30 @@
+dataset_name: move_kitchenware_b_to_utensil_a_9042
+dataset_uuid: dfab40a6-1cb8-4d7d-83f9-5cc785f5fc2e
+task_descriptions:
+- move_the_kitchenware_b_and_place_in_the_utensil_a
+scene_type:
+- restaurant
+- store
+- cafe
+atomic_actions:
+- slide
+- place
+- rotate
+- lift
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

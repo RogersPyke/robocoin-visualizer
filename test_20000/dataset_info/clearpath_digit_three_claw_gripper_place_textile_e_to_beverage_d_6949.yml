@@ -1,0 +1,28 @@
+dataset_name: place_textile_e_to_beverage_d_6949
+dataset_uuid: 59786ad6-ce0a-4b7d-8ed8-9e8a159fed83
+task_descriptions:
+- place_the_textile_e_and_place_in_the_beverage_d
+scene_type:
+- factory
+- kitchen
+atomic_actions:
+- rotate
+- insert
+- slide
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+operation_platform_height: 70.5
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

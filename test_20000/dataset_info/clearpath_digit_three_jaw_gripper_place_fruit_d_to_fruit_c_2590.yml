@@ -1,0 +1,28 @@
+dataset_name: place_fruit_d_to_fruit_c_2590
+dataset_uuid: 18c06e1a-544f-41db-b50e-989f26aa0539
+task_descriptions:
+- place_the_fruit_d_and_place_in_the_fruit_c
+scene_type:
+- office
+atomic_actions:
+- remove
+- place
+- slide
+- lower
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.3
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

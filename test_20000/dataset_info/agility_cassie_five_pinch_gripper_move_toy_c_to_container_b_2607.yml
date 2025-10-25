@@ -1,0 +1,27 @@
+dataset_name: move_toy_c_to_container_b_2607
+dataset_uuid: 56e0c443-8972-44cc-95d7-fd77aac835ac
+task_descriptions:
+- move_the_toy_c_and_place_in_the_container_b
+scene_type:
+- store
+atomic_actions:
+- lift
+- push
+- place
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

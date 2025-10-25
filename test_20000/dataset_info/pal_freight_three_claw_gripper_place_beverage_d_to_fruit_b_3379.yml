@@ -1,0 +1,28 @@
+dataset_name: place_beverage_d_to_fruit_b_3379
+dataset_uuid: 5c62d19a-5947-4270-9890-b7d0c3db6a9a
+task_descriptions:
+- place_the_beverage_d_and_place_in_the_fruit_b
+scene_type:
+- kitchen
+- laboratory
+- home
+atomic_actions:
+- flip
+- lift
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

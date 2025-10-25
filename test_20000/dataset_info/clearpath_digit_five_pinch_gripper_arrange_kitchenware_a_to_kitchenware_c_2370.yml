@@ -1,0 +1,27 @@
+dataset_name: arrange_kitchenware_a_to_kitchenware_c_2370
+dataset_uuid: 09a7c6b1-e26b-45e8-ac5f-4e2cad86d83a
+task_descriptions:
+- arrange_the_kitchenware_a_and_place_in_the_kitchenware_c
+scene_type:
+- office
+atomic_actions:
+- lift
+- push
+- pick
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

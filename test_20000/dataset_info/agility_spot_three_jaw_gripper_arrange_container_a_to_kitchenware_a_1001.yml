@@ -1,0 +1,27 @@
+dataset_name: arrange_container_a_to_kitchenware_a_1001
+dataset_uuid: 08ffea0a-04cc-4761-b7a4-ef58455b8712
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_kitchenware_a
+scene_type:
+- laboratory
+- office
+atomic_actions:
+- lift
+- lower
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.1
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

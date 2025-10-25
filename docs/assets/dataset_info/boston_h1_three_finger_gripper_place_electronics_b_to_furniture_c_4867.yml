@@ -1,0 +1,30 @@
+dataset_name: place_electronics_b_to_furniture_c_4867
+dataset_uuid: e93d0708-7cfd-4a18-8d2c-19f0be179e79
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_furniture_c
+scene_type:
+- hospital
+- office
+- restaurant
+atomic_actions:
+- lift
+- push
+- remove
+- pull
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.3
+device_model:
+- boston_h1
+end_effector_type: three_finger_gripper

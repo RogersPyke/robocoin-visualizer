@@ -1,0 +1,26 @@
+dataset_name: pick_tool_c_to_kitchenware_b_9540
+dataset_uuid: 3ee1ecba-12d1-42f3-bce9-d71642cb3474
+task_descriptions:
+- pick_the_tool_c_and_place_in_the_kitchenware_b
+scene_type:
+- cafe
+atomic_actions:
+- place
+- lower
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

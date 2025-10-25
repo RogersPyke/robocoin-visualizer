@@ -1,0 +1,28 @@
+dataset_name: place_electronics_c_to_stationery_b_9379
+dataset_uuid: ae675ee7-d5c0-4c5e-aec3-b2afabdf375b
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_stationery_b
+scene_type:
+- office
+atomic_actions:
+- lower
+- flip
+- grasp
+- insert
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.4
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

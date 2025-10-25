@@ -1,0 +1,27 @@
+dataset_name: move_utensil_b_to_furniture_e_8231
+dataset_uuid: 8fa35495-b730-4abe-a318-df1d8859cb6e
+task_descriptions:
+- move_the_utensil_b_and_place_in_the_furniture_e
+scene_type:
+- factory
+atomic_actions:
+- rotate
+- remove
+- grasp
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

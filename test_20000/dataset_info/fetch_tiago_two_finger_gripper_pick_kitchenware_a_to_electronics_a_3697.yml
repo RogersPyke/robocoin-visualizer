@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_a_to_electronics_a_3697
+dataset_uuid: 8a2a28bb-4f8e-434b-a5e9-84040a6c8862
+task_descriptions:
+- pick_the_kitchenware_a_and_place_in_the_electronics_a
+scene_type:
+- warehouse
+- office
+atomic_actions:
+- place
+- lower
+- pull
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- fetch_tiago
+end_effector_type: two_finger_gripper

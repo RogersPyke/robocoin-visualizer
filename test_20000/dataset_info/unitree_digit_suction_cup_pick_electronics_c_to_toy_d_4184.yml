@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_c_to_toy_d_4184
+dataset_uuid: 3cf5d435-5b17-4576-ab7f-b280ffcfa7d1
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_toy_d
+scene_type:
+- office
+atomic_actions:
+- insert
+- flip
+- pull
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.5
+device_model:
+- unitree_digit
+end_effector_type: suction_cup

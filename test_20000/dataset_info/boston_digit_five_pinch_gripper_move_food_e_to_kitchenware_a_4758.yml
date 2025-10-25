@@ -1,0 +1,27 @@
+dataset_name: move_food_e_to_kitchenware_a_4758
+dataset_uuid: e4543e5d-b643-4256-9a94-c6cf2489fae8
+task_descriptions:
+- move_the_food_e_and_place_in_the_kitchenware_a
+scene_type:
+- warehouse
+- cafe
+atomic_actions:
+- lower
+- push
+objects:
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

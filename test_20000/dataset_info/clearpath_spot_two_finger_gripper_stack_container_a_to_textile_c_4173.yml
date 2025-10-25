@@ -1,0 +1,30 @@
+dataset_name: stack_container_a_to_textile_c_4173
+dataset_uuid: a8d35e28-09b1-4154-9f2d-7645bb542f8a
+task_descriptions:
+- stack_the_container_a_and_place_in_the_textile_c
+scene_type:
+- store
+- home
+- cafe
+atomic_actions:
+- grasp
+- place
+- insert
+- remove
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

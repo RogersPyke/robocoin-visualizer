@@ -1,0 +1,28 @@
+dataset_name: place_utensil_c_to_furniture_b_2027
+dataset_uuid: df711f22-4d1e-4844-9efb-ec475c3e8aa5
+task_descriptions:
+- place_the_utensil_c_and_place_in_the_furniture_b
+scene_type:
+- factory
+- laboratory
+atomic_actions:
+- lift
+- flip
+- place
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

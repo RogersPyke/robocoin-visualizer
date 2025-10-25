@@ -1,0 +1,28 @@
+dataset_name: move_stationery_d_to_beverage_e_8661
+dataset_uuid: 9aad0ba1-95c5-46c3-9019-ea5204b29502
+task_descriptions:
+- move_the_stationery_d_and_place_in_the_beverage_e
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- pick
+- lift
+- rotate
+objects:
+- object_name: stationery_d
+  level1: stationery
+  level2: stationery_d
+  level3: stationery_d_sub1
+  level4: stationery_d_sub2
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.0
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_d_to_kitchenware_b_5561
+dataset_uuid: 3bc6adc8-7718-4a25-88ab-1116e8caf883
+task_descriptions:
+- stack_the_utensil_d_and_place_in_the_kitchenware_b
+scene_type:
+- office
+atomic_actions:
+- insert
+- place
+- pull
+- grasp
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.3
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

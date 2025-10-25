@@ -1,0 +1,27 @@
+dataset_name: arrange_textile_b_to_toy_d_9416
+dataset_uuid: fbdf9030-9d97-4fa8-aeb1-a23b74918816
+task_descriptions:
+- arrange_the_textile_b_and_place_in_the_toy_d
+scene_type:
+- cafe
+atomic_actions:
+- pull
+- place
+- remove
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- boston_digit
+end_effector_type: suction_cup

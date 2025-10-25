@@ -1,0 +1,29 @@
+dataset_name: place_kitchenware_c_to_utensil_a_9486
+dataset_uuid: 0f026c94-3873-421f-a1f6-d97061df18ce
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_utensil_a
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- lift
+- slide
+- grasp
+- flip
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

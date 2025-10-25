@@ -1,0 +1,29 @@
+dataset_name: place_tool_b_to_textile_e_4962
+dataset_uuid: 85900c3a-07c8-44e4-8bc7-7906ebfce97d
+task_descriptions:
+- place_the_tool_b_and_place_in_the_textile_e
+scene_type:
+- restaurant
+- kitchen
+- cafe
+atomic_actions:
+- flip
+- slide
+- lift
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

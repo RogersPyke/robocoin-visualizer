@@ -1,0 +1,29 @@
+dataset_name: move_beverage_b_to_utensil_a_9699
+dataset_uuid: f71fffba-276c-4f66-a47f-411c86f0951d
+task_descriptions:
+- move_the_beverage_b_and_place_in_the_utensil_a
+scene_type:
+- kitchen
+- laboratory
+atomic_actions:
+- pick
+- lift
+- slide
+- lower
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.0
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

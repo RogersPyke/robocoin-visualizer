@@ -1,0 +1,28 @@
+dataset_name: move_electronics_a_to_tool_d_6433
+dataset_uuid: e55d5dd1-a252-4dbc-855c-2e1ae600f1c8
+task_descriptions:
+- move_the_electronics_a_and_place_in_the_tool_d
+scene_type:
+- home
+- factory
+- warehouse
+atomic_actions:
+- pull
+- lift
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

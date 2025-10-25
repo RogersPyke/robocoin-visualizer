@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_a_to_toy_a_3206
+dataset_uuid: 20c6768e-698b-48b6-b11f-7237f2cd6223
+task_descriptions:
+- pick_the_kitchenware_a_and_place_in_the_toy_a
+scene_type:
+- warehouse
+- restaurant
+- factory
+atomic_actions:
+- grasp
+- slide
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.0
+device_model:
+- agility_h1
+end_effector_type: two_claw_gripper

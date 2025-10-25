@@ -1,0 +1,28 @@
+dataset_name: place_tool_b_to_furniture_b_3690
+dataset_uuid: f1a1ec19-570f-459c-9ed5-3a93c8def4bc
+task_descriptions:
+- place_the_tool_b_and_place_in_the_furniture_b
+scene_type:
+- warehouse
+- factory
+atomic_actions:
+- rotate
+- flip
+- insert
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.1
+device_model:
+- unitree_g1
+end_effector_type: five_finger_gripper

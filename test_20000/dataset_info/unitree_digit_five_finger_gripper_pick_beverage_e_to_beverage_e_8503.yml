@@ -1,0 +1,29 @@
+dataset_name: pick_beverage_e_to_beverage_e_8503
+dataset_uuid: e4038925-15c5-4d4d-8880-2091b18c2164
+task_descriptions:
+- pick_the_beverage_e_and_place_in_the_beverage_e
+scene_type:
+- restaurant
+- cafe
+- laboratory
+atomic_actions:
+- push
+- lift
+- remove
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.4
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

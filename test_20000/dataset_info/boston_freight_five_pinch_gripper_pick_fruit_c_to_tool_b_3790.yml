@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_c_to_tool_b_3790
+dataset_uuid: 01196fd2-c8b2-496c-92fd-000c8555e0de
+task_descriptions:
+- pick_the_fruit_c_and_place_in_the_tool_b
+scene_type:
+- home
+- factory
+atomic_actions:
+- flip
+- remove
+- insert
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 77.4
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_stationery_c_to_container_c_3935
+dataset_uuid: 21176b6d-a227-4686-a7f0-21d42d6ddbc5
+task_descriptions:
+- arrange_the_stationery_c_and_place_in_the_container_c
+scene_type:
+- factory
+- cafe
+- hospital
+atomic_actions:
+- grasp
+- lower
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+operation_platform_height: 71.6
+device_model:
+- boston_h1
+end_effector_type: two_claw_gripper

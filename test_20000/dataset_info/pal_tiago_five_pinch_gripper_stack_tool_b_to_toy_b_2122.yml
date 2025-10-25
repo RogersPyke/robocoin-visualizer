@@ -1,0 +1,29 @@
+dataset_name: stack_tool_b_to_toy_b_2122
+dataset_uuid: fc3789c4-1b7a-45a8-bb56-949a1e6cc8c3
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_toy_b
+scene_type:
+- store
+- laboratory
+- kitchen
+atomic_actions:
+- pick
+- slide
+- lower
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.8
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

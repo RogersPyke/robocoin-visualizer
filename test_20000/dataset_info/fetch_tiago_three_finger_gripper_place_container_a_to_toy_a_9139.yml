@@ -1,0 +1,29 @@
+dataset_name: place_container_a_to_toy_a_9139
+dataset_uuid: 8b97f644-ff20-4be3-b3c4-01faaebdbda6
+task_descriptions:
+- place_the_container_a_and_place_in_the_toy_a
+scene_type:
+- restaurant
+- kitchen
+atomic_actions:
+- flip
+- rotate
+- push
+- place
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.4
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

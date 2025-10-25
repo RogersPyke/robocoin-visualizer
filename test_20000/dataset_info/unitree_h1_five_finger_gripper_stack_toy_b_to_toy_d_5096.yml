@@ -1,0 +1,27 @@
+dataset_name: stack_toy_b_to_toy_d_5096
+dataset_uuid: 33c667ca-6d3d-4b31-8558-b0d715b7c70b
+task_descriptions:
+- stack_the_toy_b_and_place_in_the_toy_d
+scene_type:
+- kitchen
+atomic_actions:
+- lift
+- insert
+- pick
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.1
+device_model:
+- unitree_h1
+end_effector_type: five_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_beverage_e_to_furniture_e_2991
+dataset_uuid: d98fbadc-13c0-4207-b945-bac6bb59260d
+task_descriptions:
+- pick_the_beverage_e_and_place_in_the_furniture_e
+scene_type:
+- restaurant
+- cafe
+atomic_actions:
+- pull
+- push
+- slide
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.4
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

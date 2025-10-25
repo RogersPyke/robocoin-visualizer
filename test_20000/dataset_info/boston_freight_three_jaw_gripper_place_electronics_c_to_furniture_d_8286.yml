@@ -1,0 +1,28 @@
+dataset_name: place_electronics_c_to_furniture_d_8286
+dataset_uuid: 051dff60-81be-4678-98e2-f55f228e5153
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_furniture_d
+scene_type:
+- home
+atomic_actions:
+- grasp
+- flip
+- place
+- remove
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.9
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

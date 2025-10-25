@@ -1,0 +1,28 @@
+dataset_name: move_stationery_a_to_kitchenware_b_4887
+dataset_uuid: 3ed5011e-1f3e-4e13-8893-b9fbe7823966
+task_descriptions:
+- move_the_stationery_a_and_place_in_the_kitchenware_b
+scene_type:
+- home
+- hospital
+- store
+atomic_actions:
+- remove
+- flip
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.4
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

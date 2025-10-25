@@ -1,0 +1,29 @@
+dataset_name: pick_textile_a_to_beverage_d_4672
+dataset_uuid: 305b637c-b848-4a2e-9bc5-bf1203c79370
+task_descriptions:
+- pick_the_textile_a_and_place_in_the_beverage_d
+scene_type:
+- factory
+- kitchen
+- home
+atomic_actions:
+- place
+- insert
+- remove
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.9
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

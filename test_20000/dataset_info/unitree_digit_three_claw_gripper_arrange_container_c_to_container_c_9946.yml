@@ -1,0 +1,28 @@
+dataset_name: arrange_container_c_to_container_c_9946
+dataset_uuid: e967f526-3524-450c-bf41-652984994df8
+task_descriptions:
+- arrange_the_container_c_and_place_in_the_container_c
+scene_type:
+- laboratory
+- office
+atomic_actions:
+- pull
+- rotate
+- lift
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.3
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

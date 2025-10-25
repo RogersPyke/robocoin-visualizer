@@ -1,0 +1,27 @@
+dataset_name: pick_tool_a_to_tool_b_5066
+dataset_uuid: 662bba3d-5f5a-44a8-a1e7-443096e7af14
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_tool_b
+scene_type:
+- laboratory
+atomic_actions:
+- push
+- lift
+- remove
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_fruit_b_to_electronics_b_5848
+dataset_uuid: 14a6de9f-57a5-4e59-aded-08daf1d9b4b0
+task_descriptions:
+- stack_the_fruit_b_and_place_in_the_electronics_b
+scene_type:
+- store
+atomic_actions:
+- place
+- insert
+- grasp
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

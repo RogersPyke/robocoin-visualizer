@@ -1,0 +1,28 @@
+dataset_name: stack_beverage_b_to_textile_a_1042
+dataset_uuid: 58107b05-f275-48dd-9186-ab85bac42068
+task_descriptions:
+- stack_the_beverage_b_and_place_in_the_textile_a
+scene_type:
+- home
+- factory
+- warehouse
+atomic_actions:
+- rotate
+- pull
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

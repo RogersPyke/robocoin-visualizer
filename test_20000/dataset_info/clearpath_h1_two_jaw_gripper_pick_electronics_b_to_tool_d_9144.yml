@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_b_to_tool_d_9144
+dataset_uuid: eec8a423-3d76-49cf-a48c-a097f8436b05
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_tool_d
+scene_type:
+- laboratory
+atomic_actions:
+- slide
+- flip
+- push
+- lift
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- clearpath_h1
+end_effector_type: two_jaw_gripper

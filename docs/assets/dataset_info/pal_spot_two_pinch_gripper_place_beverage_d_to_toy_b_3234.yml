@@ -1,0 +1,28 @@
+dataset_name: place_beverage_d_to_toy_b_3234
+dataset_uuid: 6e99191d-629b-4ddc-bd78-978584556cc7
+task_descriptions:
+- place_the_beverage_d_and_place_in_the_toy_b
+scene_type:
+- home
+atomic_actions:
+- grasp
+- insert
+- slide
+- pull
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- pal_spot
+end_effector_type: two_pinch_gripper

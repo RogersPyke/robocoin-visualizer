@@ -1,0 +1,28 @@
+dataset_name: place_toy_a_to_toy_c_6548
+dataset_uuid: 1534971e-0fed-4b65-92ef-07155c7ec759
+task_descriptions:
+- place_the_toy_a_and_place_in_the_toy_c
+scene_type:
+- factory
+- kitchen
+- home
+atomic_actions:
+- lift
+- lower
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 70.5
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_kitchenware_b_to_utensil_d_7373
+dataset_uuid: 422e25e2-023c-4dae-a22d-b773a65f0926
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_utensil_d
+scene_type:
+- factory
+atomic_actions:
+- remove
+- lower
+- rotate
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.9
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

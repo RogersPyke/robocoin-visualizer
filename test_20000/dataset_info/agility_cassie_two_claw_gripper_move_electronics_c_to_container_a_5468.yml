@@ -1,0 +1,26 @@
+dataset_name: move_electronics_c_to_container_a_5468
+dataset_uuid: cdfa771c-b89b-440b-a5d0-bc0758ed8d8a
+task_descriptions:
+- move_the_electronics_c_and_place_in_the_container_a
+scene_type:
+- factory
+atomic_actions:
+- place
+- pick
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.8
+device_model:
+- agility_cassie
+end_effector_type: two_claw_gripper

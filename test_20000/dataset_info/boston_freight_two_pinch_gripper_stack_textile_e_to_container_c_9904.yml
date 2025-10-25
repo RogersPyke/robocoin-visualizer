@@ -1,0 +1,28 @@
+dataset_name: stack_textile_e_to_container_c_9904
+dataset_uuid: fc3cb004-c9ae-4f50-b3d9-cf7a097f4057
+task_descriptions:
+- stack_the_textile_e_and_place_in_the_container_c
+scene_type:
+- kitchen
+atomic_actions:
+- pull
+- grasp
+- push
+- remove
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

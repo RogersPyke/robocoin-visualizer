@@ -1,0 +1,29 @@
+dataset_name: pick_fruit_e_to_fruit_d_3884
+dataset_uuid: 4003302a-0bc1-4c80-9516-d38d205110d0
+task_descriptions:
+- pick_the_fruit_e_and_place_in_the_fruit_d
+scene_type:
+- warehouse
+- office
+- factory
+atomic_actions:
+- remove
+- push
+- pull
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

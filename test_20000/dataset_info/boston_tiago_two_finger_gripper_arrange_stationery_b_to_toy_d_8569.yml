@@ -1,0 +1,28 @@
+dataset_name: arrange_stationery_b_to_toy_d_8569
+dataset_uuid: 5372c157-8310-469f-be62-c6ed3d4aae1d
+task_descriptions:
+- arrange_the_stationery_b_and_place_in_the_toy_d
+scene_type:
+- cafe
+- restaurant
+atomic_actions:
+- place
+- remove
+- grasp
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+operation_platform_height: 85.2
+device_model:
+- boston_tiago
+end_effector_type: two_finger_gripper

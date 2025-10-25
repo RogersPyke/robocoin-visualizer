@@ -1,0 +1,28 @@
+dataset_name: pick_beverage_b_to_textile_a_6420
+dataset_uuid: 2f250331-f1a2-4d31-b915-72ef3fe0d8a9
+task_descriptions:
+- pick_the_beverage_b_and_place_in_the_textile_a
+scene_type:
+- factory
+- home
+- store
+atomic_actions:
+- grasp
+- push
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 75.7
+device_model:
+- pal_tiago
+end_effector_type: suction_cup

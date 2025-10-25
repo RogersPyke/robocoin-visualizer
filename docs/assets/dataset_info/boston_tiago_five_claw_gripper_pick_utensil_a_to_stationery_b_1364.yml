@@ -1,0 +1,29 @@
+dataset_name: pick_utensil_a_to_stationery_b_1364
+dataset_uuid: 7202a4ef-6f06-44f8-8b9e-e8bfec6bbfa0
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_stationery_b
+scene_type:
+- cafe
+- hospital
+- laboratory
+atomic_actions:
+- push
+- remove
+- pick
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.4
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

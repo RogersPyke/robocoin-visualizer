@@ -1,0 +1,28 @@
+dataset_name: place_toy_b_to_electronics_b_7570
+dataset_uuid: 84607fa3-fe86-4693-912e-4ab82df07abc
+task_descriptions:
+- place_the_toy_b_and_place_in_the_electronics_b
+scene_type:
+- laboratory
+- factory
+- cafe
+atomic_actions:
+- grasp
+- place
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.4
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

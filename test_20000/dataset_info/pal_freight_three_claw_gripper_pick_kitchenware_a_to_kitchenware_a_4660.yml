@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_a_to_kitchenware_a_4660
+dataset_uuid: 7dec5582-8321-4089-bfe8-66e193417980
+task_descriptions:
+- pick_the_kitchenware_a_and_place_in_the_kitchenware_a
+scene_type:
+- kitchen
+- office
+- store
+atomic_actions:
+- insert
+- lower
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.5
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

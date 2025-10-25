@@ -1,0 +1,30 @@
+dataset_name: move_fruit_a_to_beverage_c_3056
+dataset_uuid: 7c7be79e-b154-49d1-80bc-b421edd20453
+task_descriptions:
+- move_the_fruit_a_and_place_in_the_beverage_c
+scene_type:
+- cafe
+- restaurant
+- kitchen
+atomic_actions:
+- insert
+- rotate
+- lift
+- place
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.2
+device_model:
+- pal_freight
+end_effector_type: five_finger_gripper

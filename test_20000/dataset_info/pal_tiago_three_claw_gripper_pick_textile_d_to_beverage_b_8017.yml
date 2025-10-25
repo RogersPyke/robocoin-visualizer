@@ -1,0 +1,27 @@
+dataset_name: pick_textile_d_to_beverage_b_8017
+dataset_uuid: 484b31fd-0947-416b-960e-7a9504c56928
+task_descriptions:
+- pick_the_textile_d_and_place_in_the_beverage_b
+scene_type:
+- restaurant
+- home
+atomic_actions:
+- push
+- pull
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.2
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_c_to_toy_d_3841
+dataset_uuid: d531a8d4-0bc0-4b9f-939c-acb42ca3cef8
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_toy_d
+scene_type:
+- store
+- home
+- cafe
+atomic_actions:
+- place
+- lower
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+operation_platform_height: 85.0
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

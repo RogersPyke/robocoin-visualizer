@@ -1,0 +1,27 @@
+dataset_name: place_food_d_to_beverage_b_4221
+dataset_uuid: 0ae1914d-79df-4322-80b3-cbbc6d6f0717
+task_descriptions:
+- place_the_food_d_and_place_in_the_beverage_b
+scene_type:
+- store
+atomic_actions:
+- lift
+- push
+- pull
+objects:
+- object_name: food_d
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.0
+device_model:
+- unitree_h1
+end_effector_type: two_claw_gripper

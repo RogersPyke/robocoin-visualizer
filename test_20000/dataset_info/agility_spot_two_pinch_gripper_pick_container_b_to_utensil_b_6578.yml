@@ -1,0 +1,30 @@
+dataset_name: pick_container_b_to_utensil_b_6578
+dataset_uuid: cc531cae-76e9-4a4c-9202-c5d76e0bf2d7
+task_descriptions:
+- pick_the_container_b_and_place_in_the_utensil_b
+scene_type:
+- store
+- restaurant
+- kitchen
+atomic_actions:
+- remove
+- rotate
+- flip
+- pull
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

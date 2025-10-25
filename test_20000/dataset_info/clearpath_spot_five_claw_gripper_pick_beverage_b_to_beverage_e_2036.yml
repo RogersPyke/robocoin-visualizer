@@ -1,0 +1,26 @@
+dataset_name: pick_beverage_b_to_beverage_e_2036
+dataset_uuid: fd7dbd83-e22a-4c92-8421-428f191bf704
+task_descriptions:
+- pick_the_beverage_b_and_place_in_the_beverage_e
+scene_type:
+- warehouse
+atomic_actions:
+- grasp
+- slide
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.1
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

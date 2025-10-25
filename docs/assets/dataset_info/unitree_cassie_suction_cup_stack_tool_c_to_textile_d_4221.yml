@@ -1,0 +1,28 @@
+dataset_name: stack_tool_c_to_textile_d_4221
+dataset_uuid: 40e750aa-10b8-4122-aa89-4f7c96d43dc0
+task_descriptions:
+- stack_the_tool_c_and_place_in_the_textile_d
+scene_type:
+- restaurant
+- kitchen
+- warehouse
+atomic_actions:
+- grasp
+- insert
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.4
+device_model:
+- unitree_cassie
+end_effector_type: suction_cup

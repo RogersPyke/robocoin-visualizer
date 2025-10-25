@@ -1,0 +1,26 @@
+dataset_name: pick_textile_d_to_tool_b_1279
+dataset_uuid: f7e4fd81-f094-4b28-bc81-6b42668aeaed
+task_descriptions:
+- pick_the_textile_d_and_place_in_the_tool_b
+scene_type:
+- cafe
+atomic_actions:
+- rotate
+- push
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.3
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

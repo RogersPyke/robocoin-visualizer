@@ -1,0 +1,30 @@
+dataset_name: move_tool_c_to_container_a_8069
+dataset_uuid: 470f1ebc-8b9f-4edf-b4f5-b9e2361cd3c4
+task_descriptions:
+- move_the_tool_c_and_place_in_the_container_a
+scene_type:
+- hospital
+- warehouse
+- office
+atomic_actions:
+- remove
+- slide
+- rotate
+- lower
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

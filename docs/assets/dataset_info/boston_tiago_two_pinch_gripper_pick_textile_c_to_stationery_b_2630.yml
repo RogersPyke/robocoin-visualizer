@@ -1,0 +1,30 @@
+dataset_name: pick_textile_c_to_stationery_b_2630
+dataset_uuid: 9a63978b-d106-4d0a-8ece-a80a4144a9ae
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_stationery_b
+scene_type:
+- cafe
+- home
+- factory
+atomic_actions:
+- push
+- grasp
+- remove
+- insert
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

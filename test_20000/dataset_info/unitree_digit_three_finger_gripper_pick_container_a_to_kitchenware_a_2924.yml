@@ -1,0 +1,26 @@
+dataset_name: pick_container_a_to_kitchenware_a_2924
+dataset_uuid: 827693c6-1e14-459c-9dca-86af75556bd9
+task_descriptions:
+- pick_the_container_a_and_place_in_the_kitchenware_a
+scene_type:
+- store
+atomic_actions:
+- insert
+- lower
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.1
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

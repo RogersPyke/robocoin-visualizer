@@ -1,0 +1,27 @@
+dataset_name: arrange_container_e_to_fruit_a_1993
+dataset_uuid: 87efb721-cae1-4e6b-a15d-fff5b5c5befc
+task_descriptions:
+- arrange_the_container_e_and_place_in_the_fruit_a
+scene_type:
+- warehouse
+- laboratory
+atomic_actions:
+- grasp
+- lower
+objects:
+- object_name: container_e
+  level1: container
+  level2: container_e
+  level3: container_e_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.1
+device_model:
+- unitree_tiago
+end_effector_type: five_finger_gripper

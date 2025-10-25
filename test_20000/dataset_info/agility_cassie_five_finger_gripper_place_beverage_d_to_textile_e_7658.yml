@@ -1,0 +1,27 @@
+dataset_name: place_beverage_d_to_textile_e_7658
+dataset_uuid: 3c7595bd-eb97-4a88-9028-495d3917aed1
+task_descriptions:
+- place_the_beverage_d_and_place_in_the_textile_e
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- lift
+- remove
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.1
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

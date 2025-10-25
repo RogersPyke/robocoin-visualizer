@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_a_to_textile_a_3127
+dataset_uuid: 64173c84-32e9-4939-b82b-51c82c8c083a
+task_descriptions:
+- arrange_the_textile_a_and_place_in_the_textile_a
+scene_type:
+- home
+atomic_actions:
+- insert
+- lift
+- remove
+- push
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.3
+device_model:
+- agility_tiago
+end_effector_type: suction_cup

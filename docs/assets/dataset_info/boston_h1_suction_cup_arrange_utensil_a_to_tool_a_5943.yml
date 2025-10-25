@@ -1,0 +1,28 @@
+dataset_name: arrange_utensil_a_to_tool_a_5943
+dataset_uuid: 9889f287-0348-4aeb-825f-ad9caeadbde0
+task_descriptions:
+- arrange_the_utensil_a_and_place_in_the_tool_a
+scene_type:
+- hospital
+- home
+atomic_actions:
+- slide
+- remove
+- pull
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+operation_platform_height: 90.0
+device_model:
+- boston_h1
+end_effector_type: suction_cup

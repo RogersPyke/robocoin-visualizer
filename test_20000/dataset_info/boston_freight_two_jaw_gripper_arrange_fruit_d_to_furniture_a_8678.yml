@@ -1,0 +1,30 @@
+dataset_name: arrange_fruit_d_to_furniture_a_8678
+dataset_uuid: 6e5e73fa-951c-4c29-8c6a-e68f3375af31
+task_descriptions:
+- arrange_the_fruit_d_and_place_in_the_furniture_a
+scene_type:
+- warehouse
+- laboratory
+- restaurant
+atomic_actions:
+- push
+- lower
+- remove
+- insert
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

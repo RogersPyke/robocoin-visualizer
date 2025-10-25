@@ -1,0 +1,28 @@
+dataset_name: arrange_kitchenware_a_to_fruit_c_8030
+dataset_uuid: a7ef2629-fab6-4ea1-bab4-b6073aba44b6
+task_descriptions:
+- arrange_the_kitchenware_a_and_place_in_the_fruit_c
+scene_type:
+- restaurant
+- hospital
+atomic_actions:
+- insert
+- lift
+- pull
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.1
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

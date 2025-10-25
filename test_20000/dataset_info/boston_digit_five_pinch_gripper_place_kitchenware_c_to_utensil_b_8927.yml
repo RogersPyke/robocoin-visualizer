@@ -1,0 +1,30 @@
+dataset_name: place_kitchenware_c_to_utensil_b_8927
+dataset_uuid: 6bbb7981-6ff3-4905-a1f0-1125519ad062
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_utensil_b
+scene_type:
+- cafe
+- restaurant
+- factory
+atomic_actions:
+- lift
+- pick
+- lower
+- remove
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.6
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

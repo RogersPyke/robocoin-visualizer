@@ -1,0 +1,29 @@
+dataset_name: place_fruit_c_to_textile_e_9306
+dataset_uuid: 72716f52-71c3-4364-8863-3c5289b70e94
+task_descriptions:
+- place_the_fruit_c_and_place_in_the_textile_e
+scene_type:
+- kitchen
+- cafe
+atomic_actions:
+- grasp
+- remove
+- lift
+- place
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.1
+device_model:
+- clearpath_h1
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_b_to_utensil_b_8630
+dataset_uuid: 5e787050-a7d4-4160-ba58-5ca29ee7b059
+task_descriptions:
+- arrange_the_textile_b_and_place_in_the_utensil_b
+scene_type:
+- factory
+- home
+atomic_actions:
+- grasp
+- slide
+- flip
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 70.3
+device_model:
+- clearpath_h1
+end_effector_type: two_jaw_gripper

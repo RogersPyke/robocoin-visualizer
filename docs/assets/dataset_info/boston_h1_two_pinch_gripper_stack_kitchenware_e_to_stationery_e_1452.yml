@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_e_to_stationery_e_1452
+dataset_uuid: c88b884e-be70-466f-9af1-21d844699146
+task_descriptions:
+- stack_the_kitchenware_e_and_place_in_the_stationery_e
+scene_type:
+- store
+- home
+atomic_actions:
+- push
+- pull
+- insert
+objects:
+- object_name: kitchenware_e
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_e
+  level1: stationery
+  level2: stationery_e
+  level3: stationery_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- boston_h1
+end_effector_type: two_pinch_gripper

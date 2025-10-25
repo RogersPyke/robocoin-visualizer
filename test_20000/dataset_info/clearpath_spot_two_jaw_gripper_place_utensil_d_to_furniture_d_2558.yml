@@ -1,0 +1,28 @@
+dataset_name: place_utensil_d_to_furniture_d_2558
+dataset_uuid: 1a5dea8e-4363-46dd-9d8f-3173d54beec7
+task_descriptions:
+- place_the_utensil_d_and_place_in_the_furniture_d
+scene_type:
+- warehouse
+- kitchen
+atomic_actions:
+- place
+- grasp
+- lower
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.9
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

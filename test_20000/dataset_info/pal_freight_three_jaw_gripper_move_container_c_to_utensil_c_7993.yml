@@ -1,0 +1,30 @@
+dataset_name: move_container_c_to_utensil_c_7993
+dataset_uuid: 0ca70e15-2cf6-499a-a3dc-9c078ee569ba
+task_descriptions:
+- move_the_container_c_and_place_in_the_utensil_c
+scene_type:
+- store
+- kitchen
+- office
+atomic_actions:
+- lift
+- grasp
+- rotate
+- slide
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

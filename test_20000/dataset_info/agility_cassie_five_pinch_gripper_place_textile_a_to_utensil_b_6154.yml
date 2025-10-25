@@ -1,0 +1,26 @@
+dataset_name: place_textile_a_to_utensil_b_6154
+dataset_uuid: e53dff46-1fd6-4cd5-8905-12b45ccd76f5
+task_descriptions:
+- place_the_textile_a_and_place_in_the_utensil_b
+scene_type:
+- home
+atomic_actions:
+- place
+- pull
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

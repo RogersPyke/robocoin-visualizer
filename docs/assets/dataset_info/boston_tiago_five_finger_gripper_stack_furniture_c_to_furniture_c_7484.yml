@@ -1,0 +1,29 @@
+dataset_name: stack_furniture_c_to_furniture_c_7484
+dataset_uuid: 36a3d79f-5d46-44d5-aa19-dd2fa5186529
+task_descriptions:
+- stack_the_furniture_c_and_place_in_the_furniture_c
+scene_type:
+- office
+- hospital
+atomic_actions:
+- slide
+- insert
+- flip
+- lower
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

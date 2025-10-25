@@ -1,0 +1,28 @@
+dataset_name: stack_container_a_to_food_b_5276
+dataset_uuid: de5de420-aab4-4a41-ac3c-adf17d1fd851
+task_descriptions:
+- stack_the_container_a_and_place_in_the_food_b
+scene_type:
+- office
+- warehouse
+atomic_actions:
+- flip
+- insert
+- push
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- unitree_cassie
+end_effector_type: five_claw_gripper

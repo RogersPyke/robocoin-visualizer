@@ -1,0 +1,29 @@
+dataset_name: move_fruit_a_to_tool_b_9950
+dataset_uuid: 27e151d5-b09c-4b96-95d7-615fa6b35be9
+task_descriptions:
+- move_the_fruit_a_and_place_in_the_tool_b
+scene_type:
+- cafe
+- store
+atomic_actions:
+- pull
+- flip
+- slide
+- place
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

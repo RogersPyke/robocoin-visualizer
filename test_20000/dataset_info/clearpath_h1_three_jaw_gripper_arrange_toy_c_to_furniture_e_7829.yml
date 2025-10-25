@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_c_to_furniture_e_7829
+dataset_uuid: c67cebc6-8c5c-4e21-96df-e02575128fcb
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_furniture_e
+scene_type:
+- kitchen
+- cafe
+atomic_actions:
+- place
+- push
+- lift
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

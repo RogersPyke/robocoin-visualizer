@@ -1,0 +1,26 @@
+dataset_name: stack_fruit_a_to_container_b_6446
+dataset_uuid: a684e3e1-2b20-46e2-a6fa-433d4535bce3
+task_descriptions:
+- stack_the_fruit_a_and_place_in_the_container_b
+scene_type:
+- office
+atomic_actions:
+- slide
+- lift
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

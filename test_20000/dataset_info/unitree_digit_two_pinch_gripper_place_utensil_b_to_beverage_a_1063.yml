@@ -1,0 +1,29 @@
+dataset_name: place_utensil_b_to_beverage_a_1063
+dataset_uuid: f0c068d0-e0ae-4555-8e30-09c26f9fe67e
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_beverage_a
+scene_type:
+- office
+- warehouse
+- store
+atomic_actions:
+- remove
+- slide
+- insert
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

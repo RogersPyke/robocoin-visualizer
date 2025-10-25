@@ -1,0 +1,28 @@
+dataset_name: pick_container_a_to_toy_d_3862
+dataset_uuid: f0b236ef-8594-416e-9728-c2e4bf2f604b
+task_descriptions:
+- pick_the_container_a_and_place_in_the_toy_d
+scene_type:
+- warehouse
+- cafe
+atomic_actions:
+- insert
+- grasp
+- remove
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

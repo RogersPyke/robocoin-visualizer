@@ -1,0 +1,28 @@
+dataset_name: arrange_food_b_to_furniture_e_7005
+dataset_uuid: 72f1d43a-7d4d-44fe-81d6-064bce47e542
+task_descriptions:
+- arrange_the_food_b_and_place_in_the_furniture_e
+scene_type:
+- cafe
+- warehouse
+- kitchen
+atomic_actions:
+- rotate
+- pick
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: move_container_b_to_food_e_7998
+dataset_uuid: 458381ef-fd83-4988-9f8e-f5b9b624f729
+task_descriptions:
+- move_the_container_b_and_place_in_the_food_e
+scene_type:
+- office
+- store
+- hospital
+atomic_actions:
+- lift
+- pick
+- push
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

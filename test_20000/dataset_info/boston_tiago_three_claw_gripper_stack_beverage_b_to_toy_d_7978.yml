@@ -1,0 +1,27 @@
+dataset_name: stack_beverage_b_to_toy_d_7978
+dataset_uuid: 3d9c8dad-af4b-46a7-b543-fac6b4652f2d
+task_descriptions:
+- stack_the_beverage_b_and_place_in_the_toy_d
+scene_type:
+- laboratory
+atomic_actions:
+- lower
+- insert
+- remove
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.3
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

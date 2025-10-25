@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_d_to_furniture_c_6109
+dataset_uuid: 3c42db86-775e-4b5b-b6aa-e63aeeaf3c87
+task_descriptions:
+- arrange_the_textile_d_and_place_in_the_furniture_c
+scene_type:
+- home
+- cafe
+atomic_actions:
+- pick
+- slide
+- insert
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- agility_h1
+end_effector_type: five_finger_gripper

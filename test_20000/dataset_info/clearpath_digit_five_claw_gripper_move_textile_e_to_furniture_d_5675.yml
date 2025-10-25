@@ -1,0 +1,27 @@
+dataset_name: move_textile_e_to_furniture_d_5675
+dataset_uuid: 24119dee-628a-4c4d-a6d3-58e0383beb18
+task_descriptions:
+- move_the_textile_e_and_place_in_the_furniture_d
+scene_type:
+- factory
+- store
+atomic_actions:
+- flip
+- pick
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.1
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

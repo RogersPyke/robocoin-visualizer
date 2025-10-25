@@ -1,0 +1,27 @@
+dataset_name: place_kitchenware_a_to_container_a_3870
+dataset_uuid: db4177ed-7a52-4e7e-9af5-8e70651b2e4d
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_container_a
+scene_type:
+- factory
+atomic_actions:
+- slide
+- place
+- pull
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- boston_digit
+end_effector_type: suction_cup

@@ -1,0 +1,26 @@
+dataset_name: pick_utensil_a_to_kitchenware_b_1073
+dataset_uuid: 3d35d47a-65d1-409f-a0de-1a13a82918db
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_kitchenware_b
+scene_type:
+- laboratory
+atomic_actions:
+- push
+- grasp
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- clearpath_h1
+end_effector_type: five_finger_gripper

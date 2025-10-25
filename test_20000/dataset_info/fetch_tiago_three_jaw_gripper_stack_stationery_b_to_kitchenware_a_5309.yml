@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_b_to_kitchenware_a_5309
+dataset_uuid: 1a807d4e-96cc-4566-a0d5-715e2288f1d6
+task_descriptions:
+- stack_the_stationery_b_and_place_in_the_kitchenware_a
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- push
+- rotate
+- remove
+- place
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.7
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

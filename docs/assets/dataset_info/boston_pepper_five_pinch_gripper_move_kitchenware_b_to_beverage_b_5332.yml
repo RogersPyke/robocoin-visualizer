@@ -1,0 +1,29 @@
+dataset_name: move_kitchenware_b_to_beverage_b_5332
+dataset_uuid: ee633c3f-45be-4d3f-b037-99401a7186c0
+task_descriptions:
+- move_the_kitchenware_b_and_place_in_the_beverage_b
+scene_type:
+- restaurant
+- hospital
+- kitchen
+atomic_actions:
+- place
+- pull
+- lift
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.7
+device_model:
+- boston_pepper
+end_effector_type: five_pinch_gripper

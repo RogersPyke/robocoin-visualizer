@@ -1,0 +1,28 @@
+dataset_name: place_textile_e_to_fruit_d_6980
+dataset_uuid: 30c327ba-d9aa-465e-a065-e9103197f8e2
+task_descriptions:
+- place_the_textile_e_and_place_in_the_fruit_d
+scene_type:
+- kitchen
+- restaurant
+- factory
+atomic_actions:
+- remove
+- push
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.0
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

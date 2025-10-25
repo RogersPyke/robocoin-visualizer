@@ -1,0 +1,29 @@
+dataset_name: move_fruit_a_to_container_b_6112
+dataset_uuid: 202ae460-40b1-49a8-93fd-af9a1265c795
+task_descriptions:
+- move_the_fruit_a_and_place_in_the_container_b
+scene_type:
+- hospital
+- store
+- cafe
+atomic_actions:
+- insert
+- lower
+- rotate
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.0
+device_model:
+- pal_freight
+end_effector_type: five_claw_gripper

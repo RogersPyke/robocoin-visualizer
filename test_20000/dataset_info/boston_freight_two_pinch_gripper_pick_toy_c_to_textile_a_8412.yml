@@ -1,0 +1,27 @@
+dataset_name: pick_toy_c_to_textile_a_8412
+dataset_uuid: 498f7ef8-332d-4af7-9d15-79de9fa27fe6
+task_descriptions:
+- pick_the_toy_c_and_place_in_the_textile_a
+scene_type:
+- store
+atomic_actions:
+- pick
+- pull
+- place
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

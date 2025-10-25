@@ -1,0 +1,28 @@
+dataset_name: arrange_food_e_to_beverage_d_4858
+dataset_uuid: 27e6dabe-3c5d-4c68-a536-2d870bc071b2
+task_descriptions:
+- arrange_the_food_e_and_place_in_the_beverage_d
+scene_type:
+- warehouse
+atomic_actions:
+- lower
+- rotate
+- push
+- lift
+objects:
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.1
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

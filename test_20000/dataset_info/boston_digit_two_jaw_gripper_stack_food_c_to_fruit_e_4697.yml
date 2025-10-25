@@ -1,0 +1,26 @@
+dataset_name: stack_food_c_to_fruit_e_4697
+dataset_uuid: cb8a80cd-9ad2-40a8-977e-e3e97043d077
+task_descriptions:
+- stack_the_food_c_and_place_in_the_fruit_e
+scene_type:
+- hospital
+atomic_actions:
+- remove
+- pick
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

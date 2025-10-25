@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_b_to_food_e_5024
+dataset_uuid: 55ead96f-292b-42a2-bac5-ea697ebcf05d
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_food_e
+scene_type:
+- laboratory
+- office
+atomic_actions:
+- grasp
+- push
+- flip
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.5
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

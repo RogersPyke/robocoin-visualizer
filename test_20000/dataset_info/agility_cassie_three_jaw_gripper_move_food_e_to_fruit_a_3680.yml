@@ -1,0 +1,29 @@
+dataset_name: move_food_e_to_fruit_a_3680
+dataset_uuid: 00780231-a6e0-4005-bc17-284e72eba9ab
+task_descriptions:
+- move_the_food_e_and_place_in_the_fruit_a
+scene_type:
+- kitchen
+- hospital
+- store
+atomic_actions:
+- rotate
+- slide
+- pick
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.8
+device_model:
+- agility_cassie
+end_effector_type: three_jaw_gripper

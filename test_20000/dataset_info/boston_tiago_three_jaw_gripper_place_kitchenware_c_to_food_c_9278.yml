@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_c_to_food_c_9278
+dataset_uuid: 495c6c29-4045-46fa-841e-40d2cf3ef474
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_food_c
+scene_type:
+- kitchen
+- warehouse
+atomic_actions:
+- lower
+- rotate
+- push
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

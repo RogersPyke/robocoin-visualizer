@@ -1,0 +1,27 @@
+dataset_name: place_textile_b_to_furniture_a_4181
+dataset_uuid: 0029ddb4-7e2b-498a-8bbe-0b78bc7a47b1
+task_descriptions:
+- place_the_textile_b_and_place_in_the_furniture_a
+scene_type:
+- factory
+atomic_actions:
+- pick
+- slide
+- pull
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- agility_spot
+end_effector_type: five_claw_gripper

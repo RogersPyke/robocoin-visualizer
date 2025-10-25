@@ -1,0 +1,29 @@
+dataset_name: stack_utensil_c_to_beverage_a_6999
+dataset_uuid: 76a6f6d7-ddfd-4899-88e4-027b64cb1780
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_beverage_a
+scene_type:
+- kitchen
+- warehouse
+- home
+atomic_actions:
+- place
+- grasp
+- remove
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.9
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_stationery_b_to_textile_c_2872
+dataset_uuid: 6096ceb6-958d-443f-8b1f-8c231d46e9b1
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_textile_c
+scene_type:
+- office
+- restaurant
+- warehouse
+atomic_actions:
+- grasp
+- push
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- boston_digit
+end_effector_type: suction_cup

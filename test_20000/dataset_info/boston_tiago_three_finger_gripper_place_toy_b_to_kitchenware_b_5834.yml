@@ -1,0 +1,29 @@
+dataset_name: place_toy_b_to_kitchenware_b_5834
+dataset_uuid: 25cc4ceb-400a-4893-a8d0-5bf616a00547
+task_descriptions:
+- place_the_toy_b_and_place_in_the_kitchenware_b
+scene_type:
+- kitchen
+- warehouse
+- office
+atomic_actions:
+- grasp
+- lower
+- remove
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.9
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: move_electronics_c_to_tool_d_4572
+dataset_uuid: 9d5d2b20-8565-4421-a1c8-a9c11892421b
+task_descriptions:
+- move_the_electronics_c_and_place_in_the_tool_d
+scene_type:
+- office
+atomic_actions:
+- lower
+- lift
+- rotate
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+operation_platform_height: 87.9
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

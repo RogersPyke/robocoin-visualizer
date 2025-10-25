@@ -1,0 +1,27 @@
+dataset_name: stack_container_b_to_stationery_a_1785
+dataset_uuid: 289eace9-dadb-4fbf-84aa-e529a64e764f
+task_descriptions:
+- stack_the_container_b_and_place_in_the_stationery_a
+scene_type:
+- factory
+atomic_actions:
+- rotate
+- lift
+- place
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.2
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

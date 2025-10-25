@@ -1,0 +1,26 @@
+dataset_name: place_stationery_c_to_tool_c_3613
+dataset_uuid: 825ad3db-8273-4fb9-aa4a-5008b9d8311d
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_tool_c
+scene_type:
+- hospital
+atomic_actions:
+- lift
+- remove
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+operation_platform_height: 85.5
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

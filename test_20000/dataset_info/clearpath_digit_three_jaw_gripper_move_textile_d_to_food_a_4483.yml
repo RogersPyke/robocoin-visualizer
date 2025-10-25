@@ -1,0 +1,28 @@
+dataset_name: move_textile_d_to_food_a_4483
+dataset_uuid: 13897307-010b-4fd3-a4ee-f1862cd605fc
+task_descriptions:
+- move_the_textile_d_and_place_in_the_food_a
+scene_type:
+- factory
+- restaurant
+- store
+atomic_actions:
+- place
+- remove
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.3
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

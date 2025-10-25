@@ -1,0 +1,27 @@
+dataset_name: arrange_utensil_c_to_tool_b_1728
+dataset_uuid: 0d8a0a02-a559-4573-ac2d-286af71279d9
+task_descriptions:
+- arrange_the_utensil_c_and_place_in_the_tool_b
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- rotate
+- slide
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 83.3
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

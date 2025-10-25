@@ -1,0 +1,28 @@
+dataset_name: move_utensil_a_to_stationery_c_3977
+dataset_uuid: 570b5b48-2966-46b2-a52e-f074ccd73ad3
+task_descriptions:
+- move_the_utensil_a_and_place_in_the_stationery_c
+scene_type:
+- office
+- store
+- home
+atomic_actions:
+- pick
+- flip
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

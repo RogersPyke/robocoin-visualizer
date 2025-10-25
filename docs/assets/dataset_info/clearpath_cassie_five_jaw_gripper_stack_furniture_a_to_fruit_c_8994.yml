@@ -1,0 +1,27 @@
+dataset_name: stack_furniture_a_to_fruit_c_8994
+dataset_uuid: 0ba835bd-a3d8-4cf8-96bb-a5c03cc72f46
+task_descriptions:
+- stack_the_furniture_a_and_place_in_the_fruit_c
+scene_type:
+- office
+- laboratory
+atomic_actions:
+- grasp
+- push
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- clearpath_cassie
+end_effector_type: five_jaw_gripper

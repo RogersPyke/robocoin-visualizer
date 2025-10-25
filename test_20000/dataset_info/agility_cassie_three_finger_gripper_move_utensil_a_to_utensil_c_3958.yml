@@ -1,0 +1,27 @@
+dataset_name: move_utensil_a_to_utensil_c_3958
+dataset_uuid: 146009a5-02f6-43a0-a0fe-3ad66cda5c02
+task_descriptions:
+- move_the_utensil_a_and_place_in_the_utensil_c
+scene_type:
+- warehouse
+- store
+atomic_actions:
+- place
+- lift
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.5
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

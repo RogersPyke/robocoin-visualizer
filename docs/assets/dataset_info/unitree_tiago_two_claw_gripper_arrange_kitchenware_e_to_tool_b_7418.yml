@@ -1,0 +1,29 @@
+dataset_name: arrange_kitchenware_e_to_tool_b_7418
+dataset_uuid: a1280bb0-baed-44a2-bcc5-0b1c1b607c5e
+task_descriptions:
+- arrange_the_kitchenware_e_and_place_in_the_tool_b
+scene_type:
+- warehouse
+- office
+- restaurant
+atomic_actions:
+- push
+- slide
+- pull
+objects:
+- object_name: kitchenware_e
+  level1: kitchenware
+  level2: kitchenware_e
+  level3: kitchenware_e_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 90.0
+device_model:
+- unitree_tiago
+end_effector_type: two_claw_gripper

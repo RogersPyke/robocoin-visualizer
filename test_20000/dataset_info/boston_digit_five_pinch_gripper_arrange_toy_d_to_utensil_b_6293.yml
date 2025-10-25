@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_d_to_utensil_b_6293
+dataset_uuid: 971acec3-f01d-43da-b4dc-45ac57bf81f1
+task_descriptions:
+- arrange_the_toy_d_and_place_in_the_utensil_b
+scene_type:
+- cafe
+- home
+- restaurant
+atomic_actions:
+- insert
+- flip
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.4
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

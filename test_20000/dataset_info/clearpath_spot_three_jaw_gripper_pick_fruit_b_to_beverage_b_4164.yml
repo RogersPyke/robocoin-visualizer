@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_b_to_beverage_b_4164
+dataset_uuid: 2100505d-384a-46ac-b303-f6e206040f47
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_beverage_b
+scene_type:
+- laboratory
+atomic_actions:
+- pick
+- push
+- grasp
+- pull
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

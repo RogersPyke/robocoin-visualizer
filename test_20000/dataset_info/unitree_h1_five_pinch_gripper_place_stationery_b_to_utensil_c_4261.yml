@@ -1,0 +1,28 @@
+dataset_name: place_stationery_b_to_utensil_c_4261
+dataset_uuid: b7f8d1b8-e5b8-4ca0-9b6a-7cd9298eaa30
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_utensil_c
+scene_type:
+- kitchen
+atomic_actions:
+- remove
+- pick
+- lift
+- lower
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

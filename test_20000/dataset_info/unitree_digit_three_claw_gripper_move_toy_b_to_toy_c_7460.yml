@@ -1,0 +1,30 @@
+dataset_name: move_toy_b_to_toy_c_7460
+dataset_uuid: 5c83c859-ca67-4d22-8fb3-8a8e97649c9e
+task_descriptions:
+- move_the_toy_b_and_place_in_the_toy_c
+scene_type:
+- store
+- restaurant
+- cafe
+atomic_actions:
+- grasp
+- remove
+- insert
+- place
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

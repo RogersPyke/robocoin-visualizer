@@ -1,0 +1,26 @@
+dataset_name: pick_tool_b_to_container_a_8273
+dataset_uuid: 86c0642e-1390-4290-87a1-58596ce79c52
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_container_a
+scene_type:
+- home
+atomic_actions:
+- rotate
+- lower
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- pal_tiago
+end_effector_type: suction_cup

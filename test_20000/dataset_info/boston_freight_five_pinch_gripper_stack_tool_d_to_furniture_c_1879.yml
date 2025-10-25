@@ -1,0 +1,29 @@
+dataset_name: stack_tool_d_to_furniture_c_1879
+dataset_uuid: f409dfc3-aeb6-404a-902d-999ae6e4950e
+task_descriptions:
+- stack_the_tool_d_and_place_in_the_furniture_c
+scene_type:
+- store
+- factory
+- office
+atomic_actions:
+- slide
+- lower
+- remove
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.1
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

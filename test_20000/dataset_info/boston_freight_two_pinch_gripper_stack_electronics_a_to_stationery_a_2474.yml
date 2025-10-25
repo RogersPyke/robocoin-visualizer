@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_a_to_stationery_a_2474
+dataset_uuid: 89a3d756-6124-43cf-8f93-cd64343026a7
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_stationery_a
+scene_type:
+- hospital
+- kitchen
+atomic_actions:
+- flip
+- slide
+- pick
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.0
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: arrange_toy_b_to_furniture_b_7985
+dataset_uuid: 1bf8123d-cf5d-4813-8fd0-20a956a6f65d
+task_descriptions:
+- arrange_the_toy_b_and_place_in_the_furniture_b
+scene_type:
+- home
+- cafe
+- store
+atomic_actions:
+- lift
+- remove
+- flip
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.3
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

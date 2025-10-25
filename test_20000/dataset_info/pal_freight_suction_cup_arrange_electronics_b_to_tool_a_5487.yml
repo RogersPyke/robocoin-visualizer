@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_b_to_tool_a_5487
+dataset_uuid: d5687693-8e54-4077-a08f-d420bcb3f4b5
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_tool_a
+scene_type:
+- factory
+atomic_actions:
+- grasp
+- lift
+- insert
+- push
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- pal_freight
+end_effector_type: suction_cup

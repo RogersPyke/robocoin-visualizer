@@ -1,0 +1,28 @@
+dataset_name: stack_tool_b_to_electronics_c_3578
+dataset_uuid: c20af6e1-bd02-48b4-bdfb-e7e16d64d57f
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_electronics_c
+scene_type:
+- warehouse
+atomic_actions:
+- lower
+- grasp
+- pick
+- lift
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

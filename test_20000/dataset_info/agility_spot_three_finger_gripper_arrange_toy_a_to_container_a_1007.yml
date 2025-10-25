@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_a_to_container_a_1007
+dataset_uuid: d039da54-d098-4c03-b03a-08b66bbe32f0
+task_descriptions:
+- arrange_the_toy_a_and_place_in_the_container_a
+scene_type:
+- cafe
+- office
+atomic_actions:
+- lower
+- place
+- pull
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

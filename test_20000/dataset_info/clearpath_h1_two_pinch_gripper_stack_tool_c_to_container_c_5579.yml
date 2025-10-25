@@ -1,0 +1,26 @@
+dataset_name: stack_tool_c_to_container_c_5579
+dataset_uuid: e9414a8f-9eae-4467-8cb7-0c7eede94b30
+task_descriptions:
+- stack_the_tool_c_and_place_in_the_container_c
+scene_type:
+- kitchen
+atomic_actions:
+- pick
+- pull
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.4
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_e_to_stationery_a_7180
+dataset_uuid: 100ac247-c772-47bb-bec2-ea62ce12bb7a
+task_descriptions:
+- pick_the_fruit_e_and_place_in_the_stationery_a
+scene_type:
+- home
+- hospital
+atomic_actions:
+- grasp
+- lower
+- insert
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.3
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

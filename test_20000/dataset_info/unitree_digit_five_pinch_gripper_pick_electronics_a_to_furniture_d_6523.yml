@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_a_to_furniture_d_6523
+dataset_uuid: 70e91f20-be9f-40d2-986e-4ed63465a2c4
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_furniture_d
+scene_type:
+- factory
+- hospital
+atomic_actions:
+- rotate
+- pick
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

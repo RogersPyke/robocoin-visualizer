@@ -1,0 +1,30 @@
+dataset_name: place_fruit_b_to_tool_d_7603
+dataset_uuid: fcb71a17-c08c-44ee-8326-b9dd92251989
+task_descriptions:
+- place_the_fruit_b_and_place_in_the_tool_d
+scene_type:
+- hospital
+- warehouse
+- laboratory
+atomic_actions:
+- pull
+- grasp
+- flip
+- lower
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.7
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

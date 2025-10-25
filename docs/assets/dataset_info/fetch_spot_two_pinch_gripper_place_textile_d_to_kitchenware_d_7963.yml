@@ -1,0 +1,29 @@
+dataset_name: place_textile_d_to_kitchenware_d_7963
+dataset_uuid: db56751c-9410-4bcc-a33f-fb0948587a68
+task_descriptions:
+- place_the_textile_d_and_place_in_the_kitchenware_d
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- place
+- remove
+- lower
+- pick
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_d
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- fetch_spot
+end_effector_type: two_pinch_gripper

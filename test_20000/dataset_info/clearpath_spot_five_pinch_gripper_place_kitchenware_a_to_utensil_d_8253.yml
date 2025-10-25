@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_a_to_utensil_d_8253
+dataset_uuid: 8fc3d445-51d8-4185-9e66-442c313b73ad
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_utensil_d
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- place
+- slide
+- pull
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

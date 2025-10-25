@@ -1,0 +1,28 @@
+dataset_name: move_beverage_a_to_tool_a_7062
+dataset_uuid: 344a53a0-a7e9-46ce-8b4f-d0a65c11290e
+task_descriptions:
+- move_the_beverage_a_and_place_in_the_tool_a
+scene_type:
+- hospital
+- laboratory
+- kitchen
+atomic_actions:
+- push
+- remove
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.9
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

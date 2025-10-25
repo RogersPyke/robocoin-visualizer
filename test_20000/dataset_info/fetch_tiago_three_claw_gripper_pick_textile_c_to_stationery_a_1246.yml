@@ -1,0 +1,29 @@
+dataset_name: pick_textile_c_to_stationery_a_1246
+dataset_uuid: d698a3df-5d8a-47a3-9b33-6c110f547fdf
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_stationery_a
+scene_type:
+- laboratory
+- restaurant
+- store
+atomic_actions:
+- flip
+- insert
+- rotate
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

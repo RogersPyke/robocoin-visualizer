@@ -1,0 +1,29 @@
+dataset_name: arrange_fruit_e_to_fruit_e_5473
+dataset_uuid: dce1fea1-1607-48d4-8e03-a059e0c9e5ea
+task_descriptions:
+- arrange_the_fruit_e_and_place_in_the_fruit_e
+scene_type:
+- office
+- home
+atomic_actions:
+- lower
+- rotate
+- lift
+- flip
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+operation_platform_height: 88.5
+device_model:
+- pal_freight
+end_effector_type: two_finger_gripper

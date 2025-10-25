@@ -1,0 +1,28 @@
+dataset_name: pick_toy_d_to_toy_c_5789
+dataset_uuid: 99078990-c01b-4bb2-ae87-b4d9f8661d26
+task_descriptions:
+- pick_the_toy_d_and_place_in_the_toy_c
+scene_type:
+- store
+atomic_actions:
+- remove
+- rotate
+- flip
+- pick
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

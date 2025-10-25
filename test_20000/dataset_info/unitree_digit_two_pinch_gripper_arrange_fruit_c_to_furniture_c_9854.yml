@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_c_to_furniture_c_9854
+dataset_uuid: af2fe072-5785-48ec-a02e-1477f0060de3
+task_descriptions:
+- arrange_the_fruit_c_and_place_in_the_furniture_c
+scene_type:
+- home
+atomic_actions:
+- pull
+- pick
+- flip
+- push
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.7
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

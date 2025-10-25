@@ -1,0 +1,28 @@
+dataset_name: place_furniture_c_to_container_c_9114
+dataset_uuid: 112a038e-681e-4330-a2ff-f78ec8041a00
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_container_c
+scene_type:
+- restaurant
+- laboratory
+- cafe
+atomic_actions:
+- remove
+- push
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

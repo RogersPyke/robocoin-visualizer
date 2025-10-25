@@ -1,0 +1,27 @@
+dataset_name: arrange_utensil_d_to_tool_d_5665
+dataset_uuid: 380fdd9e-bcfc-47c9-b100-7e840d5727ec
+task_descriptions:
+- arrange_the_utensil_d_and_place_in_the_tool_d
+scene_type:
+- kitchen
+atomic_actions:
+- flip
+- place
+- insert
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.6
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_toy_a_to_electronics_b_4073
+dataset_uuid: f32f9e3d-91b9-4f95-9a07-78f7caea49cd
+task_descriptions:
+- pick_the_toy_a_and_place_in_the_electronics_b
+scene_type:
+- home
+- hospital
+- office
+atomic_actions:
+- rotate
+- remove
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

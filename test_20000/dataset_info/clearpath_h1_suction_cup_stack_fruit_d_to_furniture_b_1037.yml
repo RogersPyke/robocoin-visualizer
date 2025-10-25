@@ -1,0 +1,29 @@
+dataset_name: stack_fruit_d_to_furniture_b_1037
+dataset_uuid: 62882cdc-1697-4a9a-ba5c-827731fca040
+task_descriptions:
+- stack_the_fruit_d_and_place_in_the_furniture_b
+scene_type:
+- factory
+- warehouse
+- hospital
+atomic_actions:
+- insert
+- pull
+- push
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- clearpath_h1
+end_effector_type: suction_cup

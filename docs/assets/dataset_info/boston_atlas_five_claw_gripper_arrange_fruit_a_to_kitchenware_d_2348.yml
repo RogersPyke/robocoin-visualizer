@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_a_to_kitchenware_d_2348
+dataset_uuid: 7fa13ad5-4441-44df-bad9-f6b1f986a49b
+task_descriptions:
+- arrange_the_fruit_a_and_place_in_the_kitchenware_d
+scene_type:
+- cafe
+- home
+atomic_actions:
+- pick
+- lift
+- push
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_d
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- boston_atlas
+end_effector_type: five_claw_gripper

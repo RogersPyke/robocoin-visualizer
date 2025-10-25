@@ -1,0 +1,29 @@
+dataset_name: place_food_c_to_electronics_a_6590
+dataset_uuid: 738d35e2-0456-4523-b803-15c981168983
+task_descriptions:
+- place_the_food_c_and_place_in_the_electronics_a
+scene_type:
+- factory
+- store
+- kitchen
+atomic_actions:
+- flip
+- lower
+- grasp
+objects:
+- object_name: food_c
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.9
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

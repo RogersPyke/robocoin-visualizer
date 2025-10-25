@@ -1,0 +1,28 @@
+dataset_name: stack_tool_c_to_beverage_a_3209
+dataset_uuid: 85dc6a6f-b1cb-4e19-967b-94c44353b698
+task_descriptions:
+- stack_the_tool_c_and_place_in_the_beverage_a
+scene_type:
+- laboratory
+atomic_actions:
+- lower
+- remove
+- slide
+- insert
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

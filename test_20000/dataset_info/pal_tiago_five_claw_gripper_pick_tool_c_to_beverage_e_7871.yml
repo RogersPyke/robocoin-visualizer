@@ -1,0 +1,30 @@
+dataset_name: pick_tool_c_to_beverage_e_7871
+dataset_uuid: e077733a-477e-4f0c-a10d-d7e12e552c35
+task_descriptions:
+- pick_the_tool_c_and_place_in_the_beverage_e
+scene_type:
+- home
+- restaurant
+- warehouse
+atomic_actions:
+- insert
+- push
+- pull
+- lower
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.2
+device_model:
+- pal_tiago
+end_effector_type: five_claw_gripper

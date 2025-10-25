@@ -1,0 +1,30 @@
+dataset_name: arrange_food_b_to_textile_c_1684
+dataset_uuid: e8d59b0b-f87c-4312-9928-51ef29f75547
+task_descriptions:
+- arrange_the_food_b_and_place_in_the_textile_c
+scene_type:
+- kitchen
+- cafe
+- restaurant
+atomic_actions:
+- rotate
+- insert
+- remove
+- pick
+objects:
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

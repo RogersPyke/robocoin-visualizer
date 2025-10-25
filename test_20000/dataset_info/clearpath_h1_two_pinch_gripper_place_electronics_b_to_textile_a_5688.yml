@@ -1,0 +1,27 @@
+dataset_name: place_electronics_b_to_textile_a_5688
+dataset_uuid: 9632c33f-3213-405b-ba33-90843601cd6d
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_textile_a
+scene_type:
+- office
+- warehouse
+atomic_actions:
+- slide
+- lift
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

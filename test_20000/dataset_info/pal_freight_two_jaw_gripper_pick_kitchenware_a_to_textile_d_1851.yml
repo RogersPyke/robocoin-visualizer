@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_a_to_textile_d_1851
+dataset_uuid: c56c403a-982a-484a-9614-18e889741838
+task_descriptions:
+- pick_the_kitchenware_a_and_place_in_the_textile_d
+scene_type:
+- factory
+- restaurant
+atomic_actions:
+- slide
+- push
+- rotate
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+operation_platform_height: 86.0
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

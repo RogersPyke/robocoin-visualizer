@@ -1,0 +1,27 @@
+dataset_name: place_stationery_a_to_utensil_c_3181
+dataset_uuid: 84249ed2-fe09-4ec4-8fa0-919b0d2cdce2
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_utensil_c
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- lift
+- push
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

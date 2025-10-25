@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_b_to_toy_a_5359
+dataset_uuid: babbfcac-e9e3-431a-9ced-9c3cc55de3b8
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_toy_a
+scene_type:
+- factory
+- office
+- home
+atomic_actions:
+- push
+- pull
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.3
+device_model:
+- agility_digit
+end_effector_type: five_jaw_gripper

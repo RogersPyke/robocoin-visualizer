@@ -1,0 +1,28 @@
+dataset_name: place_beverage_b_to_food_e_2889
+dataset_uuid: 94849e04-2f86-4e63-a858-103d73f16fd9
+task_descriptions:
+- place_the_beverage_b_and_place_in_the_food_e
+scene_type:
+- restaurant
+atomic_actions:
+- insert
+- lift
+- slide
+- pull
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.2
+device_model:
+- agility_spot
+end_effector_type: suction_cup

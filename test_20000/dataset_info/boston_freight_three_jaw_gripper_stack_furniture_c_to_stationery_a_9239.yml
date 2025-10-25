@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_c_to_stationery_a_9239
+dataset_uuid: eb8f8908-0cec-46ea-97f9-ae97b09bec91
+task_descriptions:
+- stack_the_furniture_c_and_place_in_the_stationery_a
+scene_type:
+- kitchen
+- factory
+- store
+atomic_actions:
+- place
+- insert
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

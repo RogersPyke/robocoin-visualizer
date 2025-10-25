@@ -1,0 +1,30 @@
+dataset_name: pick_food_e_to_furniture_c_4486
+dataset_uuid: fd1d2099-65c9-4adb-97c0-01af72626422
+task_descriptions:
+- pick_the_food_e_and_place_in_the_furniture_c
+scene_type:
+- cafe
+- laboratory
+- factory
+atomic_actions:
+- flip
+- lower
+- pull
+- lift
+objects:
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

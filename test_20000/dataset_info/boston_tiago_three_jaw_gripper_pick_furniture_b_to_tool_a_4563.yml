@@ -1,0 +1,29 @@
+dataset_name: pick_furniture_b_to_tool_a_4563
+dataset_uuid: 6fea930a-6b66-4230-82d2-8fa233f6c418
+task_descriptions:
+- pick_the_furniture_b_and_place_in_the_tool_a
+scene_type:
+- restaurant
+- factory
+- hospital
+atomic_actions:
+- push
+- place
+- insert
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.4
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

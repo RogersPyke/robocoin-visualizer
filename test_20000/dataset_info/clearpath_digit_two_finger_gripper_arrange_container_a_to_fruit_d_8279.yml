@@ -1,0 +1,29 @@
+dataset_name: arrange_container_a_to_fruit_d_8279
+dataset_uuid: 97bf256a-48ba-4c2d-a36b-547f990f677d
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_fruit_d
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- insert
+- rotate
+- slide
+- lower
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

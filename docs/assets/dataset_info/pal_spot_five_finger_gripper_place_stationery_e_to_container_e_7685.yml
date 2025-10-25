@@ -1,0 +1,28 @@
+dataset_name: place_stationery_e_to_container_e_7685
+dataset_uuid: 9d421ccb-8487-47ca-bd6a-3dc36daf896c
+task_descriptions:
+- place_the_stationery_e_and_place_in_the_container_e
+scene_type:
+- cafe
+- restaurant
+atomic_actions:
+- lift
+- slide
+- insert
+objects:
+- object_name: stationery_e
+  level1: stationery
+  level2: stationery_e
+  level3: stationery_e_sub1
+  level4: null
+  level5: null
+- object_name: container_e
+  level1: container
+  level2: container_e
+  level3: container_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.5
+device_model:
+- pal_spot
+end_effector_type: five_finger_gripper

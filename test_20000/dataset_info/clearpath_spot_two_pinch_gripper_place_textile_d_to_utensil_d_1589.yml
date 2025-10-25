@@ -1,0 +1,28 @@
+dataset_name: place_textile_d_to_utensil_d_1589
+dataset_uuid: 2c7d5ef7-1399-452a-9b8e-72a43e45f9a4
+task_descriptions:
+- place_the_textile_d_and_place_in_the_utensil_d
+scene_type:
+- factory
+atomic_actions:
+- slide
+- lift
+- insert
+- pull
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.2
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

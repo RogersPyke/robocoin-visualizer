@@ -1,0 +1,26 @@
+dataset_name: arrange_fruit_c_to_electronics_a_3684
+dataset_uuid: 3f52a8db-00f1-49a1-bc91-f1c1745aa6ce
+task_descriptions:
+- arrange_the_fruit_c_and_place_in_the_electronics_a
+scene_type:
+- restaurant
+atomic_actions:
+- flip
+- push
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 83.3
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

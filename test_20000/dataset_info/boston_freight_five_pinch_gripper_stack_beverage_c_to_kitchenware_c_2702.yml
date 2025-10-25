@@ -1,0 +1,29 @@
+dataset_name: stack_beverage_c_to_kitchenware_c_2702
+dataset_uuid: 21b29a3e-d3e0-4ee3-96a4-1442dfbfebb2
+task_descriptions:
+- stack_the_beverage_c_and_place_in_the_kitchenware_c
+scene_type:
+- home
+- warehouse
+- store
+atomic_actions:
+- rotate
+- pick
+- place
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.9
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

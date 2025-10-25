@@ -1,0 +1,26 @@
+dataset_name: arrange_furniture_e_to_kitchenware_c_3054
+dataset_uuid: ebac0f45-4929-440f-b18b-39d9921af768
+task_descriptions:
+- arrange_the_furniture_e_and_place_in_the_kitchenware_c
+scene_type:
+- hospital
+atomic_actions:
+- pull
+- place
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

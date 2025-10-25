@@ -1,0 +1,27 @@
+dataset_name: pick_toy_d_to_utensil_d_9035
+dataset_uuid: d14ea237-596d-4ccc-9500-07cd4952f782
+task_descriptions:
+- pick_the_toy_d_and_place_in_the_utensil_d
+scene_type:
+- hospital
+atomic_actions:
+- flip
+- grasp
+- rotate
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

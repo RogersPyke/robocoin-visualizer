@@ -1,0 +1,28 @@
+dataset_name: stack_container_b_to_beverage_a_4246
+dataset_uuid: 8350159d-a6ab-4b1e-95eb-375dc9455cc7
+task_descriptions:
+- stack_the_container_b_and_place_in_the_beverage_a
+scene_type:
+- office
+- warehouse
+- restaurant
+atomic_actions:
+- grasp
+- insert
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.3
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

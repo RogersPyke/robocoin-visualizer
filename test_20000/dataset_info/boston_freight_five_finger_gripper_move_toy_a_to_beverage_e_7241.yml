@@ -1,0 +1,27 @@
+dataset_name: move_toy_a_to_beverage_e_7241
+dataset_uuid: 66616fae-34de-4994-af56-135ccd2885c6
+task_descriptions:
+- move_the_toy_a_and_place_in_the_beverage_e
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- insert
+- rotate
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.6
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

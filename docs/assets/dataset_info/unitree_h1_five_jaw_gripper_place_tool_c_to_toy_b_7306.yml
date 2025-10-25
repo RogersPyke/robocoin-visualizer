@@ -1,0 +1,27 @@
+dataset_name: place_tool_c_to_toy_b_7306
+dataset_uuid: 13ae4608-1323-4cfd-8e49-e1ad288c11e3
+task_descriptions:
+- place_the_tool_c_and_place_in_the_toy_b
+scene_type:
+- factory
+atomic_actions:
+- flip
+- grasp
+- place
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- unitree_h1
+end_effector_type: five_jaw_gripper

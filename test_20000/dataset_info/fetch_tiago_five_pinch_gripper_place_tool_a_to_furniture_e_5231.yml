@@ -1,0 +1,29 @@
+dataset_name: place_tool_a_to_furniture_e_5231
+dataset_uuid: 048979b8-9ca8-4198-b940-2db32782356e
+task_descriptions:
+- place_the_tool_a_and_place_in_the_furniture_e
+scene_type:
+- cafe
+- store
+atomic_actions:
+- flip
+- rotate
+- pull
+- pick
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.1
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

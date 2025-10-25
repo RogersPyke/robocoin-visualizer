@@ -1,0 +1,26 @@
+dataset_name: place_utensil_b_to_furniture_c_6215
+dataset_uuid: 9846ad89-cc85-4012-b52e-661430f320d0
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_furniture_c
+scene_type:
+- home
+atomic_actions:
+- grasp
+- pull
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.1
+device_model:
+- boston_h1
+end_effector_type: two_claw_gripper

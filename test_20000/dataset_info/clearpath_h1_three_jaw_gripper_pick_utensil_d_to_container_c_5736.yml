@@ -1,0 +1,26 @@
+dataset_name: pick_utensil_d_to_container_c_5736
+dataset_uuid: 51d38ec6-011d-4a6d-a89b-53ed53fe1537
+task_descriptions:
+- pick_the_utensil_d_and_place_in_the_container_c
+scene_type:
+- hospital
+atomic_actions:
+- remove
+- pull
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

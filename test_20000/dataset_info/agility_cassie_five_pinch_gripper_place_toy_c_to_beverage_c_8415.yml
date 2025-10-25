@@ -1,0 +1,27 @@
+dataset_name: place_toy_c_to_beverage_c_8415
+dataset_uuid: 22bd6ddb-1060-4f84-b0f4-71f346ac0653
+task_descriptions:
+- place_the_toy_c_and_place_in_the_beverage_c
+scene_type:
+- hospital
+- home
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

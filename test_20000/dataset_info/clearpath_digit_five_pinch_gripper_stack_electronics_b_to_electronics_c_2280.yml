@@ -1,0 +1,29 @@
+dataset_name: stack_electronics_b_to_electronics_c_2280
+dataset_uuid: 45abba53-6137-4c77-bbab-0c8afe5d2cd6
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_electronics_c
+scene_type:
+- kitchen
+- restaurant
+atomic_actions:
+- insert
+- pick
+- lift
+- push
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.0
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

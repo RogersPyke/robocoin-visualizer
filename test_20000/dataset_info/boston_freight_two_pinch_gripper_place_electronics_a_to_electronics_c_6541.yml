@@ -1,0 +1,27 @@
+dataset_name: place_electronics_a_to_electronics_c_6541
+dataset_uuid: 0327b726-26d5-487a-a2fd-890ccc223589
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_electronics_c
+scene_type:
+- restaurant
+- office
+atomic_actions:
+- grasp
+- pull
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

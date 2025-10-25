@@ -1,0 +1,30 @@
+dataset_name: move_beverage_a_to_tool_a_1085
+dataset_uuid: de8b1039-e276-449a-a106-3d0cad659f2f
+task_descriptions:
+- move_the_beverage_a_and_place_in_the_tool_a
+scene_type:
+- warehouse
+- cafe
+- factory
+atomic_actions:
+- slide
+- grasp
+- push
+- lift
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

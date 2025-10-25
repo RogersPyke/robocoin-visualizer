@@ -1,0 +1,28 @@
+dataset_name: place_furniture_e_to_tool_a_2014
+dataset_uuid: be6c5696-d9bb-4a3a-82e3-e6bee7d76d15
+task_descriptions:
+- place_the_furniture_e_and_place_in_the_tool_a
+scene_type:
+- hospital
+- factory
+- kitchen
+atomic_actions:
+- insert
+- rotate
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

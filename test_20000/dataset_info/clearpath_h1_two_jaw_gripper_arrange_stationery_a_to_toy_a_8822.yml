@@ -1,0 +1,28 @@
+dataset_name: arrange_stationery_a_to_toy_a_8822
+dataset_uuid: a7862b07-6c11-40de-b22d-9c76ab9e6956
+task_descriptions:
+- arrange_the_stationery_a_and_place_in_the_toy_a
+scene_type:
+- cafe
+- warehouse
+atomic_actions:
+- rotate
+- insert
+- remove
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 86.4
+device_model:
+- clearpath_h1
+end_effector_type: two_jaw_gripper

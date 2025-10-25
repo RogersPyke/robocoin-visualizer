@@ -1,0 +1,29 @@
+dataset_name: place_beverage_d_to_electronics_b_3674
+dataset_uuid: 02656898-f7e2-4837-aeba-da221cb82d3b
+task_descriptions:
+- place_the_beverage_d_and_place_in_the_electronics_b
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- rotate
+- insert
+- place
+- lower
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.5
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

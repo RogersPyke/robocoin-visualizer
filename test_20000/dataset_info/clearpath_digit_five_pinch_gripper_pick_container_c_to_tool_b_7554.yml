@@ -1,0 +1,28 @@
+dataset_name: pick_container_c_to_tool_b_7554
+dataset_uuid: 884d0a9b-883f-46c4-8e00-48c347a62d80
+task_descriptions:
+- pick_the_container_c_and_place_in_the_tool_b
+scene_type:
+- restaurant
+- cafe
+atomic_actions:
+- pull
+- push
+- rotate
+objects:
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.4
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

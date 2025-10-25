@@ -1,0 +1,29 @@
+dataset_name: move_tool_b_to_stationery_b_2121
+dataset_uuid: e881238d-7321-478c-bf4b-77a8c13bff8f
+task_descriptions:
+- move_the_tool_b_and_place_in_the_stationery_b
+scene_type:
+- restaurant
+- home
+atomic_actions:
+- lift
+- remove
+- flip
+- slide
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.6
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

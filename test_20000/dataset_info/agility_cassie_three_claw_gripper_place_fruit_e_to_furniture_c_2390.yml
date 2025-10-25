@@ -1,0 +1,28 @@
+dataset_name: place_fruit_e_to_furniture_c_2390
+dataset_uuid: 78aeef6d-d576-4eba-b0bc-6157e0288d6b
+task_descriptions:
+- place_the_fruit_e_and_place_in_the_furniture_c
+scene_type:
+- warehouse
+- store
+- home
+atomic_actions:
+- pull
+- place
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.1
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

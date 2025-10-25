@@ -1,0 +1,27 @@
+dataset_name: place_food_e_to_utensil_a_4030
+dataset_uuid: b4b930df-bcd5-4316-abc8-584ac04a5bc9
+task_descriptions:
+- place_the_food_e_and_place_in_the_utensil_a
+scene_type:
+- factory
+atomic_actions:
+- lift
+- grasp
+- flip
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

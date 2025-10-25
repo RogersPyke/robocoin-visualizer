@@ -1,0 +1,30 @@
+dataset_name: place_stationery_b_to_utensil_c_3736
+dataset_uuid: 048a41fc-b360-4432-9f9d-4e30cf30a16c
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_utensil_c
+scene_type:
+- kitchen
+- store
+- cafe
+atomic_actions:
+- remove
+- place
+- pick
+- slide
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

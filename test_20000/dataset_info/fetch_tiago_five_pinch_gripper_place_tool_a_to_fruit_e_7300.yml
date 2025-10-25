@@ -1,0 +1,29 @@
+dataset_name: place_tool_a_to_fruit_e_7300
+dataset_uuid: 8e9c2266-d1a7-4c17-a893-634971473561
+task_descriptions:
+- place_the_tool_a_and_place_in_the_fruit_e
+scene_type:
+- home
+- laboratory
+atomic_actions:
+- lower
+- pull
+- flip
+- grasp
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

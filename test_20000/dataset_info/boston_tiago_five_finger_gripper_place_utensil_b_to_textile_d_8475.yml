@@ -1,0 +1,29 @@
+dataset_name: place_utensil_b_to_textile_d_8475
+dataset_uuid: c9d0e1f3-269e-449f-aed6-b69bb4353da4
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_textile_d
+scene_type:
+- store
+- home
+- hospital
+atomic_actions:
+- remove
+- slide
+- lift
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

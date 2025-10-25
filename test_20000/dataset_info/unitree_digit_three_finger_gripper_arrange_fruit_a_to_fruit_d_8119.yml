@@ -1,0 +1,29 @@
+dataset_name: arrange_fruit_a_to_fruit_d_8119
+dataset_uuid: eaf0164c-2d9f-4dac-b972-12bb768cf2eb
+task_descriptions:
+- arrange_the_fruit_a_and_place_in_the_fruit_d
+scene_type:
+- hospital
+- kitchen
+atomic_actions:
+- rotate
+- pick
+- push
+- flip
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.4
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

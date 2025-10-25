@@ -1,0 +1,29 @@
+dataset_name: move_electronics_b_to_furniture_d_2600
+dataset_uuid: b41834d1-f83a-4c05-a968-2deb7fa2dc1b
+task_descriptions:
+- move_the_electronics_b_and_place_in_the_furniture_d
+scene_type:
+- hospital
+- warehouse
+atomic_actions:
+- flip
+- insert
+- slide
+- pick
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

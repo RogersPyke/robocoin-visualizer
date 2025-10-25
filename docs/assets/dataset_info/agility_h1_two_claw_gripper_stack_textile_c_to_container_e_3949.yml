@@ -1,0 +1,28 @@
+dataset_name: stack_textile_c_to_container_e_3949
+dataset_uuid: f189b51f-6633-406a-8850-c94ae2a529a9
+task_descriptions:
+- stack_the_textile_c_and_place_in_the_container_e
+scene_type:
+- restaurant
+atomic_actions:
+- grasp
+- lower
+- slide
+- pull
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_e
+  level1: container
+  level2: container_e
+  level3: container_e_sub1
+  level4: container_e_sub2
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- agility_h1
+end_effector_type: two_claw_gripper

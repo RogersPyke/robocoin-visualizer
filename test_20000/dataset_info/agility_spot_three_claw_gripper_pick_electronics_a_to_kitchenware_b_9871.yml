@@ -1,0 +1,30 @@
+dataset_name: pick_electronics_a_to_kitchenware_b_9871
+dataset_uuid: 378e5d5c-c82e-499a-8b64-a96ac9a6caf9
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_kitchenware_b
+scene_type:
+- warehouse
+- restaurant
+- kitchen
+atomic_actions:
+- place
+- remove
+- grasp
+- pull
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.9
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

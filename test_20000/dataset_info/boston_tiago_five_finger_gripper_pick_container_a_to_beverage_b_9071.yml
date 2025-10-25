@@ -1,0 +1,27 @@
+dataset_name: pick_container_a_to_beverage_b_9071
+dataset_uuid: bcf6c9a7-56d8-41c9-bb08-f58785794eab
+task_descriptions:
+- pick_the_container_a_and_place_in_the_beverage_b
+scene_type:
+- restaurant
+atomic_actions:
+- slide
+- flip
+- lower
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+operation_platform_height: 71.8
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

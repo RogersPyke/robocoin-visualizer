@@ -1,0 +1,27 @@
+dataset_name: move_kitchenware_a_to_furniture_d_6130
+dataset_uuid: f1328144-1457-4ee2-ae19-4fa63ad40e72
+task_descriptions:
+- move_the_kitchenware_a_and_place_in_the_furniture_d
+scene_type:
+- home
+- store
+atomic_actions:
+- place
+- flip
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

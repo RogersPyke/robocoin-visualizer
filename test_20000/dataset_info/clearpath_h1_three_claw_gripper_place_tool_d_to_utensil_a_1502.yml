@@ -1,0 +1,27 @@
+dataset_name: place_tool_d_to_utensil_a_1502
+dataset_uuid: 1d1e7a03-6d18-447f-97d8-3d7f0e1630e7
+task_descriptions:
+- place_the_tool_d_and_place_in_the_utensil_a
+scene_type:
+- home
+atomic_actions:
+- pull
+- insert
+- flip
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

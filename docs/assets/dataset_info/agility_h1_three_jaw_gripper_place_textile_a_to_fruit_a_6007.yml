@@ -1,0 +1,27 @@
+dataset_name: place_textile_a_to_fruit_a_6007
+dataset_uuid: dd29edf6-8247-4601-a0d5-f5e30a1f6591
+task_descriptions:
+- place_the_textile_a_and_place_in_the_fruit_a
+scene_type:
+- warehouse
+- hospital
+atomic_actions:
+- slide
+- remove
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- agility_h1
+end_effector_type: three_jaw_gripper

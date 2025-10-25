@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_c_to_electronics_b_4607
+dataset_uuid: b8d79c47-2e1b-4261-aa9b-4f642cbbdf18
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_electronics_b
+scene_type:
+- store
+atomic_actions:
+- pull
+- remove
+- place
+- lower
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.4
+device_model:
+- fetch_tiago
+end_effector_type: two_pinch_gripper

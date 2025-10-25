@@ -1,0 +1,27 @@
+dataset_name: stack_stationery_b_to_kitchenware_b_1584
+dataset_uuid: 6b8d2199-e4c8-4989-8b89-39d9fb4430d9
+task_descriptions:
+- stack_the_stationery_b_and_place_in_the_kitchenware_b
+scene_type:
+- laboratory
+atomic_actions:
+- pick
+- rotate
+- remove
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.3
+device_model:
+- pal_freight
+end_effector_type: five_finger_gripper

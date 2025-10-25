@@ -1,0 +1,28 @@
+dataset_name: move_food_a_to_electronics_a_8816
+dataset_uuid: f6bb0517-8987-4b5f-98c4-92829a3b755a
+task_descriptions:
+- move_the_food_a_and_place_in_the_electronics_a
+scene_type:
+- warehouse
+- cafe
+- restaurant
+atomic_actions:
+- push
+- slide
+objects:
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

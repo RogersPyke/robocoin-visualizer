@@ -1,0 +1,30 @@
+dataset_name: move_stationery_b_to_electronics_a_7464
+dataset_uuid: 0d037304-a5dd-4789-803a-8a6f4cb9f35c
+task_descriptions:
+- move_the_stationery_b_and_place_in_the_electronics_a
+scene_type:
+- warehouse
+- restaurant
+- laboratory
+atomic_actions:
+- pick
+- grasp
+- pull
+- insert
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 81.0
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

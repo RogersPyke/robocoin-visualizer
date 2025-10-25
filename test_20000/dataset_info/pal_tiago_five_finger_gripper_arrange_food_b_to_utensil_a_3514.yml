@@ -1,0 +1,27 @@
+dataset_name: arrange_food_b_to_utensil_a_3514
+dataset_uuid: 9afc4144-8329-44f3-873f-866d5bedddc6
+task_descriptions:
+- arrange_the_food_b_and_place_in_the_utensil_a
+scene_type:
+- warehouse
+atomic_actions:
+- lift
+- insert
+- pull
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- pal_tiago
+end_effector_type: five_finger_gripper

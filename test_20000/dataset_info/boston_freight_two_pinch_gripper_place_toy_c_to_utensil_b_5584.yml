@@ -1,0 +1,27 @@
+dataset_name: place_toy_c_to_utensil_b_5584
+dataset_uuid: cb37483f-dcbc-4634-95d7-8e87173645d6
+task_descriptions:
+- place_the_toy_c_and_place_in_the_utensil_b
+scene_type:
+- hospital
+atomic_actions:
+- insert
+- lower
+- pull
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.3
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_fruit_e_to_utensil_c_3194
+dataset_uuid: 74abea75-1c8c-4ef1-aa79-14b67b1d22e6
+task_descriptions:
+- stack_the_fruit_e_and_place_in_the_utensil_c
+scene_type:
+- office
+- warehouse
+atomic_actions:
+- lower
+- remove
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.2
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

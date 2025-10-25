@@ -1,0 +1,30 @@
+dataset_name: place_toy_b_to_tool_d_7476
+dataset_uuid: b24b9d41-6e95-44b6-8e58-6ca4410cb375
+task_descriptions:
+- place_the_toy_b_and_place_in_the_tool_d
+scene_type:
+- office
+- home
+- kitchen
+atomic_actions:
+- pull
+- pick
+- insert
+- remove
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

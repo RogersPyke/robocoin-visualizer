@@ -1,0 +1,29 @@
+dataset_name: stack_container_b_to_tool_d_4357
+dataset_uuid: 94151f4c-e6eb-433e-afde-82fd8fac7ea7
+task_descriptions:
+- stack_the_container_b_and_place_in_the_tool_d
+scene_type:
+- restaurant
+- laboratory
+- warehouse
+atomic_actions:
+- insert
+- pull
+- grasp
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.0
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_furniture_a_to_container_d_8199
+dataset_uuid: c933087e-c16b-4e1f-b031-e688fc4b250d
+task_descriptions:
+- stack_the_furniture_a_and_place_in_the_container_d
+scene_type:
+- kitchen
+- hospital
+atomic_actions:
+- pick
+- push
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_d
+  level1: container
+  level2: container_d
+  level3: container_d_sub1
+  level4: container_d_sub2
+  level5: null
+operation_platform_height: 86.4
+device_model:
+- clearpath_cassie
+end_effector_type: five_claw_gripper

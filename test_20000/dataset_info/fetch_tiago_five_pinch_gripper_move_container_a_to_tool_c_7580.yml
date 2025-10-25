@@ -1,0 +1,29 @@
+dataset_name: move_container_a_to_tool_c_7580
+dataset_uuid: 6a207596-d528-4660-ae25-57e4b1e13e20
+task_descriptions:
+- move_the_container_a_and_place_in_the_tool_c
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- rotate
+- remove
+- pull
+- place
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

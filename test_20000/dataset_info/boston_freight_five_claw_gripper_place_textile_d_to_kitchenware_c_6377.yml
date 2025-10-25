@@ -1,0 +1,30 @@
+dataset_name: place_textile_d_to_kitchenware_c_6377
+dataset_uuid: ac5f21d9-4cd2-4203-8286-6be30c140df3
+task_descriptions:
+- place_the_textile_d_and_place_in_the_kitchenware_c
+scene_type:
+- cafe
+- kitchen
+- warehouse
+atomic_actions:
+- pick
+- rotate
+- push
+- insert
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.8
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

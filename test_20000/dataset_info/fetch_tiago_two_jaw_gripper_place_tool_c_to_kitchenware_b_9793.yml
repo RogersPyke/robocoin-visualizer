@@ -1,0 +1,28 @@
+dataset_name: place_tool_c_to_kitchenware_b_9793
+dataset_uuid: e9af8220-af75-413c-9d96-fa90e90fff0f
+task_descriptions:
+- place_the_tool_c_and_place_in_the_kitchenware_b
+scene_type:
+- store
+- home
+- warehouse
+atomic_actions:
+- insert
+- pull
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.9
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

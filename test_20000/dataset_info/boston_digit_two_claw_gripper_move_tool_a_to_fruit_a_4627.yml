@@ -1,0 +1,26 @@
+dataset_name: move_tool_a_to_fruit_a_4627
+dataset_uuid: b37e7693-b5db-4423-b07a-6cf6b232a8d6
+task_descriptions:
+- move_the_tool_a_and_place_in_the_fruit_a
+scene_type:
+- kitchen
+atomic_actions:
+- place
+- lift
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.7
+device_model:
+- boston_digit
+end_effector_type: two_claw_gripper

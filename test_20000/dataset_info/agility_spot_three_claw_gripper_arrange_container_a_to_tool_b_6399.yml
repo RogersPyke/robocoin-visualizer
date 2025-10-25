@@ -1,0 +1,28 @@
+dataset_name: arrange_container_a_to_tool_b_6399
+dataset_uuid: fe8e920c-6d2d-4d5e-a728-ecebeb232ced
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_tool_b
+scene_type:
+- store
+- hospital
+atomic_actions:
+- slide
+- lift
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 84.9
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

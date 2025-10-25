@@ -1,0 +1,29 @@
+dataset_name: stack_container_a_to_toy_c_7078
+dataset_uuid: 4cbb700a-e08f-42f6-a612-9a520d128f3c
+task_descriptions:
+- stack_the_container_a_and_place_in_the_toy_c
+scene_type:
+- restaurant
+- hospital
+atomic_actions:
+- remove
+- pull
+- flip
+- place
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 73.4
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

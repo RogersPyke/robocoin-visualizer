@@ -1,0 +1,29 @@
+dataset_name: move_beverage_e_to_stationery_c_9781
+dataset_uuid: f776cac7-59d7-41fc-b8bb-5b94e188219a
+task_descriptions:
+- move_the_beverage_e_and_place_in_the_stationery_c
+scene_type:
+- laboratory
+- office
+- store
+atomic_actions:
+- pick
+- place
+- flip
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.7
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

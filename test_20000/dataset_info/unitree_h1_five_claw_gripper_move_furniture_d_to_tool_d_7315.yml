@@ -1,0 +1,27 @@
+dataset_name: move_furniture_d_to_tool_d_7315
+dataset_uuid: 036bafdb-dd33-4e4b-b465-0852c21d4a55
+task_descriptions:
+- move_the_furniture_d_and_place_in_the_tool_d
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- lower
+- pull
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.2
+device_model:
+- unitree_h1
+end_effector_type: five_claw_gripper

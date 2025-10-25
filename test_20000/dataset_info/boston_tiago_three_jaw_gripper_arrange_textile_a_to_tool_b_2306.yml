@@ -1,0 +1,27 @@
+dataset_name: arrange_textile_a_to_tool_b_2306
+dataset_uuid: 710e2f1e-ea40-44b3-b997-e6fe204ff945
+task_descriptions:
+- arrange_the_textile_a_and_place_in_the_tool_b
+scene_type:
+- office
+- hospital
+atomic_actions:
+- insert
+- lift
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.5
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

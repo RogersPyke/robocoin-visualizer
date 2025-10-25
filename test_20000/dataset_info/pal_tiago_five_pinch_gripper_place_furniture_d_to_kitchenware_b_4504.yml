@@ -1,0 +1,28 @@
+dataset_name: place_furniture_d_to_kitchenware_b_4504
+dataset_uuid: af0e3d54-5ebd-4ac3-b982-635d98da9d27
+task_descriptions:
+- place_the_furniture_d_and_place_in_the_kitchenware_b
+scene_type:
+- kitchen
+atomic_actions:
+- remove
+- pick
+- lift
+- slide
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.4
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: move_textile_e_to_beverage_b_9127
+dataset_uuid: a93c9a60-6cb7-4700-89f5-84c93e643443
+task_descriptions:
+- move_the_textile_e_and_place_in_the_beverage_b
+scene_type:
+- restaurant
+- office
+atomic_actions:
+- pull
+- grasp
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+operation_platform_height: 81.2
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

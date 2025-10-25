@@ -1,0 +1,28 @@
+dataset_name: stack_toy_b_to_food_a_6824
+dataset_uuid: c36c5f0d-1c50-4038-8762-70bbc31763ba
+task_descriptions:
+- stack_the_toy_b_and_place_in_the_food_a
+scene_type:
+- restaurant
+- warehouse
+- office
+atomic_actions:
+- insert
+- push
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_stationery_b_to_stationery_c_3932
+dataset_uuid: 805ceaca-c6af-4173-85ea-7b2dfd880ace
+task_descriptions:
+- stack_the_stationery_b_and_place_in_the_stationery_c
+scene_type:
+- factory
+- cafe
+atomic_actions:
+- grasp
+- remove
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

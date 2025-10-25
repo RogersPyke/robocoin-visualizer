@@ -1,0 +1,29 @@
+dataset_name: arrange_stationery_c_to_beverage_a_6571
+dataset_uuid: 58469da4-3cb0-4245-9e25-e112aaf2ca76
+task_descriptions:
+- arrange_the_stationery_c_and_place_in_the_beverage_a
+scene_type:
+- kitchen
+- hospital
+- store
+atomic_actions:
+- remove
+- pull
+- lift
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

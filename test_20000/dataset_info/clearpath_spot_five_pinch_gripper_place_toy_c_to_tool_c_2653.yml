@@ -1,0 +1,29 @@
+dataset_name: place_toy_c_to_tool_c_2653
+dataset_uuid: 6b7a87d2-eb62-46f7-b8a2-70ef77659b6d
+task_descriptions:
+- place_the_toy_c_and_place_in_the_tool_c
+scene_type:
+- hospital
+- laboratory
+atomic_actions:
+- pick
+- lift
+- rotate
+- place
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

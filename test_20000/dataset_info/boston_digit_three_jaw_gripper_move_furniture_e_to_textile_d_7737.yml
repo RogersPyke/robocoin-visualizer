@@ -1,0 +1,27 @@
+dataset_name: move_furniture_e_to_textile_d_7737
+dataset_uuid: aa7b1d5a-a10b-4c2f-976c-7f0b6112301b
+task_descriptions:
+- move_the_furniture_e_and_place_in_the_textile_d
+scene_type:
+- store
+atomic_actions:
+- lower
+- place
+- slide
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.1
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

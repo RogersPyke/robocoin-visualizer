@@ -1,0 +1,28 @@
+dataset_name: place_food_e_to_stationery_a_3362
+dataset_uuid: 733eaf4b-f4d6-42a5-bac5-a2479eeaa2da
+task_descriptions:
+- place_the_food_e_and_place_in_the_stationery_a
+scene_type:
+- office
+- store
+atomic_actions:
+- remove
+- lower
+- rotate
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

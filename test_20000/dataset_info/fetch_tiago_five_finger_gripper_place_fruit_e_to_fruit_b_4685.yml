@@ -1,0 +1,27 @@
+dataset_name: place_fruit_e_to_fruit_b_4685
+dataset_uuid: 08353b19-cb36-49bb-bb57-885bccb9d863
+task_descriptions:
+- place_the_fruit_e_and_place_in_the_fruit_b
+scene_type:
+- warehouse
+- kitchen
+atomic_actions:
+- pick
+- push
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.3
+device_model:
+- fetch_tiago
+end_effector_type: five_finger_gripper

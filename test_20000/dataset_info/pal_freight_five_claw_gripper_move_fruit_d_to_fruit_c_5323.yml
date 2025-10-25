@@ -1,0 +1,28 @@
+dataset_name: move_fruit_d_to_fruit_c_5323
+dataset_uuid: 888e8ab8-0511-4d4b-811b-3f053c8f49ad
+task_descriptions:
+- move_the_fruit_d_and_place_in_the_fruit_c
+scene_type:
+- office
+- laboratory
+- warehouse
+atomic_actions:
+- insert
+- lift
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- pal_freight
+end_effector_type: five_claw_gripper

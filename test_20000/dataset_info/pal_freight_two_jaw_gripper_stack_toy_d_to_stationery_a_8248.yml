@@ -1,0 +1,29 @@
+dataset_name: stack_toy_d_to_stationery_a_8248
+dataset_uuid: bc4151ff-b0f2-4334-9c45-4b07d8a4a86e
+task_descriptions:
+- stack_the_toy_d_and_place_in_the_stationery_a
+scene_type:
+- office
+- cafe
+atomic_actions:
+- slide
+- grasp
+- lift
+- place
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.7
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_c_to_furniture_d_3460
+dataset_uuid: 54d3f8b2-2f1d-4504-97fb-c7ab452d9c52
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_furniture_d
+scene_type:
+- warehouse
+- kitchen
+- cafe
+atomic_actions:
+- grasp
+- slide
+- lower
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.5
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

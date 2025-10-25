@@ -1,0 +1,27 @@
+dataset_name: move_toy_d_to_furniture_a_2952
+dataset_uuid: 3cc8678d-9dfa-4daa-9322-8dcee41d83b9
+task_descriptions:
+- move_the_toy_d_and_place_in_the_furniture_a
+scene_type:
+- laboratory
+- home
+atomic_actions:
+- rotate
+- pull
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.6
+device_model:
+- agility_cassie
+end_effector_type: suction_cup

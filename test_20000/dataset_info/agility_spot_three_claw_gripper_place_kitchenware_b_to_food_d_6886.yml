@@ -1,0 +1,29 @@
+dataset_name: place_kitchenware_b_to_food_d_6886
+dataset_uuid: a7663fb5-10d1-458e-99d6-7bede556ee34
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_food_d
+scene_type:
+- cafe
+- office
+- restaurant
+atomic_actions:
+- place
+- push
+- lift
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

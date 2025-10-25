@@ -1,0 +1,27 @@
+dataset_name: place_tool_c_to_utensil_a_1083
+dataset_uuid: 03bf5234-871a-4887-b714-464f52a31f5a
+task_descriptions:
+- place_the_tool_c_and_place_in_the_utensil_a
+scene_type:
+- office
+- store
+atomic_actions:
+- slide
+- grasp
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

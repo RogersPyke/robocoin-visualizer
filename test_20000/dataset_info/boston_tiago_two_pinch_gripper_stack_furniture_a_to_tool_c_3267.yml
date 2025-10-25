@@ -1,0 +1,27 @@
+dataset_name: stack_furniture_a_to_tool_c_3267
+dataset_uuid: 6f3ad19e-3467-439b-8bda-b5ff7b0185ad
+task_descriptions:
+- stack_the_furniture_a_and_place_in_the_tool_c
+scene_type:
+- warehouse
+- home
+atomic_actions:
+- rotate
+- pull
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.8
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

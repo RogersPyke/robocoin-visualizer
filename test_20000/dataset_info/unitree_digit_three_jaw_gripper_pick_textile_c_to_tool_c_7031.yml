@@ -1,0 +1,29 @@
+dataset_name: pick_textile_c_to_tool_c_7031
+dataset_uuid: 4c168e31-ee28-4c5f-bce8-78365f857eec
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_tool_c
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- slide
+- pull
+- place
+- flip
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

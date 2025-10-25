@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_b_to_textile_a_2055
+dataset_uuid: 86b23996-60ac-4ed7-bd40-76f773f7ee31
+task_descriptions:
+- pick_the_utensil_b_and_place_in_the_textile_a
+scene_type:
+- factory
+atomic_actions:
+- push
+- pull
+- lower
+- lift
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

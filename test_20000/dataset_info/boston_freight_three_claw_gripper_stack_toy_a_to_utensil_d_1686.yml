@@ -1,0 +1,26 @@
+dataset_name: stack_toy_a_to_utensil_d_1686
+dataset_uuid: 9c20bab6-a94b-4039-94f6-e8c0ae7f7540
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_utensil_d
+scene_type:
+- restaurant
+atomic_actions:
+- pull
+- pick
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

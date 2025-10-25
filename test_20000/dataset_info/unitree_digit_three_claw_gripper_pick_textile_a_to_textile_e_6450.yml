@@ -1,0 +1,27 @@
+dataset_name: pick_textile_a_to_textile_e_6450
+dataset_uuid: 1568c8b3-2545-4809-b704-3675dbf760fc
+task_descriptions:
+- pick_the_textile_a_and_place_in_the_textile_e
+scene_type:
+- warehouse
+atomic_actions:
+- insert
+- slide
+- push
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

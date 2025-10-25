@@ -1,0 +1,29 @@
+dataset_name: place_electronics_b_to_stationery_a_2018
+dataset_uuid: 64d39d28-8339-4230-8e7a-68020e704420
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_stationery_a
+scene_type:
+- hospital
+- warehouse
+atomic_actions:
+- pull
+- place
+- lift
+- pick
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.8
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_toy_d_to_furniture_d_1748
+dataset_uuid: 5aa9d7a5-c157-4d3e-bf3e-c0fd366aaa9c
+task_descriptions:
+- place_the_toy_d_and_place_in_the_furniture_d
+scene_type:
+- laboratory
+- restaurant
+atomic_actions:
+- flip
+- pull
+- push
+- pick
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.8
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

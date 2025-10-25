@@ -1,0 +1,30 @@
+dataset_name: stack_stationery_e_to_fruit_c_1503
+dataset_uuid: dc6663ce-c099-4ae7-b458-e98177c27f70
+task_descriptions:
+- stack_the_stationery_e_and_place_in_the_fruit_c
+scene_type:
+- store
+- warehouse
+- restaurant
+atomic_actions:
+- flip
+- pick
+- grasp
+- slide
+objects:
+- object_name: stationery_e
+  level1: stationery
+  level2: stationery_e
+  level3: stationery_e_sub1
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.6
+device_model:
+- clearpath_cassie
+end_effector_type: three_jaw_gripper

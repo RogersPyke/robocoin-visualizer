@@ -1,0 +1,30 @@
+dataset_name: pick_beverage_a_to_stationery_c_4703
+dataset_uuid: f400ea9f-c1fc-4326-be7e-1aa3e1f0e56a
+task_descriptions:
+- pick_the_beverage_a_and_place_in_the_stationery_c
+scene_type:
+- hospital
+- warehouse
+- kitchen
+atomic_actions:
+- slide
+- remove
+- place
+- grasp
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- agility_tiago
+end_effector_type: three_finger_gripper

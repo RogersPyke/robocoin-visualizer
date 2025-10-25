@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_b_to_textile_b_2128
+dataset_uuid: 38332b29-9dd2-4b9d-b9f9-a4fa5b0ea9d7
+task_descriptions:
+- stack_the_furniture_b_and_place_in_the_textile_b
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- pull
+- insert
+- slide
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

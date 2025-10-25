@@ -1,0 +1,29 @@
+dataset_name: pick_electronics_b_to_textile_e_1001
+dataset_uuid: 02372c9f-b0f8-42bc-9586-530ece43f6dc
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_textile_e
+scene_type:
+- restaurant
+- kitchen
+- office
+atomic_actions:
+- place
+- rotate
+- lift
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- boston_tiago
+end_effector_type: suction_cup

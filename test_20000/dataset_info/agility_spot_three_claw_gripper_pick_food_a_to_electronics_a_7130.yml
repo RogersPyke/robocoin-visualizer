@@ -1,0 +1,26 @@
+dataset_name: pick_food_a_to_electronics_a_7130
+dataset_uuid: 919296bb-3e5d-4ce4-9a32-01445e407065
+task_descriptions:
+- pick_the_food_a_and_place_in_the_electronics_a
+scene_type:
+- hospital
+atomic_actions:
+- pick
+- slide
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

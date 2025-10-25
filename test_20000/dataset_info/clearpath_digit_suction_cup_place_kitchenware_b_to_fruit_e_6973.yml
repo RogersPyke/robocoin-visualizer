@@ -1,0 +1,27 @@
+dataset_name: place_kitchenware_b_to_fruit_e_6973
+dataset_uuid: 7bb88f3b-8a4c-4a82-8ff3-6d3f05cdfd68
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_fruit_e
+scene_type:
+- hospital
+- store
+atomic_actions:
+- insert
+- remove
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- clearpath_digit
+end_effector_type: suction_cup

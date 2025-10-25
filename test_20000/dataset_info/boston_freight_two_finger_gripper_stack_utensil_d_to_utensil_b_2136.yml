@@ -1,0 +1,27 @@
+dataset_name: stack_utensil_d_to_utensil_b_2136
+dataset_uuid: ee9edee5-7d8b-4bec-ae7b-b651cce7b557
+task_descriptions:
+- stack_the_utensil_d_and_place_in_the_utensil_b
+scene_type:
+- hospital
+atomic_actions:
+- pick
+- lift
+- pull
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

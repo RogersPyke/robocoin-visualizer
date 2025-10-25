@@ -1,0 +1,27 @@
+dataset_name: arrange_textile_e_to_toy_a_1939
+dataset_uuid: 28fd8c3d-f6c7-46b6-adc2-07b78d8cf105
+task_descriptions:
+- arrange_the_textile_e_and_place_in_the_toy_a
+scene_type:
+- factory
+- hospital
+atomic_actions:
+- place
+- remove
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.5
+device_model:
+- pal_tiago
+end_effector_type: two_claw_gripper

@@ -1,0 +1,30 @@
+dataset_name: pick_stationery_a_to_stationery_a_8732
+dataset_uuid: 08c804c1-e921-4984-8113-f0235edaf2d3
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_stationery_a
+scene_type:
+- restaurant
+- laboratory
+- home
+atomic_actions:
+- pick
+- grasp
+- slide
+- lift
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- fetch_tiago
+end_effector_type: two_finger_gripper

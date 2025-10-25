@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_c_to_container_a_2111
+dataset_uuid: 953fb9b8-7fb8-4c88-a056-776b36bc7b89
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_container_a
+scene_type:
+- store
+atomic_actions:
+- flip
+- lift
+- slide
+- pull
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.8
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

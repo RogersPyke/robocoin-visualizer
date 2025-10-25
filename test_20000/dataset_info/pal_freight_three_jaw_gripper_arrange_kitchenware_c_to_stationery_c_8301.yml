@@ -1,0 +1,27 @@
+dataset_name: arrange_kitchenware_c_to_stationery_c_8301
+dataset_uuid: 7aa547b6-40cc-49b8-85c9-b1a619ff87b2
+task_descriptions:
+- arrange_the_kitchenware_c_and_place_in_the_stationery_c
+scene_type:
+- factory
+atomic_actions:
+- grasp
+- lower
+- push
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_tool_b_to_toy_a_5167
+dataset_uuid: c43977fe-02f0-4f66-b81d-1073462a3fc7
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_toy_a
+scene_type:
+- cafe
+- kitchen
+atomic_actions:
+- grasp
+- rotate
+- flip
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- agility_cassie
+end_effector_type: five_claw_gripper

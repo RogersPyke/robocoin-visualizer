@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_e_to_tool_c_6837
+dataset_uuid: 77946160-6b39-469e-a708-165437f457d1
+task_descriptions:
+- stack_the_furniture_e_and_place_in_the_tool_c
+scene_type:
+- warehouse
+- store
+atomic_actions:
+- flip
+- place
+- remove
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.3
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_container_a_to_fruit_e_2325
+dataset_uuid: bb9317dd-a94b-4514-959e-a716749e2d9d
+task_descriptions:
+- place_the_container_a_and_place_in_the_fruit_e
+scene_type:
+- hospital
+- laboratory
+atomic_actions:
+- flip
+- rotate
+- insert
+- lower
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

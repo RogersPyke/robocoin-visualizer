@@ -1,0 +1,27 @@
+dataset_name: place_textile_b_to_electronics_a_1370
+dataset_uuid: ffb146a9-0483-49ad-9ae3-cffb183135ae
+task_descriptions:
+- place_the_textile_b_and_place_in_the_electronics_a
+scene_type:
+- office
+- hospital
+atomic_actions:
+- slide
+- push
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

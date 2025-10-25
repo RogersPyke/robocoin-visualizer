@@ -1,0 +1,30 @@
+dataset_name: arrange_furniture_a_to_furniture_e_5154
+dataset_uuid: ea2be6e4-f474-43f7-abb2-f8fa1390b834
+task_descriptions:
+- arrange_the_furniture_a_and_place_in_the_furniture_e
+scene_type:
+- cafe
+- hospital
+- store
+atomic_actions:
+- rotate
+- lower
+- slide
+- place
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

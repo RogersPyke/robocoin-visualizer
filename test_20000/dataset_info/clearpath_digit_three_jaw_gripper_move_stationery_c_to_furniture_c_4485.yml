@@ -1,0 +1,29 @@
+dataset_name: move_stationery_c_to_furniture_c_4485
+dataset_uuid: a3f74801-471f-4ff8-bc0a-37d1df3d6151
+task_descriptions:
+- move_the_stationery_c_and_place_in_the_furniture_c
+scene_type:
+- store
+- factory
+atomic_actions:
+- place
+- push
+- slide
+- remove
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

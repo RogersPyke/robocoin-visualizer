@@ -1,0 +1,28 @@
+dataset_name: pick_beverage_a_to_utensil_d_9840
+dataset_uuid: c5f038c0-6ccf-4ce7-9eeb-9a29b5728fe8
+task_descriptions:
+- pick_the_beverage_a_and_place_in_the_utensil_d
+scene_type:
+- hospital
+- cafe
+atomic_actions:
+- lift
+- lower
+- pull
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.9
+device_model:
+- fetch_spot
+end_effector_type: five_jaw_gripper

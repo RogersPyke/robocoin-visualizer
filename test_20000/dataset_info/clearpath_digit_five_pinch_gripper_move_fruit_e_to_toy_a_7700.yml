@@ -1,0 +1,26 @@
+dataset_name: move_fruit_e_to_toy_a_7700
+dataset_uuid: cd1761ed-386f-4972-b409-fa535112911a
+task_descriptions:
+- move_the_fruit_e_and_place_in_the_toy_a
+scene_type:
+- restaurant
+atomic_actions:
+- pull
+- lift
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 70.7
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

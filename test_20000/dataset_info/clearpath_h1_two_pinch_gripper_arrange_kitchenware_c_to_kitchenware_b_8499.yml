@@ -1,0 +1,29 @@
+dataset_name: arrange_kitchenware_c_to_kitchenware_b_8499
+dataset_uuid: 3a0cc3e1-73f2-41a9-a9a6-5bec6fcdb364
+task_descriptions:
+- arrange_the_kitchenware_c_and_place_in_the_kitchenware_b
+scene_type:
+- cafe
+- laboratory
+- warehouse
+atomic_actions:
+- pick
+- remove
+- slide
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

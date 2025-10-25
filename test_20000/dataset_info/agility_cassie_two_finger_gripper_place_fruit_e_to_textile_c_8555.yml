@@ -1,0 +1,28 @@
+dataset_name: place_fruit_e_to_textile_c_8555
+dataset_uuid: b805b56b-96ca-4a1b-9071-6f4d83189e68
+task_descriptions:
+- place_the_fruit_e_and_place_in_the_textile_c
+scene_type:
+- kitchen
+- cafe
+- warehouse
+atomic_actions:
+- insert
+- grasp
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 74.5
+device_model:
+- agility_cassie
+end_effector_type: two_finger_gripper

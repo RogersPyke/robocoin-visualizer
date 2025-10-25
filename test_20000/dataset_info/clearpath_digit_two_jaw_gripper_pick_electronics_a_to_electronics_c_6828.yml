@@ -1,0 +1,29 @@
+dataset_name: pick_electronics_a_to_electronics_c_6828
+dataset_uuid: e3490e08-e070-4fe6-a92c-999bdada7dc1
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_electronics_c
+scene_type:
+- cafe
+- kitchen
+- home
+atomic_actions:
+- place
+- rotate
+- grasp
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

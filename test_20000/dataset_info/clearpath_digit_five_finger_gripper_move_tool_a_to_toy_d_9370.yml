@@ -1,0 +1,28 @@
+dataset_name: move_tool_a_to_toy_d_9370
+dataset_uuid: 8ac44e5c-ce87-4da6-be2f-14a9a598b924
+task_descriptions:
+- move_the_tool_a_and_place_in_the_toy_d
+scene_type:
+- factory
+- restaurant
+- laboratory
+atomic_actions:
+- insert
+- place
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

@@ -1,0 +1,30 @@
+dataset_name: arrange_beverage_a_to_stationery_b_5233
+dataset_uuid: a1dde9e9-2417-4ce8-8a97-98e74c9cf64f
+task_descriptions:
+- arrange_the_beverage_a_and_place_in_the_stationery_b
+scene_type:
+- laboratory
+- home
+- cafe
+atomic_actions:
+- push
+- grasp
+- pick
+- rotate
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

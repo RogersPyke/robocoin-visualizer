@@ -1,0 +1,27 @@
+dataset_name: move_electronics_a_to_toy_b_1998
+dataset_uuid: 28161a29-11d1-4171-9f58-48f4e9cb58c2
+task_descriptions:
+- move_the_electronics_a_and_place_in_the_toy_b
+scene_type:
+- laboratory
+atomic_actions:
+- push
+- rotate
+- lift
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.9
+device_model:
+- fetch_spot
+end_effector_type: three_pinch_gripper

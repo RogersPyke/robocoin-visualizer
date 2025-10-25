@@ -1,0 +1,26 @@
+dataset_name: stack_food_e_to_beverage_a_6087
+dataset_uuid: a85046b4-d309-4d90-be8e-318258d46772
+task_descriptions:
+- stack_the_food_e_and_place_in_the_beverage_a
+scene_type:
+- laboratory
+atomic_actions:
+- flip
+- remove
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

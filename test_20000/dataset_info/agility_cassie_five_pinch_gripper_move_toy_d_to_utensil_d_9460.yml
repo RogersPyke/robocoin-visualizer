@@ -1,0 +1,27 @@
+dataset_name: move_toy_d_to_utensil_d_9460
+dataset_uuid: ddee6aec-05ff-4c74-a956-66ce6472b4f5
+task_descriptions:
+- move_the_toy_d_and_place_in_the_utensil_d
+scene_type:
+- cafe
+- factory
+atomic_actions:
+- rotate
+- pick
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.7
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

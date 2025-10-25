@@ -1,0 +1,29 @@
+dataset_name: move_furniture_c_to_beverage_b_2437
+dataset_uuid: 2460f480-8fb7-4f76-b051-c68b1d49553b
+task_descriptions:
+- move_the_furniture_c_and_place_in_the_beverage_b
+scene_type:
+- store
+- office
+atomic_actions:
+- slide
+- lower
+- grasp
+- pick
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

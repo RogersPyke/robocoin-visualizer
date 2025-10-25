@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_e_to_utensil_c_4644
+dataset_uuid: 832241ec-c381-4e94-8003-8bb49c275604
+task_descriptions:
+- arrange_the_fruit_e_and_place_in_the_utensil_c
+scene_type:
+- laboratory
+- cafe
+- kitchen
+atomic_actions:
+- insert
+- place
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

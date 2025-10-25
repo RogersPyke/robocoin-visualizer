@@ -1,0 +1,27 @@
+dataset_name: move_furniture_c_to_tool_a_6149
+dataset_uuid: 3c984113-e84c-4b4f-84f2-7cd98854aba3
+task_descriptions:
+- move_the_furniture_c_and_place_in_the_tool_a
+scene_type:
+- cafe
+atomic_actions:
+- flip
+- place
+- pick
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+operation_platform_height: 87.2
+device_model:
+- clearpath_h1
+end_effector_type: suction_cup

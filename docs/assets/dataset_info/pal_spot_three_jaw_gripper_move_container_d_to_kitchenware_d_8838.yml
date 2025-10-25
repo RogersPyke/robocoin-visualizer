@@ -1,0 +1,29 @@
+dataset_name: move_container_d_to_kitchenware_d_8838
+dataset_uuid: 22f0847e-f4e0-461b-8458-8d3bb7324f91
+task_descriptions:
+- move_the_container_d_and_place_in_the_kitchenware_d
+scene_type:
+- restaurant
+- laboratory
+atomic_actions:
+- slide
+- rotate
+- push
+- place
+objects:
+- object_name: container_d
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_d
+  level1: kitchenware
+  level2: kitchenware_d
+  level3: kitchenware_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- pal_spot
+end_effector_type: three_jaw_gripper

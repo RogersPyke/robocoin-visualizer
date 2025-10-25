@@ -1,0 +1,27 @@
+dataset_name: place_toy_a_to_textile_e_8112
+dataset_uuid: e1db25bd-7059-433c-9793-ba3c1e6d3378
+task_descriptions:
+- place_the_toy_a_and_place_in_the_textile_e
+scene_type:
+- hospital
+atomic_actions:
+- grasp
+- place
+- push
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

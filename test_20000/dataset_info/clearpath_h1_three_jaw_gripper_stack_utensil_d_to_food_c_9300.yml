@@ -1,0 +1,30 @@
+dataset_name: stack_utensil_d_to_food_c_9300
+dataset_uuid: b2bc9a07-2e65-4f10-9829-89a9de80f0e2
+task_descriptions:
+- stack_the_utensil_d_and_place_in_the_food_c
+scene_type:
+- warehouse
+- restaurant
+- cafe
+atomic_actions:
+- flip
+- pull
+- grasp
+- place
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: food_c_sub2
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

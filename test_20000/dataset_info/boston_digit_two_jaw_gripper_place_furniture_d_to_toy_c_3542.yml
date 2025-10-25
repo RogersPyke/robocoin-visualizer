@@ -1,0 +1,29 @@
+dataset_name: place_furniture_d_to_toy_c_3542
+dataset_uuid: 7d9eea68-7d41-4930-ac41-e3dda179b363
+task_descriptions:
+- place_the_furniture_d_and_place_in_the_toy_c
+scene_type:
+- office
+- laboratory
+atomic_actions:
+- rotate
+- push
+- remove
+- grasp
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

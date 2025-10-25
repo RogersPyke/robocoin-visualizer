@@ -1,0 +1,28 @@
+dataset_name: move_stationery_a_to_beverage_d_4256
+dataset_uuid: ed9dcbc1-2c12-4339-901f-a3ca4388eeeb
+task_descriptions:
+- move_the_stationery_a_and_place_in_the_beverage_d
+scene_type:
+- factory
+- office
+- restaurant
+atomic_actions:
+- slide
+- grasp
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+operation_platform_height: 77.9
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: stack_kitchenware_c_to_tool_b_1541
+dataset_uuid: f220460a-70f5-4a29-8b27-f317484ab30a
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_tool_b
+scene_type:
+- store
+- cafe
+- factory
+atomic_actions:
+- flip
+- rotate
+- remove
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

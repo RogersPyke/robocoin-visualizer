@@ -1,0 +1,27 @@
+dataset_name: pick_textile_b_to_toy_c_4257
+dataset_uuid: 3622e90f-7f35-4e91-a4a2-4a456530768e
+task_descriptions:
+- pick_the_textile_b_and_place_in_the_toy_c
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- place
+- push
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

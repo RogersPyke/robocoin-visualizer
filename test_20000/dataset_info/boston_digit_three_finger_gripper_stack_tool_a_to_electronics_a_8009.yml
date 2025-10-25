@@ -1,0 +1,27 @@
+dataset_name: stack_tool_a_to_electronics_a_8009
+dataset_uuid: 157ba58e-a4b8-4eee-9969-7194411f2aed
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_electronics_a
+scene_type:
+- restaurant
+- cafe
+atomic_actions:
+- remove
+- slide
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.2
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

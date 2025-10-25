@@ -1,0 +1,27 @@
+dataset_name: pick_kitchenware_a_to_stationery_c_7281
+dataset_uuid: 148dd2d6-f119-4eb4-998d-309660e6142f
+task_descriptions:
+- pick_the_kitchenware_a_and_place_in_the_stationery_c
+scene_type:
+- factory
+atomic_actions:
+- remove
+- pick
+- slide
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.9
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: arrange_electronics_b_to_electronics_b_6593
+dataset_uuid: 40ad04ca-e9c7-4d45-927a-47b6deb499f4
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_electronics_b
+scene_type:
+- hospital
+- laboratory
+atomic_actions:
+- flip
+- place
+- slide
+- insert
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

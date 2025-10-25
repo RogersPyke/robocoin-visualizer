@@ -1,0 +1,30 @@
+dataset_name: move_container_b_to_textile_e_2379
+dataset_uuid: 6f910dde-1747-4f31-b85d-5d755362d844
+task_descriptions:
+- move_the_container_b_and_place_in_the_textile_e
+scene_type:
+- restaurant
+- warehouse
+- home
+atomic_actions:
+- push
+- remove
+- grasp
+- pick
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.6
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

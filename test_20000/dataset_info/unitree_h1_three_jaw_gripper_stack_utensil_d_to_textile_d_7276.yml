@@ -1,0 +1,29 @@
+dataset_name: stack_utensil_d_to_textile_d_7276
+dataset_uuid: 74cc94a5-7dea-449a-93c6-908b318bf960
+task_descriptions:
+- stack_the_utensil_d_and_place_in_the_textile_d
+scene_type:
+- warehouse
+- factory
+atomic_actions:
+- lower
+- lift
+- insert
+- push
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.8
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

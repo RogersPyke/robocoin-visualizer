@@ -1,0 +1,27 @@
+dataset_name: arrange_kitchenware_a_to_fruit_c_5024
+dataset_uuid: 48e00160-9571-4026-88b8-df88ff053a48
+task_descriptions:
+- arrange_the_kitchenware_a_and_place_in_the_fruit_c
+scene_type:
+- laboratory
+- restaurant
+atomic_actions:
+- pick
+- grasp
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+operation_platform_height: 80.4
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

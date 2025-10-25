@@ -1,0 +1,27 @@
+dataset_name: pick_tool_c_to_utensil_a_8219
+dataset_uuid: 3ca67503-01fc-466d-88d3-f51dba1e620b
+task_descriptions:
+- pick_the_tool_c_and_place_in_the_utensil_a
+scene_type:
+- store
+- cafe
+atomic_actions:
+- remove
+- slide
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.8
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

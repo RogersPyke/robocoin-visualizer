@@ -1,0 +1,29 @@
+dataset_name: move_beverage_d_to_fruit_a_6450
+dataset_uuid: ef889316-6f44-436d-891d-e49b40b9d94f
+task_descriptions:
+- move_the_beverage_d_and_place_in_the_fruit_a
+scene_type:
+- store
+- home
+atomic_actions:
+- push
+- flip
+- grasp
+- pick
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

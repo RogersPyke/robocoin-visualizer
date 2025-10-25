@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_a_to_stationery_b_5951
+dataset_uuid: e14f95c2-732a-43b6-a9d7-7e0df6be1fe5
+task_descriptions:
+- stack_the_furniture_a_and_place_in_the_stationery_b
+scene_type:
+- kitchen
+- laboratory
+atomic_actions:
+- remove
+- rotate
+- flip
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- clearpath_h1
+end_effector_type: five_finger_gripper

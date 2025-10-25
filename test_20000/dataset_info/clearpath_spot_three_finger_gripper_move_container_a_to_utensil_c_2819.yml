@@ -1,0 +1,30 @@
+dataset_name: move_container_a_to_utensil_c_2819
+dataset_uuid: 34ba2dfa-3cd0-476a-961b-100c74dbbdbd
+task_descriptions:
+- move_the_container_a_and_place_in_the_utensil_c
+scene_type:
+- store
+- factory
+- laboratory
+atomic_actions:
+- lift
+- place
+- flip
+- pick
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.7
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

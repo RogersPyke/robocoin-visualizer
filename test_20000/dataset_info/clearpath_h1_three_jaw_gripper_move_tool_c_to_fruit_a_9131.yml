@@ -1,0 +1,27 @@
+dataset_name: move_tool_c_to_fruit_a_9131
+dataset_uuid: afa38c9d-12b7-47a1-bb82-bfacc68e6fbe
+task_descriptions:
+- move_the_tool_c_and_place_in_the_fruit_a
+scene_type:
+- hospital
+atomic_actions:
+- lower
+- pull
+- push
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

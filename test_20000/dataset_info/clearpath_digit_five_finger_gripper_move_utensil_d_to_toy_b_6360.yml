@@ -1,0 +1,28 @@
+dataset_name: move_utensil_d_to_toy_b_6360
+dataset_uuid: 58c6a84f-86e6-4f4c-bc10-1ef81c0b0445
+task_descriptions:
+- move_the_utensil_d_and_place_in_the_toy_b
+scene_type:
+- laboratory
+- factory
+- office
+atomic_actions:
+- grasp
+- remove
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.5
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

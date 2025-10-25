@@ -1,0 +1,30 @@
+dataset_name: stack_kitchenware_b_to_tool_b_5236
+dataset_uuid: 6ce44ff7-aceb-4895-a302-a3a1bc069ce6
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_tool_b
+scene_type:
+- hospital
+- restaurant
+- laboratory
+atomic_actions:
+- insert
+- push
+- lower
+- lift
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 74.6
+device_model:
+- unitree_digit
+end_effector_type: suction_cup

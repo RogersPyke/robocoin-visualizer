@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_a_to_toy_d_7779
+dataset_uuid: 701559ac-71bc-421c-89ec-347bb8e8f7ae
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_toy_d
+scene_type:
+- warehouse
+- hospital
+atomic_actions:
+- remove
+- push
+- lift
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.8
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

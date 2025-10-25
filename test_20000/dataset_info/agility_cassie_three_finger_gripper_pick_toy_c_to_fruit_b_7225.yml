@@ -1,0 +1,29 @@
+dataset_name: pick_toy_c_to_fruit_b_7225
+dataset_uuid: d331f0c7-5c1e-41de-b0bb-2df8c8cd754a
+task_descriptions:
+- pick_the_toy_c_and_place_in_the_fruit_b
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- pick
+- insert
+- pull
+- place
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

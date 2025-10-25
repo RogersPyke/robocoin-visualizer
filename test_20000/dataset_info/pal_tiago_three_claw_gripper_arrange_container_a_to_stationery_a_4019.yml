@@ -1,0 +1,29 @@
+dataset_name: arrange_container_a_to_stationery_a_4019
+dataset_uuid: 6d1e35a0-d2d1-4d5e-9002-5c8475dbd6af
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_stationery_a
+scene_type:
+- laboratory
+- hospital
+- restaurant
+atomic_actions:
+- pull
+- insert
+- slide
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.7
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

@@ -1,0 +1,30 @@
+dataset_name: place_container_a_to_textile_c_9864
+dataset_uuid: 7b974882-8129-416a-bcaa-0a955faebb69
+task_descriptions:
+- place_the_container_a_and_place_in_the_textile_c
+scene_type:
+- laboratory
+- home
+- cafe
+atomic_actions:
+- insert
+- pick
+- rotate
+- push
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 84.7
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,26 @@
+dataset_name: place_furniture_c_to_toy_c_8839
+dataset_uuid: 1d4326e2-1e99-4447-b8da-9c266b410eb0
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_toy_c
+scene_type:
+- warehouse
+atomic_actions:
+- pick
+- pull
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- clearpath_cassie
+end_effector_type: five_claw_gripper

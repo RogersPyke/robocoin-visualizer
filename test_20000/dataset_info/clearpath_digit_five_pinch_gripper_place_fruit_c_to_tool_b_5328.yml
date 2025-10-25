@@ -1,0 +1,28 @@
+dataset_name: place_fruit_c_to_tool_b_5328
+dataset_uuid: eeee2dd5-6190-419c-94ea-34a33e48e14a
+task_descriptions:
+- place_the_fruit_c_and_place_in_the_tool_b
+scene_type:
+- office
+atomic_actions:
+- lift
+- grasp
+- place
+- flip
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

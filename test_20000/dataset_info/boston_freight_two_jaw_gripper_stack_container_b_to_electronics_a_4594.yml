@@ -1,0 +1,27 @@
+dataset_name: stack_container_b_to_electronics_a_4594
+dataset_uuid: 2eeb5432-9f5e-4603-8f87-af748e18b0e9
+task_descriptions:
+- stack_the_container_b_and_place_in_the_electronics_a
+scene_type:
+- store
+- cafe
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 86.8
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

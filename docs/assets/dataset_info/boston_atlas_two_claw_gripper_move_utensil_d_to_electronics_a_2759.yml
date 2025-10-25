@@ -1,0 +1,30 @@
+dataset_name: move_utensil_d_to_electronics_a_2759
+dataset_uuid: 9817b6ee-44ae-48ae-916b-fe3f62dcc7b6
+task_descriptions:
+- move_the_utensil_d_and_place_in_the_electronics_a
+scene_type:
+- laboratory
+- kitchen
+- restaurant
+atomic_actions:
+- pick
+- flip
+- place
+- insert
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- boston_atlas
+end_effector_type: two_claw_gripper

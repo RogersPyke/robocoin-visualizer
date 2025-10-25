@@ -1,0 +1,29 @@
+dataset_name: arrange_tool_d_to_beverage_e_8367
+dataset_uuid: dfc0cbcd-ba7b-465a-b984-8919dfe3b9bf
+task_descriptions:
+- arrange_the_tool_d_and_place_in_the_beverage_e
+scene_type:
+- warehouse
+- factory
+- restaurant
+atomic_actions:
+- rotate
+- remove
+- slide
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

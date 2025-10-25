@@ -1,0 +1,29 @@
+dataset_name: stack_fruit_e_to_utensil_d_7062
+dataset_uuid: 20cd8785-8167-4700-9964-0ef625a7fb94
+task_descriptions:
+- stack_the_fruit_e_and_place_in_the_utensil_d
+scene_type:
+- office
+- restaurant
+- warehouse
+atomic_actions:
+- slide
+- rotate
+- place
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

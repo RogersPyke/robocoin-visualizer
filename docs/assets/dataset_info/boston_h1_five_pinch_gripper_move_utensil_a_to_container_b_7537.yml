@@ -1,0 +1,28 @@
+dataset_name: move_utensil_a_to_container_b_7537
+dataset_uuid: 17996679-e00d-4430-a3a9-dac037508a4c
+task_descriptions:
+- move_the_utensil_a_and_place_in_the_container_b
+scene_type:
+- factory
+atomic_actions:
+- lower
+- pick
+- grasp
+- slide
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.8
+device_model:
+- boston_h1
+end_effector_type: five_pinch_gripper

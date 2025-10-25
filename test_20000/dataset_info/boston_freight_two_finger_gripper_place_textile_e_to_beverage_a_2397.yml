@@ -1,0 +1,28 @@
+dataset_name: place_textile_e_to_beverage_a_2397
+dataset_uuid: 4a285039-bead-4938-b733-3aa6e5e48c70
+task_descriptions:
+- place_the_textile_e_and_place_in_the_beverage_a
+scene_type:
+- laboratory
+- factory
+atomic_actions:
+- slide
+- rotate
+- remove
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

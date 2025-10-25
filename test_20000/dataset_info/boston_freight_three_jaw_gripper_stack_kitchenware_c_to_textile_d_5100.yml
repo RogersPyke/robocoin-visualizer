@@ -1,0 +1,29 @@
+dataset_name: stack_kitchenware_c_to_textile_d_5100
+dataset_uuid: c8263e17-951b-4929-bec7-a83eed0d5e30
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_textile_d
+scene_type:
+- office
+- store
+- warehouse
+atomic_actions:
+- remove
+- place
+- pull
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

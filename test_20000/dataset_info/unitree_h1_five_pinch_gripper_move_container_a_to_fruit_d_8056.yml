@@ -1,0 +1,26 @@
+dataset_name: move_container_a_to_fruit_d_8056
+dataset_uuid: 4f9d6856-6ac9-4732-914f-b99b2e89ff58
+task_descriptions:
+- move_the_container_a_and_place_in_the_fruit_d
+scene_type:
+- factory
+atomic_actions:
+- flip
+- slide
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.9
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

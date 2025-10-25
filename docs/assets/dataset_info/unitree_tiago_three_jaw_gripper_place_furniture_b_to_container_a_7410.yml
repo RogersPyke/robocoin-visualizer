@@ -1,0 +1,27 @@
+dataset_name: place_furniture_b_to_container_a_7410
+dataset_uuid: ae90da1e-5118-4374-9cf7-6fcf6a345049
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_container_a
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- remove
+- pull
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.6
+device_model:
+- unitree_tiago
+end_effector_type: three_jaw_gripper

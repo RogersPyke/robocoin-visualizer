@@ -1,0 +1,29 @@
+dataset_name: place_stationery_b_to_food_b_1792
+dataset_uuid: d6d7c339-45ce-455e-b0e2-4bdc4cc9fcab
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_food_b
+scene_type:
+- office
+- warehouse
+- store
+atomic_actions:
+- place
+- flip
+- push
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

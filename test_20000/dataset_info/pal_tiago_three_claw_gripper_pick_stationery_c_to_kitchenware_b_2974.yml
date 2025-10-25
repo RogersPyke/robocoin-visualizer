@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_c_to_kitchenware_b_2974
+dataset_uuid: cd80ee8e-b8be-4ad2-98f6-cd4319652a86
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_kitchenware_b
+scene_type:
+- hospital
+- home
+- kitchen
+atomic_actions:
+- remove
+- flip
+- insert
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

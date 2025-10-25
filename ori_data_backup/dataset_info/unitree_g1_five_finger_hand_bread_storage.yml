@@ -1,0 +1,34 @@
+dataset_name: bread_storage
+dataset_uuid: f7d3a8e5-0083-4f80-b693-874ff6093316
+task_descriptions:
+- pick_up_the_bread_and_place_in_the_bowl.
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- grasp
+- place
+- pick
+objects:
+- object_name: table
+  level1: furniture
+  level2: table
+  level3: null
+  level4: null
+  level5: null
+- object_name: bread
+  level1: food
+  level2: bread
+  level3: null
+  level4: null
+  level5: null
+- object_name: bowl
+  level1: container
+  level2: bowl
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- unitree_g1
+end_effector_type: five_finger_hand

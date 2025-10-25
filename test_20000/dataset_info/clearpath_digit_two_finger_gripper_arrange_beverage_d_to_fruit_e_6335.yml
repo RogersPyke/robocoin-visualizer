@@ -1,0 +1,29 @@
+dataset_name: arrange_beverage_d_to_fruit_e_6335
+dataset_uuid: 285b881e-ff0a-45f3-bab8-56196c702bd9
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_fruit_e
+scene_type:
+- cafe
+- hospital
+atomic_actions:
+- slide
+- place
+- lift
+- grasp
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.1
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

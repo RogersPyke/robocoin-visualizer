@@ -1,0 +1,27 @@
+dataset_name: place_food_b_to_fruit_b_9601
+dataset_uuid: 3082e58f-501a-492e-800e-22a53e56728d
+task_descriptions:
+- place_the_food_b_and_place_in_the_fruit_b
+scene_type:
+- kitchen
+- office
+atomic_actions:
+- push
+- pick
+objects:
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 80.5
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

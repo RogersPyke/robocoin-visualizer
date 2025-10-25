@@ -1,0 +1,28 @@
+dataset_name: move_toy_a_to_fruit_a_8557
+dataset_uuid: d8bcea39-5056-4270-9b4a-d464132a59a2
+task_descriptions:
+- move_the_toy_a_and_place_in_the_fruit_a
+scene_type:
+- laboratory
+atomic_actions:
+- rotate
+- pick
+- place
+- push
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 87.9
+device_model:
+- boston_h1
+end_effector_type: five_jaw_gripper

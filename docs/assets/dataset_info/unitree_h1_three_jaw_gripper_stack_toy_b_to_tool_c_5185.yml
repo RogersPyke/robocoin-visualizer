@@ -1,0 +1,28 @@
+dataset_name: stack_toy_b_to_tool_c_5185
+dataset_uuid: ccc502e7-703d-4dc9-9327-6d6e6fe8b99b
+task_descriptions:
+- stack_the_toy_b_and_place_in_the_tool_c
+scene_type:
+- home
+- cafe
+- warehouse
+atomic_actions:
+- slide
+- push
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.4
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

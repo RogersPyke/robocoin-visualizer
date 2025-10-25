@@ -1,0 +1,27 @@
+dataset_name: move_container_a_to_beverage_b_6347
+dataset_uuid: 85652097-989a-4895-b324-0f3f2caccac6
+task_descriptions:
+- move_the_container_a_and_place_in_the_beverage_b
+scene_type:
+- restaurant
+atomic_actions:
+- insert
+- rotate
+- lift
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

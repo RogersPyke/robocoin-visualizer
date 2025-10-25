@@ -1,0 +1,28 @@
+dataset_name: pick_food_c_to_stationery_b_6617
+dataset_uuid: 2ab0ab9a-78f8-495b-b163-04ae4f74ab39
+task_descriptions:
+- pick_the_food_c_and_place_in_the_stationery_b
+scene_type:
+- kitchen
+atomic_actions:
+- flip
+- lift
+- slide
+- grasp
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: food_c_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

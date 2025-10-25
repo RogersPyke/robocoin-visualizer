@@ -1,0 +1,26 @@
+dataset_name: stack_stationery_b_to_beverage_e_5947
+dataset_uuid: 994912b4-33b2-4cb8-b3a5-7f96e48feaa4
+task_descriptions:
+- stack_the_stationery_b_and_place_in_the_beverage_e
+scene_type:
+- office
+atomic_actions:
+- grasp
+- lift
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- clearpath_h1
+end_effector_type: two_finger_gripper

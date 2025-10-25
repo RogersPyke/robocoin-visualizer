@@ -1,0 +1,29 @@
+dataset_name: pick_fruit_b_to_utensil_a_5874
+dataset_uuid: 228e62b2-0542-4716-a912-a046f39f7171
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_utensil_a
+scene_type:
+- warehouse
+- store
+- hospital
+atomic_actions:
+- grasp
+- flip
+- place
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

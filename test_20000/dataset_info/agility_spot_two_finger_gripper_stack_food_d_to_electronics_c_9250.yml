@@ -1,0 +1,29 @@
+dataset_name: stack_food_d_to_electronics_c_9250
+dataset_uuid: 9d2ad85c-11d6-4d98-946d-d9465af55f52
+task_descriptions:
+- stack_the_food_d_and_place_in_the_electronics_c
+scene_type:
+- factory
+- cafe
+- home
+atomic_actions:
+- insert
+- grasp
+- pick
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.8
+device_model:
+- agility_spot
+end_effector_type: two_finger_gripper

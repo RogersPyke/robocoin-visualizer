@@ -1,0 +1,27 @@
+dataset_name: place_electronics_b_to_toy_d_8961
+dataset_uuid: 7deb25f4-63e0-48b7-b070-689c5f7111b5
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_toy_d
+scene_type:
+- restaurant
+- kitchen
+atomic_actions:
+- rotate
+- slide
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

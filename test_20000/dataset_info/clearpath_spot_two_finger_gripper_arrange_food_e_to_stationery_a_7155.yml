@@ -1,0 +1,28 @@
+dataset_name: arrange_food_e_to_stationery_a_7155
+dataset_uuid: 1bfe5a18-88f0-408d-9520-047a83d87ecb
+task_descriptions:
+- arrange_the_food_e_and_place_in_the_stationery_a
+scene_type:
+- kitchen
+atomic_actions:
+- pick
+- insert
+- lower
+- push
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.8
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

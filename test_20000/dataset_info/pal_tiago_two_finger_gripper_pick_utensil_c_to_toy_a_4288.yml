@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_c_to_toy_a_4288
+dataset_uuid: 473f25d4-b628-4e14-b5c7-64b7e03903ff
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_toy_a
+scene_type:
+- restaurant
+- office
+atomic_actions:
+- flip
+- pull
+- grasp
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.8
+device_model:
+- pal_tiago
+end_effector_type: two_finger_gripper

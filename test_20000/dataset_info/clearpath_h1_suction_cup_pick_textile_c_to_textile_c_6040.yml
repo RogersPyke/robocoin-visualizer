@@ -1,0 +1,29 @@
+dataset_name: pick_textile_c_to_textile_c_6040
+dataset_uuid: c6e8de8c-3fc5-4823-8156-2d4e7697f44f
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_textile_c
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- lower
+- pick
+- slide
+- insert
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.3
+device_model:
+- clearpath_h1
+end_effector_type: suction_cup

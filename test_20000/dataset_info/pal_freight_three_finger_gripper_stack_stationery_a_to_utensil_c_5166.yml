@@ -1,0 +1,28 @@
+dataset_name: stack_stationery_a_to_utensil_c_5166
+dataset_uuid: 52cf7d1c-b02a-4da0-88ff-b8cbaf9d44bd
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_utensil_c
+scene_type:
+- hospital
+atomic_actions:
+- insert
+- push
+- slide
+- pull
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.0
+device_model:
+- pal_freight
+end_effector_type: three_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: stack_fruit_c_to_textile_b_3086
+dataset_uuid: 0ee8d97a-f8db-46e4-b622-94cd2e9c3f28
+task_descriptions:
+- stack_the_fruit_c_and_place_in_the_textile_b
+scene_type:
+- restaurant
+- cafe
+atomic_actions:
+- slide
+- push
+- flip
+- place
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- boston_digit
+end_effector_type: two_finger_gripper

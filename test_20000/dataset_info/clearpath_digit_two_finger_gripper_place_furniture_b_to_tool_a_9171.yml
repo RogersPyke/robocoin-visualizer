@@ -1,0 +1,27 @@
+dataset_name: place_furniture_b_to_tool_a_9171
+dataset_uuid: 5adb78ee-baf1-475f-a2c4-fe94dc90172b
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_tool_a
+scene_type:
+- factory
+- hospital
+atomic_actions:
+- place
+- rotate
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

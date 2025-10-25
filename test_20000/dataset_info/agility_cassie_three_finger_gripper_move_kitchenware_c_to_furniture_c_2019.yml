@@ -1,0 +1,27 @@
+dataset_name: move_kitchenware_c_to_furniture_c_2019
+dataset_uuid: 7f85f09c-b702-4167-b602-4f68f5502b86
+task_descriptions:
+- move_the_kitchenware_c_and_place_in_the_furniture_c
+scene_type:
+- office
+atomic_actions:
+- remove
+- rotate
+- lower
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.8
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

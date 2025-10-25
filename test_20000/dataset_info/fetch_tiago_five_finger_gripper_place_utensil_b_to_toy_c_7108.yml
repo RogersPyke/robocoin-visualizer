@@ -1,0 +1,28 @@
+dataset_name: place_utensil_b_to_toy_c_7108
+dataset_uuid: ca92e0b0-38fd-430e-9427-5d1315141130
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_toy_c
+scene_type:
+- laboratory
+- home
+atomic_actions:
+- remove
+- lower
+- slide
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 71.6
+device_model:
+- fetch_tiago
+end_effector_type: five_finger_gripper

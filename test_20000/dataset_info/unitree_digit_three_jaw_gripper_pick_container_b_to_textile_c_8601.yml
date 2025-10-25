@@ -1,0 +1,29 @@
+dataset_name: pick_container_b_to_textile_c_8601
+dataset_uuid: 6bd76847-3a8b-4a9f-8b81-bca8ac2a74f1
+task_descriptions:
+- pick_the_container_b_and_place_in_the_textile_c
+scene_type:
+- kitchen
+- warehouse
+atomic_actions:
+- lower
+- flip
+- remove
+- pick
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

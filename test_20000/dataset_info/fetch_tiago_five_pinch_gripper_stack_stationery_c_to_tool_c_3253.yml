@@ -1,0 +1,28 @@
+dataset_name: stack_stationery_c_to_tool_c_3253
+dataset_uuid: e6124029-3de4-4244-b313-ff994ff6ef79
+task_descriptions:
+- stack_the_stationery_c_and_place_in_the_tool_c
+scene_type:
+- restaurant
+atomic_actions:
+- rotate
+- lift
+- push
+- insert
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

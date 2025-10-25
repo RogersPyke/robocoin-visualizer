@@ -1,0 +1,27 @@
+dataset_name: move_beverage_b_to_container_b_4990
+dataset_uuid: 1c04154c-75ac-4ae8-8b83-55c52e20a8b1
+task_descriptions:
+- move_the_beverage_b_and_place_in_the_container_b
+scene_type:
+- cafe
+atomic_actions:
+- flip
+- lower
+- lift
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.7
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

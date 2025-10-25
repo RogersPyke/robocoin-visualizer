@@ -1,0 +1,26 @@
+dataset_name: stack_food_b_to_tool_c_7080
+dataset_uuid: 8419d4fa-6424-48f8-81fb-d1ac0e24b123
+task_descriptions:
+- stack_the_food_b_and_place_in_the_tool_c
+scene_type:
+- warehouse
+atomic_actions:
+- push
+- rotate
+objects:
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.3
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

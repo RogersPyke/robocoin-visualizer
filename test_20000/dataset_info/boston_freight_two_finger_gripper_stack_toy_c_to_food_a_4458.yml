@@ -1,0 +1,28 @@
+dataset_name: stack_toy_c_to_food_a_4458
+dataset_uuid: 50db8d1f-e1d7-4899-b0e4-f213af659031
+task_descriptions:
+- stack_the_toy_c_and_place_in_the_food_a
+scene_type:
+- hospital
+- kitchen
+- warehouse
+atomic_actions:
+- pull
+- lift
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+operation_platform_height: 71.5
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

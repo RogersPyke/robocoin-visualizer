@@ -1,0 +1,26 @@
+dataset_name: stack_beverage_c_to_container_c_4376
+dataset_uuid: c8495fc1-e647-4c9d-ab97-1d8af4d071cc
+task_descriptions:
+- stack_the_beverage_c_and_place_in_the_container_c
+scene_type:
+- laboratory
+atomic_actions:
+- insert
+- pull
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.8
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

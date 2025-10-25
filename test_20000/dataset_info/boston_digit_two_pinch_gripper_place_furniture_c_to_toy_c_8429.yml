@@ -1,0 +1,26 @@
+dataset_name: place_furniture_c_to_toy_c_8429
+dataset_uuid: 43337408-2bb3-4b14-bd29-338ecd5d0f71
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_toy_c
+scene_type:
+- kitchen
+atomic_actions:
+- pull
+- place
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

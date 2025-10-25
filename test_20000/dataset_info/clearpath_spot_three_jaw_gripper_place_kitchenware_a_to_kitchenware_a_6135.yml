@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_a_to_kitchenware_a_6135
+dataset_uuid: 730d7b6b-6c9f-4e61-afde-10fd784497cd
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_kitchenware_a
+scene_type:
+- warehouse
+- restaurant
+atomic_actions:
+- lower
+- grasp
+- rotate
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

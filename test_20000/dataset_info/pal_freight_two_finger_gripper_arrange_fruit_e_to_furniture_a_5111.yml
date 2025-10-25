@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_e_to_furniture_a_5111
+dataset_uuid: 67818b2e-1bab-44bd-8b16-f7c9ea7c3b52
+task_descriptions:
+- arrange_the_fruit_e_and_place_in_the_furniture_a
+scene_type:
+- office
+atomic_actions:
+- lower
+- insert
+- push
+- place
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- pal_freight
+end_effector_type: two_finger_gripper

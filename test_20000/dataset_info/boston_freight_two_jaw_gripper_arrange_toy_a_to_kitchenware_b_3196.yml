@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_a_to_kitchenware_b_3196
+dataset_uuid: aad497b0-6178-478b-9fba-f789465b235c
+task_descriptions:
+- arrange_the_toy_a_and_place_in_the_kitchenware_b
+scene_type:
+- restaurant
+- store
+- office
+atomic_actions:
+- grasp
+- flip
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

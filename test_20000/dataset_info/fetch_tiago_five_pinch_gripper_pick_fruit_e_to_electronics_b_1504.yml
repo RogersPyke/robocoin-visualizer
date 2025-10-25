@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_e_to_electronics_b_1504
+dataset_uuid: 438d3144-4dda-4e89-8c33-2f4178a47370
+task_descriptions:
+- pick_the_fruit_e_and_place_in_the_electronics_b
+scene_type:
+- restaurant
+atomic_actions:
+- pick
+- remove
+- insert
+- lower
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

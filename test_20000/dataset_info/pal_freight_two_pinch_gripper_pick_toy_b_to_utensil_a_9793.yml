@@ -1,0 +1,29 @@
+dataset_name: pick_toy_b_to_utensil_a_9793
+dataset_uuid: 9730f5e7-79dd-4993-8e4f-af350390b192
+task_descriptions:
+- pick_the_toy_b_and_place_in_the_utensil_a
+scene_type:
+- restaurant
+- warehouse
+- store
+atomic_actions:
+- remove
+- pick
+- insert
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.1
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

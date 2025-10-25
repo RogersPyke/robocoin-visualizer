@@ -1,0 +1,27 @@
+dataset_name: stack_kitchenware_b_to_fruit_d_9262
+dataset_uuid: 0755265b-5946-4a18-8ea9-24e54aea7429
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_fruit_d
+scene_type:
+- cafe
+- laboratory
+atomic_actions:
+- place
+- lower
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.8
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

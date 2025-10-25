@@ -1,0 +1,29 @@
+dataset_name: place_beverage_d_to_toy_d_5771
+dataset_uuid: fb05f160-482f-43e8-a5d3-de104065a678
+task_descriptions:
+- place_the_beverage_d_and_place_in_the_toy_d
+scene_type:
+- warehouse
+- restaurant
+atomic_actions:
+- grasp
+- flip
+- pick
+- lower
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

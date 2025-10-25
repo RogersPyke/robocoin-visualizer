@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_c_to_fruit_b_9737
+dataset_uuid: e43532cb-9a39-4010-a679-3d3a0e28bf45
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_fruit_b
+scene_type:
+- warehouse
+- kitchen
+atomic_actions:
+- pull
+- remove
+- insert
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.9
+device_model:
+- agility_spot
+end_effector_type: five_claw_gripper

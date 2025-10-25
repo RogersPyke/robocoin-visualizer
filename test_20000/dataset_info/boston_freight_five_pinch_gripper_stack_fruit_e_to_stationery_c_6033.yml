@@ -1,0 +1,28 @@
+dataset_name: stack_fruit_e_to_stationery_c_6033
+dataset_uuid: b8bdf7e7-702d-40f1-89fd-74e40ef45375
+task_descriptions:
+- stack_the_fruit_e_and_place_in_the_stationery_c
+scene_type:
+- cafe
+- store
+- kitchen
+atomic_actions:
+- remove
+- rotate
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.3
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

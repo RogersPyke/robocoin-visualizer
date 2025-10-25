@@ -1,0 +1,27 @@
+dataset_name: place_food_a_to_tool_a_7995
+dataset_uuid: d7910081-4538-4d57-bc11-984d6698cc40
+task_descriptions:
+- place_the_food_a_and_place_in_the_tool_a
+scene_type:
+- restaurant
+atomic_actions:
+- lower
+- lift
+- place
+objects:
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

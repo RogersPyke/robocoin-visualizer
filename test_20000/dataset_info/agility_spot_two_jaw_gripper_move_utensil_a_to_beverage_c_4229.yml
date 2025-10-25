@@ -1,0 +1,27 @@
+dataset_name: move_utensil_a_to_beverage_c_4229
+dataset_uuid: eec00001-0315-40c6-b6f5-f04e6edb0ff9
+task_descriptions:
+- move_the_utensil_a_and_place_in_the_beverage_c
+scene_type:
+- cafe
+atomic_actions:
+- lower
+- pick
+- place
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

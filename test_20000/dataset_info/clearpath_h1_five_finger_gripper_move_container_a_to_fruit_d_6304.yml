@@ -1,0 +1,28 @@
+dataset_name: move_container_a_to_fruit_d_6304
+dataset_uuid: 416d35c5-1426-4f39-86c5-b87c91b29932
+task_descriptions:
+- move_the_container_a_and_place_in_the_fruit_d
+scene_type:
+- kitchen
+atomic_actions:
+- lower
+- rotate
+- grasp
+- push
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- clearpath_h1
+end_effector_type: five_finger_gripper

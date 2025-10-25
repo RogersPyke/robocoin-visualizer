@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_c_to_toy_d_9210
+dataset_uuid: 3dcb9cc8-3ce9-4c5b-8746-f001770f5f03
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_toy_d
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- insert
+- rotate
+- grasp
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.1
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

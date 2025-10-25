@@ -1,0 +1,26 @@
+dataset_name: stack_tool_b_to_electronics_c_9419
+dataset_uuid: 1825873b-2f3d-4bd9-a5be-295edb73de02
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_electronics_c
+scene_type:
+- cafe
+atomic_actions:
+- rotate
+- remove
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.4
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

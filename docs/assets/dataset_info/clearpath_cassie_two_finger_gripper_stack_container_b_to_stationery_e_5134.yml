@@ -1,0 +1,30 @@
+dataset_name: stack_container_b_to_stationery_e_5134
+dataset_uuid: e6da8eba-22de-4674-b081-fa41cd74f58e
+task_descriptions:
+- stack_the_container_b_and_place_in_the_stationery_e
+scene_type:
+- restaurant
+- cafe
+- store
+atomic_actions:
+- rotate
+- grasp
+- insert
+- pick
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_e
+  level1: stationery
+  level2: stationery_e
+  level3: stationery_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- clearpath_cassie
+end_effector_type: two_finger_gripper

@@ -1,0 +1,26 @@
+dataset_name: move_container_b_to_stationery_b_8322
+dataset_uuid: f6291492-416c-40ca-89ea-75bc56da4968
+task_descriptions:
+- move_the_container_b_and_place_in_the_stationery_b
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- insert
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.9
+device_model:
+- pal_freight
+end_effector_type: two_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: arrange_electronics_c_to_textile_d_2466
+dataset_uuid: c21f88a8-ec89-4fa0-a006-e73dc0bc1f30
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_textile_d
+scene_type:
+- store
+- warehouse
+atomic_actions:
+- pull
+- pick
+- slide
+- rotate
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.2
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

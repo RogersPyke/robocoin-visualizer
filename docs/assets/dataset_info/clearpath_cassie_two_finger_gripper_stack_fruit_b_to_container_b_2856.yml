@@ -1,0 +1,27 @@
+dataset_name: stack_fruit_b_to_container_b_2856
+dataset_uuid: 237ff061-96c3-4865-b247-b6cc7dab310d
+task_descriptions:
+- stack_the_fruit_b_and_place_in_the_container_b
+scene_type:
+- laboratory
+- cafe
+atomic_actions:
+- pick
+- remove
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- clearpath_cassie
+end_effector_type: two_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_e_to_electronics_a_9509
+dataset_uuid: b29a42b3-2de7-4835-a734-2c6b72b49063
+task_descriptions:
+- pick_the_furniture_e_and_place_in_the_electronics_a
+scene_type:
+- factory
+atomic_actions:
+- lift
+- lower
+- pick
+- flip
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

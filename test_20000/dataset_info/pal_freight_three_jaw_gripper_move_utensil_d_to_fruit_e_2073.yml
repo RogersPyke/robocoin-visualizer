@@ -1,0 +1,29 @@
+dataset_name: move_utensil_d_to_fruit_e_2073
+dataset_uuid: a083673e-91e0-45e9-85f8-66c1713addce
+task_descriptions:
+- move_the_utensil_d_and_place_in_the_fruit_e
+scene_type:
+- store
+- hospital
+atomic_actions:
+- lower
+- grasp
+- insert
+- pick
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

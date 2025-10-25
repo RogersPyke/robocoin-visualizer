@@ -1,0 +1,29 @@
+dataset_name: stack_utensil_c_to_fruit_d_4036
+dataset_uuid: e127d446-ba4b-4736-8f64-6080126a82b5
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_fruit_d
+scene_type:
+- cafe
+- kitchen
+atomic_actions:
+- slide
+- rotate
+- grasp
+- flip
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.8
+device_model:
+- fetch_tiago
+end_effector_type: five_finger_gripper

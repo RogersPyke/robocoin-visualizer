@@ -1,0 +1,26 @@
+dataset_name: place_stationery_b_to_toy_d_9576
+dataset_uuid: 9fcc3d63-4028-4714-95d5-9a85f6de849a
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_toy_d
+scene_type:
+- office
+atomic_actions:
+- pick
+- remove
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

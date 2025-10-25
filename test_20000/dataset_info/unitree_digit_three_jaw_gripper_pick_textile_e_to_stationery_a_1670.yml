@@ -1,0 +1,26 @@
+dataset_name: pick_textile_e_to_stationery_a_1670
+dataset_uuid: 571cc53c-773e-4bee-94a9-f22b70e96b46
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_stationery_a
+scene_type:
+- hospital
+atomic_actions:
+- pick
+- pull
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

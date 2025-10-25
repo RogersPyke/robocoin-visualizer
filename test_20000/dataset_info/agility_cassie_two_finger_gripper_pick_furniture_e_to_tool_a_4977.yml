@@ -1,0 +1,27 @@
+dataset_name: pick_furniture_e_to_tool_a_4977
+dataset_uuid: c4cfec5f-bb08-4dd1-b210-d3a4de16a2a1
+task_descriptions:
+- pick_the_furniture_e_and_place_in_the_tool_a
+scene_type:
+- home
+atomic_actions:
+- remove
+- flip
+- lift
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.3
+device_model:
+- agility_cassie
+end_effector_type: two_finger_gripper

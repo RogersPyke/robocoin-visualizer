@@ -1,0 +1,29 @@
+dataset_name: stack_toy_b_to_utensil_b_6011
+dataset_uuid: 1029d356-552d-4a0c-b78d-8257758be56b
+task_descriptions:
+- stack_the_toy_b_and_place_in_the_utensil_b
+scene_type:
+- kitchen
+- store
+atomic_actions:
+- grasp
+- place
+- insert
+- flip
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- pal_tiago
+end_effector_type: five_finger_gripper

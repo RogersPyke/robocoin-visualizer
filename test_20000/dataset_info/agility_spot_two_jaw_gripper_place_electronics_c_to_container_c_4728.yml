@@ -1,0 +1,28 @@
+dataset_name: place_electronics_c_to_container_c_4728
+dataset_uuid: 5e94b501-fad9-41a1-9eab-826539ff3597
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_container_c
+scene_type:
+- cafe
+- kitchen
+atomic_actions:
+- lower
+- pull
+- slide
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

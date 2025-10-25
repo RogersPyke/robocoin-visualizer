@@ -1,0 +1,27 @@
+dataset_name: place_furniture_d_to_textile_b_1217
+dataset_uuid: 4e2fc799-cd5b-4aa3-8093-4d442c7a6c1a
+task_descriptions:
+- place_the_furniture_d_and_place_in_the_textile_b
+scene_type:
+- cafe
+- warehouse
+atomic_actions:
+- pick
+- remove
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

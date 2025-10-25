@@ -1,0 +1,27 @@
+dataset_name: pick_food_c_to_container_a_5080
+dataset_uuid: ab76a315-164d-4318-893c-1793e7fff075
+task_descriptions:
+- pick_the_food_c_and_place_in_the_container_a
+scene_type:
+- home
+atomic_actions:
+- flip
+- rotate
+- pull
+objects:
+- object_name: food_c
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- agility_spot
+end_effector_type: five_claw_gripper

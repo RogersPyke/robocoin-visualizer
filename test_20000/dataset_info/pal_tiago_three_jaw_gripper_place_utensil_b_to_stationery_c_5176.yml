@@ -1,0 +1,28 @@
+dataset_name: place_utensil_b_to_stationery_c_5176
+dataset_uuid: 8cc7c488-37c7-4086-824b-09a9107f5776
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_stationery_c
+scene_type:
+- cafe
+atomic_actions:
+- grasp
+- push
+- pull
+- insert
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+operation_platform_height: 85.5
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

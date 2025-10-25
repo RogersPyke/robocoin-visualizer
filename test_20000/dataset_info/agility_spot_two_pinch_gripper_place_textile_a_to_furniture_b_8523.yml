@@ -1,0 +1,28 @@
+dataset_name: place_textile_a_to_furniture_b_8523
+dataset_uuid: 5411c793-d6cf-4a5f-81c9-1f2507b6adbb
+task_descriptions:
+- place_the_textile_a_and_place_in_the_furniture_b
+scene_type:
+- restaurant
+- cafe
+atomic_actions:
+- remove
+- place
+- grasp
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

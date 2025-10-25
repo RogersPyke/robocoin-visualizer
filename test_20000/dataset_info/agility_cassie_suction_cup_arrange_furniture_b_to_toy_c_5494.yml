@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_b_to_toy_c_5494
+dataset_uuid: 85d7505b-f729-4d5f-97fb-284532fe0f06
+task_descriptions:
+- arrange_the_furniture_b_and_place_in_the_toy_c
+scene_type:
+- hospital
+- kitchen
+atomic_actions:
+- push
+- place
+- slide
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 74.7
+device_model:
+- agility_cassie
+end_effector_type: suction_cup

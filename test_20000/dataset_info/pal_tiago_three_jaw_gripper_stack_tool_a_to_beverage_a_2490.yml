@@ -1,0 +1,29 @@
+dataset_name: stack_tool_a_to_beverage_a_2490
+dataset_uuid: 733c24bf-e362-4ea2-b309-a4683b7e1b70
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_beverage_a
+scene_type:
+- kitchen
+- store
+atomic_actions:
+- place
+- lift
+- push
+- slide
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.9
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

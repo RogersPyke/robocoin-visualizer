@@ -1,0 +1,27 @@
+dataset_name: move_tool_c_to_beverage_e_8024
+dataset_uuid: 3b20ac23-a59f-4459-a70e-34b9f715c877
+task_descriptions:
+- move_the_tool_c_and_place_in_the_beverage_e
+scene_type:
+- warehouse
+- laboratory
+atomic_actions:
+- pull
+- rotate
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.8
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_fruit_b_to_furniture_c_2526
+dataset_uuid: 58d1ed3a-4505-4ca1-b1d9-4ff0a0ed871d
+task_descriptions:
+- move_the_fruit_b_and_place_in_the_furniture_c
+scene_type:
+- laboratory
+- home
+- warehouse
+atomic_actions:
+- flip
+- grasp
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

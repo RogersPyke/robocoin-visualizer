@@ -1,0 +1,30 @@
+dataset_name: move_fruit_b_to_stationery_a_4742
+dataset_uuid: 7ba6eade-490e-46dc-b79e-aaeb0c1787a9
+task_descriptions:
+- move_the_fruit_b_and_place_in_the_stationery_a
+scene_type:
+- hospital
+- office
+- restaurant
+atomic_actions:
+- pick
+- push
+- rotate
+- pull
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

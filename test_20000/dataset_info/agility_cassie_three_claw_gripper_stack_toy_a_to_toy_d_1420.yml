@@ -1,0 +1,28 @@
+dataset_name: stack_toy_a_to_toy_d_1420
+dataset_uuid: 7b156bf5-d4ba-4a71-8f25-08d87713a825
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_toy_d
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- push
+- flip
+- lower
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.0
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

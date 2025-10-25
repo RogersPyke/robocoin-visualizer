@@ -1,0 +1,27 @@
+dataset_name: stack_kitchenware_c_to_utensil_d_4820
+dataset_uuid: 0d765cb4-52a9-4135-ac17-054192b3304a
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_utensil_d
+scene_type:
+- restaurant
+atomic_actions:
+- rotate
+- pull
+- slide
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_container_a_to_tool_d_7359
+dataset_uuid: 0238c1b9-d5d9-4907-8dac-ea5570354619
+task_descriptions:
+- pick_the_container_a_and_place_in_the_tool_d
+scene_type:
+- laboratory
+atomic_actions:
+- insert
+- pull
+- slide
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.4
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

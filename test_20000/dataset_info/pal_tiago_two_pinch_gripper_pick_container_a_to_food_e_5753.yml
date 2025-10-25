@@ -1,0 +1,27 @@
+dataset_name: pick_container_a_to_food_e_5753
+dataset_uuid: 6c9fe3ef-0e57-4e10-8675-7400a91da73b
+task_descriptions:
+- pick_the_container_a_and_place_in_the_food_e
+scene_type:
+- office
+- home
+atomic_actions:
+- remove
+- pick
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

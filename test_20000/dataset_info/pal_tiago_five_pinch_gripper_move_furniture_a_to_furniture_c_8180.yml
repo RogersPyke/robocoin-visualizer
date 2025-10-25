@@ -1,0 +1,29 @@
+dataset_name: move_furniture_a_to_furniture_c_8180
+dataset_uuid: f74ec394-8124-4eee-94ab-3b81f87ee74e
+task_descriptions:
+- move_the_furniture_a_and_place_in_the_furniture_c
+scene_type:
+- home
+- factory
+atomic_actions:
+- push
+- pull
+- lift
+- place
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

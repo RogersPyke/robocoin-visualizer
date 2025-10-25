@@ -1,0 +1,27 @@
+dataset_name: pick_container_a_to_food_b_8945
+dataset_uuid: f6764893-6844-4507-95e8-c80d02d47ad4
+task_descriptions:
+- pick_the_container_a_and_place_in_the_food_b
+scene_type:
+- home
+- laboratory
+atomic_actions:
+- pick
+- lift
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

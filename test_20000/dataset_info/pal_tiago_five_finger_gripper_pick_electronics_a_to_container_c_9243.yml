@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_a_to_container_c_9243
+dataset_uuid: 3e88f3d9-2315-47cc-9af8-8db42f508f04
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_container_c
+scene_type:
+- restaurant
+atomic_actions:
+- grasp
+- remove
+- rotate
+- pick
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- pal_tiago
+end_effector_type: five_finger_gripper

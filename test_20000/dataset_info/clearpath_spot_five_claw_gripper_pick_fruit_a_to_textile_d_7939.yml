@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_a_to_textile_d_7939
+dataset_uuid: a04ac704-7d86-4ce2-b127-7ecfbd65741d
+task_descriptions:
+- pick_the_fruit_a_and_place_in_the_textile_d
+scene_type:
+- hospital
+- factory
+- restaurant
+atomic_actions:
+- pick
+- rotate
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

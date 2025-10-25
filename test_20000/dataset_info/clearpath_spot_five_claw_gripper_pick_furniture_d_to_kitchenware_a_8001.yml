@@ -1,0 +1,26 @@
+dataset_name: pick_furniture_d_to_kitchenware_a_8001
+dataset_uuid: 74df56b9-91c9-420f-a01e-c863bdf10a94
+task_descriptions:
+- pick_the_furniture_d_and_place_in_the_kitchenware_a
+scene_type:
+- laboratory
+atomic_actions:
+- slide
+- place
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

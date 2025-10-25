@@ -1,0 +1,28 @@
+dataset_name: arrange_beverage_d_to_fruit_e_7772
+dataset_uuid: 7c1ed195-30cf-4127-bd1e-8042fa54bcb5
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_fruit_e
+scene_type:
+- office
+atomic_actions:
+- remove
+- place
+- push
+- pick
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.2
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_beverage_e_to_tool_d_9225
+dataset_uuid: 59957a39-2478-48f6-aec7-6b4b8bdd6df0
+task_descriptions:
+- stack_the_beverage_e_and_place_in_the_tool_d
+scene_type:
+- restaurant
+- office
+atomic_actions:
+- place
+- grasp
+- rotate
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.9
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

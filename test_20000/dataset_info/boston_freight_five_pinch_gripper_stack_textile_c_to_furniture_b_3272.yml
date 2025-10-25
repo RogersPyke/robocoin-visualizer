@@ -1,0 +1,29 @@
+dataset_name: stack_textile_c_to_furniture_b_3272
+dataset_uuid: b47ca0b4-c2e4-4bb6-b150-735678adf06d
+task_descriptions:
+- stack_the_textile_c_and_place_in_the_furniture_b
+scene_type:
+- store
+- home
+- warehouse
+atomic_actions:
+- grasp
+- push
+- remove
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

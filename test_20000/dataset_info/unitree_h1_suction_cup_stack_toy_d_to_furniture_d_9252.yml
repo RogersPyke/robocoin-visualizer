@@ -1,0 +1,28 @@
+dataset_name: stack_toy_d_to_furniture_d_9252
+dataset_uuid: 0d8ab147-dadd-4b71-8c47-60e8a72fd1d4
+task_descriptions:
+- stack_the_toy_d_and_place_in_the_furniture_d
+scene_type:
+- kitchen
+- cafe
+- factory
+atomic_actions:
+- grasp
+- slide
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 71.8
+device_model:
+- unitree_h1
+end_effector_type: suction_cup

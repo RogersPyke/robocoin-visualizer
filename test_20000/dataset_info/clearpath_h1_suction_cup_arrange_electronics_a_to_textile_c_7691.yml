@@ -1,0 +1,27 @@
+dataset_name: arrange_electronics_a_to_textile_c_7691
+dataset_uuid: dd185a21-b3cf-4b4f-ab86-0f225550dedc
+task_descriptions:
+- arrange_the_electronics_a_and_place_in_the_textile_c
+scene_type:
+- office
+- factory
+atomic_actions:
+- grasp
+- remove
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.0
+device_model:
+- clearpath_h1
+end_effector_type: suction_cup

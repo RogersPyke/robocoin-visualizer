@@ -1,0 +1,26 @@
+dataset_name: arrange_container_a_to_tool_b_6634
+dataset_uuid: e7098627-32af-4171-98cc-3f64c48c3105
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_tool_b
+scene_type:
+- hospital
+atomic_actions:
+- lower
+- remove
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 77.3
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_beverage_b_to_utensil_d_9587
+dataset_uuid: a11651db-18ba-4a21-bea9-6bbc7e232c96
+task_descriptions:
+- stack_the_beverage_b_and_place_in_the_utensil_d
+scene_type:
+- kitchen
+atomic_actions:
+- lift
+- push
+- grasp
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.2
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

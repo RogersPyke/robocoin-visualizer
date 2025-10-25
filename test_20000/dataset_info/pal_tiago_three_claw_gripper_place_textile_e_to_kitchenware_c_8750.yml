@@ -1,0 +1,29 @@
+dataset_name: place_textile_e_to_kitchenware_c_8750
+dataset_uuid: 74c305a5-a993-4b7d-8f2b-8468c8fb1a5c
+task_descriptions:
+- place_the_textile_e_and_place_in_the_kitchenware_c
+scene_type:
+- cafe
+- laboratory
+- factory
+atomic_actions:
+- grasp
+- flip
+- rotate
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_container_b_to_container_b_7881
+dataset_uuid: e5ad812b-710e-4cad-8db8-f26a9f6e8ed8
+task_descriptions:
+- arrange_the_container_b_and_place_in_the_container_b
+scene_type:
+- restaurant
+atomic_actions:
+- pick
+- grasp
+- remove
+- flip
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 88.1
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

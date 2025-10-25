@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_b_to_furniture_b_3722
+dataset_uuid: 30104f38-ba46-4733-a4d2-62bbcdec1b5f
+task_descriptions:
+- pick_the_utensil_b_and_place_in_the_furniture_b
+scene_type:
+- warehouse
+- restaurant
+atomic_actions:
+- remove
+- pull
+- pick
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

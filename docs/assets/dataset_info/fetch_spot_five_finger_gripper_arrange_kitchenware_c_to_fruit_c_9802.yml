@@ -1,0 +1,29 @@
+dataset_name: arrange_kitchenware_c_to_fruit_c_9802
+dataset_uuid: 2150500f-9c49-4fd8-a83c-c07772b49c14
+task_descriptions:
+- arrange_the_kitchenware_c_and_place_in_the_fruit_c
+scene_type:
+- office
+- restaurant
+atomic_actions:
+- lift
+- insert
+- pick
+- pull
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.5
+device_model:
+- fetch_spot
+end_effector_type: five_finger_gripper

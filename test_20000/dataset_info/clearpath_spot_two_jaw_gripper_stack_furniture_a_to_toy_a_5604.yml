@@ -1,0 +1,27 @@
+dataset_name: stack_furniture_a_to_toy_a_5604
+dataset_uuid: 7517e3aa-8654-42cd-82dc-38732cbda250
+task_descriptions:
+- stack_the_furniture_a_and_place_in_the_toy_a
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- lower
+- remove
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.1
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

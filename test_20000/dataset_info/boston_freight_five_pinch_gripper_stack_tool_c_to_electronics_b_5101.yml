@@ -1,0 +1,28 @@
+dataset_name: stack_tool_c_to_electronics_b_5101
+dataset_uuid: 55eedcec-04e2-44e4-9ebc-c9a6d530d2cb
+task_descriptions:
+- stack_the_tool_c_and_place_in_the_electronics_b
+scene_type:
+- hospital
+- office
+atomic_actions:
+- flip
+- grasp
+- lower
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

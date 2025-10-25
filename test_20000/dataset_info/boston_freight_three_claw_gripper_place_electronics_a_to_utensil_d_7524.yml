@@ -1,0 +1,30 @@
+dataset_name: place_electronics_a_to_utensil_d_7524
+dataset_uuid: 2e691efe-2a58-4352-a2a0-bef53e59cd20
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_utensil_d
+scene_type:
+- restaurant
+- kitchen
+- hospital
+atomic_actions:
+- grasp
+- remove
+- lift
+- lower
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.6
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_c_to_kitchenware_c_5668
+dataset_uuid: 19dc8258-296e-4211-b9c6-6c36e0cedd9f
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_kitchenware_c
+scene_type:
+- cafe
+atomic_actions:
+- pull
+- push
+- flip
+- insert
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- agility_cassie
+end_effector_type: two_finger_gripper

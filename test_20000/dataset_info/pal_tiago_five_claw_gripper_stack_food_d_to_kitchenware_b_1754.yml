@@ -1,0 +1,26 @@
+dataset_name: stack_food_d_to_kitchenware_b_1754
+dataset_uuid: 2941927d-fc53-4ff9-93ae-a91961e9f754
+task_descriptions:
+- stack_the_food_d_and_place_in_the_kitchenware_b
+scene_type:
+- warehouse
+atomic_actions:
+- lower
+- rotate
+objects:
+- object_name: food_d
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- pal_tiago
+end_effector_type: five_claw_gripper

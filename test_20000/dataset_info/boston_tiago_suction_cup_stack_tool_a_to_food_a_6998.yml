@@ -1,0 +1,29 @@
+dataset_name: stack_tool_a_to_food_a_6998
+dataset_uuid: 209f61c8-2509-43b7-b891-daee311b44a4
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_food_a
+scene_type:
+- office
+- laboratory
+- warehouse
+atomic_actions:
+- grasp
+- remove
+- lower
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- boston_tiago
+end_effector_type: suction_cup

@@ -1,0 +1,26 @@
+dataset_name: place_stationery_a_to_utensil_a_6568
+dataset_uuid: 5296a5d3-cf13-4042-a38e-d1d1badb1408
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_utensil_a
+scene_type:
+- office
+atomic_actions:
+- grasp
+- flip
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+operation_platform_height: 76.0
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

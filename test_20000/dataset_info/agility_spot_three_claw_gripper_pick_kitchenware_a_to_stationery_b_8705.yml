@@ -1,0 +1,30 @@
+dataset_name: pick_kitchenware_a_to_stationery_b_8705
+dataset_uuid: 1be24810-e3ec-4ef5-801a-16f1836497fa
+task_descriptions:
+- pick_the_kitchenware_a_and_place_in_the_stationery_b
+scene_type:
+- kitchen
+- warehouse
+- hospital
+atomic_actions:
+- place
+- flip
+- lower
+- remove
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

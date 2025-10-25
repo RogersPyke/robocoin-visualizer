@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_e_to_stationery_b_5787
+dataset_uuid: 77d9446a-2324-4d51-a607-d3f35c13efbf
+task_descriptions:
+- arrange_the_fruit_e_and_place_in_the_stationery_b
+scene_type:
+- store
+atomic_actions:
+- pick
+- lift
+- place
+- insert
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

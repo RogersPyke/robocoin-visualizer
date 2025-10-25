@@ -1,0 +1,30 @@
+dataset_name: stack_container_c_to_electronics_a_1120
+dataset_uuid: ba36b693-8344-4cc2-b47a-bec69e5bce9b
+task_descriptions:
+- stack_the_container_c_and_place_in_the_electronics_a
+scene_type:
+- home
+- kitchen
+- laboratory
+atomic_actions:
+- pick
+- place
+- slide
+- lift
+objects:
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.6
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

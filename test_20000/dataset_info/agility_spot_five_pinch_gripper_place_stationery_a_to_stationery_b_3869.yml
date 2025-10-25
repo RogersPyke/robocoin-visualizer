@@ -1,0 +1,26 @@
+dataset_name: place_stationery_a_to_stationery_b_3869
+dataset_uuid: 08c0f72f-d499-4ba5-a4c5-37d75d53f7e2
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_stationery_b
+scene_type:
+- hospital
+atomic_actions:
+- lower
+- pull
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

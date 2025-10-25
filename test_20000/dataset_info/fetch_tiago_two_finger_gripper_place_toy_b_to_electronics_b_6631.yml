@@ -1,0 +1,26 @@
+dataset_name: place_toy_b_to_electronics_b_6631
+dataset_uuid: 6e6a83a7-3702-45e9-a555-083629d66416
+task_descriptions:
+- place_the_toy_b_and_place_in_the_electronics_b
+scene_type:
+- hospital
+atomic_actions:
+- pick
+- remove
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- fetch_tiago
+end_effector_type: two_finger_gripper

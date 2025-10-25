@@ -1,0 +1,26 @@
+dataset_name: arrange_utensil_c_to_utensil_b_3479
+dataset_uuid: 59db1858-4e85-4f5d-a687-2f885c4285f3
+task_descriptions:
+- arrange_the_utensil_c_and_place_in_the_utensil_b
+scene_type:
+- office
+atomic_actions:
+- remove
+- slide
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.5
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,26 @@
+dataset_name: move_utensil_a_to_utensil_c_7920
+dataset_uuid: 42be7382-c152-4df2-95b0-f45657e7208b
+task_descriptions:
+- move_the_utensil_a_and_place_in_the_utensil_c
+scene_type:
+- store
+atomic_actions:
+- pick
+- lift
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

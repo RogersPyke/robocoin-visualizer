@@ -1,0 +1,29 @@
+dataset_name: stack_fruit_a_to_food_b_7108
+dataset_uuid: 8f63ac73-85bb-47e0-87bf-aee22f1f5a9e
+task_descriptions:
+- stack_the_fruit_a_and_place_in_the_food_b
+scene_type:
+- home
+- laboratory
+atomic_actions:
+- remove
+- pull
+- rotate
+- place
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+operation_platform_height: 73.1
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

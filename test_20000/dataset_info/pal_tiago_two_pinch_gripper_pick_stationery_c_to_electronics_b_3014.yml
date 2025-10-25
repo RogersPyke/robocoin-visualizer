@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_c_to_electronics_b_3014
+dataset_uuid: c3247078-1699-44b6-8733-174f2fca46dd
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_electronics_b
+scene_type:
+- kitchen
+atomic_actions:
+- lift
+- grasp
+- remove
+- place
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.6
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

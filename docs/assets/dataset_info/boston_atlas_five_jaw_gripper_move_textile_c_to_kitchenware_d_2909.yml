@@ -1,0 +1,28 @@
+dataset_name: move_textile_c_to_kitchenware_d_2909
+dataset_uuid: 7ffb5fb1-d6ba-4617-b411-862b09261624
+task_descriptions:
+- move_the_textile_c_and_place_in_the_kitchenware_d
+scene_type:
+- factory
+- restaurant
+atomic_actions:
+- lower
+- slide
+- grasp
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_d
+  level1: kitchenware
+  level2: kitchenware_d
+  level3: kitchenware_d_sub1
+  level4: kitchenware_d_sub2
+  level5: null
+operation_platform_height: 88.3
+device_model:
+- boston_atlas
+end_effector_type: five_jaw_gripper

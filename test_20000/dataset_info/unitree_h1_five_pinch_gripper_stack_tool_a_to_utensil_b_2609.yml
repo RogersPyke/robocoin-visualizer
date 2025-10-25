@@ -1,0 +1,27 @@
+dataset_name: stack_tool_a_to_utensil_b_2609
+dataset_uuid: 6f2f3990-2a96-42ac-95fd-424ee1ce442b
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_utensil_b
+scene_type:
+- store
+- kitchen
+atomic_actions:
+- insert
+- push
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

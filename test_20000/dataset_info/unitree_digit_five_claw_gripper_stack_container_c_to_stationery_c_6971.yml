@@ -1,0 +1,28 @@
+dataset_name: stack_container_c_to_stationery_c_6971
+dataset_uuid: a4ab29e2-752d-4cf5-875a-58abe4bf1434
+task_descriptions:
+- stack_the_container_c_and_place_in_the_stationery_c
+scene_type:
+- office
+atomic_actions:
+- insert
+- place
+- grasp
+- pick
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

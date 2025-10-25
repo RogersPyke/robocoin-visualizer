@@ -1,0 +1,30 @@
+dataset_name: place_utensil_a_to_utensil_b_3639
+dataset_uuid: 37a5fc26-2975-43bc-89d4-03851befb58b
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_utensil_b
+scene_type:
+- kitchen
+- hospital
+- warehouse
+atomic_actions:
+- remove
+- lift
+- slide
+- rotate
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.5
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

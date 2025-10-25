@@ -1,0 +1,29 @@
+dataset_name: arrange_stationery_b_to_food_c_8434
+dataset_uuid: f480f2f0-b7c3-4cd4-a75c-fa3d2ce27a10
+task_descriptions:
+- arrange_the_stationery_b_and_place_in_the_food_c
+scene_type:
+- kitchen
+- warehouse
+- restaurant
+atomic_actions:
+- lift
+- rotate
+- place
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- fetch_tiago
+end_effector_type: two_pinch_gripper

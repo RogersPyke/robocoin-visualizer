@@ -1,0 +1,28 @@
+dataset_name: move_utensil_a_to_stationery_b_4128
+dataset_uuid: 0b04eec3-e70e-4142-8886-8cda45aa1b79
+task_descriptions:
+- move_the_utensil_a_and_place_in_the_stationery_b
+scene_type:
+- store
+atomic_actions:
+- slide
+- pull
+- grasp
+- lift
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- pal_freight
+end_effector_type: five_claw_gripper

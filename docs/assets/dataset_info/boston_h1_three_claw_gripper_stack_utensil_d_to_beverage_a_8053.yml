@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_d_to_beverage_a_8053
+dataset_uuid: 43fce083-7893-4286-bcd4-46f291d58876
+task_descriptions:
+- stack_the_utensil_d_and_place_in_the_beverage_a
+scene_type:
+- warehouse
+- laboratory
+- kitchen
+atomic_actions:
+- rotate
+- push
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- boston_h1
+end_effector_type: three_claw_gripper

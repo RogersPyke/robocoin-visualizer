@@ -1,0 +1,27 @@
+dataset_name: stack_tool_b_to_kitchenware_c_4680
+dataset_uuid: e80897ed-d2da-49eb-9c8e-8c5bf5ec5a06
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_kitchenware_c
+scene_type:
+- hospital
+- warehouse
+atomic_actions:
+- flip
+- pull
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,29 @@
+dataset_name: arrange_textile_c_to_container_a_6992
+dataset_uuid: 04f334cd-b190-4b89-b2a0-57d03995cec6
+task_descriptions:
+- arrange_the_textile_c_and_place_in_the_container_a
+scene_type:
+- office
+- laboratory
+atomic_actions:
+- remove
+- flip
+- insert
+- place
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.1
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

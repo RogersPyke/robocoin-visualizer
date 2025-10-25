@@ -1,0 +1,28 @@
+dataset_name: move_furniture_c_to_beverage_b_4316
+dataset_uuid: dfe6a175-7a1b-46cc-ae83-2d2180764a31
+task_descriptions:
+- move_the_furniture_c_and_place_in_the_beverage_b
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- flip
+- place
+- pull
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- pal_tiago
+end_effector_type: five_claw_gripper

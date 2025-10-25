@@ -1,0 +1,26 @@
+dataset_name: stack_furniture_e_to_textile_c_6491
+dataset_uuid: 013e2e71-bcb2-4581-8dee-8557addab95d
+task_descriptions:
+- stack_the_furniture_e_and_place_in_the_textile_c
+scene_type:
+- restaurant
+atomic_actions:
+- push
+- rotate
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

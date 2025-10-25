@@ -1,0 +1,28 @@
+dataset_name: place_food_a_to_textile_a_3048
+dataset_uuid: 0807f70e-9bee-4e3a-bad2-e992db0580a9
+task_descriptions:
+- place_the_food_a_and_place_in_the_textile_a
+scene_type:
+- kitchen
+atomic_actions:
+- flip
+- rotate
+- remove
+- insert
+objects:
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 83.3
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

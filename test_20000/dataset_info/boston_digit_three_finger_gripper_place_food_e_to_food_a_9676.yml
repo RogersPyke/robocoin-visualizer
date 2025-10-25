@@ -1,0 +1,28 @@
+dataset_name: place_food_e_to_food_a_9676
+dataset_uuid: 3f77109d-b503-4210-948c-46def73c1e61
+task_descriptions:
+- place_the_food_e_and_place_in_the_food_a
+scene_type:
+- hospital
+atomic_actions:
+- lift
+- place
+- lower
+- remove
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

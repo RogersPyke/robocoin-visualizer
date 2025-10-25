@@ -1,0 +1,29 @@
+dataset_name: place_tool_b_to_kitchenware_b_3020
+dataset_uuid: 8d9193a6-15ec-4633-b147-9965fbb9a331
+task_descriptions:
+- place_the_tool_b_and_place_in_the_kitchenware_b
+scene_type:
+- store
+- hospital
+- restaurant
+atomic_actions:
+- flip
+- remove
+- lift
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- boston_freight
+end_effector_type: five_claw_gripper

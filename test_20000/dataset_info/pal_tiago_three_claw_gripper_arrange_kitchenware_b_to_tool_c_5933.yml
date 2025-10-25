@@ -1,0 +1,30 @@
+dataset_name: arrange_kitchenware_b_to_tool_c_5933
+dataset_uuid: acdf22fd-2390-4452-9706-0f92db6804fb
+task_descriptions:
+- arrange_the_kitchenware_b_and_place_in_the_tool_c
+scene_type:
+- cafe
+- laboratory
+- home
+atomic_actions:
+- grasp
+- rotate
+- place
+- flip
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.7
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

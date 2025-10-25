@@ -1,0 +1,26 @@
+dataset_name: arrange_fruit_d_to_tool_a_7523
+dataset_uuid: f238efd5-7438-4325-b2d0-f0c2b79d4028
+task_descriptions:
+- arrange_the_fruit_d_and_place_in_the_tool_a
+scene_type:
+- kitchen
+atomic_actions:
+- lower
+- push
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.0
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

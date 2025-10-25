@@ -1,0 +1,28 @@
+dataset_name: move_furniture_d_to_textile_c_6469
+dataset_uuid: 6228319b-f870-4723-a52d-f48ad122c177
+task_descriptions:
+- move_the_furniture_d_and_place_in_the_textile_c
+scene_type:
+- home
+atomic_actions:
+- flip
+- lower
+- place
+- rotate
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_c_to_utensil_c_1489
+dataset_uuid: 6a3d8cf8-74fb-408f-aff4-058cba0b468a
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_utensil_c
+scene_type:
+- office
+- restaurant
+atomic_actions:
+- insert
+- lower
+- pull
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

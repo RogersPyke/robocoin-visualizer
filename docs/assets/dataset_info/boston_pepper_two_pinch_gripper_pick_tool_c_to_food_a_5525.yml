@@ -1,0 +1,30 @@
+dataset_name: pick_tool_c_to_food_a_5525
+dataset_uuid: 796a9d90-e2f5-45ff-ac93-c06fb24fe2f4
+task_descriptions:
+- pick_the_tool_c_and_place_in_the_food_a
+scene_type:
+- kitchen
+- store
+- factory
+atomic_actions:
+- lower
+- pull
+- grasp
+- remove
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- boston_pepper
+end_effector_type: two_pinch_gripper

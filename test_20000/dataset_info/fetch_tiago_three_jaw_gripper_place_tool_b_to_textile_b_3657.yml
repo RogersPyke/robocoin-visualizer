@@ -1,0 +1,29 @@
+dataset_name: place_tool_b_to_textile_b_3657
+dataset_uuid: eec4b73c-bf6c-4ac9-94a7-c9c0ae5dddde
+task_descriptions:
+- place_the_tool_b_and_place_in_the_textile_b
+scene_type:
+- hospital
+- home
+atomic_actions:
+- rotate
+- place
+- push
+- flip
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

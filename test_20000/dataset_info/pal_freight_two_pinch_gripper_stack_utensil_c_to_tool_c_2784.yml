@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_c_to_tool_c_2784
+dataset_uuid: 67f2b77a-df47-4bae-b83b-c2d77d38ebbd
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_tool_c
+scene_type:
+- store
+- hospital
+- cafe
+atomic_actions:
+- insert
+- lower
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

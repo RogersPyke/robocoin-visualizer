@@ -1,0 +1,27 @@
+dataset_name: stack_tool_d_to_utensil_a_7987
+dataset_uuid: 20829357-f6b6-485f-bea8-cdef0de81260
+task_descriptions:
+- stack_the_tool_d_and_place_in_the_utensil_a
+scene_type:
+- cafe
+- laboratory
+atomic_actions:
+- grasp
+- push
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

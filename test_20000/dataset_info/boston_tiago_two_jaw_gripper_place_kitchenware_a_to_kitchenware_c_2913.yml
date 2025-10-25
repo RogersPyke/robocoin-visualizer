@@ -1,0 +1,27 @@
+dataset_name: place_kitchenware_a_to_kitchenware_c_2913
+dataset_uuid: f1fa5eca-8788-4439-8530-6f701cc3fbc2
+task_descriptions:
+- place_the_kitchenware_a_and_place_in_the_kitchenware_c
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- pull
+- flip
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.4
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

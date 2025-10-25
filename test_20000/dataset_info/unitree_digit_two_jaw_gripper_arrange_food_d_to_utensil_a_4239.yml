@@ -1,0 +1,28 @@
+dataset_name: arrange_food_d_to_utensil_a_4239
+dataset_uuid: 25dcf904-cacc-4b60-a450-bdb20c82f0ac
+task_descriptions:
+- arrange_the_food_d_and_place_in_the_utensil_a
+scene_type:
+- store
+- restaurant
+- warehouse
+atomic_actions:
+- lift
+- place
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.0
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

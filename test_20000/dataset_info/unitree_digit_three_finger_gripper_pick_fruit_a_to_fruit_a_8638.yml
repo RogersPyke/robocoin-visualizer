@@ -1,0 +1,27 @@
+dataset_name: pick_fruit_a_to_fruit_a_8638
+dataset_uuid: a8bc96ea-69c2-4c73-9f85-bdabf7e09604
+task_descriptions:
+- pick_the_fruit_a_and_place_in_the_fruit_a
+scene_type:
+- cafe
+- home
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

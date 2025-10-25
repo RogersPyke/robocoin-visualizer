@@ -1,0 +1,29 @@
+dataset_name: stack_food_e_to_textile_e_6816
+dataset_uuid: 8dc96106-aaf3-4bd4-8235-c03cf7ce813b
+task_descriptions:
+- stack_the_food_e_and_place_in_the_textile_e
+scene_type:
+- cafe
+- laboratory
+- office
+atomic_actions:
+- remove
+- pick
+- rotate
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.8
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

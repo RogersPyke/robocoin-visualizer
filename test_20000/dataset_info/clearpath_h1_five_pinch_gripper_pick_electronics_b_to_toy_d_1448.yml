@@ -1,0 +1,26 @@
+dataset_name: pick_electronics_b_to_toy_d_1448
+dataset_uuid: 97911f2c-cd18-4588-8ebf-4621b6ede2d3
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_toy_d
+scene_type:
+- hospital
+atomic_actions:
+- pull
+- remove
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

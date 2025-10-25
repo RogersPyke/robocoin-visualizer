@@ -1,0 +1,28 @@
+dataset_name: move_fruit_c_to_toy_a_3892
+dataset_uuid: 3d89255a-c4eb-4da5-a9ba-a313685e0f32
+task_descriptions:
+- move_the_fruit_c_and_place_in_the_toy_a
+scene_type:
+- kitchen
+- office
+- restaurant
+atomic_actions:
+- lift
+- pull
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.3
+device_model:
+- boston_h1
+end_effector_type: five_claw_gripper

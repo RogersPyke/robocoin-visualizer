@@ -1,0 +1,29 @@
+dataset_name: pick_tool_c_to_kitchenware_b_2273
+dataset_uuid: f8c99a27-1c87-412a-b4ec-a882d320d187
+task_descriptions:
+- pick_the_tool_c_and_place_in_the_kitchenware_b
+scene_type:
+- hospital
+- laboratory
+atomic_actions:
+- slide
+- grasp
+- rotate
+- pick
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.3
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

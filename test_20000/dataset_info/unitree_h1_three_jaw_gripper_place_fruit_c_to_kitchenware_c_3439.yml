@@ -1,0 +1,28 @@
+dataset_name: place_fruit_c_to_kitchenware_c_3439
+dataset_uuid: 1b2b1ee0-3f40-492e-a056-647da827a70f
+task_descriptions:
+- place_the_fruit_c_and_place_in_the_kitchenware_c
+scene_type:
+- store
+- kitchen
+- factory
+atomic_actions:
+- remove
+- flip
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+operation_platform_height: 74.7
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

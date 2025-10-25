@@ -1,0 +1,29 @@
+dataset_name: pick_electronics_a_to_utensil_b_6382
+dataset_uuid: dbc3c924-3453-4b61-a7a1-c5bccbe50d45
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_utensil_b
+scene_type:
+- cafe
+- restaurant
+- hospital
+atomic_actions:
+- remove
+- grasp
+- place
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.7
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

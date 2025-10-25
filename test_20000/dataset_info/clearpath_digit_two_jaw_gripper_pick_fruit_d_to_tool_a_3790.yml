@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_d_to_tool_a_3790
+dataset_uuid: 0877352f-756b-460a-befc-b4e14dcba5d1
+task_descriptions:
+- pick_the_fruit_d_and_place_in_the_tool_a
+scene_type:
+- factory
+atomic_actions:
+- lower
+- place
+- flip
+- push
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

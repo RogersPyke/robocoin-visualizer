@@ -1,0 +1,27 @@
+dataset_name: arrange_toy_a_to_fruit_a_6681
+dataset_uuid: 32590be4-ce55-4c09-a919-1bd7508afd01
+task_descriptions:
+- arrange_the_toy_a_and_place_in_the_fruit_a
+scene_type:
+- store
+atomic_actions:
+- lift
+- place
+- insert
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- agility_spot
+end_effector_type: two_jaw_gripper

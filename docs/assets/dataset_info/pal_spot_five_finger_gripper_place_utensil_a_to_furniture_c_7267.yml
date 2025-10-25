@@ -1,0 +1,29 @@
+dataset_name: place_utensil_a_to_furniture_c_7267
+dataset_uuid: 7974f030-9859-48db-bcbb-b8cc6a9fa52d
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_furniture_c
+scene_type:
+- store
+- home
+- office
+atomic_actions:
+- grasp
+- lift
+- lower
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- pal_spot
+end_effector_type: five_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_c_to_electronics_c_4283
+dataset_uuid: b468e18c-733a-4613-a24c-16294c76776c
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_electronics_c
+scene_type:
+- factory
+atomic_actions:
+- lift
+- pick
+- lower
+- remove
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

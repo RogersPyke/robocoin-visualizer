@@ -1,0 +1,29 @@
+dataset_name: arrange_electronics_c_to_utensil_d_5578
+dataset_uuid: b98dbe40-44b8-46ab-a94d-64f83403f7b9
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_utensil_d
+scene_type:
+- warehouse
+- cafe
+atomic_actions:
+- grasp
+- pull
+- flip
+- insert
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 89.3
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

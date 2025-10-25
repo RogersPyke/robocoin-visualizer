@@ -1,0 +1,28 @@
+dataset_name: place_toy_b_to_utensil_c_7915
+dataset_uuid: 95ed83bc-92f6-41c5-a00a-23ace68e22d3
+task_descriptions:
+- place_the_toy_b_and_place_in_the_utensil_c
+scene_type:
+- home
+atomic_actions:
+- insert
+- lift
+- rotate
+- pick
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

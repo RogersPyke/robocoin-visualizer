@@ -1,0 +1,26 @@
+dataset_name: stack_stationery_a_to_stationery_c_2791
+dataset_uuid: 35250114-3d4c-4fa1-a48b-9bf9ece63348
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_stationery_c
+scene_type:
+- home
+atomic_actions:
+- pull
+- remove
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.0
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

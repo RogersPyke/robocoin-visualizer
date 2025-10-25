@@ -1,0 +1,29 @@
+dataset_name: place_food_d_to_electronics_c_9269
+dataset_uuid: 62cfba67-155d-45a2-8a1a-fa41fa34780b
+task_descriptions:
+- place_the_food_d_and_place_in_the_electronics_c
+scene_type:
+- warehouse
+- hospital
+- factory
+atomic_actions:
+- lift
+- flip
+- grasp
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.1
+device_model:
+- clearpath_h1
+end_effector_type: two_jaw_gripper

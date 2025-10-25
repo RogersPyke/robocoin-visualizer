@@ -1,0 +1,28 @@
+dataset_name: pick_container_a_to_beverage_e_8878
+dataset_uuid: fc0de9d5-f1a7-41bb-af2a-835afae71d8a
+task_descriptions:
+- pick_the_container_a_and_place_in_the_beverage_e
+scene_type:
+- factory
+atomic_actions:
+- push
+- grasp
+- flip
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- agility_spot
+end_effector_type: five_finger_gripper

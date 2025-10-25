@@ -1,0 +1,27 @@
+dataset_name: stack_stationery_a_to_utensil_a_5851
+dataset_uuid: 0f0aa2bc-aa86-4644-97c1-1e026f4a7b4e
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_utensil_a
+scene_type:
+- laboratory
+atomic_actions:
+- grasp
+- lower
+- remove
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

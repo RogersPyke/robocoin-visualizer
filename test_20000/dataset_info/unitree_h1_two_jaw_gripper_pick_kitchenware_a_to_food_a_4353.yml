@@ -1,0 +1,27 @@
+dataset_name: pick_kitchenware_a_to_food_a_4353
+dataset_uuid: eb02d7c3-95d1-4d91-8a18-d0f28bc4cb58
+task_descriptions:
+- pick_the_kitchenware_a_and_place_in_the_food_a
+scene_type:
+- restaurant
+atomic_actions:
+- insert
+- place
+- grasp
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,26 @@
+dataset_name: arrange_tool_c_to_kitchenware_c_6696
+dataset_uuid: 7a0d635a-7ddd-4c7f-aeae-1a6ac0c4e639
+task_descriptions:
+- arrange_the_tool_c_and_place_in_the_kitchenware_c
+scene_type:
+- hospital
+atomic_actions:
+- flip
+- pull
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+operation_platform_height: 74.5
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

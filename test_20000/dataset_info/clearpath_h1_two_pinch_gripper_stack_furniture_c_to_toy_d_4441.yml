@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_c_to_toy_d_4441
+dataset_uuid: c500cf27-1027-456f-896f-d1d0ba7adefa
+task_descriptions:
+- stack_the_furniture_c_and_place_in_the_toy_d
+scene_type:
+- laboratory
+- warehouse
+- factory
+atomic_actions:
+- pick
+- flip
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

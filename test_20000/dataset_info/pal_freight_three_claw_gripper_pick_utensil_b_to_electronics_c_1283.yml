@@ -1,0 +1,27 @@
+dataset_name: pick_utensil_b_to_electronics_c_1283
+dataset_uuid: 717b298f-cd4f-4fe1-bc5f-37a30a377be1
+task_descriptions:
+- pick_the_utensil_b_and_place_in_the_electronics_c
+scene_type:
+- factory
+atomic_actions:
+- remove
+- lift
+- pull
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

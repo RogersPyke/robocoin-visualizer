@@ -1,0 +1,27 @@
+dataset_name: stack_utensil_b_to_food_a_2324
+dataset_uuid: 499bf323-d51a-44b3-86f5-a0bacd47ec0b
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_food_a
+scene_type:
+- laboratory
+atomic_actions:
+- rotate
+- flip
+- pick
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

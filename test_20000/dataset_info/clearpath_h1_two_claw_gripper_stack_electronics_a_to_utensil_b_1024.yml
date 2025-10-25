@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_a_to_utensil_b_1024
+dataset_uuid: 75a40341-308e-4884-a30b-bf3955d458ea
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_utensil_b
+scene_type:
+- office
+atomic_actions:
+- push
+- flip
+- slide
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- clearpath_h1
+end_effector_type: two_claw_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_b_to_electronics_b_5119
+dataset_uuid: cfdeff61-6b1b-485a-bd3e-31f2bdf4c500
+task_descriptions:
+- pick_the_stationery_b_and_place_in_the_electronics_b
+scene_type:
+- laboratory
+- home
+atomic_actions:
+- lower
+- flip
+- place
+- lift
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

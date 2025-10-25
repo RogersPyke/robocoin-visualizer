@@ -1,0 +1,29 @@
+dataset_name: pick_fruit_a_to_furniture_d_3022
+dataset_uuid: 5daaf803-922e-4535-9693-ae5a72da4597
+task_descriptions:
+- pick_the_fruit_a_and_place_in_the_furniture_d
+scene_type:
+- factory
+- cafe
+atomic_actions:
+- rotate
+- slide
+- lower
+- remove
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

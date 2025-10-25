@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_b_to_stationery_b_6061
+dataset_uuid: 5cc8c1ce-3757-47ce-b254-66925e3a72e6
+task_descriptions:
+- pick_the_stationery_b_and_place_in_the_stationery_b
+scene_type:
+- factory
+- home
+- cafe
+atomic_actions:
+- flip
+- pull
+- place
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,30 @@
+dataset_name: stack_container_b_to_electronics_a_3163
+dataset_uuid: 2dc575c9-3372-46c4-b70c-62d24092cebc
+task_descriptions:
+- stack_the_container_b_and_place_in_the_electronics_a
+scene_type:
+- factory
+- restaurant
+- store
+atomic_actions:
+- remove
+- insert
+- flip
+- grasp
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.6
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

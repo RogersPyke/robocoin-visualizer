@@ -1,0 +1,26 @@
+dataset_name: move_container_a_to_utensil_c_8478
+dataset_uuid: fffa77f3-3ee1-4d47-963d-a73a0aecb6c4
+task_descriptions:
+- move_the_container_a_and_place_in_the_utensil_c
+scene_type:
+- laboratory
+atomic_actions:
+- rotate
+- flip
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

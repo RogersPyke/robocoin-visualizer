@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_c_to_beverage_d_5493
+dataset_uuid: 8a43bd4f-d763-45b4-9495-6412def46b12
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_beverage_d
+scene_type:
+- laboratory
+- home
+- restaurant
+atomic_actions:
+- insert
+- flip
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- unitree_cassie
+end_effector_type: two_claw_gripper

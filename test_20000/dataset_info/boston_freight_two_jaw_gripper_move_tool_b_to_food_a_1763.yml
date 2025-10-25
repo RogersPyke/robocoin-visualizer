@@ -1,0 +1,28 @@
+dataset_name: move_tool_b_to_food_a_1763
+dataset_uuid: d771b90c-0729-4ed9-8c0a-6b7b2cafe4d0
+task_descriptions:
+- move_the_tool_b_and_place_in_the_food_a
+scene_type:
+- cafe
+atomic_actions:
+- insert
+- slide
+- place
+- flip
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.1
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

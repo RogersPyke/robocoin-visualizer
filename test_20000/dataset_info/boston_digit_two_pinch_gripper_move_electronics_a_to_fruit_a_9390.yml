@@ -1,0 +1,28 @@
+dataset_name: move_electronics_a_to_fruit_a_9390
+dataset_uuid: c66a5c04-c84a-407c-b092-abe382547a91
+task_descriptions:
+- move_the_electronics_a_and_place_in_the_fruit_a
+scene_type:
+- store
+- office
+- warehouse
+atomic_actions:
+- rotate
+- insert
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.5
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

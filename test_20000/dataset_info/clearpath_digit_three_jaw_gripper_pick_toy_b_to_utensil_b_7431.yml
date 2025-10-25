@@ -1,0 +1,26 @@
+dataset_name: pick_toy_b_to_utensil_b_7431
+dataset_uuid: 719a8655-c427-4b4d-a4dd-98343cc9c72e
+task_descriptions:
+- pick_the_toy_b_and_place_in_the_utensil_b
+scene_type:
+- restaurant
+atomic_actions:
+- remove
+- rotate
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 73.4
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

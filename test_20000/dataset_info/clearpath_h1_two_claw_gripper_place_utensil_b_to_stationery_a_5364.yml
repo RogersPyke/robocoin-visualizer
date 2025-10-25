@@ -1,0 +1,27 @@
+dataset_name: place_utensil_b_to_stationery_a_5364
+dataset_uuid: 865b6d28-783a-4454-9823-dec1552b05fe
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_stationery_a
+scene_type:
+- laboratory
+atomic_actions:
+- remove
+- flip
+- place
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.5
+device_model:
+- clearpath_h1
+end_effector_type: two_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_toy_b_to_toy_a_9376
+dataset_uuid: d9740eb4-c59a-4d1a-8f21-78a3ae702f16
+task_descriptions:
+- pick_the_toy_b_and_place_in_the_toy_a
+scene_type:
+- laboratory
+atomic_actions:
+- flip
+- place
+- grasp
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.0
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

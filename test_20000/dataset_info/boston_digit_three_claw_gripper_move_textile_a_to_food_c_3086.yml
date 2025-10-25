@@ -1,0 +1,29 @@
+dataset_name: move_textile_a_to_food_c_3086
+dataset_uuid: 538c7dd7-b69e-4706-81b9-13dd5d6f0dd5
+task_descriptions:
+- move_the_textile_a_and_place_in_the_food_c
+scene_type:
+- restaurant
+- kitchen
+atomic_actions:
+- remove
+- grasp
+- place
+- flip
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: food_c_sub2
+  level5: null
+operation_platform_height: 84.4
+device_model:
+- boston_digit
+end_effector_type: three_claw_gripper

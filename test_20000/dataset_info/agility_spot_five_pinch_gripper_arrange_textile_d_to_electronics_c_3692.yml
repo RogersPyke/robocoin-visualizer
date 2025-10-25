@@ -1,0 +1,30 @@
+dataset_name: arrange_textile_d_to_electronics_c_3692
+dataset_uuid: 9d0d2598-7981-4f2a-bd0b-6a61555fa008
+task_descriptions:
+- arrange_the_textile_d_and_place_in_the_electronics_c
+scene_type:
+- office
+- hospital
+- store
+atomic_actions:
+- pull
+- slide
+- pick
+- insert
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.9
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

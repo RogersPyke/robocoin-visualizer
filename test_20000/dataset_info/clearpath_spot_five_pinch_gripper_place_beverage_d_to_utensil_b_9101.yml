@@ -1,0 +1,28 @@
+dataset_name: place_beverage_d_to_utensil_b_9101
+dataset_uuid: e5e51ac9-73f4-4c18-8dc6-f10e4d665da5
+task_descriptions:
+- place_the_beverage_d_and_place_in_the_utensil_b
+scene_type:
+- cafe
+- warehouse
+- kitchen
+atomic_actions:
+- rotate
+- insert
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: stack_textile_d_to_container_b_6386
+dataset_uuid: a9c380d0-d7bb-4900-a9a4-14ad8eb22121
+task_descriptions:
+- stack_the_textile_d_and_place_in_the_container_b
+scene_type:
+- hospital
+- office
+atomic_actions:
+- rotate
+- grasp
+- slide
+- insert
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.7
+device_model:
+- unitree_tiago
+end_effector_type: five_jaw_gripper

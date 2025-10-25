@@ -1,0 +1,26 @@
+dataset_name: pick_toy_d_to_toy_a_5668
+dataset_uuid: 974d52b6-ac8f-4b70-acef-acbf3b2f1882
+task_descriptions:
+- pick_the_toy_d_and_place_in_the_toy_a
+scene_type:
+- restaurant
+atomic_actions:
+- lift
+- flip
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.1
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

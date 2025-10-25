@@ -1,0 +1,29 @@
+dataset_name: pick_textile_e_to_beverage_d_9805
+dataset_uuid: 1486a52e-c2c4-44b5-8a9c-b3401ee80842
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_beverage_d
+scene_type:
+- hospital
+- store
+- factory
+atomic_actions:
+- push
+- grasp
+- lift
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.3
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

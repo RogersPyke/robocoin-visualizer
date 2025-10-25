@@ -1,0 +1,28 @@
+dataset_name: place_container_c_to_furniture_d_6357
+dataset_uuid: a24e5f8f-fb76-47ae-b358-f3417aefb6c8
+task_descriptions:
+- place_the_container_c_and_place_in_the_furniture_d
+scene_type:
+- kitchen
+- office
+- factory
+atomic_actions:
+- rotate
+- push
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.8
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_c_to_fruit_e_1235
+dataset_uuid: 2cdd8b89-2af2-4706-ad23-c111d1920433
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_fruit_e
+scene_type:
+- store
+atomic_actions:
+- flip
+- push
+- insert
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

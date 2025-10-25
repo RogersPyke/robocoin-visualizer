@@ -1,0 +1,26 @@
+dataset_name: pick_tool_a_to_container_b_3813
+dataset_uuid: 8e473576-5ebc-4972-b214-0ab085da9b1e
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_container_b
+scene_type:
+- kitchen
+atomic_actions:
+- lift
+- pick
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

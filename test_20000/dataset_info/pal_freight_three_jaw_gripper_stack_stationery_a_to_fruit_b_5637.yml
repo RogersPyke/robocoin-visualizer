@@ -1,0 +1,30 @@
+dataset_name: stack_stationery_a_to_fruit_b_5637
+dataset_uuid: 86fe16aa-cf12-4086-a490-7aa4683ff9fb
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_fruit_b
+scene_type:
+- store
+- hospital
+- factory
+atomic_actions:
+- remove
+- slide
+- lift
+- place
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 72.3
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

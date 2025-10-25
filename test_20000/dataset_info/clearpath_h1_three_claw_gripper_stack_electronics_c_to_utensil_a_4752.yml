@@ -1,0 +1,30 @@
+dataset_name: stack_electronics_c_to_utensil_a_4752
+dataset_uuid: e32fe131-1a57-41d1-a730-2152145877e9
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_utensil_a
+scene_type:
+- factory
+- kitchen
+- office
+atomic_actions:
+- remove
+- insert
+- pull
+- flip
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.2
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

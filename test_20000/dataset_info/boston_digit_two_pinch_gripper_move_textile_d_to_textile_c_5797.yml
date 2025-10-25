@@ -1,0 +1,27 @@
+dataset_name: move_textile_d_to_textile_c_5797
+dataset_uuid: 85bf3aa5-e2b4-46f8-b365-857ad2abb0b5
+task_descriptions:
+- move_the_textile_d_and_place_in_the_textile_c
+scene_type:
+- laboratory
+atomic_actions:
+- push
+- grasp
+- lower
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

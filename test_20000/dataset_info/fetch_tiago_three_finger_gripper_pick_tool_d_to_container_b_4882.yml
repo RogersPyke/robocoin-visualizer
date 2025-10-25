@@ -1,0 +1,27 @@
+dataset_name: pick_tool_d_to_container_b_4882
+dataset_uuid: 23c3616e-9bbb-481e-82f7-8cc1ad200265
+task_descriptions:
+- pick_the_tool_d_and_place_in_the_container_b
+scene_type:
+- restaurant
+atomic_actions:
+- grasp
+- lower
+- insert
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.4
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

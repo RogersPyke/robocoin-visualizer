@@ -1,0 +1,29 @@
+dataset_name: arrange_tool_d_to_food_a_6848
+dataset_uuid: 79eaf5db-aa20-4b45-90bc-d1a2902d1e95
+task_descriptions:
+- arrange_the_tool_d_and_place_in_the_food_a
+scene_type:
+- restaurant
+- kitchen
+- hospital
+atomic_actions:
+- flip
+- pick
+- push
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.1
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

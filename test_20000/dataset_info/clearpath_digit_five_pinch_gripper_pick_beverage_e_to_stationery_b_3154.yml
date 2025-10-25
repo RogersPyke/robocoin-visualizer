@@ -1,0 +1,28 @@
+dataset_name: pick_beverage_e_to_stationery_b_3154
+dataset_uuid: b303d0e2-1ddc-4dbb-8eeb-a1b28f5ad7d5
+task_descriptions:
+- pick_the_beverage_e_and_place_in_the_stationery_b
+scene_type:
+- warehouse
+atomic_actions:
+- remove
+- pull
+- insert
+- pick
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: stack_container_c_to_tool_a_9385
+dataset_uuid: 437c7ccb-7392-4973-87ac-efa1d2b0af1d
+task_descriptions:
+- stack_the_container_c_and_place_in_the_tool_a
+scene_type:
+- office
+- factory
+atomic_actions:
+- lift
+- slide
+- grasp
+- pick
+objects:
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- boston_freight
+end_effector_type: suction_cup

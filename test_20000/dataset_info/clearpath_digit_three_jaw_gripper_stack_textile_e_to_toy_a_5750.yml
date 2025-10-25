@@ -1,0 +1,28 @@
+dataset_name: stack_textile_e_to_toy_a_5750
+dataset_uuid: a31281c0-2da6-4bd6-b4f9-9c35aadb2bca
+task_descriptions:
+- stack_the_textile_e_and_place_in_the_toy_a
+scene_type:
+- factory
+- store
+atomic_actions:
+- grasp
+- pick
+- lift
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

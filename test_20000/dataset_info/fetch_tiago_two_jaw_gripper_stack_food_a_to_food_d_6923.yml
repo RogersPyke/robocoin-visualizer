@@ -1,0 +1,28 @@
+dataset_name: stack_food_a_to_food_d_6923
+dataset_uuid: 7f8847b0-6c25-4b68-8d91-7a281b06bd95
+task_descriptions:
+- stack_the_food_a_and_place_in_the_food_d
+scene_type:
+- factory
+- laboratory
+- hospital
+atomic_actions:
+- lift
+- push
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,30 @@
+dataset_name: stack_electronics_b_to_toy_b_4978
+dataset_uuid: 723713c6-d717-4417-a35b-77ad454bc302
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_toy_b
+scene_type:
+- home
+- restaurant
+- factory
+atomic_actions:
+- pick
+- slide
+- flip
+- rotate
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- agility_spot
+end_effector_type: five_finger_gripper

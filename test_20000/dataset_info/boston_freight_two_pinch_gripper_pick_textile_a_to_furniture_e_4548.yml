@@ -1,0 +1,28 @@
+dataset_name: pick_textile_a_to_furniture_e_4548
+dataset_uuid: 6227d99b-d099-4a57-bcaf-b0ab7f31698c
+task_descriptions:
+- pick_the_textile_a_and_place_in_the_furniture_e
+scene_type:
+- laboratory
+atomic_actions:
+- push
+- insert
+- grasp
+- lower
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.8
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

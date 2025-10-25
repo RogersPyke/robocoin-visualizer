@@ -1,0 +1,30 @@
+dataset_name: place_kitchenware_b_to_fruit_e_9581
+dataset_uuid: 2983b81f-083a-4526-904a-6a08d4aef1d0
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_fruit_e
+scene_type:
+- hospital
+- factory
+- warehouse
+atomic_actions:
+- pick
+- flip
+- rotate
+- grasp
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

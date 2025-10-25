@@ -1,0 +1,28 @@
+dataset_name: pick_toy_b_to_electronics_b_9004
+dataset_uuid: 5218badd-1412-4df5-95e2-4cc380ec92d7
+task_descriptions:
+- pick_the_toy_b_and_place_in_the_electronics_b
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- pull
+- flip
+- pick
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

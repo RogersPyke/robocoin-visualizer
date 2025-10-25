@@ -1,0 +1,27 @@
+dataset_name: stack_textile_a_to_furniture_a_3352
+dataset_uuid: 8ac09f3f-abfb-4863-9f48-b862ceda7523
+task_descriptions:
+- stack_the_textile_a_and_place_in_the_furniture_a
+scene_type:
+- restaurant
+- warehouse
+atomic_actions:
+- lower
+- pull
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.9
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

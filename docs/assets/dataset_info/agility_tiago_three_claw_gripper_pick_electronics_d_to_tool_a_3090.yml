@@ -1,0 +1,29 @@
+dataset_name: pick_electronics_d_to_tool_a_3090
+dataset_uuid: 38eacd10-2d29-48e8-8fc1-81477e92e050
+task_descriptions:
+- pick_the_electronics_d_and_place_in_the_tool_a
+scene_type:
+- kitchen
+- home
+atomic_actions:
+- flip
+- grasp
+- push
+- pull
+objects:
+- object_name: electronics_d
+  level1: electronics
+  level2: electronics_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- agility_tiago
+end_effector_type: three_claw_gripper

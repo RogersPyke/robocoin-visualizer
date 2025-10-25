@@ -1,0 +1,27 @@
+dataset_name: arrange_textile_a_to_beverage_b_2665
+dataset_uuid: 2d2719e7-6a12-4fbe-afa7-d02290a9b0c0
+task_descriptions:
+- arrange_the_textile_a_and_place_in_the_beverage_b
+scene_type:
+- cafe
+atomic_actions:
+- push
+- pull
+- flip
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.3
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

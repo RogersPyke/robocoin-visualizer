@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_c_to_tool_a_4868
+dataset_uuid: 0804acac-8f96-401a-9496-7abdded47de2
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_tool_a
+scene_type:
+- factory
+- cafe
+- hospital
+atomic_actions:
+- place
+- slide
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- unitree_digit
+end_effector_type: suction_cup

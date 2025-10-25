@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_b_to_electronics_a_9402
+dataset_uuid: 08c32a15-6fbb-4fb4-842c-b6ccb1761c2c
+task_descriptions:
+- arrange_the_textile_b_and_place_in_the_electronics_a
+scene_type:
+- warehouse
+- store
+- laboratory
+atomic_actions:
+- lower
+- slide
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.7
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

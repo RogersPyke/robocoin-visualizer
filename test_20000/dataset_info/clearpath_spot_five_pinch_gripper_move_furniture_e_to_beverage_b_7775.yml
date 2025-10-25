@@ -1,0 +1,27 @@
+dataset_name: move_furniture_e_to_beverage_b_7775
+dataset_uuid: 12a51130-5032-41ed-8560-cd691a3eee6b
+task_descriptions:
+- move_the_furniture_e_and_place_in_the_beverage_b
+scene_type:
+- store
+- laboratory
+atomic_actions:
+- rotate
+- remove
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

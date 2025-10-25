@@ -1,0 +1,28 @@
+dataset_name: place_food_b_to_container_b_1528
+dataset_uuid: d9f0e52e-ecf1-422d-b8db-4760fcbc30a4
+task_descriptions:
+- place_the_food_b_and_place_in_the_container_b
+scene_type:
+- cafe
+- hospital
+- home
+atomic_actions:
+- remove
+- lower
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

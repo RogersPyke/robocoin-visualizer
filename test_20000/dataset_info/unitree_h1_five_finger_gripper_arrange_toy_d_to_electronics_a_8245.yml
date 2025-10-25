@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_d_to_electronics_a_8245
+dataset_uuid: d4ed2da0-7681-4b6a-b840-484901132c0e
+task_descriptions:
+- arrange_the_toy_d_and_place_in_the_electronics_a
+scene_type:
+- cafe
+atomic_actions:
+- insert
+- flip
+- rotate
+- remove
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: toy_d_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.0
+device_model:
+- unitree_h1
+end_effector_type: five_finger_gripper

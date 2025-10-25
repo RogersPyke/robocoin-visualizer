@@ -1,0 +1,26 @@
+dataset_name: pick_fruit_b_to_container_b_5024
+dataset_uuid: 7188b821-5107-485d-9167-2c5c297ae30c
+task_descriptions:
+- pick_the_fruit_b_and_place_in_the_container_b
+scene_type:
+- store
+atomic_actions:
+- insert
+- slide
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

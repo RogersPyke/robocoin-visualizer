@@ -1,0 +1,30 @@
+dataset_name: pick_food_d_to_food_d_1475
+dataset_uuid: 5d533fd8-7f83-45cb-aeae-b36b22aa639e
+task_descriptions:
+- pick_the_food_d_and_place_in_the_food_d
+scene_type:
+- factory
+- restaurant
+- kitchen
+atomic_actions:
+- pull
+- lift
+- push
+- flip
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.1
+device_model:
+- pal_freight
+end_effector_type: two_pinch_gripper

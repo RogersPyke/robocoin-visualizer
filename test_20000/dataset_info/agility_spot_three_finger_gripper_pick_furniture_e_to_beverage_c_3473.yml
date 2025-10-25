@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_e_to_beverage_c_3473
+dataset_uuid: fffb0be6-7ce0-42f6-bec4-286027743608
+task_descriptions:
+- pick_the_furniture_e_and_place_in_the_beverage_c
+scene_type:
+- restaurant
+- factory
+- cafe
+atomic_actions:
+- place
+- insert
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

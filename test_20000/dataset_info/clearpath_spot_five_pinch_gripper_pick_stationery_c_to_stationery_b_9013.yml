@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_c_to_stationery_b_9013
+dataset_uuid: 5c3aa60b-61a2-440e-8255-430f2151eef9
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_stationery_b
+scene_type:
+- hospital
+- factory
+- laboratory
+atomic_actions:
+- place
+- pull
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

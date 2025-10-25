@@ -1,0 +1,30 @@
+dataset_name: arrange_utensil_b_to_stationery_c_7346
+dataset_uuid: 299cf868-95bc-4a41-b468-eb40d68c0bed
+task_descriptions:
+- arrange_the_utensil_b_and_place_in_the_stationery_c
+scene_type:
+- cafe
+- home
+- factory
+atomic_actions:
+- lower
+- slide
+- rotate
+- insert
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+operation_platform_height: 81.0
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

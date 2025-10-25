@@ -1,0 +1,26 @@
+dataset_name: arrange_tool_d_to_beverage_d_8653
+dataset_uuid: 3b6bbceb-a35e-4502-9f1c-f983e0c51641
+task_descriptions:
+- arrange_the_tool_d_and_place_in_the_beverage_d
+scene_type:
+- warehouse
+atomic_actions:
+- flip
+- slide
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

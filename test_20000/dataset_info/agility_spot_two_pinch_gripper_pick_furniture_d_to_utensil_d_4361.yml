@@ -1,0 +1,30 @@
+dataset_name: pick_furniture_d_to_utensil_d_4361
+dataset_uuid: c0fa17b4-e74e-45b6-ab7d-c1aa27a75748
+task_descriptions:
+- pick_the_furniture_d_and_place_in_the_utensil_d
+scene_type:
+- store
+- restaurant
+- hospital
+atomic_actions:
+- lift
+- push
+- pull
+- pick
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.0
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_utensil_c_to_tool_b_6086
+dataset_uuid: d876898a-3298-4355-89da-c2a903ec96d6
+task_descriptions:
+- place_the_utensil_c_and_place_in_the_tool_b
+scene_type:
+- cafe
+- kitchen
+atomic_actions:
+- lower
+- pull
+- rotate
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 81.3
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

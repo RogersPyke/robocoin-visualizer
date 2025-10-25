@@ -1,0 +1,27 @@
+dataset_name: stack_kitchenware_c_to_beverage_d_1541
+dataset_uuid: 8f3b6ec6-323f-4f9e-a64e-64d3169811f8
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_beverage_d
+scene_type:
+- hospital
+- cafe
+atomic_actions:
+- grasp
+- rotate
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.2
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

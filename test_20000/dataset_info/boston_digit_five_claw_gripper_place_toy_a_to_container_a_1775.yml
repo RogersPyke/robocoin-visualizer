@@ -1,0 +1,27 @@
+dataset_name: place_toy_a_to_container_a_1775
+dataset_uuid: a8fe1cba-5217-47f4-866e-66720bc109ce
+task_descriptions:
+- place_the_toy_a_and_place_in_the_container_a
+scene_type:
+- laboratory
+atomic_actions:
+- push
+- flip
+- lower
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- boston_digit
+end_effector_type: five_claw_gripper

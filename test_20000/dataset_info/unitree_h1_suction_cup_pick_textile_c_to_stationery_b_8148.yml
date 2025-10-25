@@ -1,0 +1,27 @@
+dataset_name: pick_textile_c_to_stationery_b_8148
+dataset_uuid: c67a20e7-3035-41db-9224-cd3560212ee5
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_stationery_b
+scene_type:
+- store
+atomic_actions:
+- flip
+- pull
+- place
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- unitree_h1
+end_effector_type: suction_cup

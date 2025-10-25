@@ -1,0 +1,28 @@
+dataset_name: stack_container_b_to_fruit_d_9784
+dataset_uuid: 92dd524f-b4ed-4da4-899d-ba5d734cc0f6
+task_descriptions:
+- stack_the_container_b_and_place_in_the_fruit_d
+scene_type:
+- restaurant
+- office
+- factory
+atomic_actions:
+- lower
+- slide
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

@@ -1,0 +1,26 @@
+dataset_name: place_electronics_c_to_electronics_c_3785
+dataset_uuid: d7b66aeb-dd21-4cec-b08f-102bcaf721d5
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_electronics_c
+scene_type:
+- hospital
+atomic_actions:
+- place
+- remove
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.5
+device_model:
+- pal_tiago
+end_effector_type: five_claw_gripper

@@ -1,0 +1,30 @@
+dataset_name: pick_food_e_to_fruit_b_2039
+dataset_uuid: 9db50fab-300f-45c5-ae8b-fb10660b11ca
+task_descriptions:
+- pick_the_food_e_and_place_in_the_fruit_b
+scene_type:
+- kitchen
+- warehouse
+- restaurant
+atomic_actions:
+- grasp
+- remove
+- insert
+- lower
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

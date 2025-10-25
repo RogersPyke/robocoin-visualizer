@@ -1,0 +1,28 @@
+dataset_name: place_electronics_c_to_textile_d_7217
+dataset_uuid: 2e53ae50-d6d5-487e-869f-bba5893ada71
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_textile_d
+scene_type:
+- home
+atomic_actions:
+- push
+- remove
+- grasp
+- pick
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,26 @@
+dataset_name: place_fruit_d_to_textile_c_7072
+dataset_uuid: 7bc40122-ac07-413a-88f1-ff6a20ec7e0c
+task_descriptions:
+- place_the_fruit_d_and_place_in_the_textile_c
+scene_type:
+- restaurant
+atomic_actions:
+- place
+- insert
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

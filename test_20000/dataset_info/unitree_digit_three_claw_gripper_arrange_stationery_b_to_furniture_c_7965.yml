@@ -1,0 +1,27 @@
+dataset_name: arrange_stationery_b_to_furniture_c_7965
+dataset_uuid: d6941745-45ca-442d-a348-c4296f950570
+task_descriptions:
+- arrange_the_stationery_b_and_place_in_the_furniture_c
+scene_type:
+- cafe
+atomic_actions:
+- pick
+- flip
+- rotate
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.5
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

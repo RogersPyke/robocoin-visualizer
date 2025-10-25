@@ -1,0 +1,27 @@
+dataset_name: arrange_electronics_b_to_beverage_a_6076
+dataset_uuid: 2214b4db-3b1b-47bb-ba80-d13cf3e48769
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_beverage_a
+scene_type:
+- kitchen
+atomic_actions:
+- pull
+- pick
+- insert
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_textile_b_to_kitchenware_e_9417
+dataset_uuid: 014308df-6cb2-4337-8c0a-e508b4074c8e
+task_descriptions:
+- place_the_textile_b_and_place_in_the_kitchenware_e
+scene_type:
+- hospital
+- warehouse
+- store
+atomic_actions:
+- push
+- pull
+- lift
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_e
+  level1: kitchenware
+  level2: kitchenware_e
+  level3: kitchenware_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- unitree_cassie
+end_effector_type: five_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: place_toy_c_to_container_c_8827
+dataset_uuid: 23e746cb-e9e3-4cd9-aa22-83c693d8f10c
+task_descriptions:
+- place_the_toy_c_and_place_in_the_container_c
+scene_type:
+- hospital
+- kitchen
+atomic_actions:
+- place
+- slide
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.3
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

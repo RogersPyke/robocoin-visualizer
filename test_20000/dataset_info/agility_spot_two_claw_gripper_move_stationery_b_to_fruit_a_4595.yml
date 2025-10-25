@@ -1,0 +1,28 @@
+dataset_name: move_stationery_b_to_fruit_a_4595
+dataset_uuid: 3cfdca87-0032-44cf-8bb4-53606d5afaca
+task_descriptions:
+- move_the_stationery_b_and_place_in_the_fruit_a
+scene_type:
+- factory
+- kitchen
+atomic_actions:
+- slide
+- rotate
+- lift
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- agility_spot
+end_effector_type: two_claw_gripper

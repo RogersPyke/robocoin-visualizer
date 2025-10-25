@@ -1,0 +1,29 @@
+dataset_name: place_utensil_c_to_fruit_e_5826
+dataset_uuid: 6a7a828b-9b23-41b6-b194-103baf705edb
+task_descriptions:
+- place_the_utensil_c_and_place_in_the_fruit_e
+scene_type:
+- office
+- store
+atomic_actions:
+- pick
+- lift
+- rotate
+- place
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.3
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

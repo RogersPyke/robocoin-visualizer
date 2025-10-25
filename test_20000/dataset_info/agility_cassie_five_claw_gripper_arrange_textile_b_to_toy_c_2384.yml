@@ -1,0 +1,29 @@
+dataset_name: arrange_textile_b_to_toy_c_2384
+dataset_uuid: 351d3fef-7a47-4309-b192-bcd9694e2f51
+task_descriptions:
+- arrange_the_textile_b_and_place_in_the_toy_c
+scene_type:
+- warehouse
+- restaurant
+atomic_actions:
+- rotate
+- slide
+- place
+- push
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- agility_cassie
+end_effector_type: five_claw_gripper

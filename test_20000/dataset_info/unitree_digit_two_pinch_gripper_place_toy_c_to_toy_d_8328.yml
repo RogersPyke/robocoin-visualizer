@@ -1,0 +1,27 @@
+dataset_name: place_toy_c_to_toy_d_8328
+dataset_uuid: 21e0eda1-23fc-4482-bfb2-593fbe5060b6
+task_descriptions:
+- place_the_toy_c_and_place_in_the_toy_d
+scene_type:
+- kitchen
+- restaurant
+atomic_actions:
+- lift
+- flip
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

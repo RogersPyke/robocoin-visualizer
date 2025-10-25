@@ -1,0 +1,28 @@
+dataset_name: stack_container_a_to_stationery_c_8353
+dataset_uuid: 71b5f29c-842f-4b66-a113-cdd24fb3ab50
+task_descriptions:
+- stack_the_container_a_and_place_in_the_stationery_c
+scene_type:
+- hospital
+atomic_actions:
+- push
+- pull
+- insert
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.9
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

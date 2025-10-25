@@ -1,0 +1,29 @@
+dataset_name: pick_electronics_a_to_tool_c_2143
+dataset_uuid: 8f1a35c3-4670-48e8-a9b4-ed49204b27d9
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_tool_c
+scene_type:
+- factory
+- cafe
+- home
+atomic_actions:
+- grasp
+- lower
+- lift
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+operation_platform_height: 80.6
+device_model:
+- boston_h1
+end_effector_type: two_claw_gripper

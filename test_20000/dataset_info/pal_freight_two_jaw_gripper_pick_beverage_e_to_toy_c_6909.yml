@@ -1,0 +1,28 @@
+dataset_name: pick_beverage_e_to_toy_c_6909
+dataset_uuid: 6bd250d9-fc5d-4f31-b416-70454c61a50a
+task_descriptions:
+- pick_the_beverage_e_and_place_in_the_toy_c
+scene_type:
+- factory
+atomic_actions:
+- place
+- flip
+- rotate
+- remove
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.6
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

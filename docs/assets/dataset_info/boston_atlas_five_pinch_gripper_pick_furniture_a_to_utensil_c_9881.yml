@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_a_to_utensil_c_9881
+dataset_uuid: 6746b3dd-40d0-4978-954b-f6587e7cd35f
+task_descriptions:
+- pick_the_furniture_a_and_place_in_the_utensil_c
+scene_type:
+- cafe
+- laboratory
+atomic_actions:
+- pull
+- remove
+- grasp
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- boston_atlas
+end_effector_type: five_pinch_gripper

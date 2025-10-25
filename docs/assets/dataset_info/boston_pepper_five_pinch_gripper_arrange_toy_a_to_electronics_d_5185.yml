@@ -1,0 +1,26 @@
+dataset_name: arrange_toy_a_to_electronics_d_5185
+dataset_uuid: b9c0527e-e730-4ab9-8f8c-9f078f9b9b57
+task_descriptions:
+- arrange_the_toy_a_and_place_in_the_electronics_d
+scene_type:
+- kitchen
+atomic_actions:
+- rotate
+- push
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_d
+  level1: electronics
+  level2: electronics_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.9
+device_model:
+- boston_pepper
+end_effector_type: five_pinch_gripper

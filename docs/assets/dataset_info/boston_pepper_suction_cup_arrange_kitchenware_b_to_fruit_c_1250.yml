@@ -1,0 +1,27 @@
+dataset_name: arrange_kitchenware_b_to_fruit_c_1250
+dataset_uuid: 89966bf4-6427-43a4-94ca-8309855a695d
+task_descriptions:
+- arrange_the_kitchenware_b_and_place_in_the_fruit_c
+scene_type:
+- store
+- kitchen
+atomic_actions:
+- rotate
+- grasp
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- boston_pepper
+end_effector_type: suction_cup

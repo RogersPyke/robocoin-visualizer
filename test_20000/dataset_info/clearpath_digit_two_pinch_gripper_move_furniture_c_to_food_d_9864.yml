@@ -1,0 +1,29 @@
+dataset_name: move_furniture_c_to_food_d_9864
+dataset_uuid: 01339d82-938d-44c6-a49c-7a7cddb5e283
+task_descriptions:
+- move_the_furniture_c_and_place_in_the_food_d
+scene_type:
+- kitchen
+- restaurant
+- hospital
+atomic_actions:
+- place
+- insert
+- pull
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.4
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

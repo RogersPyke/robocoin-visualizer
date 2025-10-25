@@ -1,0 +1,27 @@
+dataset_name: pick_textile_a_to_kitchenware_a_1590
+dataset_uuid: 2a334cf1-703c-456c-8305-1066a0cb8990
+task_descriptions:
+- pick_the_textile_a_and_place_in_the_kitchenware_a
+scene_type:
+- cafe
+- factory
+atomic_actions:
+- push
+- insert
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.2
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

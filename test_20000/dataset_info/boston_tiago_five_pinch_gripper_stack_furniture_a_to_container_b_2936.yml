@@ -1,0 +1,26 @@
+dataset_name: stack_furniture_a_to_container_b_2936
+dataset_uuid: 7ad79faa-80bc-48fb-adc1-57423cc912da
+task_descriptions:
+- stack_the_furniture_a_and_place_in_the_container_b
+scene_type:
+- store
+atomic_actions:
+- pull
+- slide
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.1
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

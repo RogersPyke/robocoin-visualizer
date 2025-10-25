@@ -1,0 +1,28 @@
+dataset_name: pick_tool_b_to_stationery_c_7217
+dataset_uuid: b789202c-246f-429e-a20d-0d1fbf3e7ccf
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_stationery_c
+scene_type:
+- office
+- hospital
+atomic_actions:
+- insert
+- lift
+- place
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

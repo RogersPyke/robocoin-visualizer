@@ -1,0 +1,26 @@
+dataset_name: move_toy_b_to_utensil_c_8459
+dataset_uuid: f0acab7d-f2a1-4faf-b732-a2b33f653dcd
+task_descriptions:
+- move_the_toy_b_and_place_in_the_utensil_c
+scene_type:
+- laboratory
+atomic_actions:
+- pick
+- lift
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

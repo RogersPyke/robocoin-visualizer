@@ -1,0 +1,27 @@
+dataset_name: stack_utensil_b_to_beverage_b_1302
+dataset_uuid: 9c1304e0-fa94-4fc8-92e5-5397f6194835
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_beverage_b
+scene_type:
+- kitchen
+atomic_actions:
+- remove
+- lower
+- flip
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

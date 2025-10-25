@@ -1,0 +1,28 @@
+dataset_name: stack_textile_b_to_toy_c_5640
+dataset_uuid: 5da286d4-cd21-4536-800e-4b6fac9a2601
+task_descriptions:
+- stack_the_textile_b_and_place_in_the_toy_c
+scene_type:
+- warehouse
+atomic_actions:
+- remove
+- push
+- lift
+- slide
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- fetch_tiago
+end_effector_type: two_claw_gripper

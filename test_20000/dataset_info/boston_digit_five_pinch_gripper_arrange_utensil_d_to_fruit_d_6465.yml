@@ -1,0 +1,28 @@
+dataset_name: arrange_utensil_d_to_fruit_d_6465
+dataset_uuid: 53f89bd8-af76-4e77-a31d-5144ef9a6bf8
+task_descriptions:
+- arrange_the_utensil_d_and_place_in_the_fruit_d
+scene_type:
+- office
+- laboratory
+atomic_actions:
+- lift
+- pull
+- remove
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.6
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

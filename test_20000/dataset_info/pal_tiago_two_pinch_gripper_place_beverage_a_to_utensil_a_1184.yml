@@ -1,0 +1,29 @@
+dataset_name: place_beverage_a_to_utensil_a_1184
+dataset_uuid: 93335110-334b-41b7-b02e-e021ec5dabdf
+task_descriptions:
+- place_the_beverage_a_and_place_in_the_utensil_a
+scene_type:
+- factory
+- store
+- cafe
+atomic_actions:
+- push
+- flip
+- lift
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.1
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

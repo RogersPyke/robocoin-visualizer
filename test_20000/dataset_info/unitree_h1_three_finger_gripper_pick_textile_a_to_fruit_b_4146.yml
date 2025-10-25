@@ -1,0 +1,28 @@
+dataset_name: pick_textile_a_to_fruit_b_4146
+dataset_uuid: 4ae2e067-0d7a-4d4b-a5a0-b805d85ef16b
+task_descriptions:
+- pick_the_textile_a_and_place_in_the_fruit_b
+scene_type:
+- restaurant
+atomic_actions:
+- rotate
+- slide
+- place
+- push
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

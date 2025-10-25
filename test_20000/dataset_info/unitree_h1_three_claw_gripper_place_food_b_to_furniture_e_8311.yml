@@ -1,0 +1,29 @@
+dataset_name: place_food_b_to_furniture_e_8311
+dataset_uuid: 4b2b838e-1ea3-4592-9cab-80dc8d8e40a2
+task_descriptions:
+- place_the_food_b_and_place_in_the_furniture_e
+scene_type:
+- cafe
+- hospital
+atomic_actions:
+- place
+- lift
+- grasp
+- rotate
+objects:
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- unitree_h1
+end_effector_type: three_claw_gripper

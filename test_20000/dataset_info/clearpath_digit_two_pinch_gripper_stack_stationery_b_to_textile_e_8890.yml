@@ -1,0 +1,30 @@
+dataset_name: stack_stationery_b_to_textile_e_8890
+dataset_uuid: 3a6716a1-5e09-4526-a825-46a7a5e3569c
+task_descriptions:
+- stack_the_stationery_b_and_place_in_the_textile_e
+scene_type:
+- warehouse
+- cafe
+- factory
+atomic_actions:
+- grasp
+- rotate
+- flip
+- lift
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

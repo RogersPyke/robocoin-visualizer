@@ -1,0 +1,28 @@
+dataset_name: arrange_beverage_e_to_textile_b_5485
+dataset_uuid: 22ef98a1-8dc6-4d76-82df-eea2de34bb89
+task_descriptions:
+- arrange_the_beverage_e_and_place_in_the_textile_b
+scene_type:
+- store
+- factory
+atomic_actions:
+- lift
+- lower
+- place
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.7
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

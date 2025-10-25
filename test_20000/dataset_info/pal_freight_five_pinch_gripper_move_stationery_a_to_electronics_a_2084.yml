@@ -1,0 +1,28 @@
+dataset_name: move_stationery_a_to_electronics_a_2084
+dataset_uuid: a825e5b7-84a6-4e65-bb92-d0beac7e03b6
+task_descriptions:
+- move_the_stationery_a_and_place_in_the_electronics_a
+scene_type:
+- laboratory
+atomic_actions:
+- grasp
+- lower
+- pick
+- lift
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.1
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

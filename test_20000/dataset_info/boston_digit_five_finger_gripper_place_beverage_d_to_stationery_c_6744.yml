@@ -1,0 +1,26 @@
+dataset_name: place_beverage_d_to_stationery_c_6744
+dataset_uuid: 1fec9514-d9a9-47c0-9570-51ca167b1c1a
+task_descriptions:
+- place_the_beverage_d_and_place_in_the_stationery_c
+scene_type:
+- kitchen
+atomic_actions:
+- lower
+- place
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.5
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

@@ -1,0 +1,26 @@
+dataset_name: stack_food_b_to_kitchenware_a_8064
+dataset_uuid: 4b4d8205-03f0-4d72-9123-f6c5b75ff2f9
+task_descriptions:
+- stack_the_food_b_and_place_in_the_kitchenware_a
+scene_type:
+- hospital
+atomic_actions:
+- grasp
+- remove
+objects:
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.6
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

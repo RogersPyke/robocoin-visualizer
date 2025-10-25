@@ -1,0 +1,30 @@
+dataset_name: move_container_c_to_utensil_c_9205
+dataset_uuid: 863df535-16ed-469a-a8d4-814aed966bbb
+task_descriptions:
+- move_the_container_c_and_place_in_the_utensil_c
+scene_type:
+- home
+- restaurant
+- laboratory
+atomic_actions:
+- insert
+- lift
+- pull
+- remove
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.1
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

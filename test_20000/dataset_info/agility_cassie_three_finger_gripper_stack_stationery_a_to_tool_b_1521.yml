@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_a_to_tool_b_1521
+dataset_uuid: ff7556a7-aee3-43c8-ae9a-90854288448b
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_tool_b
+scene_type:
+- cafe
+- factory
+atomic_actions:
+- remove
+- flip
+- insert
+- rotate
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.9
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

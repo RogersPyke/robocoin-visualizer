@@ -1,0 +1,30 @@
+dataset_name: place_utensil_d_to_textile_a_9188
+dataset_uuid: b0aef2c2-2527-4f54-91e1-029a2b4f594b
+task_descriptions:
+- place_the_utensil_d_and_place_in_the_textile_a
+scene_type:
+- store
+- warehouse
+- laboratory
+atomic_actions:
+- place
+- insert
+- push
+- flip
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.6
+device_model:
+- fetch_tiago
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,30 @@
+dataset_name: stack_food_a_to_container_c_3276
+dataset_uuid: 5645d390-9d20-494f-b6f7-3a2f480e9bda
+task_descriptions:
+- stack_the_food_a_and_place_in_the_container_c
+scene_type:
+- store
+- factory
+- kitchen
+atomic_actions:
+- remove
+- place
+- grasp
+- rotate
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- fetch_tiago
+end_effector_type: three_jaw_gripper

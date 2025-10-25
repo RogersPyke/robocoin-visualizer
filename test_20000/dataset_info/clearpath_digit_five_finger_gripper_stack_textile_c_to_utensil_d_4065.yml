@@ -1,0 +1,30 @@
+dataset_name: stack_textile_c_to_utensil_d_4065
+dataset_uuid: 8abf96f5-11fe-4133-aa9a-3a5aa4837fd1
+task_descriptions:
+- stack_the_textile_c_and_place_in_the_utensil_d
+scene_type:
+- warehouse
+- hospital
+- kitchen
+atomic_actions:
+- grasp
+- pick
+- slide
+- place
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

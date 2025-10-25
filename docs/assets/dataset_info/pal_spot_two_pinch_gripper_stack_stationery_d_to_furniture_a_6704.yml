@@ -1,0 +1,28 @@
+dataset_name: stack_stationery_d_to_furniture_a_6704
+dataset_uuid: 8ce18607-125d-43c6-8dac-da37be1c3328
+task_descriptions:
+- stack_the_stationery_d_and_place_in_the_furniture_a
+scene_type:
+- office
+- hospital
+atomic_actions:
+- grasp
+- rotate
+- flip
+objects:
+- object_name: stationery_d
+  level1: stationery
+  level2: stationery_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 90.0
+device_model:
+- pal_spot
+end_effector_type: two_pinch_gripper

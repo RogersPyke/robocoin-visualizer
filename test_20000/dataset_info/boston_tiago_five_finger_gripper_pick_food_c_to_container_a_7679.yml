@@ -1,0 +1,28 @@
+dataset_name: pick_food_c_to_container_a_7679
+dataset_uuid: dfe1a56b-b6b7-45fa-91ae-055224558cf7
+task_descriptions:
+- pick_the_food_c_and_place_in_the_container_a
+scene_type:
+- hospital
+- kitchen
+atomic_actions:
+- pick
+- lift
+- slide
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.1
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

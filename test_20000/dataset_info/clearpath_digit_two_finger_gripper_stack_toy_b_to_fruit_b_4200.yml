@@ -1,0 +1,30 @@
+dataset_name: stack_toy_b_to_fruit_b_4200
+dataset_uuid: 0bb168b0-29c8-404d-8ffa-84af864f9e64
+task_descriptions:
+- stack_the_toy_b_and_place_in_the_fruit_b
+scene_type:
+- factory
+- restaurant
+- kitchen
+atomic_actions:
+- flip
+- rotate
+- lower
+- remove
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.6
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

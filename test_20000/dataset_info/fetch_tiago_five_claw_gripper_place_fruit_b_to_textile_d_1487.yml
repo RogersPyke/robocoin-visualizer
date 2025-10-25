@@ -1,0 +1,26 @@
+dataset_name: place_fruit_b_to_textile_d_1487
+dataset_uuid: ccf10627-bcf5-4cb8-88c9-358b424a6bf3
+task_descriptions:
+- place_the_fruit_b_and_place_in_the_textile_d
+scene_type:
+- cafe
+atomic_actions:
+- remove
+- insert
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+operation_platform_height: 74.6
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

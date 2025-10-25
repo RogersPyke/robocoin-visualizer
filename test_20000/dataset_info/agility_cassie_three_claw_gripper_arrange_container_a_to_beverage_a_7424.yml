@@ -1,0 +1,28 @@
+dataset_name: arrange_container_a_to_beverage_a_7424
+dataset_uuid: 2abca3b3-c39d-4657-8bde-c4a3c9b56857
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_beverage_a
+scene_type:
+- store
+- cafe
+- kitchen
+atomic_actions:
+- pick
+- place
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_kitchenware_c_to_food_e_5334
+dataset_uuid: 71d8d34d-8c93-4b77-bc0c-8eaa6fdedb07
+task_descriptions:
+- arrange_the_kitchenware_c_and_place_in_the_food_e
+scene_type:
+- home
+atomic_actions:
+- pick
+- slide
+- grasp
+- push
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

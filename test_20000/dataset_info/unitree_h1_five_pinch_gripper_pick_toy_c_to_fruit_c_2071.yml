@@ -1,0 +1,29 @@
+dataset_name: pick_toy_c_to_fruit_c_2071
+dataset_uuid: c6c7d13e-5396-47bd-8f1d-66eb292336d4
+task_descriptions:
+- pick_the_toy_c_and_place_in_the_fruit_c
+scene_type:
+- factory
+- home
+- store
+atomic_actions:
+- pull
+- slide
+- insert
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

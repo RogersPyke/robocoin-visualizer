@@ -1,0 +1,27 @@
+dataset_name: place_textile_a_to_stationery_b_8068
+dataset_uuid: c4ac7f58-596a-41b3-b5e1-2950c15cafe8
+task_descriptions:
+- place_the_textile_a_and_place_in_the_stationery_b
+scene_type:
+- home
+atomic_actions:
+- insert
+- place
+- lower
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

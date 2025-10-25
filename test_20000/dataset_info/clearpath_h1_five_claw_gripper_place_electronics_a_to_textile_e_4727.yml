@@ -1,0 +1,27 @@
+dataset_name: place_electronics_a_to_textile_e_4727
+dataset_uuid: 63a83a8e-41ee-4a12-99c2-c79944f097f8
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_textile_e
+scene_type:
+- office
+atomic_actions:
+- insert
+- place
+- remove
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

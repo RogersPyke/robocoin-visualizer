@@ -1,0 +1,26 @@
+dataset_name: pick_tool_c_to_tool_a_1287
+dataset_uuid: 9cb4be4e-1dce-473e-ba34-1189cc6128df
+task_descriptions:
+- pick_the_tool_c_and_place_in_the_tool_a
+scene_type:
+- factory
+atomic_actions:
+- push
+- rotate
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

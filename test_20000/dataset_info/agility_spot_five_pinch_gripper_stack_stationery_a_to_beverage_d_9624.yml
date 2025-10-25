@@ -1,0 +1,26 @@
+dataset_name: stack_stationery_a_to_beverage_d_9624
+dataset_uuid: 70291ab3-a34f-435c-9e12-e45c1ab0dac6
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_beverage_d
+scene_type:
+- factory
+atomic_actions:
+- push
+- grasp
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.3
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

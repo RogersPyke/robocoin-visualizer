@@ -1,0 +1,27 @@
+dataset_name: move_toy_d_to_tool_b_5581
+dataset_uuid: 04e7149f-053e-4cc3-968a-9d65dfa1de38
+task_descriptions:
+- move_the_toy_d_and_place_in_the_tool_b
+scene_type:
+- store
+- office
+atomic_actions:
+- insert
+- lower
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.7
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

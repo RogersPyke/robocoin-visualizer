@@ -1,0 +1,30 @@
+dataset_name: place_toy_c_to_stationery_c_2745
+dataset_uuid: f3e11c16-b0d9-4f82-bb23-6253e66a6545
+task_descriptions:
+- place_the_toy_c_and_place_in_the_stationery_c
+scene_type:
+- cafe
+- hospital
+- kitchen
+atomic_actions:
+- flip
+- grasp
+- slide
+- insert
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.9
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

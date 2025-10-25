@@ -1,0 +1,29 @@
+dataset_name: move_textile_a_to_electronics_c_7501
+dataset_uuid: 57abcffe-afc8-4345-95d8-7b7d50772b8c
+task_descriptions:
+- move_the_textile_a_and_place_in_the_electronics_c
+scene_type:
+- cafe
+- kitchen
+- hospital
+atomic_actions:
+- grasp
+- slide
+- remove
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- clearpath_h1
+end_effector_type: two_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_container_a_to_textile_d_4914
+dataset_uuid: 82b8636c-e4c5-4d53-ae57-89e34e621336
+task_descriptions:
+- move_the_container_a_and_place_in_the_textile_d
+scene_type:
+- restaurant
+- office
+atomic_actions:
+- insert
+- lower
+- remove
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.1
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

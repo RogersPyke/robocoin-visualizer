@@ -1,0 +1,26 @@
+dataset_name: move_fruit_e_to_toy_c_4951
+dataset_uuid: f5368f2d-5c80-428d-b3c8-e2a72e5a4e9f
+task_descriptions:
+- move_the_fruit_e_and_place_in_the_toy_c
+scene_type:
+- kitchen
+atomic_actions:
+- pull
+- place
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.2
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

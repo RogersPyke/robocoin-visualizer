@@ -1,0 +1,28 @@
+dataset_name: stack_fruit_c_to_stationery_b_4938
+dataset_uuid: c7efc169-5e95-4574-a69d-6809024b559f
+task_descriptions:
+- stack_the_fruit_c_and_place_in_the_stationery_b
+scene_type:
+- kitchen
+- hospital
+atomic_actions:
+- grasp
+- rotate
+- place
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 76.4
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

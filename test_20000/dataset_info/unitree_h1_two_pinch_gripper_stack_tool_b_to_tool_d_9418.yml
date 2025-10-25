@@ -1,0 +1,28 @@
+dataset_name: stack_tool_b_to_tool_d_9418
+dataset_uuid: ad64801e-b70f-43c8-a062-0d4b60967c81
+task_descriptions:
+- stack_the_tool_b_and_place_in_the_tool_d
+scene_type:
+- store
+- home
+- restaurant
+atomic_actions:
+- lift
+- remove
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- unitree_h1
+end_effector_type: two_pinch_gripper

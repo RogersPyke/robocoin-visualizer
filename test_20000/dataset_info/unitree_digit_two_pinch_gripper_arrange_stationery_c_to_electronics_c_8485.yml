@@ -1,0 +1,28 @@
+dataset_name: arrange_stationery_c_to_electronics_c_8485
+dataset_uuid: dfafae4b-24aa-4433-ac12-decf0ab3fcf4
+task_descriptions:
+- arrange_the_stationery_c_and_place_in_the_electronics_c
+scene_type:
+- restaurant
+atomic_actions:
+- flip
+- lower
+- rotate
+- grasp
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

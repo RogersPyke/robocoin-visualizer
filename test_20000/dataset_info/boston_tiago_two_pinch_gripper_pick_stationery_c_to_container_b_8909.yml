@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_c_to_container_b_8909
+dataset_uuid: fe7c95cd-c0b7-48d0-8ee4-de3973fdfdab
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_container_b
+scene_type:
+- home
+- factory
+- cafe
+atomic_actions:
+- place
+- push
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

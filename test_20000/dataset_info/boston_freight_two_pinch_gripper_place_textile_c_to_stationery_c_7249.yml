@@ -1,0 +1,27 @@
+dataset_name: place_textile_c_to_stationery_c_7249
+dataset_uuid: f7cbef3b-5e84-4dea-8673-7b1212031ea3
+task_descriptions:
+- place_the_textile_c_and_place_in_the_stationery_c
+scene_type:
+- laboratory
+atomic_actions:
+- push
+- place
+- pick
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

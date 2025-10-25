@@ -1,0 +1,30 @@
+dataset_name: place_stationery_b_to_container_b_3126
+dataset_uuid: 3daf17c9-8734-4eab-978e-ddae5ff6e67c
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_container_b
+scene_type:
+- factory
+- hospital
+- cafe
+atomic_actions:
+- rotate
+- slide
+- insert
+- lower
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- unitree_digit
+end_effector_type: suction_cup

@@ -1,0 +1,28 @@
+dataset_name: arrange_kitchenware_c_to_food_d_3752
+dataset_uuid: 153ba29f-8ce5-402b-a175-8fbdc2211745
+task_descriptions:
+- arrange_the_kitchenware_c_and_place_in_the_food_d
+scene_type:
+- cafe
+- kitchen
+atomic_actions:
+- slide
+- grasp
+- pull
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- agility_spot
+end_effector_type: five_finger_gripper

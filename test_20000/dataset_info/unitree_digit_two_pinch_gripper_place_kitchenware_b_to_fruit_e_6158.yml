@@ -1,0 +1,28 @@
+dataset_name: place_kitchenware_b_to_fruit_e_6158
+dataset_uuid: f9036c46-6e59-4a19-9912-0117a1a451b3
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_fruit_e
+scene_type:
+- hospital
+- office
+- store
+atomic_actions:
+- grasp
+- push
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.5
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

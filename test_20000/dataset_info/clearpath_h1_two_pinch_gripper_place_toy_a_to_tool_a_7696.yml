@@ -1,0 +1,28 @@
+dataset_name: place_toy_a_to_tool_a_7696
+dataset_uuid: 51283c9c-4554-47d3-b34a-c4742d2e8eed
+task_descriptions:
+- place_the_toy_a_and_place_in_the_tool_a
+scene_type:
+- restaurant
+- cafe
+atomic_actions:
+- grasp
+- rotate
+- remove
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+operation_platform_height: 78.4
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

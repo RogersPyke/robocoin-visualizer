@@ -1,0 +1,26 @@
+dataset_name: place_utensil_c_to_tool_d_2388
+dataset_uuid: 378a1d1e-c16a-4137-a1d7-18bd1efdd6a2
+task_descriptions:
+- place_the_utensil_c_and_place_in_the_tool_d
+scene_type:
+- store
+atomic_actions:
+- flip
+- push
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- pal_freight
+end_effector_type: five_finger_gripper

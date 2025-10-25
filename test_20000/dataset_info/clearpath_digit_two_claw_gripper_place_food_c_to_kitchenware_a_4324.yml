@@ -1,0 +1,28 @@
+dataset_name: place_food_c_to_kitchenware_a_4324
+dataset_uuid: e576b68d-3e64-49f0-bd92-799990563042
+task_descriptions:
+- place_the_food_c_and_place_in_the_kitchenware_a
+scene_type:
+- restaurant
+- laboratory
+atomic_actions:
+- lower
+- rotate
+- remove
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.7
+device_model:
+- clearpath_digit
+end_effector_type: two_claw_gripper

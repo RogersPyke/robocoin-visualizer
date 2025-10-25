@@ -1,0 +1,28 @@
+dataset_name: arrange_utensil_c_to_beverage_e_4924
+dataset_uuid: 441dfdc5-606e-4e78-a6d0-61ec4ce51314
+task_descriptions:
+- arrange_the_utensil_c_and_place_in_the_beverage_e
+scene_type:
+- restaurant
+- office
+atomic_actions:
+- rotate
+- slide
+- pick
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.3
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_food_a_to_kitchenware_a_6331
+dataset_uuid: 5147081d-8c61-4d1b-8af8-7304252dbe35
+task_descriptions:
+- arrange_the_food_a_and_place_in_the_kitchenware_a
+scene_type:
+- restaurant
+- laboratory
+atomic_actions:
+- pick
+- slide
+objects:
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+operation_platform_height: 83.8
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

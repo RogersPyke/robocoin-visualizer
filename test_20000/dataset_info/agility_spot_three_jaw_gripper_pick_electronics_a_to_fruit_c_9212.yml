@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_a_to_fruit_c_9212
+dataset_uuid: 826436d9-6e68-464f-8d5f-9439ef9876f5
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_fruit_c
+scene_type:
+- factory
+- hospital
+atomic_actions:
+- lift
+- push
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+operation_platform_height: 88.6
+device_model:
+- agility_spot
+end_effector_type: three_jaw_gripper

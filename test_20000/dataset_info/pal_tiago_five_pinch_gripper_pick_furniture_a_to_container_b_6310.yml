@@ -1,0 +1,26 @@
+dataset_name: pick_furniture_a_to_container_b_6310
+dataset_uuid: fa84722a-430f-47b8-adda-c46d988d3245
+task_descriptions:
+- pick_the_furniture_a_and_place_in_the_container_b
+scene_type:
+- restaurant
+atomic_actions:
+- remove
+- lower
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,26 @@
+dataset_name: move_toy_b_to_beverage_e_3450
+dataset_uuid: 92556e3d-1e8d-454d-aabb-7774e86293a5
+task_descriptions:
+- move_the_toy_b_and_place_in_the_beverage_e
+scene_type:
+- home
+atomic_actions:
+- grasp
+- pull
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- agility_tiago
+end_effector_type: two_pinch_gripper

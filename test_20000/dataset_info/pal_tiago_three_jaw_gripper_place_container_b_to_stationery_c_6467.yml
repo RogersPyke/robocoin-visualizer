@@ -1,0 +1,26 @@
+dataset_name: place_container_b_to_stationery_c_6467
+dataset_uuid: 13791487-4875-43dc-8189-b69d5febe4d6
+task_descriptions:
+- place_the_container_b_and_place_in_the_stationery_c
+scene_type:
+- laboratory
+atomic_actions:
+- grasp
+- rotate
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,27 @@
+dataset_name: move_electronics_b_to_furniture_e_4200
+dataset_uuid: 743f6228-c533-4f5b-accb-996c7161022d
+task_descriptions:
+- move_the_electronics_b_and_place_in_the_furniture_e
+scene_type:
+- office
+atomic_actions:
+- pull
+- insert
+- lower
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.1
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: move_furniture_a_to_furniture_e_5578
+dataset_uuid: 8860807f-8c7b-47bb-b210-00b0aa08a4f8
+task_descriptions:
+- move_the_furniture_a_and_place_in_the_furniture_e
+scene_type:
+- laboratory
+- factory
+- kitchen
+atomic_actions:
+- grasp
+- pull
+- rotate
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

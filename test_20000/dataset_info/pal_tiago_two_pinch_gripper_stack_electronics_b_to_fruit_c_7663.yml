@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_b_to_fruit_c_7663
+dataset_uuid: e8feb8e6-90b1-40f2-a58b-2315a9cf91fe
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_fruit_c
+scene_type:
+- laboratory
+- restaurant
+atomic_actions:
+- insert
+- pull
+- grasp
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_food_b_to_food_c_9369
+dataset_uuid: 96a90ae1-b753-4c78-8e31-39bc4549813c
+task_descriptions:
+- stack_the_food_b_and_place_in_the_food_c
+scene_type:
+- warehouse
+atomic_actions:
+- pick
+- lower
+- push
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.1
+device_model:
+- agility_digit
+end_effector_type: suction_cup

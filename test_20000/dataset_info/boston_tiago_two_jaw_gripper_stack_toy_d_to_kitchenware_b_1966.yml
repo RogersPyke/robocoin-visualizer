@@ -1,0 +1,28 @@
+dataset_name: stack_toy_d_to_kitchenware_b_1966
+dataset_uuid: a8eed065-58c4-4269-8ab3-16cebd6cbe54
+task_descriptions:
+- stack_the_toy_d_and_place_in_the_kitchenware_b
+scene_type:
+- hospital
+- laboratory
+atomic_actions:
+- lift
+- lower
+- slide
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

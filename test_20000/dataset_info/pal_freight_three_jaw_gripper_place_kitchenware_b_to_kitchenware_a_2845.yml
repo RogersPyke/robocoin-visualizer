@@ -1,0 +1,29 @@
+dataset_name: place_kitchenware_b_to_kitchenware_a_2845
+dataset_uuid: 4374beca-b36c-400d-9b36-9c9a63978620
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_kitchenware_a
+scene_type:
+- office
+- hospital
+atomic_actions:
+- push
+- flip
+- slide
+- place
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

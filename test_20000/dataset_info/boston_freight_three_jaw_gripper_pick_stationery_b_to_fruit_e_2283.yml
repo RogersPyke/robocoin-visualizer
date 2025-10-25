@@ -1,0 +1,26 @@
+dataset_name: pick_stationery_b_to_fruit_e_2283
+dataset_uuid: c507234a-4bee-4ae6-b692-d0bdacdca068
+task_descriptions:
+- pick_the_stationery_b_and_place_in_the_fruit_e
+scene_type:
+- cafe
+atomic_actions:
+- flip
+- place
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,26 @@
+dataset_name: move_container_a_to_furniture_e_3645
+dataset_uuid: f6a68022-46ae-4e20-ba3f-a455ff6adf8f
+task_descriptions:
+- move_the_container_a_and_place_in_the_furniture_e
+scene_type:
+- store
+atomic_actions:
+- pull
+- push
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- agility_spot
+end_effector_type: five_finger_gripper

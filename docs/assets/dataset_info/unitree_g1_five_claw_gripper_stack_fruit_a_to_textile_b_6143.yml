@@ -1,0 +1,29 @@
+dataset_name: stack_fruit_a_to_textile_b_6143
+dataset_uuid: 309c5be4-c5ad-4bd1-8861-69f20727194f
+task_descriptions:
+- stack_the_fruit_a_and_place_in_the_textile_b
+scene_type:
+- restaurant
+- kitchen
+atomic_actions:
+- lift
+- pull
+- slide
+- insert
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- unitree_g1
+end_effector_type: five_claw_gripper

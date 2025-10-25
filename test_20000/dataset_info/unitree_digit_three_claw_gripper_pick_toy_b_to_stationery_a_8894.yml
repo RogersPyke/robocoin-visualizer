@@ -1,0 +1,28 @@
+dataset_name: pick_toy_b_to_stationery_a_8894
+dataset_uuid: e589ed3d-d77f-433d-853c-0be26f6caf65
+task_descriptions:
+- pick_the_toy_b_and_place_in_the_stationery_a
+scene_type:
+- office
+- store
+atomic_actions:
+- slide
+- remove
+- lift
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.1
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

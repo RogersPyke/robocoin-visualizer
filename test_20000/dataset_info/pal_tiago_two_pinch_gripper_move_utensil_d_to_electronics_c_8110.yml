@@ -1,0 +1,28 @@
+dataset_name: move_utensil_d_to_electronics_c_8110
+dataset_uuid: 4c4ec0ef-ee99-4ef0-bd10-0a6a36cb9f14
+task_descriptions:
+- move_the_utensil_d_and_place_in_the_electronics_c
+scene_type:
+- kitchen
+- hospital
+- store
+atomic_actions:
+- rotate
+- place
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 83.5
+device_model:
+- pal_tiago
+end_effector_type: two_pinch_gripper

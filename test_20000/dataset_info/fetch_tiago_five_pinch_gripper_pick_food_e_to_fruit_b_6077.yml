@@ -1,0 +1,27 @@
+dataset_name: pick_food_e_to_fruit_b_6077
+dataset_uuid: b7f3b0f4-fc40-4059-90dc-57197924a2c6
+task_descriptions:
+- pick_the_food_e_and_place_in_the_fruit_b
+scene_type:
+- restaurant
+- store
+atomic_actions:
+- pull
+- pick
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: stack_utensil_b_to_tool_b_7354
+dataset_uuid: a9901f66-febf-49dc-8108-0e02e592efe4
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_tool_b
+scene_type:
+- home
+atomic_actions:
+- lift
+- pick
+- push
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.4
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

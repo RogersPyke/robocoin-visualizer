@@ -1,0 +1,27 @@
+dataset_name: pick_container_b_to_furniture_a_6914
+dataset_uuid: 5e277e90-42b8-437f-9a03-fee314351c4a
+task_descriptions:
+- pick_the_container_b_and_place_in_the_furniture_a
+scene_type:
+- office
+atomic_actions:
+- place
+- push
+- slide
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

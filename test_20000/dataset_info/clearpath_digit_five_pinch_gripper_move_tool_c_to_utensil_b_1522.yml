@@ -1,0 +1,28 @@
+dataset_name: move_tool_c_to_utensil_b_1522
+dataset_uuid: 007679f9-4ecd-4b5d-a5ec-3b2b4a57f6d2
+task_descriptions:
+- move_the_tool_c_and_place_in_the_utensil_b
+scene_type:
+- home
+- office
+- cafe
+atomic_actions:
+- remove
+- rotate
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.7
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

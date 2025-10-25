@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_a_to_kitchenware_a_5132
+dataset_uuid: 27c59a4d-e791-4375-be6e-9fa562bf25bf
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_kitchenware_a
+scene_type:
+- hospital
+- restaurant
+- home
+atomic_actions:
+- place
+- pull
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_electronics_a_to_toy_b_8267
+dataset_uuid: b2a77d81-4b58-4bb1-a5ef-f5168aeb8a52
+task_descriptions:
+- move_the_electronics_a_and_place_in_the_toy_b
+scene_type:
+- warehouse
+- store
+- hospital
+atomic_actions:
+- slide
+- lift
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

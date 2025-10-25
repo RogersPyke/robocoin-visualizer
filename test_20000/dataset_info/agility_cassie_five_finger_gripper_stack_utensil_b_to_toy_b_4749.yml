@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_b_to_toy_b_4749
+dataset_uuid: b55ccfe7-b672-4f2c-9d20-64d7f9a3e389
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_toy_b
+scene_type:
+- store
+- kitchen
+atomic_actions:
+- push
+- place
+- slide
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_beverage_b_to_utensil_d_5153
+dataset_uuid: e3e112a4-4687-4316-aebe-5bdb2f3fd793
+task_descriptions:
+- pick_the_beverage_b_and_place_in_the_utensil_d
+scene_type:
+- home
+- office
+atomic_actions:
+- remove
+- lift
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.8
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

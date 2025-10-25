@@ -1,0 +1,27 @@
+dataset_name: pick_toy_a_to_kitchenware_b_2447
+dataset_uuid: 79bd83c8-1b11-4579-94ac-206400c06bf5
+task_descriptions:
+- pick_the_toy_a_and_place_in_the_kitchenware_b
+scene_type:
+- store
+- laboratory
+atomic_actions:
+- rotate
+- place
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

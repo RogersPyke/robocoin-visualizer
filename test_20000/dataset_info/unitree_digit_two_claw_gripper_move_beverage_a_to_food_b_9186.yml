@@ -1,0 +1,27 @@
+dataset_name: move_beverage_a_to_food_b_9186
+dataset_uuid: cb690094-ead3-47ea-be6d-15f020f4eee9
+task_descriptions:
+- move_the_beverage_a_and_place_in_the_food_b
+scene_type:
+- store
+atomic_actions:
+- flip
+- lower
+- pick
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- unitree_digit
+end_effector_type: two_claw_gripper

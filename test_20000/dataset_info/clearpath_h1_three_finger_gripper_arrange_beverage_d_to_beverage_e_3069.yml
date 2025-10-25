@@ -1,0 +1,26 @@
+dataset_name: arrange_beverage_d_to_beverage_e_3069
+dataset_uuid: 93fb6119-8568-40c7-b32f-ba0363f6994d
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_beverage_e
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- slide
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

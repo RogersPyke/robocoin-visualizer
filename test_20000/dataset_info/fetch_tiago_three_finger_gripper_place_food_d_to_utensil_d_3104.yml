@@ -1,0 +1,29 @@
+dataset_name: place_food_d_to_utensil_d_3104
+dataset_uuid: a9234434-989f-4e4f-8bc0-b5dc03ba34cb
+task_descriptions:
+- place_the_food_d_and_place_in_the_utensil_d
+scene_type:
+- cafe
+- warehouse
+- office
+atomic_actions:
+- pull
+- slide
+- place
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- fetch_tiago
+end_effector_type: three_finger_gripper

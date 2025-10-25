@@ -1,0 +1,27 @@
+dataset_name: pick_tool_a_to_utensil_b_3954
+dataset_uuid: 2f1d8e06-7969-4273-b1f6-84d2b3552742
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_utensil_b
+scene_type:
+- office
+- restaurant
+atomic_actions:
+- lift
+- pick
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- unitree_h1
+end_effector_type: five_claw_gripper

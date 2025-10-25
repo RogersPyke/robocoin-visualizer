@@ -1,0 +1,27 @@
+dataset_name: stack_toy_c_to_tool_b_4468
+dataset_uuid: 35832894-db3a-4267-b50d-5a3afc394125
+task_descriptions:
+- stack_the_toy_c_and_place_in_the_tool_b
+scene_type:
+- laboratory
+- warehouse
+atomic_actions:
+- flip
+- lift
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.4
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

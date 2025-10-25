@@ -1,0 +1,26 @@
+dataset_name: place_electronics_c_to_food_a_5812
+dataset_uuid: 2fcc70b4-9de3-45cf-be71-8e18337b7c1d
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_food_a
+scene_type:
+- home
+atomic_actions:
+- grasp
+- lift
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.0
+device_model:
+- unitree_h1
+end_effector_type: five_finger_gripper

@@ -1,0 +1,30 @@
+dataset_name: move_beverage_e_to_tool_a_7326
+dataset_uuid: eee9ad93-ab22-4597-b485-ab6f2c175445
+task_descriptions:
+- move_the_beverage_e_and_place_in_the_tool_a
+scene_type:
+- cafe
+- factory
+- restaurant
+atomic_actions:
+- flip
+- pick
+- lower
+- rotate
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.1
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

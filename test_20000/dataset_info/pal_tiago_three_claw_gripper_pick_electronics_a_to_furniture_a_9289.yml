@@ -1,0 +1,29 @@
+dataset_name: pick_electronics_a_to_furniture_a_9289
+dataset_uuid: fbab5616-9112-49fe-8945-9ea81dbbe3af
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_furniture_a
+scene_type:
+- kitchen
+- hospital
+- laboratory
+atomic_actions:
+- rotate
+- pick
+- push
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.0
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

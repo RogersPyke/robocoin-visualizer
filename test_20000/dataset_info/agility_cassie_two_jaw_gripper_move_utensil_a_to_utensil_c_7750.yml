@@ -1,0 +1,26 @@
+dataset_name: move_utensil_a_to_utensil_c_7750
+dataset_uuid: 82a5c2de-f2c5-431c-9f0b-3cb821922f98
+task_descriptions:
+- move_the_utensil_a_and_place_in_the_utensil_c
+scene_type:
+- office
+atomic_actions:
+- slide
+- remove
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.9
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

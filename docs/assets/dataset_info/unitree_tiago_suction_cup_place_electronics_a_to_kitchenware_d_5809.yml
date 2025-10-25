@@ -1,0 +1,27 @@
+dataset_name: place_electronics_a_to_kitchenware_d_5809
+dataset_uuid: 449cfc57-b936-4fbd-bf74-d2ec72e04dc9
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_kitchenware_d
+scene_type:
+- restaurant
+- office
+atomic_actions:
+- pick
+- lower
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: kitchenware_d
+  level1: kitchenware
+  level2: kitchenware_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- unitree_tiago
+end_effector_type: suction_cup

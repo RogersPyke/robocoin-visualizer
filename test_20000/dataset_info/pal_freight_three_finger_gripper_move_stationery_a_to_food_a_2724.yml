@@ -1,0 +1,29 @@
+dataset_name: move_stationery_a_to_food_a_2724
+dataset_uuid: 70b75d95-5413-4d80-b7c9-e8b99e01c2ff
+task_descriptions:
+- move_the_stationery_a_and_place_in_the_food_a
+scene_type:
+- factory
+- warehouse
+atomic_actions:
+- rotate
+- push
+- place
+- grasp
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.1
+device_model:
+- pal_freight
+end_effector_type: three_finger_gripper

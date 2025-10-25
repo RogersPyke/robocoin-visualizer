@@ -1,0 +1,28 @@
+dataset_name: stack_fruit_a_to_electronics_a_7084
+dataset_uuid: 8774ecf6-5cde-4edb-96fa-3addd8a872c7
+task_descriptions:
+- stack_the_fruit_a_and_place_in_the_electronics_a
+scene_type:
+- kitchen
+atomic_actions:
+- pull
+- grasp
+- lift
+- push
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.1
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

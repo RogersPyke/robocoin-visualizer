@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_c_to_utensil_d_9836
+dataset_uuid: 098c67bf-8fb0-44c6-b550-7e19b5066434
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_utensil_d
+scene_type:
+- factory
+- kitchen
+atomic_actions:
+- lift
+- insert
+- pick
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

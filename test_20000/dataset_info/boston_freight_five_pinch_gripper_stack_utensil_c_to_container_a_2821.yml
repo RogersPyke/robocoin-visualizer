@@ -1,0 +1,26 @@
+dataset_name: stack_utensil_c_to_container_a_2821
+dataset_uuid: f7b94286-2525-423d-ac5b-1f5e67a3cf9b
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_container_a
+scene_type:
+- cafe
+atomic_actions:
+- grasp
+- remove
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: pick_utensil_b_to_container_a_5200
+dataset_uuid: 554bd467-a65f-4530-a643-6aa68cc92a9b
+task_descriptions:
+- pick_the_utensil_b_and_place_in_the_container_a
+scene_type:
+- cafe
+- warehouse
+atomic_actions:
+- lift
+- place
+- rotate
+- pull
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.3
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

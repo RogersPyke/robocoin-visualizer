@@ -1,0 +1,27 @@
+dataset_name: pick_toy_d_to_beverage_a_9160
+dataset_uuid: e1838a9e-3d6b-4284-8a97-b9908c16255a
+task_descriptions:
+- pick_the_toy_d_and_place_in_the_beverage_a
+scene_type:
+- cafe
+atomic_actions:
+- pick
+- insert
+- rotate
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- pal_tiago
+end_effector_type: five_finger_gripper

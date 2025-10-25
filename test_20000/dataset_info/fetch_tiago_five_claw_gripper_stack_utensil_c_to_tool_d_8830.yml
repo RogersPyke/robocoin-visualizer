@@ -1,0 +1,30 @@
+dataset_name: stack_utensil_c_to_tool_d_8830
+dataset_uuid: 6947c378-9e15-4d14-94ce-3c7006edc50a
+task_descriptions:
+- stack_the_utensil_c_and_place_in_the_tool_d
+scene_type:
+- hospital
+- laboratory
+- home
+atomic_actions:
+- flip
+- lift
+- lower
+- place
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- fetch_tiago
+end_effector_type: five_claw_gripper

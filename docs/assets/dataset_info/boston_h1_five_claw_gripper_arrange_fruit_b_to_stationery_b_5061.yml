@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_b_to_stationery_b_5061
+dataset_uuid: c5a266aa-91e0-45f2-8882-4841c4f59604
+task_descriptions:
+- arrange_the_fruit_b_and_place_in_the_stationery_b
+scene_type:
+- office
+- store
+- restaurant
+atomic_actions:
+- rotate
+- flip
+objects:
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 84.7
+device_model:
+- boston_h1
+end_effector_type: five_claw_gripper

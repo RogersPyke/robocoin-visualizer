@@ -1,0 +1,27 @@
+dataset_name: move_textile_a_to_fruit_b_3816
+dataset_uuid: f914d6a3-8ed4-4a23-a6e4-14d50ae2e56c
+task_descriptions:
+- move_the_textile_a_and_place_in_the_fruit_b
+scene_type:
+- hospital
+- home
+atomic_actions:
+- grasp
+- lower
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

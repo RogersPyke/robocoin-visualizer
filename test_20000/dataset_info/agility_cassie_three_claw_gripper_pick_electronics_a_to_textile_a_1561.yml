@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_a_to_textile_a_1561
+dataset_uuid: e7be1b8f-4850-4b36-ae5d-18efbd6e132a
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_textile_a
+scene_type:
+- office
+atomic_actions:
+- remove
+- insert
+- pull
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

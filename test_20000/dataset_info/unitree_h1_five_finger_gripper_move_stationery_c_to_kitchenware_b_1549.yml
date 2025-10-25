@@ -1,0 +1,29 @@
+dataset_name: move_stationery_c_to_kitchenware_b_1549
+dataset_uuid: 4dd0c2f3-dd38-446b-aa3f-ff51956dffa0
+task_descriptions:
+- move_the_stationery_c_and_place_in_the_kitchenware_b
+scene_type:
+- factory
+- home
+- office
+atomic_actions:
+- pull
+- push
+- pick
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 77.1
+device_model:
+- unitree_h1
+end_effector_type: five_finger_gripper

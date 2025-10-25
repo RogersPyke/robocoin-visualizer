@@ -1,0 +1,28 @@
+dataset_name: pick_textile_e_to_utensil_d_1397
+dataset_uuid: c1be6954-2793-4ac2-ab69-ab3b0ff27da0
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_utensil_d
+scene_type:
+- warehouse
+- office
+- laboratory
+atomic_actions:
+- slide
+- lower
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.8
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

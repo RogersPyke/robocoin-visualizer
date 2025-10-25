@@ -1,0 +1,28 @@
+dataset_name: place_electronics_a_to_textile_d_2347
+dataset_uuid: c90bdf80-9b22-451e-ae70-73860e7211d2
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_textile_d
+scene_type:
+- office
+atomic_actions:
+- rotate
+- pull
+- grasp
+- pick
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.4
+device_model:
+- unitree_h1
+end_effector_type: two_finger_gripper

@@ -1,0 +1,30 @@
+dataset_name: pick_furniture_c_to_fruit_b_9503
+dataset_uuid: 85e4d12d-61b4-492d-ad2c-4ae36e0504f2
+task_descriptions:
+- pick_the_furniture_c_and_place_in_the_fruit_b
+scene_type:
+- warehouse
+- home
+- factory
+atomic_actions:
+- remove
+- rotate
+- insert
+- place
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- fetch_spot
+end_effector_type: five_pinch_gripper

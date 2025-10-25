@@ -1,0 +1,28 @@
+dataset_name: arrange_container_a_to_toy_a_4885
+dataset_uuid: 1bd4d1ba-4160-4220-9c1d-e5c1beee719e
+task_descriptions:
+- arrange_the_container_a_and_place_in_the_toy_a
+scene_type:
+- factory
+atomic_actions:
+- insert
+- remove
+- slide
+- pull
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 76.8
+device_model:
+- clearpath_spot
+end_effector_type: two_claw_gripper

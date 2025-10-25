@@ -1,0 +1,27 @@
+dataset_name: pick_utensil_c_to_electronics_c_6531
+dataset_uuid: 8d3068c5-78d0-4fee-82b2-cc54846bc16c
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_electronics_c
+scene_type:
+- kitchen
+atomic_actions:
+- pick
+- place
+- push
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

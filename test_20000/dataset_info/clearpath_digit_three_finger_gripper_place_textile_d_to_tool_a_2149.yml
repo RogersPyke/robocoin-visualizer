@@ -1,0 +1,27 @@
+dataset_name: place_textile_d_to_tool_a_2149
+dataset_uuid: 697c56a5-73b3-488e-b0dc-79d0e485aaba
+task_descriptions:
+- place_the_textile_d_and_place_in_the_tool_a
+scene_type:
+- hospital
+atomic_actions:
+- rotate
+- remove
+- place
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.4
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_beverage_e_to_furniture_e_3194
+dataset_uuid: be857620-998e-4b6c-8b54-0014bc24d99f
+task_descriptions:
+- arrange_the_beverage_e_and_place_in_the_furniture_e
+scene_type:
+- kitchen
+- laboratory
+atomic_actions:
+- rotate
+- lower
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.2
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

@@ -1,0 +1,30 @@
+dataset_name: place_kitchenware_b_to_tool_b_6521
+dataset_uuid: ac4b42ea-ba17-4b2f-aea7-fc26a6b0e847
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_tool_b
+scene_type:
+- restaurant
+- office
+- warehouse
+atomic_actions:
+- pick
+- insert
+- rotate
+- grasp
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- boston_atlas
+end_effector_type: two_pinch_gripper

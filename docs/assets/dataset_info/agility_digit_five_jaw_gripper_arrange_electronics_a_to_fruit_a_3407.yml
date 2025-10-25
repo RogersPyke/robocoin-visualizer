@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_a_to_fruit_a_3407
+dataset_uuid: eaaca510-b12f-45fc-ab9d-129d261e7b61
+task_descriptions:
+- arrange_the_electronics_a_and_place_in_the_fruit_a
+scene_type:
+- laboratory
+- factory
+- office
+atomic_actions:
+- rotate
+- remove
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- agility_digit
+end_effector_type: five_jaw_gripper

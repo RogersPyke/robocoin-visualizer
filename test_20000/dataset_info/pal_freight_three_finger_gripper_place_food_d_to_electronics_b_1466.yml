@@ -1,0 +1,30 @@
+dataset_name: place_food_d_to_electronics_b_1466
+dataset_uuid: b22d300a-f247-4d47-88cc-cfbe53e2067a
+task_descriptions:
+- place_the_food_d_and_place_in_the_electronics_b
+scene_type:
+- store
+- laboratory
+- home
+atomic_actions:
+- pull
+- place
+- flip
+- rotate
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.1
+device_model:
+- pal_freight
+end_effector_type: three_finger_gripper

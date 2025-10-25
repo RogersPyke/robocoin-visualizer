@@ -1,0 +1,29 @@
+dataset_name: stack_tool_d_to_stationery_c_1831
+dataset_uuid: 3f0c8743-b4ff-427f-8b90-d21a7a1fa934
+task_descriptions:
+- stack_the_tool_d_and_place_in_the_stationery_c
+scene_type:
+- factory
+- store
+- office
+atomic_actions:
+- push
+- insert
+- rotate
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

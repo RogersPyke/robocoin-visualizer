@@ -1,0 +1,28 @@
+dataset_name: stack_toy_a_to_toy_c_3832
+dataset_uuid: a93ece6d-690b-4606-9a00-43435a2a9d34
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_toy_c
+scene_type:
+- home
+- cafe
+- laboratory
+atomic_actions:
+- grasp
+- lift
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.5
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

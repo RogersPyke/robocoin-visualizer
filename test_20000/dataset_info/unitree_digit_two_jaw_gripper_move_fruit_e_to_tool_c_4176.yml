@@ -1,0 +1,26 @@
+dataset_name: move_fruit_e_to_tool_c_4176
+dataset_uuid: 9bd0391b-27c2-4dd3-8359-2b86b4881568
+task_descriptions:
+- move_the_fruit_e_and_place_in_the_tool_c
+scene_type:
+- kitchen
+atomic_actions:
+- lift
+- pick
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

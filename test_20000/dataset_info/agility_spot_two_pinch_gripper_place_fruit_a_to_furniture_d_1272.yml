@@ -1,0 +1,28 @@
+dataset_name: place_fruit_a_to_furniture_d_1272
+dataset_uuid: a79f0c28-1778-4703-ae54-ea21ee2b5d45
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_furniture_d
+scene_type:
+- office
+- laboratory
+- store
+atomic_actions:
+- lift
+- insert
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.5
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_toy_d_to_textile_a_6137
+dataset_uuid: 14ade310-d324-4a0e-b410-07ee2b1b59ad
+task_descriptions:
+- place_the_toy_d_and_place_in_the_textile_a
+scene_type:
+- laboratory
+atomic_actions:
+- remove
+- grasp
+- pick
+- flip
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: toy_d_sub1
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 70.5
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

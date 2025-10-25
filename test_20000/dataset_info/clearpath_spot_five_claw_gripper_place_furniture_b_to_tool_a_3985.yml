@@ -1,0 +1,29 @@
+dataset_name: place_furniture_b_to_tool_a_3985
+dataset_uuid: aa69530c-4e28-464e-bc82-b22d671dac6b
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_tool_a
+scene_type:
+- store
+- laboratory
+- kitchen
+atomic_actions:
+- grasp
+- pick
+- pull
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+operation_platform_height: 84.7
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

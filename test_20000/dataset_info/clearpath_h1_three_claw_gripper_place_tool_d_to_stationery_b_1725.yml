@@ -1,0 +1,27 @@
+dataset_name: place_tool_d_to_stationery_b_1725
+dataset_uuid: b38c0e8c-bb1b-4043-93f9-8ed3abbaaf8d
+task_descriptions:
+- place_the_tool_d_and_place_in_the_stationery_b
+scene_type:
+- hospital
+atomic_actions:
+- insert
+- lower
+- pick
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

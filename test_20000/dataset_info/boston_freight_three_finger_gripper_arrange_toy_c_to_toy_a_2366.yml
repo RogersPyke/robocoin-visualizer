@@ -1,0 +1,26 @@
+dataset_name: arrange_toy_c_to_toy_a_2366
+dataset_uuid: 31b7e2b0-76e1-4d7c-967e-39f7094f916e
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_toy_a
+scene_type:
+- home
+atomic_actions:
+- pick
+- pull
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

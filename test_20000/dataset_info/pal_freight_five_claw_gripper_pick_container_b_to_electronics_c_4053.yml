@@ -1,0 +1,29 @@
+dataset_name: pick_container_b_to_electronics_c_4053
+dataset_uuid: a3644392-bcf4-4af4-bf4a-36f802edf74b
+task_descriptions:
+- pick_the_container_b_and_place_in_the_electronics_c
+scene_type:
+- restaurant
+- hospital
+atomic_actions:
+- pull
+- lower
+- pick
+- rotate
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- pal_freight
+end_effector_type: five_claw_gripper

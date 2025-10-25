@@ -1,0 +1,27 @@
+dataset_name: place_beverage_a_to_tool_b_8203
+dataset_uuid: 9d731313-c90a-46ce-9ed9-de8bfa955eda
+task_descriptions:
+- place_the_beverage_a_and_place_in_the_tool_b
+scene_type:
+- factory
+atomic_actions:
+- insert
+- flip
+- push
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_e_to_utensil_b_2224
+dataset_uuid: 9bced66e-f712-4911-aea0-95512a0d4d02
+task_descriptions:
+- arrange_the_textile_e_and_place_in_the_utensil_b
+scene_type:
+- restaurant
+atomic_actions:
+- lower
+- push
+- pick
+- remove
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 80.5
+device_model:
+- agility_digit
+end_effector_type: two_claw_gripper

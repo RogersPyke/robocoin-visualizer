@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_a_to_toy_d_3478
+dataset_uuid: 73000423-f6af-4fad-84ac-d4ae90898097
+task_descriptions:
+- pick_the_furniture_a_and_place_in_the_toy_d
+scene_type:
+- home
+atomic_actions:
+- push
+- lower
+- slide
+- flip
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

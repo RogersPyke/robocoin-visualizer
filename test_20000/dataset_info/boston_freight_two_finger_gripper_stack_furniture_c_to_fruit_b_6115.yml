@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_c_to_fruit_b_6115
+dataset_uuid: fd716e1e-2581-49d2-bfc7-5767113f4f83
+task_descriptions:
+- stack_the_furniture_c_and_place_in_the_fruit_b
+scene_type:
+- home
+atomic_actions:
+- remove
+- insert
+- flip
+- rotate
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.3
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

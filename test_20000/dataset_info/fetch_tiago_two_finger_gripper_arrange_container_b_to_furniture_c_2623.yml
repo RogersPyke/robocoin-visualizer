@@ -1,0 +1,27 @@
+dataset_name: arrange_container_b_to_furniture_c_2623
+dataset_uuid: e2e626a9-1aa8-45d0-8adf-130a67a982c7
+task_descriptions:
+- arrange_the_container_b_and_place_in_the_furniture_c
+scene_type:
+- restaurant
+- home
+atomic_actions:
+- push
+- flip
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- fetch_tiago
+end_effector_type: two_finger_gripper

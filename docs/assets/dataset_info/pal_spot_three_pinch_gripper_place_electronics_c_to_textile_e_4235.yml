@@ -1,0 +1,26 @@
+dataset_name: place_electronics_c_to_textile_e_4235
+dataset_uuid: 7d007adc-92d3-4121-a8b6-9f78e49e5b72
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_textile_e
+scene_type:
+- factory
+atomic_actions:
+- grasp
+- pick
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.8
+device_model:
+- pal_spot
+end_effector_type: three_pinch_gripper

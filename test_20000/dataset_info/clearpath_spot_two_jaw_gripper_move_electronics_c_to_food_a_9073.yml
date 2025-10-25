@@ -1,0 +1,28 @@
+dataset_name: move_electronics_c_to_food_a_9073
+dataset_uuid: ca9f13ef-677c-469d-b7ea-edd282f74103
+task_descriptions:
+- move_the_electronics_c_and_place_in_the_food_a
+scene_type:
+- home
+- hospital
+- restaurant
+atomic_actions:
+- lower
+- lift
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

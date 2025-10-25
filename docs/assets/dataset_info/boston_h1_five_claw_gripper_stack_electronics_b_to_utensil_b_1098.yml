@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_b_to_utensil_b_1098
+dataset_uuid: 205940b5-4e48-43aa-8709-a3729b48a596
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_utensil_b
+scene_type:
+- cafe
+- restaurant
+atomic_actions:
+- push
+- grasp
+- slide
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- boston_h1
+end_effector_type: five_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_a_to_toy_c_5171
+dataset_uuid: 6f922b12-3fe2-472f-a609-7fc70c37b415
+task_descriptions:
+- stack_the_utensil_a_and_place_in_the_toy_c
+scene_type:
+- warehouse
+- factory
+atomic_actions:
+- place
+- slide
+- pull
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.7
+device_model:
+- agility_cassie
+end_effector_type: five_claw_gripper

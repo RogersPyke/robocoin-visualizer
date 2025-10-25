@@ -1,0 +1,29 @@
+dataset_name: arrange_stationery_b_to_kitchenware_b_8923
+dataset_uuid: e44b6262-dded-4e9b-88df-b88fd6c2229b
+task_descriptions:
+- arrange_the_stationery_b_and_place_in_the_kitchenware_b
+scene_type:
+- office
+- restaurant
+- warehouse
+atomic_actions:
+- flip
+- insert
+- pull
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 74.7
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

@@ -1,0 +1,30 @@
+dataset_name: place_textile_e_to_tool_a_3084
+dataset_uuid: d491032c-0935-4388-b6cc-4011b3a88ffe
+task_descriptions:
+- place_the_textile_e_and_place_in_the_tool_a
+scene_type:
+- laboratory
+- home
+- factory
+atomic_actions:
+- push
+- rotate
+- slide
+- lift
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- unitree_digit
+end_effector_type: two_claw_gripper

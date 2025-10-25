@@ -1,0 +1,27 @@
+dataset_name: move_electronics_b_to_container_c_5648
+dataset_uuid: fe7c95e1-4acf-4d26-8361-922cfdbc7bb8
+task_descriptions:
+- move_the_electronics_b_and_place_in_the_container_c
+scene_type:
+- kitchen
+atomic_actions:
+- pick
+- pull
+- slide
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+operation_platform_height: 87.7
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_utensil_b_to_tool_d_8452
+dataset_uuid: fb41246c-4c8b-4132-b013-f6eda8a89931
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_tool_d
+scene_type:
+- store
+- restaurant
+- kitchen
+atomic_actions:
+- insert
+- lower
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- pal_tiago
+end_effector_type: five_finger_gripper

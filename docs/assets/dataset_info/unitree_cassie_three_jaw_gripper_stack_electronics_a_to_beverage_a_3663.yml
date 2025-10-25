@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_a_to_beverage_a_3663
+dataset_uuid: a6f128a0-9609-4a6c-a47b-4b50c6406620
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_beverage_a
+scene_type:
+- kitchen
+- office
+atomic_actions:
+- slide
+- lower
+- rotate
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- unitree_cassie
+end_effector_type: three_jaw_gripper

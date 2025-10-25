@@ -1,0 +1,28 @@
+dataset_name: place_toy_c_to_fruit_c_4247
+dataset_uuid: 3b3ad0b5-fd4f-4cab-81ec-3d933414ece8
+task_descriptions:
+- place_the_toy_c_and_place_in_the_fruit_c
+scene_type:
+- hospital
+- office
+atomic_actions:
+- lower
+- remove
+- pick
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

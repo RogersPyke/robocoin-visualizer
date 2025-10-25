@@ -1,0 +1,29 @@
+dataset_name: arrange_textile_d_to_utensil_a_8302
+dataset_uuid: 7ebe71af-1b38-4a46-a912-9e470a362373
+task_descriptions:
+- arrange_the_textile_d_and_place_in_the_utensil_a
+scene_type:
+- home
+- restaurant
+- kitchen
+atomic_actions:
+- rotate
+- remove
+- place
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.3
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

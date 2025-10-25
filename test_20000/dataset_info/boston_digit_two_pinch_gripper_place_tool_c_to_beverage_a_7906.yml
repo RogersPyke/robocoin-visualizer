@@ -1,0 +1,27 @@
+dataset_name: place_tool_c_to_beverage_a_7906
+dataset_uuid: eeeea99e-98a6-437c-866b-44b99854615c
+task_descriptions:
+- place_the_tool_c_and_place_in_the_beverage_a
+scene_type:
+- laboratory
+atomic_actions:
+- grasp
+- insert
+- remove
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

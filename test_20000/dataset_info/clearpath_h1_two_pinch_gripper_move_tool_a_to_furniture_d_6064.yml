@@ -1,0 +1,28 @@
+dataset_name: move_tool_a_to_furniture_d_6064
+dataset_uuid: 07529f7b-f4ed-4d2e-b0aa-8af1d5dd749a
+task_descriptions:
+- move_the_tool_a_and_place_in_the_furniture_d
+scene_type:
+- store
+- factory
+- restaurant
+atomic_actions:
+- flip
+- lift
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 81.4
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

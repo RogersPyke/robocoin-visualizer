@@ -1,0 +1,30 @@
+dataset_name: arrange_tool_b_to_toy_a_7819
+dataset_uuid: 880d762b-0e9b-4023-b2ec-52dd4a03d0f6
+task_descriptions:
+- arrange_the_tool_b_and_place_in_the_toy_a
+scene_type:
+- factory
+- laboratory
+- warehouse
+atomic_actions:
+- insert
+- flip
+- slide
+- pull
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- boston_pepper
+end_effector_type: five_pinch_gripper

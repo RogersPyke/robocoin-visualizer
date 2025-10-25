@@ -1,0 +1,28 @@
+dataset_name: arrange_stationery_c_to_food_d_7811
+dataset_uuid: a4d475b7-41dd-4b5c-b970-04eeac11b5b8
+task_descriptions:
+- arrange_the_stationery_c_and_place_in_the_food_d
+scene_type:
+- home
+- kitchen
+atomic_actions:
+- flip
+- lower
+- pull
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.5
+device_model:
+- boston_digit
+end_effector_type: five_claw_gripper

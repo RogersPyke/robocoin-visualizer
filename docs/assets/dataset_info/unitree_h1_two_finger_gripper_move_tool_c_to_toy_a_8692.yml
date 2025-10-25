@@ -1,0 +1,29 @@
+dataset_name: move_tool_c_to_toy_a_8692
+dataset_uuid: a114c7d1-c614-45dc-b399-81e348f39951
+task_descriptions:
+- move_the_tool_c_and_place_in_the_toy_a
+scene_type:
+- warehouse
+- home
+atomic_actions:
+- remove
+- grasp
+- rotate
+- flip
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- unitree_h1
+end_effector_type: two_finger_gripper

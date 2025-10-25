@@ -1,0 +1,28 @@
+dataset_name: move_furniture_c_to_utensil_d_1608
+dataset_uuid: d5f7faba-ff2b-48b0-ac38-272ac9b71892
+task_descriptions:
+- move_the_furniture_c_and_place_in_the_utensil_d
+scene_type:
+- restaurant
+- kitchen
+- factory
+atomic_actions:
+- rotate
+- grasp
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.1
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

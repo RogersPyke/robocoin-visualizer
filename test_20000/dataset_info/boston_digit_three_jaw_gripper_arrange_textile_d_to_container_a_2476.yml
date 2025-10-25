@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_d_to_container_a_2476
+dataset_uuid: 60962075-9729-4766-ba0c-e79d4d7b465f
+task_descriptions:
+- arrange_the_textile_d_and_place_in_the_container_a
+scene_type:
+- cafe
+atomic_actions:
+- rotate
+- flip
+- place
+- pull
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.9
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

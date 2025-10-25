@@ -1,0 +1,29 @@
+dataset_name: stack_kitchenware_c_to_kitchenware_a_7049
+dataset_uuid: 8ad11681-d77e-4842-ac88-b9cc393d3be7
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_kitchenware_a
+scene_type:
+- hospital
+- warehouse
+- home
+atomic_actions:
+- rotate
+- insert
+- remove
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.3
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

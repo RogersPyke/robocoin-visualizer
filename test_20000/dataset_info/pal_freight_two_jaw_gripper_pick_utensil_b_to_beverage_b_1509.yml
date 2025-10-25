@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_b_to_beverage_b_1509
+dataset_uuid: fb5d552e-c085-4bd7-b214-dbe3c895127d
+task_descriptions:
+- pick_the_utensil_b_and_place_in_the_beverage_b
+scene_type:
+- hospital
+atomic_actions:
+- pull
+- pick
+- rotate
+- insert
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

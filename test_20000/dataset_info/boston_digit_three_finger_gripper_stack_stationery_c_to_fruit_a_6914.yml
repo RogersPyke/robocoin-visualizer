@@ -1,0 +1,28 @@
+dataset_name: stack_stationery_c_to_fruit_a_6914
+dataset_uuid: 3e5b9f33-7507-4ddf-9ead-ca2b387a31b3
+task_descriptions:
+- stack_the_stationery_c_and_place_in_the_fruit_a
+scene_type:
+- kitchen
+- hospital
+atomic_actions:
+- pull
+- remove
+- pick
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.6
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

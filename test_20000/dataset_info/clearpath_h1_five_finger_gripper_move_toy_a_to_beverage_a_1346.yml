@@ -1,0 +1,28 @@
+dataset_name: move_toy_a_to_beverage_a_1346
+dataset_uuid: 3193b1c3-5573-4b47-833e-f9a7c27b1e24
+task_descriptions:
+- move_the_toy_a_and_place_in_the_beverage_a
+scene_type:
+- office
+- home
+atomic_actions:
+- pick
+- lower
+- grasp
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- clearpath_h1
+end_effector_type: five_finger_gripper

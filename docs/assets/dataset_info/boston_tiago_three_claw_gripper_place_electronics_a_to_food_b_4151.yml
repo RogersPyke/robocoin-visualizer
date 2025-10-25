@@ -1,0 +1,28 @@
+dataset_name: place_electronics_a_to_food_b_4151
+dataset_uuid: 14606847-5158-4f0e-ba2c-f4d3486621da
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_food_b
+scene_type:
+- hospital
+- kitchen
+- warehouse
+atomic_actions:
+- grasp
+- insert
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.8
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

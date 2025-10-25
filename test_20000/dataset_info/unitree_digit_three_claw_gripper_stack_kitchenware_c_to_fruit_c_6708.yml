@@ -1,0 +1,30 @@
+dataset_name: stack_kitchenware_c_to_fruit_c_6708
+dataset_uuid: 5c6932f9-5faf-4456-80e7-e19a33814e92
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_fruit_c
+scene_type:
+- restaurant
+- home
+- hospital
+atomic_actions:
+- pull
+- push
+- rotate
+- place
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

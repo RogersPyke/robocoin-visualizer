@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_b_to_textile_e_5615
+dataset_uuid: 8642e2ca-1e0f-44dc-a9ac-f73eea4ce279
+task_descriptions:
+- stack_the_kitchenware_b_and_place_in_the_textile_e
+scene_type:
+- kitchen
+- cafe
+atomic_actions:
+- lift
+- pick
+- grasp
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

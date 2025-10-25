@@ -1,0 +1,28 @@
+dataset_name: stack_beverage_a_to_toy_b_1652
+dataset_uuid: 87d438f9-0b39-4a60-a4b0-61ce72d1f877
+task_descriptions:
+- stack_the_beverage_a_and_place_in_the_toy_b
+scene_type:
+- laboratory
+- factory
+- warehouse
+atomic_actions:
+- place
+- push
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.6
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

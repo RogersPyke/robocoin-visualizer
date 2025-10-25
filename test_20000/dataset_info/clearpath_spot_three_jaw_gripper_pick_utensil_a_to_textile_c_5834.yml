@@ -1,0 +1,30 @@
+dataset_name: pick_utensil_a_to_textile_c_5834
+dataset_uuid: 43e5f689-727d-49c9-a3d4-e8b61f155701
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_textile_c
+scene_type:
+- kitchen
+- office
+- restaurant
+atomic_actions:
+- lift
+- lower
+- push
+- insert
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

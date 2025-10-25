@@ -1,0 +1,27 @@
+dataset_name: pick_food_d_to_furniture_e_9238
+dataset_uuid: af3d114e-7e7d-4828-b192-aa72acc759bf
+task_descriptions:
+- pick_the_food_d_and_place_in_the_furniture_e
+scene_type:
+- laboratory
+atomic_actions:
+- pick
+- grasp
+- push
+objects:
+- object_name: food_d
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

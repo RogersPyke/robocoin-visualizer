@@ -1,0 +1,30 @@
+dataset_name: move_container_c_to_fruit_d_1391
+dataset_uuid: a0b42db9-ed35-4b7e-a8e4-61a319481bb4
+task_descriptions:
+- move_the_container_c_and_place_in_the_fruit_d
+scene_type:
+- factory
+- warehouse
+- store
+atomic_actions:
+- slide
+- lift
+- lower
+- push
+objects:
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+operation_platform_height: 89.0
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

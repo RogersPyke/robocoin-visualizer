@@ -1,0 +1,30 @@
+dataset_name: pick_toy_a_to_beverage_b_7830
+dataset_uuid: 09f18bf4-903b-4753-8741-ddc86daaba8c
+task_descriptions:
+- pick_the_toy_a_and_place_in_the_beverage_b
+scene_type:
+- kitchen
+- home
+- cafe
+atomic_actions:
+- place
+- flip
+- lower
+- push
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

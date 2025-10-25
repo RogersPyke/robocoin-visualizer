@@ -1,0 +1,28 @@
+dataset_name: move_beverage_c_to_kitchenware_b_1159
+dataset_uuid: fd0efb0a-449d-467a-9e48-0aabf4ae706f
+task_descriptions:
+- move_the_beverage_c_and_place_in_the_kitchenware_b
+scene_type:
+- factory
+atomic_actions:
+- push
+- lift
+- lower
+- pull
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: beverage_c_sub2
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.5
+device_model:
+- fetch_tiago
+end_effector_type: three_claw_gripper

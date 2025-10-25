@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_c_to_furniture_d_8931
+dataset_uuid: 5b46025d-3e4e-4416-af5f-126aa12c9d29
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_furniture_d
+scene_type:
+- cafe
+- factory
+atomic_actions:
+- insert
+- pull
+- grasp
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 72.0
+device_model:
+- pal_tiago
+end_effector_type: three_finger_gripper

@@ -1,0 +1,26 @@
+dataset_name: arrange_stationery_a_to_utensil_b_1530
+dataset_uuid: 8680902b-f7cd-413e-a01a-477060094520
+task_descriptions:
+- arrange_the_stationery_a_and_place_in_the_utensil_b
+scene_type:
+- laboratory
+atomic_actions:
+- slide
+- pull
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.2
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

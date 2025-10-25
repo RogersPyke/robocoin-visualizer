@@ -1,0 +1,27 @@
+dataset_name: pick_textile_d_to_utensil_d_1587
+dataset_uuid: d2fd50ea-03a3-47ae-ae95-1b836a783f14
+task_descriptions:
+- pick_the_textile_d_and_place_in_the_utensil_d
+scene_type:
+- restaurant
+atomic_actions:
+- lift
+- rotate
+- pull
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 90.0
+device_model:
+- unitree_h1
+end_effector_type: two_jaw_gripper

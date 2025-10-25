@@ -1,0 +1,29 @@
+dataset_name: place_utensil_b_to_kitchenware_c_9084
+dataset_uuid: 7aeeab76-6b5f-4e63-bb55-917bcc2cdcb7
+task_descriptions:
+- place_the_utensil_b_and_place_in_the_kitchenware_c
+scene_type:
+- kitchen
+- laboratory
+atomic_actions:
+- rotate
+- grasp
+- pull
+- pick
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.8
+device_model:
+- unitree_h1
+end_effector_type: five_claw_gripper

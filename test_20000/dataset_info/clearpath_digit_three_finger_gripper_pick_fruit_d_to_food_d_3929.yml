@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_d_to_food_d_3929
+dataset_uuid: ce115f19-1a69-4f01-85e7-d763cf0b6c6f
+task_descriptions:
+- pick_the_fruit_d_and_place_in_the_food_d
+scene_type:
+- cafe
+atomic_actions:
+- grasp
+- rotate
+- pick
+- push
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

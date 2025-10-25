@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_c_to_tool_b_7513
+dataset_uuid: 2e897e49-29cc-4f89-b05b-6817a186b1f9
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_tool_b
+scene_type:
+- cafe
+- home
+- laboratory
+atomic_actions:
+- lift
+- remove
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- unitree_tiago
+end_effector_type: five_pinch_gripper

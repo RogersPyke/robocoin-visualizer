@@ -1,0 +1,29 @@
+dataset_name: place_furniture_a_to_utensil_a_7343
+dataset_uuid: 7738fca2-5ab6-4f84-b311-99f1d8ee65bc
+task_descriptions:
+- place_the_furniture_a_and_place_in_the_utensil_a
+scene_type:
+- home
+- restaurant
+- cafe
+atomic_actions:
+- lower
+- rotate
+- pick
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.7
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

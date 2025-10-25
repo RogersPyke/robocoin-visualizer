@@ -1,0 +1,30 @@
+dataset_name: arrange_beverage_a_to_fruit_a_7111
+dataset_uuid: c90e7f8c-c40b-44de-b7a4-e0f709fa440c
+task_descriptions:
+- arrange_the_beverage_a_and_place_in_the_fruit_a
+scene_type:
+- factory
+- restaurant
+- cafe
+atomic_actions:
+- pick
+- place
+- lower
+- flip
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.0
+device_model:
+- pal_tiago
+end_effector_type: two_jaw_gripper

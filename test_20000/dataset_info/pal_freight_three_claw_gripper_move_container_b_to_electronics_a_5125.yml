@@ -1,0 +1,29 @@
+dataset_name: move_container_b_to_electronics_a_5125
+dataset_uuid: 55e5e00d-5100-4cbd-91e9-d1c4e9907435
+task_descriptions:
+- move_the_container_b_and_place_in_the_electronics_a
+scene_type:
+- kitchen
+- cafe
+atomic_actions:
+- insert
+- lift
+- slide
+- remove
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

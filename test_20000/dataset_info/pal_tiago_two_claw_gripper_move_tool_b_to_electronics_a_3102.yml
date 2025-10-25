@@ -1,0 +1,28 @@
+dataset_name: move_tool_b_to_electronics_a_3102
+dataset_uuid: 59123751-8786-42dc-b03a-162724ef1210
+task_descriptions:
+- move_the_tool_b_and_place_in_the_electronics_a
+scene_type:
+- restaurant
+- laboratory
+- home
+atomic_actions:
+- remove
+- push
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 82.9
+device_model:
+- pal_tiago
+end_effector_type: two_claw_gripper

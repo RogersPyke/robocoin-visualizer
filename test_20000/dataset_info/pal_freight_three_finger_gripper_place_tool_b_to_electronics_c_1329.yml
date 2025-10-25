@@ -1,0 +1,29 @@
+dataset_name: place_tool_b_to_electronics_c_1329
+dataset_uuid: 01c4ec9a-b367-4939-b639-eef1e79cc940
+task_descriptions:
+- place_the_tool_b_and_place_in_the_electronics_c
+scene_type:
+- cafe
+- hospital
+atomic_actions:
+- rotate
+- push
+- place
+- insert
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 78.6
+device_model:
+- pal_freight
+end_effector_type: three_finger_gripper

@@ -1,0 +1,30 @@
+dataset_name: move_electronics_a_to_textile_e_7642
+dataset_uuid: 6f219548-f7c4-4735-9193-74fb567ede37
+task_descriptions:
+- move_the_electronics_a_and_place_in_the_textile_e
+scene_type:
+- restaurant
+- cafe
+- warehouse
+atomic_actions:
+- grasp
+- remove
+- insert
+- push
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.0
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

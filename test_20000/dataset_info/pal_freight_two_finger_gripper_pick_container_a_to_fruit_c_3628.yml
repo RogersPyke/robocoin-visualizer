@@ -1,0 +1,27 @@
+dataset_name: pick_container_a_to_fruit_c_3628
+dataset_uuid: 53b7915d-6174-4a96-a4a7-df9debcb45c0
+task_descriptions:
+- pick_the_container_a_and_place_in_the_fruit_c
+scene_type:
+- restaurant
+- warehouse
+atomic_actions:
+- lower
+- pick
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- pal_freight
+end_effector_type: two_finger_gripper

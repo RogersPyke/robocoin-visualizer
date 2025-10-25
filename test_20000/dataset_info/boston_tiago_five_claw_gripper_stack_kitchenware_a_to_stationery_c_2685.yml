@@ -1,0 +1,30 @@
+dataset_name: stack_kitchenware_a_to_stationery_c_2685
+dataset_uuid: b930f386-3bbc-4955-b69e-544fac96928e
+task_descriptions:
+- stack_the_kitchenware_a_and_place_in_the_stationery_c
+scene_type:
+- hospital
+- factory
+- office
+atomic_actions:
+- grasp
+- push
+- flip
+- lower
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

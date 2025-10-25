@@ -1,0 +1,27 @@
+dataset_name: arrange_stationery_a_to_fruit_b_4327
+dataset_uuid: 65cbaca4-305c-4949-a069-5e102000d4d7
+task_descriptions:
+- arrange_the_stationery_a_and_place_in_the_fruit_b
+scene_type:
+- factory
+atomic_actions:
+- remove
+- flip
+- slide
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.0
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

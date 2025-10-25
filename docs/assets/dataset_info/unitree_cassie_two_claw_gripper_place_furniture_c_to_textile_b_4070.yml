@@ -1,0 +1,28 @@
+dataset_name: place_furniture_c_to_textile_b_4070
+dataset_uuid: 2df65781-a3bb-4512-998d-a50d2fe2742e
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_textile_b
+scene_type:
+- cafe
+- laboratory
+atomic_actions:
+- flip
+- lift
+- lower
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- unitree_cassie
+end_effector_type: two_claw_gripper

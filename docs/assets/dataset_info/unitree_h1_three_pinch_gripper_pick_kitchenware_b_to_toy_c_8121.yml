@@ -1,0 +1,27 @@
+dataset_name: pick_kitchenware_b_to_toy_c_8121
+dataset_uuid: 64ecc049-b0b1-450a-803d-f322fe7f90f6
+task_descriptions:
+- pick_the_kitchenware_b_and_place_in_the_toy_c
+scene_type:
+- hospital
+- office
+atomic_actions:
+- pull
+- place
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- unitree_h1
+end_effector_type: three_pinch_gripper

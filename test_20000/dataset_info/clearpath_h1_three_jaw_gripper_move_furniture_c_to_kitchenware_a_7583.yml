@@ -1,0 +1,28 @@
+dataset_name: move_furniture_c_to_kitchenware_a_7583
+dataset_uuid: 88a63029-7fd9-47ec-bdf8-216fddd386e3
+task_descriptions:
+- move_the_furniture_c_and_place_in_the_kitchenware_a
+scene_type:
+- kitchen
+atomic_actions:
+- lower
+- pick
+- insert
+- grasp
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

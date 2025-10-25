@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_b_to_food_b_1331
+dataset_uuid: 1f4107e7-1aa2-4878-bb05-2d6b60271132
+task_descriptions:
+- stack_the_stationery_b_and_place_in_the_food_b
+scene_type:
+- store
+- hospital
+atomic_actions:
+- lift
+- slide
+- pick
+- lower
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

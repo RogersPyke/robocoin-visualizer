@@ -1,0 +1,27 @@
+dataset_name: place_container_a_to_beverage_d_6713
+dataset_uuid: 43be7bf5-fb43-4b63-ae44-027b651b94eb
+task_descriptions:
+- place_the_container_a_and_place_in_the_beverage_d
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- flip
+- grasp
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: beverage_d_sub2
+  level5: null
+operation_platform_height: 72.6
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_electronics_b_to_furniture_d_3661
+dataset_uuid: d6c19146-6800-4062-b3d6-83ae7f181466
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_furniture_d
+scene_type:
+- home
+atomic_actions:
+- slide
+- lift
+- place
+- insert
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_tool_a_to_furniture_d_5909
+dataset_uuid: f29033ab-363f-4750-81e8-dbda90d80e2f
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_furniture_d
+scene_type:
+- factory
+atomic_actions:
+- place
+- lower
+- lift
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- agility_cassie
+end_effector_type: three_jaw_gripper

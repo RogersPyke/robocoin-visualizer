@@ -1,0 +1,27 @@
+dataset_name: move_beverage_d_to_tool_b_4845
+dataset_uuid: 084c988a-b0f4-4f9d-8bfb-39f98ac77f2d
+task_descriptions:
+- move_the_beverage_d_and_place_in_the_tool_b
+scene_type:
+- restaurant
+- store
+atomic_actions:
+- slide
+- rotate
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

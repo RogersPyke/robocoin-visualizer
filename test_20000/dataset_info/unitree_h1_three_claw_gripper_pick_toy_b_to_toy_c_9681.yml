@@ -1,0 +1,29 @@
+dataset_name: pick_toy_b_to_toy_c_9681
+dataset_uuid: 024907ec-48ef-4ba2-aaab-5f30d62e40b5
+task_descriptions:
+- pick_the_toy_b_and_place_in_the_toy_c
+scene_type:
+- home
+- kitchen
+- factory
+atomic_actions:
+- grasp
+- pick
+- lower
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 71.6
+device_model:
+- unitree_h1
+end_effector_type: three_claw_gripper

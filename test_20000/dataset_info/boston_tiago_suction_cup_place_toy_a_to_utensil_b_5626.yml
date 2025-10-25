@@ -1,0 +1,27 @@
+dataset_name: place_toy_a_to_utensil_b_5626
+dataset_uuid: 9ae767f1-622c-4d8e-b899-510e1727bc20
+task_descriptions:
+- place_the_toy_a_and_place_in_the_utensil_b
+scene_type:
+- laboratory
+- restaurant
+atomic_actions:
+- push
+- place
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.6
+device_model:
+- boston_tiago
+end_effector_type: suction_cup

@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_b_to_fruit_a_4805
+dataset_uuid: 3beaab83-a6a6-427b-a127-9ac800681db4
+task_descriptions:
+- pick_the_stationery_b_and_place_in_the_fruit_a
+scene_type:
+- warehouse
+- laboratory
+atomic_actions:
+- flip
+- pick
+- lower
+- pull
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

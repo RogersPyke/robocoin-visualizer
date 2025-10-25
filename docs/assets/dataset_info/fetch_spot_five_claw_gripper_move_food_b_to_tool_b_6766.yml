@@ -1,0 +1,27 @@
+dataset_name: move_food_b_to_tool_b_6766
+dataset_uuid: 013f8a84-abeb-486c-a5b2-e35939e8ad73
+task_descriptions:
+- move_the_food_b_and_place_in_the_tool_b
+scene_type:
+- home
+- office
+atomic_actions:
+- lift
+- flip
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- fetch_spot
+end_effector_type: five_claw_gripper

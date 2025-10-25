@@ -1,0 +1,28 @@
+dataset_name: stack_beverage_d_to_toy_c_2454
+dataset_uuid: 66fc7731-6f94-4730-b26d-b9d1a19f1def
+task_descriptions:
+- stack_the_beverage_d_and_place_in_the_toy_c
+scene_type:
+- laboratory
+atomic_actions:
+- insert
+- pull
+- pick
+- push
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.6
+device_model:
+- fetch_tiago
+end_effector_type: five_finger_gripper

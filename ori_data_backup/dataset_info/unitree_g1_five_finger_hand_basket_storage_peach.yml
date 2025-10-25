@@ -1,0 +1,34 @@
+dataset_name: basket_storage_peach
+dataset_uuid: 78a44e75-b8db-40d7-9558-fdecb75f73bf
+task_descriptions:
+- pick_up_the_peach_and_place_in_the_basket.
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- grasp
+- place
+- pick
+objects:
+- object_name: table
+  level1: furniture
+  level2: table
+  level3: null
+  level4: null
+  level5: null
+- object_name: peach
+  level1: fruit
+  level2: peach
+  level3: null
+  level4: null
+  level5: null
+- object_name: basket
+  level1: container
+  level2: basket
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- unitree_g1
+end_effector_type: five_finger_hand

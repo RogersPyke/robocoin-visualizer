@@ -1,0 +1,29 @@
+dataset_name: pick_furniture_a_to_utensil_a_1861
+dataset_uuid: 55bd34e7-9395-4d93-9ad3-9d65b7764dd4
+task_descriptions:
+- pick_the_furniture_a_and_place_in_the_utensil_a
+scene_type:
+- factory
+- store
+atomic_actions:
+- pick
+- rotate
+- place
+- remove
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.2
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

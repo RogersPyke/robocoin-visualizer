@@ -1,0 +1,30 @@
+dataset_name: place_food_a_to_kitchenware_b_7949
+dataset_uuid: 7a7bc288-9ccd-46d8-8cf2-90e903e10b73
+task_descriptions:
+- place_the_food_a_and_place_in_the_kitchenware_b
+scene_type:
+- laboratory
+- restaurant
+- factory
+atomic_actions:
+- rotate
+- insert
+- lift
+- place
+objects:
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.4
+device_model:
+- pal_tiago
+end_effector_type: two_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_food_d_to_container_b_4919
+dataset_uuid: 8969db39-dcd3-46c4-a3a7-acf7701a0ac2
+task_descriptions:
+- place_the_food_d_and_place_in_the_container_b
+scene_type:
+- factory
+- laboratory
+atomic_actions:
+- slide
+- rotate
+- lower
+- insert
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

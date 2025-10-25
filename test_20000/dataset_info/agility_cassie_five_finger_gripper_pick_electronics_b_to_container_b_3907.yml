@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_b_to_container_b_3907
+dataset_uuid: 14f0cc72-6fd2-489f-a0f5-8b3135431eb4
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_container_b
+scene_type:
+- hospital
+- store
+atomic_actions:
+- flip
+- insert
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.1
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

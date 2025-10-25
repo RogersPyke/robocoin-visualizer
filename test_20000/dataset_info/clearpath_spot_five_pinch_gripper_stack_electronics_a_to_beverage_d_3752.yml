@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_a_to_beverage_d_3752
+dataset_uuid: 93842f36-e9d6-4ed8-bcd1-c9f46994d75f
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_beverage_d
+scene_type:
+- cafe
+atomic_actions:
+- flip
+- slide
+- push
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: beverage_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.0
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

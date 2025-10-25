@@ -1,0 +1,26 @@
+dataset_name: arrange_toy_a_to_stationery_b_2813
+dataset_uuid: da6831af-69d5-4104-a9e9-c8030e10c85a
+task_descriptions:
+- arrange_the_toy_a_and_place_in_the_stationery_b
+scene_type:
+- hospital
+atomic_actions:
+- grasp
+- lift
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.3
+device_model:
+- pal_tiago
+end_effector_type: suction_cup

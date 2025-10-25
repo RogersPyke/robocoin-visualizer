@@ -1,0 +1,27 @@
+dataset_name: place_utensil_a_to_tool_b_9257
+dataset_uuid: a156e3f8-8b58-40f2-b12d-8a30e1b05ace
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_tool_b
+scene_type:
+- store
+- hospital
+atomic_actions:
+- lift
+- flip
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.1
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

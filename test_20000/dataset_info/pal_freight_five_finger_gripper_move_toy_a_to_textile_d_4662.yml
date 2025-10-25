@@ -1,0 +1,27 @@
+dataset_name: move_toy_a_to_textile_d_4662
+dataset_uuid: 8f997c14-b1f5-41c4-87a5-1d79706cd862
+task_descriptions:
+- move_the_toy_a_and_place_in_the_textile_d
+scene_type:
+- office
+atomic_actions:
+- lower
+- remove
+- pull
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- pal_freight
+end_effector_type: five_finger_gripper

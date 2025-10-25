@@ -1,0 +1,29 @@
+dataset_name: pick_beverage_c_to_tool_d_3771
+dataset_uuid: 3558ed4a-76bd-414d-af71-5cf97ebe0123
+task_descriptions:
+- pick_the_beverage_c_and_place_in_the_tool_d
+scene_type:
+- store
+- hospital
+- warehouse
+atomic_actions:
+- slide
+- pick
+- push
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.4
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

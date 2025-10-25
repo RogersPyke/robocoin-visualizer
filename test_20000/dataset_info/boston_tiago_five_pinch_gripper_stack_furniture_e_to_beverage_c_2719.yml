@@ -1,0 +1,29 @@
+dataset_name: stack_furniture_e_to_beverage_c_2719
+dataset_uuid: 3c5a83ff-15af-41bf-a8c2-3854c0428c9b
+task_descriptions:
+- stack_the_furniture_e_and_place_in_the_beverage_c
+scene_type:
+- home
+- office
+atomic_actions:
+- rotate
+- lift
+- slide
+- flip
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

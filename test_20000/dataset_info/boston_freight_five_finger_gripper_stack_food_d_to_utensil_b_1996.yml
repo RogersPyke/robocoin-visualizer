@@ -1,0 +1,30 @@
+dataset_name: stack_food_d_to_utensil_b_1996
+dataset_uuid: e9b6e65e-e4b3-46f2-be5d-cc3465bb14c9
+task_descriptions:
+- stack_the_food_d_and_place_in_the_utensil_b
+scene_type:
+- store
+- restaurant
+- office
+atomic_actions:
+- place
+- lift
+- lower
+- push
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

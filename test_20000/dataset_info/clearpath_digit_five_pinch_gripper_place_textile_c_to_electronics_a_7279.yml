@@ -1,0 +1,28 @@
+dataset_name: place_textile_c_to_electronics_a_7279
+dataset_uuid: e855761e-7b0a-4c4f-8b15-8f69f0bb65c2
+task_descriptions:
+- place_the_textile_c_and_place_in_the_electronics_a
+scene_type:
+- kitchen
+atomic_actions:
+- flip
+- push
+- lift
+- slide
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 78.9
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

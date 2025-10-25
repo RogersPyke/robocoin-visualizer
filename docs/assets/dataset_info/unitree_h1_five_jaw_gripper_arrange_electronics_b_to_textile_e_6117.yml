@@ -1,0 +1,30 @@
+dataset_name: arrange_electronics_b_to_textile_e_6117
+dataset_uuid: e6b198ce-054e-42b5-a620-d3777c4a543f
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_textile_e
+scene_type:
+- home
+- office
+- laboratory
+atomic_actions:
+- insert
+- rotate
+- place
+- flip
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.1
+device_model:
+- unitree_h1
+end_effector_type: five_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_tool_b_to_textile_c_2930
+dataset_uuid: ac6779a8-4fd3-4721-857b-7ae3a6accd0e
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_textile_c
+scene_type:
+- kitchen
+atomic_actions:
+- pick
+- flip
+- remove
+- push
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 76.5
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

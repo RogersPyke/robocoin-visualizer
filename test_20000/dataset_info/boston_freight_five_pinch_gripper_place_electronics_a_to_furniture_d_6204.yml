@@ -1,0 +1,28 @@
+dataset_name: place_electronics_a_to_furniture_d_6204
+dataset_uuid: 0d6b5d2a-0b92-4c5c-aace-58f3ebd9d777
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_furniture_d
+scene_type:
+- store
+- restaurant
+atomic_actions:
+- push
+- pull
+- pick
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

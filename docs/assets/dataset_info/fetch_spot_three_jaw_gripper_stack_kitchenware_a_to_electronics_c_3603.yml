@@ -1,0 +1,29 @@
+dataset_name: stack_kitchenware_a_to_electronics_c_3603
+dataset_uuid: 69869da7-c472-4fcf-a43d-f5971ebeb6e0
+task_descriptions:
+- stack_the_kitchenware_a_and_place_in_the_electronics_c
+scene_type:
+- kitchen
+- factory
+atomic_actions:
+- place
+- pick
+- push
+- remove
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- fetch_spot
+end_effector_type: three_jaw_gripper

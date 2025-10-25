@@ -1,0 +1,29 @@
+dataset_name: arrange_beverage_b_to_furniture_c_7125
+dataset_uuid: 5735b2e1-bda9-499d-bee7-5a6ba45dc7ee
+task_descriptions:
+- arrange_the_beverage_b_and_place_in_the_furniture_c
+scene_type:
+- office
+- laboratory
+- restaurant
+atomic_actions:
+- insert
+- grasp
+- pull
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.3
+device_model:
+- agility_cassie
+end_effector_type: five_claw_gripper

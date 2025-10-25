@@ -1,0 +1,27 @@
+dataset_name: arrange_toy_b_to_stationery_b_4637
+dataset_uuid: 52c7a765-7cde-497f-a2e8-1dd7f8286a4a
+task_descriptions:
+- arrange_the_toy_b_and_place_in_the_stationery_b
+scene_type:
+- hospital
+- cafe
+atomic_actions:
+- rotate
+- remove
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- boston_digit
+end_effector_type: three_finger_gripper

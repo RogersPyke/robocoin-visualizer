@@ -1,0 +1,30 @@
+dataset_name: pick_stationery_a_to_furniture_c_5921
+dataset_uuid: 0b26c711-931e-4ace-aa3d-a54de8a1c405
+task_descriptions:
+- pick_the_stationery_a_and_place_in_the_furniture_c
+scene_type:
+- home
+- factory
+- kitchen
+atomic_actions:
+- grasp
+- flip
+- place
+- insert
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.9
+device_model:
+- boston_digit
+end_effector_type: two_finger_gripper

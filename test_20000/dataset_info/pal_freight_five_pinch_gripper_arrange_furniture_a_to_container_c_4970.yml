@@ -1,0 +1,27 @@
+dataset_name: arrange_furniture_a_to_container_c_4970
+dataset_uuid: 436cce50-7585-4520-9d1b-43ce03c8ef20
+task_descriptions:
+- arrange_the_furniture_a_and_place_in_the_container_c
+scene_type:
+- home
+atomic_actions:
+- flip
+- grasp
+- pull
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.5
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

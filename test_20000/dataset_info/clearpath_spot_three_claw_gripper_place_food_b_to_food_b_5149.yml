@@ -1,0 +1,26 @@
+dataset_name: place_food_b_to_food_b_5149
+dataset_uuid: db4f10f2-b84a-4559-8e5e-fef63cc2f76b
+task_descriptions:
+- place_the_food_b_and_place_in_the_food_b
+scene_type:
+- office
+atomic_actions:
+- grasp
+- lift
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+operation_platform_height: 73.4
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

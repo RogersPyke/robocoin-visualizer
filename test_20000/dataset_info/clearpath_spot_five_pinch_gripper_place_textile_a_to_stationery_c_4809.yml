@@ -1,0 +1,28 @@
+dataset_name: place_textile_a_to_stationery_c_4809
+dataset_uuid: 608da0dc-2e3a-427c-8b2b-814c89258189
+task_descriptions:
+- place_the_textile_a_and_place_in_the_stationery_c
+scene_type:
+- hospital
+- office
+atomic_actions:
+- push
+- flip
+- remove
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+operation_platform_height: 78.2
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

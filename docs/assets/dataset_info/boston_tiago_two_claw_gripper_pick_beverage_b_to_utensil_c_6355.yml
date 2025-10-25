@@ -1,0 +1,26 @@
+dataset_name: pick_beverage_b_to_utensil_c_6355
+dataset_uuid: 537ac87c-3041-4975-9c26-dc8de77ab388
+task_descriptions:
+- pick_the_beverage_b_and_place_in_the_utensil_c
+scene_type:
+- store
+atomic_actions:
+- rotate
+- slide
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.4
+device_model:
+- boston_tiago
+end_effector_type: two_claw_gripper

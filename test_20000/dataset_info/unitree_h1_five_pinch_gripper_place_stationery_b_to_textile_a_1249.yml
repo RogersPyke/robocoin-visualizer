@@ -1,0 +1,29 @@
+dataset_name: place_stationery_b_to_textile_a_1249
+dataset_uuid: 9ca74fef-6ad3-4d24-9140-2283717b76d0
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_textile_a
+scene_type:
+- warehouse
+- home
+- hospital
+atomic_actions:
+- pull
+- rotate
+- pick
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.1
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

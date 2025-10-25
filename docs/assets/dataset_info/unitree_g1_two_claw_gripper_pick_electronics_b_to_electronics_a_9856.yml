@@ -1,0 +1,29 @@
+dataset_name: pick_electronics_b_to_electronics_a_9856
+dataset_uuid: e1a07930-9be9-4d42-b315-27303f9be114
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_electronics_a
+scene_type:
+- office
+- store
+atomic_actions:
+- lift
+- rotate
+- lower
+- pick
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 74.4
+device_model:
+- unitree_g1
+end_effector_type: two_claw_gripper

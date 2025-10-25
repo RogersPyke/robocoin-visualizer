@@ -1,0 +1,27 @@
+dataset_name: stack_stationery_b_to_container_b_2633
+dataset_uuid: 43bfad96-76a0-4dd4-a916-2c665acd97e0
+task_descriptions:
+- stack_the_stationery_b_and_place_in_the_container_b
+scene_type:
+- cafe
+atomic_actions:
+- place
+- grasp
+- pick
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.8
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

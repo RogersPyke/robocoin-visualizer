@@ -1,0 +1,28 @@
+dataset_name: move_furniture_c_to_stationery_a_4223
+dataset_uuid: 91110736-65a0-4426-bef7-32c1f4e49dad
+task_descriptions:
+- move_the_furniture_c_and_place_in_the_stationery_a
+scene_type:
+- home
+- hospital
+atomic_actions:
+- remove
+- grasp
+- pull
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.9
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

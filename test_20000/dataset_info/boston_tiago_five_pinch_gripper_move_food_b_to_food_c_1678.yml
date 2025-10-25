@@ -1,0 +1,26 @@
+dataset_name: move_food_b_to_food_c_1678
+dataset_uuid: bae95cf7-6f1a-4351-aee5-800cbcb47a9f
+task_descriptions:
+- move_the_food_b_and_place_in_the_food_c
+scene_type:
+- restaurant
+atomic_actions:
+- rotate
+- push
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: food_b_sub1
+  level4: food_b_sub2
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.8
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

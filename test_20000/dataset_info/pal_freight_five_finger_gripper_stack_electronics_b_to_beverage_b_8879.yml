@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_b_to_beverage_b_8879
+dataset_uuid: 1fa96e63-630b-4de6-9a9a-8fb47b7a6f40
+task_descriptions:
+- stack_the_electronics_b_and_place_in_the_beverage_b
+scene_type:
+- laboratory
+atomic_actions:
+- lower
+- slide
+- push
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- pal_freight
+end_effector_type: five_finger_gripper

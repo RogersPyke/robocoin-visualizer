@@ -1,0 +1,30 @@
+dataset_name: place_food_e_to_kitchenware_b_8945
+dataset_uuid: 6c6b42c7-9e13-499d-85df-725bb29abee6
+task_descriptions:
+- place_the_food_e_and_place_in_the_kitchenware_b
+scene_type:
+- kitchen
+- restaurant
+- home
+atomic_actions:
+- flip
+- insert
+- pull
+- lift
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+operation_platform_height: 87.3
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

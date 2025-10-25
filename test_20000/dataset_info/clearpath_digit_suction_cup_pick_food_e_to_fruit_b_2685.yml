@@ -1,0 +1,27 @@
+dataset_name: pick_food_e_to_fruit_b_2685
+dataset_uuid: fdd55478-51d8-4ba7-9ec2-91453f4eb973
+task_descriptions:
+- pick_the_food_e_and_place_in_the_fruit_b
+scene_type:
+- restaurant
+atomic_actions:
+- slide
+- remove
+- place
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 79.0
+device_model:
+- clearpath_digit
+end_effector_type: suction_cup

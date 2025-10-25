@@ -1,0 +1,29 @@
+dataset_name: move_fruit_c_to_beverage_b_7449
+dataset_uuid: 5395fdbc-8456-46ac-96e0-722951295f63
+task_descriptions:
+- move_the_fruit_c_and_place_in_the_beverage_b
+scene_type:
+- office
+- kitchen
+atomic_actions:
+- rotate
+- slide
+- remove
+- push
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: fruit_c_sub2
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: beverage_b_sub2
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- fetch_tiago
+end_effector_type: two_pinch_gripper

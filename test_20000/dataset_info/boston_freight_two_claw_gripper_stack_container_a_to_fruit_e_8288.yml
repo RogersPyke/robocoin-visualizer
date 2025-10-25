@@ -1,0 +1,30 @@
+dataset_name: stack_container_a_to_fruit_e_8288
+dataset_uuid: 8fd728ca-1cc3-44a2-807e-7a059a6a4786
+task_descriptions:
+- stack_the_container_a_and_place_in_the_fruit_e
+scene_type:
+- laboratory
+- kitchen
+- office
+atomic_actions:
+- grasp
+- lower
+- insert
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- boston_freight
+end_effector_type: two_claw_gripper

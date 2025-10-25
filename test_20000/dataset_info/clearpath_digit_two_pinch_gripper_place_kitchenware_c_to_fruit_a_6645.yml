@@ -1,0 +1,29 @@
+dataset_name: place_kitchenware_c_to_fruit_a_6645
+dataset_uuid: 4f60e6cc-6b65-4091-9e75-1b799da9c095
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_fruit_a
+scene_type:
+- restaurant
+- warehouse
+atomic_actions:
+- insert
+- rotate
+- flip
+- slide
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.6
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

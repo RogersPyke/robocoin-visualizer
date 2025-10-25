@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_d_to_beverage_e_5092
+dataset_uuid: 417164ad-9c10-4b4e-bc9f-3c6898dd7d2a
+task_descriptions:
+- arrange_the_toy_d_and_place_in_the_beverage_e
+scene_type:
+- store
+- factory
+atomic_actions:
+- insert
+- pull
+- lower
+objects:
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+operation_platform_height: 87.3
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

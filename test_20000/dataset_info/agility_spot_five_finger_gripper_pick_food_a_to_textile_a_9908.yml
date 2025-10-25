@@ -1,0 +1,30 @@
+dataset_name: pick_food_a_to_textile_a_9908
+dataset_uuid: 16b66c56-d247-4837-8823-c06d3957b618
+task_descriptions:
+- pick_the_food_a_and_place_in_the_textile_a
+scene_type:
+- kitchen
+- home
+- store
+atomic_actions:
+- flip
+- lower
+- lift
+- slide
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- agility_spot
+end_effector_type: five_finger_gripper

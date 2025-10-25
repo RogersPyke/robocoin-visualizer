@@ -1,0 +1,30 @@
+dataset_name: arrange_utensil_a_to_textile_d_4475
+dataset_uuid: c4fe3061-b39f-4fd1-8a5d-c17fca7c63ad
+task_descriptions:
+- arrange_the_utensil_a_and_place_in_the_textile_d
+scene_type:
+- factory
+- store
+- restaurant
+atomic_actions:
+- slide
+- flip
+- pick
+- grasp
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

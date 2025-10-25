@@ -1,0 +1,28 @@
+dataset_name: arrange_utensil_a_to_stationery_c_7071
+dataset_uuid: f3130e16-8de1-45fa-81f2-2e6cb7f8ea6a
+task_descriptions:
+- arrange_the_utensil_a_and_place_in_the_stationery_c
+scene_type:
+- office
+- restaurant
+- hospital
+atomic_actions:
+- slide
+- pick
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.5
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

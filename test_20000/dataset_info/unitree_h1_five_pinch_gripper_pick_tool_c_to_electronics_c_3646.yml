@@ -1,0 +1,27 @@
+dataset_name: pick_tool_c_to_electronics_c_3646
+dataset_uuid: 3a626d6f-db44-407c-b54b-0eac33380fa0
+task_descriptions:
+- pick_the_tool_c_and_place_in_the_electronics_c
+scene_type:
+- restaurant
+- factory
+atomic_actions:
+- lift
+- push
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

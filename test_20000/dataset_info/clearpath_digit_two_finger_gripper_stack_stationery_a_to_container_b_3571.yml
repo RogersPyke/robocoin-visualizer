@@ -1,0 +1,29 @@
+dataset_name: stack_stationery_a_to_container_b_3571
+dataset_uuid: 7c12f93f-ff30-466c-8c21-536f27161202
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_container_b
+scene_type:
+- home
+- kitchen
+- warehouse
+atomic_actions:
+- lift
+- push
+- pick
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 86.0
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

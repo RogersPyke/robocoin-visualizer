@@ -1,0 +1,28 @@
+dataset_name: place_electronics_a_to_textile_d_5743
+dataset_uuid: 8eb15e0b-0959-45c8-8890-4ff54a438973
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_textile_d
+scene_type:
+- warehouse
+atomic_actions:
+- flip
+- grasp
+- push
+- rotate
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+operation_platform_height: 87.3
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

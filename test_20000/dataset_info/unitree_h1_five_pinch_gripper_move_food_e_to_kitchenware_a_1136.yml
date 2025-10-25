@@ -1,0 +1,29 @@
+dataset_name: move_food_e_to_kitchenware_a_1136
+dataset_uuid: e7559d02-e758-4ca8-abcd-904ba444f2a6
+task_descriptions:
+- move_the_food_e_and_place_in_the_kitchenware_a
+scene_type:
+- cafe
+- restaurant
+atomic_actions:
+- flip
+- rotate
+- remove
+- slide
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,26 @@
+dataset_name: move_food_b_to_fruit_e_6929
+dataset_uuid: 0fa736ea-40d7-474a-9226-bb78133e829b
+task_descriptions:
+- move_the_food_b_and_place_in_the_fruit_e
+scene_type:
+- laboratory
+atomic_actions:
+- remove
+- insert
+objects:
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.7
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

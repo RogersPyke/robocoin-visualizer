@@ -1,0 +1,28 @@
+dataset_name: stack_beverage_a_to_textile_a_3084
+dataset_uuid: 9437fef1-b771-4d1e-aa4c-46c63724e93b
+task_descriptions:
+- stack_the_beverage_a_and_place_in_the_textile_a
+scene_type:
+- cafe
+- factory
+atomic_actions:
+- slide
+- pull
+- insert
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

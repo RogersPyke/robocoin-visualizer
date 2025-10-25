@@ -1,0 +1,27 @@
+dataset_name: place_tool_c_to_beverage_b_2208
+dataset_uuid: 3f8f484b-8df7-4484-b127-6bb7b8a3edfa
+task_descriptions:
+- place_the_tool_c_and_place_in_the_beverage_b
+scene_type:
+- store
+atomic_actions:
+- lift
+- grasp
+- place
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.2
+device_model:
+- boston_atlas
+end_effector_type: five_claw_gripper

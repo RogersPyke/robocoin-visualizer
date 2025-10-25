@@ -1,0 +1,29 @@
+dataset_name: place_utensil_d_to_electronics_c_9397
+dataset_uuid: d9430c6a-1f84-43cf-aef5-1771249b2a2a
+task_descriptions:
+- place_the_utensil_d_and_place_in_the_electronics_c
+scene_type:
+- cafe
+- store
+atomic_actions:
+- place
+- pick
+- insert
+- push
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+operation_platform_height: 82.5
+device_model:
+- boston_tiago
+end_effector_type: three_jaw_gripper

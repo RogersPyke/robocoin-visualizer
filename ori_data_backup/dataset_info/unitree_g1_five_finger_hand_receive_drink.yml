@@ -1,0 +1,57 @@
+dataset_name: receive_drink
+dataset_uuid: c844fa93-a548-47c0-bcc6-6245072c2fcf
+task_descriptions:
+- put_the_cup_under_the_tap_to_receive_cola.
+- put_the_cup_under_the_tap_to_receive_orange_juice.
+- pick_up_the_cup_on_the_table_with_your_left_hand.
+- pick_up_the_cup_on_the_table_with_your_right_hand.
+- put_the_cup_under_the_tap_to_receive_sprite.
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- grasp
+- pick
+- receive
+- place
+objects:
+- object_name: table
+  level1: furniture
+  level2: table
+  level3: null
+  level4: null
+  level5: null
+- object_name: tap
+  level1: tool
+  level2: tap
+  level3: null
+  level4: null
+  level5: null
+- object_name: orange_juice
+  level1: drink
+  level2: orange_juice
+  level3: null
+  level4: null
+  level5: null
+- object_name: cola
+  level1: drink
+  level2: cola
+  level3: null
+  level4: null
+  level5: null
+- object_name: cup
+  level1: container
+  level2: cup
+  level3: null
+  level4: null
+  level5: null
+- object_name: sprite
+  level1: drink
+  level2: sprite
+  level3: null
+  level4: null
+  level5: null
+device_model:
+- unitree_g1
+end_effector_type: five_finger_hand
+operation_platform_height: 77.2

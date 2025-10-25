@@ -1,0 +1,26 @@
+dataset_name: stack_tool_a_to_electronics_b_8688
+dataset_uuid: 218e7be8-9fc5-47b9-ada1-cd2e44d96559
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_electronics_b
+scene_type:
+- cafe
+atomic_actions:
+- pull
+- flip
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.3
+device_model:
+- fetch_tiago
+end_effector_type: five_finger_gripper

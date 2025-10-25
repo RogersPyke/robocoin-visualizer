@@ -1,0 +1,26 @@
+dataset_name: move_food_e_to_utensil_a_7501
+dataset_uuid: 84db177d-a505-404c-8fc0-4c7ae6590405
+task_descriptions:
+- move_the_food_e_and_place_in_the_utensil_a
+scene_type:
+- kitchen
+atomic_actions:
+- lift
+- insert
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.9
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

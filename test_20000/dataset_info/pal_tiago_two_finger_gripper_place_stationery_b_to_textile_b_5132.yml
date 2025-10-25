@@ -1,0 +1,29 @@
+dataset_name: place_stationery_b_to_textile_b_5132
+dataset_uuid: 5b799aba-08f4-440f-b5a6-43a8327004e5
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_textile_b
+scene_type:
+- factory
+- warehouse
+- hospital
+atomic_actions:
+- flip
+- push
+- place
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+operation_platform_height: 75.0
+device_model:
+- pal_tiago
+end_effector_type: two_finger_gripper

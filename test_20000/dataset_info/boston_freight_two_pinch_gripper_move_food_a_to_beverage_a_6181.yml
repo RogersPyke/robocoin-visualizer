@@ -1,0 +1,27 @@
+dataset_name: move_food_a_to_beverage_a_6181
+dataset_uuid: 49a79a0c-dc9a-4b2a-81c1-b197d3a02d20
+task_descriptions:
+- move_the_food_a_and_place_in_the_beverage_a
+scene_type:
+- store
+- factory
+atomic_actions:
+- grasp
+- rotate
+objects:
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

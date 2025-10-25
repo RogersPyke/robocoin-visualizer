@@ -1,0 +1,27 @@
+dataset_name: stack_furniture_e_to_fruit_e_4760
+dataset_uuid: 30f5b128-c66b-4c22-b5ef-c34b8de1a11b
+task_descriptions:
+- stack_the_furniture_e_and_place_in_the_fruit_e
+scene_type:
+- kitchen
+- warehouse
+atomic_actions:
+- rotate
+- pull
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.1
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_container_b_to_food_e_8209
+dataset_uuid: 22d6cbce-1e45-435f-beca-23723c500780
+task_descriptions:
+- arrange_the_container_b_and_place_in_the_food_e
+scene_type:
+- cafe
+- home
+atomic_actions:
+- pull
+- slide
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.7
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_c_to_kitchenware_d_4125
+dataset_uuid: a95b386c-f5c8-4a40-87d7-dc738d09cf8d
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_kitchenware_d
+scene_type:
+- laboratory
+atomic_actions:
+- pick
+- flip
+- slide
+- place
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_d
+  level1: kitchenware
+  level2: kitchenware_d
+  level3: kitchenware_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.2
+device_model:
+- boston_atlas
+end_effector_type: two_pinch_gripper

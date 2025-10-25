@@ -1,0 +1,29 @@
+dataset_name: stack_toy_a_to_furniture_d_7475
+dataset_uuid: 835296d6-cd27-4709-9073-de62bc504856
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_furniture_d
+scene_type:
+- cafe
+- store
+atomic_actions:
+- rotate
+- pull
+- flip
+- insert
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 80.5
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

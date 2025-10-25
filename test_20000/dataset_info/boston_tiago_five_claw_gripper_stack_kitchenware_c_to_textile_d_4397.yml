@@ -1,0 +1,29 @@
+dataset_name: stack_kitchenware_c_to_textile_d_4397
+dataset_uuid: 4538eda3-8316-485f-8814-96fea971db44
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_textile_d
+scene_type:
+- factory
+- hospital
+atomic_actions:
+- place
+- lower
+- pull
+- push
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

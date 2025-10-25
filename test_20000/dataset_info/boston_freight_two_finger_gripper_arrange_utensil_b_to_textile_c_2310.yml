@@ -1,0 +1,28 @@
+dataset_name: arrange_utensil_b_to_textile_c_2310
+dataset_uuid: 2f0f9a06-8d95-4e3d-98bc-0ec65cf81a65
+task_descriptions:
+- arrange_the_utensil_b_and_place_in_the_textile_c
+scene_type:
+- factory
+- kitchen
+- restaurant
+atomic_actions:
+- grasp
+- rotate
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.2
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_d_to_electronics_c_2737
+dataset_uuid: b92fdee5-2002-49c1-9dbd-0f72d0c75a7f
+task_descriptions:
+- arrange_the_furniture_d_and_place_in_the_electronics_c
+scene_type:
+- hospital
+- factory
+atomic_actions:
+- rotate
+- push
+- lift
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- unitree_digit
+end_effector_type: three_jaw_gripper

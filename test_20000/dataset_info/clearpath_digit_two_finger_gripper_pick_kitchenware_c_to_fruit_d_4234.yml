@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_c_to_fruit_d_4234
+dataset_uuid: 10d465da-578f-4f51-aa36-9cf1ac70d924
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_fruit_d
+scene_type:
+- kitchen
+- hospital
+atomic_actions:
+- push
+- grasp
+- lower
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- clearpath_digit
+end_effector_type: two_finger_gripper

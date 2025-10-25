@@ -1,0 +1,30 @@
+dataset_name: stack_furniture_d_to_textile_c_6576
+dataset_uuid: 88d90838-712f-4cc5-953c-bb15bbc45fee
+task_descriptions:
+- stack_the_furniture_d_and_place_in_the_textile_c
+scene_type:
+- hospital
+- office
+- warehouse
+atomic_actions:
+- place
+- pull
+- rotate
+- flip
+objects:
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.8
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

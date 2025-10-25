@@ -1,0 +1,30 @@
+dataset_name: pick_textile_a_to_utensil_a_2502
+dataset_uuid: a3033986-066e-481f-92a2-ac752ccfed5b
+task_descriptions:
+- pick_the_textile_a_and_place_in_the_utensil_a
+scene_type:
+- factory
+- laboratory
+- office
+atomic_actions:
+- lower
+- lift
+- push
+- place
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- pal_freight
+end_effector_type: five_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_a_to_furniture_b_1085
+dataset_uuid: bc9c8acf-3624-4e8c-897c-76f5f6578f89
+task_descriptions:
+- arrange_the_textile_a_and_place_in_the_furniture_b
+scene_type:
+- laboratory
+- restaurant
+- cafe
+atomic_actions:
+- lower
+- pull
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

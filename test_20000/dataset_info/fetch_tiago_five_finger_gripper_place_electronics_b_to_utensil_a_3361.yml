@@ -1,0 +1,26 @@
+dataset_name: place_electronics_b_to_utensil_a_3361
+dataset_uuid: 7a8060ca-613b-4643-9180-2204308e729e
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_utensil_a
+scene_type:
+- office
+atomic_actions:
+- lower
+- lift
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- fetch_tiago
+end_effector_type: five_finger_gripper

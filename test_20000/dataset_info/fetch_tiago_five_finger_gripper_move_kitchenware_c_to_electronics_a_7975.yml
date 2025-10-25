@@ -1,0 +1,27 @@
+dataset_name: move_kitchenware_c_to_electronics_a_7975
+dataset_uuid: 6a0c4f2c-7958-4221-8223-3aa3164ce392
+task_descriptions:
+- move_the_kitchenware_c_and_place_in_the_electronics_a
+scene_type:
+- office
+- kitchen
+atomic_actions:
+- remove
+- lower
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.7
+device_model:
+- fetch_tiago
+end_effector_type: five_finger_gripper

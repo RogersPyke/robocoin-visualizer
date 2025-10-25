@@ -1,0 +1,27 @@
+dataset_name: move_food_e_to_kitchenware_a_8952
+dataset_uuid: b5dc0a8a-ee5d-4087-b97d-de325a530888
+task_descriptions:
+- move_the_food_e_and_place_in_the_kitchenware_a
+scene_type:
+- store
+atomic_actions:
+- slide
+- flip
+- remove
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- unitree_digit
+end_effector_type: three_finger_gripper

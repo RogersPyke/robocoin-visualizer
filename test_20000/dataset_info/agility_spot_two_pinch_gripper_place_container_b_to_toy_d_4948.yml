@@ -1,0 +1,28 @@
+dataset_name: place_container_b_to_toy_d_4948
+dataset_uuid: 50008e91-0424-410f-baa7-665456df648b
+task_descriptions:
+- place_the_container_b_and_place_in_the_toy_d
+scene_type:
+- kitchen
+- laboratory
+- warehouse
+atomic_actions:
+- grasp
+- lift
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.4
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

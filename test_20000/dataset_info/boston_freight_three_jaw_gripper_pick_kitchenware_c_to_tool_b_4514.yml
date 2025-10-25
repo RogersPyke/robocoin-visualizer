@@ -1,0 +1,29 @@
+dataset_name: pick_kitchenware_c_to_tool_b_4514
+dataset_uuid: 516cd184-d1f1-40c5-bdd3-17f05b5c9ec3
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_tool_b
+scene_type:
+- store
+- cafe
+atomic_actions:
+- place
+- remove
+- pick
+- lower
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.9
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

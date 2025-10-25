@@ -1,0 +1,30 @@
+dataset_name: arrange_food_b_to_tool_b_5914
+dataset_uuid: 1ebb4f07-4e73-4e48-b9e3-2196aa9a334b
+task_descriptions:
+- arrange_the_food_b_and_place_in_the_tool_b
+scene_type:
+- factory
+- office
+- hospital
+atomic_actions:
+- pick
+- insert
+- lift
+- flip
+objects:
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

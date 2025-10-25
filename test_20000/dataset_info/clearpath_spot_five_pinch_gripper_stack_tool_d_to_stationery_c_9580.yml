@@ -1,0 +1,28 @@
+dataset_name: stack_tool_d_to_stationery_c_9580
+dataset_uuid: 5d70b167-21cc-42c5-806d-af74fdcbf6f2
+task_descriptions:
+- stack_the_tool_d_and_place_in_the_stationery_c
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- pull
+- place
+- flip
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.1
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

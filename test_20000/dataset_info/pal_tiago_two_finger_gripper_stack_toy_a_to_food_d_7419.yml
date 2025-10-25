@@ -1,0 +1,30 @@
+dataset_name: stack_toy_a_to_food_d_7419
+dataset_uuid: fcf3bcf1-ca99-4c8b-bd67-08087f84f61d
+task_descriptions:
+- stack_the_toy_a_and_place_in_the_food_d
+scene_type:
+- restaurant
+- home
+- cafe
+atomic_actions:
+- grasp
+- slide
+- remove
+- pull
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.6
+device_model:
+- pal_tiago
+end_effector_type: two_finger_gripper

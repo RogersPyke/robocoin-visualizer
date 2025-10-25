@@ -1,0 +1,26 @@
+dataset_name: move_fruit_a_to_tool_a_3773
+dataset_uuid: 66f7b980-c2c8-40ce-a54e-2ef7bc17f3c2
+task_descriptions:
+- move_the_fruit_a_and_place_in_the_tool_a
+scene_type:
+- cafe
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+operation_platform_height: 84.0
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

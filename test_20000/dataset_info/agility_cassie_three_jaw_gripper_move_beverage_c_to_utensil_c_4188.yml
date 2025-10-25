@@ -1,0 +1,30 @@
+dataset_name: move_beverage_c_to_utensil_c_4188
+dataset_uuid: 12619800-60bb-4e85-8006-17218826263b
+task_descriptions:
+- move_the_beverage_c_and_place_in_the_utensil_c
+scene_type:
+- hospital
+- laboratory
+- store
+atomic_actions:
+- push
+- insert
+- lift
+- remove
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: beverage_c_sub2
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.6
+device_model:
+- agility_cassie
+end_effector_type: three_jaw_gripper

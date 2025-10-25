@@ -1,0 +1,29 @@
+dataset_name: move_stationery_b_to_toy_b_8160
+dataset_uuid: 1396f2e0-5a1f-4b59-914b-a95a5621cb12
+task_descriptions:
+- move_the_stationery_b_and_place_in_the_toy_b
+scene_type:
+- home
+- kitchen
+atomic_actions:
+- flip
+- pull
+- rotate
+- pick
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+operation_platform_height: 80.6
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

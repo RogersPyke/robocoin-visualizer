@@ -1,0 +1,28 @@
+dataset_name: move_stationery_a_to_kitchenware_a_8593
+dataset_uuid: 3942d9fa-fd26-473f-926f-a1afd749f5aa
+task_descriptions:
+- move_the_stationery_a_and_place_in_the_kitchenware_a
+scene_type:
+- hospital
+- office
+atomic_actions:
+- insert
+- pick
+- rotate
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

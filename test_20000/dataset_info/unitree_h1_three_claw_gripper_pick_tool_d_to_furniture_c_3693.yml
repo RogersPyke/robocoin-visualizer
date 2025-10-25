@@ -1,0 +1,29 @@
+dataset_name: pick_tool_d_to_furniture_c_3693
+dataset_uuid: 46698f37-58e3-468c-8f50-d8851dd21b1c
+task_descriptions:
+- pick_the_tool_d_and_place_in_the_furniture_c
+scene_type:
+- office
+- store
+- cafe
+atomic_actions:
+- flip
+- insert
+- place
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- unitree_h1
+end_effector_type: three_claw_gripper

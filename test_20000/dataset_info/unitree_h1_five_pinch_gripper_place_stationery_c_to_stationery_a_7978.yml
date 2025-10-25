@@ -1,0 +1,26 @@
+dataset_name: place_stationery_c_to_stationery_a_7978
+dataset_uuid: 78851642-c29f-4363-8be5-e0cd8c251e46
+task_descriptions:
+- place_the_stationery_c_and_place_in_the_stationery_a
+scene_type:
+- restaurant
+atomic_actions:
+- grasp
+- pull
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.8
+device_model:
+- unitree_h1
+end_effector_type: five_pinch_gripper

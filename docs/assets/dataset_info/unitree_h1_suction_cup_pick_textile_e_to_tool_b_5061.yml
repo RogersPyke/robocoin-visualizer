@@ -1,0 +1,28 @@
+dataset_name: pick_textile_e_to_tool_b_5061
+dataset_uuid: d7d20be7-4d8b-412b-a638-52f2e44bc8e0
+task_descriptions:
+- pick_the_textile_e_and_place_in_the_tool_b
+scene_type:
+- factory
+- warehouse
+- laboratory
+atomic_actions:
+- push
+- pull
+objects:
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- unitree_h1
+end_effector_type: suction_cup

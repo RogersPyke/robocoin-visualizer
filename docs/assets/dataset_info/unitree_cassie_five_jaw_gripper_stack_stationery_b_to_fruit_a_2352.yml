@@ -1,0 +1,27 @@
+dataset_name: stack_stationery_b_to_fruit_a_2352
+dataset_uuid: d5dd1bc3-1e3c-4937-b0a4-22be72c51c44
+task_descriptions:
+- stack_the_stationery_b_and_place_in_the_fruit_a
+scene_type:
+- store
+atomic_actions:
+- pick
+- place
+- insert
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.6
+device_model:
+- unitree_cassie
+end_effector_type: five_jaw_gripper

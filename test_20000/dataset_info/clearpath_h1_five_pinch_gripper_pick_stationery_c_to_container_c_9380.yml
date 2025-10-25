@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_c_to_container_c_9380
+dataset_uuid: 09b78ad8-2b53-43f7-b34c-fa42f0948b69
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_container_c
+scene_type:
+- laboratory
+- factory
+- warehouse
+atomic_actions:
+- pick
+- remove
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.0
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

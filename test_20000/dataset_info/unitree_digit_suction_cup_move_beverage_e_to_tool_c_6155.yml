@@ -1,0 +1,28 @@
+dataset_name: move_beverage_e_to_tool_c_6155
+dataset_uuid: df30962f-65d4-4313-a6ee-42f5b58c511f
+task_descriptions:
+- move_the_beverage_e_and_place_in_the_tool_c
+scene_type:
+- office
+- restaurant
+atomic_actions:
+- lower
+- pull
+- pick
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.9
+device_model:
+- unitree_digit
+end_effector_type: suction_cup

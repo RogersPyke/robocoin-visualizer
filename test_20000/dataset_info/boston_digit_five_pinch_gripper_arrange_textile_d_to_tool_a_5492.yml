@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_d_to_tool_a_5492
+dataset_uuid: 319e448d-1763-40fc-8519-adf1f7b9cef7
+task_descriptions:
+- arrange_the_textile_d_and_place_in_the_tool_a
+scene_type:
+- restaurant
+- office
+- laboratory
+atomic_actions:
+- remove
+- lower
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: textile_d_sub2
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

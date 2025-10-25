@@ -1,0 +1,29 @@
+dataset_name: place_fruit_d_to_stationery_c_6409
+dataset_uuid: 7b867a31-8865-4a7a-9836-39c20d379efe
+task_descriptions:
+- place_the_fruit_d_and_place_in_the_stationery_c
+scene_type:
+- restaurant
+- office
+atomic_actions:
+- flip
+- insert
+- pull
+- lower
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- pal_freight
+end_effector_type: two_finger_gripper

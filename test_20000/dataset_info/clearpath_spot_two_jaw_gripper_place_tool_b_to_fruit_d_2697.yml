@@ -1,0 +1,27 @@
+dataset_name: place_tool_b_to_fruit_d_2697
+dataset_uuid: c9093198-2ad4-4721-a6ed-1f236a12a90e
+task_descriptions:
+- place_the_tool_b_and_place_in_the_fruit_d
+scene_type:
+- factory
+- warehouse
+atomic_actions:
+- insert
+- remove
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

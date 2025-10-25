@@ -1,0 +1,28 @@
+dataset_name: arrange_textile_d_to_kitchenware_c_6199
+dataset_uuid: 7629fa1c-5c50-48dc-83c2-949333708882
+task_descriptions:
+- arrange_the_textile_d_and_place_in_the_kitchenware_c
+scene_type:
+- kitchen
+- hospital
+- factory
+atomic_actions:
+- insert
+- pull
+objects:
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.2
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_beverage_d_to_electronics_c_5401
+dataset_uuid: 692a0a61-0ac5-4d82-aece-77ce4e5a3c6b
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_electronics_c
+scene_type:
+- store
+atomic_actions:
+- insert
+- lift
+- remove
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.0
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

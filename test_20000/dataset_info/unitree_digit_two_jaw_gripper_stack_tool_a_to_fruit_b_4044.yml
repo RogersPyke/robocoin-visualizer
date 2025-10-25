@@ -1,0 +1,27 @@
+dataset_name: stack_tool_a_to_fruit_b_4044
+dataset_uuid: c6d5460f-ec48-4b13-877c-1aeb57d0b3a3
+task_descriptions:
+- stack_the_tool_a_and_place_in_the_fruit_b
+scene_type:
+- kitchen
+- office
+atomic_actions:
+- flip
+- pull
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 82.5
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

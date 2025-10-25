@@ -1,0 +1,26 @@
+dataset_name: stack_kitchenware_c_to_container_c_6042
+dataset_uuid: d9c8ebf7-b5db-45c2-9518-3bbc7adde64e
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_container_c
+scene_type:
+- kitchen
+atomic_actions:
+- lower
+- slide
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.0
+device_model:
+- boston_freight
+end_effector_type: two_claw_gripper

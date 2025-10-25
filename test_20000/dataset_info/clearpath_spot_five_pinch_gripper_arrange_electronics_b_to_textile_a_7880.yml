@@ -1,0 +1,28 @@
+dataset_name: arrange_electronics_b_to_textile_a_7880
+dataset_uuid: 69390c22-218a-4c67-8c6d-4aec963c4290
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_textile_a
+scene_type:
+- hospital
+- store
+- warehouse
+atomic_actions:
+- lift
+- insert
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 85.3
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: place_textile_a_to_furniture_d_1920
+dataset_uuid: 9b875dfa-73ef-4722-8f5d-3dd21c6422b0
+task_descriptions:
+- place_the_textile_a_and_place_in_the_furniture_d
+scene_type:
+- factory
+- store
+atomic_actions:
+- slide
+- remove
+- grasp
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- boston_freight
+end_effector_type: suction_cup

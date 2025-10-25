@@ -1,0 +1,28 @@
+dataset_name: place_container_a_to_beverage_b_6752
+dataset_uuid: 07793e20-a9cb-4e95-8d35-7e4190b23350
+task_descriptions:
+- place_the_container_a_and_place_in_the_beverage_b
+scene_type:
+- warehouse
+- home
+atomic_actions:
+- flip
+- push
+- rotate
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.8
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

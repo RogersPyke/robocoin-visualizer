@@ -1,0 +1,29 @@
+dataset_name: move_utensil_c_to_textile_e_3287
+dataset_uuid: c6da6e0a-8c6d-4e47-beb2-be14970991a4
+task_descriptions:
+- move_the_utensil_c_and_place_in_the_textile_e
+scene_type:
+- store
+- hospital
+atomic_actions:
+- pull
+- insert
+- lower
+- grasp
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: utensil_c_sub2
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.2
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

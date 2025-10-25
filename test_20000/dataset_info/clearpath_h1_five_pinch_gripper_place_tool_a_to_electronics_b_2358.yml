@@ -1,0 +1,30 @@
+dataset_name: place_tool_a_to_electronics_b_2358
+dataset_uuid: ef26a142-7602-49e3-a762-0324375b0b74
+task_descriptions:
+- place_the_tool_a_and_place_in_the_electronics_b
+scene_type:
+- warehouse
+- office
+- cafe
+atomic_actions:
+- push
+- flip
+- lower
+- lift
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 78.2
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

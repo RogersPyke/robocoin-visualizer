@@ -1,0 +1,29 @@
+dataset_name: stack_furniture_c_to_kitchenware_c_3154
+dataset_uuid: cb144c5e-ed4b-4e95-954a-42a69ccf68c9
+task_descriptions:
+- stack_the_furniture_c_and_place_in_the_kitchenware_c
+scene_type:
+- kitchen
+- factory
+atomic_actions:
+- pull
+- rotate
+- pick
+- place
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.1
+device_model:
+- clearpath_digit
+end_effector_type: five_claw_gripper

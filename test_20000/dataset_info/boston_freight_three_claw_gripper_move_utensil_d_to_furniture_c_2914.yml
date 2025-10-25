@@ -1,0 +1,27 @@
+dataset_name: move_utensil_d_to_furniture_c_2914
+dataset_uuid: 274d96b7-7e12-48b3-963c-4d0a632078cf
+task_descriptions:
+- move_the_utensil_d_and_place_in_the_furniture_c
+scene_type:
+- cafe
+- store
+atomic_actions:
+- slide
+- rotate
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

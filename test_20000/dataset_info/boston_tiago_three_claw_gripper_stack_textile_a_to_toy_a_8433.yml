@@ -1,0 +1,29 @@
+dataset_name: stack_textile_a_to_toy_a_8433
+dataset_uuid: c5af1382-f2ae-432c-a567-7457b1311fdb
+task_descriptions:
+- stack_the_textile_a_and_place_in_the_toy_a
+scene_type:
+- kitchen
+- factory
+atomic_actions:
+- grasp
+- push
+- flip
+- insert
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.4
+device_model:
+- boston_tiago
+end_effector_type: three_claw_gripper

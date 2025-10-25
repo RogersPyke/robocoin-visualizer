@@ -1,0 +1,27 @@
+dataset_name: place_utensil_a_to_fruit_b_3122
+dataset_uuid: 8c299000-f898-4bb3-bc68-9a5565930182
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_fruit_b
+scene_type:
+- office
+- restaurant
+atomic_actions:
+- lift
+- lower
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 81.5
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

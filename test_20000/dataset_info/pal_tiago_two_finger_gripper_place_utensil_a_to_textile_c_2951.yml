@@ -1,0 +1,27 @@
+dataset_name: place_utensil_a_to_textile_c_2951
+dataset_uuid: 4c0bf502-d466-43ca-82dc-45b9dc14eeb2
+task_descriptions:
+- place_the_utensil_a_and_place_in_the_textile_c
+scene_type:
+- laboratory
+- hospital
+atomic_actions:
+- rotate
+- pick
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: utensil_a_sub2
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.7
+device_model:
+- pal_tiago
+end_effector_type: two_finger_gripper

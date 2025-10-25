@@ -1,0 +1,26 @@
+dataset_name: place_beverage_d_to_tool_b_5486
+dataset_uuid: d3f29cb1-08da-4b6e-a9ef-98d0ecf10403
+task_descriptions:
+- place_the_beverage_d_and_place_in_the_tool_b
+scene_type:
+- kitchen
+atomic_actions:
+- rotate
+- grasp
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.7
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

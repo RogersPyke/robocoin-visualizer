@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_c_to_beverage_a_6411
+dataset_uuid: 76f0c8ef-1410-469c-baba-51e5c863f625
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_beverage_a
+scene_type:
+- office
+- store
+atomic_actions:
+- pull
+- place
+- push
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

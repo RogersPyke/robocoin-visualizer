@@ -1,0 +1,26 @@
+dataset_name: place_toy_c_to_container_b_3536
+dataset_uuid: ab64f89d-b8f9-49a4-9e37-6f5d8995caca
+task_descriptions:
+- place_the_toy_c_and_place_in_the_container_b
+scene_type:
+- warehouse
+atomic_actions:
+- place
+- slide
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.7
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: move_furniture_e_to_furniture_a_4142
+dataset_uuid: 98dae3dd-d19e-4d73-bfba-40d9478fb3e5
+task_descriptions:
+- move_the_furniture_e_and_place_in_the_furniture_a
+scene_type:
+- hospital
+atomic_actions:
+- push
+- rotate
+- place
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: furniture_a_sub1
+  level4: furniture_a_sub2
+  level5: null
+operation_platform_height: 84.5
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

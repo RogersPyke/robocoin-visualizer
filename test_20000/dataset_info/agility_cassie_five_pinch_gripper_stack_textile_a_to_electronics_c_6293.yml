@@ -1,0 +1,29 @@
+dataset_name: stack_textile_a_to_electronics_c_6293
+dataset_uuid: e841eb1f-a5a9-47d7-a9d3-bb1fc1f7d33f
+task_descriptions:
+- stack_the_textile_a_and_place_in_the_electronics_c
+scene_type:
+- store
+- restaurant
+- home
+atomic_actions:
+- lower
+- place
+- pick
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

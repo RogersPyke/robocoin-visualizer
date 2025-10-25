@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_c_to_furniture_e_7903
+dataset_uuid: d2b96fe0-2c48-4995-8ecf-ffdd8359a562
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_furniture_e
+scene_type:
+- cafe
+- store
+- restaurant
+atomic_actions:
+- grasp
+- push
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+operation_platform_height: 89.9
+device_model:
+- pal_freight
+end_effector_type: three_jaw_gripper

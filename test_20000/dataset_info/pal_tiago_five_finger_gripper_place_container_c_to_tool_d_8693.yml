@@ -1,0 +1,30 @@
+dataset_name: place_container_c_to_tool_d_8693
+dataset_uuid: 228fa740-765f-4f52-badc-117472bdb885
+task_descriptions:
+- place_the_container_c_and_place_in_the_tool_d
+scene_type:
+- factory
+- kitchen
+- cafe
+atomic_actions:
+- remove
+- lift
+- pull
+- lower
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- pal_tiago
+end_effector_type: five_finger_gripper

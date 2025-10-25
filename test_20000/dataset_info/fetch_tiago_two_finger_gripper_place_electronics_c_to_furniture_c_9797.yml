@@ -1,0 +1,28 @@
+dataset_name: place_electronics_c_to_furniture_c_9797
+dataset_uuid: 04218d49-ab58-4f5b-a485-dc68a8209b8e
+task_descriptions:
+- place_the_electronics_c_and_place_in_the_furniture_c
+scene_type:
+- cafe
+atomic_actions:
+- push
+- insert
+- place
+- slide
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: furniture_c_sub2
+  level5: null
+operation_platform_height: 76.0
+device_model:
+- fetch_tiago
+end_effector_type: two_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_stationery_b_to_stationery_b_6690
+dataset_uuid: e6b31700-ddbf-4c3e-a76b-0b134e7e76c2
+task_descriptions:
+- place_the_stationery_b_and_place_in_the_stationery_b
+scene_type:
+- home
+- cafe
+atomic_actions:
+- pull
+- flip
+- pick
+- lower
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 78.6
+device_model:
+- clearpath_spot
+end_effector_type: five_finger_gripper

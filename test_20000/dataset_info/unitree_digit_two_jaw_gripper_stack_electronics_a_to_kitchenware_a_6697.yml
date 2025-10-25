@@ -1,0 +1,28 @@
+dataset_name: stack_electronics_a_to_kitchenware_a_6697
+dataset_uuid: 1e3cbf60-1ccf-41f0-a4b2-56e6120ff90a
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_kitchenware_a
+scene_type:
+- laboratory
+- cafe
+- office
+atomic_actions:
+- pull
+- pick
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.4
+device_model:
+- unitree_digit
+end_effector_type: two_jaw_gripper

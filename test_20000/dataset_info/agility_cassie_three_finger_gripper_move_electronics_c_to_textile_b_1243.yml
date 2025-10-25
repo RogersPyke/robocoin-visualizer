@@ -1,0 +1,27 @@
+dataset_name: move_electronics_c_to_textile_b_1243
+dataset_uuid: 010e5357-077a-452c-a5a0-8f30c5f48c8a
+task_descriptions:
+- move_the_electronics_c_and_place_in_the_textile_b
+scene_type:
+- kitchen
+atomic_actions:
+- place
+- push
+- lift
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.6
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

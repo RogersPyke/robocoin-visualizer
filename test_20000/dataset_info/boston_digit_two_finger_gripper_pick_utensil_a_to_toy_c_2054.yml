@@ -1,0 +1,30 @@
+dataset_name: pick_utensil_a_to_toy_c_2054
+dataset_uuid: 91cbdfd2-7225-4d0e-aaa9-7c5d8d68c872
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_toy_c
+scene_type:
+- kitchen
+- hospital
+- store
+atomic_actions:
+- pull
+- remove
+- pick
+- lower
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- boston_digit
+end_effector_type: two_finger_gripper

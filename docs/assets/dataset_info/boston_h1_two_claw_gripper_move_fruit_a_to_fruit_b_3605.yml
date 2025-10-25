@@ -1,0 +1,29 @@
+dataset_name: move_fruit_a_to_fruit_b_3605
+dataset_uuid: 4295a87a-43ec-4754-a8b9-d986b0c71949
+task_descriptions:
+- move_the_fruit_a_and_place_in_the_fruit_b
+scene_type:
+- cafe
+- home
+- office
+atomic_actions:
+- flip
+- pull
+- slide
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- boston_h1
+end_effector_type: two_claw_gripper

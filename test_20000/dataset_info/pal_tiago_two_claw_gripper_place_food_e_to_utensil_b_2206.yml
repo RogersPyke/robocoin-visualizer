@@ -1,0 +1,30 @@
+dataset_name: place_food_e_to_utensil_b_2206
+dataset_uuid: 9368f186-e08f-43fe-aae7-4ae9dd23c3cb
+task_descriptions:
+- place_the_food_e_and_place_in_the_utensil_b
+scene_type:
+- kitchen
+- store
+- cafe
+atomic_actions:
+- pull
+- flip
+- insert
+- rotate
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.1
+device_model:
+- pal_tiago
+end_effector_type: two_claw_gripper

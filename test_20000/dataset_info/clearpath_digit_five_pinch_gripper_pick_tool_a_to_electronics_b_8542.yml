@@ -1,0 +1,28 @@
+dataset_name: pick_tool_a_to_electronics_b_8542
+dataset_uuid: b9899a7f-3930-4a6f-afcd-cb5924eda8f3
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_electronics_b
+scene_type:
+- office
+- kitchen
+- restaurant
+atomic_actions:
+- flip
+- grasp
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.9
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

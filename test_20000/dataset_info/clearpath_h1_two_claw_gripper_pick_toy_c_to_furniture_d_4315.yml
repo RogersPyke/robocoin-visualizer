@@ -1,0 +1,27 @@
+dataset_name: pick_toy_c_to_furniture_d_4315
+dataset_uuid: fce091e4-e698-4f4b-aebd-2b491f40100c
+task_descriptions:
+- pick_the_toy_c_and_place_in_the_furniture_d
+scene_type:
+- store
+atomic_actions:
+- push
+- lower
+- lift
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 89.7
+device_model:
+- clearpath_h1
+end_effector_type: two_claw_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_food_c_to_textile_c_3702
+dataset_uuid: 1e432cae-389a-47eb-b4c2-a9b15bd5f535
+task_descriptions:
+- arrange_the_food_c_and_place_in_the_textile_c
+scene_type:
+- office
+- restaurant
+atomic_actions:
+- pull
+- insert
+- remove
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.9
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

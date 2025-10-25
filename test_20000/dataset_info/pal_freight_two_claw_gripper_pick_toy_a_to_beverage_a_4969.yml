@@ -1,0 +1,27 @@
+dataset_name: pick_toy_a_to_beverage_a_4969
+dataset_uuid: e89fb451-166c-4211-b19e-b2ef5f7f7e9e
+task_descriptions:
+- pick_the_toy_a_and_place_in_the_beverage_a
+scene_type:
+- restaurant
+- warehouse
+atomic_actions:
+- flip
+- lower
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- pal_freight
+end_effector_type: two_claw_gripper

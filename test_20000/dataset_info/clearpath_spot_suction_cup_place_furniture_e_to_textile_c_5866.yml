@@ -1,0 +1,29 @@
+dataset_name: place_furniture_e_to_textile_c_5866
+dataset_uuid: 00ee1159-6208-44dc-83df-d487a799b417
+task_descriptions:
+- place_the_furniture_e_and_place_in_the_textile_c
+scene_type:
+- office
+- home
+- warehouse
+atomic_actions:
+- grasp
+- push
+- place
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- clearpath_spot
+end_effector_type: suction_cup

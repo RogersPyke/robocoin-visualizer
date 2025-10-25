@@ -1,0 +1,27 @@
+dataset_name: arrange_electronics_b_to_food_a_3809
+dataset_uuid: bdff0d8d-e7f1-4c3c-b2a1-3c4dd36616d7
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_food_a
+scene_type:
+- hospital
+- home
+atomic_actions:
+- pull
+- rotate
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.4
+device_model:
+- clearpath_h1
+end_effector_type: five_finger_gripper

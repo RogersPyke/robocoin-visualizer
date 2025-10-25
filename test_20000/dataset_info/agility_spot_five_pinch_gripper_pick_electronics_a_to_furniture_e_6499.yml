@@ -1,0 +1,26 @@
+dataset_name: pick_electronics_a_to_furniture_e_6499
+dataset_uuid: 2ca09d82-8963-4db1-8d63-d3bbd4055465
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_furniture_e
+scene_type:
+- warehouse
+atomic_actions:
+- rotate
+- push
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.8
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

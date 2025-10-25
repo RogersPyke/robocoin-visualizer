@@ -1,0 +1,27 @@
+dataset_name: place_textile_a_to_food_e_7672
+dataset_uuid: 2f2e4042-a3aa-4b4c-b44f-128f5908c9a5
+task_descriptions:
+- place_the_textile_a_and_place_in_the_food_e
+scene_type:
+- hospital
+- restaurant
+atomic_actions:
+- grasp
+- insert
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.5
+device_model:
+- boston_digit
+end_effector_type: five_finger_gripper

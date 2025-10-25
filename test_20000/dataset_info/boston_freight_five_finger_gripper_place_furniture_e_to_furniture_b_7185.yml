@@ -1,0 +1,26 @@
+dataset_name: place_furniture_e_to_furniture_b_7185
+dataset_uuid: 4128f71a-e620-4a4b-9120-14460f91033d
+task_descriptions:
+- place_the_furniture_e_and_place_in_the_furniture_b
+scene_type:
+- store
+atomic_actions:
+- remove
+- lift
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.9
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

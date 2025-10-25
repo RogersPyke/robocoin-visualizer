@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_b_to_electronics_a_7119
+dataset_uuid: 46ff5675-7eae-4c18-9738-fc757084adb0
+task_descriptions:
+- pick_the_furniture_b_and_place_in_the_electronics_a
+scene_type:
+- office
+atomic_actions:
+- lift
+- pick
+- pull
+- lower
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.4
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

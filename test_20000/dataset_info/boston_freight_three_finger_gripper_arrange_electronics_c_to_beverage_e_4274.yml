@@ -1,0 +1,26 @@
+dataset_name: arrange_electronics_c_to_beverage_e_4274
+dataset_uuid: ce860314-29e7-49fb-9851-2cf8f77c5c6d
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_beverage_e
+scene_type:
+- laboratory
+atomic_actions:
+- push
+- pick
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.7
+device_model:
+- boston_freight
+end_effector_type: three_finger_gripper

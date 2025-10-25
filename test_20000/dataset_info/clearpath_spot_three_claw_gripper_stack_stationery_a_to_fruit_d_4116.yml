@@ -1,0 +1,27 @@
+dataset_name: stack_stationery_a_to_fruit_d_4116
+dataset_uuid: df86b213-41af-4d9a-bf20-0e9336cd7254
+task_descriptions:
+- stack_the_stationery_a_and_place_in_the_fruit_d
+scene_type:
+- store
+atomic_actions:
+- flip
+- grasp
+- push
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+operation_platform_height: 79.7
+device_model:
+- clearpath_spot
+end_effector_type: three_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: move_food_d_to_textile_b_2457
+dataset_uuid: 247cd691-cea1-41b5-bcb5-5a8cc09775e4
+task_descriptions:
+- move_the_food_d_and_place_in_the_textile_b
+scene_type:
+- restaurant
+- laboratory
+atomic_actions:
+- place
+- lower
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

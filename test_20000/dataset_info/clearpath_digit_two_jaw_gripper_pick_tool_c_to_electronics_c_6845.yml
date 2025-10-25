@@ -1,0 +1,29 @@
+dataset_name: pick_tool_c_to_electronics_c_6845
+dataset_uuid: 89194313-f493-40dd-a8fa-668e1f94ef6b
+task_descriptions:
+- pick_the_tool_c_and_place_in_the_electronics_c
+scene_type:
+- warehouse
+- kitchen
+- store
+atomic_actions:
+- push
+- pull
+- place
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: tool_c_sub2
+  level5: null
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

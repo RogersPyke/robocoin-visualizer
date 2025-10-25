@@ -1,0 +1,29 @@
+dataset_name: pick_beverage_b_to_textile_d_8989
+dataset_uuid: 0a2e0ddb-497b-4736-ad3e-04612a6bd35e
+task_descriptions:
+- pick_the_beverage_b_and_place_in_the_textile_d
+scene_type:
+- office
+- warehouse
+- factory
+atomic_actions:
+- slide
+- grasp
+- remove
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 85.8
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

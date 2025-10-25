@@ -1,0 +1,28 @@
+dataset_name: pick_kitchenware_c_to_kitchenware_b_3382
+dataset_uuid: 36fb9a7c-676f-47e8-b6f6-f8d73b4b442d
+task_descriptions:
+- pick_the_kitchenware_c_and_place_in_the_kitchenware_b
+scene_type:
+- cafe
+atomic_actions:
+- push
+- lift
+- lower
+- grasp
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 81.8
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_c_to_furniture_e_6580
+dataset_uuid: 9f33ad67-bc8b-468c-93cc-86bc78083f56
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_furniture_e
+scene_type:
+- kitchen
+- hospital
+atomic_actions:
+- lower
+- lift
+- flip
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

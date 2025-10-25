@@ -1,0 +1,26 @@
+dataset_name: stack_fruit_c_to_beverage_d_4934
+dataset_uuid: 61e6cb20-d644-4d7c-b93d-7ed4ce991be4
+task_descriptions:
+- stack_the_fruit_c_and_place_in_the_beverage_d
+scene_type:
+- home
+atomic_actions:
+- rotate
+- lower
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

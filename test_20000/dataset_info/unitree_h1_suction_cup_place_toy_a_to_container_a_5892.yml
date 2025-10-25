@@ -1,0 +1,27 @@
+dataset_name: place_toy_a_to_container_a_5892
+dataset_uuid: 95586cbe-2ee6-45a7-be18-e813fc70f53a
+task_descriptions:
+- place_the_toy_a_and_place_in_the_container_a
+scene_type:
+- store
+- cafe
+atomic_actions:
+- pick
+- insert
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- unitree_h1
+end_effector_type: suction_cup

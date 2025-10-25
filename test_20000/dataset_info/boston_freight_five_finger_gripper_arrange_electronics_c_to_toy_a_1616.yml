@@ -1,0 +1,29 @@
+dataset_name: arrange_electronics_c_to_toy_a_1616
+dataset_uuid: e07cfcda-5e3c-497e-b48c-370b074184fc
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_toy_a
+scene_type:
+- office
+- cafe
+- restaurant
+atomic_actions:
+- push
+- insert
+- rotate
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- boston_freight
+end_effector_type: five_finger_gripper

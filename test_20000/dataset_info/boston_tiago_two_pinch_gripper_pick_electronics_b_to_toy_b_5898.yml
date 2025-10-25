@@ -1,0 +1,26 @@
+dataset_name: pick_electronics_b_to_toy_b_5898
+dataset_uuid: 3b6cdce5-be4e-43a8-a839-ec405cb5523d
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_toy_b
+scene_type:
+- store
+atomic_actions:
+- insert
+- pick
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

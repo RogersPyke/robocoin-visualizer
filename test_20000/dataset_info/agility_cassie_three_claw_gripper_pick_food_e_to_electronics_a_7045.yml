@@ -1,0 +1,28 @@
+dataset_name: pick_food_e_to_electronics_a_7045
+dataset_uuid: c7b91c08-a7d1-48e9-a0a3-7966cb8b7f56
+task_descriptions:
+- pick_the_food_e_and_place_in_the_electronics_a
+scene_type:
+- factory
+- warehouse
+atomic_actions:
+- place
+- pull
+- pick
+objects:
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.4
+device_model:
+- agility_cassie
+end_effector_type: three_claw_gripper

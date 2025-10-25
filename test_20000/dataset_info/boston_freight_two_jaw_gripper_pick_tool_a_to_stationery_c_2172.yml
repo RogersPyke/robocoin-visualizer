@@ -1,0 +1,28 @@
+dataset_name: pick_tool_a_to_stationery_c_2172
+dataset_uuid: bd293232-c3e5-40af-9c53-6622070a63aa
+task_descriptions:
+- pick_the_tool_a_and_place_in_the_stationery_c
+scene_type:
+- warehouse
+atomic_actions:
+- slide
+- rotate
+- remove
+- pick
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.4
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

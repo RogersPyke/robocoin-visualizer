@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_c_to_furniture_c_1193
+dataset_uuid: 3a3dd49e-e6f0-4c14-bb0f-8d61e25ba642
+task_descriptions:
+- pick_the_fruit_c_and_place_in_the_furniture_c
+scene_type:
+- warehouse
+- cafe
+- restaurant
+atomic_actions:
+- grasp
+- slide
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.8
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_toy_b_to_toy_c_4362
+dataset_uuid: 234076a3-ae1b-4739-bda8-e62cab43e022
+task_descriptions:
+- pick_the_toy_b_and_place_in_the_toy_c
+scene_type:
+- home
+- cafe
+atomic_actions:
+- rotate
+- pull
+- pick
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 85.9
+device_model:
+- pal_freight
+end_effector_type: two_jaw_gripper

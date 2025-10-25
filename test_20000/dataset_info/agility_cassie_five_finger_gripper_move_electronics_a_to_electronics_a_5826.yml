@@ -1,0 +1,26 @@
+dataset_name: move_electronics_a_to_electronics_a_5826
+dataset_uuid: 532df032-e444-48a0-831e-500aba41b80a
+task_descriptions:
+- move_the_electronics_a_and_place_in_the_electronics_a
+scene_type:
+- store
+atomic_actions:
+- pull
+- lift
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- agility_cassie
+end_effector_type: five_finger_gripper

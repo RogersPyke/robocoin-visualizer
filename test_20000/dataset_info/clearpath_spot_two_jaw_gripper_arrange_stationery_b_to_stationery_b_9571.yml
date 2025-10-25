@@ -1,0 +1,29 @@
+dataset_name: arrange_stationery_b_to_stationery_b_9571
+dataset_uuid: 2058a7e1-5eed-49f0-9ed5-70bbc1b806ad
+task_descriptions:
+- arrange_the_stationery_b_and_place_in_the_stationery_b
+scene_type:
+- kitchen
+- laboratory
+- factory
+atomic_actions:
+- lift
+- place
+- pick
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.9
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

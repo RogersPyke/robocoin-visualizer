@@ -1,0 +1,28 @@
+dataset_name: place_textile_b_to_furniture_b_5346
+dataset_uuid: 1f34b0ff-1fd2-4b85-9db8-9bd2009b2acd
+task_descriptions:
+- place_the_textile_b_and_place_in_the_furniture_b
+scene_type:
+- cafe
+- home
+- factory
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

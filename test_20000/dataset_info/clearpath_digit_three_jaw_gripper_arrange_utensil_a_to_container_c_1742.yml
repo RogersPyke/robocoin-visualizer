@@ -1,0 +1,27 @@
+dataset_name: arrange_utensil_a_to_container_c_1742
+dataset_uuid: 9408a986-f05d-4fb3-82d7-747d48383cf6
+task_descriptions:
+- arrange_the_utensil_a_and_place_in_the_container_c
+scene_type:
+- restaurant
+atomic_actions:
+- lower
+- pull
+- remove
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.8
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

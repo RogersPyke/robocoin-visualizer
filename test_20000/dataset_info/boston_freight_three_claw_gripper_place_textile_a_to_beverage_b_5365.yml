@@ -1,0 +1,26 @@
+dataset_name: place_textile_a_to_beverage_b_5365
+dataset_uuid: 33d4c59b-7f0e-4ec6-9d3c-622e50b2e9fd
+task_descriptions:
+- place_the_textile_a_and_place_in_the_beverage_b
+scene_type:
+- store
+atomic_actions:
+- rotate
+- grasp
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.6
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

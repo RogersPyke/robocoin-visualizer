@@ -1,0 +1,29 @@
+dataset_name: pick_electronics_c_to_textile_e_4786
+dataset_uuid: 3a14de61-5e2e-4525-8499-92291b133276
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_textile_e
+scene_type:
+- warehouse
+- office
+atomic_actions:
+- place
+- remove
+- slide
+- lift
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: textile_e
+  level3: textile_e_sub1
+  level4: textile_e_sub2
+  level5: null
+operation_platform_height: 81.8
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

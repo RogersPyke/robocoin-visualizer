@@ -1,0 +1,26 @@
+dataset_name: arrange_beverage_c_to_furniture_c_1086
+dataset_uuid: 93374782-0e21-4659-aab1-7c47269066fd
+task_descriptions:
+- arrange_the_beverage_c_and_place_in_the_furniture_c
+scene_type:
+- kitchen
+atomic_actions:
+- rotate
+- place
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: beverage_c_sub1
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- unitree_cassie
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: stack_tool_c_to_textile_c_9027
+dataset_uuid: 6ccc2f85-92fa-4321-ad3e-21f60a7aee00
+task_descriptions:
+- stack_the_tool_c_and_place_in_the_textile_c
+scene_type:
+- home
+atomic_actions:
+- rotate
+- place
+- remove
+- lift
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 82.5
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

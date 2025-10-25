@@ -1,0 +1,27 @@
+dataset_name: stack_fruit_d_to_beverage_d_9539
+dataset_uuid: 2d92c39d-3730-4131-b1ab-d4624ff29338
+task_descriptions:
+- stack_the_fruit_d_and_place_in_the_beverage_d
+scene_type:
+- warehouse
+atomic_actions:
+- place
+- rotate
+- grasp
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.1
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

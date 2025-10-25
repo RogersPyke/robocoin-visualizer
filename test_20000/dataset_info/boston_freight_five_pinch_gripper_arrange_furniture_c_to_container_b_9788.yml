@@ -1,0 +1,28 @@
+dataset_name: arrange_furniture_c_to_container_b_9788
+dataset_uuid: eadf9a17-101b-4d93-8dd5-4cb9c1ec3b42
+task_descriptions:
+- arrange_the_furniture_c_and_place_in_the_container_b
+scene_type:
+- factory
+atomic_actions:
+- rotate
+- grasp
+- insert
+- slide
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 90.0
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

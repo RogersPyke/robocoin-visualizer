@@ -1,0 +1,27 @@
+dataset_name: stack_container_a_to_furniture_b_1650
+dataset_uuid: 411bd44e-7bba-4c07-a968-56a7795ac47c
+task_descriptions:
+- stack_the_container_a_and_place_in_the_furniture_b
+scene_type:
+- factory
+atomic_actions:
+- place
+- push
+- lift
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.1
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

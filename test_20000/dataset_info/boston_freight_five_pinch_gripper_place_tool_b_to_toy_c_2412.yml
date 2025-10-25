@@ -1,0 +1,26 @@
+dataset_name: place_tool_b_to_toy_c_2412
+dataset_uuid: 04a5c468-3018-4cdd-99c0-66b702ebb68f
+task_descriptions:
+- place_the_tool_b_and_place_in_the_toy_c
+scene_type:
+- laboratory
+atomic_actions:
+- lift
+- pick
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

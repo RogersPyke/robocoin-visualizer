@@ -1,0 +1,28 @@
+dataset_name: arrange_fruit_d_to_stationery_a_1456
+dataset_uuid: 7bcf2e86-7369-48ed-bcbf-da554efcb4a3
+task_descriptions:
+- arrange_the_fruit_d_and_place_in_the_stationery_a
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- push
+- place
+- flip
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.9
+device_model:
+- unitree_digit
+end_effector_type: five_finger_gripper

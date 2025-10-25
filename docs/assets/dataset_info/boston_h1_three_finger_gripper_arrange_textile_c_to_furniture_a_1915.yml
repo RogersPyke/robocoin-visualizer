@@ -1,0 +1,30 @@
+dataset_name: arrange_textile_c_to_furniture_a_1915
+dataset_uuid: a17982d9-58af-4e6d-a3cd-35bd54019ba7
+task_descriptions:
+- arrange_the_textile_c_and_place_in_the_furniture_a
+scene_type:
+- laboratory
+- office
+- restaurant
+atomic_actions:
+- lower
+- pull
+- rotate
+- pick
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.8
+device_model:
+- boston_h1
+end_effector_type: three_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_electronics_c_to_kitchenware_b_3693
+dataset_uuid: 9d271397-db9f-4b80-9e22-5452db74d83d
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_kitchenware_b
+scene_type:
+- laboratory
+- factory
+atomic_actions:
+- remove
+- lift
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.4
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,29 @@
+dataset_name: arrange_tool_b_to_stationery_a_2471
+dataset_uuid: 3d5c00c1-1d85-4e62-bab6-f4f8689fea59
+task_descriptions:
+- arrange_the_tool_b_and_place_in_the_stationery_a
+scene_type:
+- home
+- hospital
+- cafe
+atomic_actions:
+- slide
+- grasp
+- rotate
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: tool_b_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- boston_tiago
+end_effector_type: two_jaw_gripper

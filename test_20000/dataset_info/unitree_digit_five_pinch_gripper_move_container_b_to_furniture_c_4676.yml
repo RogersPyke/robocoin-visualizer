@@ -1,0 +1,28 @@
+dataset_name: move_container_b_to_furniture_c_4676
+dataset_uuid: 4d3187f1-f6c7-4642-8ced-9a3c444b4903
+task_descriptions:
+- move_the_container_b_and_place_in_the_furniture_c
+scene_type:
+- restaurant
+atomic_actions:
+- lift
+- remove
+- pull
+- place
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.9
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

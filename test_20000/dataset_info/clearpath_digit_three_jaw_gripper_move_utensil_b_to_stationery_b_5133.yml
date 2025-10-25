@@ -1,0 +1,27 @@
+dataset_name: move_utensil_b_to_stationery_b_5133
+dataset_uuid: 00deafe1-45ce-4d6a-962e-83277c3ad8be
+task_descriptions:
+- move_the_utensil_b_and_place_in_the_stationery_b
+scene_type:
+- factory
+atomic_actions:
+- insert
+- lower
+- lift
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- clearpath_digit
+end_effector_type: three_jaw_gripper

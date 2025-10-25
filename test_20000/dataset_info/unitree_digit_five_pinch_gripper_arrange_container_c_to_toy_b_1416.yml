@@ -1,0 +1,29 @@
+dataset_name: arrange_container_c_to_toy_b_1416
+dataset_uuid: 4472d0f8-e1f1-4a5a-b20e-b8cad1cc8550
+task_descriptions:
+- arrange_the_container_c_and_place_in_the_toy_b
+scene_type:
+- factory
+- kitchen
+atomic_actions:
+- lower
+- push
+- place
+- flip
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

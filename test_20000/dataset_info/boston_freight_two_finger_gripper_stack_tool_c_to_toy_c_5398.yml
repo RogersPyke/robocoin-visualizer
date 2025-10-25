@@ -1,0 +1,28 @@
+dataset_name: stack_tool_c_to_toy_c_5398
+dataset_uuid: 4ecc4f25-ff93-46c8-a0f8-2ec47a33ee46
+task_descriptions:
+- stack_the_tool_c_and_place_in_the_toy_c
+scene_type:
+- factory
+- store
+- restaurant
+atomic_actions:
+- insert
+- remove
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

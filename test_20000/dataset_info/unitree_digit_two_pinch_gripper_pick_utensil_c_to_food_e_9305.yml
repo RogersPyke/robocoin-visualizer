@@ -1,0 +1,29 @@
+dataset_name: pick_utensil_c_to_food_e_9305
+dataset_uuid: 4d1c1e90-deb2-4e96-9af8-d0a89b0225ff
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_food_e
+scene_type:
+- factory
+- kitchen
+atomic_actions:
+- rotate
+- grasp
+- lift
+- place
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

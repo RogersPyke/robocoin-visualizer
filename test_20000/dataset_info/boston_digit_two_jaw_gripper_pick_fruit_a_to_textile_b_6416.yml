@@ -1,0 +1,26 @@
+dataset_name: pick_fruit_a_to_textile_b_6416
+dataset_uuid: 93d65691-8add-4b00-8dc7-57184929451d
+task_descriptions:
+- pick_the_fruit_a_and_place_in_the_textile_b
+scene_type:
+- warehouse
+atomic_actions:
+- rotate
+- flip
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.5
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

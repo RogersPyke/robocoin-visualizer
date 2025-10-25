@@ -1,0 +1,30 @@
+dataset_name: pick_electronics_a_to_fruit_c_3330
+dataset_uuid: 1404d0da-0961-4cbd-8aaf-ec57cbf0c953
+task_descriptions:
+- pick_the_electronics_a_and_place_in_the_fruit_c
+scene_type:
+- home
+- factory
+- warehouse
+atomic_actions:
+- lower
+- lift
+- grasp
+- insert
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 75.8
+device_model:
+- clearpath_h1
+end_effector_type: two_jaw_gripper

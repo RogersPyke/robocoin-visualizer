@@ -1,0 +1,30 @@
+dataset_name: place_tool_b_to_utensil_b_5364
+dataset_uuid: f1587761-c575-4eb3-b20e-ed3ab236d26a
+task_descriptions:
+- place_the_tool_b_and_place_in_the_utensil_b
+scene_type:
+- store
+- restaurant
+- hospital
+atomic_actions:
+- remove
+- insert
+- rotate
+- place
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+operation_platform_height: 85.7
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

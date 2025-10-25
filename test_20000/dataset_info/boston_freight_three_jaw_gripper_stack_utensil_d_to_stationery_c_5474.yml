@@ -1,0 +1,28 @@
+dataset_name: stack_utensil_d_to_stationery_c_5474
+dataset_uuid: 9086e57c-7939-4611-87b5-bc3ff7ab3205
+task_descriptions:
+- stack_the_utensil_d_and_place_in_the_stationery_c
+scene_type:
+- home
+- warehouse
+- kitchen
+atomic_actions:
+- rotate
+- pick
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: stationery_c_sub1
+  level4: stationery_c_sub2
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

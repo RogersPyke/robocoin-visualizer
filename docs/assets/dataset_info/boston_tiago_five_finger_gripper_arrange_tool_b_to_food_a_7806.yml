@@ -1,0 +1,27 @@
+dataset_name: arrange_tool_b_to_food_a_7806
+dataset_uuid: abfb1c33-b653-4456-b2e7-6ff4da09b7bf
+task_descriptions:
+- arrange_the_tool_b_and_place_in_the_food_a
+scene_type:
+- home
+atomic_actions:
+- grasp
+- place
+- rotate
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.0
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

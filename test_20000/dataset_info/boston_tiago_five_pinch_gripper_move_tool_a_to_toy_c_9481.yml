@@ -1,0 +1,28 @@
+dataset_name: move_tool_a_to_toy_c_9481
+dataset_uuid: d836d083-5d0a-4c68-be2d-e11d34e90d20
+task_descriptions:
+- move_the_tool_a_and_place_in_the_toy_c
+scene_type:
+- laboratory
+- restaurant
+- factory
+atomic_actions:
+- rotate
+- grasp
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 73.3
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

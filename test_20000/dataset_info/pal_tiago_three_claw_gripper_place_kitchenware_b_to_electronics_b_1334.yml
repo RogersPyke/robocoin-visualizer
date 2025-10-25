@@ -1,0 +1,30 @@
+dataset_name: place_kitchenware_b_to_electronics_b_1334
+dataset_uuid: 432adb84-185a-499e-b7e2-3e7d29926a7e
+task_descriptions:
+- place_the_kitchenware_b_and_place_in_the_electronics_b
+scene_type:
+- cafe
+- office
+- home
+atomic_actions:
+- flip
+- slide
+- push
+- pull
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: kitchenware_b_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- pal_tiago
+end_effector_type: three_claw_gripper

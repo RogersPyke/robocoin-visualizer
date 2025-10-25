@@ -1,0 +1,30 @@
+dataset_name: arrange_stationery_b_to_toy_c_7133
+dataset_uuid: aee905c8-ad2b-435b-a73c-bff90950fc37
+task_descriptions:
+- arrange_the_stationery_b_and_place_in_the_toy_c
+scene_type:
+- warehouse
+- factory
+- laboratory
+atomic_actions:
+- place
+- remove
+- slide
+- pull
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: toy_c_sub2
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

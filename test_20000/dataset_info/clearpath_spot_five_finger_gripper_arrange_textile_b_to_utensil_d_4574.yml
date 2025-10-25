@@ -1,0 +1,27 @@
+dataset_name: arrange_textile_b_to_utensil_d_4574
+dataset_uuid: 521e0a43-8301-4afb-90d3-e258eb7a10e4
+task_descriptions:
+- arrange_the_textile_b_and_place_in_the_utensil_d
+scene_type:
+- factory
+atomic_actions:
+- grasp
+- lift
+- push
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- clearpath_spot
+end_effector_type: five_finger_gripper

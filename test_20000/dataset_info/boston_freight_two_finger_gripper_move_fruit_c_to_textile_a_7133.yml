@@ -1,0 +1,28 @@
+dataset_name: move_fruit_c_to_textile_a_7133
+dataset_uuid: 1afc074d-46df-40eb-831d-ad77cdaa6e80
+task_descriptions:
+- move_the_fruit_c_and_place_in_the_textile_a
+scene_type:
+- store
+- kitchen
+- warehouse
+atomic_actions:
+- grasp
+- pick
+objects:
+- object_name: fruit_c
+  level1: fruit
+  level2: fruit_c
+  level3: fruit_c_sub1
+  level4: null
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.9
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

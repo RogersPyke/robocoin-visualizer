@@ -1,0 +1,29 @@
+dataset_name: stack_beverage_a_to_food_a_2208
+dataset_uuid: b9e540d2-e0a3-44ab-b99a-d10c29f46cd4
+task_descriptions:
+- stack_the_beverage_a_and_place_in_the_food_a
+scene_type:
+- cafe
+- home
+- office
+atomic_actions:
+- push
+- pick
+- pull
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+operation_platform_height: 74.1
+device_model:
+- boston_h1
+end_effector_type: three_jaw_gripper

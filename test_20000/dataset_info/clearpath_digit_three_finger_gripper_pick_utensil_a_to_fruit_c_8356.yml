@@ -1,0 +1,30 @@
+dataset_name: pick_utensil_a_to_fruit_c_8356
+dataset_uuid: 26f32f31-0364-463b-aa6f-08eff9dc195e
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_fruit_c
+scene_type:
+- kitchen
+- warehouse
+- cafe
+atomic_actions:
+- lift
+- place
+- rotate
+- flip
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_c
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.5
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

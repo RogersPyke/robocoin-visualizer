@@ -1,0 +1,30 @@
+dataset_name: stack_kitchenware_c_to_electronics_b_1501
+dataset_uuid: 55566086-fd05-4c19-9c71-c9b10a725770
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_electronics_b
+scene_type:
+- hospital
+- home
+- office
+atomic_actions:
+- pick
+- remove
+- grasp
+- insert
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.0
+device_model:
+- clearpath_h1
+end_effector_type: five_claw_gripper

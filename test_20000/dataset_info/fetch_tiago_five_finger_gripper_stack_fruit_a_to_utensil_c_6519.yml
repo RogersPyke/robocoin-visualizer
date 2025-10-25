@@ -1,0 +1,26 @@
+dataset_name: stack_fruit_a_to_utensil_c_6519
+dataset_uuid: b84b5ffd-480c-4ddb-b843-c59d59210f0f
+task_descriptions:
+- stack_the_fruit_a_and_place_in_the_utensil_c
+scene_type:
+- laboratory
+atomic_actions:
+- flip
+- pull
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- fetch_tiago
+end_effector_type: five_finger_gripper

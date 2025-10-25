@@ -1,0 +1,28 @@
+dataset_name: place_fruit_e_to_kitchenware_a_3482
+dataset_uuid: d73e8e81-2c52-49f0-976d-29d42d4e66ce
+task_descriptions:
+- place_the_fruit_e_and_place_in_the_kitchenware_a
+scene_type:
+- home
+- restaurant
+atomic_actions:
+- rotate
+- lift
+- remove
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.1
+device_model:
+- unitree_h1
+end_effector_type: three_finger_gripper

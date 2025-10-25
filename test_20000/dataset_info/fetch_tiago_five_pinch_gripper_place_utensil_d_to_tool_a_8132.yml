@@ -1,0 +1,28 @@
+dataset_name: place_utensil_d_to_tool_a_8132
+dataset_uuid: 212e5763-d83f-46a7-b1f3-c688ad98dfc5
+task_descriptions:
+- place_the_utensil_d_and_place_in_the_tool_a
+scene_type:
+- warehouse
+- factory
+- restaurant
+atomic_actions:
+- rotate
+- lift
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+operation_platform_height: 70.4
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

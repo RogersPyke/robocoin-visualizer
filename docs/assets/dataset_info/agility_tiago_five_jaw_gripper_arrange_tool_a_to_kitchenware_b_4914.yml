@@ -1,0 +1,28 @@
+dataset_name: arrange_tool_a_to_kitchenware_b_4914
+dataset_uuid: 276a7c0b-5092-4d5a-8d0e-17a88dabbb9f
+task_descriptions:
+- arrange_the_tool_a_and_place_in_the_kitchenware_b
+scene_type:
+- cafe
+- hospital
+- home
+atomic_actions:
+- grasp
+- insert
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: tool_a_sub2
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- agility_tiago
+end_effector_type: five_jaw_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_utensil_c_to_electronics_a_2114
+dataset_uuid: 04c309bb-3971-4778-b93a-1dd1ad1bfc5b
+task_descriptions:
+- pick_the_utensil_c_and_place_in_the_electronics_a
+scene_type:
+- laboratory
+- warehouse
+atomic_actions:
+- push
+- slide
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- agility_cassie
+end_effector_type: three_finger_gripper

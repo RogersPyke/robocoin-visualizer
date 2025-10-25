@@ -1,0 +1,27 @@
+dataset_name: move_furniture_e_to_food_c_6404
+dataset_uuid: 607a6ebc-9ea4-4518-856b-0543a2bbd852
+task_descriptions:
+- move_the_furniture_e_and_place_in_the_food_c
+scene_type:
+- laboratory
+atomic_actions:
+- lower
+- pull
+- remove
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: food_c_sub1
+  level4: food_c_sub2
+  level5: null
+operation_platform_height: 78.9
+device_model:
+- clearpath_digit
+end_effector_type: five_pinch_gripper

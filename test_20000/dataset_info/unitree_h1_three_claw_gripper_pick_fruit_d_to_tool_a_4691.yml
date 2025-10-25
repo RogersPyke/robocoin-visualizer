@@ -1,0 +1,26 @@
+dataset_name: pick_fruit_d_to_tool_a_4691
+dataset_uuid: 5f78a36d-7d72-4a1b-a6cb-d0df24f03bf2
+task_descriptions:
+- pick_the_fruit_d_and_place_in_the_tool_a
+scene_type:
+- laboratory
+atomic_actions:
+- place
+- grasp
+objects:
+- object_name: fruit_d
+  level1: fruit
+  level2: fruit_d
+  level3: fruit_d_sub1
+  level4: fruit_d_sub2
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.1
+device_model:
+- unitree_h1
+end_effector_type: three_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_food_b_to_food_e_1823
+dataset_uuid: f2bfd423-087b-4dcb-aa56-a1090253be71
+task_descriptions:
+- arrange_the_food_b_and_place_in_the_food_e
+scene_type:
+- cafe
+atomic_actions:
+- place
+- push
+- insert
+objects:
+- object_name: food_b
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.1
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

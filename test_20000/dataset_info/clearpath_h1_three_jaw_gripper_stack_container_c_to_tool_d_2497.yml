@@ -1,0 +1,28 @@
+dataset_name: stack_container_c_to_tool_d_2497
+dataset_uuid: 7fa50e3e-ef97-494f-aaa0-73f20e7d9604
+task_descriptions:
+- stack_the_container_c_and_place_in_the_tool_d
+scene_type:
+- cafe
+atomic_actions:
+- grasp
+- remove
+- place
+- slide
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.2
+device_model:
+- clearpath_h1
+end_effector_type: three_jaw_gripper

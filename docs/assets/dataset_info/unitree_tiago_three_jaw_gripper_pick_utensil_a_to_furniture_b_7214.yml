@@ -1,0 +1,26 @@
+dataset_name: pick_utensil_a_to_furniture_b_7214
+dataset_uuid: 479165eb-11f4-40f3-8d14-479a8fdb1b6c
+task_descriptions:
+- pick_the_utensil_a_and_place_in_the_furniture_b
+scene_type:
+- factory
+atomic_actions:
+- pull
+- grasp
+objects:
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+operation_platform_height: 85.0
+device_model:
+- unitree_tiago
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,26 @@
+dataset_name: place_tool_d_to_textile_c_2933
+dataset_uuid: f5d2e33b-adec-4e0a-9ec8-7afcea2aa121
+task_descriptions:
+- place_the_tool_d_and_place_in_the_textile_c
+scene_type:
+- restaurant
+atomic_actions:
+- flip
+- rotate
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- pal_tiago
+end_effector_type: three_jaw_gripper

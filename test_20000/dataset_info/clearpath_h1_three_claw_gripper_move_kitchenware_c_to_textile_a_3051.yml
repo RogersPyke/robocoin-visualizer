@@ -1,0 +1,28 @@
+dataset_name: move_kitchenware_c_to_textile_a_3051
+dataset_uuid: 91ea988e-1458-43f8-bd24-4842bf0c5b39
+task_descriptions:
+- move_the_kitchenware_c_and_place_in_the_textile_a
+scene_type:
+- restaurant
+- laboratory
+- factory
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: textile_a_sub2
+  level5: null
+operation_platform_height: 88.7
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

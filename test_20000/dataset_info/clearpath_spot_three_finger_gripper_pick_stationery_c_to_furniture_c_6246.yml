@@ -1,0 +1,27 @@
+dataset_name: pick_stationery_c_to_furniture_c_6246
+dataset_uuid: 99356027-244d-4ad2-803f-1860900bcd8b
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_furniture_c
+scene_type:
+- kitchen
+- office
+atomic_actions:
+- remove
+- place
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.2
+device_model:
+- clearpath_spot
+end_effector_type: three_finger_gripper

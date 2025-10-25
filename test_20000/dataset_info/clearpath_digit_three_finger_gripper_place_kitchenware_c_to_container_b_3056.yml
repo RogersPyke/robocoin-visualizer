@@ -1,0 +1,27 @@
+dataset_name: place_kitchenware_c_to_container_b_3056
+dataset_uuid: 7eb987ea-51f5-4127-9930-7289e9b1dd8b
+task_descriptions:
+- place_the_kitchenware_c_and_place_in_the_container_b
+scene_type:
+- cafe
+atomic_actions:
+- rotate
+- pull
+- place
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.3
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

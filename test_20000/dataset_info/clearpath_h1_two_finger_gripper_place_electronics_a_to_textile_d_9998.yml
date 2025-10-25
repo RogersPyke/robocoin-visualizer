@@ -1,0 +1,29 @@
+dataset_name: place_electronics_a_to_textile_d_9998
+dataset_uuid: 9b1cdde2-12d3-4e78-b3da-b0ee5ce4545a
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_textile_d
+scene_type:
+- factory
+- kitchen
+- cafe
+atomic_actions:
+- slide
+- insert
+- lower
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.6
+device_model:
+- clearpath_h1
+end_effector_type: two_finger_gripper

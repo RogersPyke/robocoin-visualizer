@@ -1,0 +1,27 @@
+dataset_name: arrange_kitchenware_a_to_beverage_a_2237
+dataset_uuid: 5d247c76-683c-4442-9d93-639e7cc200bc
+task_descriptions:
+- arrange_the_kitchenware_a_and_place_in_the_beverage_a
+scene_type:
+- laboratory
+- kitchen
+atomic_actions:
+- push
+- grasp
+objects:
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: kitchenware_a_sub1
+  level4: kitchenware_a_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 89.6
+device_model:
+- pal_tiago
+end_effector_type: five_claw_gripper

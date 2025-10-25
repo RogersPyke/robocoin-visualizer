@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_b_to_utensil_d_2023
+dataset_uuid: eb6f6ab3-ca36-4524-9ef7-30e054bd40f8
+task_descriptions:
+- stack_the_furniture_b_and_place_in_the_utensil_d
+scene_type:
+- office
+atomic_actions:
+- pull
+- rotate
+- insert
+- flip
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.3
+device_model:
+- agility_cassie
+end_effector_type: three_jaw_gripper

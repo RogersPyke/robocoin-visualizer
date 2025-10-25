@@ -1,0 +1,28 @@
+dataset_name: place_fruit_e_to_tool_a_3971
+dataset_uuid: 839f1957-aa79-4f4a-923a-19a69b9c97d2
+task_descriptions:
+- place_the_fruit_e_and_place_in_the_tool_a
+scene_type:
+- store
+atomic_actions:
+- push
+- lower
+- flip
+- insert
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

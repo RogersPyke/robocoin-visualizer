@@ -1,0 +1,29 @@
+dataset_name: move_utensil_c_to_textile_d_6918
+dataset_uuid: 542b601d-27be-4b71-a67b-7f2a1272a01c
+task_descriptions:
+- move_the_utensil_c_and_place_in_the_textile_d
+scene_type:
+- warehouse
+- factory
+atomic_actions:
+- rotate
+- push
+- remove
+- slide
+objects:
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.2
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,30 @@
+dataset_name: stack_furniture_c_to_utensil_d_5233
+dataset_uuid: daabb196-812c-44b5-b58f-4d65baa95faa
+task_descriptions:
+- stack_the_furniture_c_and_place_in_the_utensil_d
+scene_type:
+- factory
+- cafe
+- restaurant
+atomic_actions:
+- pull
+- pick
+- flip
+- push
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: furniture_c_sub1
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

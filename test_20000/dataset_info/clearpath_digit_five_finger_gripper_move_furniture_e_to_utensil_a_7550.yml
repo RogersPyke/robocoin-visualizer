@@ -1,0 +1,29 @@
+dataset_name: move_furniture_e_to_utensil_a_7550
+dataset_uuid: 6e8980d5-915f-4e5d-9129-34a07fb04caf
+task_descriptions:
+- move_the_furniture_e_and_place_in_the_utensil_a
+scene_type:
+- laboratory
+- factory
+- hospital
+atomic_actions:
+- insert
+- rotate
+- grasp
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: utensil_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 88.3
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

@@ -1,0 +1,29 @@
+dataset_name: place_electronics_b_to_stationery_a_6652
+dataset_uuid: a544635b-c775-4f56-8f12-1dc0b192a9f6
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_stationery_a
+scene_type:
+- hospital
+- cafe
+- home
+atomic_actions:
+- pull
+- insert
+- flip
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.4
+device_model:
+- unitree_g1
+end_effector_type: two_finger_gripper

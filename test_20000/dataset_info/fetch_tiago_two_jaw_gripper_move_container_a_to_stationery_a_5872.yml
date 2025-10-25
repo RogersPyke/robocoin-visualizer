@@ -1,0 +1,27 @@
+dataset_name: move_container_a_to_stationery_a_5872
+dataset_uuid: 360f753f-4816-47d0-967a-88f2520c9449
+task_descriptions:
+- move_the_container_a_and_place_in_the_stationery_a
+scene_type:
+- cafe
+atomic_actions:
+- grasp
+- pick
+- lift
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: container_a_sub2
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+operation_platform_height: 71.1
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

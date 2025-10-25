@@ -1,0 +1,29 @@
+dataset_name: place_toy_a_to_container_b_7238
+dataset_uuid: a7da8b59-50ab-4a8f-9c57-20a5721834f2
+task_descriptions:
+- place_the_toy_a_and_place_in_the_container_b
+scene_type:
+- kitchen
+- restaurant
+atomic_actions:
+- pick
+- place
+- rotate
+- lower
+objects:
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.1
+device_model:
+- unitree_digit
+end_effector_type: two_finger_gripper

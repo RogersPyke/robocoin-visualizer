@@ -1,0 +1,28 @@
+dataset_name: pick_utensil_b_to_container_b_4829
+dataset_uuid: 9820b998-48b2-4494-a521-73dcebd4ee78
+task_descriptions:
+- pick_the_utensil_b_and_place_in_the_container_b
+scene_type:
+- office
+atomic_actions:
+- lift
+- pull
+- insert
+- lower
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: container_b_sub2
+  level5: null
+operation_platform_height: 79.7
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

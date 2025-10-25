@@ -1,0 +1,28 @@
+dataset_name: pick_stationery_c_to_toy_a_6345
+dataset_uuid: 078cc486-b420-418b-9c2d-d3fd2ab7930d
+task_descriptions:
+- pick_the_stationery_c_and_place_in_the_toy_a
+scene_type:
+- laboratory
+- store
+atomic_actions:
+- lift
+- pick
+- place
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.9
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

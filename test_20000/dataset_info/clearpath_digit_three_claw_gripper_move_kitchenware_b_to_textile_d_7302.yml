@@ -1,0 +1,30 @@
+dataset_name: move_kitchenware_b_to_textile_d_7302
+dataset_uuid: 8607bfdb-2e25-4fd8-ac24-5a705d7bd470
+task_descriptions:
+- move_the_kitchenware_b_and_place_in_the_textile_d
+scene_type:
+- store
+- office
+- laboratory
+atomic_actions:
+- slide
+- lower
+- pull
+- flip
+objects:
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 74.2
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

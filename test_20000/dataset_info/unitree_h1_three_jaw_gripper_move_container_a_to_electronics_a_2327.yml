@@ -1,0 +1,30 @@
+dataset_name: move_container_a_to_electronics_a_2327
+dataset_uuid: 6c36b813-05a6-456b-9f90-96f1a3c3dfb4
+task_descriptions:
+- move_the_container_a_and_place_in_the_electronics_a
+scene_type:
+- restaurant
+- store
+- factory
+atomic_actions:
+- lower
+- insert
+- grasp
+- lift
+objects:
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: electronics_a_sub2
+  level5: null
+operation_platform_height: 81.2
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

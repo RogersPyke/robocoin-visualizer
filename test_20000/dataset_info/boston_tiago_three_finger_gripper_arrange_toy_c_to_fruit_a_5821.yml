@@ -1,0 +1,28 @@
+dataset_name: arrange_toy_c_to_fruit_a_5821
+dataset_uuid: feb4cfeb-b552-4903-ab86-750760fdc854
+task_descriptions:
+- arrange_the_toy_c_and_place_in_the_fruit_a
+scene_type:
+- laboratory
+atomic_actions:
+- rotate
+- slide
+- remove
+- lift
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: toy_c
+  level3: toy_c_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- boston_tiago
+end_effector_type: three_finger_gripper

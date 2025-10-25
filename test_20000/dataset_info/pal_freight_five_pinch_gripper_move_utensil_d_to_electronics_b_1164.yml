@@ -1,0 +1,28 @@
+dataset_name: move_utensil_d_to_electronics_b_1164
+dataset_uuid: 8cb243de-dbef-4d09-a4fc-ff756f4ec4e0
+task_descriptions:
+- move_the_utensil_d_and_place_in_the_electronics_b
+scene_type:
+- office
+- cafe
+atomic_actions:
+- push
+- remove
+- insert
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+operation_platform_height: 82.5
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

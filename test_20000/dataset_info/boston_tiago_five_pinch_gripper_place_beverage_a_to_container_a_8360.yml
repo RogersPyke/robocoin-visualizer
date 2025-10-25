@@ -1,0 +1,28 @@
+dataset_name: place_beverage_a_to_container_a_8360
+dataset_uuid: 8cc45563-a400-4b92-9cef-a4b0ac33639c
+task_descriptions:
+- place_the_beverage_a_and_place_in_the_container_a
+scene_type:
+- hospital
+atomic_actions:
+- pull
+- push
+- grasp
+- slide
+objects:
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 83.6
+device_model:
+- boston_tiago
+end_effector_type: five_pinch_gripper

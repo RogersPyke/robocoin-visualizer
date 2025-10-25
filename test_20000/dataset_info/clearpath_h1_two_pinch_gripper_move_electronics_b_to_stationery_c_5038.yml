@@ -1,0 +1,27 @@
+dataset_name: move_electronics_b_to_stationery_c_5038
+dataset_uuid: 3c1431cb-d983-4271-ad48-287178768d04
+task_descriptions:
+- move_the_electronics_b_and_place_in_the_stationery_c
+scene_type:
+- hospital
+atomic_actions:
+- lift
+- place
+- slide
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: electronics_b_sub2
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- clearpath_h1
+end_effector_type: two_pinch_gripper

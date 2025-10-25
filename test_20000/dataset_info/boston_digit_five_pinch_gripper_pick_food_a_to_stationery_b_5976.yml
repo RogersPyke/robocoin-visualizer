@@ -1,0 +1,28 @@
+dataset_name: pick_food_a_to_stationery_b_5976
+dataset_uuid: 106ba4ab-e720-41da-aaa9-09a4fc0fd6de
+task_descriptions:
+- pick_the_food_a_and_place_in_the_stationery_b
+scene_type:
+- home
+- factory
+- laboratory
+atomic_actions:
+- slide
+- grasp
+objects:
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.5
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

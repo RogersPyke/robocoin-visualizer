@@ -1,0 +1,30 @@
+dataset_name: arrange_beverage_c_to_fruit_b_1166
+dataset_uuid: c782b7b9-c272-4342-b601-23f99ecad453
+task_descriptions:
+- arrange_the_beverage_c_and_place_in_the_fruit_b
+scene_type:
+- factory
+- cafe
+- hospital
+atomic_actions:
+- place
+- insert
+- pick
+- flip
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_b
+  level1: fruit
+  level2: fruit_b
+  level3: fruit_b_sub1
+  level4: fruit_b_sub2
+  level5: null
+operation_platform_height: 86.5
+device_model:
+- agility_h1
+end_effector_type: two_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_beverage_d_to_utensil_b_3181
+dataset_uuid: 87b592e1-f638-4609-9dad-844a55e297a6
+task_descriptions:
+- arrange_the_beverage_d_and_place_in_the_utensil_b
+scene_type:
+- home
+- cafe
+atomic_actions:
+- slide
+- remove
+objects:
+- object_name: beverage_d
+  level1: beverage
+  level2: beverage_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.5
+device_model:
+- unitree_digit
+end_effector_type: three_claw_gripper

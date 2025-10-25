@@ -1,0 +1,29 @@
+dataset_name: move_food_b_to_beverage_b_4175
+dataset_uuid: 26409eea-0417-4a8d-9421-c882f1d31c6f
+task_descriptions:
+- move_the_food_b_and_place_in_the_beverage_b
+scene_type:
+- kitchen
+- restaurant
+- store
+atomic_actions:
+- pull
+- rotate
+- remove
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.1
+device_model:
+- agility_h1
+end_effector_type: five_finger_gripper

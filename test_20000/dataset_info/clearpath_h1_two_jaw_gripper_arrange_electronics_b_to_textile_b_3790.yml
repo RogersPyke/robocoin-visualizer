@@ -1,0 +1,29 @@
+dataset_name: arrange_electronics_b_to_textile_b_3790
+dataset_uuid: d47f1faf-2491-4bca-8afb-cefbc013fa2b
+task_descriptions:
+- arrange_the_electronics_b_and_place_in_the_textile_b
+scene_type:
+- restaurant
+- laboratory
+atomic_actions:
+- insert
+- place
+- remove
+- grasp
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.9
+device_model:
+- clearpath_h1
+end_effector_type: two_jaw_gripper

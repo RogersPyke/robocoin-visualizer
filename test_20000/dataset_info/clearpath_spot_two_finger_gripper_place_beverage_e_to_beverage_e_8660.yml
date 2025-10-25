@@ -1,0 +1,27 @@
+dataset_name: place_beverage_e_to_beverage_e_8660
+dataset_uuid: 7258a00b-8a0e-4614-bfb1-0d6572cdf566
+task_descriptions:
+- place_the_beverage_e_and_place_in_the_beverage_e
+scene_type:
+- laboratory
+- factory
+atomic_actions:
+- remove
+- slide
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.7
+device_model:
+- clearpath_spot
+end_effector_type: two_finger_gripper

@@ -1,0 +1,28 @@
+dataset_name: move_toy_b_to_utensil_b_2361
+dataset_uuid: 7f8c8158-620b-4406-b0d2-ad460d353060
+task_descriptions:
+- move_the_toy_b_and_place_in_the_utensil_b
+scene_type:
+- restaurant
+atomic_actions:
+- place
+- lift
+- flip
+- insert
+objects:
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: toy_b_sub1
+  level4: toy_b_sub2
+  level5: null
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.3
+device_model:
+- clearpath_h1
+end_effector_type: three_finger_gripper

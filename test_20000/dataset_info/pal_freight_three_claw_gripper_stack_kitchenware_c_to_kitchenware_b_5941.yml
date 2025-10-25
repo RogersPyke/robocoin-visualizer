@@ -1,0 +1,26 @@
+dataset_name: stack_kitchenware_c_to_kitchenware_b_5941
+dataset_uuid: 3bcbabac-f89a-40b9-b423-f9ccb0b87a77
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_kitchenware_b
+scene_type:
+- kitchen
+atomic_actions:
+- lower
+- flip
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_b
+  level1: kitchenware
+  level2: kitchenware_b
+  level3: kitchenware_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.3
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

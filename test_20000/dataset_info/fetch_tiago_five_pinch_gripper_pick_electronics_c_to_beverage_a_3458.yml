@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_c_to_beverage_a_3458
+dataset_uuid: e90a77c2-b1d9-418b-8d80-ba9654f5ba92
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_beverage_a
+scene_type:
+- kitchen
+atomic_actions:
+- grasp
+- lower
+- pick
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: beverage_a
+  level1: beverage
+  level2: beverage_a
+  level3: beverage_a_sub1
+  level4: beverage_a_sub2
+  level5: null
+operation_platform_height: 73.5
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

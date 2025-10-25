@@ -1,0 +1,29 @@
+dataset_name: stack_kitchenware_c_to_toy_d_3921
+dataset_uuid: bd946a57-297e-4241-ad3f-ff95708066d7
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_toy_d
+scene_type:
+- factory
+- home
+atomic_actions:
+- insert
+- lift
+- remove
+- pick
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: toy_d
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- clearpath_spot
+end_effector_type: five_claw_gripper

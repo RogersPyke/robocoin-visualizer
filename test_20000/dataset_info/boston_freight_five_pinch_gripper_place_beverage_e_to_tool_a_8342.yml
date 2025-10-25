@@ -1,0 +1,28 @@
+dataset_name: place_beverage_e_to_tool_a_8342
+dataset_uuid: 03f2c5c4-e2fa-4e95-b186-95c29cefc915
+task_descriptions:
+- place_the_beverage_e_and_place_in_the_tool_a
+scene_type:
+- store
+- restaurant
+- home
+atomic_actions:
+- push
+- lower
+objects:
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: null
+  level5: null
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

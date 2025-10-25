@@ -1,0 +1,29 @@
+dataset_name: place_stationery_a_to_food_e_8866
+dataset_uuid: 5e393d29-b8a9-4006-b2f1-4409ca740eed
+task_descriptions:
+- place_the_stationery_a_and_place_in_the_food_e
+scene_type:
+- kitchen
+- hospital
+- store
+atomic_actions:
+- rotate
+- slide
+- lower
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.3
+device_model:
+- agility_spot
+end_effector_type: two_pinch_gripper

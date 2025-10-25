@@ -1,0 +1,27 @@
+dataset_name: move_textile_b_to_textile_d_2340
+dataset_uuid: 6cb760a8-f790-40f4-8221-acef3100c3bf
+task_descriptions:
+- move_the_textile_b_and_place_in_the_textile_d
+scene_type:
+- office
+- warehouse
+atomic_actions:
+- pick
+- grasp
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 72.1
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

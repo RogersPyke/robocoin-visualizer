@@ -1,0 +1,28 @@
+dataset_name: arrange_food_d_to_toy_d_6192
+dataset_uuid: 3a18b79e-6ee4-4a75-bf18-70b86e2c9954
+task_descriptions:
+- arrange_the_food_d_and_place_in_the_toy_d
+scene_type:
+- hospital
+- cafe
+- kitchen
+atomic_actions:
+- slide
+- lift
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: food_d_sub2
+  level5: null
+- object_name: toy_d
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 74.0
+device_model:
+- agility_spot
+end_effector_type: three_claw_gripper

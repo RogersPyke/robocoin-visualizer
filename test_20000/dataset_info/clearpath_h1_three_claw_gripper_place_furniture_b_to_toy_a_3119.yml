@@ -1,0 +1,27 @@
+dataset_name: place_furniture_b_to_toy_a_3119
+dataset_uuid: 00a42398-002f-43b8-9073-0d755c6b6d9c
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_toy_a
+scene_type:
+- store
+- office
+atomic_actions:
+- rotate
+- insert
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: furniture_b_sub2
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 84.3
+device_model:
+- clearpath_h1
+end_effector_type: three_claw_gripper

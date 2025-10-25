@@ -1,0 +1,30 @@
+dataset_name: move_electronics_b_to_fruit_e_5271
+dataset_uuid: 584a7f8a-91c9-4ee9-91f2-521c693cc0b9
+task_descriptions:
+- move_the_electronics_b_and_place_in_the_fruit_e
+scene_type:
+- store
+- hospital
+- restaurant
+atomic_actions:
+- lower
+- pull
+- place
+- grasp
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: fruit_e_sub1
+  level4: fruit_e_sub2
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- boston_freight
+end_effector_type: two_jaw_gripper

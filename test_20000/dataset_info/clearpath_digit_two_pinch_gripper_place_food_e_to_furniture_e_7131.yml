@@ -1,0 +1,26 @@
+dataset_name: place_food_e_to_furniture_e_7131
+dataset_uuid: 0cffb21e-2771-4756-9bd2-ca953d6b75f8
+task_descriptions:
+- place_the_food_e_and_place_in_the_furniture_e
+scene_type:
+- kitchen
+atomic_actions:
+- pick
+- flip
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

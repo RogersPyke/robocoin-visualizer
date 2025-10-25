@@ -1,0 +1,29 @@
+dataset_name: place_food_c_to_stationery_a_9962
+dataset_uuid: 7d1d0c23-1a64-412c-af92-32f5ecacc4c1
+task_descriptions:
+- place_the_food_c_and_place_in_the_stationery_a
+scene_type:
+- store
+- laboratory
+atomic_actions:
+- push
+- place
+- lower
+- grasp
+objects:
+- object_name: food_c
+  level1: food
+  level2: food_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.9
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

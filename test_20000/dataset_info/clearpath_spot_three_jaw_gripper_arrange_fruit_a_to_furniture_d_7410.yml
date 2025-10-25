@@ -1,0 +1,27 @@
+dataset_name: arrange_fruit_a_to_furniture_d_7410
+dataset_uuid: 12dd363c-2343-473d-b39c-d4ee53b4a067
+task_descriptions:
+- arrange_the_fruit_a_and_place_in_the_furniture_d
+scene_type:
+- store
+- laboratory
+atomic_actions:
+- push
+- place
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: fruit_a_sub2
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: furniture_d_sub2
+  level5: null
+operation_platform_height: 83.2
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

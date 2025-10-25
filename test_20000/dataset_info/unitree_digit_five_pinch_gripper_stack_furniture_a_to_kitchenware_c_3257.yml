@@ -1,0 +1,28 @@
+dataset_name: stack_furniture_a_to_kitchenware_c_3257
+dataset_uuid: 6682ad72-ff22-49b6-8637-f75ce4d2e9ac
+task_descriptions:
+- stack_the_furniture_a_and_place_in_the_kitchenware_c
+scene_type:
+- hospital
+- home
+atomic_actions:
+- insert
+- rotate
+- lower
+objects:
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.8
+device_model:
+- unitree_digit
+end_effector_type: five_pinch_gripper

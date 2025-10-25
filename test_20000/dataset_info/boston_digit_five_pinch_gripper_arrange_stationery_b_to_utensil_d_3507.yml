@@ -1,0 +1,29 @@
+dataset_name: arrange_stationery_b_to_utensil_d_3507
+dataset_uuid: dd972e46-c02a-400e-8364-f31a8adca20e
+task_descriptions:
+- arrange_the_stationery_b_and_place_in_the_utensil_d
+scene_type:
+- laboratory
+- kitchen
+- warehouse
+atomic_actions:
+- insert
+- pick
+- remove
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_d
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.7
+device_model:
+- boston_digit
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,30 @@
+dataset_name: place_fruit_a_to_furniture_c_4692
+dataset_uuid: ec285ae8-f802-4872-a10b-73ec66fe6326
+task_descriptions:
+- place_the_fruit_a_and_place_in_the_furniture_c
+scene_type:
+- office
+- restaurant
+- hospital
+atomic_actions:
+- place
+- remove
+- slide
+- pull
+objects:
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 81.7
+device_model:
+- boston_freight
+end_effector_type: three_claw_gripper

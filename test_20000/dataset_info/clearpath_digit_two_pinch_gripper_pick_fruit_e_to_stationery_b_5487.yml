@@ -1,0 +1,28 @@
+dataset_name: pick_fruit_e_to_stationery_b_5487
+dataset_uuid: 30887b5a-fad6-4a06-bd78-b7f715c93c9b
+task_descriptions:
+- pick_the_fruit_e_and_place_in_the_stationery_b
+scene_type:
+- factory
+- hospital
+- kitchen
+atomic_actions:
+- slide
+- lift
+objects:
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: stationery_b_sub2
+  level5: null
+operation_platform_height: 74.8
+device_model:
+- clearpath_digit
+end_effector_type: two_pinch_gripper

@@ -1,0 +1,30 @@
+dataset_name: stack_container_b_to_container_a_7526
+dataset_uuid: 36c43fe7-0220-452b-898c-41211c7517b4
+task_descriptions:
+- stack_the_container_b_and_place_in_the_container_a
+scene_type:
+- restaurant
+- hospital
+- cafe
+atomic_actions:
+- grasp
+- insert
+- push
+- lower
+objects:
+- object_name: container_b
+  level1: container
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

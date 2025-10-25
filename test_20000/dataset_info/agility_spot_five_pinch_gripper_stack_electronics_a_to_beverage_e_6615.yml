@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_a_to_beverage_e_6615
+dataset_uuid: ee222c4b-274f-4caf-b42f-e2da2fcbb674
+task_descriptions:
+- stack_the_electronics_a_and_place_in_the_beverage_e
+scene_type:
+- cafe
+- warehouse
+atomic_actions:
+- flip
+- grasp
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

@@ -1,0 +1,28 @@
+dataset_name: arrange_beverage_b_to_beverage_d_9441
+dataset_uuid: 729b0057-4589-467b-842d-dad33843ca87
+task_descriptions:
+- arrange_the_beverage_b_and_place_in_the_beverage_d
+scene_type:
+- home
+- warehouse
+- hospital
+atomic_actions:
+- insert
+- lift
+objects:
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.6
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

@@ -1,0 +1,27 @@
+dataset_name: pick_textile_b_to_textile_d_3851
+dataset_uuid: 7ea0ff93-f404-4c1a-a928-43e6a0890c2f
+task_descriptions:
+- pick_the_textile_b_and_place_in_the_textile_d
+scene_type:
+- home
+atomic_actions:
+- lift
+- flip
+- insert
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.4
+device_model:
+- clearpath_digit
+end_effector_type: five_finger_gripper

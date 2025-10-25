@@ -1,0 +1,26 @@
+dataset_name: pick_container_b_to_textile_d_8613
+dataset_uuid: b989e56d-1323-4ab2-b837-4792adb4c934
+task_descriptions:
+- pick_the_container_b_and_place_in_the_textile_d
+scene_type:
+- restaurant
+atomic_actions:
+- push
+- place
+objects:
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 70.8
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

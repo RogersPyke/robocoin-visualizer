@@ -1,0 +1,29 @@
+dataset_name: place_food_e_to_food_a_4138
+dataset_uuid: 46dcb70a-044d-4def-9ba9-8d488898914b
+task_descriptions:
+- place_the_food_e_and_place_in_the_food_a
+scene_type:
+- warehouse
+- laboratory
+atomic_actions:
+- flip
+- place
+- pick
+- push
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 71.3
+device_model:
+- boston_freight
+end_effector_type: three_jaw_gripper

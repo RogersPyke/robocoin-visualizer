@@ -1,0 +1,29 @@
+dataset_name: place_furniture_b_to_toy_b_9508
+dataset_uuid: a6c3349c-ee66-4b21-9159-daa538cf3928
+task_descriptions:
+- place_the_furniture_b_and_place_in_the_toy_b
+scene_type:
+- store
+- warehouse
+atomic_actions:
+- lower
+- flip
+- insert
+- place
+objects:
+- object_name: furniture_b
+  level1: furniture
+  level2: furniture_b
+  level3: furniture_b_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 78.6
+device_model:
+- fetch_tiago
+end_effector_type: two_jaw_gripper

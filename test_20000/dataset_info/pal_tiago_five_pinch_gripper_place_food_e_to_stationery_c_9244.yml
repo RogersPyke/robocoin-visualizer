@@ -1,0 +1,29 @@
+dataset_name: place_food_e_to_stationery_c_9244
+dataset_uuid: 6e98f3d0-7faf-4cf4-bc8d-a89680efbf9c
+task_descriptions:
+- place_the_food_e_and_place_in_the_stationery_c
+scene_type:
+- warehouse
+- factory
+atomic_actions:
+- grasp
+- slide
+- pick
+- push
+objects:
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: null
+  level4: null
+  level5: null
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 87.5
+device_model:
+- pal_tiago
+end_effector_type: five_pinch_gripper

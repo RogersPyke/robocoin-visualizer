@@ -1,0 +1,28 @@
+dataset_name: place_tool_d_to_electronics_b_4338
+dataset_uuid: f5b61202-e154-45df-8a2b-a9897ae3b681
+task_descriptions:
+- place_the_tool_d_and_place_in_the_electronics_b
+scene_type:
+- cafe
+- warehouse
+- factory
+atomic_actions:
+- rotate
+- place
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: tool_d_sub2
+  level5: null
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 88.2
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

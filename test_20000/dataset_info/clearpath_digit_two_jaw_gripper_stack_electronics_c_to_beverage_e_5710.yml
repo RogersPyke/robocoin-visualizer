@@ -1,0 +1,27 @@
+dataset_name: stack_electronics_c_to_beverage_e_5710
+dataset_uuid: 6648c51c-aa21-4b83-8381-d43cba53fb69
+task_descriptions:
+- stack_the_electronics_c_and_place_in_the_beverage_e
+scene_type:
+- kitchen
+- office
+atomic_actions:
+- slide
+- insert
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+operation_platform_height: 76.1
+device_model:
+- clearpath_digit
+end_effector_type: two_jaw_gripper

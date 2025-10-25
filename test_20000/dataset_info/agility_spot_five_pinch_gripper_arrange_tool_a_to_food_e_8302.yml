@@ -1,0 +1,30 @@
+dataset_name: arrange_tool_a_to_food_e_8302
+dataset_uuid: edcdbb74-6149-43c7-9b9b-b06769f187e2
+task_descriptions:
+- arrange_the_tool_a_and_place_in_the_food_e
+scene_type:
+- warehouse
+- laboratory
+- cafe
+atomic_actions:
+- pick
+- lower
+- grasp
+- insert
+objects:
+- object_name: tool_a
+  level1: tool
+  level2: tool_a
+  level3: tool_a_sub1
+  level4: null
+  level5: null
+- object_name: food_e
+  level1: food
+  level2: food_e
+  level3: food_e_sub1
+  level4: food_e_sub2
+  level5: null
+operation_platform_height: 84.2
+device_model:
+- agility_spot
+end_effector_type: five_pinch_gripper

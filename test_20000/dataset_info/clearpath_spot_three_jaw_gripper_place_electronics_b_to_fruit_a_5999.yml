@@ -1,0 +1,28 @@
+dataset_name: place_electronics_b_to_fruit_a_5999
+dataset_uuid: 7b9c6c77-576e-47ec-9fdb-359af08d8a8b
+task_descriptions:
+- place_the_electronics_b_and_place_in_the_fruit_a
+scene_type:
+- hospital
+atomic_actions:
+- push
+- grasp
+- insert
+- remove
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: fruit_a
+  level3: fruit_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.7
+device_model:
+- clearpath_spot
+end_effector_type: three_jaw_gripper

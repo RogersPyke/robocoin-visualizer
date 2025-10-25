@@ -1,0 +1,28 @@
+dataset_name: stack_kitchenware_c_to_textile_d_2323
+dataset_uuid: 844502f1-8aea-41f8-ab4e-2b2254b11eeb
+task_descriptions:
+- stack_the_kitchenware_c_and_place_in_the_textile_d
+scene_type:
+- laboratory
+- hospital
+- office
+atomic_actions:
+- push
+- place
+objects:
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: kitchenware_c
+  level3: kitchenware_c_sub1
+  level4: kitchenware_c_sub2
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.9
+device_model:
+- clearpath_spot
+end_effector_type: two_pinch_gripper

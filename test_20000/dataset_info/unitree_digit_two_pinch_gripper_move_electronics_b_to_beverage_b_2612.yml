@@ -1,0 +1,30 @@
+dataset_name: move_electronics_b_to_beverage_b_2612
+dataset_uuid: e63c4b0a-2ec6-40b4-9139-5f9d207bd216
+task_descriptions:
+- move_the_electronics_b_and_place_in_the_beverage_b
+scene_type:
+- home
+- cafe
+- laboratory
+atomic_actions:
+- place
+- remove
+- grasp
+- lower
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: electronics_b
+  level3: electronics_b_sub1
+  level4: null
+  level5: null
+- object_name: beverage_b
+  level1: beverage
+  level2: beverage_b
+  level3: beverage_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 77.3
+device_model:
+- unitree_digit
+end_effector_type: two_pinch_gripper

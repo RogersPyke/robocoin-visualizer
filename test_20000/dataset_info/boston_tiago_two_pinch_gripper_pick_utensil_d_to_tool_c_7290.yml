@@ -1,0 +1,27 @@
+dataset_name: pick_utensil_d_to_tool_c_7290
+dataset_uuid: 1c37f770-183b-418b-9d84-0fbdb9a320d8
+task_descriptions:
+- pick_the_utensil_d_and_place_in_the_tool_c
+scene_type:
+- office
+- warehouse
+atomic_actions:
+- pick
+- remove
+objects:
+- object_name: utensil_d
+  level1: utensil
+  level2: utensil_d
+  level3: utensil_d_sub1
+  level4: utensil_d_sub2
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: tool_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 83.7
+device_model:
+- boston_tiago
+end_effector_type: two_pinch_gripper

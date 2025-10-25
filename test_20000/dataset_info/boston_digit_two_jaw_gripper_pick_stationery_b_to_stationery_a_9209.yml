@@ -1,0 +1,29 @@
+dataset_name: pick_stationery_b_to_stationery_a_9209
+dataset_uuid: 72f23c57-e113-481b-b52d-02d1caa9f4ac
+task_descriptions:
+- pick_the_stationery_b_and_place_in_the_stationery_a
+scene_type:
+- hospital
+- laboratory
+atomic_actions:
+- pull
+- slide
+- flip
+- pick
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.3
+device_model:
+- boston_digit
+end_effector_type: two_jaw_gripper

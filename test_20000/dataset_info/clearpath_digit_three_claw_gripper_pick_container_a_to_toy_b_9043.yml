@@ -1,0 +1,30 @@
+dataset_name: pick_container_a_to_toy_b_9043
+dataset_uuid: 7b430d64-7299-43ae-a710-46f3766a0dbb
+task_descriptions:
+- pick_the_container_a_and_place_in_the_toy_b
+scene_type:
+- kitchen
+- factory
+- home
+atomic_actions:
+- grasp
+- insert
+- push
+- lift
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: toy_b
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.4
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

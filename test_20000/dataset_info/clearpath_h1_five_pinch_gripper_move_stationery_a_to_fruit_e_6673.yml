@@ -1,0 +1,27 @@
+dataset_name: move_stationery_a_to_fruit_e_6673
+dataset_uuid: 7039466f-1db0-46fa-8b3d-eb012910ae49
+task_descriptions:
+- move_the_stationery_a_and_place_in_the_fruit_e
+scene_type:
+- restaurant
+atomic_actions:
+- rotate
+- grasp
+- lift
+objects:
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: stationery_a_sub2
+  level5: null
+- object_name: fruit_e
+  level1: fruit
+  level2: fruit_e
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.7
+device_model:
+- clearpath_h1
+end_effector_type: five_pinch_gripper

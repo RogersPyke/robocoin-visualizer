@@ -1,0 +1,30 @@
+dataset_name: pick_toy_c_to_toy_a_7793
+dataset_uuid: 34008fd9-849f-4423-99f3-09b86211d3dd
+task_descriptions:
+- pick_the_toy_c_and_place_in_the_toy_a
+scene_type:
+- home
+- restaurant
+- hospital
+atomic_actions:
+- flip
+- lift
+- push
+- pick
+objects:
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: toy_a
+  level1: toy
+  level2: toy_a
+  level3: toy_a_sub1
+  level4: toy_a_sub2
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- agility_cassie
+end_effector_type: five_pinch_gripper

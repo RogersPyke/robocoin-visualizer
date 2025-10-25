@@ -1,0 +1,27 @@
+dataset_name: pick_electronics_c_to_kitchenware_c_1754
+dataset_uuid: cbcbae9e-bd97-4a39-89f9-ba060cf4889f
+task_descriptions:
+- pick_the_electronics_c_and_place_in_the_kitchenware_c
+scene_type:
+- hospital
+atomic_actions:
+- lift
+- place
+- flip
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: kitchenware_c
+  level1: kitchenware
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 82.4
+device_model:
+- boston_digit
+end_effector_type: three_jaw_gripper

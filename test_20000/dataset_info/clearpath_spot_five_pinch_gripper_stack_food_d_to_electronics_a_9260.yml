@@ -1,0 +1,27 @@
+dataset_name: stack_food_d_to_electronics_a_9260
+dataset_uuid: 6f8abdde-9283-4b5b-9dd1-1c6e71ff3d65
+task_descriptions:
+- stack_the_food_d_and_place_in_the_electronics_a
+scene_type:
+- office
+atomic_actions:
+- pull
+- place
+- remove
+objects:
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: null
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 77.0
+device_model:
+- clearpath_spot
+end_effector_type: five_pinch_gripper

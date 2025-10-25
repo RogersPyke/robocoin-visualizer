@@ -1,0 +1,26 @@
+dataset_name: stack_textile_b_to_kitchenware_a_7217
+dataset_uuid: 841a70ef-e0fe-4e86-9b23-bb65526f0e03
+task_descriptions:
+- stack_the_textile_b_and_place_in_the_kitchenware_a
+scene_type:
+- hospital
+atomic_actions:
+- rotate
+- lift
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+- object_name: kitchenware_a
+  level1: kitchenware
+  level2: kitchenware_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.2
+device_model:
+- boston_freight
+end_effector_type: two_finger_gripper

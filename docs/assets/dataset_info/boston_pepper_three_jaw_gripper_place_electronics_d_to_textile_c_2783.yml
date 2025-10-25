@@ -1,0 +1,27 @@
+dataset_name: place_electronics_d_to_textile_c_2783
+dataset_uuid: 9f7bb81f-2524-42cc-a52a-ef5beb8cf580
+task_descriptions:
+- place_the_electronics_d_and_place_in_the_textile_c
+scene_type:
+- kitchen
+atomic_actions:
+- rotate
+- insert
+- lower
+objects:
+- object_name: electronics_d
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: textile_c_sub2
+  level5: null
+operation_platform_height: 75.1
+device_model:
+- boston_pepper
+end_effector_type: three_jaw_gripper

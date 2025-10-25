@@ -1,0 +1,26 @@
+dataset_name: arrange_electronics_c_to_food_a_2382
+dataset_uuid: 9b9a1f32-7d66-4c43-89b0-a2a213c70699
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_food_a
+scene_type:
+- home
+atomic_actions:
+- lift
+- lower
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: electronics_c_sub1
+  level4: electronics_c_sub2
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: food_a
+  level3: food_a_sub1
+  level4: food_a_sub2
+  level5: null
+operation_platform_height: 77.6
+device_model:
+- unitree_h1
+end_effector_type: three_jaw_gripper

@@ -1,0 +1,28 @@
+dataset_name: pick_electronics_b_to_textile_d_7556
+dataset_uuid: 9f5627a2-3457-4cac-b57f-d88baa18d23d
+task_descriptions:
+- pick_the_electronics_b_and_place_in_the_textile_d
+scene_type:
+- warehouse
+- store
+atomic_actions:
+- insert
+- rotate
+- lift
+objects:
+- object_name: electronics_b
+  level1: electronics
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: textile_d
+  level3: textile_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 89.5
+device_model:
+- agility_spot
+end_effector_type: three_finger_gripper

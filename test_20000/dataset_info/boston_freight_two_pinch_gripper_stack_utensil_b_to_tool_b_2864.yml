@@ -1,0 +1,26 @@
+dataset_name: stack_utensil_b_to_tool_b_2864
+dataset_uuid: 656a8d97-cbf4-4891-b6f3-d6b7c09f7188
+task_descriptions:
+- stack_the_utensil_b_and_place_in_the_tool_b
+scene_type:
+- cafe
+atomic_actions:
+- pull
+- lower
+objects:
+- object_name: utensil_b
+  level1: utensil
+  level2: utensil_b
+  level3: utensil_b_sub1
+  level4: utensil_b_sub2
+  level5: null
+- object_name: tool_b
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 86.1
+device_model:
+- boston_freight
+end_effector_type: two_pinch_gripper

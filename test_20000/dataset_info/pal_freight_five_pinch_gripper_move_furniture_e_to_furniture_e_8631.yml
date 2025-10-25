@@ -1,0 +1,28 @@
+dataset_name: move_furniture_e_to_furniture_e_8631
+dataset_uuid: 67c17ebd-bac6-4b08-9154-e5d0493532eb
+task_descriptions:
+- move_the_furniture_e_and_place_in_the_furniture_e
+scene_type:
+- cafe
+atomic_actions:
+- pull
+- lower
+- push
+- place
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: furniture_e_sub2
+  level5: null
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+operation_platform_height: 76.3
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

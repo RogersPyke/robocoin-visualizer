@@ -1,0 +1,29 @@
+dataset_name: stack_tool_c_to_textile_e_1494
+dataset_uuid: 2f423d8a-e307-42f0-9731-4f1534c1f5ea
+task_descriptions:
+- stack_the_tool_c_and_place_in_the_textile_e
+scene_type:
+- home
+- restaurant
+- laboratory
+atomic_actions:
+- pick
+- rotate
+- remove
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_e
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.0
+device_model:
+- pal_freight
+end_effector_type: five_pinch_gripper

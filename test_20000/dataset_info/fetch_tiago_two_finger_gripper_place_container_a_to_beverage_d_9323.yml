@@ -1,0 +1,26 @@
+dataset_name: place_container_a_to_beverage_d_9323
+dataset_uuid: 94b0e545-1c21-42de-825e-716ff1198fb7
+task_descriptions:
+- place_the_container_a_and_place_in_the_beverage_d
+scene_type:
+- warehouse
+atomic_actions:
+- grasp
+- flip
+objects:
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: container_a_sub1
+  level4: null
+  level5: null
+- object_name: beverage_d
+  level1: beverage
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.6
+device_model:
+- fetch_tiago
+end_effector_type: two_finger_gripper

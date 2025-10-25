@@ -1,0 +1,30 @@
+dataset_name: move_stationery_b_to_electronics_a_3225
+dataset_uuid: 7d5ac3df-3ac2-4a1d-89ee-1d44b8d33214
+task_descriptions:
+- move_the_stationery_b_and_place_in_the_electronics_a
+scene_type:
+- home
+- laboratory
+- cafe
+atomic_actions:
+- lift
+- grasp
+- flip
+- place
+objects:
+- object_name: stationery_b
+  level1: stationery
+  level2: stationery_b
+  level3: stationery_b_sub1
+  level4: null
+  level5: null
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: electronics_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 82.2
+device_model:
+- fetch_tiago
+end_effector_type: five_pinch_gripper

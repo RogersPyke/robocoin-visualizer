@@ -1,0 +1,29 @@
+dataset_name: arrange_stationery_c_to_container_b_6917
+dataset_uuid: 97fef09b-804c-4fc5-8d0c-00b0b144146f
+task_descriptions:
+- arrange_the_stationery_c_and_place_in_the_container_b
+scene_type:
+- office
+- factory
+atomic_actions:
+- rotate
+- slide
+- remove
+- lift
+objects:
+- object_name: stationery_c
+  level1: stationery
+  level2: stationery_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_b
+  level1: container
+  level2: container_b
+  level3: container_b_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.6
+device_model:
+- clearpath_spot
+end_effector_type: two_jaw_gripper

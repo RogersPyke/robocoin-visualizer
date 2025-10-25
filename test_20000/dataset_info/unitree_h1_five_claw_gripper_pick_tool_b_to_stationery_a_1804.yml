@@ -1,0 +1,27 @@
+dataset_name: pick_tool_b_to_stationery_a_1804
+dataset_uuid: f35e9410-a21d-4e5f-a587-d9dbd5ced6b0
+task_descriptions:
+- pick_the_tool_b_and_place_in_the_stationery_a
+scene_type:
+- kitchen
+atomic_actions:
+- push
+- slide
+- rotate
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: tool_b_sub1
+  level4: null
+  level5: null
+- object_name: stationery_a
+  level1: stationery
+  level2: stationery_a
+  level3: stationery_a_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.4
+device_model:
+- unitree_h1
+end_effector_type: five_claw_gripper

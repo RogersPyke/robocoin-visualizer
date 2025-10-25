@@ -1,0 +1,27 @@
+dataset_name: arrange_tool_c_to_utensil_a_4673
+dataset_uuid: 7f7268e1-aa52-4cea-b1ff-e9de2547b70a
+task_descriptions:
+- arrange_the_tool_c_and_place_in_the_utensil_a
+scene_type:
+- home
+atomic_actions:
+- flip
+- rotate
+- lower
+objects:
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: utensil_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 72.1
+device_model:
+- clearpath_spot
+end_effector_type: five_finger_gripper

@@ -1,0 +1,26 @@
+dataset_name: stack_tool_d_to_container_c_2432
+dataset_uuid: 5b3a9f73-e8b4-4a75-b45e-b44b1c275658
+task_descriptions:
+- stack_the_tool_d_and_place_in_the_container_c
+scene_type:
+- store
+atomic_actions:
+- pick
+- grasp
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 75.5
+device_model:
+- agility_cassie
+end_effector_type: two_claw_gripper

@@ -1,0 +1,27 @@
+dataset_name: arrange_food_b_to_textile_d_4162
+dataset_uuid: 48a03691-4dec-4804-be2e-e4d2239fac39
+task_descriptions:
+- arrange_the_food_b_and_place_in_the_textile_d
+scene_type:
+- kitchen
+- laboratory
+atomic_actions:
+- rotate
+- pull
+objects:
+- object_name: food_b
+  level1: food
+  level2: food_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: textile_d
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.5
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

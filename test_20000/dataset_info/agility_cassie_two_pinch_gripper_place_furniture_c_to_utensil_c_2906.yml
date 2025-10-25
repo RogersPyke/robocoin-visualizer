@@ -1,0 +1,26 @@
+dataset_name: place_furniture_c_to_utensil_c_2906
+dataset_uuid: 77c582c8-30ea-4f21-9835-9f3b09bd2f88
+task_descriptions:
+- place_the_furniture_c_and_place_in_the_utensil_c
+scene_type:
+- kitchen
+atomic_actions:
+- lower
+- pick
+objects:
+- object_name: furniture_c
+  level1: furniture
+  level2: furniture_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_c
+  level1: utensil
+  level2: utensil_c
+  level3: utensil_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 79.7
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

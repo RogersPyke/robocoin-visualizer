@@ -1,0 +1,27 @@
+dataset_name: stack_textile_a_to_toy_c_9794
+dataset_uuid: b37c5f1e-0822-4c0e-a09a-5fe46d05e5cd
+task_descriptions:
+- stack_the_textile_a_and_place_in_the_toy_c
+scene_type:
+- laboratory
+atomic_actions:
+- pick
+- place
+- pull
+objects:
+- object_name: textile_a
+  level1: textile
+  level2: textile_a
+  level3: textile_a_sub1
+  level4: null
+  level5: null
+- object_name: toy_c
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.6
+device_model:
+- clearpath_digit
+end_effector_type: three_claw_gripper

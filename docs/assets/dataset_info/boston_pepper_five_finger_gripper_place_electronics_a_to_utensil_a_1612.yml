@@ -1,0 +1,29 @@
+dataset_name: place_electronics_a_to_utensil_a_1612
+dataset_uuid: f699ddfc-a135-41a9-9fad-2a27967a8180
+task_descriptions:
+- place_the_electronics_a_and_place_in_the_utensil_a
+scene_type:
+- hospital
+- cafe
+- restaurant
+atomic_actions:
+- remove
+- pick
+- insert
+objects:
+- object_name: electronics_a
+  level1: electronics
+  level2: electronics_a
+  level3: null
+  level4: null
+  level5: null
+- object_name: utensil_a
+  level1: utensil
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.8
+device_model:
+- boston_pepper
+end_effector_type: five_finger_gripper

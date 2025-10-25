@@ -1,0 +1,30 @@
+dataset_name: arrange_electronics_c_to_tool_c_5940
+dataset_uuid: 20ece8a8-4075-4ef9-b126-f9f582b9bc9f
+task_descriptions:
+- arrange_the_electronics_c_and_place_in_the_tool_c
+scene_type:
+- kitchen
+- warehouse
+- cafe
+atomic_actions:
+- lift
+- pull
+- place
+- lower
+objects:
+- object_name: electronics_c
+  level1: electronics
+  level2: electronics_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: tool_c
+  level1: tool
+  level2: tool_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 79.2
+device_model:
+- boston_tiago
+end_effector_type: five_finger_gripper

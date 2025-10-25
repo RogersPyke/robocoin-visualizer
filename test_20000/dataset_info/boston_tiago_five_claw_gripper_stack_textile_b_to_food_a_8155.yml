@@ -1,0 +1,27 @@
+dataset_name: stack_textile_b_to_food_a_8155
+dataset_uuid: 88962010-afdb-4557-abbc-459ddb703f33
+task_descriptions:
+- stack_the_textile_b_and_place_in_the_food_a
+scene_type:
+- office
+- warehouse
+atomic_actions:
+- remove
+- pick
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_a
+  level1: food
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 70.2
+device_model:
+- boston_tiago
+end_effector_type: five_claw_gripper

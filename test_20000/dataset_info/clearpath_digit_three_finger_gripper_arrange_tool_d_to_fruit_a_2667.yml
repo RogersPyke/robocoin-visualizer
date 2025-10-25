@@ -1,0 +1,27 @@
+dataset_name: arrange_tool_d_to_fruit_a_2667
+dataset_uuid: 59072804-8f4a-4015-a3ac-e2c0cc07cf49
+task_descriptions:
+- arrange_the_tool_d_and_place_in_the_fruit_a
+scene_type:
+- factory
+- hospital
+atomic_actions:
+- place
+- grasp
+objects:
+- object_name: tool_d
+  level1: tool
+  level2: tool_d
+  level3: tool_d_sub1
+  level4: null
+  level5: null
+- object_name: fruit_a
+  level1: fruit
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 76.8
+device_model:
+- clearpath_digit
+end_effector_type: three_finger_gripper

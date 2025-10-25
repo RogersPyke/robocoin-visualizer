@@ -1,0 +1,30 @@
+dataset_name: place_beverage_c_to_food_d_1753
+dataset_uuid: 89d37bdd-8776-4e05-854c-cc93f2979e32
+task_descriptions:
+- place_the_beverage_c_and_place_in_the_food_d
+scene_type:
+- laboratory
+- office
+- cafe
+atomic_actions:
+- rotate
+- remove
+- insert
+- lift
+objects:
+- object_name: beverage_c
+  level1: beverage
+  level2: beverage_c
+  level3: null
+  level4: null
+  level5: null
+- object_name: food_d
+  level1: food
+  level2: food_d
+  level3: food_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 80.0
+device_model:
+- unitree_digit
+end_effector_type: five_claw_gripper

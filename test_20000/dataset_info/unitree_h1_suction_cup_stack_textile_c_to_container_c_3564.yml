@@ -1,0 +1,27 @@
+dataset_name: stack_textile_c_to_container_c_3564
+dataset_uuid: 986eaefb-6e74-4f61-b359-878f7b39f93a
+task_descriptions:
+- stack_the_textile_c_and_place_in_the_container_c
+scene_type:
+- warehouse
+- factory
+atomic_actions:
+- rotate
+- remove
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: null
+  level5: null
+operation_platform_height: 78.5
+device_model:
+- unitree_h1
+end_effector_type: suction_cup

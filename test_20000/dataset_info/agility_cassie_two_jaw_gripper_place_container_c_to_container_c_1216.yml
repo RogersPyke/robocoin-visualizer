@@ -1,0 +1,26 @@
+dataset_name: place_container_c_to_container_c_1216
+dataset_uuid: 148026de-fb12-453e-863d-d386c9b78014
+task_descriptions:
+- place_the_container_c_and_place_in_the_container_c
+scene_type:
+- restaurant
+atomic_actions:
+- pull
+- slide
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 80.1
+device_model:
+- agility_cassie
+end_effector_type: two_jaw_gripper

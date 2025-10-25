@@ -1,0 +1,28 @@
+dataset_name: pick_furniture_e_to_furniture_d_6290
+dataset_uuid: b5294f47-4efb-4ba0-8b32-55312cd76d2b
+task_descriptions:
+- pick_the_furniture_e_and_place_in_the_furniture_d
+scene_type:
+- factory
+atomic_actions:
+- remove
+- pull
+- grasp
+- flip
+objects:
+- object_name: furniture_e
+  level1: furniture
+  level2: furniture_e
+  level3: furniture_e_sub1
+  level4: null
+  level5: null
+- object_name: furniture_d
+  level1: furniture
+  level2: furniture_d
+  level3: furniture_d_sub1
+  level4: null
+  level5: null
+operation_platform_height: 87.9
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

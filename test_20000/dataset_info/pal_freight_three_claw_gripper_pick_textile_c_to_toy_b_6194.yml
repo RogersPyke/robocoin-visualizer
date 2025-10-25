@@ -1,0 +1,29 @@
+dataset_name: pick_textile_c_to_toy_b_6194
+dataset_uuid: 346f2f8d-e0d5-4854-9655-86a52c455c8c
+task_descriptions:
+- pick_the_textile_c_and_place_in_the_toy_b
+scene_type:
+- laboratory
+- office
+atomic_actions:
+- place
+- slide
+- lower
+- pick
+objects:
+- object_name: textile_c
+  level1: textile
+  level2: textile_c
+  level3: textile_c_sub1
+  level4: null
+  level5: null
+- object_name: toy_b
+  level1: toy
+  level2: null
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 73.2
+device_model:
+- pal_freight
+end_effector_type: three_claw_gripper

@@ -1,0 +1,26 @@
+dataset_name: pick_container_c_to_container_a_2843
+dataset_uuid: fd27b246-a21f-4b5e-9c62-ced504ab5152
+task_descriptions:
+- pick_the_container_c_and_place_in_the_container_a
+scene_type:
+- store
+atomic_actions:
+- flip
+- rotate
+objects:
+- object_name: container_c
+  level1: container
+  level2: container_c
+  level3: container_c_sub1
+  level4: container_c_sub2
+  level5: null
+- object_name: container_a
+  level1: container
+  level2: container_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 84.7
+device_model:
+- agility_cassie
+end_effector_type: two_pinch_gripper

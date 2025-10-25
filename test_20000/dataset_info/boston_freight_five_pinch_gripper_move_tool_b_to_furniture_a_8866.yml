@@ -1,0 +1,27 @@
+dataset_name: move_tool_b_to_furniture_a_8866
+dataset_uuid: f32621b8-f77c-4134-ae6d-60c03bdb9d05
+task_descriptions:
+- move_the_tool_b_and_place_in_the_furniture_a
+scene_type:
+- store
+- hospital
+atomic_actions:
+- slide
+- pull
+objects:
+- object_name: tool_b
+  level1: tool
+  level2: tool_b
+  level3: null
+  level4: null
+  level5: null
+- object_name: furniture_a
+  level1: furniture
+  level2: furniture_a
+  level3: null
+  level4: null
+  level5: null
+operation_platform_height: 85.0
+device_model:
+- boston_freight
+end_effector_type: five_pinch_gripper

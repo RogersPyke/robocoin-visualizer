@@ -1,0 +1,29 @@
+dataset_name: stack_textile_b_to_beverage_e_2573
+dataset_uuid: 1f228e58-420b-40b7-a67c-ab0b74210fbb
+task_descriptions:
+- stack_the_textile_b_and_place_in_the_beverage_e
+scene_type:
+- kitchen
+- office
+atomic_actions:
+- lift
+- push
+- rotate
+- insert
+objects:
+- object_name: textile_b
+  level1: textile
+  level2: textile_b
+  level3: textile_b_sub1
+  level4: textile_b_sub2
+  level5: null
+- object_name: beverage_e
+  level1: beverage
+  level2: beverage_e
+  level3: beverage_e_sub1
+  level4: beverage_e_sub2
+  level5: null
+operation_platform_height: 89.1
+device_model:
+- boston_digit
+end_effector_type: two_pinch_gripper
