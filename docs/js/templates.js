@@ -205,18 +205,18 @@ const Templates = {
     buildEmptyCartHint() {
         return `
             <div class="empty-cart-hint">
-                <div class="hint-title">🛒 Your cart is empty</div>
-                <div class="hint-subtitle">Quick Start Guide:</div>
+                <div class="hint-title">🛒 <strong>Your cart is empty</strong> 💭</div>
+                <div class="hint-subtitle">👋 ✨ <strong>Quick Start Guide:</strong> 🚀</div>
                 <div class="hint-steps">
-                    ${this.buildHintStep(1, 'Filter datasets (left panel)')}
+                    ${this.buildHintStep(1, '🔍 Filter datasets (left panel)')}
                     ${this.buildHintArrow()}
-                    ${this.buildHintStep(2, 'Select items (click cards or "select all")')}
+                    ${this.buildHintStep(2, '✅ Select items (click cards or "select all")')}
                     ${this.buildHintArrow()}
-                    ${this.buildHintStep(3, 'Add to cart (green button)')}
+                    ${this.buildHintStep(3, '🎯 Add to cart (green button)')}
                     ${this.buildHintArrow()}
-                    ${this.buildHintStep(4, 'Review & manage (view/remove items)')}
+                    ${this.buildHintStep(4, '📋 Review & manage (view/remove items)')}
                     ${this.buildHintArrow()}
-                    ${this.buildHintStep(5, 'Choose source & copy download code!')}
+                    ${this.buildHintStep(5, '📦 Choose source & copy download code!')}
                 </div>
             </div>
         `;

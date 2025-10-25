@@ -1560,14 +1560,15 @@ const APP = {
         // 清空搜索框
         document.getElementById('searchBox').value = '';
         
-        // 取消所有普通筛选选项的选中状态
-        document.querySelectorAll('input[data-filter]:not([value="__ALL__"])').forEach(cb => {
-            cb.checked = false;
+        // 首先确保所有大类（组级别）的ALL选项已选中
+        const groupAllCheckboxes = document.querySelectorAll('input[data-filter][value="__GROUP_ALL__"]');
+        groupAllCheckboxes.forEach(cb => {
+            cb.checked = true;
         });
         
-        // 选中所有All选项
-        document.querySelectorAll('input[data-filter][value="__ALL__"]').forEach(cb => {
-            cb.checked = true;
+        // 取消所有普通筛选选项的选中状态（但保留__GROUP_ALL__）
+        document.querySelectorAll('input[data-filter]:not([value="__GROUP_ALL__"])').forEach(cb => {
+            cb.checked = false;
         });
         
         // 折叠所有层级选项（如果有展开的）
@@ -1578,8 +1579,15 @@ const APP = {
             toggle.textContent = '▶';
         });
         
-        // 重新应用筛选
-        this.applyFilters();
+        // 确保在所有操作完成后，再次强制设置所有大类ALL选项为选中状态
+        // 这样可以覆盖任何可能由change事件触发的自动取消选中
+        requestAnimationFrame(() => {
+            groupAllCheckboxes.forEach(cb => {
+                cb.checked = true;
+            });
+            // 重新应用筛选
+            this.applyFilters();
+        });
     },
     
     clearSelection() {
@@ -1700,7 +1708,7 @@ const APP = {
         navigator.clipboard.writeText(output.textContent).then(() => {
             // 修改按钮样式和文字
             btn.classList.add('success');
-            btn.textContent = 'Copied!';
+            btn.textContent = '👍 Copied!';
             
             // 1.5秒后恢复原状
             setTimeout(() => {

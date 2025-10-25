@@ -6,7 +6,7 @@
     <title>RoboCOIN Dataset Visualizer-Downloader</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
-    <link rel="stylesheet" href="./css/style.css?v=20241024">
+    <link rel="stylesheet" href="./css/style.css?v=20241025">
 
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
@@ -21,8 +21,8 @@
         </div>
     </div>
 
-    <div style="width: 100%; padding: 16px 20px; background: #2c3e50; border-bottom: 3px solid #34495e;">
-        <pre style="margin: 0; font-family: 'Courier New', Courier, monospace; font-size: 16px; font-weight: bold; color: #ecf0f1; line-height: 1.2; text-align: center;">RoboCOIN Dataset Visualizer-Downloader</pre>
+    <div style="width: 100%; padding: 16px 20px; background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 25%, #feca57 50%, #ff9ff3 75%, #ffa502 100%); border-bottom: 1px solid #d0d7de; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);">
+        <pre style="margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif; font-size: 18px; font-weight: 600; color: #ffffff; line-height: 1.2; text-align: center; text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">🤖 RoboCOIN Dataset Visualizer 📊</pre>
     </div>
     <div class="app-container">
         <!-- 左侧筛选面板 -->
@@ -60,13 +60,13 @@
         <div class="video-panel">
                 <div class="video-toolbar">
                     <div class="toolbar-actions">
-                        <button class="btn-toolbar" id="resetBtn">reset filter</button>
-                        <button class="btn-toolbar primary" id="selectAllBtn">select all</button>
-                        <button class="btn-toolbar" id="deselectAllBtn">deselect all</button>
+                        <button class="btn-toolbar primary" id="selectAllBtn">✅ select all</button>
+                        <button class="btn-toolbar danger" id="deselectAllBtn">❌ deselect all</button>
+                        <button class="btn-toolbar secondary" id="resetBtn">🔄 reset filter</button>               
                         <span class="toolbar-divider"></span>
-                        <button class="btn-toolbar success" id="addToListBtn">add to cart</button>
-                        <button class="btn-toolbar" id="deleteFromListBtn">remove from cart</button>
-                        <button class="btn-toolbar" id="clearListBtn">clear cart</button>
+                        <button class="btn-toolbar success" id="addToListBtn">🛒 add to cart</button>
+                        <button class="btn-toolbar danger" id="deleteFromListBtn">🗑️ remove from cart</button>
+                        <button class="btn-toolbar secondary" id="clearListBtn">🔄 clear cart</button>
                     </div>
                 </div>
             
@@ -86,8 +86,8 @@
             
             <div class="selection-footer">
                 <div class="selection-actions">
-                    <button class="btn-selection" id="importBtn">import cart from .json</button>
-                    <button class="btn-selection" id="exportBtn">export cart to .json</button>
+                    <button class="btn-selection" id="importBtn">📋 import cart from .json</button>
+                    <button class="btn-selection" id="exportBtn">📤 export cart to .json</button>
                 </div>
                 <div style="margin-top: 8px; margin-bottom: 8px;">
                     <label style="font-size: 12px; display: flex; align-items: center; gap: 8px;">
@@ -101,7 +101,7 @@
                 <div class="code-section-description">Your download command (like 'checkout'):</div>
                 <div class="code-output" id="codeOutput"></div>
                 <div class="code-actions">
-                    <button class="btn-selection" id="copyCodeBtn">Copy & 'Checkout'</button>
+                    <button class="btn-selection" id="copyCodeBtn">📋 Copy & 'Checkout' ⬇️</button>
                 </div>
             </div>
         </div>
