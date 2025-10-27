@@ -2,19 +2,36 @@
 
 A powerful web-based tool for visualizing, filtering, and downloading robotics datasets. Browse thousands of robot manipulation tasks with an intuitive interface featuring real-time video previews, advanced filtering, and batch download capabilities.
 
-## IMPORTANT!!!
+## 📦 Flexible Data Loading
 
-为满足性能优化需求，多个的yml文件将被脚本合并为一个完整的json文件，以大幅度提升速度;
-同时，视频也会生成对应的缩略图以满足性能需求。
-因此，请保证为网页提供正确格式的输入：
+This visualizer works in **two modes**:
+
+1. **JSON Mode (Fast, Recommended)**: Loads from a single consolidated JSON file
+2. **YAML Mode (Slower, Fallback)**: Loads from individual YAML files
+
+The page automatically detects which mode to use. For optimal performance on GitHub Pages or production deployments, run the optimization script to generate consolidated files.
+
+**Directory Structure:**
+```
 docs/
   assets/
     dataset_info/
-      * JSON HERE *
+      *.yml                              # [Required] Original YAML metadata
+      data_index.json                    # [Required] File index
+      consolidated_datasets.json         # [Optional] Optimized for speed
     thumbnails/
-      * THUMBNAILS HERE * -- can be generated using script.
+      *.jpg                              # [Optional] Generated thumbnails
     videos/
-      * VIDEOS HERE *
+      *.mp4                              # [Required] Video files
+```
+
+## Uesage
+
+### 1.run scripts/opti_init.py
+
+### 2.reload to github
+
+### 3.open github pages
 
 ## ✨ Features
 
@@ -25,13 +42,15 @@ docs/
 - **🛒 Cart System** - Select multiple datasets and manage downloads
 - **💾 Import/Export** - Save and load dataset selections as JSON
 - **📋 Download Command Generation** - Auto-generate download commands for ModelScope or HuggingFace
+- **🔄 Auto-Fallback Loading** - Works with or without optimization files (auto-detects mode)
 
 ### 🚀 Performance Features
 - **Virtual Scrolling** - Smooth browsing of thousands of datasets
-- **Lazy Loading** - Videos load only when visible
+- **Lazy Loading** - Videos load only when visible (thumbnails optional)
 - **Responsive Design** - Works on desktop and mobile devices
 - **Fast Search** - Real-time search across dataset names and filters
 - **Optimized Rendering** - Handles 10,000+ datasets with ease
+- **Graceful Degradation** - Works without thumbnails (shows placeholder)
 
 ### 🎨 User Interface
 - **Three-Panel Layout**
@@ -365,6 +384,23 @@ Both the video grid and cart use virtual scrolling:
 - CSS Custom Properties
 - Fetch API
 
+## 🔄 Automatic Mode Detection
+
+The visualizer intelligently detects which data format is available:
+
+### JSON Mode (Fast) ⚡
+- Loads `consolidated_datasets.json` in a single request
+- Instant loading, even on GitHub Pages
+- Recommended for production deployments
+
+### YAML Mode (Fallback) 📝
+- Automatically activates if consolidated JSON is missing
+- Loads individual YAML files (slower, but functional)
+- Shows progress indicator during loading
+- Works without any build step
+
+**The page works in both modes seamlessly** - it just loads faster with optimizations!
+
 ## 🐛 Troubleshooting
 
 ### Videos not loading
@@ -381,6 +417,11 @@ Both the video grid and cart use virtual scrolling:
 - Verify YAML metadata files are properly formatted
 - Check that `data_index.json` lists all datasets
 - Clear browser cache and reload
+
+### Page loading slowly
+- The page is running in YAML mode (fallback)
+- Run `python scripts/opti_init.py` to generate optimized files
+- This will dramatically improve load times (90% faster)
 
 ## 📈 Performance Optimization
 
@@ -423,12 +464,15 @@ python opti_init.py
 
 ### 🛠️ Optimization Script Usage
 
-The `opti_init.py` script is your one-stop solution for performance optimization.
+The `opti_init.py` script is your one-stop solution for performance optimization with **intelligent checking**.
 
 #### Basic Usage
 ```bash
-# Run all optimizations (checks existing, only generates what's missing)
+# Check status and generate only what's missing/outdated
 python opti_init.py
+
+# Check status without generating anything
+python opti_init.py --check-only
 
 # Force regeneration of all assets
 python opti_init.py --force
@@ -437,6 +481,13 @@ python opti_init.py --force
 python opti_init.py --skip-thumbnails      # Skip thumbnail generation
 python opti_init.py --skip-consolidation   # Skip YAML consolidation
 ```
+
+#### Intelligent Features 🧠
+The script now **automatically detects** what needs to be updated:
+- ✅ Checks if consolidated JSON is **stale** (YAMLs newer than JSON)
+- ✅ Checks if thumbnails are **missing** for some videos
+- ✅ Only regenerates what's needed (saves time!)
+- ✅ Use `--check-only` to see status without making changes
 
 #### What It Does
 
@@ -501,6 +552,7 @@ git push
 
 | Option | Description |
 |--------|-------------|
+| `--check-only` | Check status without generating anything (useful for CI/CD) |
 | `--force` | Force regeneration even if outputs exist |
 | `--skip-consolidation` | Skip YAML → JSON consolidation |
 | `--skip-thumbnails` | Skip thumbnail generation (if ffmpeg unavailable) |

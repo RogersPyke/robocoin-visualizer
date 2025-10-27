@@ -99,41 +99,87 @@ def install_pyyaml():
         return False
 
 
-def check_consolidated_json(docs_dir):
-    """Check if consolidated JSON exists."""
+def check_consolidated_json(docs_dir, check_freshness=True):
+    """Check if consolidated JSON exists and is up-to-date."""
     json_path = docs_dir / "assets" / "dataset_info" / "consolidated_datasets.json"
     json_gz_path = Path(str(json_path) + ".gz")
+    yaml_dir = docs_dir / "assets" / "dataset_info"
     
-    if json_path.exists():
-        size_mb = json_path.stat().st_size / (1024 * 1024)
-        print_success(f"Consolidated JSON exists: {json_path.name} ({size_mb:.2f} MB)")
-        
-        if json_gz_path.exists():
-            gz_size_kb = json_gz_path.stat().st_size / 1024
-            print_success(f"Compressed version exists: {json_gz_path.name} ({gz_size_kb:.2f} KB)")
-        
-        return True
+    if not json_path.exists():
+        return False, "missing"
     
-    return False
+    size_mb = json_path.stat().st_size / (1024 * 1024)
+    print_success(f"Consolidated JSON exists: {json_path.name} ({size_mb:.2f} MB)")
+    
+    if json_gz_path.exists():
+        gz_size_kb = json_gz_path.stat().st_size / 1024
+        print_success(f"Compressed version exists: {json_gz_path.name} ({gz_size_kb:.2f} KB)")
+    
+    # Check if YAMLs are newer than consolidated JSON
+    if check_freshness:
+        json_mtime = json_path.stat().st_mtime
+        yaml_files = list(yaml_dir.glob("*.yml")) + list(yaml_dir.glob("*.yaml"))
+        
+        if not yaml_files:
+            print_warning("No YAML files found. Cannot verify freshness.")
+            return True, "ok"
+        
+        newest_yaml_mtime = max(f.stat().st_mtime for f in yaml_files)
+        
+        if newest_yaml_mtime > json_mtime:
+            print_warning("⚠ Some YAML files are newer than consolidated JSON")
+            print_info(f"  Consolidated JSON: {Path(json_path).name}")
+            print_info(f"  Consider regenerating with --force")
+            return True, "stale"
+    
+    return True, "ok"
 
 
-def check_thumbnails(docs_dir):
-    """Check if thumbnails directory exists and has files."""
+def check_thumbnails(docs_dir, check_correspondence=True):
+    """Check if thumbnails directory exists and corresponds to videos."""
     thumbnails_dir = docs_dir / "assets" / "thumbnails"
+    videos_dir = docs_dir / "assets" / "videos"
     
     if not thumbnails_dir.exists():
-        return False
+        return False, "missing", {}
     
     thumbnail_files = list(thumbnails_dir.glob("*.jpg"))
     
     if len(thumbnail_files) == 0:
-        return False
+        return False, "empty", {}
     
     total_size = sum(f.stat().st_size for f in thumbnail_files)
     size_mb = total_size / (1024 * 1024)
     print_success(f"Thumbnails exist: {len(thumbnail_files)} files ({size_mb:.2f} MB)")
     
-    return True
+    # Check correspondence with videos
+    issues = {}
+    if check_correspondence and videos_dir.exists():
+        video_files = list(videos_dir.glob("*.mp4"))
+        
+        # Get base names
+        thumbnail_names = {f.stem for f in thumbnail_files}
+        video_names = {f.stem for f in video_files}
+        
+        # Find missing thumbnails
+        missing = video_names - thumbnail_names
+        if missing:
+            issues['missing_thumbnails'] = list(missing)
+            print_warning(f"⚠ {len(missing)} videos are missing thumbnails")
+        
+        # Find orphaned thumbnails (thumbnails without videos)
+        orphaned = thumbnail_names - video_names
+        if orphaned:
+            issues['orphaned_thumbnails'] = list(orphaned)
+            print_info(f"ℹ {len(orphaned)} thumbnails have no corresponding video (may be removed)")
+        
+        if not issues:
+            print_success(f"✓ All {len(video_files)} videos have thumbnails")
+            return True, "ok", {}
+        else:
+            return True, "incomplete", issues
+    
+    return True, "ok", {}
 
 
 def run_consolidation(project_root, force=False):
@@ -142,10 +188,18 @@ def run_consolidation(project_root, force=False):
     
     docs_dir = project_root / "docs"
     
-    if not force and check_consolidated_json(docs_dir):
-        print_info("Consolidated JSON already exists. Skipping...")
+    # Check if consolidation is needed
+    exists, status = check_consolidated_json(docs_dir, check_freshness=True)
+    
+    if exists and status == "ok" and not force:
+        print_info("Consolidated JSON is up-to-date. Skipping...")
         print_info("Use --force to regenerate.")
         return True
+    elif exists and status == "stale":
+        print_warning("Consolidated JSON is stale. Regenerating...")
+        force = True  # Auto-regenerate stale files
+    elif not exists:
+        print_info("Consolidated JSON not found. Generating...")
     
     # Check dependencies
     if not check_python_package('yaml'):
@@ -185,10 +239,23 @@ def run_thumbnail_generation(project_root, force=False):
     
     docs_dir = project_root / "docs"
     
-    if not force and check_thumbnails(docs_dir):
-        print_info("Thumbnails already exist. Skipping...")
+    # Check if thumbnail generation is needed
+    exists, status, issues = check_thumbnails(docs_dir, check_correspondence=True)
+    
+    if exists and status == "ok" and not force:
+        print_info("Thumbnails are up-to-date. Skipping...")
         print_info("Use --force to regenerate.")
         return True
+    elif exists and status == "incomplete":
+        missing_count = len(issues.get('missing_thumbnails', []))
+        if missing_count > 0:
+            print_warning(f"Generating {missing_count} missing thumbnails...")
+            # Continue to generation
+        else:
+            print_info("All videos have thumbnails. Skipping...")
+            return True
+    elif not exists or status == "empty":
+        print_info("Thumbnails not found. Generating...")
     
     # Check for ffmpeg
     if not check_dependency('ffmpeg'):
@@ -260,12 +327,22 @@ def verify_optimizations(docs_dir):
 def main():
     """Main entry point."""
     parser = argparse.ArgumentParser(
-        description="Run all performance optimizations for RoboCOIN Dataset Visualizer"
+        description="Run all performance optimizations for RoboCOIN Dataset Visualizer",
+        epilog="Examples:\n"
+               "  python opti_init.py                  # Check and generate missing files\n"
+               "  python opti_init.py --force          # Regenerate all files\n"
+               "  python opti_init.py --check-only     # Only check status without generating\n",
+        formatter_class=argparse.RawDescriptionHelpFormatter
     )
     parser.add_argument(
         '--force',
         action='store_true',
         help='Force regeneration even if outputs exist'
+    )
+    parser.add_argument(
+        '--check-only',
+        action='store_true',
+        help='Only check status without generating anything'
     )
     parser.add_argument(
         '--skip-consolidation',
@@ -300,6 +377,30 @@ def main():
         print_error(f"Docs directory not found: {docs_dir}")
         print_error("Make sure you're running this from the project root.")
         sys.exit(1)
+    
+    # Check-only mode: just report status and exit
+    if args.check_only:
+        print_section("Checking Optimization Status")
+        
+        # Check consolidated JSON
+        json_exists, json_status = check_consolidated_json(docs_dir, check_freshness=True)
+        print()
+        
+        # Check thumbnails
+        thumb_exists, thumb_status, thumb_issues = check_thumbnails(docs_dir, check_correspondence=True)
+        print()
+        
+        # Summary
+        print_section("Status Summary")
+        if json_status == "ok" and thumb_status == "ok":
+            print_success("✓ All optimizations are up-to-date!")
+            return 0
+        elif json_status in ["stale", "incomplete"] or thumb_status in ["stale", "incomplete"]:
+            print_warning("⚠ Some optimizations need updating. Run without --check-only to fix.")
+            return 0
+        else:
+            print_error("✗ Optimizations are missing. Run without --check-only to generate.")
+            return 1
     
     # Track success
     success = True
