@@ -1,0 +1,34 @@
+dataset_name: plate_storage
+dataset_uuid:
+task_descriptions:
+- grip the plate with the left hand, pass it to the right, then set it on the shelf.
+- grip the plate with the right hand, pass it to the left, then set it on the shelf.
+scene_type:
+- home
+atomic_actions:
+- grasp
+- pick
+- place
+objects:
+- object_name: table
+  level1: furniture
+  level2: table
+  level3:
+  level4:
+  level5:
+- object_name: plate
+  level1: container
+  level2: plate
+  level3:
+  level4:
+  level5:
+- object_name: shelf
+  level1: furniture
+  level2: shelf
+  level3:
+  level4:
+  level5:
+device_model:
+- realman_rmc_aidal
+end_effector_type: two_finger_gripper
+operation_platform_height: 77.2

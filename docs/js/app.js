@@ -75,8 +75,14 @@ const ConfigManager = {
             loading: {
                 batchSize: this.getCSSValue('--loading-batch-size', 150)
             },
+            // Standard directory structure:
+            // ./assets/
+            //   ├── info/               - JSON index files (data_index.json, consolidated_datasets.json)
+            //   ├── dataset_info/       - YAML metadata files (one per dataset)
+            //   └── videos/             - MP4 video files (named by dataset path)
             paths: {
                 assetsRoot: './assets',
+                info: './assets/info',  // JSON index files following standard structure
                 get datasetInfo() {
                     return `${this.assetsRoot}/dataset_info`;
                 },
@@ -161,7 +167,7 @@ const APP = {
             loadingBar.style.width = '10%';
             
             // Load consolidated JSON file (single request instead of 2000!)
-            const res = await fetch(`${config.paths.datasetInfo}/consolidated_datasets.json`);
+            const res = await fetch(`${config.paths.info}/consolidated_datasets.json`);
             
             // Check if consolidated JSON exists
             if (!res.ok) {
@@ -250,7 +256,7 @@ const APP = {
             `;
             loadingBar.style.width = '5%';
             
-            const indexRes = await fetch(`${config.paths.datasetInfo}/data_index.json`);
+            const indexRes = await fetch(`${config.paths.info}/data_index.json`);
             if (!indexRes.ok) {
                 throw new Error('data_index.json not found');
             }

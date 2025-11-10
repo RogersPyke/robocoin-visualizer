@@ -1,0 +1,57 @@
+dataset_name: receive_drink
+dataset_uuid:
+task_descriptions:
+- place the cup under the faucet to collect the cola, remove the cup.
+- place the cup under the faucet to collect the orange juice, remove the cup.
+- place the cup under the faucet to collect the sprite, remove the cup.
+- the left hand pick up the cup from the table.
+- the right hand pick up the cup from the table.
+scene_type:
+- home
+- kitchen
+atomic_actions:
+- grasp
+- pick
+- receive
+- place
+objects:
+- object_name: table
+  level1: furniture
+  level2: table
+  level3:
+  level4:
+  level5:
+- object_name: faucet
+  level1: tool
+  level2: faucet
+  level3:
+  level4:
+  level5:
+- object_name: cup
+  level1: container
+  level2: cup
+  level3:
+  level4:
+  level5:
+- object_name: orange_juice
+  level1: drink
+  level2: orange_juice
+  level3:
+  level4:
+  level5:
+- object_name: cola
+  level1: drink
+  level2: cola
+  level3:
+  level4:
+  level5:
+- object_name: sprite
+  level1: drink
+  level2: sprite
+  level3:
+  level4:
+  level5:
+operation_platform_height: 77.2
+device_model:
+- unitree_g1
+end_effector_type: five_finger_hand
