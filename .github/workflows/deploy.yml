@@ -2,14 +2,15 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ feat ]
-  workflow_dispatch:
+    branches: [ feat ]  # 当推送到feat分支时触发
+  workflow_dispatch:  # 允许手动触发
 
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# 只允许一个部署同时进行
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -30,9 +31,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './docs'
+          path: './docs'  # 上传docs目录
       
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
