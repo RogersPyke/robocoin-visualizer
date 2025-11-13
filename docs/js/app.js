@@ -35,7 +35,7 @@ const ConfigManager = {
             },
             grid: {
                 minCardWidth: this.getCSSValue('--grid-min-card-width', 180),
-                cardHeight: this.getCSSValue('--grid-card-height', 250),
+                cardHeight: this.getCSSValue('--grid-card-height', 300),
                 gap: this.getCSSValue('--grid-gap', 16),
                 columns: this.getCSSValue('--grid-columns', 4),
                 bufferRows: this.getCSSValue('--grid-buffer-rows', 2),
@@ -1250,6 +1250,7 @@ const APP = {
                 this.closeFilterDropdown();
             }
         });
+        document.getElementById('resetFiltersBtn').addEventListener('click', () => this.resetFilters());
         document.getElementById('selectAllBtn').addEventListener('click', () => this.selectAllFiltered());
         document.getElementById('deselectAllBtn').addEventListener('click', () => this.deselectAllFiltered());
         document.getElementById('importBtn').addEventListener('click', () => this.importSelection());
@@ -1564,7 +1565,7 @@ const APP = {
         
         const computedTemp = getComputedStyle(tempDiv);
         const minCardWidthPx = parseFloat(computedTemp.width) || 250;
-        const cardHeightPx = parseFloat(computedTemp.height) || 270;
+        const cardHeightPx = parseFloat(computedTemp.height) || 300;
         const gapPx = parseFloat(computedTemp.marginTop) || 16;
         
         // 使用配置计算布局

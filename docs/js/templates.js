@@ -134,7 +134,8 @@ const Templates = {
     },
 
     buildVideoTag(text, more = '') {
-        return `<span class="video-tag"> ${text} ${more}</span>`;
+        const moreHtml = more ? `<sup class="tag-count">${more}</sup>` : '';
+        return `<span class="video-tag"><span class="tag-text">${text}</span>${moreHtml}</span>`;
     },
 
     buildVideoErrorBadge() {
