@@ -454,9 +454,11 @@ const APP = {
         const container = document.getElementById('filterGroups');
         container.innerHTML = '';
         
+        let isFirstGroup = true;
         for (const [key, group] of Object.entries(groups)) {
             const div = document.createElement('div');
-            div.className = 'filter-group';
+            // Start collapsed (except first) to reduce initial render
+            div.className = isFirstGroup ? 'filter-group' : 'filter-group collapsed';
             
             if (group.type === 'flat') {
                 div.innerHTML = this.buildFlatFilterGroup(key, group);
@@ -465,6 +467,7 @@ const APP = {
             }
             
             container.appendChild(div);
+            isFirstGroup = false;
             
             // NEW: Click handler for group title (expand/collapse)
             const titleElement = div.querySelector('.filter-group-title');
@@ -473,43 +476,46 @@ const APP = {
             });
             
             // NEW: Add click handlers for filter options (OPTIMIZED - with caching)
-            const filterOptions = div.querySelectorAll('.filter-option');
-            filterOptions.forEach(option => {
-                // Skip hierarchy parent nodes (they don't have data-value)
-                if (option.classList.contains('hierarchy-name-only')) {
-                    // Handle hierarchy expand/collapse
-                    option.addEventListener('click', (e) => {
-                        if (e.target.closest('.hierarchy-toggle')) {
-                            return; // Let hierarchy toggle handler deal with this
-                        }
-                        const wrapper = option.closest('.filter-option-wrapper');
-                        const children = wrapper?.querySelector('.filter-children');
-                        if (children) {
-                            children.classList.toggle('collapsed');
-                        }
-                    });
-                    return;
-                }
-                
-                const filterKey = option.dataset.filter;
-                const filterValue = option.dataset.value;
-                
-                if (filterKey && filterValue) {
-                    // Cache the element for fast lookups
-                    const filterId = `${filterKey}:${filterValue}`;
-                    this.filterOptionCache.set(filterId, option);
+            // Use requestAnimationFrame to avoid blocking during init
+            requestAnimationFrame(() => {
+                const filterOptionsElements = div.querySelectorAll('.filter-option');
+                filterOptionsElements.forEach(option => {
+                    // Skip hierarchy parent nodes (they don't have data-value)
+                    if (option.classList.contains('hierarchy-name-only')) {
+                        // Handle hierarchy expand/collapse
+                        option.addEventListener('click', (e) => {
+                            if (e.target.closest('.hierarchy-toggle')) {
+                                return; // Let hierarchy toggle handler deal with this
+                            }
+                            const wrapper = option.closest('.filter-option-wrapper');
+                            const children = wrapper?.querySelector('.filter-children');
+                            if (children) {
+                                children.classList.toggle('collapsed');
+                            }
+                        });
+                        return;
+                    }
                     
-                    option.addEventListener('click', (e) => {
-                        // Don't trigger if clicking on child elements that have their own handlers
-                        if (e.target.closest('.hierarchy-toggle')) {
-                            return;
-                        }
+                    const filterKey = option.dataset.filter;
+                    const filterValue = option.dataset.value;
+                    
+                    if (filterKey && filterValue) {
+                        // Cache the element for fast lookups
+                        const filterId = `${filterKey}:${filterValue}`;
+                        this.filterOptionCache.set(filterId, option);
                         
-                        const label = option.querySelector('.filter-option-label')?.textContent?.trim() || filterValue;
-                        // Pass the element to avoid querying
-                        this.toggleFilterSelection(filterKey, filterValue, label, option);
-                    });
-                }
+                        option.addEventListener('click', (e) => {
+                            // Don't trigger if clicking on child elements that have their own handlers
+                            if (e.target.closest('.hierarchy-toggle')) {
+                                return;
+                            }
+                            
+                            const label = option.querySelector('.filter-option-label')?.textContent?.trim() || filterValue;
+                            // Pass the element to avoid querying
+                            this.toggleFilterSelection(filterKey, filterValue, label, option);
+                        });
+                    }
+                });
             });
             
             // Add hierarchy toggle handlers
@@ -1044,6 +1050,32 @@ const APP = {
         requestAnimationFrame(() => {
             overlay.classList.add('show');
         });
+        
+        // Setup scroll performance optimization
+        this.setupDropdownScrollOptimization();
+    },
+    
+    // Optimize dropdown scrolling performance
+    setupDropdownScrollOptimization() {
+        const content = document.querySelector('.filter-dropdown-content');
+        if (!content) return;
+        
+        let scrollTimeout;
+        const scrollHandler = () => {
+            content.classList.add('scrolling');
+            clearTimeout(scrollTimeout);
+            scrollTimeout = setTimeout(() => {
+                content.classList.remove('scrolling');
+            }, 150);
+        };
+        
+        // Remove existing listener if any
+        if (this._dropdownScrollHandler) {
+            content.removeEventListener('scroll', this._dropdownScrollHandler);
+        }
+        
+        this._dropdownScrollHandler = scrollHandler;
+        content.addEventListener('scroll', scrollHandler, { passive: true });
     },
 
     // Close filter dropdown
