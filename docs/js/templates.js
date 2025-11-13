@@ -68,7 +68,7 @@ const Templates = {
                 <div class="filter-option-wrapper" style="margin-left: ${indent}px;" data-level="${level}">
                     <div class="filter-option hierarchy-name-only" data-path="${fullPath}" style="padding-left: 0;">
                         <div class="filter-option-label" style="margin-left: 0;">
-                            <span class="hierarchy-toggle">▶</span>
+                            <span class="hierarchy-toggle">•</span>
                             <span class="hierarchy-label">${value}</span>
                         </div>
                         <div class="filter-option-connector"></div>

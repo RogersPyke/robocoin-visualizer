@@ -601,11 +601,10 @@ const APP = {
                 
                 const wrapper = nameElement.closest('.filter-option-wrapper');
                 const children = wrapper.querySelector('.filter-children');
-                const toggle = nameElement.querySelector('.hierarchy-toggle');
                 
                 if (children) {
                     children.classList.toggle('collapsed');
-                    toggle.textContent = children.classList.contains('collapsed') ? '▶' : '▼';
+                    // Keep dot indicator constant - no toggle needed
                 }
             });
         });
@@ -841,14 +840,7 @@ const APP = {
             if (parent.classList.contains('collapsed')) {
                 parent.classList.remove('collapsed');
                 
-                // 更新三角图标
-                const parentWrapper = parent.closest('.filter-option-wrapper');
-                if (parentWrapper) {
-                    const toggle = parentWrapper.querySelector('.hierarchy-toggle');
-                    if (toggle) {
-                        toggle.textContent = '▼';
-                    }
-                }
+                // Dot indicator stays constant - no need to update
             }
             parent = parent.parentElement?.closest('.filter-children');
         }
@@ -1847,7 +1839,7 @@ const APP = {
             children.classList.add('collapsed');
         });
         document.querySelectorAll('.hierarchy-toggle').forEach(toggle => {
-            toggle.textContent = '▶';
+            toggle.textContent = '•';
         });
         
         // 确保在所有操作完成后，再次强制设置所有大类ALL选项为选中状态
