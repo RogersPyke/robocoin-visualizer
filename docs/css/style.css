@@ -1541,36 +1541,13 @@ body {
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
-    width: 2rem;
-    height: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: rgba(40, 167, 69, 0.6);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1.25rem;
     font-size: 1rem;
-    
-    /* Glass-morphism effect with green tint */
-    background: rgba(46, 204, 113, 0.15);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    
-    /* Border and shadow with green hint */
-    border: 1px solid rgba(46, 204, 113, 0.3);
-    border-radius: 50%;
-    box-shadow: 
-        0 0.25rem 0.75rem rgba(46, 204, 113, 0.2),
-        inset 0 1px 0 rgba(255, 255, 255, 0.3);
-    
-    z-index: 11;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.video-success-badge:hover {
-    background: rgba(46, 204, 113, 0.25);
-    border-color: rgba(46, 204, 113, 0.5);
-    box-shadow: 
-        0 0.375rem 1rem rgba(46, 204, 113, 0.3),
-        inset 0 1px 0 rgba(255, 255, 255, 0.4);
-    transform: scale(1.05);
+    font-weight: 700;
+    z-index: 11;  /* 确保在蒙版之上 */
 }
 
 /* 视频信息区 */
