@@ -67,7 +67,7 @@ const Templates = {
             return `
                 <div class="filter-option-wrapper" style="margin-left: ${indent}px;" data-level="${level}">
                     <div class="filter-option hierarchy-name-only" data-path="${fullPath}" style="padding-left: 0;">
-                        <button class="hierarchy-expand-btn" data-action="toggle">+</button>
+                        <button class="hierarchy-expand-btn" data-action="toggle">›</button>
                         <div class="filter-option-label" style="margin-left: 0;">
                             <span class="hierarchy-label">${value}</span>
                         </div>

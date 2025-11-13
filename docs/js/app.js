@@ -491,8 +491,8 @@ const APP = {
                                 const children = wrapper?.querySelector('.filter-children');
                                 if (children) {
                                     children.classList.toggle('collapsed');
-                                    // Update button text
-                                    expandBtn.textContent = children.classList.contains('collapsed') ? '+' : '-';
+                                    // Update button text: › when collapsed, ∨ when expanded
+                                    expandBtn.textContent = children.classList.contains('collapsed') ? '›' : '∨';
                                 }
                             });
                         }
