@@ -1,23 +1,45 @@
-/* ==================== Responsive Base ==================== */
+/* ==================== Responsive Base - Fluid Typography ==================== */
+/* 
+ * Fluid typography that scales smoothly with viewport width
+ * Mobile (320px): 13px
+ * Tablet (768px): 14.5px  
+ * Desktop (1024px): 16px
+ * Large (1440px): 17px
+ * Extra Large (1920px): 18px
+ */
 html {
-    font-size: 14px; /* Base font size for mobile */
+    /* Fluid font size using clamp for smooth scaling */
+    font-size: clamp(13px, 0.8125rem + 0.3125vw, 18px);
 }
 
-@media (min-width: 768px) {
+/* Fallback for browsers that don't support clamp */
+@supports not (font-size: clamp(13px, 1vw, 18px)) {
     html {
-        font-size: 15px; /* Slightly larger for tablets */
+        font-size: 14px; /* Base font size for mobile */
     }
-}
 
-@media (min-width: 1024px) {
-    html {
-        font-size: 16px; /* Standard for desktop */
+    @media (min-width: 768px) {
+        html {
+            font-size: 15px; /* Slightly larger for tablets */
+        }
     }
-}
 
-@media (min-width: 1440px) {
-    html {
-        font-size: 17px; /* Larger for big screens */
+    @media (min-width: 1024px) {
+        html {
+            font-size: 16px; /* Standard for desktop */
+        }
+    }
+
+    @media (min-width: 1440px) {
+        html {
+            font-size: 17px; /* Larger for big screens */
+        }
+    }
+    
+    @media (min-width: 1920px) {
+        html {
+            font-size: 18px; /* Extra large screens */
+        }
     }
 }
 
@@ -86,37 +108,24 @@ html {
     --breakpoint-xlarge: 1600px;
 }
 
-/* Responsive Layout Rules - Mobile First Approach */
-@media (min-width: 600px) {
+/* Responsive Layout Rules - Mobile First Approach with Fluid Adjustments */
+
+/* Extra Small Mobile (< 375px) - Very compact */
+@media (max-width: 374px) {
     :root {
-        --grid-columns: 2;
-        --content-padding: 0.75rem;
+        --grid-columns: 1;
+        --filter-panel-width: 100%;
+        --video-panel-width: 100%;
+        --selection-panel-width: 100%;
+        --grid-min-card-width: 100%;
+        --content-padding: 0.375rem;
+        --hierarchy-indent: 0.25rem;
+        --grid-gap: 0.75rem;
     }
 }
 
-@media (min-width: 900px) {
-    :root {
-        --grid-columns: 3;
-        --content-padding: 0.875rem;
-    }
-}
-
-@media (min-width: 1200px) {
-    :root {
-        --grid-columns: 4;
-        --content-padding: 1rem;
-    }
-}
-
-@media (min-width: 1600px) {
-    :root {
-        --grid-columns: 5;
-        --content-padding: 1.25rem;
-    }
-}
-
-/* Mobile Screens (< 600px) */
-@media (max-width: 599px) {
+/* Small Mobile (375px-599px) */
+@media (min-width: 375px) and (max-width: 599px) {
     :root {
         --grid-columns: 1;
         --filter-panel-width: 100%;
@@ -124,6 +133,89 @@ html {
         --selection-panel-width: 100%;
         --grid-min-card-width: 100%;
         --content-padding: 0.5rem;
+        --hierarchy-indent: 0.3rem;
+    }
+}
+
+/* Small Tablet (600px-767px) */
+@media (min-width: 600px) and (max-width: 767px) {
+    :root {
+        --grid-columns: 2;
+        --content-padding: 0.625rem;
+        --hierarchy-indent: 0.35rem;
+    }
+    
+    /* Compact toolbar for small tablets - no wrapping */
+    .toolbar-actions {
+        gap: 0.375rem;
+    }
+    
+    .btn-group {
+        padding: 0.275rem 0.375rem;
+        gap: 0.225rem;
+    }
+    
+    .btn-toolbar {
+        padding: 0.175rem 0.35rem;
+        font-size: 0.5938rem;  /* ~9.5px */
+    }
+}
+
+/* Tablet Portrait (768px-899px) */
+@media (min-width: 768px) and (max-width: 899px) {
+    :root {
+        --grid-columns: 2;
+        --content-padding: 0.75rem;
+        --hierarchy-indent: 0.4rem;
+    }
+}
+
+/* Tablet Landscape / Small Desktop (900px-1199px) */
+@media (min-width: 900px) and (max-width: 1199px) {
+    :root {
+        --grid-columns: 3;
+        --content-padding: 0.875rem;
+        --hierarchy-indent: 0.5rem;
+    }
+    
+    /* Scale down toolbar on smaller desktops - no wrapping */
+    .toolbar-actions {
+        gap: 0.5rem;
+    }
+    
+    .btn-group {
+        gap: 0.3rem;
+        padding: 0.35rem 0.55rem;
+    }
+    
+    .btn-toolbar {
+        padding: 0.2rem 0.45rem;
+        font-size: 0.6875rem;  /* Slightly smaller on this breakpoint */
+    }
+}
+
+/* Desktop (1200px-1599px) */
+@media (min-width: 1200px) and (max-width: 1599px) {
+    :root {
+        --grid-columns: 4;
+        --content-padding: 1rem;
+    }
+}
+
+/* Large Desktop (1600px-1919px) */
+@media (min-width: 1600px) and (max-width: 1919px) {
+    :root {
+        --grid-columns: 5;
+        --content-padding: 1.125rem;
+    }
+}
+
+/* Extra Large Desktop (1920px+) */
+@media (min-width: 1920px) {
+    :root {
+        --grid-columns: 6;
+        --content-padding: 1.25rem;
+        --grid-min-card-width: 16.875rem; /* 270px - slightly larger cards on huge screens */
     }
 }
 
@@ -162,7 +254,8 @@ body {
 .header-title {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
-    font-size: 1.125rem;
+    /* Fluid font size: 0.875rem (14px) on mobile to 1.25rem (20px) on desktop */
+    font-size: clamp(0.875rem, 0.75rem + 0.5vw, 1.25rem);
     font-weight: 600;
     color: #ffffff;
     line-height: 1.2;
@@ -176,7 +269,8 @@ body {
     align-items: center;
     justify-content: center;
     padding: 0.25rem 1rem;  /* Flatter: less vertical, more horizontal */
-    font-size: 0.8125rem;
+    /* Fluid font size: 0.625rem (10px) on mobile to 0.875rem (14px) on desktop */
+    font-size: clamp(0.625rem, 0.5625rem + 0.25vw, 0.875rem);
     font-weight: 600;
     color: #ffffff;
     
@@ -332,7 +426,8 @@ body {
     padding: 0.75rem 0.5rem;  /* 缩小左右padding */
     background: #f6f8fa;  /* 浅灰色背景区分 */
     border-bottom: 1px solid #d0d7de;
-    font-size: 0.8125rem;
+    /* Fluid font size: 0.75rem on mobile to 0.875rem on desktop */
+    font-size: clamp(0.75rem, 0.6875rem + 0.25vw, 0.875rem);
 }
 .stat-item {
     display: flex;
@@ -362,7 +457,8 @@ body {
 
 .filter-group-title {
     font-weight: 600;
-    font-size: 0.8125rem;
+    /* Fluid font size: 0.75rem on mobile to 0.875rem on desktop */
+    font-size: clamp(0.75rem, 0.6875rem + 0.25vw, 0.875rem);
     margin-bottom: 0.5rem;
     cursor: pointer;
     user-select: none;
@@ -477,7 +573,8 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: 0.375rem 0;
-    font-size: 0.8125rem;
+    /* Fluid font size: 0.7rem on mobile to 0.875rem on desktop */
+    font-size: clamp(0.7rem, 0.65rem + 0.25vw, 0.875rem);
     position: relative;
     padding: 0.25rem 0;
 }
@@ -602,32 +699,86 @@ body {
     padding: var(--content-padding);
     background: #ffffff;
     border-bottom: 1px solid #d0d7de;
+    position: relative;  /* For scroll hint positioning */
+}
+
+/* Visual hint for horizontal scroll when toolbar overflows */
+.video-toolbar::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 2rem;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.95), transparent);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Show gradient hint when toolbar is scrollable */
+@media (max-width: 1199px) {
+    .video-toolbar::after {
+        opacity: 1;
+    }
 }
 
 .toolbar-actions {
     display: flex;
     gap: 0.625rem;  /* Gap between button groups */
     align-items: center;
-    flex-wrap: nowrap;  /* Prevent wrapping */
-    overflow-x: auto;  /* Allow horizontal scroll if needed on very small screens */
+    flex-wrap: nowrap;  /* Strictly no wrapping */
+    overflow-x: auto;  /* Allow horizontal scroll as last resort */
     overflow-y: hidden;
-    scrollbar-width: none;  /* Firefox */
-    -ms-overflow-style: none;  /* IE/Edge */
+    scrollbar-width: thin;  /* Thin scrollbar for Firefox */
+    -webkit-overflow-scrolling: touch;  /* Smooth scrolling on iOS */
+    scroll-behavior: smooth;  /* Smooth scrolling when interacting */
+    overscroll-behavior-x: contain;  /* Prevent scroll chaining */
+    /* Add padding to ensure last button is fully visible */
+    padding-right: 0.5rem;
 }
 
+/* Show minimal scrollbar only when needed */
 .toolbar-actions::-webkit-scrollbar {
-    display: none;  /* Chrome/Safari/Opera */
+    height: 0.3rem;
+}
+
+.toolbar-actions::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 0.15rem;
+}
+
+.toolbar-actions::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 0.15rem;
+}
+
+.toolbar-actions::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/* Make scrollbar more visible on touch devices */
+@media (pointer: coarse) {
+    .toolbar-actions::-webkit-scrollbar {
+        height: 0.375rem;
+    }
+    
+    .toolbar-actions::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.3);
+    }
 }
 
 /* Button Group Container - Glass-morphism effect, non-interactive */
 .btn-group {
     display: flex;
-    gap: 0.375rem;  /* More space between buttons */
+    gap: clamp(0.25rem, 0.2rem + 0.25vw, 0.375rem);  /* Fluid gap that scales down */
     align-items: center;
-    flex-shrink: 0;
-    padding: 0.5rem 0.75rem;  /* Larger padding for prominence */
+    flex-shrink: 0;  /* Prevent shrinking - let scrolling handle overflow */
+    flex-wrap: nowrap;  /* Strictly no wrapping */
+    padding: clamp(0.3rem, 0.25rem + 0.25vw, 0.5rem) clamp(0.5rem, 0.4rem + 0.3vw, 0.75rem);  /* Fluid padding */
     position: relative;
     z-index: 1;
+    white-space: nowrap;  /* Ensure no text wrapping */
     
     /* Glass-morphism effect similar to version badge */
     background: rgba(255, 255, 255, 0.4);
@@ -651,17 +802,20 @@ body {
 }
 
 .btn-toolbar {
-    padding: 0.3rem 0.625rem;  /* Smaller padding */
+    /* Fluid padding that scales down aggressively on small screens */
+    padding: clamp(0.2rem, 0.15rem + 0.25vw, 0.35rem) clamp(0.4rem, 0.3rem + 0.4vw, 0.625rem);
     border: 1px solid #d0d7de;
     background: #ffffff;
     color: #24292f;
     border-radius: 0.375rem;
     cursor: pointer;
-    font-size: 0.75rem;  /* Smaller font size */
+    /* More aggressive fluid font size: 0.5625rem (9px) on tiny screens to 0.8125rem on desktop */
+    font-size: clamp(0.5625rem, 0.5rem + 0.4vw, 0.8125rem);
     font-weight: 500;
-    white-space: nowrap;
-    flex-shrink: 0;  /* Prevent buttons from shrinking */
+    white-space: nowrap;  /* Strictly no text wrapping */
+    flex-shrink: 0;  /* Don't shrink - let container scroll instead */
     transition: background-color 0.15s ease, border-color 0.15s ease;
+    line-height: 1.2;  /* Tighter line height for compactness */
 }
 
 .btn-toolbar:hover {
@@ -870,7 +1024,8 @@ body {
 }
 
 .video-title {
-    font-size: 0.8125rem;
+    /* Fluid font size: 0.75rem on mobile to 0.875rem on desktop */
+    font-size: clamp(0.75rem, 0.6875rem + 0.25vw, 0.875rem);
     font-weight: 600;
     line-height: 1.4;
     height: 2.625rem;      /* 固定为2行高度 */
@@ -935,6 +1090,12 @@ body {
 .video-card:hover .video-hover-overlay {
     opacity: 1;
     visibility: visible;
+}
+
+/* Touch-active state for tablets/mobile (triggered by tap) */
+.video-hover-overlay.touch-active {
+    opacity: 1 !important;
+    visibility: visible !important;
 }
 
 /* 悬浮层标题 */
@@ -1031,7 +1192,8 @@ body {
     background: #ffffff;
     border-radius: 0.375rem;
     cursor: pointer;
-    font-size: 0.75rem;
+    /* Fluid font size: 0.6875rem on mobile to 0.8125rem on desktop */
+    font-size: clamp(0.6875rem, 0.625rem + 0.25vw, 0.8125rem);
     font-weight: 500;
     transition: background-color 0.15s ease, border-color 0.15s ease;
     white-space: nowrap;
@@ -1266,7 +1428,8 @@ body {
 
 .selection-item-name {
     flex: 1;
-    font-size: 0.8125rem;
+    /* Fluid font size: 0.75rem on mobile to 0.875rem on desktop */
+    font-size: clamp(0.75rem, 0.6875rem + 0.25vw, 0.875rem);
     font-weight: 500;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1314,7 +1477,8 @@ body {
     margin-bottom: 0.5rem;
 }
 .code-section-description {
-    font-size: 0.75rem;
+    /* Fluid font size: 0.6875rem on mobile to 0.8125rem on desktop */
+    font-size: clamp(0.6875rem, 0.625rem + 0.25vw, 0.8125rem);
     color: #666;
     margin-bottom: 0.375rem;
     font-weight: 500;
@@ -1346,7 +1510,8 @@ body {
     border-radius: 0.375rem;
     padding: 0.75rem;
     font-family: 'SF Mono', 'Consolas', 'Liberation Mono', 'Courier New', Courier, monospace;
-    font-size: 0.6875rem;
+    /* Fluid font size: 0.625rem on mobile to 0.75rem on desktop */
+    font-size: clamp(0.625rem, 0.5625rem + 0.25vw, 0.75rem);
     max-height: 12.5rem;  /* 最大高度 */
     overflow-y: auto;  /* 超出滚动 */
     white-space: pre-wrap;  /* 保留空白符并换行 */
@@ -1413,7 +1578,8 @@ body {
 
 .loading-text {
     margin-top: 1.5rem;
-    font-size: 1rem;
+    /* Fluid font size: 0.875rem on mobile to 1.0625rem on desktop */
+    font-size: clamp(0.875rem, 0.8125rem + 0.25vw, 1.0625rem);
     font-weight: 600;
     color: #24292f;
     font-family: -apple-system, BlinkMacSystemFont, 'Inter', "Segoe UI", Roboto, sans-serif;
@@ -1421,7 +1587,8 @@ body {
 
 .loading-progress {
     margin-top: 0.75rem;
-    font-size: 0.8125rem;
+    /* Fluid font size: 0.75rem on mobile to 0.875rem on desktop */
+    font-size: clamp(0.75rem, 0.6875rem + 0.25vw, 0.875rem);
     color: #57606a;
     font-family: 'SF Mono', 'Consolas', 'Courier New', Courier, monospace;
 }
@@ -1642,6 +1809,11 @@ body {
 
 /* Tablet and below (< 900px) */
 @media (max-width: 899px) {
+    :root {
+        --hierarchy-indent: 0.35rem; /* Reduce indentation significantly on tablets */
+        --content-padding: 0.5rem;
+    }
+    
     .app-container {
         flex-direction: column; /* Stack panels vertically */
     }
@@ -1653,23 +1825,136 @@ body {
         max-height: 50vh; /* Limit height on mobile */
     }
     
+    /* Filter panel - prevent horizontal overflow */
+    .filter-header {
+        padding: 0.5rem 0.375rem;
+    }
+    
+    .filter-content {
+        padding: 0.5rem 0.375rem;
+        overflow-x: hidden; /* Prevent horizontal scroll */
+    }
+    
+    .filter-group {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .filter-group-title {
+        padding-right: 0;
+    }
+    
+    .filter-option {
+        margin: 0.25rem 0;
+    }
+    
+    /* Reduce hierarchy indentation on tablets */
+    .filter-option-label {
+        word-break: break-word;
+        max-width: calc(100% - 6rem); /* Leave space for checkbox */
+        overflow-wrap: break-word;
+        hyphens: auto;
+    }
+    
+    /* Hierarchy toggle positioning for tablets */
+    .hierarchy-toggle {
+        left: -0.625rem;
+    }
+    
+    /* Reduce checkbox area width */
+    .filter-option-checkbox {
+        width: 4rem;
+        padding: 0.125rem 0.25rem;
+    }
+    
+    .filter-group-title-checkbox {
+        width: 4rem;
+        padding: 0.125rem 0.25rem;
+    }
+    
+    /* Reduce connector width */
+    .filter-option-connector {
+        min-width: 0.5rem;
+        margin: 0 0.25rem;
+    }
+    
+    /* Reduce count label width */
+    .filter-option-count {
+        min-width: 1.5rem;
+    }
+    
+    /* Video cards - ensure hover overlay works on tablets */
+    .video-card .video-hover-overlay {
+        padding: 0.75rem;
+    }
+    
+    /* Video toolbar - scale down aggressively on tablets, NO wrapping */
+    .video-toolbar {
+        padding: 0.5rem 0.375rem;  /* Reduce horizontal padding */
+    }
+    
     .video-toolbar .toolbar-actions {
         justify-content: flex-start;  /* Left align to save space */
-        gap: 0.5rem;
+        gap: 0.4rem;  /* Smaller gap */
+        flex-wrap: nowrap;  /* Strictly no wrapping */
     }
     
     .btn-group {
-        padding: 0.375rem 0.5rem;  /* Slightly smaller on tablet */
-        gap: 0.3rem;
+        padding: 0.3rem 0.4rem;  /* Much smaller padding on tablet */
+        gap: 0.25rem;  /* Tighter gap between buttons */
+        flex-wrap: nowrap;  /* Strictly no wrapping */
     }
     
     .btn-toolbar {
-        font-size: 0.6875rem;
-        padding: 0.25rem 0.5rem;
+        padding: 0.2rem 0.4rem;  /* Compact padding */
+        font-size: 0.625rem;  /* Smaller font on tablets */
+        flex-shrink: 0;  /* No shrinking - scroll instead */
     }
     
     .video-grid {
         grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
+    }
+    
+    /* Right panel - fix text overflow */
+    .selection-header {
+        padding: 0.5rem 0.75rem;
+    }
+    
+    .selection-actions {
+        gap: 0.375rem;
+    }
+    
+    .btn-selection {
+        padding: 0.375rem 0.5rem;
+        white-space: normal; /* Allow text wrapping */
+        min-height: 2rem;
+        line-height: 1.2;
+    }
+    
+    /* Hint messages - better wrapping */
+    .empty-cart-hint {
+        padding: 1rem;
+    }
+    
+    .hint-title {
+        padding: 0.375rem 0.75rem;
+    }
+    
+    .hint-subtitle {
+        padding: 0.5rem 0.75rem;
+    }
+    
+    .hint-step {
+        padding: 0.5rem;
+    }
+    
+    .selection-item-name {
+        word-break: break-word;
+    }
+    
+    /* Code output area */
+    .code-output {
+        max-height: 10rem;
     }
     
     /* Make modals more mobile friendly */
@@ -1686,10 +1971,6 @@ body {
 
 /* Mobile (< 600px) */
 @media (max-width: 599px) {
-    body {
-        font-size: 12px; /* Reduce base font size for mobile */
-    }
-    
     /* Header adjustments for mobile */
     .header-container {
         padding: 0.75rem 1rem;
@@ -1699,12 +1980,7 @@ body {
         gap: 0.5rem;
     }
     
-    .header-title {
-        font-size: 0.875rem;
-    }
-    
     .version-badge {
-        font-size: 0.6875rem;
         padding: 0.2rem 0.75rem;  /* Maintain pill shape on mobile */
     }
     
@@ -1714,50 +1990,42 @@ body {
     
     .filter-search,
     .filter-finder-input {
-        font-size: 0.875rem;
         padding: 0.5rem;
     }
     
     /* Stats and filters */
     .filter-stats {
         padding: 0.5rem;
-        font-size: 0.75rem;
     }
     
     .filter-content {
         padding: 0.5rem;
     }
     
-    .filter-group-title {
-        font-size: 0.75rem;
-    }
-    
     .filter-option {
-        font-size: 0.75rem;
         margin: 0.25rem 0;
     }
     
-    /* Video toolbar - stack buttons */
+    /* Video toolbar - very compact on mobile, NO wrapping */
     .video-toolbar {
-        padding: 0.5rem;
+        padding: 0.5rem 0.25rem;  /* Minimal horizontal padding */
     }
     
     .toolbar-actions {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 0.5rem;
+        gap: 0.35rem;  /* Very tight gap */
+        flex-wrap: nowrap;  /* Strictly no wrapping - allow horizontal scroll */
     }
     
     .btn-group {
-        width: 100%;
-        flex-direction: column;
-        padding: 0.375rem;
+        padding: 0.25rem 0.3rem;  /* Very compact padding */
+        gap: 0.2rem;  /* Minimal gap */
+        flex-wrap: nowrap;  /* No wrapping */
     }
     
     .btn-toolbar {
-        width: 100%;
-        justify-content: center;
-        margin-left: 0 !important;
+        padding: 0.15rem 0.3rem;  /* Very compact padding */
+        font-size: 0.5625rem;  /* Very small font (9px equivalent) */
+        flex-shrink: 0;  /* No shrinking */
     }
     
     /* Video grid - single column */
@@ -1775,21 +2043,18 @@ body {
     }
     
     .video-title {
-        font-size: 0.75rem;
         height: auto;
         -webkit-line-clamp: 3;
         line-clamp: 3;
     }
     
     .video-tag {
-        font-size: 0.625rem;
         padding: 0.125rem 0.375rem;
     }
     
     /* Selection panel */
     .selection-header {
         padding: 0.5rem;
-        font-size: 0.875rem;
     }
     
     .selection-actions {
@@ -1803,7 +2068,6 @@ body {
     
     .selection-item {
         padding: 0.5rem;
-        font-size: 0.75rem;
     }
     
     .selection-footer {
@@ -1811,7 +2075,6 @@ body {
     }
     
     .code-output {
-        font-size: 0.625rem;
         padding: 0.5rem;
         max-height: 10rem;
     }
@@ -1820,10 +2083,6 @@ body {
     .loading-spinner {
         width: 3rem;
         height: 3rem;
-    }
-    
-    .loading-text {
-        font-size: 0.875rem;
     }
     
     .loading-bar-container {
@@ -1840,10 +2099,6 @@ body {
     
     .detail-modal-header {
         padding: 0.75rem 1rem;
-    }
-    
-    .detail-modal-title {
-        font-size: 0.875rem;
     }
     
     .detail-modal-body {
@@ -1872,36 +2127,31 @@ body {
 
 /* Very small mobile (< 360px) */
 @media (max-width: 359px) {
-    body {
-        font-size: 11px;
-    }
-    
-    .header-title {
-        font-size: 0.75rem;
-    }
-    
     .version-badge {
-        font-size: 0.625rem;
         padding: 0.15rem 0.625rem;  /* Extra slim pill for very small screens */
     }
     
-    .filter-search,
-    .filter-finder-input {
-        font-size: 0.8125rem;
+    /* Extra aggressive toolbar scaling for very small screens */
+    .video-toolbar {
+        padding: 0.375rem 0.125rem;
     }
     
-    .btn-toolbar,
+    .toolbar-actions {
+        gap: 0.25rem;
+    }
+    
+    .btn-group {
+        padding: 0.2rem 0.25rem;
+        gap: 0.15rem;
+    }
+    
+    .btn-toolbar {
+        padding: 0.125rem 0.25rem;
+        font-size: 0.5rem;  /* 8px equivalent - very compact */
+    }
+    
     .btn-selection {
-        font-size: 0.65rem;
         padding: 0.25rem 0.5rem;
-    }
-    
-    .video-title {
-        font-size: 0.7rem;
-    }
-    
-    .code-output {
-        font-size: 0.5625rem;
     }
 }
 

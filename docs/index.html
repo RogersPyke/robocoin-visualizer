@@ -70,14 +70,14 @@
                 <div class="video-toolbar">
                     <div class="toolbar-actions">
                         <div class="btn-group">
-                            <button class="btn-toolbar primary" id="selectAllBtn">✅ select all</button>
-                            <button class="btn-toolbar danger" id="deselectAllBtn">❌ deselect all</button>
-                            <button class="btn-toolbar secondary" id="resetBtn">🔄 reset filter</button>
+                            <button class="btn-toolbar primary" id="selectAllBtn">✅ select</button>
+                            <button class="btn-toolbar danger" id="deselectAllBtn">❌ deselect</button>
+                            <button class="btn-toolbar secondary" id="resetBtn">🔄 reset</button>
                         </div>
                         <div class="btn-group">
-                            <button class="btn-toolbar success" id="addToListBtn">🛒 add to cart</button>
-                            <button class="btn-toolbar danger" id="deleteFromListBtn">🗑️ remove from cart</button>
-                            <button class="btn-toolbar secondary" id="clearListBtn">🔄 clear cart</button>
+                            <button class="btn-toolbar success" id="addToListBtn">🛒 add</button>
+                            <button class="btn-toolbar danger" id="deleteFromListBtn">🗑️ remove</button>
+                            <button class="btn-toolbar secondary" id="clearListBtn">🔄 clear</button>
                         </div>
                     </div>
                 </div>
@@ -98,11 +98,11 @@
             
             <div class="selection-footer">
                 <div class="selection-actions">
-                    <button class="btn-selection" id="importBtn">📋 import cart from .json</button>
-                    <button class="btn-selection" id="exportBtn">📤 export cart to .json</button>
+                    <button class="btn-selection" id="importBtn">📋 import .json</button>
+                    <button class="btn-selection" id="exportBtn">📤 export .json</button>
                 </div>
                 <div style="margin-top: 8px; margin-bottom: 8px;">
-                    <label style="font-size: 12px; display: flex; align-items: center; gap: 8px;">
+                    <label style="font-size: 12px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
                         <span style="font-weight: 500;">Hub Source:</span>
                         <select id="hubSelect" style="padding: 4px 8px; border: 1px solid #ddd; border-radius: 4px; font-size: 12px;">
                             <option value="modelscope">ModelScope</option>
@@ -110,10 +110,10 @@
                         </select>
                     </label>
                 </div>
-                <div class="code-section-description">Your download command (like 'checkout'):</div>
+                <div class="code-section-description">Download command:</div>
                 <div class="code-output" id="codeOutput"></div>
                 <div class="code-actions">
-                    <button class="btn-selection" id="copyCodeBtn">📋 Copy & 'Checkout' ⬇️</button>
+                    <button class="btn-selection" id="copyCodeBtn">📋 Copy & Checkout ⬇️</button>
                 </div>
             </div>
         </div>

@@ -906,6 +906,9 @@ const APP = {
         const grid = document.getElementById('videoGrid');
         if (!grid) return;
         
+        // 检测是否为触摸设备（平板/手机）
+        const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+        
         // 事件委托：点击video-card
         grid.addEventListener('click', (e) => {
             // 防止点击视频时触发
@@ -916,6 +919,27 @@ const APP = {
             
             const path = card.dataset.path;
             if (!path) return;
+            
+            // 在触摸设备上，如果点击overlay，关闭它
+            const overlay = e.target.closest('.video-hover-overlay');
+            if (isTouchDevice && overlay) {
+                overlay.classList.remove('touch-active');
+                return;
+            }
+            
+            // 在触摸设备上，如果overlay未显示，先显示overlay而不是选择
+            if (isTouchDevice) {
+                const cardOverlay = card.querySelector('.video-hover-overlay');
+                if (cardOverlay && !cardOverlay.classList.contains('touch-active')) {
+                    // 关闭所有其他overlay
+                    document.querySelectorAll('.video-hover-overlay.touch-active').forEach(o => {
+                        o.classList.remove('touch-active');
+                    });
+                    // 显示当前overlay
+                    cardOverlay.classList.add('touch-active');
+                    return;
+                }
+            }
             
             this.toggleSelection(path);
             this.updateCardStyles();
@@ -932,6 +956,17 @@ const APP = {
                 }
             }
         }, true); // 使用捕获阶段捕获error事件
+        
+        // 在触摸设备上，点击外部区域关闭所有overlay
+        if (isTouchDevice) {
+            document.addEventListener('click', (e) => {
+                if (!e.target.closest('.video-card')) {
+                    document.querySelectorAll('.video-hover-overlay.touch-active').forEach(o => {
+                        o.classList.remove('touch-active');
+                    });
+                }
+            });
+        }
     },
     
     // 使用事件委托处理selection-list的所有交互（避免内存泄漏）
