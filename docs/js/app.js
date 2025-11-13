@@ -482,15 +482,32 @@ const APP = {
                 filterOptionsElements.forEach(option => {
                     // Skip hierarchy parent nodes (they don't have data-value)
                     if (option.classList.contains('hierarchy-name-only')) {
-                        // Handle hierarchy expand/collapse
+                        // Handle expand button separately
+                        const expandBtn = option.querySelector('.hierarchy-expand-btn');
+                        if (expandBtn) {
+                            expandBtn.addEventListener('click', (e) => {
+                                e.stopPropagation();
+                                const wrapper = option.closest('.filter-option-wrapper');
+                                const children = wrapper?.querySelector('.filter-children');
+                                if (children) {
+                                    children.classList.toggle('collapsed');
+                                    // Update button text
+                                    expandBtn.textContent = children.classList.contains('collapsed') ? '+' : '-';
+                                }
+                            });
+                        }
+                        
+                        // Handle selection via checkbox (clicking the row selects)
                         option.addEventListener('click', (e) => {
-                            if (e.target.closest('.hierarchy-toggle')) {
-                                return; // Let hierarchy toggle handler deal with this
+                            // Ignore if clicking the expand button
+                            if (e.target.closest('.hierarchy-expand-btn')) {
+                                return;
                             }
-                            const wrapper = option.closest('.filter-option-wrapper');
-                            const children = wrapper?.querySelector('.filter-children');
-                            if (children) {
-                                children.classList.toggle('collapsed');
+                            // Toggle selection for hierarchical items
+                            const checkbox = option.querySelector('input[type="checkbox"]');
+                            if (checkbox) {
+                                checkbox.checked = !checkbox.checked;
+                                checkbox.dispatchEvent(new Event('change', { bubbles: true }));
                             }
                         });
                         return;
