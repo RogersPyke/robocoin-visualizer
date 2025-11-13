@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]  # 当推送到feat-filter分支时触发
+    branches: [ main ]  # 当推送到main分支时触发
   workflow_dispatch:  # 允许手动触发
 
 permissions:
