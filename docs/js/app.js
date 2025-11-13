@@ -116,6 +116,7 @@ const APP = {
     currentHub: 'modelscope',
     listDatasets: new Set(), 
     filters: {},
+    selectedFilters: new Set(), // New: track selected filter options
     
     // Filter Finder状态
     filterFinderMatches: [],
@@ -461,87 +462,59 @@ const APP = {
             
             container.appendChild(div);
             
-            // 获取标题元素和标题复选框
+            // NEW: Click handler for group title (expand/collapse)
             const titleElement = div.querySelector('.filter-group-title');
-            const titleLeft = div.querySelector('.filter-group-title-left');
-            const titleCheckbox = div.querySelector('.filter-group-title-checkbox input');
-            const filterOptions = div.querySelector('.filter-options');
-            
-            // 点击标题左侧部分进行折叠/展开
-            titleLeft.addEventListener('click', () => {
+            titleElement.addEventListener('click', () => {
                 div.classList.toggle('collapsed');
             });
             
-            // 阻止点击复选框区域时触发折叠
-            const checkboxArea = div.querySelector('.filter-group-title-checkbox');
-            checkboxArea.addEventListener('click', (e) => {
-                e.stopPropagation();
-            });
-            
-            // 大类复选框悬停效果
-            checkboxArea.addEventListener('mouseenter', () => {
-                titleElement.classList.add('highlight-title');
-            });
-            
-            checkboxArea.addEventListener('mouseleave', () => {
-                titleElement.classList.remove('highlight-title');
-            });
-            
-            // 大类复选框的change事件
-            titleCheckbox.addEventListener('change', (e) => {
-                const allCheckboxes = filterOptions.querySelectorAll('input[type="checkbox"]');
-                
-                if (e.target.checked) {
-                    // 选中大类复选框时，取消所有子选项
-                    allCheckboxes.forEach(cb => {
-                        cb.checked = false;
+            // NEW: Add click handlers for filter options
+            const filterOptions = div.querySelectorAll('.filter-option');
+            filterOptions.forEach(option => {
+                // Skip hierarchy parent nodes (they don't have data-value)
+                if (option.classList.contains('hierarchy-name-only')) {
+                    // Handle hierarchy expand/collapse
+                    option.addEventListener('click', (e) => {
+                        if (e.target.closest('.hierarchy-toggle')) {
+                            return; // Let hierarchy toggle handler deal with this
+                        }
+                        const wrapper = option.closest('.filter-option-wrapper');
+                        const children = wrapper?.querySelector('.filter-children');
+                        if (children) {
+                            children.classList.toggle('collapsed');
+                        }
                     });
-                } else {
-                    // 取消大类复选框时，不做任何操作（保持当前状态）
+                    return;
                 }
                 
-                this.applyFilters();
+                const filterKey = option.dataset.filter;
+                const filterValue = option.dataset.value;
+                
+                if (filterKey && filterValue) {
+                    option.addEventListener('click', (e) => {
+                        // Don't trigger if clicking on child elements that have their own handlers
+                        if (e.target.closest('.hierarchy-toggle')) {
+                            return;
+                        }
+                        
+                        const label = option.querySelector('.filter-option-label')?.textContent?.trim() || filterValue;
+                        this.toggleFilterSelection(filterKey, filterValue, label);
+                    });
+                }
             });
             
-            // 为扁平化filter添加悬停高亮效果
-            if (group.type === 'flat') {
-                const checkboxAreas = div.querySelectorAll('.filter-option-checkbox');
-                checkboxAreas.forEach(checkboxArea => {
-                    checkboxArea.addEventListener('mouseenter', (e) => {
-                        const filterOption = checkboxArea.closest('.filter-option');
-                        if (filterOption) {
-                            filterOption.classList.add('highlight-label');
-                        }
-                    });
-                    
-                    checkboxArea.addEventListener('mouseleave', (e) => {
-                        const filterOption = checkboxArea.closest('.filter-option');
-                        if (filterOption) {
-                            filterOption.classList.remove('highlight-label');
-                        }
-                    });
-                    
-                    // 子选项复选框change事件：选中任何子选项时取消大类复选框
-                    const checkbox = checkboxArea.querySelector('input[type="checkbox"]');
-                    checkbox.addEventListener('change', (e) => {
-                        if (e.target.checked) {
-                            titleCheckbox.checked = false;
-                        } else {
-                            // 如果所有子选项都未选中，自动勾选大类复选框
-                            const checkedCount = filterOptions.querySelectorAll('input[type="checkbox"]:checked').length;
-                            if (checkedCount === 0) {
-                                titleCheckbox.checked = true;
-                            }
-                        }
-                        this.applyFilters();
-                    });
+            // Add hierarchy toggle handlers
+            const hierarchyToggles = div.querySelectorAll('.hierarchy-toggle');
+            hierarchyToggles.forEach(toggle => {
+                toggle.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const wrapper = toggle.closest('.filter-option-wrapper');
+                    const children = wrapper?.querySelector('.filter-children');
+                    if (children) {
+                        children.classList.toggle('collapsed');
+                    }
                 });
-            }
-            
-            // 添加层级选择交互
-            if (group.type === 'hierarchical') {
-                this.attachHierarchyListeners(div, titleCheckbox);
-            }
+            });
         }
     },
 
@@ -1054,9 +1027,138 @@ const APP = {
         }, true); // 使用捕获阶段
     },
 
+    // Open filter dropdown
+    openFilterDropdown() {
+        const overlay = document.getElementById('filterDropdownOverlay');
+        overlay.classList.add('active');
+        // Trigger animation
+        requestAnimationFrame(() => {
+            overlay.classList.add('show');
+        });
+    },
+
+    // Close filter dropdown
+    closeFilterDropdown() {
+        const overlay = document.getElementById('filterDropdownOverlay');
+        overlay.classList.remove('show');
+        setTimeout(() => {
+            overlay.classList.remove('active');
+        }, 300); // Match CSS transition duration
+    },
+
+    // Toggle filter selection
+    toggleFilterSelection(filterKey, filterValue, filterLabel) {
+        const filterId = `${filterKey}:${filterValue}`;
+        
+        if (this.selectedFilters.has(filterId)) {
+            this.selectedFilters.delete(filterId);
+        } else {
+            this.selectedFilters.add(filterId);
+        }
+        
+        // Update UI
+        this.updateFilterOptionStyles();
+        this.renderFilterTags();
+        this.updateTriggerCount();
+        this.applyFilters();
+    },
+
+    // Render filter tags
+    renderFilterTags() {
+        const container = document.getElementById('filterTagsContainer');
+        if (!container) return;
+
+        if (this.selectedFilters.size === 0) {
+            container.innerHTML = '';
+            return;
+        }
+
+        const tags = Array.from(this.selectedFilters).map(filterId => {
+            const [filterKey, filterValue] = filterId.split(':');
+            const filterLabel = this.getFilterLabel(filterKey, filterValue);
+            
+            return `
+                <div class="filter-tag" data-filter-id="${filterId}">
+                    <span class="filter-tag-text">${filterLabel}</span>
+                    <button class="filter-tag-close" data-filter-id="${filterId}">✕</button>
+                </div>
+            `;
+        }).join('');
+
+        container.innerHTML = tags;
+
+        // Bind close button events
+        container.querySelectorAll('.filter-tag-close').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const filterId = btn.dataset.filterId;
+                this.selectedFilters.delete(filterId);
+                this.updateFilterOptionStyles();
+                this.renderFilterTags();
+                this.updateTriggerCount();
+                this.applyFilters();
+            });
+        });
+    },
+
+    // Get human-readable filter label
+    getFilterLabel(filterKey, filterValue) {
+        const keyLabels = {
+            'scene': 'Scene',
+            'robot': 'Robot',
+            'end': 'End Effector',
+            'action': 'Action',
+            'object': 'Object'
+        };
+        
+        const keyLabel = keyLabels[filterKey] || filterKey;
+        return `${keyLabel}: ${filterValue}`;
+    },
+
+    // Update trigger button count
+    updateTriggerCount() {
+        const countEl = document.getElementById('filterTriggerCount');
+        if (!countEl) return;
+        
+        if (this.selectedFilters.size > 0) {
+            countEl.textContent = this.selectedFilters.size;
+        } else {
+            countEl.textContent = '';
+        }
+    },
+
+    // Update filter option styles (selected state)
+    updateFilterOptionStyles() {
+        // Remove all selected classes
+        document.querySelectorAll('.filter-dropdown-content .filter-option').forEach(option => {
+            option.classList.remove('selected');
+        });
+
+        // Add selected class to active filters
+        this.selectedFilters.forEach(filterId => {
+            const [filterKey, filterValue] = filterId.split(':');
+            const option = document.querySelector(
+                `.filter-dropdown-content .filter-option[data-filter="${filterKey}"][data-value="${filterValue}"]`
+            );
+            if (option) {
+                option.classList.add('selected');
+            }
+        });
+    },
+
     bindEvents() {
         document.getElementById('searchBox').addEventListener('input', () => this.applyFilters());
-        document.getElementById('resetBtn').addEventListener('click', () => this.resetFilters());
+        
+        // Filter dropdown events
+        document.getElementById('filterTriggerBtn').addEventListener('click', () => this.openFilterDropdown());
+        document.getElementById('filterDropdownClose').addEventListener('click', () => this.closeFilterDropdown());
+        
+        // Close dropdown when clicking overlay
+        document.getElementById('filterDropdownOverlay').addEventListener('click', (e) => {
+            if (e.target.id === 'filterDropdownOverlay') {
+                this.closeFilterDropdown();
+            }
+        });
         document.getElementById('selectAllBtn').addEventListener('click', () => this.selectAllFiltered());
         document.getElementById('deselectAllBtn').addEventListener('click', () => this.deselectAllFiltered());
         document.getElementById('importBtn').addEventListener('click', () => this.importSelection());
@@ -1162,13 +1264,11 @@ const APP = {
         const query = document.getElementById('searchBox').value.toLowerCase();
         this.filters = {};
         
-        // 收集选中的筛选器，但忽略值为__GROUP_ALL__的选项
-        document.querySelectorAll('input[data-filter]:checked').forEach(cb => {
-            if (cb.value === '__GROUP_ALL__') return; // 跳过大类All选项
-            
-            const key = cb.dataset.filter;
+        // Collect selected filters from the selectedFilters Set
+        this.selectedFilters.forEach(filterId => {
+            const [key, value] = filterId.split(':');
             if (!this.filters[key]) this.filters[key] = [];
-            this.filters[key].push(cb.value);
+            this.filters[key].push(value);
         });
         
         this.filteredDatasets = this.datasets.filter(ds => {
@@ -1820,37 +1920,17 @@ const APP = {
     },
     
     resetFilters() {
-        // 清空搜索框
+        // Clear search box
         document.getElementById('searchBox').value = '';
         
-        // 首先确保所有大类（组级别）的ALL选项已选中
-        const groupAllCheckboxes = document.querySelectorAll('input[data-filter][value="__GROUP_ALL__"]');
-        groupAllCheckboxes.forEach(cb => {
-            cb.checked = true;
-        });
+        // Clear all selected filters
+        this.selectedFilters.clear();
         
-        // 取消所有普通筛选选项的选中状态（但保留__GROUP_ALL__）
-        document.querySelectorAll('input[data-filter]:not([value="__GROUP_ALL__"])').forEach(cb => {
-            cb.checked = false;
-        });
-        
-        // 折叠所有层级选项（如果有展开的）
-        document.querySelectorAll('.filter-children').forEach(children => {
-            children.classList.add('collapsed');
-        });
-        document.querySelectorAll('.hierarchy-toggle').forEach(toggle => {
-            toggle.textContent = '•';
-        });
-        
-        // 确保在所有操作完成后，再次强制设置所有大类ALL选项为选中状态
-        // 这样可以覆盖任何可能由change事件触发的自动取消选中
-        requestAnimationFrame(() => {
-            groupAllCheckboxes.forEach(cb => {
-                cb.checked = true;
-            });
-            // 重新应用筛选
-            this.applyFilters();
-        });
+        // Update UI
+        this.updateFilterOptionStyles();
+        this.renderFilterTags();
+        this.updateTriggerCount();
+        this.applyFilters();
     },
     
     clearSelection() {

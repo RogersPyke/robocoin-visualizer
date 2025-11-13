@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.85, minimum-scale=0.5, maximum-scale=2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>RoboCOIN Dataset Visualizer-Downloader</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <!-- 
@@ -33,41 +33,47 @@
             <span class="version-badge">v1.0</span>
         </div>
     </div>
-    <div class="app-container">
-        <!-- 左侧筛选面板 -->
-        <div class="filter-panel">
+    <!-- Filter Control Bar -->
+    <div class="filter-control-bar">
+        <div class="filter-control-container">
+            <button class="filter-trigger-btn" id="filterTriggerBtn">
+                <span class="filter-trigger-icon">⚙️</span>
+                <span class="filter-trigger-text">Filters</span>
+                <span class="filter-trigger-count" id="filterTriggerCount"></span>
+            </button>
             
-            <div class="filter-header">
-                <div class="filter-search-row">
-                    <input type="text" id="searchBox" class="filter-search" placeholder="search for datasets here">
-                    <button class="btn-filter-reset" id="resetBtn" title="Reset all filters">🔄</button>
-                </div>
-                <div class="filter-finder">
-                    <input type="text" id="filterFinderInput" class="filter-finder-input" placeholder="search for filters">
-                    <div class="filter-finder-nav">
-                        <button id="filterFinderPrev" class="filter-finder-btn" title="Previous match">↑</button>
-                        <span id="filterFinderCount" class="filter-finder-count">0/0</span>
-                        <button id="filterFinderNext" class="filter-finder-btn" title="Next match">↓</button>
-                        <button id="filterFinderClear" class="filter-finder-btn" title="Clear search">×</button>
-                    </div>
-                </div>
+            <div class="filter-search-container">
+                <input type="text" id="searchBox" class="filter-search-input" placeholder="Search datasets...">
             </div>
             
-            <div class="filter-stats">
-                <div class="stat-item">
-                    <span>filtered items:</span>
+            <div class="filter-stats-inline">
+                <span class="stat-inline">
+                    <span class="stat-label">Results:</span>
                     <strong id="filteredCount">0</strong>
-                </div>
-                <div class="stat-item">
-                    <span>selected items:</span>
+                </span>
+                <span class="stat-inline">
+                    <span class="stat-label">Selected:</span>
                     <strong id="selectedCount">0</strong>
-                </div>
+                </span>
             </div>
-            
-            <div class="filter-content" id="filterGroups"></div>
-        
         </div>
+        
+        <!-- Active Filter Tags -->
+        <div class="filter-tags-container" id="filterTagsContainer"></div>
+    </div>
 
+    <!-- Filter Dropdown Overlay -->
+    <div class="filter-dropdown-overlay" id="filterDropdownOverlay">
+        <div class="filter-dropdown" id="filterDropdown">
+            <div class="filter-dropdown-header">
+                <h3 class="filter-dropdown-title">Filter Datasets</h3>
+                <button class="filter-dropdown-close" id="filterDropdownClose">✕</button>
+            </div>
+            <div class="filter-dropdown-content" id="filterGroups"></div>
+        </div>
+    </div>
+
+    <div class="app-container">
         <!-- 中间视频网格区 -->
         <div class="video-panel">
             <div class="video-grid-container">

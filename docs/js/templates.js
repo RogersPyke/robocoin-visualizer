@@ -28,7 +28,7 @@ const Templates = {
     buildFlatFilterOption(key, val, baseIndent) {
         return `
             <div class="filter-option-wrapper" style="margin-left: ${baseIndent}px;" data-level="1">
-                <div class="filter-option" style="padding-left: 0;">
+                <div class="filter-option" style="padding-left: 0;" data-filter="${key}" data-value="${val}">
                     <div class="filter-option-label" style="margin-left: 0;">
                         <span>${val}</span>
                     </div>
@@ -90,7 +90,7 @@ const Templates = {
         } else {
             return `
                 <div class="filter-option-wrapper" style="margin-left: ${indent}px;" data-level="${level}">
-                    <div class="filter-option" style="padding-left: 0;">
+                    <div class="filter-option" style="padding-left: 0;" data-filter="${key}" data-value="${value}">
                         <div class="filter-option-label" style="margin-left: 0;">
                             <span class="hierarchy-spacer"></span>
                             <span>${value}</span>
