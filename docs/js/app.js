@@ -118,6 +118,10 @@ const APP = {
     filters: {},
     selectedFilters: new Set(), // New: track selected filter options
     
+    // Performance optimizations
+    filterOptionCache: new Map(), // Cache DOM elements by filterId
+    pendingFilterUpdate: null, // Debounce filter updates
+    
     // Filter Finder状态
     filterFinderMatches: [],
     filterFinderCurrentIndex: -1,
@@ -468,7 +472,7 @@ const APP = {
                 div.classList.toggle('collapsed');
             });
             
-            // NEW: Add click handlers for filter options
+            // NEW: Add click handlers for filter options (OPTIMIZED - with caching)
             const filterOptions = div.querySelectorAll('.filter-option');
             filterOptions.forEach(option => {
                 // Skip hierarchy parent nodes (they don't have data-value)
@@ -491,6 +495,10 @@ const APP = {
                 const filterValue = option.dataset.value;
                 
                 if (filterKey && filterValue) {
+                    // Cache the element for fast lookups
+                    const filterId = `${filterKey}:${filterValue}`;
+                    this.filterOptionCache.set(filterId, option);
+                    
                     option.addEventListener('click', (e) => {
                         // Don't trigger if clicking on child elements that have their own handlers
                         if (e.target.closest('.hierarchy-toggle')) {
@@ -498,7 +506,8 @@ const APP = {
                         }
                         
                         const label = option.querySelector('.filter-option-label')?.textContent?.trim() || filterValue;
-                        this.toggleFilterSelection(filterKey, filterValue, label);
+                        // Pass the element to avoid querying
+                        this.toggleFilterSelection(filterKey, filterValue, label, option);
                     });
                 }
             });
@@ -1046,59 +1055,115 @@ const APP = {
         }, 300); // Match CSS transition duration
     },
 
-    // Toggle filter selection
-    toggleFilterSelection(filterKey, filterValue, filterLabel) {
+    // Toggle filter selection (OPTIMIZED)
+    toggleFilterSelection(filterKey, filterValue, filterLabel, optionElement) {
         const filterId = `${filterKey}:${filterValue}`;
         
         if (this.selectedFilters.has(filterId)) {
             this.selectedFilters.delete(filterId);
+            // Update only this option's style
+            if (optionElement) {
+                optionElement.classList.remove('selected');
+            }
+            this.removeFilterTag(filterId);
         } else {
             this.selectedFilters.add(filterId);
+            // Update only this option's style
+            if (optionElement) {
+                optionElement.classList.add('selected');
+            }
+            this.addFilterTag(filterId, filterLabel);
         }
         
-        // Update UI
-        this.updateFilterOptionStyles();
-        this.renderFilterTags();
         this.updateTriggerCount();
-        this.applyFilters();
+        
+        // Debounce expensive filter operation
+        this.scheduleFilterUpdate();
     },
 
-    // Render filter tags
+    // Add a single filter tag (OPTIMIZED - incremental)
+    addFilterTag(filterId, filterLabel) {
+        const container = document.getElementById('filterTagsContainer');
+        if (!container) return;
+
+        const [filterKey, filterValue] = filterId.split(':');
+        const label = filterLabel || this.getFilterLabel(filterKey, filterValue);
+        
+        const tag = document.createElement('div');
+        tag.className = 'filter-tag';
+        tag.dataset.filterId = filterId;
+        tag.innerHTML = `
+            <span class="filter-tag-text">${label}</span>
+            <button class="filter-tag-close" data-filter-id="${filterId}">✕</button>
+        `;
+
+        // Bind close event (event delegation would be even better, but this is single element)
+        const closeBtn = tag.querySelector('.filter-tag-close');
+        closeBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this.removeFilterTagById(filterId);
+        });
+
+        container.appendChild(tag);
+    },
+
+    // Remove a single filter tag (OPTIMIZED - incremental)
+    removeFilterTag(filterId) {
+        const container = document.getElementById('filterTagsContainer');
+        if (!container) return;
+
+        const tag = container.querySelector(`.filter-tag[data-filter-id="${filterId}"]`);
+        if (tag) {
+            tag.remove();
+        }
+    },
+
+    // Remove filter by tag click
+    removeFilterTagById(filterId) {
+        this.selectedFilters.delete(filterId);
+        
+        // Update the option style in dropdown
+        const [filterKey, filterValue] = filterId.split(':');
+        const option = this.filterOptionCache.get(filterId);
+        if (option) {
+            option.classList.remove('selected');
+        }
+        
+        this.removeFilterTag(filterId);
+        this.updateTriggerCount();
+        this.scheduleFilterUpdate();
+    },
+
+    // Render all filter tags (only used on init/reset)
     renderFilterTags() {
         const container = document.getElementById('filterTagsContainer');
         if (!container) return;
 
+        container.innerHTML = '';
+        
         if (this.selectedFilters.size === 0) {
-            container.innerHTML = '';
             return;
         }
 
-        const tags = Array.from(this.selectedFilters).map(filterId => {
+        this.selectedFilters.forEach(filterId => {
             const [filterKey, filterValue] = filterId.split(':');
             const filterLabel = this.getFilterLabel(filterKey, filterValue);
-            
-            return `
-                <div class="filter-tag" data-filter-id="${filterId}">
-                    <span class="filter-tag-text">${filterLabel}</span>
-                    <button class="filter-tag-close" data-filter-id="${filterId}">✕</button>
-                </div>
-            `;
-        }).join('');
-
-        container.innerHTML = tags;
-
-        // Bind close button events
-        container.querySelectorAll('.filter-tag-close').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                e.stopPropagation();
-                const filterId = btn.dataset.filterId;
-                this.selectedFilters.delete(filterId);
-                this.updateFilterOptionStyles();
-                this.renderFilterTags();
-                this.updateTriggerCount();
-                this.applyFilters();
-            });
+            this.addFilterTag(filterId, filterLabel);
         });
+    },
+    
+    // Debounced filter update (OPTIMIZED - batches rapid clicks)
+    scheduleFilterUpdate() {
+        // Cancel pending update
+        if (this.pendingFilterUpdate) {
+            clearTimeout(this.pendingFilterUpdate);
+        }
+        
+        // Schedule new update with debounce
+        this.pendingFilterUpdate = setTimeout(() => {
+            this.applyFilters();
+            this.pendingFilterUpdate = null;
+        }, 150); // 150ms debounce - feels instant but batches rapid clicks
     },
 
     // Get human-readable filter label
@@ -1127,27 +1192,21 @@ const APP = {
         }
     },
 
-    // Update filter option styles (selected state)
+    // Update filter option styles (OPTIMIZED - uses cache, only when needed)
     updateFilterOptionStyles() {
-        // Remove all selected classes
-        document.querySelectorAll('.filter-dropdown-content .filter-option').forEach(option => {
-            option.classList.remove('selected');
-        });
-
-        // Add selected class to active filters
-        this.selectedFilters.forEach(filterId => {
-            const [filterKey, filterValue] = filterId.split(':');
-            const option = document.querySelector(
-                `.filter-dropdown-content .filter-option[data-filter="${filterKey}"][data-value="${filterValue}"]`
-            );
-            if (option) {
-                option.classList.add('selected');
+        // Use cached elements - much faster!
+        this.filterOptionCache.forEach((element, filterId) => {
+            if (this.selectedFilters.has(filterId)) {
+                element.classList.add('selected');
+            } else {
+                element.classList.remove('selected');
             }
         });
     },
 
     bindEvents() {
-        document.getElementById('searchBox').addEventListener('input', () => this.applyFilters());
+        // Debounce search input (OPTIMIZED)
+        document.getElementById('searchBox').addEventListener('input', () => this.scheduleFilterUpdate());
         
         // Filter dropdown events
         document.getElementById('filterTriggerBtn').addEventListener('click', () => this.openFilterDropdown());
@@ -1923,14 +1982,26 @@ const APP = {
         // Clear search box
         document.getElementById('searchBox').value = '';
         
+        // Cancel any pending filter updates
+        if (this.pendingFilterUpdate) {
+            clearTimeout(this.pendingFilterUpdate);
+            this.pendingFilterUpdate = null;
+        }
+        
         // Clear all selected filters
         this.selectedFilters.clear();
         
-        // Update UI
-        this.updateFilterOptionStyles();
-        this.renderFilterTags();
+        // Update UI efficiently
+        this.updateFilterOptionStyles(); // Uses cache, very fast
+        
+        // Clear tags container (faster than rebuilding)
+        const container = document.getElementById('filterTagsContainer');
+        if (container) {
+            container.innerHTML = '';
+        }
+        
         this.updateTriggerCount();
-        this.applyFilters();
+        this.applyFilters(); // Apply immediately on reset
     },
     
     clearSelection() {
