@@ -1326,17 +1326,40 @@ const APP = {
         // 计算布局参数
         const gridWidth = grid.clientWidth;
         
+        // Get actual pixel values from computed styles (converts rem to px)
+        // Use cached temp element for performance
+        if (!this._tempMeasureDiv) {
+            this._tempMeasureDiv = document.createElement('div');
+            this._tempMeasureDiv.style.cssText = `
+                position: absolute;
+                visibility: hidden;
+                top: -9999px;
+                left: -9999px;
+            `;
+            document.body.appendChild(this._tempMeasureDiv);
+        }
+        
+        const tempDiv = this._tempMeasureDiv;
+        tempDiv.style.width = 'var(--grid-min-card-width)';
+        tempDiv.style.height = 'var(--grid-card-height)';
+        tempDiv.style.margin = 'var(--grid-gap)';
+        
+        const computedTemp = getComputedStyle(tempDiv);
+        const minCardWidthPx = parseFloat(computedTemp.width) || 250;
+        const cardHeightPx = parseFloat(computedTemp.height) || 270;
+        const gapPx = parseFloat(computedTemp.marginTop) || 16;
+        
         // 使用配置计算布局
-        const itemsPerRow = Math.max(1, Math.floor((gridWidth + GRID_CONFIG.grid.gap) / (GRID_CONFIG.grid.minCardWidth + GRID_CONFIG.grid.gap)));
+        const itemsPerRow = Math.max(1, Math.floor((gridWidth + gapPx) / (minCardWidthPx + gapPx)));
         
         // 计算实际卡片宽度并更新CSS变量
-        const cardWidth = Math.floor((gridWidth - GRID_CONFIG.grid.gap * (itemsPerRow - 1)) / itemsPerRow);
+        const cardWidth = Math.floor((gridWidth - gapPx * (itemsPerRow - 1)) / itemsPerRow);
         
         // 更新动态CSS变量
         this.updateDynamicGridVariables(cardWidth, itemsPerRow);
         
         // 使用配置中的高度计算总高度
-        const itemHeight = GRID_CONFIG.grid.cardHeight + GRID_CONFIG.grid.gap;
+        const itemHeight = cardHeightPx + gapPx;
         
         // 计算可见范围（增加缓冲区）
         const scrollTop = container.scrollTop;
@@ -1394,7 +1417,7 @@ const APP = {
             
             // 设置绝对定位和尺寸（关键！）
             card.style.position = 'absolute';
-            card.style.left = `${col * (cardWidth + GRID_CONFIG.grid.gap)}px`;
+            card.style.left = `${col * (cardWidth + gapPx)}px`;  // Use computed gapPx
             card.style.top = `${row * itemHeight}px`;
             // 使用CSS变量控制卡片尺寸
             card.style.width = 'var(--grid-card-width)';
@@ -1637,7 +1660,25 @@ const APP = {
             this.buildDatasetIndex();
         }
         
-        const itemHeight = GRID_CONFIG.selection.itemHeight;
+        // Get actual pixel values from computed styles (converts rem to px)
+        // Use cached temp element for performance
+        if (!this._tempMeasureDiv) {
+            this._tempMeasureDiv = document.createElement('div');
+            this._tempMeasureDiv.style.cssText = `
+                position: absolute;
+                visibility: hidden;
+                top: -9999px;
+                left: -9999px;
+            `;
+            document.body.appendChild(this._tempMeasureDiv);
+        }
+        
+        const tempDiv = this._tempMeasureDiv;
+        tempDiv.style.height = 'var(--selection-item-height)';
+        const computedTemp = getComputedStyle(tempDiv);
+        const itemHeightPx = parseFloat(computedTemp.height) || 45;
+        
+        const itemHeight = itemHeightPx;
         const scrollTop = list.scrollTop;
         const containerHeight = list.clientHeight;
         const bufferItems = GRID_CONFIG.selection.bufferItems;
@@ -2002,9 +2043,10 @@ const APP = {
         
         document.body.appendChild(card);
         
-        // 卡片尺寸
-        const cardWidth = 320;
-        const cardHeight = 240;
+        // 卡片尺寸 - get actual dimensions from computed styles
+        const cardRect = card.getBoundingClientRect();
+        const cardWidth = cardRect.width || 320;  // fallback to 320 if not computed
+        const cardHeight = cardRect.height || 240; // fallback to 240 if not computed
         
         // 按钮区域宽度（详情按钮 + 删除按钮 + 间距，约60px）
         const buttonAreaWidth = 60;
