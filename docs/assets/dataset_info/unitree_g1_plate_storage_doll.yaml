@@ -1,7 +1,10 @@
-dataset_name: plate_storage_rabbit_doll
+dataset_name: plate_storage_doll
 dataset_uuid:
 task_descriptions:
-- pick up the rabbit doll from the table and place it on the plate.
+- the left hand pick up the doll on the left side of the plate and place it into the
+  plate.
+- the right hand pick up the doll on the right side of the plate and place it into
+  the plate.
 scene_type:
 - home
 atomic_actions:
@@ -15,15 +18,15 @@ objects:
   level3:
   level4:
   level5:
-- object_name: rabbit_doll
-  level1: toy
-  level2: rabbit_doll
-  level3:
-  level4:
-  level5:
 - object_name: plate
   level1: container
   level2: plate
+  level3:
+  level4:
+  level5:
+- object_name: doll
+  level1: toy
+  level2: doll
   level3:
   level4:
   level5:
