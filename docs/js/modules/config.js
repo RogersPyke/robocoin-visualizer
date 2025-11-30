@@ -35,12 +35,24 @@
  * @property {number} fadeDuration - Fade duration in ms
  */
 
+
 /**
  * @typedef {Object} PathsConfig
  * @property {string} assetsRoot - Root path for assets
  * @property {string} info - Path for info JSON files
  * @property {string} datasetInfo - Path for dataset info files
  * @property {string} videos - Path for video files
+ */
+
+/**
+ * @typedef {Object} DownloadCommandConfig
+ * @property {string} command - Download command name (e.g., 'robocoin-download')
+ * @property {string} hubParam - Hub parameter name (e.g., '--hub')
+ * @property {string} datasetsParam - Datasets list parameter name (e.g., '--ds_lists')
+ * @property {string} targetDirParam - Target directory parameter name (e.g., '--target-dir')
+ * @property {string} lineContinuation - Line continuation character (e.g., ' \\')
+ * @property {string} lineBreak - Line break character (e.g., '\n')
+ * @property {string} datasetSeparator - Separator between datasets in the list
  */
 
 /**
@@ -55,6 +67,7 @@
  * @property {Object} ui - UI element configuration
  * @property {Object} loading - Loading configuration
  * @property {PathsConfig} paths - Path configuration
+ * @property {DownloadCommandConfig} downloadCommand - Download command configuration
  */
 
 /**
@@ -123,7 +136,7 @@ class ConfigManager {
                 margin: this.getCSSValue('--badge-margin', 8)
             },
             timing: {
-                hoverDelay: this.getCSSValue('--hover-delay', 500),
+                hoverDelay: this.getCSSValue('--hover-delay', 800),
                 resizeDebounce: this.getCSSValue('--resize-debounce', 200),
                 scrollThrottle: this.getCSSValue('--scroll-throttle', 16),
                 transitionDuration: this.getCSSValue('--transition-duration', 200),
@@ -147,6 +160,7 @@ class ConfigManager {
             // ./assets/
             //   ├── info/               - JSON index files (data_index.json, consolidated_datasets.json)
             //   ├── dataset_info/       - YAML metadata files (one per dataset)
+            //   ├── thumbnails/         - Thumbnail images (*.jpg, provided by assets/thumbnails)
             //   └── videos/             - MP4 video files (named by dataset path)
             paths: {
                 assetsRoot: './assets',
@@ -157,8 +171,53 @@ class ConfigManager {
                 get videos() {
                     return `${this.assetsRoot}/videos`;
                 }
+            },
+            // Download command format configuration
+            // Modify these values to change the download command format
+            downloadCommand: {
+                command: 'robocoin-download',
+                hubParam: '--hub',
+                datasetsParam: '--ds_lists',
+                targetDirParam: '--target-dir',
+                lineContinuation: ' \\',
+                lineBreak: '\n',
+                datasetSeparator: ' \\\n',
+                // Comment text for download path instructions
+                defaultPathComment: '# the default download path is ~/.cache/huggingface/lerobot/, if you want to speicifiy download dir, please add',
+                targetDirComment: '# --target-dir YOUR_DOWNLOAD_DIR'
             }
         };
+    }
+
+    /**
+     * Generate download command string
+     * @param {string} hub - Hub name (e.g., 'modelscope', 'huggingface')
+     * @param {string[]} datasets - Array of dataset paths
+     * @returns {string} Generated download command
+     */
+    static generateDownloadCommand(hub, datasets) {
+        const config = this.getConfig().downloadCommand;
+        
+        // Format: robocoin-download \
+        let command = `${config.command}${config.lineContinuation}${config.lineBreak}`;
+        
+        // Format: --hub modelscope \
+        command += `${config.hubParam} ${hub}${config.lineContinuation}${config.lineBreak}`;
+        
+        // Format: --ds_lists + each dataset on new line with continuation
+        command += `${config.datasetsParam} `;
+        if (datasets.length > 0) {
+            const dsListContent = datasets.join(config.datasetSeparator);
+            command += `${dsListContent}${config.lineBreak}`;
+        } else {
+            command += `${config.lineBreak}`;
+        }
+        
+        // Add comments about download path (directly after command, no blank line)
+        command += `${config.defaultPathComment}${config.lineBreak}`;
+        command += `${config.targetDirComment}`;
+        
+        return command;
     }
 }
 

@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>RoboCOIN Dataset Visualizer-Downloader</title>
+    <title>RoboCOIN-DataManager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <!-- 
         Standard Asset Structure:
         ./assets/
           ├── info/               - JSON index files (data_index.json, consolidated_datasets.json)
           ├── dataset_info/       - YAML metadata files (*.yml, *.yaml)
+          ├── thumbnails/         - Thumbnail images (*.jpg, provided by assets/thumbnails)
           └── videos/             - MP4 video files (*.mp4)
     -->
-    <link rel="stylesheet" href="./css/style.css?v=20241025-optimized">
+    <link rel="stylesheet" href="./css/style.css?v=20251124-200355">
 
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-    <!-- 加载动画覆盖层 -->
+    <div class="global-banner global-banner-warning" id="globalBanner">
+        <div class="global-banner-content">
+            <span class="global-banner-icon" aria-hidden="true">⚠️</span>
+            <span class="global-banner-label">Notice</span>
+            <span class="global-banner-text">
+                RoboCOIN is available at 
+                <a href="https://github.com/FlagOpen/RoboCOIN" target="_blank" rel="noopener noreferrer">github.com/FlagOpen/RoboCOIN</a>. 
+                To get started, please install the Python package with <code>pip install robocoin</code>.
+            </span>
+        </div>
+    </div>
+
     <div class="loading-overlay" id="loadingOverlay">
         <div class="loading-spinner"></div>
         <div class="loading-text">Loading datasets...</div>
@@ -29,41 +43,41 @@
 
     <div class="header-container">
         <div class="header-content">
-            <h1 class="header-title">🤖 RoboCOIN Dataset Visualizer 📊</h1>
-            <span class="version-badge">v1.0</span>
+            <h1 class="header-title">RoboCOIN-DataManager</h1>
+            <span class="version-badge">v1.1</span>
         </div>
     </div>
-    
+
     <!-- Filter Control Bar -->
     <div class="filter-control-bar">
         <div class="filter-control-container">
+            <div class="toolbar-left-controls">
             <button class="filter-trigger-btn" id="filterTriggerBtn">
-                <span class="filter-trigger-icon">⚙️</span>
-                <span class="filter-trigger-text">Filters</span>
+                <span class="filter-trigger-text">Filter datasets</span>
                 <span class="filter-trigger-count" id="filterTriggerCount"></span>
             </button>
-            
-            <button class="btn-selection secondary" id="resetFiltersBtn">Reset 🔄</button>
-            
-            <div class="top-selection-container">
-                <span class="selection-prefix-box">ALL:</span>
-                <button class="btn-toolbar primary" id="selectAllBtn">✅ select</button>
-                <button class="btn-toolbar danger" id="deselectAllBtn">❌ deselect</button>
+
+                <button class="filter-trigger-btn" id="resetFiltersBtn">Reset filters</button>
             </div>
-            
+
             <div class="filter-search-container">
                 <input type="text" id="searchBox" class="filter-search-input" placeholder="Search datasets...">
+                <button class="search-clear-btn" id="searchClearBtn" title="Clear search">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
             </div>
-            
-            <div class="cart-actions-container">
-                <button class="btn-toolbar success" id="addToListBtn">🛒 add</button>
-                <button class="btn-toolbar danger" id="deleteFromListBtn">🗑️ remove</button>
-                <button class="btn-toolbar secondary" id="clearListBtn">🔄 clear</button>
+
+            <div class="top-selection-container">
+                <button class="btn-toolbar primary" id="selectAllBtn">Select all datasets</button>
+                <button class="btn-toolbar danger" id="deselectAllBtn">Deselect all datasets</button>
             </div>
-            
+
             <div class="filter-stats-inline">
                 <span class="stat-inline">
-                    <span class="stat-label">Results:</span>
+                    <span class="stat-label">Filtered:</span>
                     <strong id="filteredCount">0</strong>
                 </span>
                 <span class="stat-inline">
@@ -72,67 +86,135 @@
                 </span>
             </div>
         </div>
-        
-        <!-- Active Filter Tags -->
-        <div class="filter-tags-container" id="filterTagsContainer"></div>
     </div>
 
     <!-- Filter Dropdown Overlay -->
     <div class="filter-dropdown-overlay" id="filterDropdownOverlay">
         <div class="filter-dropdown" id="filterDropdown">
             <div class="filter-dropdown-header">
-                <h3 class="filter-dropdown-title">🔍 Filter Datasets</h3>
+                <h3 class="filter-dropdown-title">Filter Datasets</h3>
+                <div class="filter-finder">
+                    <input type="text" id="filterFinderInput" class="filter-finder-input"
+                        placeholder="Search filter options... (Ctrl+F)" autocomplete="off" spellcheck="false">
+                    <button class="filter-finder-clear-btn" id="filterFinderClearBtn" title="Clear search">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                    <div class="filter-finder-nav">
+                        <button class="filter-finder-btn" id="filterFinderPrev" title="Previous match (↑)"
+                            disabled>↑</button>
+                        <button class="filter-finder-btn" id="filterFinderNext" title="Next match (↓)"
+                            disabled>↓</button>
+                        <span class="filter-finder-count" id="filterFinderCount">0/0</span>
+                    </div>
+                </div>
             </div>
-            <div class="filter-dropdown-content" id="filterGroups"></div>
+            <div class="filter-dropdown-content">
+                <div class="filter-categories-sidebar" id="filterCategoriesSidebar"></div>
+                <div class="filter-options-content" id="filterGroups"></div>
+            </div>
             <div class="filter-dropdown-footer">
                 <button class="filter-dropdown-done" id="filterDropdownClose">Done</button>
             </div>
         </div>
     </div>
 
+    <!-- App Container -->
     <div class="app-container">
-        <!-- 中间视频网格区 -->
         <div class="video-panel">
             <div class="video-grid-container">
                 <div class="video-grid" id="videoGrid"></div>
             </div>
         </div>
 
-        <!-- 右侧选中面板 -->
+        <!-- Selection Panel -->
         <div class="selection-panel">
-            <div class="selection-header">
-                <div class="selection-header-top">
-                    <span class="cart-icon" style="margin-right: 6px;">🛒</span><span id="selectionCount">0</span> items in cart
-                    <input type="file" id="importFile" accept=".json" style="display: none;">
-                </div>
+            <div class="selection-panel-header">
+                <h2 class="selection-panel-title">Batch Downloader</h2>
             </div>
-            
             <div class="selection-list" id="selectionList"></div>
-            
+
+            <!-- Selection Footer -->
             <div class="selection-footer">
+                <input type="file" id="importFile" accept=".json" style="display: none;">
                 <div class="selection-actions">
-                    <button class="btn-selection" id="importBtn">📋 import .json</button>
-                    <button class="btn-selection" id="exportBtn">📤 export .json</button>
+                    <button class="btn-selection" id="importBtn">Import JSON</button>
+                    <button class="btn-selection" id="exportBtn">Export JSON</button>
                 </div>
-                <div style="margin-top: 8px; margin-bottom: 8px;">
-                    <label style="font-size: 12px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
-                        <span style="font-weight: 500;">Hub Source:</span>
-                        <select id="hubSelect" style="padding: 4px 8px; border: 1px solid #ddd; border-radius: 4px; font-size: 12px;">
-                            <option value="modelscope">ModelScope</option>
-                            <option value="huggingface">HuggingFace</option>
-                        </select>
-                    </label>
-                </div>
-                <div class="code-section-description">Download command:</div>
                 <div class="code-output" id="codeOutput"></div>
+                <div style="margin-top: 0.1rem; margin-bottom: 0.1rem;">
+                    <div class="hub-buttons-container">
+                        <button class="btn-hub-switch" id="hubSwitchBtn" data-hub="huggingface">
+                            <span class="hub-option hf">Huggingface</span>
+                            <span class="hub-option ms">Modelscope</span>
+                            <span class="hub-indicator" data-hub="huggingface"></span>
+                        </button>
+                    </div>
+                </div>
                 <div class="code-actions">
-                    <button class="btn-selection" id="copyCodeBtn">📋 Copy & Checkout ⬇️</button>
+                    <button class="btn-selection" id="copyCodeBtn">Copy & Checkout</button>
                 </div>
             </div>
         </div>
-        
+
     </div>
 
-    <script type="module" src="./js/main.js"></script>
+    <!-- Debug utilities for high DPI display optimization -->
+    <script src="./js/debug.js?v=20251124-200355"></script>
+    <script type="module" src="./js/main.js?v=20251124-200355"></script>
+    <script>
+        (function () {
+            var banner = document.getElementById('globalBanner');
+            if (!banner) return;
+
+            var hiddenClass = 'global-banner-hidden';
+            var hasHidden = false;
+
+            function hideBanner() {
+                if (hasHidden) return;
+                hasHidden = true;
+                banner.classList.add(hiddenClass);
+                removeListeners();
+            }
+
+            function interactionHandler(event) {
+                // Ignore interactions that originate from inside the banner itself
+                if (banner.contains(event.target)) {
+                    return;
+                }
+                hideBanner();
+            }
+
+            function keydownHandler(event) {
+                // Any key press counts as interaction
+                hideBanner();
+            }
+
+            function addListeners() {
+                window.addEventListener('click', interactionHandler, { capture: true });
+                window.addEventListener('pointerdown', interactionHandler, { capture: true });
+                window.addEventListener('wheel', interactionHandler, { capture: true, passive: true });
+                window.addEventListener('touchstart', interactionHandler, { capture: true, passive: true });
+                window.addEventListener('keydown', keydownHandler, { capture: true });
+            }
+
+            function removeListeners() {
+                window.removeEventListener('click', interactionHandler, { capture: true });
+                window.removeEventListener('pointerdown', interactionHandler, { capture: true });
+                window.removeEventListener('wheel', interactionHandler, { capture: true, passive: true });
+                window.removeEventListener('touchstart', interactionHandler, { capture: true, passive: true });
+                window.removeEventListener('keydown', keydownHandler, { capture: true });
+            }
+
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', addListeners);
+            } else {
+                addListeners();
+            }
+        })();
+    </script>
 </body>
+
 </html>

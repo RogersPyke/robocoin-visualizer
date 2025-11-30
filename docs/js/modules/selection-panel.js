@@ -8,6 +8,7 @@
 import ConfigManager from './config.js';
 import Templates from '../templates.js';
 import { calculateVisibleRange, ElementCache } from './virtual-scroll.js';
+import ErrorNotifier from './error-notifier.js';
 
 /**
  * Selection Panel Manager Class
@@ -24,7 +25,7 @@ export class SelectionPanelManager {
         this.datasetMap = datasetMap;
         
         /** @type {string} */
-        this.currentHub = 'modelscope';
+        this.currentHub = 'huggingface';
         
         /** @type {Object} */
         this.config = ConfigManager.getConfig();
@@ -61,7 +62,6 @@ export class SelectionPanelManager {
      */
     updateSelectionPanel() {
         document.getElementById('selectedCount').textContent = this.selectedDatasets.size;
-        document.getElementById('selectionCount').textContent = this.listDatasets.size;
         
         const list = document.getElementById('selectionList');
         if (!list) return;
@@ -189,47 +189,25 @@ export class SelectionPanelManager {
                 this._listDatasetsChanged = false;
             }
             
-            const dsListContent = this._sortedPathsCache.join(' \\\n');
-            
             requestAnimationFrame(() => {
-                output.textContent = `python -m robotcoin.datasets.download --hub ${this.currentHub} --ds_lists \\\n${dsListContent}`;
+                output.textContent = ConfigManager.generateDownloadCommand(
+                    this.currentHub,
+                    this._sortedPathsCache
+                );
             });
         }, 100);
     }
     
-    /**
-     * Add selected datasets to list
-     */
-    addToList() {
-        this.selectedDatasets.forEach(path => {
-            this.listDatasets.add(path);
-        });
-        this.markListChanged();
-    }
-    
-    /**
-     * Delete selected datasets from list
-     */
-    deleteFromList() {
-        this.selectedDatasets.forEach(path => {
-            this.listDatasets.delete(path);
-        });
-        this.markListChanged();
-    }
-    
-    /**
-     * Clear all datasets from list
-     */
-    clearList() {
-        this.listDatasets.clear();
-        this.markListChanged();
-    }
     
     /**
      * Export selection as JSON file
      */
     exportSelection() {
-        const blob = new Blob([JSON.stringify(Array.from(this.listDatasets), null, 2)], { type: 'application/json' });
+        const pathsWithPrefix = Array.from(this.listDatasets).map(path => {
+            // 如果路径已经以 RoboCOIN/ 开头，则不重复添加
+            return path.startsWith('RoboCOIN/') ? path : `RoboCOIN/${path}`;
+        });
+        const blob = new Blob([JSON.stringify(pathsWithPrefix, null, 2)], { type: 'application/json' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
@@ -243,8 +221,9 @@ export class SelectionPanelManager {
      * Import selection from JSON file
      * @param {Event} event - File input change event
      * @param {Dataset[]} allDatasets - All available datasets
+     * @param {Function} onComplete - Callback function called after import completes
      */
-    handleImportFile(event, allDatasets) {
+    handleImportFile(event, allDatasets, onComplete) {
         const file = event.target.files[0];
         if (!file) return;
         
@@ -254,7 +233,8 @@ export class SelectionPanelManager {
                 const imported = JSON.parse(e.target.result);
                 
                 if (!Array.isArray(imported)) {
-                    alert('Invalid JSON format. Expected an array of dataset IDs.');
+                    ErrorNotifier.error('Invalid JSON format. Expected an array of dataset IDs.');
+                    event.target.value = '';
                     return;
                 }
                 
@@ -264,9 +244,15 @@ export class SelectionPanelManager {
                 let invalidCount = 0;
                 
                 imported.forEach(path => {
-                    const exists = allDatasets.some(ds => ds.path === path);
+                    // 去掉 RoboCOIN/ 前缀（如果存在）以兼容导入的文件
+                    let normalizedPath = path;
+                    if (typeof path === 'string' && path.startsWith('RoboCOIN/')) {
+                        normalizedPath = path.substring('RoboCOIN/'.length);
+                    }
+                    
+                    const exists = allDatasets.some(ds => ds.path === normalizedPath);
                     if (exists) {
-                        this.listDatasets.add(path);
+                        this.listDatasets.add(normalizedPath);
                         validCount++;
                     } else {
                         invalidCount++;
@@ -275,10 +261,18 @@ export class SelectionPanelManager {
                 
                 this.markListChanged();
                 
-                alert(`Import completed!\nValid: ${validCount}\nInvalid/Not found: ${invalidCount}`);
+                // 刷新购物车显示
+                this.updateSelectionPanel();
+                
+                // 调用回调函数（用于更新视频网格样式等）
+                if (onComplete && typeof onComplete === 'function') {
+                    onComplete();
+                }
+                
+                ErrorNotifier.info(`Import completed!\nValid: ${validCount}\nInvalid/Not found: ${invalidCount}`);
                 
             } catch (err) {
-                alert('Failed to parse JSON file: ' + err.message);
+                ErrorNotifier.error('Failed to parse JSON file: ' + err.message, err);
             }
             
             event.target.value = '';
@@ -309,7 +303,7 @@ export class SelectionPanelManager {
                 btn.classList.remove('success');
             }, 1500);
         }).catch(err => {
-            alert('Copy failed: ' + err.message);
+            ErrorNotifier.error('Copy failed: ' + err.message, err);
         });
     }
     

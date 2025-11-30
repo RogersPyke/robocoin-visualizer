@@ -31,31 +31,59 @@ export class DataManager {
      */
     async loadDatasets(loadingProgress, loadingBar) {
         try {
-            console.log('🚀 Loading consolidated dataset (optimized)...');
+            console.log('🚀 Attempting to load consolidated JSON (preferred)...');
             const startTime = performance.now();
-            
+
             // Update initial progress
             loadingProgress.textContent = 'Loading consolidated data...';
             loadingBar.style.width = '10%';
-            
-            // Load consolidated JSON file (single request instead of 2000!)
-            const res = await fetch(`${this.config.paths.info}/consolidated_datasets.json`);
-            
-            // Check if consolidated JSON exists
-            if (!res.ok) {
-                if (res.status === 404) {
-                    // Consolidated JSON not found, fallback to YAML mode
-                    console.warn('⚠️ Consolidated JSON not found. Falling back to YAML mode (slower).');
-                    loadingProgress.innerHTML = `
-                        <div style="color: #ff9800; font-weight: 600;">⚠️ Loading in YAML mode (slower)</div>
-                        <div style="font-size: 12px; margin-top: 4px;">Consolidated JSON not found. Loading from individual YAML files...</div>
-                    `;
-                    await this.loadDatasetsFromYAML(loadingProgress, loadingBar);
+
+            // PRIORITY: Always try consolidated JSON first (single request, much faster)
+            try {
+                console.log('📄 Fetching consolidated_datasets.json...');
+                const res = await fetch(`${this.config.paths.info}/consolidated_datasets.json`);
+
+                if (res.ok) {
+                    console.log('✅ Consolidated JSON found! Processing...');
+                    loadingBar.style.width = '50%';
+
+                    const allData = await res.json();
+                    loadingBar.style.width = '75%';
+
+                    const datasetCount = Object.keys(allData).length;
+                    console.log(`✓ Loaded ${datasetCount} datasets from consolidated JSON`);
+
+                    // Convert consolidated data to dataset objects
+                    this.datasets = Object.entries(allData).map(([path, raw]) => this.createDatasetObject(path, raw));
+
+                    // Update progress to 100%
+                    loadingProgress.textContent = `${this.datasets.length} datasets loaded`;
+                    loadingBar.style.width = '100%';
+
+                    const endTime = performance.now();
+                    const loadTime = (endTime - startTime).toFixed(2);
+
+                    console.log(`✓ Loaded ${this.datasets.length} datasets in ${loadTime}ms (${(loadTime / this.datasets.length).toFixed(2)}ms per dataset)`);
+                    console.log('🎉 Using optimized consolidated JSON!');
+
                     return this.datasets;
+                } else if (res.status === 404) {
+                    console.warn('⚠️ Consolidated JSON not found (404). This is expected in development.');
                 } else {
-                    throw new Error(`Failed to load consolidated data: ${res.status} ${res.statusText}`);
+                    console.warn(`⚠️ Consolidated JSON request failed (${res.status}). Will try YAML fallback.`);
                 }
+            } catch (jsonError) {
+                console.warn('⚠️ Failed to fetch consolidated JSON:', jsonError.message);
             }
+
+            // FALLBACK: Use YAML mode if JSON is not available
+            console.log('📁 Falling back to YAML mode...');
+            loadingProgress.innerHTML = `
+                <div style="color: #ff9800; font-weight: 600;">📁 Loading in YAML mode</div>
+                <div style="font-size: 12px; margin-top: 4px;">Consolidated JSON not available. Loading from individual YAML files...</div>
+            `;
+            await this.loadDatasetsFromYAML(loadingProgress, loadingBar);
+            return this.datasets;
             
             loadingBar.style.width = '50%';
             
@@ -93,28 +121,80 @@ export class DataManager {
      * @returns {Dataset} Dataset object
      */
     createDatasetObject(path, raw) {
+        // 优先使用 raw.raw 部分的数据（如果存在），否则使用顶层数据
+        // 这是因为很多数据集的顶层字段为空，但 raw 部分有正确数据
+        const rawData = raw.raw || {};
+        
         return {
             path: path,
-            name: raw.dataset_name || path,
+            name: path || raw.dataset_name,
             video_url: `${this.config.paths.videos}/${path}.mp4`,
+            // Thumbnails are provided directly from assets/thumbnails directory
+            // No automatic thumbnail generation - thumbnails must exist in assets/thumbnails/${path}.jpg
             thumbnail_url: `${this.config.paths.assetsRoot}/thumbnails/${path}.jpg`,
-            description: raw.task_descriptions || '',
-            scenes: raw.scene_type || [],
-            actions: raw.atomic_actions || [],
-            objects: (raw.objects || []).map(obj => ({
-                name: obj.object_name,
-                hierarchy: [
-                    obj.level1, 
-                    obj.level2, 
-                    obj.level3, 
-                    obj.level4, 
-                    obj.level5
-                ].filter(level => level !== null && level !== undefined),
-                raw: obj
-            })),
-            robot: raw.device_model,
-            endEffector: raw.end_effector_type,
-            platformHeight: raw.operation_platform_height,
+            // 使用新字段 tasks（从 meta/tasks.jsonl 读取的精确任务描述）
+            // 而非旧的 task_descriptions（YAML中可能包含错误）
+            description: raw.tasks || (rawData.task_descriptions && rawData.task_descriptions[0]) || '',
+            // 优先从 raw.raw 部分读取，因为顶层字段经常为空
+            scenes: raw.scene_type && raw.scene_type.length > 0 ? raw.scene_type : (rawData.scene_type || []),
+            actions: raw.atomic_actions && raw.atomic_actions.length > 0 ? raw.atomic_actions : (rawData.atomic_actions || []),
+            objects: (function() {
+                const topObjects = raw.objects || [];
+                const rawObjects = rawData.objects || [];
+                const objectsToUse = topObjects.length > 0 ? topObjects : rawObjects;
+                return objectsToUse.map(obj => ({
+                    name: obj.object_name,
+                    hierarchy: [
+                        obj.level1, 
+                        obj.level2, 
+                        obj.level3, 
+                        obj.level4, 
+                        obj.level5
+                    ].filter(level => level !== null && level !== undefined),
+                    raw: obj
+                }));
+            })(),
+            // 使用新字段 robot_type（从 meta/info.json 读取）
+            // 不使用旧的 device_model（YAML中的字段可能有错误）
+            robot: raw.robot_type,
+            endEffector: raw.end_effector_type || rawData.end_effector_type,
+            platformHeight: raw.operation_platform_height !== undefined ? raw.operation_platform_height : rawData.operation_platform_height,
+
+            // 数据集大小相关信息
+            frameRange: raw.frame_range || rawData.frame_range,
+            datasetSize: raw.dataset_size || rawData.dataset_size,
+            statistics: raw.statistics || rawData.statistics,
+
+            // Additional metadata
+            cameras: raw.cameras || rawData.cameras || [],
+            license: raw.license || rawData.license,
+            tags: raw.tags || rawData.tags || [],
+            robot_type: raw.robot_type || rawData.robot_type,
+
+            // 扩展的元数据字段（用于详情弹出窗口）
+            dataset_uuid: raw.dataset_uuid || rawData.dataset_uuid,
+            language: raw.language || rawData.language || [],
+            task_categories: raw.task_categories || rawData.task_categories || [],
+            sub_tasks: raw.sub_tasks || rawData.sub_tasks || [],
+            annotations: raw.annotations || rawData.annotations || {},
+            authors: raw.authors || rawData.authors || {},
+            homepage: raw.homepage || rawData.homepage,
+            paper: raw.paper || rawData.paper,
+            repository: raw.repository || rawData.repository,
+            issues_url: raw.issues_url || rawData.issues_url,
+            project_page: raw.project_page || rawData.project_page,
+            contact_email: raw.contact_email || rawData.contact_email,
+            contact_info: raw.contact_info || rawData.contact_info,
+            support_info: raw.support_info || rawData.support_info,
+            citation_bibtex: raw.citation_bibtex || rawData.citation_bibtex,
+            additional_citations: raw.additional_citations || rawData.additional_citations,
+            version_info: raw.version_info || rawData.version_info,
+            codebase_version: raw.codebase_version || rawData.codebase_version,
+            depth_enabled: raw.depth_enabled || rawData.depth_enabled,
+            data_schema: raw.data_schema || rawData.data_schema,
+            structure: raw.structure || rawData.structure,
+            tasks: raw.tasks || rawData.tasks,
+
             raw: raw,
             getAllScenes: function() { return this.scenes; },
             hasScene: function(sceneType) { return this.scenes.includes(sceneType); },

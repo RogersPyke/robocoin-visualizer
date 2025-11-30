@@ -1,142 +1,222 @@
-# RoboCOIN Dataset Visualizer-Downloader
+**English** | [中文](README.zh.md)
 
-## 项目概述
+# RoboCOIN DataManager
 
-RoboCOIN数据集可视化和下载工具，支持筛选、预览、选择和导出数据集。
+**Version: v1.1**
 
-## 项目结构
+Live Demo: https://flagopen.github.io/RoboCOIN-DataManager/
+
+## Project Overview
+
+RoboCOIN DataManager is a modern web-based dataset visualization and download tool for the RoboCOIN dataset. It provides an intuitive interface for browsing, filtering, previewing, selecting, and batch downloading datasets. The application supports multiple data sources (ModelScope and HuggingFace) and offers advanced filtering capabilities with hierarchical object selection.
+
+## Project Structure
 
 ```
-robocoin-html/
-├── docs/
-│   ├── assets/                 # 资源文件
-│   │   ├── dataset_info/       # 数据集元信息（98个YAML文件）
-│   │   ├── info/               # 索引文件
-│   │   │   ├── consolidated_datasets.json  # 合并的数据集信息
-│   │   │   └── data_index.json             # 数据集索引
-│   │   └── videos/             # 视频文件（98个MP4）
+DataManage/
+├── docs/                       # Main application directory
+│   ├── assets/                 # Resource files
+│   │   ├── dataset_info/       # Dataset metadata (YAML files)
+│   │   ├── info/               # Index files
+│   │   │   ├── consolidated_datasets.json  # Consolidated dataset information
+│   │   │   ├── data_index.json             # Dataset index
+│   │   │   └── robot_aliases.json          # Robot alias mappings
+│   │   ├── thumbnails/         # Thumbnail images (*.jpg)
+│   │   └── videos/             # Video files (*.mp4)
 │   │
-│   ├── css/                    # 样式文件（模块化）
-│   │   ├── variables.css       # CSS变量定义
-│   │   ├── base.css            # 基础样式
-│   │   ├── layout.css          # 布局样式
-│   │   ├── header.css          # 头部样式
-│   │   ├── filter.css          # 过滤器样式
-│   │   ├── video-grid.css      # 视频网格样式
-│   │   ├── selection-panel.css # 选择面板样式
-│   │   ├── modal.css           # 模态框样式
-│   │   ├── animations.css      # 动画定义
-│   │   ├── responsive.css      # 响应式样式
-│   │   └── style.css           # CSS入口
+│   ├── css/                    # Modular style files
+│   │   ├── core/               # Core styles
+│   │   │   ├── variables.css   # CSS variable definitions
+│   │   │   ├── base.css        # Base styles
+│   │   │   ├── layout.css      # Layout styles
+│   │   │   └── header.css      # Header styles
+│   │   ├── filter/             # Filter component styles
+│   │   │   ├── filter-control-bar.css
+│   │   │   ├── filter-dropdown.css
+│   │   │   ├── filter-options.css
+│   │   │   └── filter-tooltip.css
+│   │   ├── video/              # Video component styles
+│   │   │   ├── video-panel.css
+│   │   │   ├── video-card.css
+│   │   │   ├── video-thumbnail.css
+│   │   │   ├── video-info.css
+│   │   │   ├── video-hover-overlay.css
+│   │   │   └── video-toolbar.css
+│   │   ├── selection/          # Selection panel styles
+│   │   │   ├── selection-panel-base.css
+│   │   │   ├── selection-list.css
+│   │   │   ├── selection-item.css
+│   │   │   ├── selection-footer.css
+│   │   │   └── selection-hub-buttons.css
+│   │   ├── components/         # Shared component styles
+│   │   │   ├── modal.css
+│   │   │   └── toast.css
+│   │   ├── responsive/         # Responsive design styles
+│   │   │   ├── responsive-mobile.css
+│   │   │   ├── responsive-tablet.css
+│   │   │   ├── responsive-desktop.css
+│   │   │   └── responsive-print.css
+│   │   ├── animations/         # Animation definitions
+│   │   │   └── animations.css
+│   │   └── style.css           # CSS entry point (imports all styles)
 │   │
-│   ├── js/                     # JavaScript文件（模块化）
-│   │   ├── modules/            # 功能模块
-│   │   │   ├── config.js       # 配置管理
-│   │   │   ├── data-manager.js # 数据管理
-│   │   │   ├── filter-manager.js # 过滤器管理
-│   │   │   ├── video-grid.js   # 视频网格
-│   │   │   ├── selection-panel.js # 选择面板
-│   │   │   ├── ui-utils.js     # UI工具
-│   │   │   ├── event-handlers.js # 事件处理
-│   │   │   └── virtual-scroll.js # 虚拟滚动
-│   │   ├── app.js              # 主应用
-│   │   ├── main.js             # 入口文件
-│   │   ├── templates.js        # HTML模板
-│   │   └── types.js            # 类型定义
+│   ├── js/                     # Modular JavaScript files
+│   │   ├── modules/            # Feature modules
+│   │   │   ├── @filter/        # Filter module package
+│   │   │   │   ├── index.js
+│   │   │   │   ├── filter-manager.js
+│   │   │   │   ├── filter-state.js
+│   │   │   │   ├── filter-renderer.js
+│   │   │   │   ├── filter-hierarchy.js
+│   │   │   │   ├── filter-search.js
+│   │   │   │   └── data.js
+│   │   │   ├── config.js       # Configuration management
+│   │   │   ├── data-manager.js # Data loading and caching
+│   │   │   ├── video-grid.js   # Video grid rendering
+│   │   │   ├── selection-panel.js # Selection panel management
+│   │   │   ├── download-manager.js # Download command generation
+│   │   │   ├── robot-aliases.js # Robot alias management
+│   │   │   ├── ui-utils.js     # UI utilities
+│   │   │   ├── dom-utils.js    # DOM manipulation utilities
+│   │   │   ├── event-handlers.js # Event handling
+│   │   │   ├── virtual-scroll.js # Virtual scrolling
+│   │   │   ├── toast-manager.js # Toast notifications
+│   │   │   └── error-notifier.js # Error handling
+│   │   ├── app.js              # Main application coordinator
+│   │   ├── main.js             # Application entry point
+│   │   ├── templates.js        # HTML templates
+│   │   └── types.js            # JSDoc type definitions
 │   │
-│   ├── index.html              # 主页面
-│   ├── favicon.ico             # 网站图标
-│   ├── README.md               # 项目说明
-│   └── REFACTORING.md          # 重构文档
+│   ├── index.html              # Main page
+│   ├── favicon.ico             # Website icon
+│   ├── README.md               # Project documentation (English)
+│   └── README.zh.md            # Project documentation (Chinese)
 │
-└── README.md                   # 根目录说明
+└── README.md                   # Root directory documentation
 ```
 
-## 核心特性
+## Core Features
 
-### 1. 数据集筛选
-- 多维度筛选：场景、机器人、末端执行器、动作、操作对象
-- 层级式过滤器（支持对象层级结构）
-- 实时搜索功能
-- Filter Finder（筛选项搜索）
+### 1. Advanced Dataset Filtering
+- **Multi-dimensional filtering**: Filter by Scene, Robot, End-effector, Action, and Object
+- **Hierarchical filters**: Supports nested object hierarchy with intuitive navigation
+- **Real-time search**: Search datasets by name with instant results
+- **Filter Finder**: Quickly locate filter options using keyboard shortcuts (Ctrl+F)
+- **Dynamic filter counts**: See how many datasets match each filter option
+- **Filter reset**: One-click reset to clear all active filters
+- **Persistent filter state**: Filter selections persist during session
 
-### 2. 数据集预览
-- 视频自动播放
-- 悬浮信息层
-- 详情模态框
-- 缩略图预加载
+### 2. Rich Dataset Preview
+- **Video auto-play**: Videos automatically play on hover
+- **Hover information overlay**: View key dataset information without opening details
+- **Detail modal dialog**: Comprehensive dataset information in a modal view
+- **Thumbnail support**: Fast-loading thumbnail images for each dataset
+- **Video controls**: Play, pause, and seek controls for video previews
+- **Responsive preview**: Adapts to different screen sizes
 
-### 3. 选择和管理
-- 多选/单选
-- 购物车功能
-- 批量操作（添加/删除/清空）
-- 选择状态保持
+### 3. Selection and Batch Management
+- **Batch selection**: Select multiple datasets with visual feedback
+- **Shopping cart functionality**: Add selected datasets to download cart
+- **Batch operations**: Add all filtered items, remove selected items, or clear cart
+- **Selection panel**: Side panel showing all items in download cart
+- **Selection state persistence**: Cart state maintained during filtering
+- **Individual item management**: Remove items from cart individually
 
-### 4. 导出功能
-- JSON格式导出
-- Python下载命令生成
-- 支持ModelScope/HuggingFace源
-- 导入已保存的选择
+### 4. Export and Download Functionality
+- **JSON format export**: Export selection list as JSON file for backup/sharing
+- **JSON import**: Import previously saved selection lists
+- **Python download command**: Generate ready-to-use download commands
+- **Multi-source support**: Switch between ModelScope and HuggingFace hubs
+- **Download path configuration**: Instructions for custom download directories
+- **Clipboard integration**: One-click copy of download commands
 
-### 5. 性能优化
-- 虚拟滚动（支持大数据集）
-- 延迟加载视频
-- IntersectionObserver优化
-- 元素缓存复用
+### 5. Performance Optimization
+- **Virtual scrolling**: Efficiently handles large datasets (hundreds of items)
+- **Lazy loading videos**: Videos load only when visible in viewport
+- **IntersectionObserver API**: Optimized viewport detection
+- **Element caching and reuse**: Efficient DOM element management
+- **Progressive loading**: Datasets load in batches with progress indicator
+- **Debounced/throttled events**: Optimized scroll and resize handling
 
-## 快速开始
+### 6. User Experience Enhancements
+- **Loading overlay**: Progress indicator during initial dataset loading
+- **Toast notifications**: Non-intrusive feedback for user actions
+- **Responsive design**: Optimized for desktop, tablet, and mobile devices
+- **Error handling**: Graceful error messages with recovery suggestions
+- **Global banner**: Important announcements (dismissible on interaction)
+- **Robot alias support**: Human-readable robot names instead of technical IDs
 
-### 浏览器要求
+## Quick Start
+
+### Browser Requirements
 
 - Chrome/Edge 61+
 - Firefox 60+
 - Safari 11+
 - Opera 48+
 
-（支持ES6模块的现代浏览器）
+(Modern browsers supporting ES6 modules)
 
-## 使用指南
+## User Guide
 
-### 1. 筛选数据集
+### 1. Filter Datasets
 
-点击 **Filters** 按钮打开筛选器：
-- 选择场景类型
-- 选择机器人型号
-- 选择末端执行器
-- 选择动作类型
-- 选择操作对象（支持层级选择）
+Click the **"Filter datasets"** button to open the filter dropdown overlay:
+- Use the sidebar to navigate between filter categories (Scene, Robot, End-effector, Action, Object)
+- Click filter options to activate/deactivate filters
+- Use **Filter Finder** (Ctrl+F) to quickly search for specific filter options
+- Navigate through filter matches using arrow buttons (↑/↓) or keyboard
+- View dynamic counts showing how many datasets match each filter
+- Click **"Reset filters"** button to clear all active filters
+- Click **"Done"** or press Escape to close the filter panel
 
-### 2. 搜索数据集
+### 2. Search Datasets
 
-使用顶部搜索框按名称搜索数据集。
+- Use the search box in the filter control bar to search datasets by name
+- Search is case-insensitive and filters results in real-time
+- Click the clear button (×) in the search box to reset search
+- Search works in combination with active filters
 
-### 3. 选择数据集
+### 3. Select Datasets
 
-- 单击卡片选择/取消选择
-- 使用 **select all** / **deselect** 批量操作
-- 选中的卡片会高亮显示
+- **Select individual datasets**: Click on video cards to select/deselect them
+- **Batch selection**: Click **"Select all datasets"** to select all filtered items
+- **Clear selection**: Click **"Deselect all datasets"** to clear all selections
+- Selected cards are highlighted with a border and checkmark
+- View selection count in the filter control bar
 
-### 4. 管理购物车
+### 4. Manage Batch Download Cart
 
-- 点击 **🛒 add** 将选中项添加到购物车
-- 点击 **🗑️ remove** 从购物车删除选中项
-- 点击 **🔄 clear** 清空购物车
+- **Add to cart**: Selected datasets are shown in the right-side **"Batch Downloader"** panel
+- **View cart**: The selection panel displays all items in your download cart
+- **Remove items**: Click the remove button (×) on individual items in the cart
+- **Cart counter**: See total number of items in cart at the bottom of the panel
 
-### 5. 导出下载命令
+### 5. Export Download Commands
 
-1. 选择Hub源（ModelScope或HuggingFace）
-2. 点击 **📋 Copy & Checkout ⬇️** 复制命令
-3. 在终端执行命令下载数据集
+1. **Select Hub source**: Use the hub switcher button to toggle between **HuggingFace** and **ModelScope**
+2. **Review command**: The download command is automatically generated in the code output area
+3. **Copy command**: Click **"Copy & Checkout"** button to copy the command to clipboard
+4. **Execute**: Paste and run the command in your terminal to download datasets
+5. **Custom path**: Add `--target-dir YOUR_DOWNLOAD_DIR` to specify a custom download directory
 
-### 6. 导入/导出选择
+### 6. Import/Export Selections
 
-- 点击 **📤 export .json** 导出选择列表
-- 点击 **📋 import .json** 导入已保存的列表
+- **Export JSON**: Click **"Export JSON"** to save your current selection list as a JSON file
+- **Import JSON**: Click **"Import JSON"** to load a previously saved selection list
+- This allows you to save and share your dataset selections across sessions
 
-## 贡献
+### 7. View Dataset Details
 
-欢迎提交Issue和Pull Request！
+- **Hover preview**: Hover over a video card to see basic information overlay
+- **Video preview**: Videos automatically play on hover
+- **Detailed view**: Click on a video card or use toolbar buttons to open the detail modal
+- **Dataset information**: View complete metadata including scenes, actions, objects, robot models, etc.
 
-## 联系方式
+## Contributing
 
-如有任何问题，请及时联系 pykerogers@outlook.com
+Issues and Pull Requests are welcome!
+
+## Contact
+
+For any questions, please contact pykerogers@outlook.com

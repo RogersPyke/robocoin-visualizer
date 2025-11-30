@@ -1,0 +1,79 @@
+/**
+ * Base Styles
+ * Foundational styles including typography, resets, and scrollbars
+ */
+
+/* ==================== Fluid Typography ==================== */
+html {
+    /* Fluid font size: scales with viewport width for better readability */
+    font-size: clamp(14px, 0.875rem + 0.25vw, 18px);
+}
+
+/* ==================== High DPI Screen Optimization for Small Screens ==================== */
+/* Reduce UI density on high-resolution small displays (laptops) to prevent content from appearing too large */
+@media (-webkit-min-device-pixel-ratio: 2) and (max-width: 1599px),
+       (min-resolution: 192dpi) and (max-width: 1599px),
+       (min-resolution: 2dppx) and (max-width: 1599px) {
+    html {
+        /* Use 12px base font size on high DPI laptop screens for better density */
+        font-size: 12px;
+    }
+}
+
+/* ==================== Basic Resets ==================== */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: var(--font-family-sans);
+    background: var(--color-bg-body);
+    color: var(--color-text-primary);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==================== Global Scrollbar Styles ==================== */
+::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-bg-gray-dark);
+    border-radius: var(--border-radius-pill);
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-text-muted);
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+/* ==================== Selection & Focus ==================== */
+::selection {
+    background: rgba(59, 130, 246, 0.3);
+    color: inherit;
+}
+
+:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+}

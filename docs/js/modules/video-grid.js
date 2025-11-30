@@ -8,6 +8,8 @@
 import ConfigManager from './config.js';
 import Templates from '../templates.js';
 import { calculateVisibleRange, ElementCache } from './virtual-scroll.js';
+import RobotAliasManager from './robot-aliases.js';
+import DownloadManager from './download-manager.js';
 
 /**
  * Video Grid Manager Class
@@ -65,7 +67,8 @@ export class VideoGridManager {
         const container = grid.parentElement;
         if (!container) return;
         
-        // Calculate layout parameters
+        // 直接使用 grid 的实际宽度，因为卡片是相对于 grid 定位的
+        // 这样可以确保计算的宽度与实际的 grid 宽度一致
         const gridWidth = grid.clientWidth;
         
         // Get actual pixel values from computed styles
@@ -121,10 +124,16 @@ export class VideoGridManager {
         existingCards.forEach(card => {
             const path = card.dataset.path;
             if (!visiblePaths.has(path)) {
+                // 取消观察（观察的是 card，不是 video）
+                if (this.videoAutoPlayObserver && card.dataset.videoObserved) {
+                    this.videoAutoPlayObserver.unobserve(card);
+                }
+                // 停止视频播放并清理资源
                 const video = card.querySelector('video');
-                if (video && this.videoAutoPlayObserver) {
-                    this.videoAutoPlayObserver.unobserve(video);
-                    video.dataset.observed = '';
+                if (video) {
+                    video.pause();
+                    video.src = '';
+                    video.srcObject = null;
                 }
                 card.remove();
                 this._videoCardIndex.delete(path);
@@ -149,7 +158,9 @@ export class VideoGridManager {
             
             // Set absolute positioning and size
             card.style.position = 'absolute';
-            card.style.left = `${col * (cardWidth + gapPx)}px`;
+            // 确保最后一列的位置计算正确
+            const leftPosition = col * (cardWidth + gapPx);
+            card.style.left = `${leftPosition}px`;
             card.style.top = `${row * itemHeight}px`;
             card.style.width = 'var(--grid-card-width)';
             card.style.height = 'var(--grid-card-height)';
@@ -170,6 +181,9 @@ export class VideoGridManager {
         
         // Observe videos for auto-play
         this.observeVideos();
+
+        // Bind download button events
+        DownloadManager.bindDownloadButtons();
     }
     
     /**
@@ -184,9 +198,8 @@ export class VideoGridManager {
         if (this.selectedDatasets.has(ds.path)) card.classList.add('selected');
         
         card.innerHTML = Templates.buildVideoCard(
-            ds, 
-            this.formatMetaTags.bind(this), 
-            this.formatHoverOverlay.bind(this), 
+            ds,
+            this.formatMetaTags.bind(this),
             this.listDatasets
         );
         
@@ -206,17 +219,8 @@ export class VideoGridManager {
             card.classList.toggle('selected', shouldBeSelected);
         }
         
-        const shouldHaveBadge = this.listDatasets.has(ds.path);
-        const badge = card.querySelector('.video-success-badge');
-        
-        if (shouldHaveBadge && !badge) {
-            card.querySelector('.video-thumbnail').insertAdjacentHTML(
-                'beforeend', 
-                Templates.buildVideoSuccessBadge()
-            );
-        } else if (!shouldHaveBadge && badge) {
-            badge.remove();
-        }
+        const shouldBeInCart = this.listDatasets.has(ds.path);
+        card.classList.toggle('in-cart', shouldBeInCart);
     }
     
     /**
@@ -242,15 +246,7 @@ export class VideoGridManager {
             
             updates.forEach(({ card, path, shouldBeSelected, shouldHaveBadge }) => {
                 card.classList.toggle('selected', shouldBeSelected);
-                
-                const badge = card.querySelector('.video-success-badge');
-                const thumbnail = card.querySelector('.video-thumbnail');
-                
-                if (shouldHaveBadge && !badge) {
-                    thumbnail.insertAdjacentHTML('beforeend', Templates.buildVideoSuccessBadge());
-                } else if (!shouldHaveBadge && badge) {
-                    badge.remove();
-                }
+                card.classList.toggle('in-cart', shouldHaveBadge);
             });
             
             this.updateStylesScheduled = false;
@@ -303,6 +299,12 @@ export class VideoGridManager {
         const videoUrl = thumbnail.dataset.videoUrl;
         if (!videoUrl) return;
         
+        // 检查元素是否还在 DOM 中
+        if (!thumbnail.isConnected) {
+            delete thumbnail.dataset.videoLoading;
+            return;
+        }
+        
         let video = thumbnail.querySelector('video');
         
         if (!video) {
@@ -322,8 +324,13 @@ export class VideoGridManager {
             thumbnail.insertBefore(video, thumbnail.firstChild);
             
             video.addEventListener('loadeddata', () => {
-                const img = thumbnail.querySelector('.thumbnail-image');
+                // 检查元素是否还在 DOM 中
+                if (!thumbnail.isConnected || !video.isConnected) {
+                    delete thumbnail.dataset.videoLoading;
+                    return;
+                }
                 
+                const img = thumbnail.querySelector('.thumbnail-image');
                 video.style.opacity = '1';
                 if (img) img.style.opacity = '0';
                 
@@ -340,6 +347,11 @@ export class VideoGridManager {
             
             video.load();
         } else {
+            // 检查元素是否还在 DOM 中
+            if (!thumbnail.isConnected || !video.isConnected) {
+                return;
+            }
+            
             if (video.paused) {
                 video.style.opacity = '1';
                 const img = thumbnail.querySelector('.thumbnail-image');
@@ -357,33 +369,38 @@ export class VideoGridManager {
      */
     formatMetaTags(ds) {
         const tags = [];
-        
+
+        // Size information - show dataset size and key statistics
+        if (ds.datasetSize) {
+            tags.push(Templates.buildVideoTag(ds.datasetSize));
+        }
+
+        // Show key statistics if available
+        if (ds.statistics) {
+            const stats = ds.statistics;
+            if (stats.total_episodes && stats.total_frames) {
+                // Format episode count and total frames
+                const episodes = stats.total_episodes;
+                const frames = stats.total_frames;
+                const formattedFrames = frames >= 1000000 ? `${(frames / 1000000).toFixed(1)}M` : frames >= 1000 ? `${Math.floor(frames / 1000)}K` : frames.toString();
+                tags.push(Templates.buildVideoTag(`${episodes} ep, ${formattedFrames} fr`));
+            }
+        }
+
         if (ds.scenes && ds.scenes.length > 0) {
             const more = ds.scenes.length > 1 ? `+${ds.scenes.length - 1}` : '';
             tags.push(Templates.buildVideoTag(ds.scenes[0], more));
         }
-        
-        if (ds.robot) {
-            const robots = Array.isArray(ds.robot) ? ds.robot : [ds.robot];
-            const more = robots.length > 1 ? `+${robots.length - 1}` : '';
-            tags.push(Templates.buildVideoTag(robots[0], more));
-        }
-        
+
+        // Robot information moved to hover overlay since it's already shown in title
+
         if (ds.endEffector) {
             tags.push(Templates.buildVideoTag(ds.endEffector));
         }
-        
+
         return tags.join('');
     }
     
-    /**
-     * Format hover overlay
-     * @param {Dataset} ds - Dataset
-     * @returns {string} HTML string
-     */
-    formatHoverOverlay(ds) {
-        return Templates.buildHoverOverlay(ds);
-    }
 }
 
 export default VideoGridManager;

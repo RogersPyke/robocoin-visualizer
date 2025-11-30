@@ -7,11 +7,14 @@
 
 import ConfigManager from './modules/config.js';
 import dataManager from './modules/data-manager.js';
-import FilterManager from './modules/filter-manager.js';
+import FilterManager from './modules/@filter/index.js';
 import VideoGridManager from './modules/video-grid.js';
 import SelectionPanelManager from './modules/selection-panel.js';
 import UIUtils from './modules/ui-utils.js';
 import EventHandlers from './modules/event-handlers.js';
+import RobotAliasManager from './modules/robot-aliases.js';
+import ErrorNotifier from './modules/error-notifier.js';
+import DownloadManager from './modules/download-manager.js';
 
 /**
  * Main Application Class
@@ -55,6 +58,9 @@ class Application {
             // Initialize configuration
             this.config = ConfigManager.getConfig();
             
+            // Load robot alias map (non-blocking for core data, but awaited before UI init)
+            await RobotAliasManager.load(this.config);
+            
             // Load datasets
             const loadingProgress = document.getElementById('loadingProgress');
             const loadingBar = document.getElementById('loadingBar');
@@ -88,8 +94,7 @@ class Application {
             console.log('✓ Application initialized successfully');
             
         } catch (err) {
-            console.error('Initialization failed:', err);
-            alert('Failed to initialize application: ' + err.message);
+            ErrorNotifier.error('Failed to initialize application: ' + err.message, err);
             
             setTimeout(() => {
                 document.getElementById('loadingOverlay').classList.add('hidden');
@@ -102,7 +107,10 @@ class Application {
      */
     initializeManagers() {
         // Filter Manager
-        this.filterManager = new FilterManager(dataManager.getAllDatasets());
+        this.filterManager = new FilterManager(
+            dataManager.getAllDatasets(),
+            RobotAliasManager
+        );
         
         // Video Grid Manager
         this.videoGridManager = new VideoGridManager(
@@ -116,6 +124,9 @@ class Application {
             this.listDatasets,
             dataManager.datasetMap
         );
+
+        // Set initial hub for download manager
+        DownloadManager.setCurrentHub(this.selectionPanelManager.currentHub);
         
         // UI Utilities
         this.uiUtils = new UIUtils();
@@ -154,61 +165,36 @@ class Application {
     }
     
     /**
-     * Update filter counts in UI
+     * Update filter counts in UI (now uses static counts)
      * @param {Dataset[]} filteredDatasets - Filtered datasets
      */
     updateFilterCounts(filteredDatasets) {
         const counts = {};
-        
-        filteredDatasets.forEach(ds => {
-            // Count scenes
-            if (ds.scenes) {
-                ds.scenes.forEach(scene => {
-                    const countKey = `scene-${scene}`;
-                    counts[countKey] = (counts[countKey] || 0) + 1;
-                });
-            }
-            
-            // Count robots
-            if (ds.robot) {
-                const robots = Array.isArray(ds.robot) ? ds.robot : [ds.robot];
-                robots.forEach(robot => {
-                    const countKey = `robot-${robot}`;
-                    counts[countKey] = (counts[countKey] || 0) + 1;
-                });
-            }
-            
-            // Count end effectors
-            if (ds.endEffector) {
-                const countKey = `end-${ds.endEffector}`;
-                counts[countKey] = (counts[countKey] || 0) + 1;
-            }
-            
-            // Count actions
-            if (ds.actions) {
-                ds.actions.forEach(action => {
-                    const countKey = `action-${action}`;
-                    counts[countKey] = (counts[countKey] || 0) + 1;
-                });
-            }
-            
-            // Count objects (including hierarchy paths)
-            if (ds.objects) {
-                ds.objects.forEach(obj => {
-                    obj.hierarchy.forEach(level => {
-                        const fullPath = obj.hierarchy.slice(0, obj.hierarchy.indexOf(level) + 1).join('>');
-                        const countKey = `object-${fullPath}`;
-                        counts[countKey] = (counts[countKey] || 0) + 1;
-                    });
-                });
+
+        // Get static counts for all filter options
+        document.querySelectorAll('[data-count]').forEach(el => {
+            const countKey = el.dataset.count;
+            if (!countKey) return;
+
+            // Get the filter option element that contains this count element
+            const optionElement = el.closest('.filter-option');
+            if (!optionElement) return;
+
+            // Get filter key and value from the option element
+            const filterKey = optionElement.dataset.filter;
+            const filterValue = optionElement.dataset.value;
+
+            // Only process if this is a selectable filter option (has both filter and value)
+            if (filterKey && filterValue) {
+                counts[countKey] = this.filterManager.getStaticCount(filterKey, filterValue);
             }
         });
-        
-        // Set counts for "All" options
+
+        // Set counts for "All" options (these remain dynamic)
         ['scene', 'robot', 'end', 'action', 'object'].forEach(filterType => {
             counts[`${filterType}-__ALL__`] = filteredDatasets.length;
         });
-        
+
         // Update DOM
         document.querySelectorAll('[data-count]').forEach(el => {
             const key = el.dataset.count;
